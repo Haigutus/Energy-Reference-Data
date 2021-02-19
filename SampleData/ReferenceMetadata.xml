@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+  xmlns:prov="http://www.w3.org/ns/prov#" 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:eumd="http://entsoe.eu/ns/Metadata-European#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:base="http://www.metadata.eu/ns/europe"  >
+
+<!-- This could also have some header -->
+ 
+ 
+  <rdf:Description rdf:about="#A40">
+    <rdfs:label>01</rdfs:label>
+    <rdfs:comment xml:lang="en">Hour 01</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <prov:startTime>2012-03-31T09:00:00</prov:startTime>
+    <prov:endTime>2012-04-01T10:00:00</prov:endTime>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity" />
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="#EU-continent-syn">
+    <rdfs:label>EU-CONTINENT-SYN</rdfs:label>
+    <rdfs:comment xml:lang="en">Synchronous zone of continental Europe</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent" />
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity" />
+    <dct:identifier>urn:entsoe:eic:10YEU-CONT-SYNC0</dct:identifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#EliaTSO">
+    <rdfs:label>ELIA</rdfs:label>
+    <rdfs:comment xml:lang="en">Elia Transmission Belgium</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent" />
+    <prov:atLocation rdf:resource="http://www.elia.be" />
+    <prov:atLocation rdf:resource="http://entsoe.eu/ns/Metadata-European#EU-continent-syn" />
+    <dct:identifier>urn:uuid:07d471b4-2d16-473d-9b98-8cbc22a2f7cf</dct:identifier> 
+    <dct:identifier>urn:entsoe:eic:10X1001A1001A094</dct:identifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#EliaMASes">
+    <rdfs:label>ELIA</rdfs:label>
+    <rdfs:comment xml:lang="en">All MAS of Elia</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <prov:hadMember rdf:resource="http://www.elia.be/OperationalPlanning" />
+    <prov:hadMember rdf:resource="http://www.elia.be/TYNDP" />
+    <prov:wasAttributedTo rdf:resource="http://www.metadata.eu/ns/europe#EliaTSO" />
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Collection" />
+    <dct:identifier>urn:uuid:14df172a-1863-478b-8976-1d98a6309d43</dct:identifier> 
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://www.elia.be/OperationalPlanning">
+    <rdfs:comment xml:lang="en">The MAS of Elia used for Operational Planning process.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity" />
+    <dct:identifier>urn:uuid:6b304e90-3bd3-45b8-871c-a43032828c69</dct:identifier> 
+  </rdf:Description>
+  
+  
+  
+   <!--Define processes/business type -->
+  <rdf:Description rdf:about="http://www.metadata.eu/ns/europe#CGM">
+    <rdfs:comment xml:lang="en">This is the CGM business process.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <dcat:keyword>CGM</dcat:keyword> 
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity" />
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.metadata.eu/ns/europe#STA">
+    <rdfs:comment xml:lang="en">This is the STA business process.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <dcat:keyword>STA</dcat:keyword> 
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity" />
+  </rdf:Description>
+   
+    <!--Define "time horizon" activity-->
+  <rdf:Description rdf:about="http://www.metadata.eu/ns/europe#YearAhead">
+    <rdfs:comment xml:lang="en">This is time horizon Y-1.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <dcat:keyword>Y-1</dcat:keyword> 
+    <time:hasXSDDuration>P1Y</time:hasXSDDuration> <!-- Maybe that will be good to have here -->
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity" />
+    <time:hasDateTimeDescription rdf:resource="http://www.metadata.eu/ns/europe#LocalTimeDescription" /> <!-- This is to get the timezone / time now-->
+    <eumd:temporalReference rdf:resource="http://www.metadata.eu/ns/europe#TemporalReferenceKind.currentYear" />
+    <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily" />  <!-- Maybe this does not belong here as this is normally on the dataset. To be checked. this is using values from here: https://www.dublincore.org/specifications/dublin-core/collection-description/frequency/-->
+  </rdf:Description> 
+  
+  <rdf:Description rdf:about="http://www.metadata.eu/ns/europe#IntraDay">
+    <rdfs:comment xml:lang="en">This is time horizon ID.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <dcat:keyword>ID</dcat:keyword> 
+    <time:hasXSDDuration>PT8H</time:hasXSDDuration> <!-- Maybe that will be good to have here -->
+    <time:hasDateTimeDescription rdf:resource="http://www.metadata.eu/ns/europe#LocalTimeDescription" /> <!-- This is to get the timezone / time now-->
+    <eumd:temporalReference rdf:resource="http://www.metadata.eu/ns/europe#TemporalReferenceKind.currentDay" />
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity" />
+  </rdf:Description>
+   
+  <!--Define activity with time. There are at least two design concepts on how to approach this. 
+  1) the dataset is assigned/references a submission activity, i.e. the data shall be submitted within a time interval between the activity gate open and gate close. Then that activity refers to the activity related to the so called delivery tie or the scenatio time. The idea here is that one system is asked to deliver data to the other and the dataset that is the answer answers the request to submit.
+  2) the dataset references the activity that is defining the delivery time/scenario time and other related activities loke submission interval, etc are timed based on the end objective.
+  The 2nd approach is used in the example below.-->
+  <rdf:Description rdf:about="urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A33">
+    <rdfs:label>YearAheadIGM</rdfs:label>
+    <rdfs:comment xml:lang="en">This is an example of Year Ahead IGM business process related activity.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <dcat:keyword>YearAheadIGM</dcat:keyword> <!-- Not sure if we need it. Now put the same info as in label -->
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity" />
+    <dct:identifier>urn:uuid:21b19e69-cb1b-4de9-8c06-505ef2edeebb</dct:identifier> 
+    <prov:wasInfluencedBy rdf:resource="http://www.metadata.eu/ns/europe#CGM" /> <!-- This is to assign the YearAheadIGM activity to the CGM business process/type -->
+    <prov:wasInfluencedBy rdf:resource="http://www.metadata.eu/ns/europe#YearAhead" /> <!-- This is to assign the YearAheadIGM activity to the year adead time horizon -->
+    <time:after rdf:resource="http://www.metadata.eu/ns/europe#YearAheadIGMgateClose" /> <!-- The scenario time the delivery time is after the gate is closed -->
+    
+    
+    <time:hasXSDDuration>P1Y</time:hasXSDDuration> <!-- Note that ISO 8601 allows time interval or repeated interval notation like this R5/2008-03-01T13:00:00Z/P1Y2M10DT2H30M i.e. repeats 5 times from that start and with duration. However I didn't find a hint that xsd duration supports this -->
+    <time:hasDateTimeDescription rdf:resource="http://www.metadata.eu/ns/europe#LocalTimeDescription" /> <!-- This is to get the timezone / time now. However as this information is already in the "http://www.metadata.eu/ns/europe#YearAhead" we may not need it here so we are more modular-->
+    <eumd:temporalReference rdf:resource="http://www.metadata.eu/ns/europe#TemporalReferenceKind.currentYear" /> <!-- This indicates that we are looking at the current year which is then derived from the local time given by the time description where we have the localtime reference (time:timezone). We will also have currentWeek, currentDay, currentMonth in the TemporalReferenceKind. However as this information is already in the "http://www.metadata.eu/ns/europe#YearAhead" we may not need it here so we are more modular -->
+    
+        <time:after rdf:resource="http://www.metadata.eu/ns/europe#YearAheadIGMgateOpen" /> <!-- This is the gate open -->
+    <time:before rdf:resource="http://www.metadata.eu/ns/europe#YearAheadIGMgateClose" /> <!-- This is the gate close -->
+    
+  </rdf:Description>
+  
+  <!-- Prefered -->
+  
+  <rdf:Description rdf:about="http://www.metadata.eu/ns/europe#LocalTimeDescription">
+    <rdfs:comment xml:lang="en">The date time description for the year ahead.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <time:timeZone rdf:resource="https://www.timeanddate.com/worldclock/belgium" />
+    <time:hasTRS rdf:resource="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian" />
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription" /> 
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.metadata.eu/ns/europe#YearAheadIGMgateOpen">
+    <rdfs:comment xml:lang="en">The gate open time for the year ahead.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <time:hasXSDDuration>P8M</time:hasXSDDuration>
+    <eumd:temporalReference rdf:resource="http://www.metadata.eu/ns/europe#TemporalReferenceKind.currentYear" />
+    <time:hasDateTimeDescription rdf:resource="http://www.metadata.eu/ns/europe#LocalTimeDescription" />
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity" /> 
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.metadata.eu/ns/europe#YearAheadIGMgateClose">
+    <rdfs:comment xml:lang="en">The gate close time for the year ahead.</rdfs:comment> <!-- Here dct:description could be an alternative -->
+    <time:hasXSDDuration>P9M</time:hasXSDDuration>
+    <eumd:temporalReference rdf:resource="http://www.metadata.eu/ns/europe#TemporalReferenceKind.currentYear" />
+    <time:hasDateTimeDescription rdf:resource="http://www.metadata.eu/ns/europe#LocalTimeDescription" />
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity" /> 
+  </rdf:Description>
+  
+  <!-- references for the cron expressions 
+  - is this the official? https://docs.oracle.com/cd/E12058_01/doc/doc.1014/e12030/cron_expressions.htm
+  - cron maker: http://www.cronmaker.com/?2
+  example: 0 0 12 ? 1 3#3
+  the idea is to have a reference something like 
+  https://cron.com/0 0 12 ? 1 3#3
+  
+  -->
+  
+  
+  
+  
+  <!-- CGMES profiles as entities with their description and keyword -->
+  <rdf:Description rdf:about="http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0">
+    <dct:description xml:lang="en">CGMES SSH profile....</dct:description>
+    <dcat:keyword xml:lang="en">SSH</dcat:keyword>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity" />
+    <dct:identifier>urn:uuid:6b304e90-3bd3-45b8-871c-a43032828c69</dct:identifier> 
+  </rdf:Description>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--http://cron.com#30 10 * 1 3#3-->
+<!--
+[
+  {
+    "businessProcess": "YearAheadIGM_submission",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A33",
+    "businessType": "CGM",
+    "timeHorizon": "Y-1",
+	"timeReference": "currentYearStart",
+	"periodStart": "P1Y",
+    "periodDuration": "P1Y",
+    "gateOpen": "P8M",
+    "gateClose": "P9M",
+	"timeZone": "Europe/Brussels",
+	"timestamps":[
+					"30 10 * 1 3#3",
+					"30 3 * 1 7#2",
+					"30 10 * 4 3#3",
+					"30 3 * 4 7#2",
+					"30 10 * 7 3#3",
+					"30 3 * 7 7#2",
+					"30 10 * 10 3#3",
+					"30 3 * 10 7#2"
+				]
+  },
+  {
+    "businessProcess": "YearAheadCGM_creation",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A33",
+    "businessType": "CGM",
+    "timeHorizon": "Y-1",
+	"timeReference": "currentYearStart",
+	"periodStart": "P1Y",
+    "periodDuration": "P1Y",
+    "gateOpen": "P9M",
+    "gateClose": "P9M10D",
+	"timeZone": "Europe/Brussels",
+	"timestamps":[
+					"30 10 * 1 3#3",
+					"30 3 * 1 7#2",
+					"30 10 * 4 3#3",
+					"30 3 * 4 7#2",
+					"30 10 * 7 3#3",
+					"30 3 * 7 7#2",
+					"30 10 * 10 3#3",
+					"30 3 * 10 7#2"
+				]
+  },
+  {
+    "businessProcess": "WeekAheadSTA",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A33",
+    "businessType": "STA",
+    "timeHorizon": "W-1",
+	"timeReference": "currentDayStart",
+	"periodStart": "P1D",
+    "periodDuration": "P7D",
+    "gateOpen": "P2D",
+    "gateClose": "PT13H30M",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["0 * * * *"]
+  },
+  {
+    "businessProcess": "TwoDaysAheadIGM_submission",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A45",
+    "businessType": "CGM",
+    "timeHorizon": "D-2",
+	"timeReference": "currentDayStart",
+	"periodStart": "P2D",
+    "periodDuration": "P1D",
+    "gateOpen": "PT6H45M",
+    "gateClose": "PT5H",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 * * * *"]
+  },
+  {
+    "businessProcess": "TwoDayAheadCGM_creation",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A45",
+    "businessType": "CGM",
+    "timeHorizon": "D-2",
+	"timeReference": "currentDayStart",
+	"periodStart": "P2D",
+    "periodDuration": "P1D",
+    "gateOpen": "PT5H",
+    "gateClose": "PT4H",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 * * * *"]
+  },
+  {
+    "businessProcess": "DayAheadIGM_submission",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A01",
+    "businessType": "CGM",
+    "timeHorizon": "D-1",
+	"timeReference": "currentDayStart",
+	"periodStart": "P1D",
+    "periodDuration": "P1D",
+    "gateOpen": "PT7H30M",
+    "gateClose": "PT6H",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 * * * *"]
+  },
+  {
+    "businessProcess": "DayAheadCGM_creation",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A01",
+    "businessType": "CGM",
+    "timeHorizon": "D-1",
+	"timeReference": "currentDayStart",
+	"periodStart": "P1D",
+    "periodDuration": "P1D",
+    "gateOpen": "PT6H",
+    "gateClose": "PT5H",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 * * * *"]
+  },
+  {
+    "businessProcess": "DayAheadIGM_update",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A01",
+    "businessType": "CGM",
+    "timeHorizon": "D-1",
+	"timeReference": "currentDayStart",
+	"periodStart": "P1D",
+    "periodDuration": "P1D",
+    "gateOpen": "PT3H",
+    "gateClose": "PT2H",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 * * * *"]
+  },
+  {
+    "businessProcess": "DayAheadCGM_update",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A01",
+    "businessType": "CGM",
+    "timeHorizon": "D-1",
+	"timeReference": "currentDayStart",
+	"periodStart": "P1D",
+    "periodDuration": "P1D",
+    "gateOpen": "PT2H",
+    "gateClose": "PT1H",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 * * * *"]
+  },
+
+   {
+    "businessProcess": "IntraDayIGM_submission_1",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A19",
+    "businessType": "CGM",
+    "timeHorizon": "ID",
+	"timeReference": "currentDayStart",
+	"periodStart": "P1DT0H",
+    "periodDuration": "PT8H",
+    "gateOpen": "PT90M",
+    "gateClose": "PT60M",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 1-8 * * *"]
+  },
+  {
+    "businessProcess": "IntraDayCGM_creation_1",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A19",
+    "businessType": "CGM",
+    "timeHorizon": "ID",
+	"timeReference": "currentDayStart",
+	"periodStart": "P1DT0H",
+    "periodDuration": "PT8H",
+    "gateOpen": "PT60M",
+    "gateClose": "PT45M",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 1-8 * * *"]
+  },
+  {
+    "businessProcess": "IntraDayIGM_submission_2",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A19",
+    "businessType": "CGM",
+    "timeHorizon": "ID",
+	"timeReference": "currentDayStart",
+	"periodStart": "P0DT8H",
+    "periodDuration": "PT8H",
+    "gateOpen": "PT90M",
+    "gateClose": "PT60M",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 9-16 * * *"]
+  },
+  {
+    "businessProcess": "IntraDayCGM_creation_2",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A19",
+    "businessType": "CGM",
+    "timeHorizon": "ID",
+	"timeReference": "currentDayStart",
+	"periodStart": "P0DT8H",
+    "periodDuration": "PT8H",
+    "gateOpen": "PT60M",
+    "gateClose": "PT45M"
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 9-16 * * *"]
+  },
+  {
+    "businessProcess": "IntraDayIGM_submission_3",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A19",
+    "businessType": "CGM",
+    "timeHorizon": "ID",
+	"timeReference": "currentDayStart",
+	"periodStart": "P0DT16H",
+    "periodDuration": "PT8H",
+    "gateOpen": "PT90M",
+    "gateClose": "PT60M",
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 17-24 * * *"]
+  },
+  {
+    "businessProcess": "IntraDayCGM_creation_3",
+	"entsoeCode": "urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A19",
+    "businessType": "CGM",
+    "timeHorizon": "ID",
+	"timeReference": "currentDayStart",
+	"periodStart": "P0DT16H",
+    "periodDuration": "PT8H",
+    "gateOpen": "PT60M",
+    "gateClose": "PT45M"
+	"timeZone": "Europe/Brussels",
+	"timestamps":["30 17-24 * * *"]
+  }
+]
+-->
+
+  
+</rdf:RDF>
