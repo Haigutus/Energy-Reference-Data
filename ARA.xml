@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+  xmlns:cim="http://iec.ch/TC57/CIM100#" 
+  xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+  xmlns:dct="http://purl.org/dc/terms/#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:eumd="http://entsoe.eu/ns/Metadata-European#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:csa="http://entsoe.eu/ns/csa#"
+  xmlns:prov="http://www.w3.org/ns/prov#" >
+  
+  <md:FullModel rdf:about="urn:uuid:d2630bd5-9578-4fab-9647-13991c692d07">
+    <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-28T17:01:03Z</prov:generatedAtTime> 
+    
+    <!-- Validity period - time frame -->
+    <time:inXSDDateTimeStamp>2021-11-25T17:00:00Z</time:inXSDDateTimeStamp> 
+    <time:hasXSDDuration>P1Y</time:hasXSDDuration> 
+    
+    <dct:description>This is an example of available remedial action</dct:description> 
+    
+    <dct:conformsTo>http://entsoe.eu/ns/CIM/AvailableRemedialAction-EU/1.0</dct:conformsTo> 
+    <dct:conformsTo>http://entsoe.eu/ns/CIM/AvailableRemedialAction-EU/constraints/1.0</dct:conformsTo> <!--This is an example how to refer to SHACL constraints; maybe similar to OCL; also other machine readable artifacts -->
+    
+    <dcat:keyword>ARA</dcat:keyword>
+    
+    <dct:identifier>urn:uuid:d2630bd5-9578-4fab-9647-13991c692d07</dct:identifier> <!--This is an example for mRID of the header -->
+    
+    <prov:wasInfluencedBy rdf:resource="urn:uuid:f0063d01-1dac-46f0-91a4-2b7479991173" /> <!--This maps to md:Model.DependentOn -->
+    <prov:wasRevisionOf rdf:resource="urn:uuid:8341cd19-779b-4a84-bafb-06b8bb56f767" /> <!--This is an example of md:Model.Supersedes -->
+    
+    <!-- Reference to the modelling authority set which belongs to an Agent. -->
+    <prov:hadPrimarySource rdf:resource="http://www.elia.be/OperationalPlanning" />
+
+    <owl:versionInfo xml:lang ="en">1.0.0</owl:versionInfo> 
+
+    <!-- Reference to predefined activity in the reference data; -->
+    <prov:wasGeneratedBy rdf:resource="urn:entsoe.eu:wgedi:codelists:AllocationModeTypeList:A33"/> <!-- or resources like this http://www.metadata.eu/ns/europe#A40 .  -->
+    <prov:wasGeneratedBy rdf:resource="http://www.metadata.eu/ns/europe#TimeFrame.D1"/> <!-- or refering to urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A01-->
+    
+    
+    <!-- Reference to the region (modelling region) or location in general.  -->
+    <prov:atLocation rdf:resource="http://www.metadata.eu/ns/europe#RegionA"/>
+    
+    <!-- Properties to address security/confidentiality and general info-->
+    <dct:accessRights>http://publications.europa.eu/resource/authority/access-right/RESTRICTED</dct:accessRights> 
+    <dct:license>http://publications.europa.eu/resource/authority/licence/EUPL_1_2</dct:license> 
+  
+    <eumd:applicationSoftware>PowerFactory 2021 SP2</eumd:applicationSoftware>
+
+    
+  </md:FullModel>
+
+<!-- Here below is the content of the ARA (available remedial action) instance data --> 
+
+  
+  
+</rdf:RDF>
