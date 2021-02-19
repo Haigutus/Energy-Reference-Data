@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+  xmlns:cim="http://iec.ch/TC57/CIM100#" 
+  xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+  xmlns:eumd="http://entsoe.eu/ns/Metadata-European#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dct="http://purl.org/dc/terms/#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:prov="http://www.w3.org/ns/prov#" >
+  
+  <md:FullModel rdf:about="urn:uuid:2d922ca9-4b15-4ce0-84d0-4f1154f7301e">
+  <!--Properties of the current header  -->
+    <md:Model.created>2020-11-26T23:17:02Z</md:Model.created>
+    <md:Model.scenarioTime>2020-11-26T17:00:00Z</md:Model.scenarioTime>
+    <md:Model.description>This is an example</md:Model.description>
+    <md:Model.modelingAuthoritySet>http://www.elia.be/OperationalPlanning</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0</md:Model.profile>
+    <md:Model.version>001</md:Model.version>
+    <md:Model.DependentOn rdf:resource="urn:uuid:f0063d01-1dac-46f0-91a4-2b7479991173" />
+    <md:Model.Supersedes rdf:resource="urn:uuid:b04e35cd-6a95-4fa8-b4d3-58588690aaf5" />
+    
+    <!--Here is the new part. It also includes the information from the old header to enable transition -->
+    <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-26T23:17:02Z</prov:generatedAtTime> <!--This maps to md:Model.created -->
+    
+    <!-- Validity period - time frame -->
+    <time:inXSDDateTimeStamp>2020-11-26T17:00:00Z</time:inXSDDateTimeStamp> <!-- This is same as  md:Model.scenarioTime-->
+    <time:hasXSDDuration>PT1H</time:hasXSDDuration> <!-- This gives a duration of 1 hour-->
+    
+    <dct:description>This is an example</dct:description> <!--This maps to md:Model.description -->
+    
+    <dct:conformsTo>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0</dct:conformsTo> <!--This maps to md:Model.profile -->
+    <dct:conformsTo>urn:iso:std:iec:61970-600-2:ed-1</dct:conformsTo> <!--This is an example how to refer to a standard -->
+    <dct:conformsTo>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/constraints/IEC61970-456/3.0</dct:conformsTo> <!--This is an example how to refer to SHACL constraints; maybe similar to OCL; also other machine readable artifacts -->
+    <dct:conformsTo>urn:iso:ts:entsoe:QoCDC:ed-3.v2</dct:conformsTo> <!--This is an example how to refer to a document, e.g.QoCDC 3.2 see https://tools.ietf.org/html/rfc5141-->
+    
+    <dcat:keyword>SSH</dcat:keyword>
+    
+    <dct:identifier>urn:uuid:2d922ca9-4b15-4ce0-84d0-4f1154f7301e</dct:identifier> <!--This is an example for mRID of the header -->
+    
+    <prov:wasInfluencedBy rdf:resource="urn:uuid:f0063d01-1dac-46f0-91a4-2b7479991173" /> <!--This maps to md:Model.DependentOn -->
+    <prov:wasRevisionOf rdf:resource="urn:uuid:b04e35cd-6a95-4fa8-b4d3-58588690aaf5" /> <!--This is an example of md:Model.Supersedes -->
+    
+    <!-- Reference to the modelling authority set which belongs to an Agent. -->
+    <prov:hadPrimarySource rdf:resource="http://www.elia.be/OperationalPlanning" />
+
+    <owl:versionInfo xml:lang ="en">1.0.0</owl:versionInfo> 
+
+    <!-- Reference to predefined activity in the reference data; -->
+    <prov:wasGeneratedBy rdf:resource="urn:entsoe.eu:wgedi:codelists:AllocationModeTypeList:A33"/> <!-- or resources like this http://www.metadata.eu/ns/europe#A40 .  -->
+    <prov:wasGeneratedBy rdf:resource="http://www.metadata.eu/ns/europe#TimeFrame.D1"/> <!-- or refering to urn:entsoe.eu:wgedi:codelists:ProcessTypeList:A01-->
+    
+    
+    
+    <!-- Reference to the region (modelling region) or location in general.  -->
+    <prov:atLocation rdf:resource="http://www.metadata.eu/ns/europe#RegionA"/>
+    
+    <!-- Properties to address security/confidentiality and general info-->
+    <dct:accessRights>http://publications.europa.eu/resource/authority/access-right/RESTRICTED</dct:accessRights>
+    <dct:license>http://publications.europa.eu/resource/authority/licence/EUPL_1_2</dct:license> 
+    
+    <eumd:applicationSoftware>Neplan 2021</eumd:applicationSoftware>
+    
+    
+    <!-- Process type -->
+    <prov:wasGeneratedBy rdf:resource="urn:entsoe.eu:wgedi:codelists:BusinessTypeList#Value=A01"/>
+    <!-- Process run -->
+    <prov:wasGeneratedBy rdf:resource="http://entsoe.eu/ProcessRuns#DayAheadCGMUpdate"/>
+    <!-- Service provider -->
+    <prov:wasAttributedTo rdf:resource="urn:eic:38X-BALTIC-RSC-H"/>
+    <!-- Service provider role-. However it depends a bit on the reference data a role can be defined to an entity or agent wth respect to an activity in the context of usage, generations, etc. So prov:hadRole can be in ref data and here we have one prov:wasAttributedTo instead of 2. But in a way the remedial action optimisation or merging is an activity and it can be refered to as prov:wasGeneratedBy in ref data different activities will be assigned to the relevant agents -->
+    <prov:wasAttributedTo rdf:resource="http://entsoe.eu/Roles#MergingAgent"/>
+    
+  </md:FullModel>
+
+<!-- Here below is the content of the SSH instance data --> 
+  
+</rdf:RDF>
