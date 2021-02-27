@@ -1,0 +1,124 @@
+<usedSettings about="urn:uuid:9fe9b47b-468f-488a-bf35-0cf998b5ed2b">
+    <name>IGMConvergence</name>
+    <description>QoCDC IGMConvergance</description>
+    <algorithmKind>fullNewtonRaphson</algorithmKind>
+    <flatStart>True</flatStart>
+    <pTolerance>0,1</pTolerance>
+    <qTolerance>0,1</qTolerance>
+    <vTolerance>0,0001</vTolerance>
+    <voltageLimitAngle>10.0</voltageLimitAngle>
+    <impedanceThreshold>0,00001</impedanceThreshold>
+    <ircEnabeled>False</ircEnabeled>
+    <respectQlimits>True</respectQlimits>
+    <transformerRatioTapControlPriority>1.0</transformerRatioTapControlPriority>
+    <transformerPhaseTapControlPriority>1.0</transformerPhaseTapControlPriority>
+    <switchShuntControlPriority>2.0</switchShuntControlPriority>
+    <staticVarCompensatorControlPriority>2.0</staticVarCompensatorControlPriority>
+    <slackDistributionKind>generationDistributionOnSlack</slackDistributionKind>
+    <maxIterationNumber>20.0</maxIterationNumber>
+  </usedSettings>
+  <usedSettings about="urn:uuid:de151e04-23e1-4a1f-a238-ddc6b39e6929">
+    <name>CGMCreation1</name>
+    <description>QoCDC CGMConvergance</description>
+    <algorithmKind>fullNewtonRaphson</algorithmKind>
+    <flatStart>True</flatStart>
+    <pTolerance>0,1</pTolerance>
+    <qTolerance>0,1</qTolerance>
+    <vTolerance>0,0001</vTolerance>
+    <voltageLimitAngle>10.0</voltageLimitAngle>
+    <impedanceThreshold>0,00001</impedanceThreshold>
+    <ircEnabeled>False</ircEnabeled>
+    <respectQlimits>True</respectQlimits>
+    <transformerRatioTapControlPriority>1.0</transformerRatioTapControlPriority>
+    <transformerPhaseTapControlPriority>1.0</transformerPhaseTapControlPriority>
+    <switchShuntControlPriority>2.0</switchShuntControlPriority>
+    <staticVarCompensatorControlPriority>2.0</staticVarCompensatorControlPriority>
+    <slackDistributionKind>generationDistributionOnPV</slackDistributionKind>
+    <enableInterchangeControl>True</enableInterchangeControl>
+    <maxIterationNumber>30.0</maxIterationNumber>
+    <maxIterationNumberAIC>15.0</maxIterationNumberAIC>
+  </usedSettings>
+  <usedSettings about="urn:uuid:5e49e655-635a-41b0-8a77-1a4ffbd6ae8e">
+    <name>CGMCreation2</name>
+    <description>QoCDC CGMConverganceRelaxed = EMFReqSpec+VMA3</description>
+    <algorithmKind>fullNewtonRaphson</algorithmKind>
+    <flatStart>True</flatStart>
+    <pTolerance>0,5</pTolerance>
+    <qTolerance>0,5</qTolerance>
+    <vTolerance>0,0001</vTolerance>
+    <voltageLimitAngle>10.0</voltageLimitAngle>
+    <impedanceThreshold>0,00001</impedanceThreshold>
+    <ircEnabeled>False</ircEnabeled>
+    <respectQlimits>False</respectQlimits>
+    <transformerRatioTapControlPriority>0.0</transformerRatioTapControlPriority>
+    <transformerPhaseTapControlPriority>0.0</transformerPhaseTapControlPriority>
+    <switchShuntControlPriority>0.0</switchShuntControlPriority>
+    <staticVarCompensatorControlPriority>0.0</staticVarCompensatorControlPriority>
+    <slackDistributionKind>generationDistributionOnPV</slackDistributionKind>
+    <enableInterchangeControl>True</enableInterchangeControl>
+    <maxIterationNumber>30.0</maxIterationNumber>
+    <maxIterationNumberAIC>15.0</maxIterationNumberAIC>
+  </usedSettings>
+  <usedSettings about="urn:uuid:5e6301c7-8a67-4559-8e37-ae0d85d4b881">
+    <name>CGMCreation3</name>
+    <description>EMFReqSpec+VMA2</description>
+    <algorithmKind>fullNewtonRaphson</algorithmKind>
+    <flatStart>True</flatStart>
+    <pTolerance>0,5</pTolerance>
+    <qTolerance>0,5</qTolerance>
+    <vTolerance>0,0001</vTolerance>
+    <voltageLimitAngle>10.0</voltageLimitAngle>
+    <impedanceThreshold>0,00001</impedanceThreshold>
+    <ircEnabeled>False</ircEnabeled>
+    <respectQlimits>True</respectQlimits>
+    <transformerRatioTapControlPriority>0.0</transformerRatioTapControlPriority>
+    <transformerPhaseTapControlPriority>0.0</transformerPhaseTapControlPriority>
+    <switchShuntControlPriority>0.0</switchShuntControlPriority>
+    <staticVarCompensatorControlPriority>0.0</staticVarCompensatorControlPriority>
+    <slackDistributionKind>generationDistributionOnPV</slackDistributionKind>
+    <enableInterchangeControl>True</enableInterchangeControl>
+    <maxIterationNumber>30.0</maxIterationNumber>
+    <maxIterationNumberAIC>15.0</maxIterationNumberAIC>
+  </usedSettings>
+  <usedSettings about="urn:uuid:e3f9085a-286d-4f95-8972-cf140830ac95">
+    <name>CGMConvergence1</name>
+    <description>OPI assesment</description>
+    <algorithmKind>fullNewtonRaphson</algorithmKind>
+    <flatStart>True</flatStart>
+    <pTolerance>0,1</pTolerance>
+    <qTolerance>0,1</qTolerance>
+    <vTolerance>0,0001</vTolerance>
+    <voltageLimitAngle>100.0</voltageLimitAngle>
+    <impedanceThreshold>0,00001</impedanceThreshold>
+    <ircEnabeled>False</ircEnabeled>
+    <respectQlimits>True</respectQlimits>
+    <transformerRatioTapControlPriority>0.0</transformerRatioTapControlPriority>
+    <transformerPhaseTapControlPriority>0.0</transformerPhaseTapControlPriority>
+    <switchShuntControlPriority>0.0</switchShuntControlPriority>
+    <staticVarCompensatorControlPriority>0.0</staticVarCompensatorControlPriority>
+    <slackDistributionKind>generationDistributionOnPV</slackDistributionKind>
+    <enableInterchangeControl>True</enableInterchangeControl>
+    <shiftKind>glskShift</shiftKind>
+    <maxIterationNumber>30.0</maxIterationNumber>
+    <maxIterationNumberAIC>15.0</maxIterationNumberAIC>
+  </usedSettings>
+  <usedSettings about="urn:uuid:3c7a482d-42d8-4e78-92f6-78f9c99dffc9">
+    <name>CGMDCPowerFLow1</name>
+    <description>DCPowerFlow</description>
+    <algorithmKind>dcPowerFlow</algorithmKind>
+    <flatStart>True</flatStart>
+    <impedanceThreshold>0,00001</impedanceThreshold>
+    <slackDistributionKind>generatonOnReferenceMachine</slackDistributionKind>
+    <enableInterchangeControl>False</enableInterchangeControl>
+  </usedSettings>
+  <usedSettings about="urn:uuid:e0cf5646-0802-40b3-834a-8efe0f27d572">
+    <name>CGMDCPowerFLow2</name>
+    <description>DCPowerFlow with area interchange control</description>
+    <algorithmKind>dcPowerFlow</algorithmKind>
+    <flatStart>True</flatStart>
+    <impedanceThreshold>0,00001</impedanceThreshold>
+    <slackDistributionKind>generatonOnReferenceMachine</slackDistributionKind>
+    <enableInterchangeControl>False</enableInterchangeControl>
+    <shiftKind>glskShift</shiftKind>
+    <maxIterationNumberAIC>15.0</maxIterationNumberAIC>
+  </usedSettings>
