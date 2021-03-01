@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#IntraDayIGM_1">
+    <processType>CGM_Creation</processType>
+    <timeFrame>ID</timeFrame>
+    <gateOpen>PT90M</gateOpen>
+    <gateClose>PT60M</gateClose>
+    <timestamp>30 1-8 * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#IntraDayCGM_1">
+    <processType>CGM_Creation</processType>
+    <timeFrame>ID</timeFrame>
+    <gateOpen>PT60M</gateOpen>
+    <gateClose>PT45M</gateClose>
+    <timestamp>30 1-8 * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#IntraDayIGM_2">
+    <processType>CGM_Creation</processType>
+    <timeFrame>ID</timeFrame>
+    <gateOpen>PT90M</gateOpen>
+    <gateClose>PT60M</gateClose>
+    <timestamp>30 9-16 * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#IntraDayCGM_2">
+    <processType>CGM_Creation</processType>
+    <timeFrame>ID</timeFrame>
+    <gateOpen>PT60M</gateOpen>
+    <gateClose>PT45M</gateClose>
+    <timestamp>30 9-16 * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#IntraDayIGM_3">
+    <processType>CGM_Creation</processType>
+    <timeFrame>ID</timeFrame>
+    <gateOpen>PT90M</gateOpen>
+    <gateClose>PT60M</gateClose>
+    <timestamp>30 17-24 * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#IntraDayCGM_3">
+    <processType>CGM_Creation</processType>
+    <timeFrame>ID</timeFrame>
+    <gateOpen>PT60M</gateOpen>
+    <gateClose>PT45M</gateClose>
+    <timestamp>30 17-24 * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#DayAheadIGM">
+    <processType>CGM_Creation</processType>
+    <timeFrame>D-1</timeFrame>
+    <gateOpen>PT7H30M</gateOpen>
+    <gateClose>PT6H</gateClose>
+    <timestamp>30 * * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#DayAheadCGM">
+    <processType>CGM_Creation</processType>
+    <timeFrame>D-1</timeFrame>
+    <gateOpen>PT6H</gateOpen>
+    <gateClose>PT5H</gateClose>
+    <timestamp>30 * * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#DayAheadIGMUpdate">
+    <processType>CGM_Creation</processType>
+    <timeFrame>D-1</timeFrame>
+    <gateOpen>PT3H</gateOpen>
+    <gateClose>PT2H</gateClose>
+    <timestamp>30 * * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#DayAheadCGMUpdate">
+    <processType>CGM_Creation</processType>
+    <timeFrame>D-1</timeFrame>
+    <gateOpen>PT2H</gateOpen>
+    <gateClose>PT1H</gateClose>
+    <timestamp>30 * * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#TwoDaysAheadIGM">
+    <processType>CGM_Creation</processType>
+    <timeFrame>D-2</timeFrame>
+    <gateOpen>PT6H45M</gateOpen>
+    <gateClose>PT5H</gateClose>
+    <timestamp>30 * * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#TwoDaysAheadCGM">
+    <processType>CGM_Creation</processType>
+    <timeFrame>D-2</timeFrame>
+    <gateOpen>PT5H</gateOpen>
+    <gateClose>PT4H</gateClose>
+    <timestamp>30 * * * *</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#YearAheadIGM">
+    <processType>CGM_Creation</processType>
+    <timeFrame>Y-1</timeFrame>
+    <gateOpen>P4M</gateOpen>
+    <gateClose>P3M</gateClose>
+    <timestamp>30 10 * 1 3#3</timestamp>
+	<timestamp>30 3 * 1 7#2</timestamp>
+	<timestamp>30 10 * 4 3#3</timestamp>
+	<timestamp>30 3 * 4 7#2</timestamp>
+	<timestamp>30 10 * 7 3#3</timestamp>
+	<timestamp>30 3 * 7 7#2</timestamp>
+	<timestamp>30 10 * 10 3#3</timestamp>
+	<timestamp>30 3 * 10 7#2</timestamp>
+  </ProcessRun>
+  <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#YearAheadCGM">
+    <processType>CGM_Creation</processType>
+    <timeFrame>Y-1</timeFrame>
+    <gateOpen>P3M</gateOpen>
+    <gateClose>P2M21D</gateClose>
+	<timestamp>30 10 * 1 3#3</timestamp>
+	<timestamp>30 3 * 1 7#2</timestamp>
+	<timestamp>30 10 * 4 3#3</timestamp>
+	<timestamp>30 3 * 4 7#2</timestamp>
+	<timestamp>30 10 * 7 3#3</timestamp>
+	<timestamp>30 3 * 7 7#2</timestamp>
+	<timestamp>30 10 * 10 3#3</timestamp>
+	<timestamp>30 3 * 10 7#2</timestamp>
+  </ProcessRun>
+</rdf:RDF>
