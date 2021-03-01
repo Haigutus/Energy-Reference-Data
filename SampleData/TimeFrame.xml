@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <TimeFrame rdf:about="urn:entsoe.eu:timeframes#D-0">
+    <timeZone>Europe/Brussels</timeZone>
+    <referenceTime>currentDayStart</referenceTime>
+    <periodStart>P0D</periodStart>
+    <duration>P1D</duration>
+    <codelistCode>urn:entsoe.eu:wgedi:codelists:ProcessTypeList#Value=A19</codelistCode>
+  </TimeFrame>
+  <TimeFrame rdf:about="urn:entsoe.eu:timeframes#D-1">
+    <timeZone>Europe/Brussels</timeZone>
+    <referenceTime>currentDayStart</referenceTime>
+    <periodStart>P1D</periodStart>
+    <duration>P1D</duration>
+    <codelistCode>urn:entsoe.eu:wgedi:codelists:ProcessTypeList#Value=A01</codelistCode>
+  </TimeFrame>
+  <TimeFrame rdf:about="urn:entsoe.eu:timeframes#D-2">
+    <timeZone>Europe/Brussels</timeZone>
+    <referenceTime>currentDayStart</referenceTime>
+    <periodStart>P2D</periodStart>
+    <duration>P1D</duration>
+    <codelistCode>urn:entsoe.eu:wgedi:codelists:ProcessTypeList#Value=A45</codelistCode>
+  </TimeFrame>
+  <TimeFrame rdf:about="urn:entsoe.eu:timeframes#D-7">
+    <timeZone>Europe/Brussels</timeZone>
+    <referenceTime>currentDayStart</referenceTime>
+    <periodStart>P1D</periodStart>
+    <duration>P7D</duration>
+  </TimeFrame>
+  <TimeFrame rdf:about="urn:entsoe.eu:timeframes#W-1">
+    <timeZone>Europe/Brussels</timeZone>
+    <referenceTime>currentWeekStart</referenceTime>
+    <periodStart>P1W</periodStart>
+    <duration>P1W</duration>
+  </TimeFrame>
+  <TimeFrame rdf:about="urn:entsoe.eu:timeframes#M-1">
+    <timeZone>Europe/Brussels</timeZone>
+    <referenceTime>currentMonthStart</referenceTime>
+    <periodStart>P1M</periodStart>
+    <duration>P1M</duration>
+    <codelistCode>urn:entsoe.eu:wgedi:codelists:ProcessTypeList#Value=A33</codelistCode>
+  </TimeFrame>
+  <TimeFrame rdf:about="urn:entsoe.eu:timeframes#Y-1">
+    <timeZone>Europe/Brussels</timeZone>
+    <referenceTime>currentYearStart</referenceTime>
+    <periodStart>P1Y</periodStart>
+    <duration>P1Y</duration>
+    <codelistCode>urn:entsoe.eu:wgedi:codelists:ProcessTypeList#Value=A33</codelistCode>
+  </TimeFrame>
+</rdf:RDF>
