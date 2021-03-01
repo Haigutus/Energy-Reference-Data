@@ -90,26 +90,26 @@
     <gateOpen>P4M</gateOpen>
     <gateClose>P3M</gateClose>
     <timestamp>30 10 * 1 3#3</timestamp>
-	<timestamp>30 3 * 1 7#2</timestamp>
-	<timestamp>30 10 * 4 3#3</timestamp>
-	<timestamp>30 3 * 4 7#2</timestamp>
-	<timestamp>30 10 * 7 3#3</timestamp>
-	<timestamp>30 3 * 7 7#2</timestamp>
-	<timestamp>30 10 * 10 3#3</timestamp>
-	<timestamp>30 3 * 10 7#2</timestamp>
+	  <timestamp>30 3 * 1 7#2</timestamp>
+	  <timestamp>30 10 * 4 3#3</timestamp>
+	  <timestamp>30 3 * 4 7#2</timestamp>
+	  <timestamp>30 10 * 7 3#3</timestamp>
+	  <timestamp>30 3 * 7 7#2</timestamp>
+	  <timestamp>30 10 * 10 3#3</timestamp>
+	  <timestamp>30 3 * 10 7#2</timestamp>
   </ProcessRun>
   <ProcessRun rdf:about="urn:entsoe.eu:wgedi:ProcessRunList#YearAheadCGM">
     <processType>CGM_Creation</processType>
     <timeFrame>Y-1</timeFrame>
     <gateOpen>P3M</gateOpen>
     <gateClose>P2M21D</gateClose>
-	<timestamp>30 10 * 1 3#3</timestamp>
-	<timestamp>30 3 * 1 7#2</timestamp>
-	<timestamp>30 10 * 4 3#3</timestamp>
-	<timestamp>30 3 * 4 7#2</timestamp>
-	<timestamp>30 10 * 7 3#3</timestamp>
-	<timestamp>30 3 * 7 7#2</timestamp>
-	<timestamp>30 10 * 10 3#3</timestamp>
-	<timestamp>30 3 * 10 7#2</timestamp>
+    <timestamp>30 10 * 1 3#3</timestamp>
+    <timestamp>30 3 * 1 7#2</timestamp>
+    <timestamp>30 10 * 4 3#3</timestamp>
+    <timestamp>30 3 * 4 7#2</timestamp>
+    <timestamp>30 10 * 7 3#3</timestamp>
+    <timestamp>30 3 * 7 7#2</timestamp>
+    <timestamp>30 10 * 10 3#3</timestamp>
+    <timestamp>30 3 * 10 7#2</timestamp>
   </ProcessRun>
 </rdf:RDF>
