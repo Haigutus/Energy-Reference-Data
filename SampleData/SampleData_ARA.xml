@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+  xmlns:cim="http://iec.ch/TC57/CIM100#" 
+  xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+  xmlns:dct="http://purl.org/dc/terms/#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:eumd="http://entsoe.eu/ns/Metadata-European#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:csa="http://entsoe.eu/ns/csa#"
+  xmlns:prov="http://www.w3.org/ns/prov#">
+  
+  <!--Header -->
+  <md:FullModel rdf:about="urn:uuid:d2630bd5-9578-4fab-9647-13991c692d07"><!-- ID of the Full Model in RDF-->
+
+    <!-- ID of the Full Model in Data Model-->
+    <dct:identifier>urn:uuid:d2630bd5-9578-4fab-9647-13991c692d07</dct:identifier> <!--This is an example for mRID of the header -->
+
+    <!-- creation time of theDocumnent  -->
+    <prov:generatedAtTime>2021-01-28T17:01:03Z</prov:generatedAtTime>
+
+    <!-- Version of the Documnent -->
+    <md:version>1</md:version>
+    
+    <!-- Validity/scenario period / delivery day [Optional]-->
+    <time:inXSDDateTimeStamp>2021-11-25T17:00:00Z</time:inXSDDateTimeStamp> 
+    <time:hasXSDDuration>P1Y</time:hasXSDDuration> 
+    
+    <!-- Description -->
+    <dct:description>This is an example of available remedial action</dct:description> 
+    
+    <!-- Profile, Schema or Specification -->
+    <dct:conformsTo>http://entsoe.eu/ns/CIM/AvailableRemedialAction-EU/1.0</dct:conformsTo> 
+    <dct:conformsTo>http://entsoe.eu/ns/CIM/AvailableRemedialAction-EU/constraints/1.0</dct:conformsTo> <!--This is an example how to refer to SHACL constraints -->
+    
+    <!-- Message Type -->
+    <dcat:keyword>urn:entsoe.eu:MessageTypeList#ARA</dcat:keyword> 
+    
+    <!-- md:Model.DependentOn -->
+    <prov:wasInfluencedBy rdf:resource="urn:uuid:f0063d01-1dac-46f0-91a4-2b7479991173" /> 
+
+    <!-- md:Model.Supersedes [OPTIONAL] (ID of pervious version of the Model) -->
+    <prov:wasRevisionOf rdf:resource="urn:uuid:8341cd19-779b-4a84-bafb-06b8bb56f767" />
+    
+    <!-- Modeling Authority -->
+    <prov:wasAttributedTo rdf:resource="urn:eic:10X1001A1001A094"/>
+
+    <!-- Modeling Region -->
+    <prov:atLocation rdf:resource="urn:eic:10YBE----------2"/>
+
+    <!-- Business Process -->
+    <enmdt:businessProcess rdf:resource="urn:entsoe.eu:ProcessTypeList#CSA"/>
+
+    <!-- TimeFrame -->
+    <dct:accrualPeriodicity rdf:resource="urn:entsoe.eu:wgedi:TimeFrameList#Y-1"/>
+    
+    <!-- Modelling Authority of the originator of the model -->
+    <dct:creator>urn:eic:10X1001A1001A094</dct:creator> 
+
+    <!-- Confidentaliaty for Security Plan -->
+    <dct:accessRights>http://entsoe.eu/MVS/2016/Confidentialyt/OPDE_Secret</dct:accessRights> 
+
+  </md:FullModel>
+
+<!-- Here below is the content of the ARA (available remedial action) instance data --> 
+
+</rdf:RDF>
