@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+  xmlns:cim="http://iec.ch/TC57/CIM100#" 
+  xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+  xmlns:eumd="http://entsoe.eu/ns/Metadata-European#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dct="http://purl.org/dc/terms/#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:prov="http://www.w3.org/ns/prov#" >
+  
+  <md:FullModel rdf:about="urn:uuid:2d922ca9-4b15-4ce0-84d0-4f1154f7301e">
+
+      <!-- ID of the Full Model in the Document-->
+      <dct:identifier>urn:uuid:2d922ca9-4b15-4ce0-84d0-4f1154f7301e</dct:identifier>
+
+      <!-- Creation time of the Document  -->
+      <md:Model.created>2021-01-28T17:01:03Z</md:Model.created>
+      <prov:generatedAtTime>2021-01-28T17:01:03Z</prov:generatedAtTime>
+
+      <!-- Version of the Document -->
+      <md:Model.version>1</md:Model.version>
+
+      <!-- Scenario time / period / delivery day /-->
+      <md:Model.scenarioTime>2021-11-25T17:30:00Z</md:Model.scenarioTime>
+      <time:inXSDDateTimeStamp>2021-11-25T17:00:00Z</time:inXSDDateTimeStamp>
+      <time:hasXSDDuration>PT1H</time:hasXSDDuration>
+
+      <!-- Description -->
+      <md:Model.decsription>This is an example metadata of updated SSH by RSC</md:Model.decsription>
+      <dct:description>This is an example metadata of updated SSH by RSC</dct:description>
+
+      <!-- Profile, Schema or Specification -->
+      <md:Model.profile> http://entsoe.eu/CIM/SteadyStateHypothesis/1/1</md:Model.profile>
+      <dct:conformsTo> http://entsoe.eu/CIM/SteadyStateHypothesis/1/1</dct:conformsTo>
+
+      <!-- Message Type / Model Part -->
+      <dcat:keyword>urn:entsoe.eu:MessageTypeList#SSH</dcat:keyword>
+
+      <!-- md:Model.DependentOn -->
+      <md:Model.DependentOn rdf:resource="urn:uuid:f0063d01-1dac-46f0-91a4-2b7479991173" />
+      <prov:wasInfluencedBy rdf:resource="urn:uuid:f0063d01-1dac-46f0-91a4-2b7479991173" />
+
+      <!-- md:Model.Supersedes  -->
+      <md:Model.Supersedes rdf:resource="urn:uuid:8341cd19-779b-4a84-bafb-06b8bb56f767" />
+      <prov:wasRevisionOf rdf:resource="urn:uuid:8341cd19-779b-4a84-bafb-06b8bb56f767" />
+
+      <!-- Modeling Authority Set -->
+      <md:Model.modelingAuthoritySet>http://www.elering.ee/Operation</md:Model.modelingAuthoritySet>
+      <prov:hadPrimarySource>http://www.elering.ee/Operation</prov:hadPrimarySource>
+
+
+      <!-- Modeling Authority -->
+      <dct:creator rdf:resource="urn:eic:10X1001A1001A39W"/>
+
+      <!-- Modeling Region -->
+      <prov:atLocation rdf:resource="urn:eic:10Y1001A1001A39I"/>
+
+      <!-- Service Provider -->
+      <prov:wasAttributedTo rdf:resource="urn:eic:38X-BALTIC-RSC-H"/>
+
+      <!-- Service Region -->
+      <eumd:serviceLocation rdf:resource="urn:eic:10Y1001A1001A94A"/>
+
+      <!-- Process -->
+      <eumd:processType rdf:resource="urn:entsoe.eu:ProcessTypeList#CGM"/>
+
+      <!-- TimeFrame -->
+      <dct:accrualPeriodicity rdf:resource="urn:entsoe.eu:wgedi:TimeFrameList#1D"/>
+
+      <!-- Run -->
+      <prov:wasGeneratedBy rdf:resource="urn:entsoe.eu:wgedi:ProcessRunList#DayAheadCGMUpdate"/>
+
+      <!-- Confidentaliaty for Security Plan -->
+      <dct:accessRights>http://entsoe.eu/MVS/2016/Confidentialyt/OPDE_Secret</dct:accessRights>
+
+
+
+    
+  </md:FullModel>
+
+<!-- Here below is the content of the SSH instance data --> 
+  
+</rdf:RDF>
+
