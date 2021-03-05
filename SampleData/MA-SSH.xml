@@ -74,6 +74,9 @@
       <!-- Run -->
       <prov:wasGeneratedBy rdf:resource="urn:entsoe.eu:wgedi:ProcessRunList#DayAheadCGMUpdate"/>
 
+      <!-- Used Settings -->
+      <eumd:usedSettings rdf:resource="http://entsoe.eu/ProcessSettings#RelaxedLoadFlow"/>
+
       <!-- Confidentaliaty for Security Plan -->
       <dct:accessRights>http://entsoe.eu/MVS/2016/Confidentialyt/OPDE_Secret</dct:accessRights>
 
