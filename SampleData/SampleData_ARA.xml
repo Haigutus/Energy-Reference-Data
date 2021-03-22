@@ -19,7 +19,7 @@
     <!-- ID of the Full Model in Data Model-->
     <dct:identifier>urn:uuid:d2630bd5-9578-4fab-9647-13991c692d07</dct:identifier> <!--This is an example for mRID of the header -->
 
-    <!-- creation time of theDocumnent  -->
+    <!-- creation time of the Documnent  -->
     <prov:generatedAtTime>2021-01-28T17:01:03Z</prov:generatedAtTime>
 
     <!-- Version of the Documnent -->
@@ -37,7 +37,7 @@
     <dct:conformsTo>http://entsoe.eu/ns/CIM/AvailableRemedialAction-EU/constraints/1.0</dct:conformsTo> <!--This is an example how to refer to SHACL constraints -->
     
     <!-- Message Type -->
-    <dcat:keyword>urn:entsoe.eu:MessageTypeList#ARA</dcat:keyword> 
+    <dcat:keyword>PaneModel</dcat:keyword> 
     
     <!-- md:Model.DependentOn -->
     <prov:wasInfluencedBy rdf:resource="urn:uuid:f0063d01-1dac-46f0-91a4-2b7479991173" /> 
@@ -51,8 +51,8 @@
     <!-- Modeling Region -->
     <prov:atLocation rdf:resource="urn:eic:10YBE----------2"/>
 
-    <!-- Business Process -->
-    <enmdt:businessProcess rdf:resource="urn:entsoe.eu:ProcessTypeList#CSA"/>
+    <!-- Process Type -->
+    <eumd:processType rdf:resource="urn:entsoe.eu:ProcessTypeList#CSA"/>
 
     <!-- TimeFrame -->
     <dct:accrualPeriodicity rdf:resource="urn:entsoe.eu:wgedi:TimeFrameList#Y-1"/>
@@ -61,7 +61,7 @@
     <dct:creator>urn:eic:10X1001A1001A094</dct:creator> 
 
     <!-- Confidentaliaty for Security Plan -->
-    <dct:accessRights>http://entsoe.eu/MVS/2016/Confidentialyt/OPDE_Secret</dct:accessRights> 
+    <dct:accessRights rdf:resource="http://entsoe.eu/MVS/2016/Confidentialyt/OPDE_Secret"/>
 
   </md:FullModel>
 
