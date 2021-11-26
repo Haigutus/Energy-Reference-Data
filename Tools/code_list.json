@@ -1,0 +1,33 @@
+{
+  "Distribution": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "urn:uuid:"
+    },
+    "namespace": "http://www.w3.org/ns/dcat#"
+  },
+  "label": {
+      "namespace": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "CodeList": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "http://entsoe.eu/wgedi/codelists/"
+    },
+    "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Code": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "http://entsoe.eu/wgedi/codelists/"
+    },
+    "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Code.CodeList": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://entsoe.eu/wgedi/codelists/"
+    },
+    "namespace": "urn:entsoe.eu:wgedi:codelists"
+  }
+}
