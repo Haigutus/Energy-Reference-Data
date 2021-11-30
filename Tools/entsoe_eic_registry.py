@@ -62,8 +62,8 @@ def get_metadata_from_xml(xml, include_namespace=False, include_root=False):
     return properties_dict
 
 
-def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin/user_upload/edi/library/eic/allocated-eic-codes.xml"):
-
+def get_allocated_eic_triplet(
+        allocated_eic_url="https://www.entsoe.eu/fileadmin/user_upload/edi/library/eic/allocated-eic-codes.xml"):
     allocated_eic = requests.get(allocated_eic_url)
 
     xml_tree = etree.fromstring(allocated_eic.content)
@@ -91,7 +91,7 @@ def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin
         ID = EIC[0].text
 
         elements = [{"element": EIC}]
-        #eic_data_list.append((ID, "Type", EIC.tag.split('}')[1]))
+        # eic_data_list.append((ID, "Type", EIC.tag.split('}')[1]))
         eic_data_list.extend([
             (ID, "Type", "Concept"),
             (ID, "inScheme", ConceptScheme_ID),
@@ -139,9 +139,8 @@ data = rename_and_append_key(data, "EICCode_MarketDocument.description", "altLab
 
 # Add functions
 for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Function_Names.name'").groupby("VALUE"):
-
     # Clean name for ID use
-    group_id = group_name.replace(" ", "")
+    group_id = f"Fuction#{group_name.title().replace(' ', '')}"
 
     data = data.append([
         {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
@@ -151,12 +150,45 @@ for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Functio
     # Transform data
     group_data["VALUE"] = group_data["ID"]
     group_data["ID"] = group_id
-    group_data["KEY"] = "member" #skos:member
+    group_data["KEY"] = "member"  # skos:member
 
     data = data.append(group_data, ignore_index=True)
 
-# TODO - Add types, by creating column with 3-rd letter of EIC and then group by, as above
+# TODO - Add EIC object types, by creating column with 3-rd letter of EIC and then group by, as above
 
+object_type_names = {
+    'X': {'name': 'Party', 'description': r''},
+    'Y': {'name': 'Area', 'description': r''},
+    'Z': {'name': 'Measurement point', 'description': r''},
+    'W': {'name': 'Resource object', 'description': r''},
+    'T': {'name': 'Tie-line', 'description': r''},
+    'V': {'name': 'Location', 'description': r''},
+    'A': {'name': 'Substations', 'description': r''}}
+
+object_types = pandas.DataFrame(data.query("KEY == 'Type' and VALUE == 'Concept'"))
+object_types["EIC_Type"] = object_types.ID.str[2:3]  # 3. letter defines EIC type
+
+for group_code, group_data in object_types.groupby("EIC_Type"):
+    # Clean name for ID use
+    group_name = object_type_names[str(group_code)]['name']
+    group_id = f"ObjectType#{group_name.title().replace(' ', '')}"
+
+    data = data.append([
+        {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
+        {"ID": group_id, "KEY": "label", "VALUE": group_name}
+    ], ignore_index=True)
+
+    # Transform data
+    group_data["VALUE"] = group_data["ID"]
+    group_data["ID"] = group_id
+    group_data["KEY"] = "member"  # skos:member
+
+    data = data.append(group_data[["ID", "KEY", "VALUE"]], ignore_index=True)
+
+
+
+# Start Export
+# Add graph ID (expected by export function as multiple graphs could be included)
 data["INSTANCE_ID"] = str(uuid.uuid4())
 
 export_format = "eic.json"
