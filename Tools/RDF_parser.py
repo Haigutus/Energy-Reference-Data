@@ -511,7 +511,7 @@ def export_to_excel(data, path=None, file_name=None):
     """Exports to excel all data with same INSTACE_ID and if label element exists for it. Each Type is put to a sheet"""
     # TODO set some nice properties - https://xlsxwriter.readthedocs.io/workbook.html#workbook-set-properties
 
-    labels = data.query("KEY == 'label'").iterrows()
+    labels = data.merge(data.query("KEY == 'Type' and VALUE == 'Distribution'").ID).query("KEY == 'label'").iterrows()
     # TODO dont use iterrows
     # TODO instead of label use Distribution
     for _, label in labels:
@@ -558,13 +558,15 @@ def export_to_cimxml(data, rdf_map=None, namespace_map={"rdf": "http://www.w3.or
                      export_undefined=True,
                      export_type="xml_per_instance_zip_per_xml",
                      global_zip_filename="Export.zip",
+                     filename_class="Distribution",
+                     filename_tag="label",
                      debug=False):
     if debug:
         start_time = datetime.datetime.now()
         init_time = start_time
 
     # File names are kept under rdfs:lable
-    labels = data.query("KEY == 'label'").itertuples()
+    labels = data.merge(data.query(f"KEY == '{class_KEY}' and VALUE == '{filename_class}'").ID).query(f"KEY == '{filename_tag}'").itertuples()
 
     # Keep all file names and data to be exported
     export_files = []

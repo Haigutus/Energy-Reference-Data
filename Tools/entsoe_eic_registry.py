@@ -74,6 +74,15 @@ def get_allocated_eic_triplet():
         (ID, "label", "allocated-eic.rdf")
     ]
 
+
+    ConceptScheme_ID = "EIC"
+
+    eic_data_list.extend([
+        (ConceptScheme_ID, "Type", "ConceptScheme"),
+        (ConceptScheme_ID, "label", "EIC"),
+        (ConceptScheme_ID, "prefLabel", "Energy Identification Codding Scheme")
+    ])
+
     for key, value in get_metadata_from_xml(xml_tree).items():
         eic_data_list.append((ID, key, value))
 
@@ -83,7 +92,12 @@ def get_allocated_eic_triplet():
         ID = EIC[0].text
 
         elements = [{"element": EIC}]
-        eic_data_list.append((ID, "Type", EIC.tag.split('}')[1]))
+        #eic_data_list.append((ID, "Type", EIC.tag.split('}')[1]))
+        eic_data_list.extend([
+            (ID, "Type", "Concept"),
+            (ID, "inScheme", ConceptScheme_ID),
+            (ID, "topConceptOf", ConceptScheme_ID)
+        ])
 
         for element in elements:
 
@@ -109,6 +123,21 @@ def get_allocated_eic_triplet():
 
 
 data = get_allocated_eic_triplet()
+
+# Add description
+
+
+def append_and_rename_key(data, original_key, new_key):
+    description = pandas.DataFrame(data.query(f"KEY == '{original_key}'"))
+    description["KEY"] = new_key
+    data = data.append(description, ignore_index=True)
+    return data
+
+data = append_and_rename_key(data, "EICCode_MarketDocument.long_Names.name", "definition")
+data = append_and_rename_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "start.use")
+data = append_and_rename_key(data, "EICCode_MarketDocument.display_Names.name", "prefLabel")
+data = append_and_rename_key(data, "EICCode_MarketDocument.description", "altLabel")
+
 data["INSTANCE_ID"] = str(uuid.uuid4())
 
 export_format = "eic.json"
@@ -116,11 +145,13 @@ with open(export_format, "r") as conf_file:
     rdf_map = json.load(conf_file)
 
 namespace_map = {
-    "cim":"http://iec.ch/TC57/2013/CIM-schema-cim16#",
-    "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
-    "dcat":"http://www.w3.org/ns/dcat#",
-    None:"urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
+    "cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "at": "http://publications.europa.eu/ontology/authority/",
+    None: "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
 }
 
 # Export triplet to CGMES

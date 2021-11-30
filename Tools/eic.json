@@ -9,15 +9,51 @@
   "label": {
       "namespace": "http://www.w3.org/2000/01/rdf-schema#"
   },
-  "EICCode_MarketDocument": {
-    "name": "",
+  "Concept": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
-      "value_prefix": "urn:eic:"
+      "value_prefix": "http://data.europa.eu/energy/EIC/"
     },
-    "namespace": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
+    "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
-  "label": {
-      "namespace": "http://www.w3.org/2000/01/rdf-schema#"
+  "ConceptScheme": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+    "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "inScheme": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "topConceptOf": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "prefLabel": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "altLabel": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "definition": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "start.use": {
+      "namespace": "http://publications.europa.eu/ontology/authority/"
+  },
+  "EICCode_MarketDocument.eICResponsible_MarketParticipant.mRID": {
+   "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
   }
 }
