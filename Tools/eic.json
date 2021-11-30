@@ -37,6 +37,20 @@
     },
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
+  "Collection": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "http://data.europa.eu/energy/EIC/Functions#"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "member": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/EIC/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
   "prefLabel": {
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
@@ -49,11 +63,18 @@
   "start.use": {
       "namespace": "http://publications.europa.eu/ontology/authority/"
   },
-  "EICCode_MarketDocument.eICResponsible_MarketParticipant.mRID": {
-   "attrib": {
+  "EICCode_MarketDocument.eICParent_MarketDocument.mRID": {
+    "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://data.europa.eu/energy/"
+      "value_prefix": "http://data.europa.eu/energy/EIC/"
     },
-      "namespace": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
+    "namespace": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
+  },
+  "EICCode_MarketDocument.eICResponsible_MarketParticipant.mRID": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/EIC/"
+    },
+    "namespace": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
   }
 }

@@ -108,7 +108,7 @@ namespace_map = {
     "dcat": "http://www.w3.org/ns/dcat#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "ecl": "urn:entsoe.eu:wgedi:codelists",
-    "xsd": "http://www.w3.org/2001/XMLSchema"
+    "xs": "http://www.w3.org/2001/XMLSchema"
 }
 
 # Export triplet to CGMES

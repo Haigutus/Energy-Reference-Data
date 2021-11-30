@@ -553,13 +553,18 @@ def export_to_excel(data, path=None, file_name=None):
 pandas.DataFrame.export_to_excel = export_to_excel
 
 
-def export_to_cimxml(data, rdf_map=None, namespace_map={"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"},
+def export_to_cimxml(data,
+                     rdf_map=None,
+                     namespace_map={"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"},
                      class_KEY="Type",
                      export_undefined=True,
                      export_type="xml_per_instance_zip_per_xml",
                      global_zip_filename="Export.zip",
                      filename_class="Distribution",
                      filename_tag="label",
+                     default_id_attribute="{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+                     default_id_prefix="urn:uuid:",
+                     default_namespace=None,
                      debug=False):
     if debug:
         start_time = datetime.datetime.now()
@@ -624,9 +629,9 @@ def export_to_cimxml(data, rdf_map=None, namespace_map={"rdf": "http://www.w3.or
                 print("WARNING - Definition missing for class: {} with {}: ".format(class_name, ID))
 
                 if export_undefined:
-                    class_namespace = None
-                    id_name = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about"
-                    id_value_prefix = "urn:uuid:"
+                    class_namespace = default_namespace
+                    id_name = default_id_attribute
+                    id_value_prefix = default_id_prefix
                 else:
                     print("INFO - Not Exported")
                     continue
@@ -675,11 +680,10 @@ def export_to_cimxml(data, rdf_map=None, namespace_map={"rdf": "http://www.w3.or
                         print("Definition missing for tag: " + KEY)
 
                         if export_undefined:
-                            tag = E(KEY)
+                            tag = E(QName(default_namespace, KEY))
                             tag.text = str(VALUE)
 
                             _object.append(tag)
-
 
                 else:
                     print("Attribute VALUE is None, thus not exported: ID: {} KEY: {}".format(ID, KEY))

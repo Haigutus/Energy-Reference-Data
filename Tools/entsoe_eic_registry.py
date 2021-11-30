@@ -20,7 +20,7 @@ pandas.set_option('display.max_columns', 20)
 pandas.set_option('display.width', 1000)
 
 
-def get_metadata_from_xml(xml, include_namespace=True):
+def get_metadata_from_xml(xml, include_namespace=False, include_root=False):
     """Extract all metadata present in XML root element
     Input -> xml as byte string
     Output -> dictionary with metadata"""
@@ -38,7 +38,8 @@ def get_metadata_from_xml(xml, include_namespace=True):
         root, = root_element
         namespace = ""
 
-    properties_dict["root"] = root
+    if include_root:
+        properties_dict["root"] = root
 
     if include_namespace:
         properties_dict["namespace"] = namespace[1:]
@@ -61,9 +62,8 @@ def get_metadata_from_xml(xml, include_namespace=True):
     return properties_dict
 
 
+def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin/user_upload/edi/library/eic/allocated-eic-codes.xml"):
 
-def get_allocated_eic_triplet():
-    allocated_eic_url = "https://www.entsoe.eu/fileadmin/user_upload/edi/library/eic/allocated-eic-codes.xml"
     allocated_eic = requests.get(allocated_eic_url)
 
     xml_tree = etree.fromstring(allocated_eic.content)
@@ -73,7 +73,6 @@ def get_allocated_eic_triplet():
         (ID, "Type", "Distribution"),
         (ID, "label", "allocated-eic.rdf")
     ]
-
 
     ConceptScheme_ID = "EIC"
 
@@ -122,21 +121,41 @@ def get_allocated_eic_triplet():
     return pandas.DataFrame(eic_data_list, columns=["ID", "KEY", "VALUE"])
 
 
-data = get_allocated_eic_triplet()
-
-# Add description
-
-
-def append_and_rename_key(data, original_key, new_key):
+def rename_and_append_key(data, original_key, new_key):
     description = pandas.DataFrame(data.query(f"KEY == '{original_key}'"))
     description["KEY"] = new_key
     data = data.append(description, ignore_index=True)
     return data
 
-data = append_and_rename_key(data, "EICCode_MarketDocument.long_Names.name", "definition")
-data = append_and_rename_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "start.use")
-data = append_and_rename_key(data, "EICCode_MarketDocument.display_Names.name", "prefLabel")
-data = append_and_rename_key(data, "EICCode_MarketDocument.description", "altLabel")
+
+# Get published EIC
+data = get_allocated_eic_triplet()
+
+# Bring some original values under new keys to data
+data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "definition")
+data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "start.use")
+data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "prefLabel")
+data = rename_and_append_key(data, "EICCode_MarketDocument.description", "altLabel")
+
+# Add functions
+for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Function_Names.name'").groupby("VALUE"):
+
+    # Clean name for ID use
+    group_id = group_name.replace(" ", "")
+
+    data = data.append([
+        {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
+        {"ID": group_id, "KEY": "label", "VALUE": group_name}
+    ], ignore_index=True)
+
+    # Transform data
+    group_data["VALUE"] = group_data["ID"]
+    group_data["ID"] = group_id
+    group_data["KEY"] = "member" #skos:member
+
+    data = data.append(group_data, ignore_index=True)
+
+# TODO - Add types, by creating column with 3-rd letter of EIC and then group by, as above
 
 data["INSTANCE_ID"] = str(uuid.uuid4())
 
@@ -151,11 +170,13 @@ namespace_map = {
     "dcat": "http://www.w3.org/ns/dcat#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "at": "http://publications.europa.eu/ontology/authority/",
-    None: "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
+    "eic": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
 }
 
 # Export triplet to CGMES
 data.export_to_cimxml(rdf_map=rdf_map,
                       namespace_map=namespace_map,
+                      default_namespace="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0",
                       export_undefined=True,
-                      export_type="xml_per_instance")
+                      export_type="xml_per_instance"
+                      )
