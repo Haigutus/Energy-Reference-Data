@@ -64,7 +64,29 @@
   "altLabel": {
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
-  "definition": {
-      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  "Version": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Title": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Titre": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Release": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "ReleaseDate": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Definition": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "enumeration": {
+    "attrib": {
+      "attribute": "value",
+      "value_prefix": ""
+    },
+      "namespace": "http://www.w3.org/2001/XMLSchema"
   }
 }

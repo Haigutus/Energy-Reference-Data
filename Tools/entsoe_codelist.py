@@ -81,7 +81,7 @@ for code in codes:
             (ID, "Type", "Concept"),
             (ID, "inScheme", ConceptScheme_ID),
             (ID, "topConceptOf", ConceptScheme_ID),
-            (ID, "enumeration.value", code_value)
+            (ID, "enumeration", code_value)
         ]
     )
 
@@ -102,12 +102,13 @@ with open(export_format, "r") as conf_file:
     rdf_map = json.load(conf_file)
 
 namespace_map = {
-    "cim":"http://iec.ch/TC57/2013/CIM-schema-cim16#",
-    "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
-    "dcat":"http://www.w3.org/ns/dcat#",
+    "cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    None:"urn:entsoe.eu:wgedi:codelists"
+    "ecl": "urn:entsoe.eu:wgedi:codelists",
+    "xsd": "http://www.w3.org/2001/XMLSchema"
 }
 
 # Export triplet to CGMES
