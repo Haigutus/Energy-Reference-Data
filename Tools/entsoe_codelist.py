@@ -22,11 +22,23 @@ xml_tree = etree.parse("urn-entsoe-eu-wgedi-codelists.xsd")
 
 nsmap = xml_tree.getroot().nsmap
 
+# Add distribution
 ID = str(uuid.uuid4())
 eic_data_list = [
     (ID, "Type", "Distribution"),
     (ID, "label", "entsoe-codelist.rdf")
 ]
+
+# Add ConceptScheme
+
+ConceptScheme_ID = "codelist"
+
+eic_data_list.extend([
+    (ConceptScheme_ID, "Type", "ConceptScheme"),
+    (ConceptScheme_ID, "label", "codelist"),
+    (ConceptScheme_ID, "prefLabel", "Energy Codelist")
+    ]
+)
 
 # Add documentation
 for element in xml_tree.find("//{*}documentation").getchildren():
@@ -35,23 +47,23 @@ for element in xml_tree.find("//{*}documentation").getchildren():
 # Add all code lists
 code_lists = xml_tree.iter("{*}simpleType")
 
-for code_list in code_lists:
-
-    code_list_documentation = code_list.find("{*}annotation/{*}documentation")
-
-    if code_list_documentation is not None:
-        #ID = str(uuid.uuid4())
-        #ID = code_list_documentation.find("Uid")
-        ID = code_list.attrib["name"]
-        eic_data_list.extend(
-            [
-                (ID, "Type", "CodeList"),
-                (ID, "name", code_list.attrib["name"])
-            ]
-        )
-
-        for element in code_list_documentation.getchildren():
-            eic_data_list.append((ID, element.tag, element.text))
+# for code_list in code_lists:
+#
+#     code_list_documentation = code_list.find("{*}annotation/{*}documentation")
+#
+#     if code_list_documentation is not None:
+#         #ID = str(uuid.uuid4())
+#         #ID = code_list_documentation.find("Uid")
+#         ID = code_list.attrib["name"]
+#         eic_data_list.extend(
+#             [
+#                 (ID, "Type", "CodeList"),
+#                 (ID, "name", code_list.attrib["name"])
+#             ]
+#         )
+#
+#         for element in code_list_documentation.getchildren():
+#             eic_data_list.append((ID, element.tag, element.text))
 
 # Add all codes
 codes = xml_tree.findall("//{*}enumeration")
@@ -64,9 +76,12 @@ for code in codes:
 
     eic_data_list.extend(
         [
-            (ID, "Type", "Code"),
-            (ID, "Code.CodeList", code_list_id),
-            (ID, "code", code_value)
+            #(ID, "Type", "Code"),
+            #(ID, "Code.CodeList", code_list_id),
+            (ID, "Type", "Concept"),
+            (ID, "inScheme", ConceptScheme_ID),
+            (ID, "topConceptOf", ConceptScheme_ID),
+            (ID, "enumeration.value", code_value)
         ]
     )
 
@@ -76,7 +91,7 @@ for code in codes:
         for element in code_description.getchildren():
             eic_data_list.append((ID, element.tag, element.text))
 
-
+# Convert to dataframe
 data = pandas.DataFrame(eic_data_list, columns=["ID", "KEY", "VALUE"])
 
 
@@ -91,6 +106,7 @@ namespace_map = {
     "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
     "dcat":"http://www.w3.org/ns/dcat#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
     None:"urn:entsoe.eu:wgedi:codelists"
 }
 

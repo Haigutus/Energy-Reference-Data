@@ -29,5 +29,42 @@
       "value_prefix": "http://entsoe.eu/wgedi/codelists/"
     },
     "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Concept": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "http://data.europa.eu/energy/codelist/"
+    },
+    "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "ConceptScheme": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+    "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "inScheme": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "topConceptOf": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "prefLabel": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "altLabel": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "definition": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
   }
 }
