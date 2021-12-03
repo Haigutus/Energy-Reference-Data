@@ -58,6 +58,20 @@
     },
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
+  "broader": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/codelist/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "narrower": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/codelist/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
   "prefLabel": {
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
@@ -82,11 +96,10 @@
   "Definition": {
       "namespace": "urn:entsoe.eu:wgedi:codelists"
   },
+  "Uid": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
   "enumeration": {
-    "attrib": {
-      "attribute": "value",
-      "value_prefix": ""
-    },
       "namespace": "http://www.w3.org/2001/XMLSchema"
   }
 }

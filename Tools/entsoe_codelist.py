@@ -47,32 +47,36 @@ for element in xml_tree.find("//{*}documentation").getchildren():
 # Add all code lists
 code_lists = xml_tree.iter("{*}simpleType")
 
-# for code_list in code_lists:
-#
-#     code_list_documentation = code_list.find("{*}annotation/{*}documentation")
-#
-#     if code_list_documentation is not None:
-#         #ID = str(uuid.uuid4())
-#         #ID = code_list_documentation.find("Uid")
-#         ID = code_list.attrib["name"]
-#         eic_data_list.extend(
-#             [
-#                 (ID, "Type", "CodeList"),
-#                 (ID, "name", code_list.attrib["name"])
-#             ]
-#         )
-#
-#         for element in code_list_documentation.getchildren():
-#             eic_data_list.append((ID, element.tag, element.text))
+for code_list in code_lists:
+
+    code_list_documentation = code_list.find("{*}annotation/{*}documentation")
+
+    if code_list_documentation is not None:
+        #ID = str(uuid.uuid4())
+        #ID = code_list_documentation.find("Uid")
+        ID = code_list.attrib["name"]
+        eic_data_list.extend(
+            [
+                #(ID, "Type", "CodeList"),
+                #(ID, "name", code_list.attrib["name"]),
+                (ID, "Type", "Concept"),
+                (ID, "inScheme", ConceptScheme_ID),
+                (ID, "topConceptOf", ConceptScheme_ID),
+                #(ID, "enumeration", code_value)
+            ]
+        )
+
+        for element in code_list_documentation.getchildren():
+            eic_data_list.append((ID, element.tag, element.text))
 
 # Add all codes
 codes = xml_tree.findall("//{*}enumeration")
 
 for code in codes:
 
-    code_list_id = code.find("../..").attrib["name"]
+    CodeList_ID = code.find("../..").attrib["name"]
     code_value = code.attrib["value"]
-    ID = f"{code_list_id}#{code_value}"
+    ID = f"{CodeList_ID}#{code_value}"
 
     eic_data_list.extend(
         [
@@ -80,7 +84,9 @@ for code in codes:
             #(ID, "Code.CodeList", code_list_id),
             (ID, "Type", "Concept"),
             (ID, "inScheme", ConceptScheme_ID),
-            (ID, "topConceptOf", ConceptScheme_ID),
+            #(ID, "topConceptOf", ConceptScheme_ID),
+            (CodeList_ID, "narrower", ID),
+            (ID, "broader", CodeList_ID),
             (ID, "enumeration", code_value)
         ]
     )
