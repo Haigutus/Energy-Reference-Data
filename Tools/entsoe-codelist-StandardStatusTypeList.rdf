@@ -1,0 +1,669 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <dcat:Distribution rdf:about="urn:uuid:b8bb68fa-51df-4855-b1cd-e327b62a2c25">
+    <rdfs:label>entsoe-codelist-StandardStatusTypeList.rdf</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
+    <ecl:Version>80</ecl:Version>
+    <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
+    <ecl:Release>0</ecl:Release>
+    <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
+  </dcat:Distribution>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardStatusTypeList">
+    <rdfs:label>StandardStatusTypeList</rdfs:label>
+    <skos:prefLabel>StandardStatusTypeList</skos:prefLabel>
+    <dc:identifier>ET0025</dc:identifier>
+    <skos:definition>The condition or position of an object with regard to its standing.</skos:definition>
+    <ecl:Uid>ET0025</ecl:Uid>
+    <ecl:Definition>The condition or position of an object with regard to its standing.</ecl:Definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A01</xs:enumeration>
+    <dc:identifier>A01</dc:identifier>
+    <rdfs:label>Intermediate</rdfs:label>
+    <skos:prefLabel>Intermediate</skos:prefLabel>
+    <skos:definition>The document is in a non finalized state.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A02</xs:enumeration>
+    <dc:identifier>A02</dc:identifier>
+    <rdfs:label>Final</rdfs:label>
+    <skos:prefLabel>Final</skos:prefLabel>
+    <skos:definition>The document is in a definitive state.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A03">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A03</xs:enumeration>
+    <dc:identifier>A03</dc:identifier>
+    <rdfs:label>Deactivated</rdfs:label>
+    <skos:prefLabel>Deactivated</skos:prefLabel>
+    <skos:definition>The object being reported has been deactivated.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A04">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A04</xs:enumeration>
+    <dc:identifier>A04</dc:identifier>
+    <rdfs:label>Reactivated</rdfs:label>
+    <skos:prefLabel>Reactivated</skos:prefLabel>
+    <skos:definition>The object being reported has been reactivated.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A05">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A05</xs:enumeration>
+    <dc:identifier>A05</dc:identifier>
+    <rdfs:label>Active</rdfs:label>
+    <skos:prefLabel>Active</skos:prefLabel>
+    <skos:definition>The object being reported is currently active.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A06">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A06</xs:enumeration>
+    <dc:identifier>A06</dc:identifier>
+    <rdfs:label>Available</rdfs:label>
+    <skos:prefLabel>Available</skos:prefLabel>
+    <skos:definition>The volumes (one or more) are available.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A07">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A07</xs:enumeration>
+    <dc:identifier>A07</dc:identifier>
+    <rdfs:label>Activated</rdfs:label>
+    <skos:prefLabel>Activated</skos:prefLabel>
+    <skos:definition>The quantities in the time series have been activated.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A08">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A08</xs:enumeration>
+    <dc:identifier>A08</dc:identifier>
+    <rdfs:label>In process</rdfs:label>
+    <skos:prefLabel>In process</skos:prefLabel>
+    <skos:definition>The quantities in the time series are in the process of activation (an activation request has been made).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A09">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A09</xs:enumeration>
+    <dc:identifier>A09</dc:identifier>
+    <rdfs:label>Cancelled</rdfs:label>
+    <skos:prefLabel>Cancelled</skos:prefLabel>
+    <skos:definition>The tender indicated in the time series has been completely cancelled.
+In this case the resources are no longer available to all Acquiring System Operators</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A10">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A10</xs:enumeration>
+    <dc:identifier>A10</dc:identifier>
+    <rdfs:label>Ordered</rdfs:label>
+    <skos:prefLabel>Ordered</skos:prefLabel>
+    <skos:definition>The quantities in the time series are to be activated.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A11">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A11</xs:enumeration>
+    <dc:identifier>A11</dc:identifier>
+    <rdfs:label>Unavailable</rdfs:label>
+    <skos:prefLabel>Unavailable</skos:prefLabel>
+    <skos:definition>The volumes (one or more) are unavailable.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A12">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A12</xs:enumeration>
+    <dc:identifier>A12</dc:identifier>
+    <rdfs:label>RGCE agreed</rdfs:label>
+    <skos:prefLabel>RGCE agreed</skos:prefLabel>
+    <skos:definition>The information has been agreed within the ENTSO-E Regional Group Continental Europe process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A13">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A13</xs:enumeration>
+    <dc:identifier>A13</dc:identifier>
+    <rdfs:label>Withdrawn</rdfs:label>
+    <skos:prefLabel>Withdrawn</skos:prefLabel>
+    <skos:definition>The information has been withdrawn by the submitter.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A14">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A14</xs:enumeration>
+    <dc:identifier>A14</dc:identifier>
+    <rdfs:label>Creation</rdfs:label>
+    <skos:prefLabel>Creation</skos:prefLabel>
+    <skos:definition>The action requested to be carried out is the creation of a new object.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A15">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A15</xs:enumeration>
+    <dc:identifier>A15</dc:identifier>
+    <rdfs:label>Update</rdfs:label>
+    <skos:prefLabel>Update</skos:prefLabel>
+    <skos:definition>The action requested to be carried out is the update an existing object.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A16">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A16</xs:enumeration>
+    <dc:identifier>A16</dc:identifier>
+    <rdfs:label>Deactivation</rdfs:label>
+    <skos:prefLabel>Deactivation</skos:prefLabel>
+    <skos:definition>The action requested to be carried out is to deactivate an existing object.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A17">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A17</xs:enumeration>
+    <dc:identifier>A17</dc:identifier>
+    <rdfs:label>Reactivation</rdfs:label>
+    <skos:prefLabel>Reactivation</skos:prefLabel>
+    <skos:definition>The action requested to be carried out is to reactivate a previously deactivated object.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A18">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A18</xs:enumeration>
+    <dc:identifier>A18</dc:identifier>
+    <rdfs:label>Preventive</rdfs:label>
+    <skos:prefLabel>Preventive</skos:prefLabel>
+    <skos:definition>The remedial action is applied to prevent an outage.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A19">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A19</xs:enumeration>
+    <dc:identifier>A19</dc:identifier>
+    <rdfs:label>Curative</rdfs:label>
+    <skos:prefLabel>Curative</skos:prefLabel>
+    <skos:definition>The remedial action is applied after an outage has occurred, in order to maintain the operational security.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A20">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A20</xs:enumeration>
+    <dc:identifier>A20</dc:identifier>
+    <rdfs:label>Automatic</rdfs:label>
+    <skos:prefLabel>Automatic</skos:prefLabel>
+    <skos:definition>The remedial action being described is applied by an automation when an outage occurs.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A21">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A21</xs:enumeration>
+    <dc:identifier>A21</dc:identifier>
+    <rdfs:label>Open</rdfs:label>
+    <skos:prefLabel>Open</skos:prefLabel>
+    <skos:definition>The action being described consists of disconnecting the network element  to the transmission network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A22">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A22</xs:enumeration>
+    <dc:identifier>A22</dc:identifier>
+    <rdfs:label>Close</rdfs:label>
+    <skos:prefLabel>Close</skos:prefLabel>
+    <skos:definition>The action being described consists of connecting the network element  to the transmission network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A23">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A23</xs:enumeration>
+    <dc:identifier>A23</dc:identifier>
+    <rdfs:label>Stop</rdfs:label>
+    <skos:prefLabel>Stop</skos:prefLabel>
+    <skos:definition>The action being described consists of stopping the production or consumption connected to a network element.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A24">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A24</xs:enumeration>
+    <dc:identifier>A24</dc:identifier>
+    <rdfs:label>Start</rdfs:label>
+    <skos:prefLabel>Start</skos:prefLabel>
+    <skos:definition>The action being described consists of starting the production or consumption connected to a network element.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A25">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A25</xs:enumeration>
+    <dc:identifier>A25</dc:identifier>
+    <rdfs:label>Relative</rdfs:label>
+    <skos:prefLabel>Relative</skos:prefLabel>
+    <skos:definition>The quantity being described is a relative value to an initial state.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A26">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A26</xs:enumeration>
+    <dc:identifier>A26</dc:identifier>
+    <rdfs:label>Absolute</rdfs:label>
+    <skos:prefLabel>Absolute</skos:prefLabel>
+    <skos:definition>The quantity being described is an absolute value.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A27">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A27</xs:enumeration>
+    <dc:identifier>A27</dc:identifier>
+    <rdfs:label>Curative or preventive</rdfs:label>
+    <skos:prefLabel>Curative or preventive</skos:prefLabel>
+    <skos:definition>The remedial action can be applied to prevent an outage or after an outage has occurred in order to maintain the operational security.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A28">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A28</xs:enumeration>
+    <dc:identifier>A28</dc:identifier>
+    <rdfs:label>Unshared bid</rdfs:label>
+    <skos:prefLabel>Unshared bid</skos:prefLabel>
+    <skos:definition>Used to indicate that the bid cannot be shared.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A29">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A29</xs:enumeration>
+    <dc:identifier>A29</dc:identifier>
+    <rdfs:label>Pre Processed</rdfs:label>
+    <skos:prefLabel>Pre Processed</skos:prefLabel>
+    <skos:definition>to be process</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A30">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A30</xs:enumeration>
+    <dc:identifier>A30</dc:identifier>
+    <rdfs:label>Substituted</rdfs:label>
+    <skos:prefLabel>Substituted</skos:prefLabel>
+    <skos:definition>Substituted pre-processing data.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A31">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A31</xs:enumeration>
+    <dc:identifier>A31</dc:identifier>
+    <rdfs:label>Modified</rdfs:label>
+    <skos:prefLabel>Modified</skos:prefLabel>
+    <skos:definition>Modified pre-processing data by RSC or CGMA platform.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A32">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A32</xs:enumeration>
+    <dc:identifier>A32</dc:identifier>
+    <rdfs:label>Result</rdfs:label>
+    <skos:prefLabel>Result</skos:prefLabel>
+    <skos:definition>Result</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A33">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A33</xs:enumeration>
+    <dc:identifier>A33</dc:identifier>
+    <rdfs:label>Not satisfied</rdfs:label>
+    <skos:prefLabel>Not satisfied</skos:prefLabel>
+    <skos:definition>The need described in the time series cannot be satisfied.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A34">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A34</xs:enumeration>
+    <dc:identifier>A34</dc:identifier>
+    <rdfs:label>Rejected</rdfs:label>
+    <skos:prefLabel>Rejected</skos:prefLabel>
+    <skos:definition>The document rejected by one or more parties.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A35">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A35</xs:enumeration>
+    <dc:identifier>A35</dc:identifier>
+    <rdfs:label>Preliminary</rdfs:label>
+    <skos:prefLabel>Preliminary</skos:prefLabel>
+    <skos:definition>Indicative information only for initial planning purposes.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A36">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A36</xs:enumeration>
+    <dc:identifier>A36</dc:identifier>
+    <rdfs:label>Planned</rdfs:label>
+    <skos:prefLabel>Planned</skos:prefLabel>
+    <skos:definition>Is planned.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A37">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A37</xs:enumeration>
+    <dc:identifier>A37</dc:identifier>
+    <rdfs:label>Confirmed</rdfs:label>
+    <skos:prefLabel>Confirmed</skos:prefLabel>
+    <skos:definition>The status is  confirmed.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A38">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A38</xs:enumeration>
+    <dc:identifier>A38</dc:identifier>
+    <rdfs:label>Shall Be Used</rdfs:label>
+    <skos:prefLabel>Shall Be Used</skos:prefLabel>
+    <skos:definition>The object defined in the series shall be used.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A39">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A39</xs:enumeration>
+    <dc:identifier>A39</dc:identifier>
+    <rdfs:label>Could Be Used</rdfs:label>
+    <skos:prefLabel>Could Be Used</skos:prefLabel>
+    <skos:definition>The object defined in the series could be used.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A40">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A40</xs:enumeration>
+    <dc:identifier>A40</dc:identifier>
+    <rdfs:label>Proposed</rdfs:label>
+    <skos:prefLabel>Proposed</skos:prefLabel>
+    <skos:definition>The status of the information is proposed.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A41">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A41</xs:enumeration>
+    <dc:identifier>A41</dc:identifier>
+    <rdfs:label>Individual Network Data</rdfs:label>
+    <skos:prefLabel>Individual Network Data</skos:prefLabel>
+    <skos:definition>The network data provided in the document or series concerns the the unique TSO area describes by the document or series.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A42">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A42</xs:enumeration>
+    <dc:identifier>A42</dc:identifier>
+    <rdfs:label>Common Network Data</rdfs:label>
+    <skos:prefLabel>Common Network Data</skos:prefLabel>
+    <skos:definition>The network data provided in the document or series concerns the whole area describes by the document or series.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A43">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A43</xs:enumeration>
+    <dc:identifier>A43</dc:identifier>
+    <rdfs:label>Setpoint schedule</rdfs:label>
+    <skos:prefLabel>Setpoint schedule</skos:prefLabel>
+    <skos:definition>The code for the power setpoint mode of operation of the HVDC link.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A44">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A44</xs:enumeration>
+    <dc:identifier>A44</dc:identifier>
+    <rdfs:label>Proportional external signal</rdfs:label>
+    <skos:prefLabel>Proportional external signal</skos:prefLabel>
+    <skos:definition>The code for the proportional external signal mode of operation of the HVDC link.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A45">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A45</xs:enumeration>
+    <dc:identifier>A45</dc:identifier>
+    <rdfs:label>AC emulation</rdfs:label>
+    <skos:prefLabel>AC emulation</skos:prefLabel>
+    <skos:definition>The code for the AC emulation mode of operation of the HVDC link.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A46">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A46</xs:enumeration>
+    <dc:identifier>A46</dc:identifier>
+    <rdfs:label>Importing element</rdfs:label>
+    <skos:prefLabel>Importing element</skos:prefLabel>
+    <skos:definition>An importing network element in which the flow measurement enters.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A47">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A47</xs:enumeration>
+    <dc:identifier>A47</dc:identifier>
+    <rdfs:label>Exporting element</rdfs:label>
+    <skos:prefLabel>Exporting element</skos:prefLabel>
+    <skos:definition>An exporting network element from which the flow measurement comes out.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A48">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A48</xs:enumeration>
+    <dc:identifier>A48</dc:identifier>
+    <rdfs:label>To be optimized</rdfs:label>
+    <skos:prefLabel>To be optimized</skos:prefLabel>
+    <skos:definition>Describes an element which needs to be optimized by an optimization process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A49">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A49</xs:enumeration>
+    <dc:identifier>A49</dc:identifier>
+    <rdfs:label>To be monitored</rdfs:label>
+    <skos:prefLabel>To be monitored</skos:prefLabel>
+    <skos:definition>Describes an element which needs to be monitored by an optimization process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A50">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A50</xs:enumeration>
+    <dc:identifier>A50</dc:identifier>
+    <rdfs:label>To be included in capacity calculation</rdfs:label>
+    <skos:prefLabel>To be included in capacity calculation</skos:prefLabel>
+    <skos:definition>Describes an element which needs to be taken into account in a capacity calculation process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A51">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A51</xs:enumeration>
+    <dc:identifier>A51</dc:identifier>
+    <rdfs:label>Relative to previous point in time</rdfs:label>
+    <skos:prefLabel>Relative to previous point in time</skos:prefLabel>
+    <skos:definition>The quantity being described is a relative value to a previous point in time.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A52">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A52</xs:enumeration>
+    <dc:identifier>A52</dc:identifier>
+    <rdfs:label>For flow optimization</rdfs:label>
+    <skos:prefLabel>For flow optimization</skos:prefLabel>
+    <skos:definition>Describes an element which needs to be optimized by a flow optimization process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A53">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A53</xs:enumeration>
+    <dc:identifier>A53</dc:identifier>
+    <rdfs:label>For voltage optimization</rdfs:label>
+    <skos:prefLabel>For voltage optimization</skos:prefLabel>
+    <skos:definition>Describes an element which needs to be optimized by a voltage optimization process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A54">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A54</xs:enumeration>
+    <dc:identifier>A54</dc:identifier>
+    <rdfs:label>Presolved</rdfs:label>
+    <skos:prefLabel>Presolved</skos:prefLabel>
+    <skos:definition>Describes an active constraint that limits the exchanges. It is part of the presolved domain.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A55">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A55</xs:enumeration>
+    <dc:identifier>A55</dc:identifier>
+    <rdfs:label>Not available if linked bid activated</rdfs:label>
+    <skos:prefLabel>Not available if linked bid activated</skos:prefLabel>
+    <skos:definition>Bid not available if linked bid activated.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A56">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A56</xs:enumeration>
+    <dc:identifier>A56</dc:identifier>
+    <rdfs:label>Not available if linked bid rejected</rdfs:label>
+    <skos:prefLabel>Not available if linked bid rejected</skos:prefLabel>
+    <skos:definition>Bid not available if linked bid rejected.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A57">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A57</xs:enumeration>
+    <dc:identifier>A57</dc:identifier>
+    <rdfs:label>Not available for DA if linked bid subject to DA</rdfs:label>
+    <skos:prefLabel>Not available for DA if linked bid subject to DA</skos:prefLabel>
+    <skos:definition>Bid not available for direct activation if linked bid subject to direct activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A58">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A58</xs:enumeration>
+    <dc:identifier>A58</dc:identifier>
+    <rdfs:label>Not available for DA if linked bid subject to SA</rdfs:label>
+    <skos:prefLabel>Not available for DA if linked bid subject to SA</skos:prefLabel>
+    <skos:definition>Bid not available for direct activation if linked bid subject to scheduled activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A59">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A59</xs:enumeration>
+    <dc:identifier>A59</dc:identifier>
+    <rdfs:label>Not available if linked bid subject to SA</rdfs:label>
+    <skos:prefLabel>Not available if linked bid subject to SA</skos:prefLabel>
+    <skos:definition>Bid not available if linked bid subject to scheduled activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A60">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A60</xs:enumeration>
+    <dc:identifier>A60</dc:identifier>
+    <rdfs:label>Not available if linked bid subject to DA</rdfs:label>
+    <skos:prefLabel>Not available if linked bid subject to DA</skos:prefLabel>
+    <skos:definition>Bid not available if linked bid subject to direct activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A61">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A61</xs:enumeration>
+    <dc:identifier>A61</dc:identifier>
+    <rdfs:label>Primary market</rdfs:label>
+    <skos:prefLabel>Primary market</skos:prefLabel>
+    <skos:definition>A value is traded for the first time.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A62">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A62</xs:enumeration>
+    <dc:identifier>A62</dc:identifier>
+    <rdfs:label>Secondary market</rdfs:label>
+    <skos:prefLabel>Secondary market</skos:prefLabel>
+    <skos:definition>A value is traded for the second or next times between two parties.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A63">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A63</xs:enumeration>
+    <dc:identifier>A63</dc:identifier>
+    <rdfs:label>Interesting</rdfs:label>
+    <skos:prefLabel>Interesting</skos:prefLabel>
+    <skos:definition>Describes an asset which is considered as interesting.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A64">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A64</xs:enumeration>
+    <dc:identifier>A64</dc:identifier>
+    <rdfs:label>Relevant</rdfs:label>
+    <skos:prefLabel>Relevant</skos:prefLabel>
+    <skos:definition>Describes an asset which is considered as relevant.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A65">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A65</xs:enumeration>
+    <dc:identifier>A65</dc:identifier>
+    <rdfs:label>Conditionally available</rdfs:label>
+    <skos:prefLabel>Conditionally available</skos:prefLabel>
+    <skos:definition>Bid available as long as none of the conditions associated with the linked bids materialise.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A66">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A66</xs:enumeration>
+    <dc:identifier>A66</dc:identifier>
+    <rdfs:label>Conditionally unavailable</rdfs:label>
+    <skos:prefLabel>Conditionally unavailable</skos:prefLabel>
+    <skos:definition>Bid unavailable as long as none of the conditions associated with the linked bids materialise.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A67">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A67</xs:enumeration>
+    <dc:identifier>A67</dc:identifier>
+    <rdfs:label>Available if linked bid activated</rdfs:label>
+    <skos:prefLabel>Available if linked bid activated</skos:prefLabel>
+    <skos:definition>Bid available if linked bid activated.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A68">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A68</xs:enumeration>
+    <dc:identifier>A68</dc:identifier>
+    <rdfs:label>Available if linked bid rejected</rdfs:label>
+    <skos:prefLabel>Available if linked bid rejected</skos:prefLabel>
+    <skos:definition>Bid available if linked bid rejected.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A69">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A69</xs:enumeration>
+    <dc:identifier>A69</dc:identifier>
+    <rdfs:label>Available if linked bid subject to SA</rdfs:label>
+    <skos:prefLabel>Available if linked bid subject to SA</skos:prefLabel>
+    <skos:definition>Bid available if linked bid subject to scheduled activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A70">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A70</xs:enumeration>
+    <dc:identifier>A70</dc:identifier>
+    <rdfs:label>Available if linked bid subject to DA</rdfs:label>
+    <skos:prefLabel>Available if linked bid subject to DA</skos:prefLabel>
+    <skos:definition>Bid available if linked bid subject to direct activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A71">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A71</xs:enumeration>
+    <dc:identifier>A71</dc:identifier>
+    <rdfs:label>Available for DA if linked bid subject to DA</rdfs:label>
+    <skos:prefLabel>Available for DA if linked bid subject to DA</skos:prefLabel>
+    <skos:definition>Bid available for direct activation if linked bid subject to direct activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardStatusTypeList/A72">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardStatusTypeList"/>
+    <xs:enumeration>A72</xs:enumeration>
+    <dc:identifier>A72</dc:identifier>
+    <rdfs:label>Available for DA if linked bid subject to SA</rdfs:label>
+    <skos:prefLabel>Available for DA if linked bid subject to SA</skos:prefLabel>
+    <skos:definition>Bid available for direct activation if linked bid subject to scheduled activation.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

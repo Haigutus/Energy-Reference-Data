@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <dcat:Distribution rdf:about="urn:uuid:b8e1f18a-ceeb-4149-9cf6-604b3d3429f9">
+    <rdfs:label>entsoe-codelist-StandardCodingSchemeTypeList.rdf</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
+    <ecl:Version>80</ecl:Version>
+    <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
+    <ecl:Release>0</ecl:Release>
+    <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
+  </dcat:Distribution>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList">
+    <rdfs:label>StandardCodingSchemeTypeList</rdfs:label>
+    <skos:prefLabel>StandardCodingSchemeTypeList</skos:prefLabel>
+    <dc:identifier>ET0004</dc:identifier>
+    <skos:definition>Codification scheme used to identify the coding scheme used for the set of coded values to identify specific objects.</skos:definition>
+    <ecl:Uid>ET0004</ecl:Uid>
+    <ecl:Definition>Codification scheme used to identify the coding scheme used for the set of coded values to identify specific objects.</ecl:Definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/A01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>A01</xs:enumeration>
+    <dc:identifier>A01</dc:identifier>
+    <rdfs:label>EIC</rdfs:label>
+    <skos:prefLabel>EIC</skos:prefLabel>
+    <skos:definition>The coding scheme is the Energy Identification Coding Scheme (EIC), maintained by ENTSO-E.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/A02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>A02</xs:enumeration>
+    <dc:identifier>A02</dc:identifier>
+    <rdfs:label>CGM</rdfs:label>
+    <skos:prefLabel>CGM</skos:prefLabel>
+    <skos:definition>The coding scheme used for Common Grid Model Exchange Standard (CGMES).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/A10">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>A10</xs:enumeration>
+    <dc:identifier>A10</dc:identifier>
+    <rdfs:label>GS1</rdfs:label>
+    <skos:prefLabel>GS1</skos:prefLabel>
+    <skos:definition>The coding scheme for the preceding attribute is the Global Location Number (GLN 13) or Global Service Relation Number (GSRN 18), maintained by GS1.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NAD">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NAD</xs:enumeration>
+    <dc:identifier>NAD</dc:identifier>
+    <rdfs:label>Andorra National coding scheme</rdfs:label>
+    <skos:prefLabel>Andorra National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NAL">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NAL</xs:enumeration>
+    <dc:identifier>NAL</dc:identifier>
+    <rdfs:label>Albania National coding scheme</rdfs:label>
+    <skos:prefLabel>Albania National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NAM">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NAM</xs:enumeration>
+    <dc:identifier>NAM</dc:identifier>
+    <rdfs:label>Armenia National coding scheme</rdfs:label>
+    <skos:prefLabel>Armenia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NAT">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NAT</xs:enumeration>
+    <dc:identifier>NAT</dc:identifier>
+    <rdfs:label>Austria National coding scheme</rdfs:label>
+    <skos:prefLabel>Austria National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NAZ">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NAZ</xs:enumeration>
+    <dc:identifier>NAZ</dc:identifier>
+    <rdfs:label>Azerbaijan National coding scheme</rdfs:label>
+    <skos:prefLabel>Azerbaijan National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NBA">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NBA</xs:enumeration>
+    <dc:identifier>NBA</dc:identifier>
+    <rdfs:label>Bosnia and Herzegovina National coding scheme</rdfs:label>
+    <skos:prefLabel>Bosnia and Herzegovina National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NBE">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NBE</xs:enumeration>
+    <dc:identifier>NBE</dc:identifier>
+    <rdfs:label>Belgium National coding scheme</rdfs:label>
+    <skos:prefLabel>Belgium National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NBG">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NBG</xs:enumeration>
+    <dc:identifier>NBG</dc:identifier>
+    <rdfs:label>Bulgaria National coding scheme</rdfs:label>
+    <skos:prefLabel>Bulgaria National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NCH">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NCH</xs:enumeration>
+    <dc:identifier>NCH</dc:identifier>
+    <rdfs:label>Switzerland National coding scheme</rdfs:label>
+    <skos:prefLabel>Switzerland National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NCS">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NCS</xs:enumeration>
+    <dc:identifier>NCS</dc:identifier>
+    <rdfs:label>Serbia and Montenegro National coding scheme</rdfs:label>
+    <skos:prefLabel>Serbia and Montenegro National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NCZ">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NCZ</xs:enumeration>
+    <dc:identifier>NCZ</dc:identifier>
+    <rdfs:label>Czech Republic National coding scheme</rdfs:label>
+    <skos:prefLabel>Czech Republic National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NDE">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NDE</xs:enumeration>
+    <dc:identifier>NDE</dc:identifier>
+    <rdfs:label>Germany National coding scheme</rdfs:label>
+    <skos:prefLabel>Germany National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NDK">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NDK</xs:enumeration>
+    <dc:identifier>NDK</dc:identifier>
+    <rdfs:label>Denmark National coding scheme</rdfs:label>
+    <skos:prefLabel>Denmark National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NEE">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NEE</xs:enumeration>
+    <dc:identifier>NEE</dc:identifier>
+    <rdfs:label>Estonia National coding scheme</rdfs:label>
+    <skos:prefLabel>Estonia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NES">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NES</xs:enumeration>
+    <dc:identifier>NES</dc:identifier>
+    <rdfs:label>Spain National coding scheme</rdfs:label>
+    <skos:prefLabel>Spain National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NFI">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NFI</xs:enumeration>
+    <dc:identifier>NFI</dc:identifier>
+    <rdfs:label>Finland National coding scheme</rdfs:label>
+    <skos:prefLabel>Finland National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NFR">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NFR</xs:enumeration>
+    <dc:identifier>NFR</dc:identifier>
+    <rdfs:label>France National coding scheme</rdfs:label>
+    <skos:prefLabel>France National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NGB">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NGB</xs:enumeration>
+    <dc:identifier>NGB</dc:identifier>
+    <rdfs:label>United Kingdom National coding scheme</rdfs:label>
+    <skos:prefLabel>United Kingdom National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NGE">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NGE</xs:enumeration>
+    <dc:identifier>NGE</dc:identifier>
+    <rdfs:label>Georgia National coding scheme</rdfs:label>
+    <skos:prefLabel>Georgia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NGI">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NGI</xs:enumeration>
+    <dc:identifier>NGI</dc:identifier>
+    <rdfs:label>Gibraltar National coding scheme</rdfs:label>
+    <skos:prefLabel>Gibraltar National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NGR">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NGR</xs:enumeration>
+    <dc:identifier>NGR</dc:identifier>
+    <rdfs:label>Greece National coding scheme</rdfs:label>
+    <skos:prefLabel>Greece National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NHR">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NHR</xs:enumeration>
+    <dc:identifier>NHR</dc:identifier>
+    <rdfs:label>Croatia National coding scheme</rdfs:label>
+    <skos:prefLabel>Croatia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NHU">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NHU</xs:enumeration>
+    <dc:identifier>NHU</dc:identifier>
+    <rdfs:label>Hungary National coding scheme</rdfs:label>
+    <skos:prefLabel>Hungary National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NIE">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NIE</xs:enumeration>
+    <dc:identifier>NIE</dc:identifier>
+    <rdfs:label>Ireland National coding scheme</rdfs:label>
+    <skos:prefLabel>Ireland National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NIT">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NIT</xs:enumeration>
+    <dc:identifier>NIT</dc:identifier>
+    <rdfs:label>Italy National coding scheme</rdfs:label>
+    <skos:prefLabel>Italy National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NKG">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NKG</xs:enumeration>
+    <dc:identifier>NKG</dc:identifier>
+    <rdfs:label>Kyrgyzstan National coding scheme</rdfs:label>
+    <skos:prefLabel>Kyrgyzstan National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NKZ">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NKZ</xs:enumeration>
+    <dc:identifier>NKZ</dc:identifier>
+    <rdfs:label>Kazakhstan National coding scheme</rdfs:label>
+    <skos:prefLabel>Kazakhstan National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NLI">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NLI</xs:enumeration>
+    <dc:identifier>NLI</dc:identifier>
+    <rdfs:label>Liechtenstein National coding scheme</rdfs:label>
+    <skos:prefLabel>Liechtenstein National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NLT">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NLT</xs:enumeration>
+    <dc:identifier>NLT</dc:identifier>
+    <rdfs:label>Lithuania National coding scheme</rdfs:label>
+    <skos:prefLabel>Lithuania National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NLU">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NLU</xs:enumeration>
+    <dc:identifier>NLU</dc:identifier>
+    <rdfs:label>Luxembourg National coding scheme</rdfs:label>
+    <skos:prefLabel>Luxembourg National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NLV">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NLV</xs:enumeration>
+    <dc:identifier>NLV</dc:identifier>
+    <rdfs:label>Latvia National coding scheme</rdfs:label>
+    <skos:prefLabel>Latvia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NMA">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NMA</xs:enumeration>
+    <dc:identifier>NMA</dc:identifier>
+    <rdfs:label>Morocco National coding scheme</rdfs:label>
+    <skos:prefLabel>Morocco National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NMD">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NMD</xs:enumeration>
+    <dc:identifier>NMD</dc:identifier>
+    <rdfs:label>Moldavia National coding scheme</rdfs:label>
+    <skos:prefLabel>Moldavia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NMK">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NMK</xs:enumeration>
+    <dc:identifier>NMK</dc:identifier>
+    <rdfs:label>Macedonia National coding scheme</rdfs:label>
+    <skos:prefLabel>Macedonia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NNL">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NNL</xs:enumeration>
+    <dc:identifier>NNL</dc:identifier>
+    <rdfs:label>Netherlands National coding scheme</rdfs:label>
+    <skos:prefLabel>Netherlands National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NNN">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NNN</xs:enumeration>
+    <dc:identifier>NNN</dc:identifier>
+    <rdfs:label>Nordic Regional coding scheme</rdfs:label>
+    <skos:prefLabel>Nordic Regional coding scheme</skos:prefLabel>
+    <skos:definition>The coding scheme of the Nordic region which covers Denmark, Finland, Norway and Sweden.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NNO">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NNO</xs:enumeration>
+    <dc:identifier>NNO</dc:identifier>
+    <rdfs:label>Norway National coding scheme</rdfs:label>
+    <skos:prefLabel>Norway National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NPL">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NPL</xs:enumeration>
+    <dc:identifier>NPL</dc:identifier>
+    <rdfs:label>Poland National coding scheme</rdfs:label>
+    <skos:prefLabel>Poland National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NPT">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NPT</xs:enumeration>
+    <dc:identifier>NPT</dc:identifier>
+    <rdfs:label>Portugal National coding scheme</rdfs:label>
+    <skos:prefLabel>Portugal National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NRO">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NRO</xs:enumeration>
+    <dc:identifier>NRO</dc:identifier>
+    <rdfs:label>Romania National coding scheme</rdfs:label>
+    <skos:prefLabel>Romania National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NRU">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NRU</xs:enumeration>
+    <dc:identifier>NRU</dc:identifier>
+    <rdfs:label>Russian Federation National coding scheme</rdfs:label>
+    <skos:prefLabel>Russian Federation National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NSE">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NSE</xs:enumeration>
+    <dc:identifier>NSE</dc:identifier>
+    <rdfs:label>Sweden National coding scheme</rdfs:label>
+    <skos:prefLabel>Sweden National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NSI">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NSI</xs:enumeration>
+    <dc:identifier>NSI</dc:identifier>
+    <rdfs:label>Slovenia National coding scheme</rdfs:label>
+    <skos:prefLabel>Slovenia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NSK">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NSK</xs:enumeration>
+    <dc:identifier>NSK</dc:identifier>
+    <rdfs:label>Slovakia National coding scheme</rdfs:label>
+    <skos:prefLabel>Slovakia National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NTR">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NTR</xs:enumeration>
+    <dc:identifier>NTR</dc:identifier>
+    <rdfs:label>Turkey National coding scheme</rdfs:label>
+    <skos:prefLabel>Turkey National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCodingSchemeTypeList/NUA">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCodingSchemeTypeList"/>
+    <xs:enumeration>NUA</xs:enumeration>
+    <dc:identifier>NUA</dc:identifier>
+    <rdfs:label>Ukraine National coding scheme</rdfs:label>
+    <skos:prefLabel>Ukraine National coding scheme</skos:prefLabel>
+    <skos:definition>The National coding scheme of the country in question.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

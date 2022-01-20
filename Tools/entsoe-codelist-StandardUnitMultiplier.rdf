@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <dcat:Distribution rdf:about="urn:uuid:2586a15c-93b8-47b1-b34b-95b438d79aa4">
+    <rdfs:label>entsoe-codelist-StandardUnitMultiplier.rdf</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
+    <ecl:Version>80</ecl:Version>
+    <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
+    <ecl:Release>0</ecl:Release>
+    <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
+  </dcat:Distribution>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardUnitMultiplier">
+    <rdfs:label>StandardUnitMultiplier</rdfs:label>
+    <skos:prefLabel>StandardUnitMultiplier</skos:prefLabel>
+    <dc:identifier>MXM001</dc:identifier>
+    <skos:definition>The unit multipliers defined for the CIM.</skos:definition>
+    <ecl:Uid>MXM001</ecl:Uid>
+    <ecl:Definition>The unit multipliers defined for the CIM.</ecl:Definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardUnitMultiplier/1">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardUnitMultiplier"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardUnitMultiplier"/>
+    <xs:enumeration>1</xs:enumeration>
+    <dc:identifier>1</dc:identifier>
+    <rdfs:label>none</rdfs:label>
+    <skos:prefLabel>none</skos:prefLabel>
+    <skos:definition>No multiplier or equivalently multiply by 1.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

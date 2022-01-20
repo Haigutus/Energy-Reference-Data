@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <dcat:Distribution rdf:about="urn:uuid:2b574087-9b0c-4919-acd3-c67f5520b3b2">
+    <rdfs:label>entsoe-codelist-StandardContractTypeList.rdf</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
+    <ecl:Version>80</ecl:Version>
+    <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
+    <ecl:Release>0</ecl:Release>
+    <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
+  </dcat:Distribution>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardContractTypeList">
+    <rdfs:label>StandardContractTypeList</rdfs:label>
+    <skos:prefLabel>StandardContractTypeList</skos:prefLabel>
+    <dc:identifier>ET0010</dc:identifier>
+    <skos:definition>The contract type defines the conditions under which the capacity is allocated and handled, e.g. daily auction, weekly auction, monthly auction, yearly auction, etc. 
+The significance of this type is dependent on area specific coded working methods.</skos:definition>
+    <ecl:Uid>ET0010</ecl:Uid>
+    <ecl:Definition>The contract type defines the conditions under which the capacity is allocated and handled, e.g. daily auction, weekly auction, monthly auction, yearly auction, etc. 
+The significance of this type is dependent on area specific coded working methods.</ecl:Definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A01</xs:enumeration>
+    <dc:identifier>A01</dc:identifier>
+    <rdfs:label>Daily</rdfs:label>
+    <skos:prefLabel>Daily</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by daily auction or a daily transmission allocation procedure.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A02</xs:enumeration>
+    <dc:identifier>A02</dc:identifier>
+    <rdfs:label>Weekly</rdfs:label>
+    <skos:prefLabel>Weekly</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by weekly auction or a weekly transmission allocation procedure.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A03">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A03</xs:enumeration>
+    <dc:identifier>A03</dc:identifier>
+    <rdfs:label>Monthly</rdfs:label>
+    <skos:prefLabel>Monthly</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by monthly auction or a monthly transmission allocation procedure.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A04">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A04</xs:enumeration>
+    <dc:identifier>A04</dc:identifier>
+    <rdfs:label>Yearly</rdfs:label>
+    <skos:prefLabel>Yearly</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by yearly auction or a yearly transmission allocation procedure.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A05">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A05</xs:enumeration>
+    <dc:identifier>A05</dc:identifier>
+    <rdfs:label>Total</rdfs:label>
+    <skos:prefLabel>Total</skos:prefLabel>
+    <skos:definition>This is the sum of all capacity contract types for the period covered.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A06">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A06</xs:enumeration>
+    <dc:identifier>A06</dc:identifier>
+    <rdfs:label>Long term contract</rdfs:label>
+    <skos:prefLabel>Long term contract</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by long term trade agreements according to European regulations (EU Directive 1228/2003).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A07">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A07</xs:enumeration>
+    <dc:identifier>A07</dc:identifier>
+    <rdfs:label>Intraday contract</rdfs:label>
+    <skos:prefLabel>Intraday contract</skos:prefLabel>
+    <skos:definition>The condition under which the capacity is allocated and handled is through an intraday auction and allocation process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A08">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A08</xs:enumeration>
+    <dc:identifier>A08</dc:identifier>
+    <rdfs:label>Quarter yearly</rdfs:label>
+    <skos:prefLabel>Quarter yearly</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by quarter yearly auction or a quarter yearly transmission allocation procedure.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A09">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A09</xs:enumeration>
+    <dc:identifier>A09</dc:identifier>
+    <rdfs:label>Semestrial</rdfs:label>
+    <skos:prefLabel>Semestrial</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by half yearly auction or a half yearly transmission allocation procedure.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A10">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A10</xs:enumeration>
+    <dc:identifier>A10</dc:identifier>
+    <rdfs:label>Multiple year</rdfs:label>
+    <skos:prefLabel>Multiple year</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by multiple year auctions.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A11">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A11</xs:enumeration>
+    <dc:identifier>A11</dc:identifier>
+    <rdfs:label>Intraday balancing mechanism</rdfs:label>
+    <skos:prefLabel>Intraday balancing mechanism</skos:prefLabel>
+    <skos:definition>The condition under which the capacity is allocated and handled is through intraday energy balancing services.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A12">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A12</xs:enumeration>
+    <dc:identifier>A12</dc:identifier>
+    <rdfs:label>Historical contract</rdfs:label>
+    <skos:prefLabel>Historical contract</skos:prefLabel>
+    <skos:definition>A Contract established before the EU directive that are valid until the term of the contract.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardContractTypeList/A13">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardContractTypeList"/>
+    <xs:enumeration>A13</xs:enumeration>
+    <dc:identifier>A13</dc:identifier>
+    <rdfs:label>Hourly</rdfs:label>
+    <skos:prefLabel>Hourly</skos:prefLabel>
+    <skos:definition>The condition under which capacity is allocated and handled is by hourly auctions.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <dcat:Distribution rdf:about="urn:uuid:6a5f82bf-9cb8-4c64-9d70-c9c98ab1b1fb">
+    <rdfs:label>entsoe-codelist-StandardPriceCategoryTypeList.rdf</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
+    <ecl:Version>80</ecl:Version>
+    <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
+    <ecl:Release>0</ecl:Release>
+    <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
+  </dcat:Distribution>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList">
+    <rdfs:label>StandardPriceCategoryTypeList</rdfs:label>
+    <skos:prefLabel>StandardPriceCategoryTypeList</skos:prefLabel>
+    <dc:identifier>ET0048</dc:identifier>
+    <skos:definition>Indicates the category of the calculation to be applied to a price.</skos:definition>
+    <ecl:Uid>ET0048</ecl:Uid>
+    <ecl:Definition>Indicates the category of the calculation to be applied to a price.</ecl:Definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList/A01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <xs:enumeration>A01</xs:enumeration>
+    <dc:identifier>A01</dc:identifier>
+    <rdfs:label>Category 1</rdfs:label>
+    <skos:prefLabel>Category 1</skos:prefLabel>
+    <skos:definition>A category one price calculation is to be applied.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList/A02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <xs:enumeration>A02</xs:enumeration>
+    <dc:identifier>A02</dc:identifier>
+    <rdfs:label>Category 2</rdfs:label>
+    <skos:prefLabel>Category 2</skos:prefLabel>
+    <skos:definition>A category two price calculation is to be applied.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList/A03">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <xs:enumeration>A03</xs:enumeration>
+    <dc:identifier>A03</dc:identifier>
+    <rdfs:label>Category 3</rdfs:label>
+    <skos:prefLabel>Category 3</skos:prefLabel>
+    <skos:definition>A category three price calculation is to be applied.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList/A04">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <xs:enumeration>A04</xs:enumeration>
+    <dc:identifier>A04</dc:identifier>
+    <rdfs:label>Excess balance</rdfs:label>
+    <skos:prefLabel>Excess balance</skos:prefLabel>
+    <skos:definition>The category concerns excess balance.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList/A05">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <xs:enumeration>A05</xs:enumeration>
+    <dc:identifier>A05</dc:identifier>
+    <rdfs:label>Insufficient balance</rdfs:label>
+    <skos:prefLabel>Insufficient balance</skos:prefLabel>
+    <skos:definition>A category concerns insufficient balance.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList/A06">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <xs:enumeration>A06</xs:enumeration>
+    <dc:identifier>A06</dc:identifier>
+    <rdfs:label>Average bid price</rdfs:label>
+    <skos:prefLabel>Average bid price</skos:prefLabel>
+    <skos:definition>The average bid price for a given product.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList/A07">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <xs:enumeration>A07</xs:enumeration>
+    <dc:identifier>A07</dc:identifier>
+    <rdfs:label>Single marginal bid price</rdfs:label>
+    <skos:prefLabel>Single marginal bid price</skos:prefLabel>
+    <skos:definition>The downwards activated bid price  or the upwards activated  bid price for activated balancing reserves.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceCategoryTypeList/A08">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceCategoryTypeList"/>
+    <xs:enumeration>A08</xs:enumeration>
+    <dc:identifier>A08</dc:identifier>
+    <rdfs:label>Cross-border marginal price</rdfs:label>
+    <skos:prefLabel>Cross-border marginal price</skos:prefLabel>
+    <skos:definition>The price determined in accordance with article 3 of the methodology for pricing balancing energy.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

@@ -3,10 +3,10 @@
   <xsd:include schemaLocation="urn-entsoe-eu-local-extension-types.xsd" />
   <xsd:annotation>
     <xsd:documentation>
-      <Version>Current version 78</Version>
-      <Titre>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</Titre>
-      <Release>Current Release: 0</Release>
-      <ReleaseDate>2021-09-14</ReleaseDate>
+      <Version>80</Version>
+      <Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</Title>
+      <Release>0</Release>
+      <ReleaseDate>2021-12-03</ReleaseDate>
     </xsd:documentation>
   </xsd:annotation>
   <xsd:simpleType name="StandardAllocationModeTypeList">
@@ -3836,6 +3836,16 @@ Critical network elements are displayed in details and their impact on the marke
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="C81">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Long-Term internal redispatch</Title>
+              <Definition>A time series describing long-term redispatch to relieve Scheduling Area internal congestion.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardCategoryTypeList">
@@ -3891,7 +3901,7 @@ Critical network elements are displayed in details and their impact on the marke
   <xsd:simpleType name="StandardClassificationTypeList">
     <xsd:annotation>
       <xsd:documentation>
-        <Uid>ET0013 </Uid>
+        <Uid>ET0013</Uid>
         <Definition>Indicates the classification mechanism used to group a set of objects together. The grouping may be of a detailed or a summary nature.</Definition>
       </xsd:documentation>
     </xsd:annotation>
@@ -4612,7 +4622,7 @@ The significance of this type is dependent on area specific coded working method
   <xsd:simpleType name="StandardCurrencyTypeList">
     <xsd:annotation>
       <xsd:documentation>
-        <Uid>ET0024 </Uid>
+        <Uid>ET0024</Uid>
         <Definition>The coded identification of legal tender using ISO 4217 3 alpha codes.</Definition>
       </xsd:documentation>
     </xsd:annotation>
@@ -5042,7 +5052,7 @@ The significance of this type is dependent on area specific coded working method
   <xsd:simpleType name="StandardEnergyProductTypeList">
     <xsd:annotation>
       <xsd:documentation>
-        <Uid>ET0008 </Uid>
+        <Uid>ET0008</Uid>
         <Definition>The identification of the nature of an energy product such as power, energy, reactive power, etc.</Definition>
       </xsd:documentation>
     </xsd:annotation>
@@ -5763,7 +5773,7 @@ Methane , Hydrogen (fossil sourced) ,Phosphor gas ,Oxy gas and other types.</Def
   <xsd:simpleType name="StandardMessageTypeList">
     <xsd:annotation>
       <xsd:documentation>
-        <Uid>ET0003 </Uid>
+        <Uid>ET0003</Uid>
         <Definition>The coded type of a document. The message type describes the principal characteristic of a document.
 This enumeration is used in the XML instances based on IEC 62325.</Definition>
       </xsd:documentation>
@@ -9867,6 +9877,26 @@ In the case of a Final Confirmation Report this is informing the recipient that 
             <CodeDescription>
               <Title>Time series partially accepted</Title>
               <Definition>The time series is partially accepted.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B66">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Demand fully netted</Title>
+              <Definition>Demand was fully netted against other demand(s).</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B67">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Bid activated in same direction</Title>
+              <Definition>One or several bids were activated in the same direction within the same uncongested area as the demand.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>

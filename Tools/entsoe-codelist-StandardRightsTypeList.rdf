@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <dcat:Distribution rdf:about="urn:uuid:bca38925-bcf8-428a-bae2-126737f70eaf">
+    <rdfs:label>entsoe-codelist-StandardRightsTypeList.rdf</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
+    <ecl:Version>80</ecl:Version>
+    <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
+    <ecl:Release>0</ecl:Release>
+    <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
+  </dcat:Distribution>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardRightsTypeList">
+    <rdfs:label>StandardRightsTypeList</rdfs:label>
+    <skos:prefLabel>StandardRightsTypeList</skos:prefLabel>
+    <dc:identifier>ET0938</dc:identifier>
+    <skos:definition>The rights of use that is accorded to what is acquired in an auction.</skos:definition>
+    <ecl:Uid>ET0938</ecl:Uid>
+    <ecl:Definition>The rights of use that is accorded to what is acquired in an auction.</ecl:Definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRightsTypeList/A01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <xs:enumeration>A01</xs:enumeration>
+    <dc:identifier>A01</dc:identifier>
+    <rdfs:label>Use It Or Lose It</rdfs:label>
+    <skos:prefLabel>Use It Or Lose It</skos:prefLabel>
+    <skos:definition>Any rights not nominated shall be lost.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRightsTypeList/A02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <xs:enumeration>A02</xs:enumeration>
+    <dc:identifier>A02</dc:identifier>
+    <rdfs:label>Use It Or Sell It</rdfs:label>
+    <skos:prefLabel>Use It Or Sell It</skos:prefLabel>
+    <skos:definition>Any rights that are not nominated shall be sold.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRightsTypeList/A03">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <xs:enumeration>A03</xs:enumeration>
+    <dc:identifier>A03</dc:identifier>
+    <rdfs:label>Allocation curtailment possible</rdfs:label>
+    <skos:prefLabel>Allocation curtailment possible</skos:prefLabel>
+    <skos:definition>Rights acquired may be curtailed.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRightsTypeList/A04">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <xs:enumeration>A04</xs:enumeration>
+    <dc:identifier>A04</dc:identifier>
+    <rdfs:label>Nomination curtailment possible</rdfs:label>
+    <skos:prefLabel>Nomination curtailment possible</skos:prefLabel>
+    <skos:definition>Rights acquired may be curtailed at nomination.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRightsTypeList/A05">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <xs:enumeration>A05</xs:enumeration>
+    <dc:identifier>A05</dc:identifier>
+    <rdfs:label>Resale possible</rdfs:label>
+    <skos:prefLabel>Resale possible</skos:prefLabel>
+    <skos:definition>Acquired rights may be resold.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRightsTypeList/A06">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRightsTypeList"/>
+    <xs:enumeration>A06</xs:enumeration>
+    <dc:identifier>A06</dc:identifier>
+    <rdfs:label>Transfer possible</rdfs:label>
+    <skos:prefLabel>Transfer possible</skos:prefLabel>
+    <skos:definition>Acquired rights may be transferred.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

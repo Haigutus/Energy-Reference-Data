@@ -9,31 +9,10 @@
   "label": {
       "namespace": "http://www.w3.org/2000/01/rdf-schema#"
   },
-  "CodeList": {
-    "attrib": {
-      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
-      "value_prefix": "http://entsoe.eu/wgedi/codelists/"
-    },
-    "namespace": "urn:entsoe.eu:wgedi:codelists"
-  },
-  "Code": {
-    "attrib": {
-      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
-      "value_prefix": "http://entsoe.eu/wgedi/codelists/"
-    },
-    "namespace": "urn:entsoe.eu:wgedi:codelists"
-  },
-  "Code.CodeList": {
-    "attrib": {
-      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://entsoe.eu/wgedi/codelists/"
-    },
-    "namespace": "urn:entsoe.eu:wgedi:codelists"
-  },
   "Concept": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
-      "value_prefix": "http://data.europa.eu/energy/codelist/"
+      "value_prefix": "http://data.europa.eu/energy/"
     },
     "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
@@ -61,14 +40,14 @@
   "broader": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://data.europa.eu/energy/codelist/"
+      "value_prefix": "http://data.europa.eu/energy/"
     },
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
   "narrower": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://data.europa.eu/energy/codelist/"
+      "value_prefix": "http://data.europa.eu/energy/"
     },
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
@@ -78,13 +57,22 @@
   "altLabel": {
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
+  "definition": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "identifier": {
+      "namespace": "http://purl.org/dc/elements/1.1/"
+  },
+   "issued": {
+      "namespace": "http://purl.org/dc/terms/"
+  },
+   "version": {
+      "namespace": "http://www.w3.org/ns/dcat#"
+  },
   "Version": {
       "namespace": "urn:entsoe.eu:wgedi:codelists"
   },
   "Title": {
-      "namespace": "urn:entsoe.eu:wgedi:codelists"
-  },
-  "Titre": {
       "namespace": "urn:entsoe.eu:wgedi:codelists"
   },
   "Release": {

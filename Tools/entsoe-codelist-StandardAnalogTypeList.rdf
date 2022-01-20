@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <dcat:Distribution rdf:about="urn:uuid:283e261c-8492-4c1c-8d6f-106a88f06b9f">
+    <rdfs:label>entsoe-codelist-StandardAnalogTypeList.rdf</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
+    <ecl:Version>80</ecl:Version>
+    <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
+    <ecl:Release>0</ecl:Release>
+    <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
+  </dcat:Distribution>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList">
+    <rdfs:label>StandardAnalogTypeList</rdfs:label>
+    <skos:prefLabel>StandardAnalogTypeList</skos:prefLabel>
+    <dc:identifier>MXM000</dc:identifier>
+    <skos:definition>The identification of an analog value.</skos:definition>
+    <ecl:Uid>MXM000</ecl:Uid>
+    <ecl:Definition>The identification of an analog value.</ecl:Definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A01</xs:enumeration>
+    <dc:identifier>A01</dc:identifier>
+    <rdfs:label>Flow</rdfs:label>
+    <skos:prefLabel>Flow</skos:prefLabel>
+    <skos:definition>This is the computed flow for the monitored element in the constraint situation ("N situation", "N-1 situation" ...) after the capacity calculation. The flow is expressed in A, %, or MW.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A02</xs:enumeration>
+    <dc:identifier>A02</dc:identifier>
+    <rdfs:label>Permanent admissible transmission limit (PATL)</rdfs:label>
+    <skos:prefLabel>Permanent admissible transmission limit (PATL)</skos:prefLabel>
+    <skos:definition>The permanent load of transmission system elements which is allowed for an unlimited period and which does not cause physical damage to the transmission system elements as long as the defined threshold is respected.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A03">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A03</xs:enumeration>
+    <dc:identifier>A03</dc:identifier>
+    <rdfs:label>Flow reliability margin</rdfs:label>
+    <skos:prefLabel>Flow reliability margin</skos:prefLabel>
+    <skos:definition>This is the flow reliability margin for a given critical network element. The amount of MW or A that is reserved for this critical network element and shall not be used for the computed outage situation, in order to secure the power network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A04">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A04</xs:enumeration>
+    <dc:identifier>A04</dc:identifier>
+    <rdfs:label>Spanning margin value</rdfs:label>
+    <skos:prefLabel>Spanning margin value</skos:prefLabel>
+    <skos:definition>This is the margin that is taken into account when spanning (fall-back process) is applied. Spanning marginal value is an historical based parameter which specifies the amount of MW that reduces the RAM when spanning is applied.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A05">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A05</xs:enumeration>
+    <dc:identifier>A05</dc:identifier>
+    <rdfs:label>Long term allocation margin</rdfs:label>
+    <skos:prefLabel>Long term allocation margin</skos:prefLabel>
+    <skos:definition>This is the amount of MW that is added to the capacity of the critical network element in order to automatically include the long term allocation domain into the flow based domain.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A06">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A06</xs:enumeration>
+    <dc:identifier>A06</dc:identifier>
+    <rdfs:label>Final adjustment margin value</rdfs:label>
+    <skos:prefLabel>Final adjustment margin value</skos:prefLabel>
+    <skos:definition>This is the margin that is manually added or subtracted to the capacity of the critical network element. A negative value for final adjustment value simulates the effect of an additional margin due to complex remedial actions (RA) which cannot be modeled and so calculated in the flow based parameter calculation. A positive value for FAV as a consequence of the verification phase of the flow based domain, leading to the need to reduce the margin on one or more CBs for system security reasons.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A07">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A07</xs:enumeration>
+    <dc:identifier>A07</dc:identifier>
+    <rdfs:label>Transitory admissible transmission limit (TATL)</rdfs:label>
+    <skos:prefLabel>Transitory admissible transmission limit (TATL)</skos:prefLabel>
+    <skos:definition>The temporary overload of transmission system elements which is allowed for a limited period and which does not cause physical damage to the transmission system elements as long as the defined duration and thresholds are respected.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A08">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A08</xs:enumeration>
+    <dc:identifier>A08</dc:identifier>
+    <rdfs:label>Long admissible flow</rdfs:label>
+    <skos:prefLabel>Long admissible flow</skos:prefLabel>
+    <skos:definition>This is the value, expressed in A or MW, that the overload flow in a network element shall not exceed for a duration no longer than the long duration. The long duration value depends on the TSO network operating rules.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A09">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A09</xs:enumeration>
+    <dc:identifier>A09</dc:identifier>
+    <rdfs:label>Negative Final adjustment margin value</rdfs:label>
+    <skos:prefLabel>Negative Final adjustment margin value</skos:prefLabel>
+    <skos:definition>This is the margin that is manually added to the capacity of the critical network element in order to simulate the effect of an additional margin due to complex remedial actions (RA) which cannot be modeled and so calculated in the flow based parameter calculation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A10">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A10</xs:enumeration>
+    <dc:identifier>A10</dc:identifier>
+    <rdfs:label>Minimum voltage level</rdfs:label>
+    <skos:prefLabel>Minimum voltage level</skos:prefLabel>
+    <skos:definition>This is the minimum voltage that can be supported by a network element without involving a risk for the security of supply.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A11">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A11</xs:enumeration>
+    <dc:identifier>A11</dc:identifier>
+    <rdfs:label>Maximum voltage level</rdfs:label>
+    <skos:prefLabel>Maximum voltage level</skos:prefLabel>
+    <skos:definition>This is the maximum voltage that can be supported by a network element without involving a risk for the security of supply.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A12">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A12</xs:enumeration>
+    <dc:identifier>A12</dc:identifier>
+    <rdfs:label>TATL after automatic RA</rdfs:label>
+    <skos:prefLabel>TATL after automatic RA</skos:prefLabel>
+    <skos:definition>The Transitory admissible transmission limit (TATL) which is allowed after an automatic Remedial Action (RA) has been applied.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A13">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A13</xs:enumeration>
+    <dc:identifier>A13</dc:identifier>
+    <rdfs:label>TATL after curative RA</rdfs:label>
+    <skos:prefLabel>TATL after curative RA</skos:prefLabel>
+    <skos:definition>The Transitory admissible transmission limit (TATL) which is allowed after a curative Remedial Action (RA) has been applied.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A14">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A14</xs:enumeration>
+    <dc:identifier>A14</dc:identifier>
+    <rdfs:label>Computed Voltage</rdfs:label>
+    <skos:prefLabel>Computed Voltage</skos:prefLabel>
+    <skos:definition>This is the computed voltage for a given monitored element.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A15">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A15</xs:enumeration>
+    <dc:identifier>A15</dc:identifier>
+    <rdfs:label>Zero-Balance flow</rdfs:label>
+    <skos:prefLabel>Zero-Balance flow</skos:prefLabel>
+    <skos:definition>This is the amount of power affected by a contingency that reflects a situation with a scheduled exchange of zero.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A16">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A16</xs:enumeration>
+    <dc:identifier>A16</dc:identifier>
+    <rdfs:label>Available margin after remedial actions</rdfs:label>
+    <skos:prefLabel>Available margin after remedial actions</skos:prefLabel>
+    <skos:definition>This is the available flow margin adjusted for the consideration of remedial actions in capacity calculation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A17">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A17</xs:enumeration>
+    <dc:identifier>A17</dc:identifier>
+    <rdfs:label>Loss Factor</rdfs:label>
+    <skos:prefLabel>Loss Factor</skos:prefLabel>
+    <skos:definition>This is the loss factor for an asset.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A18">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A18</xs:enumeration>
+    <dc:identifier>A18</dc:identifier>
+    <rdfs:label>Adjustment for minimum RAM</rdfs:label>
+    <skos:prefLabel>Adjustment for minimum RAM</skos:prefLabel>
+    <skos:definition>This is the adjustment applied to the capacity of a branch to have a minimum RAM (Remaining Available Margin) available for commercial exchanges.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A19">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A19</xs:enumeration>
+    <dc:identifier>A19</dc:identifier>
+    <rdfs:label>Tap changer</rdfs:label>
+    <skos:prefLabel>Tap changer</skos:prefLabel>
+    <skos:definition>The position of a Tap changer.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A20">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A20</xs:enumeration>
+    <dc:identifier>A20</dc:identifier>
+    <rdfs:label>Regulator mode</rdfs:label>
+    <skos:prefLabel>Regulator mode</skos:prefLabel>
+    <skos:definition>A measurement type indicating the control mode of a regulator, i.e. from voltage regulation to fixed MVAR regulation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A21">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A21</xs:enumeration>
+    <dc:identifier>A21</dc:identifier>
+    <rdfs:label>Regulator set-point</rdfs:label>
+    <skos:prefLabel>Regulator set-point</skos:prefLabel>
+    <skos:definition>The set-point of a regulator. A regulator can be a tap changer, a synchronous machine, a SVC or a shunt.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A22">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A22</xs:enumeration>
+    <dc:identifier>A22</dc:identifier>
+    <rdfs:label>Reference Flow</rdfs:label>
+    <skos:prefLabel>Reference Flow</skos:prefLabel>
+    <skos:definition>This is the amount of power affected by a contingency that reflects a situation with scheduled exchanges from a reference situation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAnalogTypeList/A23">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAnalogTypeList"/>
+    <xs:enumeration>A23</xs:enumeration>
+    <dc:identifier>A23</dc:identifier>
+    <rdfs:label>CO2 emission</rdfs:label>
+    <skos:prefLabel>CO2 emission</skos:prefLabel>
+    <skos:definition>This is the CO2 emission from one or several assets.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,1318 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <dcat:Distribution rdf:about="urn:uuid:16709688-f67d-4754-a6b1-8d7b781a8107">
+    <rdfs:label>entsoe-codelist-StandardMessageTypeList.rdf</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
+    <ecl:Version>80</ecl:Version>
+    <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
+    <ecl:Release>0</ecl:Release>
+    <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
+  </dcat:Distribution>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardMessageTypeList">
+    <rdfs:label>StandardMessageTypeList</rdfs:label>
+    <skos:prefLabel>StandardMessageTypeList</skos:prefLabel>
+    <dc:identifier>ET0003</dc:identifier>
+    <skos:definition>The coded type of a document. The message type describes the principal characteristic of a document.
+This enumeration is used in the XML instances based on IEC 62325.</skos:definition>
+    <ecl:Uid>ET0003</ecl:Uid>
+    <ecl:Definition>The coded type of a document. The message type describes the principal characteristic of a document.
+This enumeration is used in the XML instances based on IEC 62325.</ecl:Definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A01</xs:enumeration>
+    <dc:identifier>A01</dc:identifier>
+    <rdfs:label>Balance responsible schedule</rdfs:label>
+    <skos:prefLabel>Balance responsible schedule</skos:prefLabel>
+    <skos:definition>A schedule which has been prepared by a balance responsible party providing planned schedule information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A02</xs:enumeration>
+    <dc:identifier>A02</dc:identifier>
+    <rdfs:label>Allocated capacity schedule</rdfs:label>
+    <skos:prefLabel>Allocated capacity schedule</skos:prefLabel>
+    <skos:definition>A schedule which has been prepared by a capacity allocator providing allocated capacity.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A03">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A03</xs:enumeration>
+    <dc:identifier>A03</dc:identifier>
+    <rdfs:label>Balance area schedule</rdfs:label>
+    <skos:prefLabel>Balance area schedule</skos:prefLabel>
+    <skos:definition>A schedule that provides the planned schedule information for a balance area.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A04">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A04</xs:enumeration>
+    <dc:identifier>A04</dc:identifier>
+    <rdfs:label>System Operator area schedule</rdfs:label>
+    <skos:prefLabel>System Operator area schedule</skos:prefLabel>
+    <skos:definition>A compilation of all external schedules concerning two System Operator areas or a connector concerning two System Operator of all balance responsible parties.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A05">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A05</xs:enumeration>
+    <dc:identifier>A05</dc:identifier>
+    <rdfs:label>Control block area schedule</rdfs:label>
+    <skos:prefLabel>Control block area schedule</skos:prefLabel>
+    <skos:definition>A compilation of all the exchange programs of all control areas for one control block with all neighbouring control areas of a neighbouring control block.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A06">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A06</xs:enumeration>
+    <dc:identifier>A06</dc:identifier>
+    <rdfs:label>Coordination center area schedule</rdfs:label>
+    <skos:prefLabel>Coordination center area schedule</skos:prefLabel>
+    <skos:definition>A compilation of the exchange programs of all exchange blocks divided into UCTE south and north.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A07">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A07</xs:enumeration>
+    <dc:identifier>A07</dc:identifier>
+    <rdfs:label>Intermediate confirmation report</rdfs:label>
+    <skos:prefLabel>Intermediate confirmation report</skos:prefLabel>
+    <skos:definition>An intermediate confirmation report that may be produced between final cutoffs.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A08">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A08</xs:enumeration>
+    <dc:identifier>A08</dc:identifier>
+    <rdfs:label>Final confirmation report</rdfs:label>
+    <skos:prefLabel>Final confirmation report</skos:prefLabel>
+    <skos:definition>A final confirmation report that is produced after a final cutoff.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A09">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A09</xs:enumeration>
+    <dc:identifier>A09</dc:identifier>
+    <rdfs:label>Finalised schedule</rdfs:label>
+    <skos:prefLabel>Finalised schedule</skos:prefLabel>
+    <skos:definition>A compilation of a set of schedules that have been finalized after a given cutoff.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A10">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A10</xs:enumeration>
+    <dc:identifier>A10</dc:identifier>
+    <rdfs:label>Regulation data report</rdfs:label>
+    <skos:prefLabel>Regulation data report</skos:prefLabel>
+    <skos:definition>A compilation of the time series employed on a given day to ensure the balance of the system.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A11">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A11</xs:enumeration>
+    <dc:identifier>A11</dc:identifier>
+    <rdfs:label>Aggregated energy data report</rdfs:label>
+    <skos:prefLabel>Aggregated energy data report</skos:prefLabel>
+    <skos:definition>A compilation of the time series of all the meter readings or their equivalent for a given period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A12">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A12</xs:enumeration>
+    <dc:identifier>A12</dc:identifier>
+    <rdfs:label>Imbalance report</rdfs:label>
+    <skos:prefLabel>Imbalance report</skos:prefLabel>
+    <skos:definition>The report containing the complete situation of a given period for a party and including the schedules, regulation data and actual or calculated readings.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A13">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A13</xs:enumeration>
+    <dc:identifier>A13</dc:identifier>
+    <rdfs:label>Interconnection Capacity</rdfs:label>
+    <skos:prefLabel>Interconnection Capacity</skos:prefLabel>
+    <skos:definition>Document for cross-border capacity exchanges.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A14">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A14</xs:enumeration>
+    <dc:identifier>A14</dc:identifier>
+    <rdfs:label>Resource Provider Resource Schedule</rdfs:label>
+    <skos:prefLabel>Resource Provider Resource Schedule</skos:prefLabel>
+    <skos:definition>A document providing the schedules for resource objects submitted by a resource provider.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A15">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A15</xs:enumeration>
+    <dc:identifier>A15</dc:identifier>
+    <rdfs:label>Acquiring System Operator Reserve Schedule</rdfs:label>
+    <skos:prefLabel>Acquiring System Operator Reserve Schedule</skos:prefLabel>
+    <skos:definition>A document providing reserve purchases submitted by an Acquiring System Operator.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A16">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A16</xs:enumeration>
+    <dc:identifier>A16</dc:identifier>
+    <rdfs:label>Anomaly Report</rdfs:label>
+    <skos:prefLabel>Anomaly Report</skos:prefLabel>
+    <skos:definition>A document providing anomaly information for the receiving party to correct.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A17">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A17</xs:enumeration>
+    <dc:identifier>A17</dc:identifier>
+    <rdfs:label>Acknowledgement Document</rdfs:label>
+    <skos:prefLabel>Acknowledgement Document</skos:prefLabel>
+    <skos:definition>A document providing acknowledgement information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A18">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A18</xs:enumeration>
+    <dc:identifier>A18</dc:identifier>
+    <rdfs:label>Confirmation report</rdfs:label>
+    <skos:prefLabel>Confirmation report</skos:prefLabel>
+    <skos:definition>A document providing confirmation information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A19">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A19</xs:enumeration>
+    <dc:identifier>A19</dc:identifier>
+    <rdfs:label>Capacity for Resale</rdfs:label>
+    <skos:prefLabel>Capacity for Resale</skos:prefLabel>
+    <skos:definition>A document providing information about capacity for resale.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A20">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A20</xs:enumeration>
+    <dc:identifier>A20</dc:identifier>
+    <rdfs:label>Approved Capacity Transfer</rdfs:label>
+    <skos:prefLabel>Approved Capacity Transfer</skos:prefLabel>
+    <skos:definition>A document to approve a capacity transfer.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A21">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A21</xs:enumeration>
+    <dc:identifier>A21</dc:identifier>
+    <rdfs:label>Capacity transfer notification</rdfs:label>
+    <skos:prefLabel>Capacity transfer notification</skos:prefLabel>
+    <skos:definition>A document notifying a capacity transfer.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A22">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A22</xs:enumeration>
+    <dc:identifier>A22</dc:identifier>
+    <rdfs:label>Transmission rights portfolio</rdfs:label>
+    <skos:prefLabel>Transmission rights portfolio</skos:prefLabel>
+    <skos:definition>A document providing the portfolio of the transmission capacity rights of a market participant.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A23">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A23</xs:enumeration>
+    <dc:identifier>A23</dc:identifier>
+    <rdfs:label>Allocations</rdfs:label>
+    <skos:prefLabel>Allocations</skos:prefLabel>
+    <skos:definition>A document providing the capacity allocations for a border.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A24">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A24</xs:enumeration>
+    <dc:identifier>A24</dc:identifier>
+    <rdfs:label>Bid document</rdfs:label>
+    <skos:prefLabel>Bid document</skos:prefLabel>
+    <skos:definition>A document providing bid information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A25">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A25</xs:enumeration>
+    <dc:identifier>A25</dc:identifier>
+    <rdfs:label>Allocation result document</rdfs:label>
+    <skos:prefLabel>Allocation result document</skos:prefLabel>
+    <skos:definition>A document providing the allocation results of an auction.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A26">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A26</xs:enumeration>
+    <dc:identifier>A26</dc:identifier>
+    <rdfs:label>Capacity document</rdfs:label>
+    <skos:prefLabel>Capacity document</skos:prefLabel>
+    <skos:definition>A document providing capacity information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A27">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A27</xs:enumeration>
+    <dc:identifier>A27</dc:identifier>
+    <rdfs:label>Rights document</rdfs:label>
+    <skos:prefLabel>Rights document</skos:prefLabel>
+    <skos:definition>A document providing transmission capacity rights information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A28">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A28</xs:enumeration>
+    <dc:identifier>A28</dc:identifier>
+    <rdfs:label>Generation availability schedule</rdfs:label>
+    <skos:prefLabel>Generation availability schedule</skos:prefLabel>
+    <skos:definition>This document contains information related to energy availability.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A30">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A30</xs:enumeration>
+    <dc:identifier>A30</dc:identifier>
+    <rdfs:label>Cross border schedule</rdfs:label>
+    <skos:prefLabel>Cross border schedule</skos:prefLabel>
+    <skos:definition>This document contains the cross border schedules for all the borders of a given country where energy is exchanged.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A31">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A31</xs:enumeration>
+    <dc:identifier>A31</dc:identifier>
+    <rdfs:label>Agreed capacity</rdfs:label>
+    <skos:prefLabel>Agreed capacity</skos:prefLabel>
+    <skos:definition>The capacity agreed between parties.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A32">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A32</xs:enumeration>
+    <dc:identifier>A32</dc:identifier>
+    <rdfs:label>Proposed capacity</rdfs:label>
+    <skos:prefLabel>Proposed capacity</skos:prefLabel>
+    <skos:definition>The capacity proposed for agreement between parties.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A33">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A33</xs:enumeration>
+    <dc:identifier>A33</dc:identifier>
+    <rdfs:label>System vertical load</rdfs:label>
+    <skos:prefLabel>System vertical load</skos:prefLabel>
+    <skos:definition>The sum of all flows out of the transmission grid via directly connected transformers and lines to distribution grids and end consumers as known by the System Operator.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A34">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A34</xs:enumeration>
+    <dc:identifier>A34</dc:identifier>
+    <rdfs:label>Escalation document</rdfs:label>
+    <skos:prefLabel>Escalation document</skos:prefLabel>
+    <skos:definition>A document which requesting the escalation of a situation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A35">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A35</xs:enumeration>
+    <dc:identifier>A35</dc:identifier>
+    <rdfs:label>Trouble shooting document</rdfs:label>
+    <skos:prefLabel>Trouble shooting document</skos:prefLabel>
+    <skos:definition>A document providing trouble shooting information for the resolution of a problem.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A36">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A36</xs:enumeration>
+    <dc:identifier>A36</dc:identifier>
+    <rdfs:label>Deactivation document</rdfs:label>
+    <skos:prefLabel>Deactivation document</skos:prefLabel>
+    <skos:definition>A document providing deactivation information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A37">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A37</xs:enumeration>
+    <dc:identifier>A37</dc:identifier>
+    <rdfs:label>Reserve tender document</rdfs:label>
+    <skos:prefLabel>Reserve tender document</skos:prefLabel>
+    <skos:definition>The document that is used for the tendering for reserves within the ERRP process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A38">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A38</xs:enumeration>
+    <dc:identifier>A38</dc:identifier>
+    <rdfs:label>Reserve Allocation Result Document</rdfs:label>
+    <skos:prefLabel>Reserve Allocation Result Document</skos:prefLabel>
+    <skos:definition>The document used to provide the results of a Reserve auction.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A39">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A39</xs:enumeration>
+    <dc:identifier>A39</dc:identifier>
+    <rdfs:label>SATCR activation</rdfs:label>
+    <skos:prefLabel>SATCR activation</skos:prefLabel>
+    <skos:definition>The document is used to provide the activation of reserves through the SATCR process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A40">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A40</xs:enumeration>
+    <dc:identifier>A40</dc:identifier>
+    <rdfs:label>DATCR activation</rdfs:label>
+    <skos:prefLabel>DATCR activation</skos:prefLabel>
+    <skos:definition>The document is used to provide the activation of reserves through the DATCR process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A41">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A41</xs:enumeration>
+    <dc:identifier>A41</dc:identifier>
+    <rdfs:label>Activation response</rdfs:label>
+    <skos:prefLabel>Activation response</skos:prefLabel>
+    <skos:definition>The document is used to provide a response to a request to activate reserves.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A42">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A42</xs:enumeration>
+    <dc:identifier>A42</dc:identifier>
+    <rdfs:label>Tender reduction</rdfs:label>
+    <skos:prefLabel>Tender reduction</skos:prefLabel>
+    <skos:definition>The document is used to provide information concerning the reduction of a previously submitted tender.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A43">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A43</xs:enumeration>
+    <dc:identifier>A43</dc:identifier>
+    <rdfs:label>MOL Document</rdfs:label>
+    <skos:prefLabel>MOL Document</skos:prefLabel>
+    <skos:definition>The document is used to provide Merit Order List information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A44">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A44</xs:enumeration>
+    <dc:identifier>A44</dc:identifier>
+    <rdfs:label>Price Document</rdfs:label>
+    <skos:prefLabel>Price Document</skos:prefLabel>
+    <skos:definition>The document is used to provide market price information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A45">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A45</xs:enumeration>
+    <dc:identifier>A45</dc:identifier>
+    <rdfs:label>Measurement Value Document</rdfs:label>
+    <skos:prefLabel>Measurement Value Document</skos:prefLabel>
+    <skos:definition>The document is used to provide measurement information from measurement devices.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A46">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A46</xs:enumeration>
+    <dc:identifier>A46</dc:identifier>
+    <rdfs:label>SOAM Document</rdfs:label>
+    <skos:prefLabel>SOAM Document</skos:prefLabel>
+    <skos:definition>The document is used to provide system operator accounting data for matching.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A47">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A47</xs:enumeration>
+    <dc:identifier>A47</dc:identifier>
+    <rdfs:label>SOVA Document</rdfs:label>
+    <skos:prefLabel>SOVA Document</skos:prefLabel>
+    <skos:definition>The document is used to provide system operator validated accounting data.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A48">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A48</xs:enumeration>
+    <dc:identifier>A48</dc:identifier>
+    <rdfs:label>CCVA Document</rdfs:label>
+    <skos:prefLabel>CCVA Document</skos:prefLabel>
+    <skos:definition>The document is used to provide coordination center validated accounting data.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A49">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A49</xs:enumeration>
+    <dc:identifier>A49</dc:identifier>
+    <rdfs:label>Daily settlement document</rdfs:label>
+    <skos:prefLabel>Daily settlement document</skos:prefLabel>
+    <skos:definition>The document is used to provide daily settlement information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A50">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A50</xs:enumeration>
+    <dc:identifier>A50</dc:identifier>
+    <rdfs:label>Weekly settlement document</rdfs:label>
+    <skos:prefLabel>Weekly settlement document</skos:prefLabel>
+    <skos:definition>The document is used to provide weekly settlement information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A51">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A51</xs:enumeration>
+    <dc:identifier>A51</dc:identifier>
+    <rdfs:label>Capacity Auction Specification Document</rdfs:label>
+    <skos:prefLabel>Capacity Auction Specification Document</skos:prefLabel>
+    <skos:definition>The document is used to provide capacity auction specification information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A52">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A52</xs:enumeration>
+    <dc:identifier>A52</dc:identifier>
+    <rdfs:label>Market Coupling Results Document</rdfs:label>
+    <skos:prefLabel>Market Coupling Results Document</skos:prefLabel>
+    <skos:definition>The document is used to provide the results of a market coupling auction.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A53">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A53</xs:enumeration>
+    <dc:identifier>A53</dc:identifier>
+    <rdfs:label>Outage publication Document</rdfs:label>
+    <skos:prefLabel>Outage publication Document</skos:prefLabel>
+    <skos:definition>The document is used to provide the outage information for publication.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A54">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A54</xs:enumeration>
+    <dc:identifier>A54</dc:identifier>
+    <rdfs:label>Forced generation outage Document</rdfs:label>
+    <skos:prefLabel>Forced generation outage Document</skos:prefLabel>
+    <skos:definition>A document providing information on forced generation outages.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A55">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A55</xs:enumeration>
+    <dc:identifier>A55</dc:identifier>
+    <rdfs:label>Summarised Market Schedule</rdfs:label>
+    <skos:prefLabel>Summarised Market Schedule</skos:prefLabel>
+    <skos:definition>A compilation of all external schedules concerning two Market Balance Areas of all balance responsible parties.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A56">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A56</xs:enumeration>
+    <dc:identifier>A56</dc:identifier>
+    <rdfs:label>Compensation Program Schedule</rdfs:label>
+    <skos:prefLabel>Compensation Program Schedule</skos:prefLabel>
+    <skos:definition>A schedule that provides the schedule information for the compensation of unintended deviation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A57">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A57</xs:enumeration>
+    <dc:identifier>A57</dc:identifier>
+    <rdfs:label>Load Frequency Control Program Schedule</rdfs:label>
+    <skos:prefLabel>Load Frequency Control Program Schedule</skos:prefLabel>
+    <skos:definition>A schedule that provides the schedule information for the Load Frequency Control Program of a Control Area or a Control Block.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A58">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A58</xs:enumeration>
+    <dc:identifier>A58</dc:identifier>
+    <rdfs:label>Timeframe Independent Schedule</rdfs:label>
+    <skos:prefLabel>Timeframe Independent Schedule</skos:prefLabel>
+    <skos:definition>A compilation of all external Timeframe Independent Schedules concerning two System Operators.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A59">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A59</xs:enumeration>
+    <dc:identifier>A59</dc:identifier>
+    <rdfs:label>Information request</rdfs:label>
+    <skos:prefLabel>Information request</skos:prefLabel>
+    <skos:definition>An information request being made concerning some specific information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A60">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A60</xs:enumeration>
+    <dc:identifier>A60</dc:identifier>
+    <rdfs:label>status request for a position independently from a specific process</rdfs:label>
+    <skos:prefLabel>status request for a position independently from a specific process</skos:prefLabel>
+    <skos:definition>A status request concerning the position of an object independently of any ongoing processes.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A61">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A61</xs:enumeration>
+    <dc:identifier>A61</dc:identifier>
+    <rdfs:label>Estimated Net Transfer Capacity</rdfs:label>
+    <skos:prefLabel>Estimated Net Transfer Capacity</skos:prefLabel>
+    <skos:definition>The estimated net transfer capacity for a given border.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A62">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A62</xs:enumeration>
+    <dc:identifier>A62</dc:identifier>
+    <rdfs:label>Compensation rights</rdfs:label>
+    <skos:prefLabel>Compensation rights</skos:prefLabel>
+    <skos:definition>The capacity rights that have been allocated as compensation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A63">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A63</xs:enumeration>
+    <dc:identifier>A63</dc:identifier>
+    <rdfs:label>Redispatch notice</rdfs:label>
+    <skos:prefLabel>Redispatch notice</skos:prefLabel>
+    <skos:definition>A notice to confirm the actions agreed between System Operators to resolve a congestion situation through redispatch.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A64">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A64</xs:enumeration>
+    <dc:identifier>A64</dc:identifier>
+    <rdfs:label>Tender reduction response</rdfs:label>
+    <skos:prefLabel>Tender reduction response</skos:prefLabel>
+    <skos:definition>A response to a tender reduction request that provides  corrections to the initial document.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A65">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A65</xs:enumeration>
+    <dc:identifier>A65</dc:identifier>
+    <rdfs:label>System total load</rdfs:label>
+    <skos:prefLabel>System total load</skos:prefLabel>
+    <skos:definition>Total load', including losses without power used for energy storage, is equal to generation deducted with exports, added with imports and deducted with power used for energy storage.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A66">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A66</xs:enumeration>
+    <dc:identifier>A66</dc:identifier>
+    <rdfs:label>Final MOL</rdfs:label>
+    <skos:prefLabel>Final MOL</skos:prefLabel>
+    <skos:definition>A document providing the information concerning the situation of the MOL at the end of an activation period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A67">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A67</xs:enumeration>
+    <dc:identifier>A67</dc:identifier>
+    <rdfs:label>Resource Provider Schedule for production/consumption</rdfs:label>
+    <skos:prefLabel>Resource Provider Schedule for production/consumption</skos:prefLabel>
+    <skos:definition>A document providing the schedules for production/consumption for resource objects submitted by a resource provider.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A68">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A68</xs:enumeration>
+    <dc:identifier>A68</dc:identifier>
+    <rdfs:label>Installed generation per type</rdfs:label>
+    <skos:prefLabel>Installed generation per type</skos:prefLabel>
+    <skos:definition>A document providing the installed generation per generation type.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A69">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A69</xs:enumeration>
+    <dc:identifier>A69</dc:identifier>
+    <rdfs:label>Wind and solar forecast</rdfs:label>
+    <skos:prefLabel>Wind and solar forecast</skos:prefLabel>
+    <skos:definition>A document providing the forecast of wind and solar generation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A70">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A70</xs:enumeration>
+    <dc:identifier>A70</dc:identifier>
+    <rdfs:label>Load forecast margin</rdfs:label>
+    <skos:prefLabel>Load forecast margin</skos:prefLabel>
+    <skos:definition>A document providing the load forecast margin for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A71">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A71</xs:enumeration>
+    <dc:identifier>A71</dc:identifier>
+    <rdfs:label>Generation forecast</rdfs:label>
+    <skos:prefLabel>Generation forecast</skos:prefLabel>
+    <skos:definition>A document providing the generation forecast for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A72">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A72</xs:enumeration>
+    <dc:identifier>A72</dc:identifier>
+    <rdfs:label>Reservoir filling information</rdfs:label>
+    <skos:prefLabel>Reservoir filling information</skos:prefLabel>
+    <skos:definition>A document providing information concerning the filling of reservoirs.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A73">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A73</xs:enumeration>
+    <dc:identifier>A73</dc:identifier>
+    <rdfs:label>Actual generation</rdfs:label>
+    <skos:prefLabel>Actual generation</skos:prefLabel>
+    <skos:definition>A document providing the actual generation for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A74">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A74</xs:enumeration>
+    <dc:identifier>A74</dc:identifier>
+    <rdfs:label>Wind and solar generation</rdfs:label>
+    <skos:prefLabel>Wind and solar generation</skos:prefLabel>
+    <skos:definition>A document providing the generation of wind and solar energy for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A75">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A75</xs:enumeration>
+    <dc:identifier>A75</dc:identifier>
+    <rdfs:label>Actual generation per type</rdfs:label>
+    <skos:prefLabel>Actual generation per type</skos:prefLabel>
+    <skos:definition>A document providing the actual generation per generation type for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A76">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A76</xs:enumeration>
+    <dc:identifier>A76</dc:identifier>
+    <rdfs:label>Load unavailability</rdfs:label>
+    <skos:prefLabel>Load unavailability</skos:prefLabel>
+    <skos:definition>A document providing the unavailability of units providing load on the network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A77">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A77</xs:enumeration>
+    <dc:identifier>A77</dc:identifier>
+    <rdfs:label>Production unavailability</rdfs:label>
+    <skos:prefLabel>Production unavailability</skos:prefLabel>
+    <skos:definition>A document providing the unavailability of production units providing energy to the network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A78">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A78</xs:enumeration>
+    <dc:identifier>A78</dc:identifier>
+    <rdfs:label>Transmission unavailability</rdfs:label>
+    <skos:prefLabel>Transmission unavailability</skos:prefLabel>
+    <skos:definition>A document providing the unavailability of transmission capacity on the network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A79">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A79</xs:enumeration>
+    <dc:identifier>A79</dc:identifier>
+    <rdfs:label>Offshore grid infrastructure unavailability</rdfs:label>
+    <skos:prefLabel>Offshore grid infrastructure unavailability</skos:prefLabel>
+    <skos:definition>A document providing the unavailability of an offshore grid infrastructure to the network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A80">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A80</xs:enumeration>
+    <dc:identifier>A80</dc:identifier>
+    <rdfs:label>Generation unavailability</rdfs:label>
+    <skos:prefLabel>Generation unavailability</skos:prefLabel>
+    <skos:definition>A document providing the unavailability of generation units providing energy to the network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A81">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A81</xs:enumeration>
+    <dc:identifier>A81</dc:identifier>
+    <rdfs:label>Contracted reserves</rdfs:label>
+    <skos:prefLabel>Contracted reserves</skos:prefLabel>
+    <skos:definition>A document providing the reserves contracted for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A82">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A82</xs:enumeration>
+    <dc:identifier>A82</dc:identifier>
+    <rdfs:label>Accepted offers</rdfs:label>
+    <skos:prefLabel>Accepted offers</skos:prefLabel>
+    <skos:definition>A document providing the offers of reserves that have been accepted for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A83">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A83</xs:enumeration>
+    <dc:identifier>A83</dc:identifier>
+    <rdfs:label>Activated balancing quantities</rdfs:label>
+    <skos:prefLabel>Activated balancing quantities</skos:prefLabel>
+    <skos:definition>A document providing the quantities of reserves that have been activated for balancing.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A84">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A84</xs:enumeration>
+    <dc:identifier>A84</dc:identifier>
+    <rdfs:label>Activated balancing prices</rdfs:label>
+    <skos:prefLabel>Activated balancing prices</skos:prefLabel>
+    <skos:definition>A document providing the prices of the reserves that have been activated for balancing.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A85">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A85</xs:enumeration>
+    <dc:identifier>A85</dc:identifier>
+    <rdfs:label>Imbalance prices</rdfs:label>
+    <skos:prefLabel>Imbalance prices</skos:prefLabel>
+    <skos:definition>A document providing the prices of reserves due to imbalance for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A86">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A86</xs:enumeration>
+    <dc:identifier>A86</dc:identifier>
+    <rdfs:label>Imbalance volume</rdfs:label>
+    <skos:prefLabel>Imbalance volume</skos:prefLabel>
+    <skos:definition>A document providing the volume of the imbalance for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A87">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A87</xs:enumeration>
+    <dc:identifier>A87</dc:identifier>
+    <rdfs:label>Financial situation</rdfs:label>
+    <skos:prefLabel>Financial situation</skos:prefLabel>
+    <skos:definition>A document providing the financial situation for reserves.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A88">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A88</xs:enumeration>
+    <dc:identifier>A88</dc:identifier>
+    <rdfs:label>Cross border balancing</rdfs:label>
+    <skos:prefLabel>Cross border balancing</skos:prefLabel>
+    <skos:definition>A document providing the cross border balancing requirements for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A89">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A89</xs:enumeration>
+    <dc:identifier>A89</dc:identifier>
+    <rdfs:label>Contracted reserve prices</rdfs:label>
+    <skos:prefLabel>Contracted reserve prices</skos:prefLabel>
+    <skos:definition>A document providing the price of reserves contracted for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A90">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A90</xs:enumeration>
+    <dc:identifier>A90</dc:identifier>
+    <rdfs:label>Interconnection network expansion</rdfs:label>
+    <skos:prefLabel>Interconnection network expansion</skos:prefLabel>
+    <skos:definition>A document providing information on the expansion of the interconnection network.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A91">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A91</xs:enumeration>
+    <dc:identifier>A91</dc:identifier>
+    <rdfs:label>Counter trade notice</rdfs:label>
+    <skos:prefLabel>Counter trade notice</skos:prefLabel>
+    <skos:definition>A document providing information on counter trades for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A92">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A92</xs:enumeration>
+    <dc:identifier>A92</dc:identifier>
+    <rdfs:label>Congestion costs</rdfs:label>
+    <skos:prefLabel>Congestion costs</skos:prefLabel>
+    <skos:definition>A document providing the cost of congestion for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A93">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A93</xs:enumeration>
+    <dc:identifier>A93</dc:identifier>
+    <rdfs:label>DC link capacity</rdfs:label>
+    <skos:prefLabel>DC link capacity</skos:prefLabel>
+    <skos:definition>A document providing the DC links for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A94">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A94</xs:enumeration>
+    <dc:identifier>A94</dc:identifier>
+    <rdfs:label>Non EU allocations</rdfs:label>
+    <skos:prefLabel>Non EU allocations</skos:prefLabel>
+    <skos:definition>A document providing allocations made to non EU member states.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A95">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A95</xs:enumeration>
+    <dc:identifier>A95</dc:identifier>
+    <rdfs:label>Configuration document</rdfs:label>
+    <skos:prefLabel>Configuration document</skos:prefLabel>
+    <skos:definition>A document providing configuration information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A96">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A96</xs:enumeration>
+    <dc:identifier>A96</dc:identifier>
+    <rdfs:label>Redispatch activation document</rdfs:label>
+    <skos:prefLabel>Redispatch activation document</skos:prefLabel>
+    <skos:definition>A document enabling the activation of a redispatch notice.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A97">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A97</xs:enumeration>
+    <dc:identifier>A97</dc:identifier>
+    <rdfs:label>Detailed activation history document</rdfs:label>
+    <skos:prefLabel>Detailed activation history document</skos:prefLabel>
+    <skos:definition>A document enabling a detailed history of activations.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A98">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A98</xs:enumeration>
+    <dc:identifier>A98</dc:identifier>
+    <rdfs:label>Aggregated activation history document</rdfs:label>
+    <skos:prefLabel>Aggregated activation history document</skos:prefLabel>
+    <skos:definition>A document enabling an aggregated history of activations.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/A99">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>A99</xs:enumeration>
+    <dc:identifier>A99</dc:identifier>
+    <rdfs:label>HVDC Link constraints</rdfs:label>
+    <skos:prefLabel>HVDC Link constraints</skos:prefLabel>
+    <skos:definition>A document providing the information concerning the maximum and minimum active power flow through each link can limited.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B01</xs:enumeration>
+    <dc:identifier>B01</dc:identifier>
+    <rdfs:label>HVDC Configuration</rdfs:label>
+    <skos:prefLabel>HVDC Configuration</skos:prefLabel>
+    <skos:definition>A document providing the information concerning the power set point. The mode in which the  HVDC is managed.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B02</xs:enumeration>
+    <dc:identifier>B02</dc:identifier>
+    <rdfs:label>HVDC Schedule</rdfs:label>
+    <skos:prefLabel>HVDC Schedule</skos:prefLabel>
+    <skos:definition>A document providing the information for operating DC links.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B03">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B03</xs:enumeration>
+    <dc:identifier>B03</dc:identifier>
+    <rdfs:label>EIC code request</rdfs:label>
+    <skos:prefLabel>EIC code request</skos:prefLabel>
+    <skos:definition>A document providing the information requesting a new EIC code.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B04">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B04</xs:enumeration>
+    <dc:identifier>B04</dc:identifier>
+    <rdfs:label>EIC code information</rdfs:label>
+    <skos:prefLabel>EIC code information</skos:prefLabel>
+    <skos:definition>A document providing EIC information  in a central registry exchange or information to an EIC participant.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B05">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B05</xs:enumeration>
+    <dc:identifier>B05</dc:identifier>
+    <rdfs:label>EIC code publication</rdfs:label>
+    <skos:prefLabel>EIC code publication</skos:prefLabel>
+    <skos:definition>A document providing EIC publication information in a web site publication of a limited set of information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B06">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B06</xs:enumeration>
+    <dc:identifier>B06</dc:identifier>
+    <rdfs:label>Critical network element determination</rdfs:label>
+    <skos:prefLabel>Critical network element determination</skos:prefLabel>
+    <skos:definition>A document providing all the elements necessary for the capacity coordinator to determine the transfer capacity and the associated critical network elements.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B07">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B07</xs:enumeration>
+    <dc:identifier>B07</dc:identifier>
+    <rdfs:label>Critical network element publication</rdfs:label>
+    <skos:prefLabel>Critical network element publication</skos:prefLabel>
+    <skos:definition>A document providing all the elements necessary for the market information aggregator and TSOs to know the critical network elements which limit the transfer capacity.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B08">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B08</xs:enumeration>
+    <dc:identifier>B08</dc:identifier>
+    <rdfs:label>Flow based domain</rdfs:label>
+    <skos:prefLabel>Flow based domain</skos:prefLabel>
+    <skos:definition>A document providing the capacity domain and its limits available for the TSO.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B09">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B09</xs:enumeration>
+    <dc:identifier>B09</dc:identifier>
+    <rdfs:label>Flow based domain publication</rdfs:label>
+    <skos:prefLabel>Flow based domain publication</skos:prefLabel>
+    <skos:definition>A document providing the capacity domain and its limits available for the market.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B10">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B10</xs:enumeration>
+    <dc:identifier>B10</dc:identifier>
+    <rdfs:label>Flow based domain market impact publication</rdfs:label>
+    <skos:prefLabel>Flow based domain market impact publication</skos:prefLabel>
+    <skos:definition>A document providing the capacity domain and its impacts on the market to be published.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B11">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B11</xs:enumeration>
+    <dc:identifier>B11</dc:identifier>
+    <rdfs:label>Anonymized flow based parameters publication</rdfs:label>
+    <skos:prefLabel>Anonymized flow based parameters publication</skos:prefLabel>
+    <skos:definition>A document providing all the relevant flow based parameters in case of flow based capacity allocation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B12">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B12</xs:enumeration>
+    <dc:identifier>B12</dc:identifier>
+    <rdfs:label>Critical network element market impact publication</rdfs:label>
+    <skos:prefLabel>Critical network element market impact publication</skos:prefLabel>
+    <skos:definition>A document providing the critical network elements and its impacts on the market to be published.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B13">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B13</xs:enumeration>
+    <dc:identifier>B13</dc:identifier>
+    <rdfs:label>Weather document</rdfs:label>
+    <skos:prefLabel>Weather document</skos:prefLabel>
+    <skos:definition>An estimation or prediction in advance of the weather by analysis of meteorological data and the results of what actually happened with the weather.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B14">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B14</xs:enumeration>
+    <dc:identifier>B14</dc:identifier>
+    <rdfs:label>Energy prognosis document</rdfs:label>
+    <skos:prefLabel>Energy prognosis document</skos:prefLabel>
+    <skos:definition>A document to provide the prognosis of energy production/load for a given period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B15">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B15</xs:enumeration>
+    <dc:identifier>B15</dc:identifier>
+    <rdfs:label>Network constraint document</rdfs:label>
+    <skos:prefLabel>Network constraint document</skos:prefLabel>
+    <skos:definition>A document providing the network constraint situations used for the load flow studies. A network constraint situation includes contingencies, monitored elements and remedial actions.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B16">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B16</xs:enumeration>
+    <dc:identifier>B16</dc:identifier>
+    <rdfs:label>Aggregated netted external market schedule document</rdfs:label>
+    <skos:prefLabel>Aggregated netted external market schedule document</skos:prefLabel>
+    <skos:definition>A document used to report aggregated netted external market schedules for a given border.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B17">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B17</xs:enumeration>
+    <dc:identifier>B17</dc:identifier>
+    <rdfs:label>Aggregated netted external TSO schedule document</rdfs:label>
+    <skos:prefLabel>Aggregated netted external TSO schedule document</skos:prefLabel>
+    <skos:definition>A document used to report aggregated netted external TSO schedules for a given border.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B18">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B18</xs:enumeration>
+    <dc:identifier>B18</dc:identifier>
+    <rdfs:label>Reporting status market document</rdfs:label>
+    <skos:prefLabel>Reporting status market document</skos:prefLabel>
+    <skos:definition>A document used to report the status of aggregated netted external market schedules, aggregated netted external TSO schedules and compensation program schedules on a given border.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B19">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B19</xs:enumeration>
+    <dc:identifier>B19</dc:identifier>
+    <rdfs:label>Reporting information market document</rdfs:label>
+    <skos:prefLabel>Reporting information market document</skos:prefLabel>
+    <skos:definition>A document used to report  the information concerning aggregated netted external schedules, aggregated netted external market schedules, aggregated netted external TSO schedules, compensation program schedules, netted area position schedules and netted area AC position schedules to an interested party.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B20">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B20</xs:enumeration>
+    <dc:identifier>B20</dc:identifier>
+    <rdfs:label>Status request for a reporting information market document</rdfs:label>
+    <skos:prefLabel>Status request for a reporting information market document</skos:prefLabel>
+    <skos:definition>A document requesting the provision of a reporting information document.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B21">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B21</xs:enumeration>
+    <dc:identifier>B21</dc:identifier>
+    <rdfs:label>Reserve need document</rdfs:label>
+    <skos:prefLabel>Reserve need document</skos:prefLabel>
+    <skos:definition>Used by a TSO to send its reserve needs.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B22">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B22</xs:enumeration>
+    <dc:identifier>B22</dc:identifier>
+    <rdfs:label>Generation and load shift keys document</rdfs:label>
+    <skos:prefLabel>Generation and load shift keys document</skos:prefLabel>
+    <skos:definition>A document providing the values of the generation and load shift keys to be used on network model.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B23">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B23</xs:enumeration>
+    <dc:identifier>B23</dc:identifier>
+    <rdfs:label>Offers to be activated</rdfs:label>
+    <skos:prefLabel>Offers to be activated</skos:prefLabel>
+    <skos:definition>A document containing the outcome of the process, with the list of offers that are to be activated by the TSO concerned and the results for its reserve needs.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B24">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B24</xs:enumeration>
+    <dc:identifier>B24</dc:identifier>
+    <rdfs:label>Clearing price</rdfs:label>
+    <skos:prefLabel>Clearing price</skos:prefLabel>
+    <skos:definition>A document containing the outcome of the process, with the clearing prices for a period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B25">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B25</xs:enumeration>
+    <dc:identifier>B25</dc:identifier>
+    <rdfs:label>Security analysis report</rdfs:label>
+    <skos:prefLabel>Security analysis report</skos:prefLabel>
+    <skos:definition>A document providing a report on a performed security analysis.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B26">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B26</xs:enumeration>
+    <dc:identifier>B26</dc:identifier>
+    <rdfs:label>Aggregated netted external schedule document</rdfs:label>
+    <skos:prefLabel>Aggregated netted external schedule document</skos:prefLabel>
+    <skos:definition>A document used to report aggregated netted external schedules for a given border. </skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B27">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B27</xs:enumeration>
+    <dc:identifier>B27</dc:identifier>
+    <rdfs:label>External TSO schedule</rdfs:label>
+    <skos:prefLabel>External TSO schedule</skos:prefLabel>
+    <skos:definition>A document used to report external TSO schedules for a given border or interconnector.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B28">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B28</xs:enumeration>
+    <dc:identifier>B28</dc:identifier>
+    <rdfs:label>Move of scheduled production</rdfs:label>
+    <skos:prefLabel>Move of scheduled production</skos:prefLabel>
+    <skos:definition>A document indication a move of scheduled production.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B29">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B29</xs:enumeration>
+    <dc:identifier>B29</dc:identifier>
+    <rdfs:label>PS&amp;LC results document</rdfs:label>
+    <skos:prefLabel>PS&amp;LC results document</skos:prefLabel>
+    <skos:definition>A document providing Pole Splitting &amp;amp; Loss Calculation results.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B30">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B30</xs:enumeration>
+    <dc:identifier>B30</dc:identifier>
+    <rdfs:label>Notification data market document</rdfs:label>
+    <skos:prefLabel>Notification data market document</skos:prefLabel>
+    <skos:definition>A document used to notify data to any information receiver.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B31">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B31</xs:enumeration>
+    <dc:identifier>B31</dc:identifier>
+    <rdfs:label>Additional Constraint document</rdfs:label>
+    <skos:prefLabel>Additional Constraint document</skos:prefLabel>
+    <skos:definition>A document describing additional constraints for a capacity calculation process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B32">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B32</xs:enumeration>
+    <dc:identifier>B32</dc:identifier>
+    <rdfs:label>Operational state document</rdfs:label>
+    <skos:prefLabel>Operational state document</skos:prefLabel>
+    <skos:definition>A document used for exchanging operational states for grid assets.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B33">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B33</xs:enumeration>
+    <dc:identifier>B33</dc:identifier>
+    <rdfs:label>Published offered capacity</rdfs:label>
+    <skos:prefLabel>Published offered capacity</skos:prefLabel>
+    <skos:definition>A document providing the most recent values of offered capacity.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B34">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B34</xs:enumeration>
+    <dc:identifier>B34</dc:identifier>
+    <rdfs:label>Market result document</rdfs:label>
+    <skos:prefLabel>Market result document</skos:prefLabel>
+    <skos:definition>Published prices and volumes</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B35">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B35</xs:enumeration>
+    <dc:identifier>B35</dc:identifier>
+    <rdfs:label>Area Configuration document</rdfs:label>
+    <skos:prefLabel>Area Configuration document</skos:prefLabel>
+    <skos:definition>A document containing the definition of areas.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B36">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B36</xs:enumeration>
+    <dc:identifier>B36</dc:identifier>
+    <rdfs:label>Area Composition document</rdfs:label>
+    <skos:prefLabel>Area Composition document</skos:prefLabel>
+    <skos:definition>A document containing the relations between areas, i.e which Metering Grid Areas a Bidding Zone composed of.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B37">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B37</xs:enumeration>
+    <dc:identifier>B37</dc:identifier>
+    <rdfs:label>Connected Areas document</rdfs:label>
+    <skos:prefLabel>Connected Areas document</skos:prefLabel>
+    <skos:definition>A document containing which other areas an area is connected to i.e. which Metering Grid Areas a Metering Grid Area is connected to.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B38">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B38</xs:enumeration>
+    <dc:identifier>B38</dc:identifier>
+    <rdfs:label>Settlement document</rdfs:label>
+    <skos:prefLabel>Settlement document</skos:prefLabel>
+    <skos:definition>A document providing settlement information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B39">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B39</xs:enumeration>
+    <dc:identifier>B39</dc:identifier>
+    <rdfs:label>Imbalance prognosis document</rdfs:label>
+    <skos:prefLabel>Imbalance prognosis document</skos:prefLabel>
+    <skos:definition>A document to provide the prognosis of energy imbalances for a given period.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B40">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B40</xs:enumeration>
+    <dc:identifier>B40</dc:identifier>
+    <rdfs:label>Complete set of bids</rdfs:label>
+    <skos:prefLabel>Complete set of bids</skos:prefLabel>
+    <skos:definition>Submission of complete set of bids. If there are existing bids, they should be replaced.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B41">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B41</xs:enumeration>
+    <dc:identifier>B41</dc:identifier>
+    <rdfs:label>Merged MOL notice</rdfs:label>
+    <skos:prefLabel>Merged MOL notice</skos:prefLabel>
+    <skos:definition>A notice providing information on the MOL merging process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B42">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B42</xs:enumeration>
+    <dc:identifier>B42</dc:identifier>
+    <rdfs:label>K-factor document</rdfs:label>
+    <skos:prefLabel>K-factor document</skos:prefLabel>
+    <skos:definition>A document providing K-factor values.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B43">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B43</xs:enumeration>
+    <dc:identifier>B43</dc:identifier>
+    <rdfs:label>Settlement coordination document</rdfs:label>
+    <skos:prefLabel>Settlement coordination document</skos:prefLabel>
+    <skos:definition>A document providing settlement information for coordination between different parties.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B44">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B44</xs:enumeration>
+    <dc:identifier>B44</dc:identifier>
+    <rdfs:label>Financial settlement document</rdfs:label>
+    <skos:prefLabel>Financial settlement document</skos:prefLabel>
+    <skos:definition>A document providing financial settlement information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B45">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B45</xs:enumeration>
+    <dc:identifier>B45</dc:identifier>
+    <rdfs:label>Bid availability document</rdfs:label>
+    <skos:prefLabel>Bid availability document</skos:prefLabel>
+    <skos:definition>A document providing the detailed reasons for changing the availability or volume of a bid.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardMessageTypeList/B46">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardMessageTypeList"/>
+    <xs:enumeration>B46</xs:enumeration>
+    <dc:identifier>B46</dc:identifier>
+    <rdfs:label>Resource capacity unit document</rdfs:label>
+    <skos:prefLabel>Resource capacity unit document</skos:prefLabel>
+    <skos:definition>A document providing information about resource capacity units.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>
