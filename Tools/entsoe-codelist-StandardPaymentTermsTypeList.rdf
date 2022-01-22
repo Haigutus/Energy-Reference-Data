@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:3b3ef385-cfa3-4441-9455-7f59db1076d6">
+  <dcat:Distribution rdf:about="urn:uuid:1c9fe964-6097-4d71-b404-fd124f0abeb3">
     <rdfs:label>entsoe-codelist-StandardPaymentTermsTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,38 +10,31 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardPaymentTermsTypeList">
-    <rdfs:label>StandardPaymentTermsTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardPaymentTermsTypeList</skos:prefLabel>
     <dc:identifier>ET0041</dc:identifier>
-    <skos:definition>The identification of the different terms of payment.</skos:definition>
-    <ecl:Uid>ET0041</ecl:Uid>
-    <ecl:Definition>The identification of the different terms of payment.</ecl:Definition>
+    <skos:definition xml:lang="en">The identification of the different terms of payment.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPaymentTermsTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPaymentTermsTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPaymentTermsTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Pay as bid</rdfs:label>
     <skos:prefLabel>Pay as bid</skos:prefLabel>
-    <skos:definition>The amount to be paid shall correspond to the amount bid.</skos:definition>
+    <skos:definition xml:lang="en">The amount to be paid shall correspond to the amount bid.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPaymentTermsTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPaymentTermsTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPaymentTermsTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Pay as cleared</rdfs:label>
     <skos:prefLabel>Pay as cleared</skos:prefLabel>
-    <skos:definition>The amount to be paid shall correspond to the amount calculated for clearing.</skos:definition>
+    <skos:definition xml:lang="en">The amount to be paid shall correspond to the amount calculated for clearing.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPaymentTermsTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPaymentTermsTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPaymentTermsTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>No payment terms</rdfs:label>
     <skos:prefLabel>No payment terms</skos:prefLabel>
-    <skos:definition>There are no payment terms to be used.</skos:definition>
+    <skos:definition xml:lang="en">There are no payment terms to be used.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

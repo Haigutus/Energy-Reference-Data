@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:05c2c529-8194-4888-b0db-e859150c3a8a">
+  <dcat:Distribution rdf:about="urn:uuid:dc276b7c-cbe7-461a-bd40-904f7b140500">
     <rdfs:label>entsoe-codelist-StandardReasonCodeTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,1345 +10,1048 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList">
-    <rdfs:label>StandardReasonCodeTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardReasonCodeTypeList</skos:prefLabel>
     <dc:identifier>ET0015</dc:identifier>
-    <skos:definition>The coded motivation of an act.</skos:definition>
-    <ecl:Uid>ET0015</ecl:Uid>
-    <ecl:Definition>The coded motivation of an act.</ecl:Definition>
+    <skos:definition xml:lang="en">The coded motivation of an act.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/999">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>999</xs:enumeration>
     <dc:identifier>999</dc:identifier>
-    <rdfs:label>Errors not specifically identified </rdfs:label>
     <skos:prefLabel>Errors not specifically identified </skos:prefLabel>
-    <skos:definition>This code is used to identify errors that have not been specifically addressed in the Reason code list. It can be used at any level and refers to the level for which it has been identified.</skos:definition>
+    <skos:definition xml:lang="en">This code is used to identify errors that have not been specifically addressed in the Reason code list. It can be used at any level and refers to the level for which it has been identified.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Message fully accepted</rdfs:label>
     <skos:prefLabel>Message fully accepted</skos:prefLabel>
-    <skos:definition>The message has been fully accepted for application processing.</skos:definition>
+    <skos:definition xml:lang="en">The message has been fully accepted for application processing.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Message fully rejected </rdfs:label>
     <skos:prefLabel>Message fully rejected </skos:prefLabel>
-    <skos:definition>No part of the message has been accepted for application processing, e.g. Global position incomplete.</skos:definition>
+    <skos:definition xml:lang="en">No part of the message has been accepted for application processing, e.g. Global position incomplete.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>Message contains errors at the time series level </rdfs:label>
     <skos:prefLabel>Message contains errors at the time series level </skos:prefLabel>
-    <skos:definition>Part of the message contents, i.e. certain time series, has been accepted for application processing. It is necessary to look at the time series level to determine the time series that have been rejected. The time series is excluded from the global position.</skos:definition>
+    <skos:definition xml:lang="en">Part of the message contents, i.e. certain time series, has been accepted for application processing. It is necessary to look at the time series level to determine the time series that have been rejected. The time series is excluded from the global position.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A04</xs:enumeration>
     <dc:identifier>A04</dc:identifier>
-    <rdfs:label>Time interval incorrect </rdfs:label>
     <skos:prefLabel>Time interval incorrect </skos:prefLabel>
-    <skos:definition>The schedule time interval is not within the contractual agreement or the period does not agree with the schedule time interval.</skos:definition>
+    <skos:definition xml:lang="en">The schedule time interval is not within the contractual agreement or the period does not agree with the schedule time interval.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A05</xs:enumeration>
     <dc:identifier>A05</dc:identifier>
-    <rdfs:label>Sender without valid contract </rdfs:label>
     <skos:prefLabel>Sender without valid contract </skos:prefLabel>
-    <skos:definition>The sender has no current valid contract with the TSO. The message consequently will be fully rejected.</skos:definition>
+    <skos:definition xml:lang="en">The sender has no current valid contract with the TSO. The message consequently will be fully rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A06">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A06</xs:enumeration>
     <dc:identifier>A06</dc:identifier>
-    <rdfs:label>Schedule accepted </rdfs:label>
     <skos:prefLabel>Schedule accepted </skos:prefLabel>
-    <skos:definition>The schedule of the recipient as presented has been completely accepted.</skos:definition>
+    <skos:definition xml:lang="en">The schedule of the recipient as presented has been completely accepted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A07">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A07</xs:enumeration>
     <dc:identifier>A07</dc:identifier>
-    <rdfs:label>Schedule partially accepted </rdfs:label>
     <skos:prefLabel>Schedule partially accepted </skos:prefLabel>
-    <skos:definition>The schedule of the recipient as presented has been partially accepted. It is necessary to look at the time series level to determine the changes (time series rejected, modified, etc.).</skos:definition>
+    <skos:definition xml:lang="en">The schedule of the recipient as presented has been partially accepted. It is necessary to look at the time series level to determine the changes (time series rejected, modified, etc.).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A08">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A08</xs:enumeration>
     <dc:identifier>A08</dc:identifier>
-    <rdfs:label>Schedule rejected </rdfs:label>
     <skos:prefLabel>Schedule rejected </skos:prefLabel>
-    <skos:definition>The schedule of the recipient as presented has been totally rejected. The cause could be the non presentation of a counter part for the involved trades.</skos:definition>
+    <skos:definition xml:lang="en">The schedule of the recipient as presented has been totally rejected. The cause could be the non presentation of a counter part for the involved trades.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A09">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A09</xs:enumeration>
     <dc:identifier>A09</dc:identifier>
-    <rdfs:label>Time series not matching</rdfs:label>
     <skos:prefLabel>Time series not matching</skos:prefLabel>
-    <skos:definition>Time series mismatches. </skos:definition>
+    <skos:definition xml:lang="en">Time series mismatches. </skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A10">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A10</xs:enumeration>
     <dc:identifier>A10</dc:identifier>
-    <rdfs:label>Credit limit exceeded </rdfs:label>
     <skos:prefLabel>Credit limit exceeded </skos:prefLabel>
-    <skos:definition>The contractual credit limit has been exceeded and as such the message has been rejected.</skos:definition>
+    <skos:definition xml:lang="en">The contractual credit limit has been exceeded and as such the message has been rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A20">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A20</xs:enumeration>
     <dc:identifier>A20</dc:identifier>
-    <rdfs:label>Time series fully rejected </rdfs:label>
     <skos:prefLabel>Time series fully rejected </skos:prefLabel>
-    <skos:definition>The time series has been fully rejected. In the case of a confirmation report, this reason code is used in conjunction with either A26 or A30.</skos:definition>
+    <skos:definition xml:lang="en">The time series has been fully rejected. In the case of a confirmation report, this reason code is used in conjunction with either A26 or A30.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A21">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A21</xs:enumeration>
     <dc:identifier>A21</dc:identifier>
-    <rdfs:label>Time series accepted with specific time interval errors </rdfs:label>
     <skos:prefLabel>Time series accepted with specific time interval errors </skos:prefLabel>
-    <skos:definition>The time series has been accepted but some time interval quantities have been rectified or zeroed out.</skos:definition>
+    <skos:definition xml:lang="en">The time series has been accepted but some time interval quantities have been rectified or zeroed out.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A22">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A22</xs:enumeration>
     <dc:identifier>A22</dc:identifier>
-    <rdfs:label>In party/Out party invalid</rdfs:label>
     <skos:prefLabel>In party/Out party invalid</skos:prefLabel>
-    <skos:definition>There is no contract for the parties indicated or the rules for cross border nominations are not being respected. The time series has been rejected.</skos:definition>
+    <skos:definition xml:lang="en">There is no contract for the parties indicated or the rules for cross border nominations are not being respected. The time series has been rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A23">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A23</xs:enumeration>
     <dc:identifier>A23</dc:identifier>
-    <rdfs:label>Area invalid</rdfs:label>
     <skos:prefLabel>Area invalid</skos:prefLabel>
-    <skos:definition>The area is unknown or not allowed. The time series has been rejected.</skos:definition>
+    <skos:definition xml:lang="en">The area is unknown or not allowed. The time series has been rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A24">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A24</xs:enumeration>
     <dc:identifier>A24</dc:identifier>
-    <rdfs:label>A24 not applicable</rdfs:label>
     <skos:prefLabel>A24 not applicable</skos:prefLabel>
-    <skos:definition>This code is no longer applicable.</skos:definition>
+    <skos:definition xml:lang="en">This code is no longer applicable.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A25">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A25</xs:enumeration>
     <dc:identifier>A25</dc:identifier>
-    <rdfs:label>A25 not applicable</rdfs:label>
     <skos:prefLabel>A25 not applicable</skos:prefLabel>
-    <skos:definition>This code is no longer applicable.</skos:definition>
+    <skos:definition xml:lang="en">This code is no longer applicable.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A26">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A26</xs:enumeration>
     <dc:identifier>A26</dc:identifier>
-    <rdfs:label>Default time series applied </rdfs:label>
     <skos:prefLabel>Default time series applied </skos:prefLabel>
-    <skos:definition>The time series has been rejected and replaced with a default time series profile. This reason code may not be used in conjunction with A30.</skos:definition>
+    <skos:definition xml:lang="en">The time series has been rejected and replaced with a default time series profile. This reason code may not be used in conjunction with A30.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A27">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A27</xs:enumeration>
     <dc:identifier>A27</dc:identifier>
-    <rdfs:label>Cross border capacity exceeded </rdfs:label>
     <skos:prefLabel>Cross border capacity exceeded </skos:prefLabel>
-    <skos:definition>The cross border capacity has been exceeded. The time series has been rejected or adjusted.</skos:definition>
+    <skos:definition xml:lang="en">The cross border capacity has been exceeded. The time series has been rejected or adjusted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A28">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A28</xs:enumeration>
     <dc:identifier>A28</dc:identifier>
-    <rdfs:label>Counterpart time series missing </rdfs:label>
     <skos:prefLabel>Counterpart time series missing </skos:prefLabel>
-    <skos:definition>This provides an indication that the time series has not got a counterpart time series. 
+    <skos:definition xml:lang="en">This provides an indication that the time series has not got a counterpart time series. 
 In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received. 
 In the case of a Final Confirmation Report this is informing the recipient that the time series has been rejected because the counterpart time series has not been forthcoming. </skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A29">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A29</xs:enumeration>
     <dc:identifier>A29</dc:identifier>
-    <rdfs:label>Counterpart time series quantity differences </rdfs:label>
     <skos:prefLabel>Counterpart time series quantity differences </skos:prefLabel>
-    <skos:definition>The time series has been rejected as it does not match that of the counterpart who is considered by market rules to be correct.</skos:definition>
+    <skos:definition xml:lang="en">The time series has been rejected as it does not match that of the counterpart who is considered by market rules to be correct.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A30">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A30</xs:enumeration>
     <dc:identifier>A30</dc:identifier>
-    <rdfs:label>Imposed Time series from nominated party's time series (party identified in reason text)</rdfs:label>
     <skos:prefLabel>Imposed Time series from nominated party's time series (party identified in reason text)</skos:prefLabel>
-    <skos:definition>The nominated party's time series has replaced the current time series. This reason code may not be used in conjunction with A26.</skos:definition>
+    <skos:definition xml:lang="en">The nominated party's time series has replaced the current time series. This reason code may not be used in conjunction with A26.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A41">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A41</xs:enumeration>
     <dc:identifier>A41</dc:identifier>
-    <rdfs:label>Resolution inconsistency </rdfs:label>
     <skos:prefLabel>Resolution inconsistency </skos:prefLabel>
-    <skos:definition>The resolution is not coherent with the time interval, or resolution not valid.</skos:definition>
+    <skos:definition xml:lang="en">The resolution is not coherent with the time interval, or resolution not valid.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A42">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A42</xs:enumeration>
     <dc:identifier>A42</dc:identifier>
-    <rdfs:label>Quantity inconsistency </rdfs:label>
     <skos:prefLabel>Quantity inconsistency </skos:prefLabel>
-    <skos:definition>The quantity is not coherent. For example a time period with the same version number but different quantities or an non permitted number of digits after the decimal point, etc.</skos:definition>
+    <skos:definition xml:lang="en">The quantity is not coherent. For example a time period with the same version number but different quantities or an non permitted number of digits after the decimal point, etc.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A43">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A43</xs:enumeration>
     <dc:identifier>A43</dc:identifier>
-    <rdfs:label>Quantity increased </rdfs:label>
     <skos:prefLabel>Quantity increased </skos:prefLabel>
-    <skos:definition>The quantity has been increased in order to satisfy minimum constraints.</skos:definition>
+    <skos:definition xml:lang="en">The quantity has been increased in order to satisfy minimum constraints.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A44">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A44</xs:enumeration>
     <dc:identifier>A44</dc:identifier>
-    <rdfs:label>Quantity decreased </rdfs:label>
     <skos:prefLabel>Quantity decreased </skos:prefLabel>
-    <skos:definition>The quantity has been decreased in order to satisfy congestion constraints.</skos:definition>
+    <skos:definition xml:lang="en">The quantity has been decreased in order to satisfy congestion constraints.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A45">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A45</xs:enumeration>
     <dc:identifier>A45</dc:identifier>
-    <rdfs:label>Default quantity applied </rdfs:label>
     <skos:prefLabel>Default quantity applied </skos:prefLabel>
-    <skos:definition>The default quantity has been applied as the current quantity does not satisfy contractual obligations.</skos:definition>
+    <skos:definition xml:lang="en">The default quantity has been applied as the current quantity does not satisfy contractual obligations.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A46">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A46</xs:enumeration>
     <dc:identifier>A46</dc:identifier>
-    <rdfs:label>Quantities must not be signed values</rdfs:label>
     <skos:prefLabel>Quantities must not be signed values</skos:prefLabel>
-    <skos:definition>The quantity proposed is illegal since signed values are only permitted in specific circumstances.</skos:definition>
+    <skos:definition xml:lang="en">The quantity proposed is illegal since signed values are only permitted in specific circumstances.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A47">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A47</xs:enumeration>
     <dc:identifier>A47</dc:identifier>
-    <rdfs:label>A47 not applicable</rdfs:label>
     <skos:prefLabel>A47 not applicable</skos:prefLabel>
-    <skos:definition>This code is no longer applicable.</skos:definition>
+    <skos:definition xml:lang="en">This code is no longer applicable.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A48">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A48</xs:enumeration>
     <dc:identifier>A48</dc:identifier>
-    <rdfs:label>Modification reason</rdfs:label>
     <skos:prefLabel>Modification reason</skos:prefLabel>
-    <skos:definition>In an intraday transmission, the reason for the modification is as follows (in the reason text).</skos:definition>
+    <skos:definition xml:lang="en">In an intraday transmission, the reason for the modification is as follows (in the reason text).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A49">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A49</xs:enumeration>
     <dc:identifier>A49</dc:identifier>
-    <rdfs:label>Position inconsistency</rdfs:label>
     <skos:prefLabel>Position inconsistency</skos:prefLabel>
-    <skos:definition>A position is missing or too many.</skos:definition>
+    <skos:definition xml:lang="en">A position is missing or too many.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A50">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A50</xs:enumeration>
     <dc:identifier>A50</dc:identifier>
-    <rdfs:label>Senders time series version conflict</rdfs:label>
     <skos:prefLabel>Senders time series version conflict</skos:prefLabel>
-    <skos:definition>There is an error in the sender time series version, i.e. it could be superior to the message version or is inconsistent with the existing data. The time series has been rejected.</skos:definition>
+    <skos:definition xml:lang="en">There is an error in the sender time series version, i.e. it could be superior to the message version or is inconsistent with the existing data. The time series has been rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A51">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A51</xs:enumeration>
     <dc:identifier>A51</dc:identifier>
-    <rdfs:label>Message identification or version conflict</rdfs:label>
     <skos:prefLabel>Message identification or version conflict</skos:prefLabel>
-    <skos:definition>The message identification is already in the receiving system. Or a higher version already exists. Message rejected.</skos:definition>
+    <skos:definition xml:lang="en">The message identification is already in the receiving system. Or a higher version already exists. Message rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A52">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A52</xs:enumeration>
     <dc:identifier>A52</dc:identifier>
-    <rdfs:label>Time series missing from new version of message</rdfs:label>
     <skos:prefLabel>Time series missing from new version of message</skos:prefLabel>
-    <skos:definition>A time series is not contained in a new version of the message. Message rejected.</skos:definition>
+    <skos:definition xml:lang="en">A time series is not contained in a new version of the message. Message rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A53">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A53</xs:enumeration>
     <dc:identifier>A53</dc:identifier>
-    <rdfs:label>Receiving party incorrect</rdfs:label>
     <skos:prefLabel>Receiving party incorrect</skos:prefLabel>
-    <skos:definition>The receiving party is incorrect. Message rejected.</skos:definition>
+    <skos:definition xml:lang="en">The receiving party is incorrect. Message rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A54">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A54</xs:enumeration>
     <dc:identifier>A54</dc:identifier>
-    <rdfs:label>Global position not in balance</rdfs:label>
     <skos:prefLabel>Global position not in balance</skos:prefLabel>
-    <skos:definition>The message does not balance out to zero. Market rules might require that the message is rejected. </skos:definition>
+    <skos:definition xml:lang="en">The message does not balance out to zero. Market rules might require that the message is rejected. </skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A55">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A55</xs:enumeration>
     <dc:identifier>A55</dc:identifier>
-    <rdfs:label>Time series identification conflict</rdfs:label>
     <skos:prefLabel>Time series identification conflict</skos:prefLabel>
-    <skos:definition>The identification of the time series is duplicated or incorrect. Time series will be rejected.</skos:definition>
+    <skos:definition xml:lang="en">The identification of the time series is duplicated or incorrect. Time series will be rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A56">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A56</xs:enumeration>
     <dc:identifier>A56</dc:identifier>
-    <rdfs:label>Corresponding Time series not netted</rdfs:label>
     <skos:prefLabel>Corresponding Time series not netted</skos:prefLabel>
-    <skos:definition>All corresponding time series must be netted. Time series rejected.</skos:definition>
+    <skos:definition xml:lang="en">All corresponding time series must be netted. Time series rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A57">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A57</xs:enumeration>
     <dc:identifier>A57</dc:identifier>
-    <rdfs:label>Deadline limit exceeded/Gate not open</rdfs:label>
     <skos:prefLabel>Deadline limit exceeded/Gate not open</skos:prefLabel>
-    <skos:definition>The deadline for receiving schedule messages has passed. Message or time series rejected.</skos:definition>
+    <skos:definition xml:lang="en">The deadline for receiving schedule messages has passed. Message or time series rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A58">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A58</xs:enumeration>
     <dc:identifier>A58</dc:identifier>
-    <rdfs:label>One to one nomination inconsistency</rdfs:label>
     <skos:prefLabel>One to one nomination inconsistency</skos:prefLabel>
-    <skos:definition>There is a one to one nomination inconstancy with the in/out parties or areas. Time series rejected.</skos:definition>
+    <skos:definition xml:lang="en">There is a one to one nomination inconstancy with the in/out parties or areas. Time series rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A59">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A59</xs:enumeration>
     <dc:identifier>A59</dc:identifier>
-    <rdfs:label>Not compliant to local market rules</rdfs:label>
     <skos:prefLabel>Not compliant to local market rules</skos:prefLabel>
-    <skos:definition>The level in which this is identified is not in compliance with local market rules. The level in question has been rejected.</skos:definition>
+    <skos:definition xml:lang="en">The level in which this is identified is not in compliance with local market rules. The level in question has been rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A60">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A60</xs:enumeration>
     <dc:identifier>A60</dc:identifier>
-    <rdfs:label>Inter-area transit schedule exceeds nominated schedule</rdfs:label>
     <skos:prefLabel>Inter-area transit schedule exceeds nominated schedule</skos:prefLabel>
-    <skos:definition>The inter-area transit schedule exceeds the nominated schedule for the same time interval. The inter-area transit schedule is rejected.</skos:definition>
+    <skos:definition xml:lang="en">The inter-area transit schedule exceeds the nominated schedule for the same time interval. The inter-area transit schedule is rejected.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A61">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A61</xs:enumeration>
     <dc:identifier>A61</dc:identifier>
-    <rdfs:label>Currency invalid</rdfs:label>
     <skos:prefLabel>Currency invalid</skos:prefLabel>
-    <skos:definition>The currency is not in compliance with ISO 4217.</skos:definition>
+    <skos:definition xml:lang="en">The currency is not in compliance with ISO 4217.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A62">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A62</xs:enumeration>
     <dc:identifier>A62</dc:identifier>
-    <rdfs:label>Invalid business type</rdfs:label>
     <skos:prefLabel>Invalid business type</skos:prefLabel>
-    <skos:definition>The business type does not belong to the valid set of business types for the process in question.</skos:definition>
+    <skos:definition xml:lang="en">The business type does not belong to the valid set of business types for the process in question.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A63">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A63</xs:enumeration>
     <dc:identifier>A63</dc:identifier>
-    <rdfs:label>Time Series modified</rdfs:label>
     <skos:prefLabel>Time Series modified</skos:prefLabel>
-    <skos:definition>The time series has been modified.</skos:definition>
+    <skos:definition xml:lang="en">The time series has been modified.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A64">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A64</xs:enumeration>
     <dc:identifier>A64</dc:identifier>
-    <rdfs:label>Resource Object Invalid</rdfs:label>
     <skos:prefLabel>Resource Object Invalid</skos:prefLabel>
-    <skos:definition>The Resource Object defined in the document is not valid.</skos:definition>
+    <skos:definition xml:lang="en">The Resource Object defined in the document is not valid.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A65">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A65</xs:enumeration>
     <dc:identifier>A65</dc:identifier>
-    <rdfs:label>Reserve object Technical  limits exceeded</rdfs:label>
     <skos:prefLabel>Reserve object Technical  limits exceeded</skos:prefLabel>
-    <skos:definition>Reserve objects aggregated values are not within technical/prequalified limits</skos:definition>
+    <skos:definition xml:lang="en">Reserve objects aggregated values are not within technical/prequalified limits</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A66">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A66</xs:enumeration>
     <dc:identifier>A66</dc:identifier>
-    <rdfs:label>Planned reserves do not correspond with contractual data</rdfs:label>
     <skos:prefLabel>Planned reserves do not correspond with contractual data</skos:prefLabel>
-    <skos:definition>Planned reserves do not correspond with contractual data.</skos:definition>
+    <skos:definition xml:lang="en">Planned reserves do not correspond with contractual data.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A67">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A67</xs:enumeration>
     <dc:identifier>A67</dc:identifier>
-    <rdfs:label>Limit Data is not available</rdfs:label>
     <skos:prefLabel>Limit Data is not available</skos:prefLabel>
-    <skos:definition>Limit Data is not available.</skos:definition>
+    <skos:definition xml:lang="en">Limit Data is not available.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A68">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A68</xs:enumeration>
     <dc:identifier>A68</dc:identifier>
-    <rdfs:label>Reserve Object not qualified for reserve type</rdfs:label>
     <skos:prefLabel>Reserve Object not qualified for reserve type</skos:prefLabel>
-    <skos:definition>Reserve Object is not qualified for reserve type.</skos:definition>
+    <skos:definition xml:lang="en">Reserve Object is not qualified for reserve type.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A69">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A69</xs:enumeration>
     <dc:identifier>A69</dc:identifier>
-    <rdfs:label>Mandatory attributes missing</rdfs:label>
     <skos:prefLabel>Mandatory attributes missing</skos:prefLabel>
-    <skos:definition>Mandatory attributes missing.</skos:definition>
+    <skos:definition xml:lang="en">Mandatory attributes missing.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A70">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A70</xs:enumeration>
     <dc:identifier>A70</dc:identifier>
-    <rdfs:label>Curtailment</rdfs:label>
     <skos:prefLabel>Curtailment</skos:prefLabel>
-    <skos:definition>The capacity in question has been curtailed.</skos:definition>
+    <skos:definition xml:lang="en">The capacity in question has been curtailed.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A71">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A71</xs:enumeration>
     <dc:identifier>A71</dc:identifier>
-    <rdfs:label>Linked bid rejected due to associated bid unsuccessful</rdfs:label>
     <skos:prefLabel>Linked bid rejected due to associated bid unsuccessful</skos:prefLabel>
-    <skos:definition>The bid in question has been rejected because an associated bid has been unsuccessful.</skos:definition>
+    <skos:definition xml:lang="en">The bid in question has been rejected because an associated bid has been unsuccessful.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A72">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A72</xs:enumeration>
     <dc:identifier>A72</dc:identifier>
-    <rdfs:label>Original bid divided to permit acceptance</rdfs:label>
     <skos:prefLabel>Original bid divided to permit acceptance</skos:prefLabel>
-    <skos:definition>The original bid quantity has been divided to enable it to be accepted.</skos:definition>
+    <skos:definition xml:lang="en">The original bid quantity has been divided to enable it to be accepted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A73">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A73</xs:enumeration>
     <dc:identifier>A73</dc:identifier>
-    <rdfs:label>Bid accepted</rdfs:label>
     <skos:prefLabel>Bid accepted</skos:prefLabel>
-    <skos:definition>The bid in question has been accepted.</skos:definition>
+    <skos:definition xml:lang="en">The bid in question has been accepted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A74">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A74</xs:enumeration>
     <dc:identifier>A74</dc:identifier>
-    <rdfs:label>Auction Status</rdfs:label>
     <skos:prefLabel>Auction Status</skos:prefLabel>
-    <skos:definition>The information in the Reason Text provides auction status information.</skos:definition>
+    <skos:definition xml:lang="en">The information in the Reason Text provides auction status information.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A75">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A75</xs:enumeration>
     <dc:identifier>A75</dc:identifier>
-    <rdfs:label>Right status information</rdfs:label>
     <skos:prefLabel>Right status information</skos:prefLabel>
-    <skos:definition>The information in the Reason Text provides status information concerning the transmission rights in question.</skos:definition>
+    <skos:definition xml:lang="en">The information in the Reason Text provides status information concerning the transmission rights in question.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A76">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A76</xs:enumeration>
     <dc:identifier>A76</dc:identifier>
-    <rdfs:label>Agreement identification inconsistency</rdfs:label>
     <skos:prefLabel>Agreement identification inconsistency</skos:prefLabel>
-    <skos:definition>There is an inconsistency between the contract type and the agreement identification.</skos:definition>
+    <skos:definition xml:lang="en">There is an inconsistency between the contract type and the agreement identification.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A77">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A77</xs:enumeration>
     <dc:identifier>A77</dc:identifier>
-    <rdfs:label>Dependency matrix not respected</rdfs:label>
     <skos:prefLabel>Dependency matrix not respected</skos:prefLabel>
-    <skos:definition>There is an inconsistency between the document contents and the dependency matrix.</skos:definition>
+    <skos:definition xml:lang="en">There is an inconsistency between the document contents and the dependency matrix.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A78">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A78</xs:enumeration>
     <dc:identifier>A78</dc:identifier>
-    <rdfs:label>Sender identification and/or role invalid</rdfs:label>
     <skos:prefLabel>Sender identification and/or role invalid</skos:prefLabel>
-    <skos:definition>The identification of the sender or the sender/role combination is invalid.</skos:definition>
+    <skos:definition xml:lang="en">The identification of the sender or the sender/role combination is invalid.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A79">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A79</xs:enumeration>
     <dc:identifier>A79</dc:identifier>
-    <rdfs:label>Process type invalid</rdfs:label>
     <skos:prefLabel>Process type invalid</skos:prefLabel>
-    <skos:definition>The process type does not figure in the list of valid process types for this document.</skos:definition>
+    <skos:definition xml:lang="en">The process type does not figure in the list of valid process types for this document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A80">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A80</xs:enumeration>
     <dc:identifier>A80</dc:identifier>
-    <rdfs:label>Domain invalid</rdfs:label>
     <skos:prefLabel>Domain invalid</skos:prefLabel>
-    <skos:definition>The domain does not figure in the list of valid domains for this document and process.</skos:definition>
+    <skos:definition xml:lang="en">The domain does not figure in the list of valid domains for this document and process.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A81">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A81</xs:enumeration>
     <dc:identifier>A81</dc:identifier>
-    <rdfs:label>Matching period invalid</rdfs:label>
     <skos:prefLabel>Matching period invalid</skos:prefLabel>
-    <skos:definition>The period is not within the expected limits.</skos:definition>
+    <skos:definition xml:lang="en">The period is not within the expected limits.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A82">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A82</xs:enumeration>
     <dc:identifier>A82</dc:identifier>
-    <rdfs:label>In/Out area inconsistent with domain</rdfs:label>
     <skos:prefLabel>In/Out area inconsistent with domain</skos:prefLabel>
-    <skos:definition>The in and out area does not figure within the domain specified.</skos:definition>
+    <skos:definition xml:lang="en">The in and out area does not figure within the domain specified.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A83">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A83</xs:enumeration>
     <dc:identifier>A83</dc:identifier>
-    <rdfs:label>Disagree with matching results</rdfs:label>
     <skos:prefLabel>Disagree with matching results</skos:prefLabel>
-    <skos:definition>The matching results provided are not consistent.</skos:definition>
+    <skos:definition xml:lang="en">The matching results provided are not consistent.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A84">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A84</xs:enumeration>
     <dc:identifier>A84</dc:identifier>
-    <rdfs:label>Confirmation ignored due to higher version already received</rdfs:label>
     <skos:prefLabel>Confirmation ignored due to higher version already received</skos:prefLabel>
-    <skos:definition>The report has been ignored since a higher version has been received.</skos:definition>
+    <skos:definition xml:lang="en">The report has been ignored since a higher version has been received.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A85">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A85</xs:enumeration>
     <dc:identifier>A85</dc:identifier>
-    <rdfs:label>Confirmation without adjustment (time series have been matched without change)</rdfs:label>
     <skos:prefLabel>Confirmation without adjustment (time series have been matched without change)</skos:prefLabel>
-    <skos:definition>The report has been successfully matched without any changes.</skos:definition>
+    <skos:definition xml:lang="en">The report has been successfully matched without any changes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A86">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A86</xs:enumeration>
     <dc:identifier>A86</dc:identifier>
-    <rdfs:label>Confirmation with adjustment (time series have been modified)</rdfs:label>
     <skos:prefLabel>Confirmation with adjustment (time series have been modified)</skos:prefLabel>
-    <skos:definition>The report has been matched but required adjustment.</skos:definition>
+    <skos:definition xml:lang="en">The report has been matched but required adjustment.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A87">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A87</xs:enumeration>
     <dc:identifier>A87</dc:identifier>
-    <rdfs:label>For action (only in intermediate confirmation - time series need mutual agreement and action)</rdfs:label>
     <skos:prefLabel>For action (only in intermediate confirmation - time series need mutual agreement and action)</skos:prefLabel>
-    <skos:definition>The report in question is only for action in an intermediate stage.</skos:definition>
+    <skos:definition xml:lang="en">The report in question is only for action in an intermediate stage.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A88">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A88</xs:enumeration>
     <dc:identifier>A88</dc:identifier>
-    <rdfs:label>Time series matched</rdfs:label>
     <skos:prefLabel>Time series matched</skos:prefLabel>
-    <skos:definition>The time series has been successfully matched.</skos:definition>
+    <skos:definition xml:lang="en">The time series has been successfully matched.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A89">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A89</xs:enumeration>
     <dc:identifier>A89</dc:identifier>
-    <rdfs:label>Time series ignored (note: this can only apply to time series that are set to zero - see matching principles)</rdfs:label>
     <skos:prefLabel>Time series ignored (note: this can only apply to time series that are set to zero - see matching principles)</skos:prefLabel>
-    <skos:definition>The time series has been ignored and not matched since it does not figure in a counterparty transmission. All are correctly equal to zero.</skos:definition>
+    <skos:definition xml:lang="en">The time series has been ignored and not matched since it does not figure in a counterparty transmission. All are correctly equal to zero.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A90">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A90</xs:enumeration>
     <dc:identifier>A90</dc:identifier>
-    <rdfs:label>Modification proposal (intermediate confirmation)</rdfs:label>
     <skos:prefLabel>Modification proposal (intermediate confirmation)</skos:prefLabel>
-    <skos:definition>The document is a proposal for change before finalization.</skos:definition>
+    <skos:definition xml:lang="en">The document is a proposal for change before finalization.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A91">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A91</xs:enumeration>
     <dc:identifier>A91</dc:identifier>
-    <rdfs:label>Expected document not received</rdfs:label>
     <skos:prefLabel>Expected document not received</skos:prefLabel>
-    <skos:definition>The document that is expected has not been received within the expected timeframe.</skos:definition>
+    <skos:definition xml:lang="en">The document that is expected has not been received within the expected timeframe.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A92">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A92</xs:enumeration>
     <dc:identifier>A92</dc:identifier>
-    <rdfs:label>Not possible to send document on time, but estimated delivery time is provided</rdfs:label>
     <skos:prefLabel>Not possible to send document on time, but estimated delivery time is provided</skos:prefLabel>
-    <skos:definition>The document that is due cannot be transmitted within the required timeframe. An estimated time of transmission is provided.</skos:definition>
+    <skos:definition xml:lang="en">The document that is due cannot be transmitted within the required timeframe. An estimated time of transmission is provided.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A93">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A93</xs:enumeration>
     <dc:identifier>A93</dc:identifier>
-    <rdfs:label>Not possible to send document on time, and furthermore no expected time of return to normal situation</rdfs:label>
     <skos:prefLabel>Not possible to send document on time, and furthermore no expected time of return to normal situation</skos:prefLabel>
-    <skos:definition>The document that is due cannot be transmitted within the required timeframe. The time of transmission of the document is unknown.</skos:definition>
+    <skos:definition xml:lang="en">The document that is due cannot be transmitted within the required timeframe. The time of transmission of the document is unknown.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A94">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A94</xs:enumeration>
     <dc:identifier>A94</dc:identifier>
-    <rdfs:label>Document cannot be processed by receiving system</rdfs:label>
     <skos:prefLabel>Document cannot be processed by receiving system</skos:prefLabel>
-    <skos:definition>The receiving system cannot process that document in question.</skos:definition>
+    <skos:definition xml:lang="en">The receiving system cannot process that document in question.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A95">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A95</xs:enumeration>
     <dc:identifier>A95</dc:identifier>
-    <rdfs:label>Complementary information</rdfs:label>
     <skos:prefLabel>Complementary information</skos:prefLabel>
-    <skos:definition>Additional text is provided in order to further explain a condition, for example to provide details of an outage.</skos:definition>
+    <skos:definition xml:lang="en">Additional text is provided in order to further explain a condition, for example to provide details of an outage.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A96">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A96</xs:enumeration>
     <dc:identifier>A96</dc:identifier>
-    <rdfs:label>Technical constraint</rdfs:label>
     <skos:prefLabel>Technical constraint</skos:prefLabel>
-    <skos:definition>A technical constraint has been applied.</skos:definition>
+    <skos:definition xml:lang="en">A technical constraint has been applied.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A97">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A97</xs:enumeration>
     <dc:identifier>A97</dc:identifier>
-    <rdfs:label>Force majeure curtailment</rdfs:label>
     <skos:prefLabel>Force majeure curtailment</skos:prefLabel>
-    <skos:definition>Curtailment due to Force Majeure. A code that enables the identification of the curtailment reason for settlement purposes.</skos:definition>
+    <skos:definition xml:lang="en">Curtailment due to Force Majeure. A code that enables the identification of the curtailment reason for settlement purposes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A98">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A98</xs:enumeration>
     <dc:identifier>A98</dc:identifier>
-    <rdfs:label>Network security curtailment</rdfs:label>
     <skos:prefLabel>Network security curtailment</skos:prefLabel>
-    <skos:definition>Curtailment due to network security reasons A code that enables the identification of the curtailment reason for settlement purposes.</skos:definition>
+    <skos:definition xml:lang="en">Curtailment due to network security reasons A code that enables the identification of the curtailment reason for settlement purposes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/A99">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>A99</xs:enumeration>
     <dc:identifier>A99</dc:identifier>
-    <rdfs:label>Auction cancelled</rdfs:label>
     <skos:prefLabel>Auction cancelled</skos:prefLabel>
-    <skos:definition>The auction has been cancelled.</skos:definition>
+    <skos:definition xml:lang="en">The auction has been cancelled.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B01</xs:enumeration>
     <dc:identifier>B01</dc:identifier>
-    <rdfs:label>Incomplete document</rdfs:label>
     <skos:prefLabel>Incomplete document</skos:prefLabel>
-    <skos:definition>The document is incomplete and cannot be processed.</skos:definition>
+    <skos:definition xml:lang="en">The document is incomplete and cannot be processed.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B02</xs:enumeration>
     <dc:identifier>B02</dc:identifier>
-    <rdfs:label>Accounting Point (tie-line) Time Series missing</rdfs:label>
     <skos:prefLabel>Accounting Point (tie-line) Time Series missing</skos:prefLabel>
-    <skos:definition>The document is incomplete as a time series for an accounting point is missing.</skos:definition>
+    <skos:definition xml:lang="en">The document is incomplete as a time series for an accounting point is missing.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B03</xs:enumeration>
     <dc:identifier>B03</dc:identifier>
-    <rdfs:label>Meter data Time series missing</rdfs:label>
     <skos:prefLabel>Meter data Time series missing</skos:prefLabel>
-    <skos:definition>The document is incomplete as a time series for meter data is missing.</skos:definition>
+    <skos:definition xml:lang="en">The document is incomplete as a time series for meter data is missing.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B04</xs:enumeration>
     <dc:identifier>B04</dc:identifier>
-    <rdfs:label>Estimated values not allowed in first transmission</rdfs:label>
     <skos:prefLabel>Estimated values not allowed in first transmission</skos:prefLabel>
-    <skos:definition>The document is in its initial form and estimated values are not allowed.</skos:definition>
+    <skos:definition xml:lang="en">The document is in its initial form and estimated values are not allowed.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B05</xs:enumeration>
     <dc:identifier>B05</dc:identifier>
-    <rdfs:label>No quantity values allowed for a quality that is not available</rdfs:label>
     <skos:prefLabel>No quantity values allowed for a quality that is not available</skos:prefLabel>
-    <skos:definition>No quantity values are allowed for a quality that is not available.</skos:definition>
+    <skos:definition xml:lang="en">No quantity values are allowed for a quality that is not available.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B06">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B06</xs:enumeration>
     <dc:identifier>B06</dc:identifier>
-    <rdfs:label>Time series accepted</rdfs:label>
     <skos:prefLabel>Time series accepted</skos:prefLabel>
-    <skos:definition>Time series accepted.</skos:definition>
+    <skos:definition xml:lang="en">Time series accepted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B07">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B07</xs:enumeration>
     <dc:identifier>B07</dc:identifier>
-    <rdfs:label>Auction without bids being entered</rdfs:label>
     <skos:prefLabel>Auction without bids being entered</skos:prefLabel>
-    <skos:definition>The auction has terminated without any bids being submitted. The ReasonText may provide the identification of the auction in question.</skos:definition>
+    <skos:definition xml:lang="en">The auction has terminated without any bids being submitted. The ReasonText may provide the identification of the auction in question.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B08">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B08</xs:enumeration>
     <dc:identifier>B08</dc:identifier>
-    <rdfs:label>Data not yet available</rdfs:label>
     <skos:prefLabel>Data not yet available</skos:prefLabel>
-    <skos:definition>It is not possible to perform the necessary action since the required data for this action is not yet available.</skos:definition>
+    <skos:definition xml:lang="en">It is not possible to perform the necessary action since the required data for this action is not yet available.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B09">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B09</xs:enumeration>
     <dc:identifier>B09</dc:identifier>
-    <rdfs:label>Bid not accepted</rdfs:label>
     <skos:prefLabel>Bid not accepted</skos:prefLabel>
-    <skos:definition>The bid in question has not been accepted.</skos:definition>
+    <skos:definition xml:lang="en">The bid in question has not been accepted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B10">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B10</xs:enumeration>
     <dc:identifier>B10</dc:identifier>
-    <rdfs:label>Initiator area problem</rdfs:label>
     <skos:prefLabel>Initiator area problem</skos:prefLabel>
-    <skos:definition>The problem concerns the initiator area.</skos:definition>
+    <skos:definition xml:lang="en">The problem concerns the initiator area.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B11">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B11</xs:enumeration>
     <dc:identifier>B11</dc:identifier>
-    <rdfs:label>Cooperating area problem</rdfs:label>
     <skos:prefLabel>Cooperating area problem</skos:prefLabel>
-    <skos:definition>The problem concerns the cooperating area.</skos:definition>
+    <skos:definition xml:lang="en">The problem concerns the cooperating area.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B12">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B12</xs:enumeration>
     <dc:identifier>B12</dc:identifier>
-    <rdfs:label>Communication status currently active</rdfs:label>
     <skos:prefLabel>Communication status currently active</skos:prefLabel>
-    <skos:definition>The status within the system indicates that the communication capability is currently active.</skos:definition>
+    <skos:definition xml:lang="en">The status within the system indicates that the communication capability is currently active.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B13">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B13</xs:enumeration>
     <dc:identifier>B13</dc:identifier>
-    <rdfs:label>Communication status currently inactive</rdfs:label>
     <skos:prefLabel>Communication status currently inactive</skos:prefLabel>
-    <skos:definition>The status within the system indicates that the communication capability is currently inactive.</skos:definition>
+    <skos:definition xml:lang="en">The status within the system indicates that the communication capability is currently inactive.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B14">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B14</xs:enumeration>
     <dc:identifier>B14</dc:identifier>
-    <rdfs:label>Communication status currently restricted</rdfs:label>
     <skos:prefLabel>Communication status currently restricted</skos:prefLabel>
-    <skos:definition>The status within the system indicates that the communication capability is currently restricted.</skos:definition>
+    <skos:definition xml:lang="en">The status within the system indicates that the communication capability is currently restricted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B15">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B15</xs:enumeration>
     <dc:identifier>B15</dc:identifier>
-    <rdfs:label>Problem associated with both areas</rdfs:label>
     <skos:prefLabel>Problem associated with both areas</skos:prefLabel>
-    <skos:definition>The problem concerns both areas.</skos:definition>
+    <skos:definition xml:lang="en">The problem concerns both areas.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B16">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B16</xs:enumeration>
     <dc:identifier>B16</dc:identifier>
-    <rdfs:label>Tender unavailable in MOL list</rdfs:label>
     <skos:prefLabel>Tender unavailable in MOL list</skos:prefLabel>
-    <skos:definition>A tender that has been requested is no longer available in the MOL.</skos:definition>
+    <skos:definition xml:lang="en">A tender that has been requested is no longer available in the MOL.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B17">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B17</xs:enumeration>
     <dc:identifier>B17</dc:identifier>
-    <rdfs:label>Price based on preliminary exchange rate</rdfs:label>
     <skos:prefLabel>Price based on preliminary exchange rate</skos:prefLabel>
-    <skos:definition>The price is based on a preliminary exchange rate.</skos:definition>
+    <skos:definition xml:lang="en">The price is based on a preliminary exchange rate.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B18">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B18</xs:enumeration>
     <dc:identifier>B18</dc:identifier>
-    <rdfs:label>Failure</rdfs:label>
     <skos:prefLabel>Failure</skos:prefLabel>
-    <skos:definition>A failure has occurred.</skos:definition>
+    <skos:definition xml:lang="en">A failure has occurred.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B19">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B19</xs:enumeration>
     <dc:identifier>B19</dc:identifier>
-    <rdfs:label>Foreseen maintenance</rdfs:label>
     <skos:prefLabel>Foreseen maintenance</skos:prefLabel>
-    <skos:definition>Maintenance is foreseen.</skos:definition>
+    <skos:definition xml:lang="en">Maintenance is foreseen.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B20">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B20</xs:enumeration>
     <dc:identifier>B20</dc:identifier>
-    <rdfs:label>Shutdown</rdfs:label>
     <skos:prefLabel>Shutdown</skos:prefLabel>
-    <skos:definition>A shutdown has occurred.</skos:definition>
+    <skos:definition xml:lang="en">A shutdown has occurred.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B21">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B21</xs:enumeration>
     <dc:identifier>B21</dc:identifier>
-    <rdfs:label>Official exchange rate approved</rdfs:label>
     <skos:prefLabel>Official exchange rate approved</skos:prefLabel>
-    <skos:definition>The official exchange rate has been approved.</skos:definition>
+    <skos:definition xml:lang="en">The official exchange rate has been approved.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B22">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B22</xs:enumeration>
     <dc:identifier>B22</dc:identifier>
-    <rdfs:label>System regulation</rdfs:label>
     <skos:prefLabel>System regulation</skos:prefLabel>
-    <skos:definition>The information provided regards a regulation for system purposes.</skos:definition>
+    <skos:definition xml:lang="en">The information provided regards a regulation for system purposes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B23">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B23</xs:enumeration>
     <dc:identifier>B23</dc:identifier>
-    <rdfs:label>Frequency regulation</rdfs:label>
     <skos:prefLabel>Frequency regulation</skos:prefLabel>
-    <skos:definition>The information provided regards a regulation for frequency purposes.</skos:definition>
+    <skos:definition xml:lang="en">The information provided regards a regulation for frequency purposes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B24">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B24</xs:enumeration>
     <dc:identifier>B24</dc:identifier>
-    <rdfs:label>Load flow overload</rdfs:label>
     <skos:prefLabel>Load flow overload</skos:prefLabel>
-    <skos:definition>Situation in the grid, where loading of a certain grid element, e.g. overhead line, is above defined technical limits.</skos:definition>
+    <skos:definition xml:lang="en">Situation in the grid, where loading of a certain grid element, e.g. overhead line, is above defined technical limits.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B25">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B25</xs:enumeration>
     <dc:identifier>B25</dc:identifier>
-    <rdfs:label>Voltage level adjustment</rdfs:label>
     <skos:prefLabel>Voltage level adjustment</skos:prefLabel>
-    <skos:definition>A TSO activity to maintain an acceptable voltage profile throughout the network. This is achieved by balancing of the respective reactive power requirements of the network and the customers.</skos:definition>
+    <skos:definition xml:lang="en">A TSO activity to maintain an acceptable voltage profile throughout the network. This is achieved by balancing of the respective reactive power requirements of the network and the customers.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B26">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B26</xs:enumeration>
     <dc:identifier>B26</dc:identifier>
-    <rdfs:label>Emergency situation curtailment</rdfs:label>
     <skos:prefLabel>Emergency situation curtailment</skos:prefLabel>
-    <skos:definition>Curtailment due to emergency situation. A code that enables the identification of the curtailment reason for settlement purposes.</skos:definition>
+    <skos:definition xml:lang="en">Curtailment due to emergency situation. A code that enables the identification of the curtailment reason for settlement purposes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B27">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B27</xs:enumeration>
     <dc:identifier>B27</dc:identifier>
-    <rdfs:label>Calculation process failed</rdfs:label>
     <skos:prefLabel>Calculation process failed</skos:prefLabel>
-    <skos:definition>The calculation has not been performed.</skos:definition>
+    <skos:definition xml:lang="en">The calculation has not been performed.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B28">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B28</xs:enumeration>
     <dc:identifier>B28</dc:identifier>
-    <rdfs:label>No capacity constraint impact on the market</rdfs:label>
     <skos:prefLabel>No capacity constraint impact on the market</skos:prefLabel>
-    <skos:definition>The market position is such as no capacity constraint is applied to limit the cross border exchanges.</skos:definition>
+    <skos:definition xml:lang="en">The market position is such as no capacity constraint is applied to limit the cross border exchanges.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B29">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B29</xs:enumeration>
     <dc:identifier>B29</dc:identifier>
-    <rdfs:label>Special Condition</rdfs:label>
     <skos:prefLabel>Special Condition</skos:prefLabel>
-    <skos:definition>Special condition need to be fulfilled.</skos:definition>
+    <skos:definition xml:lang="en">Special condition need to be fulfilled.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B30">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B30</xs:enumeration>
     <dc:identifier>B30</dc:identifier>
-    <rdfs:label>Unverified</rdfs:label>
     <skos:prefLabel>Unverified</skos:prefLabel>
-    <skos:definition>Missing or not validated data.</skos:definition>
+    <skos:definition xml:lang="en">Missing or not validated data.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B31">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B31</xs:enumeration>
     <dc:identifier>B31</dc:identifier>
-    <rdfs:label>Verified</rdfs:label>
     <skos:prefLabel>Verified</skos:prefLabel>
-    <skos:definition>Data has successfully passed the verification process.</skos:definition>
+    <skos:definition xml:lang="en">Data has successfully passed the verification process.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B32">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B32</xs:enumeration>
     <dc:identifier>B32</dc:identifier>
-    <rdfs:label>CGM inconsistency</rdfs:label>
     <skos:prefLabel>CGM inconsistency</skos:prefLabel>
-    <skos:definition>Describes an element which was not found in the CGM.</skos:definition>
+    <skos:definition xml:lang="en">Describes an element which was not found in the CGM.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B33">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B33</xs:enumeration>
     <dc:identifier>B33</dc:identifier>
-    <rdfs:label>Network dictionary inconsistency</rdfs:label>
     <skos:prefLabel>Network dictionary inconsistency</skos:prefLabel>
-    <skos:definition>Describes an element which was not found in the network dictionary.</skos:definition>
+    <skos:definition xml:lang="en">Describes an element which was not found in the network dictionary.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B34">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B34</xs:enumeration>
     <dc:identifier>B34</dc:identifier>
-    <rdfs:label>Capacity reduced by TSO</rdfs:label>
     <skos:prefLabel>Capacity reduced by TSO</skos:prefLabel>
-    <skos:definition>Describes a capacity that was reduced by a TSO.</skos:definition>
+    <skos:definition xml:lang="en">Describes a capacity that was reduced by a TSO.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B35">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B35</xs:enumeration>
     <dc:identifier>B35</dc:identifier>
-    <rdfs:label>Overload</rdfs:label>
     <skos:prefLabel>Overload</skos:prefLabel>
-    <skos:definition>Describes an N-k or N state overload.</skos:definition>
+    <skos:definition xml:lang="en">Describes an N-k or N state overload.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B36">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B36</xs:enumeration>
     <dc:identifier>B36</dc:identifier>
-    <rdfs:label>GLSK limitation</rdfs:label>
     <skos:prefLabel>GLSK limitation</skos:prefLabel>
-    <skos:definition>Describes a situation in which there is not enough power adjustment in the GLSK file to cover the capacity.</skos:definition>
+    <skos:definition xml:lang="en">Describes a situation in which there is not enough power adjustment in the GLSK file to cover the capacity.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B37">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B37</xs:enumeration>
     <dc:identifier>B37</dc:identifier>
-    <rdfs:label>Voltage constraint</rdfs:label>
     <skos:prefLabel>Voltage constraint</skos:prefLabel>
-    <skos:definition>Describes an N-k or N state voltage violation.</skos:definition>
+    <skos:definition xml:lang="en">Describes an N-k or N state voltage violation.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B38">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B38</xs:enumeration>
     <dc:identifier>B38</dc:identifier>
-    <rdfs:label>Angle constraint</rdfs:label>
     <skos:prefLabel>Angle constraint</skos:prefLabel>
-    <skos:definition>Describes an N-k or N state angle violation.</skos:definition>
+    <skos:definition xml:lang="en">Describes an N-k or N state angle violation.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B39">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B39</xs:enumeration>
     <dc:identifier>B39</dc:identifier>
-    <rdfs:label>Stability</rdfs:label>
     <skos:prefLabel>Stability</skos:prefLabel>
-    <skos:definition>Describes a situation in which the dynamic behaviour of the network violated.</skos:definition>
+    <skos:definition xml:lang="en">Describes a situation in which the dynamic behaviour of the network violated.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B40">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B40</xs:enumeration>
     <dc:identifier>B40</dc:identifier>
-    <rdfs:label>Loadflow divergence</rdfs:label>
     <skos:prefLabel>Loadflow divergence</skos:prefLabel>
-    <skos:definition>Describes a network situation in which the provided capacity values are part of a load flow divergence situation.</skos:definition>
+    <skos:definition xml:lang="en">Describes a network situation in which the provided capacity values are part of a load flow divergence situation.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B41">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B41</xs:enumeration>
     <dc:identifier>B41</dc:identifier>
-    <rdfs:label>Exclusion for SoS reasons</rdfs:label>
     <skos:prefLabel>Exclusion for SoS reasons</skos:prefLabel>
-    <skos:definition>This is the adjustment applied to the capacity of a branch to have a minimum RAM (Remaining Available Margin) available for commercial exchanges.</skos:definition>
+    <skos:definition xml:lang="en">This is the adjustment applied to the capacity of a branch to have a minimum RAM (Remaining Available Margin) available for commercial exchanges.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B42">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B42</xs:enumeration>
     <dc:identifier>B42</dc:identifier>
-    <rdfs:label>Constraint by the market</rdfs:label>
     <skos:prefLabel>Constraint by the market</skos:prefLabel>
-    <skos:definition>A constraint due to market restrictions.</skos:definition>
+    <skos:definition xml:lang="en">A constraint due to market restrictions.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B43">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B43</xs:enumeration>
     <dc:identifier>B43</dc:identifier>
-    <rdfs:label>Ordinary</rdfs:label>
     <skos:prefLabel>Ordinary</skos:prefLabel>
-    <skos:definition>The contingency is ordinary (methodology for coordinating operational security analysis, article 6).</skos:definition>
+    <skos:definition xml:lang="en">The contingency is ordinary (methodology for coordinating operational security analysis, article 6).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B44">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B44</xs:enumeration>
     <dc:identifier>B44</dc:identifier>
-    <rdfs:label>Exceptional</rdfs:label>
     <skos:prefLabel>Exceptional</skos:prefLabel>
-    <skos:definition>The contingency is exceptional (methodology for coordinating operational security analysis, article 6).</skos:definition>
+    <skos:definition xml:lang="en">The contingency is exceptional (methodology for coordinating operational security analysis, article 6).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B45">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B45</xs:enumeration>
     <dc:identifier>B45</dc:identifier>
-    <rdfs:label>Out of range</rdfs:label>
     <skos:prefLabel>Out of range</skos:prefLabel>
-    <skos:definition>The contingency is out of range (methodology for coordinating operational security analysis, article 6).</skos:definition>
+    <skos:definition xml:lang="en">The contingency is out of range (methodology for coordinating operational security analysis, article 6).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B46">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B46</xs:enumeration>
     <dc:identifier>B46</dc:identifier>
-    <rdfs:label>Internal congestion</rdfs:label>
     <skos:prefLabel>Internal congestion</skos:prefLabel>
-    <skos:definition>A temporary congestion within a bidding zone or scheduling area.</skos:definition>
+    <skos:definition xml:lang="en">A temporary congestion within a bidding zone or scheduling area.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B47">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B47</xs:enumeration>
     <dc:identifier>B47</dc:identifier>
-    <rdfs:label>Operational security constraints</rdfs:label>
     <skos:prefLabel>Operational security constraints</skos:prefLabel>
-    <skos:definition>Operational security constraints identified by TSOs.</skos:definition>
+    <skos:definition xml:lang="en">Operational security constraints identified by TSOs.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B48">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B48</xs:enumeration>
     <dc:identifier>B48</dc:identifier>
-    <rdfs:label>Estimated value</rdfs:label>
     <skos:prefLabel>Estimated value</skos:prefLabel>
-    <skos:definition>Describes a situation where a calculation process has failed and extrapolated or interpolated values will be applied.</skos:definition>
+    <skos:definition xml:lang="en">Describes a situation where a calculation process has failed and extrapolated or interpolated values will be applied.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B49">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B49</xs:enumeration>
     <dc:identifier>B49</dc:identifier>
-    <rdfs:label>Balancing</rdfs:label>
     <skos:prefLabel>Balancing</skos:prefLabel>
-    <skos:definition>Activated for balancing purposes.</skos:definition>
+    <skos:definition xml:lang="en">Activated for balancing purposes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B50">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B50</xs:enumeration>
     <dc:identifier>B50</dc:identifier>
-    <rdfs:label>Values shared</rdfs:label>
     <skos:prefLabel>Values shared</skos:prefLabel>
-    <skos:definition>Values of this time series are also valid for counter-party.</skos:definition>
+    <skos:definition xml:lang="en">Values of this time series are also valid for counter-party.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B51">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B51</xs:enumeration>
     <dc:identifier>B51</dc:identifier>
-    <rdfs:label>Outside price limits</rdfs:label>
     <skos:prefLabel>Outside price limits</skos:prefLabel>
-    <skos:definition>The offered price is not within the valid limits.</skos:definition>
+    <skos:definition xml:lang="en">The offered price is not within the valid limits.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B52">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B52</xs:enumeration>
     <dc:identifier>B52</dc:identifier>
-    <rdfs:label>Previous timeframe data</rdfs:label>
     <skos:prefLabel>Previous timeframe data</skos:prefLabel>
-    <skos:definition>In case of processing issue, sent data are based on the previous timeframe.</skos:definition>
+    <skos:definition xml:lang="en">In case of processing issue, sent data are based on the previous timeframe.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B53">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B53</xs:enumeration>
     <dc:identifier>B53</dc:identifier>
-    <rdfs:label>MOL merging succesful</rdfs:label>
     <skos:prefLabel>MOL merging succesful</skos:prefLabel>
-    <skos:definition>The merging of the Merit Order List has been successfully processed.</skos:definition>
+    <skos:definition xml:lang="en">The merging of the Merit Order List has been successfully processed.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B54">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B54</xs:enumeration>
     <dc:identifier>B54</dc:identifier>
-    <rdfs:label>MOL merging failed</rdfs:label>
     <skos:prefLabel>MOL merging failed</skos:prefLabel>
-    <skos:definition>The merging of the Merit Order List has failed.</skos:definition>
+    <skos:definition xml:lang="en">The merging of the Merit Order List has failed.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B55">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B55</xs:enumeration>
     <dc:identifier>B55</dc:identifier>
-    <rdfs:label>Because of redispatching</rdfs:label>
     <skos:prefLabel>Because of redispatching</skos:prefLabel>
-    <skos:definition>Because of redispatching according to Article 2(26) of Commission Regulation (EU) 543/2013</skos:definition>
+    <skos:definition xml:lang="en">Because of redispatching according to Article 2(26) of Commission Regulation (EU) 543/2013</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B56">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B56</xs:enumeration>
     <dc:identifier>B56</dc:identifier>
-    <rdfs:label>Because of countertrading</rdfs:label>
     <skos:prefLabel>Because of countertrading</skos:prefLabel>
-    <skos:definition>Because of countertrading according to Article 2(13) of Commission Regulation (EU) 543/2013</skos:definition>
+    <skos:definition xml:lang="en">Because of countertrading according to Article 2(13) of Commission Regulation (EU) 543/2013</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B57">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B57</xs:enumeration>
     <dc:identifier>B57</dc:identifier>
-    <rdfs:label>Because of other remedial action</rdfs:label>
     <skos:prefLabel>Because of other remedial action</skos:prefLabel>
-    <skos:definition>Not available because of any remedial action.</skos:definition>
+    <skos:definition xml:lang="en">Not available because of any remedial action.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B58">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B58</xs:enumeration>
     <dc:identifier>B58</dc:identifier>
-    <rdfs:label>Insufficiency of reserves</rdfs:label>
     <skos:prefLabel>Insufficiency of reserves</skos:prefLabel>
-    <skos:definition>The reserve capacity is not sufficient.</skos:definition>
+    <skos:definition xml:lang="en">The reserve capacity is not sufficient.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B59">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B59</xs:enumeration>
     <dc:identifier>B59</dc:identifier>
-    <rdfs:label>Unavailability of reserve providing unit</rdfs:label>
     <skos:prefLabel>Unavailability of reserve providing unit</skos:prefLabel>
-    <skos:definition>The unit providing the reserve is subject to technical unavailability.</skos:definition>
+    <skos:definition xml:lang="en">The unit providing the reserve is subject to technical unavailability.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B60">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B60</xs:enumeration>
     <dc:identifier>B60</dc:identifier>
-    <rdfs:label>Unavailability of automatic protection systems</rdfs:label>
     <skos:prefLabel>Unavailability of automatic protection systems</skos:prefLabel>
-    <skos:definition>Unavailability of tools to detect predetermined system conditions that have a high probability of causing unusual stress on the power system, for which pre-planned remedial action is considered necessary or for which automatic protective actions may be triggered such as special protection schemes or automatic load shedding.</skos:definition>
+    <skos:definition xml:lang="en">Unavailability of tools to detect predetermined system conditions that have a high probability of causing unusual stress on the power system, for which pre-planned remedial action is considered necessary or for which automatic protective actions may be triggered such as special protection schemes or automatic load shedding.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B61">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B61</xs:enumeration>
     <dc:identifier>B61</dc:identifier>
-    <rdfs:label>Physical cable or converter restrictions</rdfs:label>
     <skos:prefLabel>Physical cable or converter restrictions</skos:prefLabel>
-    <skos:definition>Limitation due to physical cable or converter restrictions.</skos:definition>
+    <skos:definition xml:lang="en">Limitation due to physical cable or converter restrictions.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B62">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B62</xs:enumeration>
     <dc:identifier>B62</dc:identifier>
-    <rdfs:label>Constraints in controller systems</rdfs:label>
     <skos:prefLabel>Constraints in controller systems</skos:prefLabel>
-    <skos:definition>Limitation due to constraints in controller systems.</skos:definition>
+    <skos:definition xml:lang="en">Limitation due to constraints in controller systems.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B63">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B63</xs:enumeration>
     <dc:identifier>B63</dc:identifier>
-    <rdfs:label>Adjusted because of expected violation of operational security</rdfs:label>
     <skos:prefLabel>Adjusted because of expected violation of operational security</skos:prefLabel>
-    <skos:definition>The capacity is adjusted because of an expected violation of operational security limits of physical transmission assets.</skos:definition>
+    <skos:definition xml:lang="en">The capacity is adjusted because of an expected violation of operational security limits of physical transmission assets.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B64">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B64</xs:enumeration>
     <dc:identifier>B64</dc:identifier>
-    <rdfs:label>Adjusted because already considered remedial actions are assessed as not sufficient</rdfs:label>
     <skos:prefLabel>Adjusted because already considered remedial actions are assessed as not sufficient</skos:prefLabel>
-    <skos:definition>The capacity is adjusted because the remedial actions were assessed as not sufficient or ineffective to avoid the expected violation of operational security limit(s).</skos:definition>
+    <skos:definition xml:lang="en">The capacity is adjusted because the remedial actions were assessed as not sufficient or ineffective to avoid the expected violation of operational security limit(s).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B65">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B65</xs:enumeration>
     <dc:identifier>B65</dc:identifier>
-    <rdfs:label>Time series partially accepted</rdfs:label>
     <skos:prefLabel>Time series partially accepted</skos:prefLabel>
-    <skos:definition>The time series is partially accepted.</skos:definition>
+    <skos:definition xml:lang="en">The time series is partially accepted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B66">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B66</xs:enumeration>
     <dc:identifier>B66</dc:identifier>
-    <rdfs:label>Demand fully netted</rdfs:label>
     <skos:prefLabel>Demand fully netted</skos:prefLabel>
-    <skos:definition>Demand was fully netted against other demand(s).</skos:definition>
+    <skos:definition xml:lang="en">Demand was fully netted against other demand(s).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardReasonCodeTypeList/B67">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardReasonCodeTypeList"/>
-    <xs:enumeration>B67</xs:enumeration>
     <dc:identifier>B67</dc:identifier>
-    <rdfs:label>Bid activated in same direction</rdfs:label>
     <skos:prefLabel>Bid activated in same direction</skos:prefLabel>
-    <skos:definition>One or several bids were activated in the same direction within the same uncongested area as the demand.</skos:definition>
+    <skos:definition xml:lang="en">One or several bids were activated in the same direction within the same uncongested area as the demand.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

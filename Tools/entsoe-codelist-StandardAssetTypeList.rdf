@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:d44b8829-35b3-4c79-bf87-12cfe9007e7d">
+  <dcat:Distribution rdf:about="urn:uuid:72460d6f-1506-4c3b-a892-41647cb92a8f">
     <rdfs:label>entsoe-codelist-StandardAssetTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,596 +10,465 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardAssetTypeList">
-    <rdfs:label>StandardAssetTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardAssetTypeList</skos:prefLabel>
     <dc:identifier>ET0031</dc:identifier>
-    <skos:definition>The identification of the type of asset.</skos:definition>
-    <ecl:Uid>ET0031</ecl:Uid>
-    <ecl:Definition>The identification of the type of asset.</ecl:Definition>
+    <skos:definition xml:lang="en">The identification of the type of asset.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Tieline</rdfs:label>
     <skos:prefLabel>Tieline</skos:prefLabel>
-    <skos:definition>A high voltage line used for cross border energy interconnections.</skos:definition>
+    <skos:definition xml:lang="en">A high voltage line used for cross border energy interconnections.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Line</rdfs:label>
     <skos:prefLabel>Line</skos:prefLabel>
-    <skos:definition>A specific electric line within a country.</skos:definition>
+    <skos:definition xml:lang="en">A specific electric line within a country.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>Resource Object</rdfs:label>
     <skos:prefLabel>Resource Object</skos:prefLabel>
-    <skos:definition>A resource that can either produce or consume energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource that can either produce or consume energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A04</xs:enumeration>
     <dc:identifier>A04</dc:identifier>
-    <rdfs:label>Generation</rdfs:label>
     <skos:prefLabel>Generation</skos:prefLabel>
-    <skos:definition>A resource that can produce energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource that can produce energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A05</xs:enumeration>
     <dc:identifier>A05</dc:identifier>
-    <rdfs:label>Load</rdfs:label>
     <skos:prefLabel>Load</skos:prefLabel>
-    <skos:definition>A resource that can consume energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource that can consume energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A06">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A06</xs:enumeration>
     <dc:identifier>A06</dc:identifier>
-    <rdfs:label>Phase Shift Transformer</rdfs:label>
     <skos:prefLabel>Phase Shift Transformer</skos:prefLabel>
-    <skos:definition>An electrical device for controlling the power flow through specific lines in a power transmission network.</skos:definition>
+    <skos:definition xml:lang="en">An electrical device for controlling the power flow through specific lines in a power transmission network.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A07">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A07</xs:enumeration>
     <dc:identifier>A07</dc:identifier>
-    <rdfs:label>Circuit Breaker</rdfs:label>
     <skos:prefLabel>Circuit Breaker</skos:prefLabel>
-    <skos:definition>An electrical switch designed to protect an electrical circuit from damage caused by overcurrent/overload or short circuit.</skos:definition>
+    <skos:definition xml:lang="en">An electrical switch designed to protect an electrical circuit from damage caused by overcurrent/overload or short circuit.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A08">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A08</xs:enumeration>
     <dc:identifier>A08</dc:identifier>
-    <rdfs:label>Busbar</rdfs:label>
     <skos:prefLabel>Busbar</skos:prefLabel>
-    <skos:definition>A specific element within a substation to connect grid elements for energy distribution purposes.</skos:definition>
+    <skos:definition xml:lang="en">A specific element within a substation to connect grid elements for energy distribution purposes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A09">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A09</xs:enumeration>
     <dc:identifier>A09</dc:identifier>
-    <rdfs:label>Capacitor</rdfs:label>
     <skos:prefLabel>Capacitor</skos:prefLabel>
-    <skos:definition>A transmission element designed to inject reactive power into the transmission network. </skos:definition>
+    <skos:definition xml:lang="en">A transmission element designed to inject reactive power into the transmission network. </skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A10">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A10</xs:enumeration>
     <dc:identifier>A10</dc:identifier>
-    <rdfs:label>Inductor</rdfs:label>
     <skos:prefLabel>Inductor</skos:prefLabel>
-    <skos:definition>A transmission element designed to compensate reactive power in the transmission network.</skos:definition>
+    <skos:definition xml:lang="en">A transmission element designed to compensate reactive power in the transmission network.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A11">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A11</xs:enumeration>
     <dc:identifier>A11</dc:identifier>
-    <rdfs:label>Power plant connection</rdfs:label>
     <skos:prefLabel>Power plant connection</skos:prefLabel>
-    <skos:definition>All the network equipment that link the generating unit to the grid.</skos:definition>
+    <skos:definition xml:lang="en">All the network equipment that link the generating unit to the grid.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A12">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A12</xs:enumeration>
     <dc:identifier>A12</dc:identifier>
-    <rdfs:label>FACTS</rdfs:label>
     <skos:prefLabel>FACTS</skos:prefLabel>
-    <skos:definition>Flexible Alternating Current Transmission System</skos:definition>
+    <skos:definition xml:lang="en">Flexible Alternating Current Transmission System</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/A13">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>A13</xs:enumeration>
     <dc:identifier>A13</dc:identifier>
-    <rdfs:label>Production unit</rdfs:label>
     <skos:prefLabel>Production unit</skos:prefLabel>
-    <skos:definition>A production unit is a composition of one or several generation units.</skos:definition>
+    <skos:definition xml:lang="en">A production unit is a composition of one or several generation units.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B01</xs:enumeration>
     <dc:identifier>B01</dc:identifier>
-    <rdfs:label>Biomass</rdfs:label>
     <skos:prefLabel>Biomass</skos:prefLabel>
-    <skos:definition>A resource using biomass for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using biomass for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B02</xs:enumeration>
     <dc:identifier>B02</dc:identifier>
-    <rdfs:label>Fossil Brown coal/Lignite</rdfs:label>
     <skos:prefLabel>Fossil Brown coal/Lignite</skos:prefLabel>
-    <skos:definition>A resource using Fossil Brown coal/Lignite for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Fossil Brown coal/Lignite for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B03</xs:enumeration>
     <dc:identifier>B03</dc:identifier>
-    <rdfs:label>Fossil Coal-derived gas</rdfs:label>
     <skos:prefLabel>Fossil Coal-derived gas</skos:prefLabel>
-    <skos:definition>A resource using Fossil Coal-derived gas for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Fossil Coal-derived gas for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B04</xs:enumeration>
     <dc:identifier>B04</dc:identifier>
-    <rdfs:label>Fossil Gas</rdfs:label>
     <skos:prefLabel>Fossil Gas</skos:prefLabel>
-    <skos:definition>A resource using Fossil Gas for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Fossil Gas for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B05</xs:enumeration>
     <dc:identifier>B05</dc:identifier>
-    <rdfs:label>Fossil Hard coal</rdfs:label>
     <skos:prefLabel>Fossil Hard coal</skos:prefLabel>
-    <skos:definition>A resource using Fossil Hard coal for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Fossil Hard coal for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B06">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B06</xs:enumeration>
     <dc:identifier>B06</dc:identifier>
-    <rdfs:label>Fossil Oil</rdfs:label>
     <skos:prefLabel>Fossil Oil</skos:prefLabel>
-    <skos:definition>A resource using Fossil Oil for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Fossil Oil for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B07">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B07</xs:enumeration>
     <dc:identifier>B07</dc:identifier>
-    <rdfs:label>Fossil Oil shale</rdfs:label>
     <skos:prefLabel>Fossil Oil shale</skos:prefLabel>
-    <skos:definition>A resource using Fossil Oil shale for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Fossil Oil shale for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B08">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B08</xs:enumeration>
     <dc:identifier>B08</dc:identifier>
-    <rdfs:label>Fossil Peat</rdfs:label>
     <skos:prefLabel>Fossil Peat</skos:prefLabel>
-    <skos:definition>A resource using Fossil Peat for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Fossil Peat for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B09">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B09</xs:enumeration>
     <dc:identifier>B09</dc:identifier>
-    <rdfs:label>Geothermal</rdfs:label>
     <skos:prefLabel>Geothermal</skos:prefLabel>
-    <skos:definition>A resource using Geothermal for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Geothermal for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B10">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B10</xs:enumeration>
     <dc:identifier>B10</dc:identifier>
-    <rdfs:label>Hydro-electric pure pumped storage head installation</rdfs:label>
     <skos:prefLabel>Hydro-electric pure pumped storage head installation</skos:prefLabel>
-    <skos:definition>Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs. Pure pumped storage plants store water in an upper reservoir with no natural inflows.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs. Pure pumped storage plants store water in an upper reservoir with no natural inflows.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B11">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B11</xs:enumeration>
     <dc:identifier>B11</dc:identifier>
-    <rdfs:label>Hydro Run-of-river head installation</rdfs:label>
     <skos:prefLabel>Hydro Run-of-river head installation</skos:prefLabel>
-    <skos:definition>Unit in which moving water energy is converted to electricity using flowing water to generate electricity in the absence of a large dam and reservoirs.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which moving water energy is converted to electricity using flowing water to generate electricity in the absence of a large dam and reservoirs.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B12">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B12</xs:enumeration>
     <dc:identifier>B12</dc:identifier>
-    <rdfs:label>Hydro-electric storage head installation</rdfs:label>
     <skos:prefLabel>Hydro-electric storage head installation</skos:prefLabel>
-    <skos:definition>Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B13">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B13</xs:enumeration>
     <dc:identifier>B13</dc:identifier>
-    <rdfs:label>Marine unspecified</rdfs:label>
     <skos:prefLabel>Marine unspecified</skos:prefLabel>
-    <skos:definition>Unit in which marine energy is converted to electricity with equipment/devices not specified.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which marine energy is converted to electricity with equipment/devices not specified.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B14">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B14</xs:enumeration>
     <dc:identifier>B14</dc:identifier>
-    <rdfs:label>Nuclear unspecified</rdfs:label>
     <skos:prefLabel>Nuclear unspecified</skos:prefLabel>
-    <skos:definition>A unit in which the heat source is a nuclear reactor of type that is not specified in other nuclear types. </skos:definition>
+    <skos:definition xml:lang="en">A unit in which the heat source is a nuclear reactor of type that is not specified in other nuclear types. </skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B15">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B15</xs:enumeration>
     <dc:identifier>B15</dc:identifier>
-    <rdfs:label>Other renewable</rdfs:label>
     <skos:prefLabel>Other renewable</skos:prefLabel>
-    <skos:definition>A resource using Other renewable for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Other renewable for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B16">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B16</xs:enumeration>
     <dc:identifier>B16</dc:identifier>
-    <rdfs:label>Solar unspecified</rdfs:label>
     <skos:prefLabel>Solar unspecified</skos:prefLabel>
-    <skos:definition>Unit in which solar energy is converted to electricity with equipment/devices not specified.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which solar energy is converted to electricity with equipment/devices not specified.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B17">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B17</xs:enumeration>
     <dc:identifier>B17</dc:identifier>
-    <rdfs:label>Waste</rdfs:label>
     <skos:prefLabel>Waste</skos:prefLabel>
-    <skos:definition>A resource using Waste for energy.</skos:definition>
+    <skos:definition xml:lang="en">A resource using Waste for energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B18">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B18</xs:enumeration>
     <dc:identifier>B18</dc:identifier>
-    <rdfs:label>Wind Offshore</rdfs:label>
     <skos:prefLabel>Wind Offshore</skos:prefLabel>
-    <skos:definition>Unit in which wind energy is converted to electricity using wind farms constructed in bodies of water, usually in the ocean.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which wind energy is converted to electricity using wind farms constructed in bodies of water, usually in the ocean.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B19">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B19</xs:enumeration>
     <dc:identifier>B19</dc:identifier>
-    <rdfs:label>Wind Onshore</rdfs:label>
     <skos:prefLabel>Wind Onshore</skos:prefLabel>
-    <skos:definition>Unit in which wind energy is converted to electricity using wind farms constructed on land.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which wind energy is converted to electricity using wind farms constructed on land.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B20">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B20</xs:enumeration>
     <dc:identifier>B20</dc:identifier>
-    <rdfs:label>Other unspecified</rdfs:label>
     <skos:prefLabel>Other unspecified</skos:prefLabel>
-    <skos:definition>Other unspecified technology.</skos:definition>
+    <skos:definition xml:lang="en">Other unspecified technology.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B21">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B21</xs:enumeration>
     <dc:identifier>B21</dc:identifier>
-    <rdfs:label>AC Link</rdfs:label>
     <skos:prefLabel>AC Link</skos:prefLabel>
-    <skos:definition>Overhead line or cable which is used to transmit electrical power via Alternative Current.</skos:definition>
+    <skos:definition xml:lang="en">Overhead line or cable which is used to transmit electrical power via Alternative Current.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B22">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B22</xs:enumeration>
     <dc:identifier>B22</dc:identifier>
-    <rdfs:label>DC Link</rdfs:label>
     <skos:prefLabel>DC Link</skos:prefLabel>
-    <skos:definition>Overhead line or cable which is used to transmit electrical power via Direct Current.</skos:definition>
+    <skos:definition xml:lang="en">Overhead line or cable which is used to transmit electrical power via Direct Current.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B23">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B23</xs:enumeration>
     <dc:identifier>B23</dc:identifier>
-    <rdfs:label>Substation</rdfs:label>
     <skos:prefLabel>Substation</skos:prefLabel>
-    <skos:definition>An assembly of equipment in an electric power system through which electric energy is passed for transmission, transformation, distribution or switching.</skos:definition>
+    <skos:definition xml:lang="en">An assembly of equipment in an electric power system through which electric energy is passed for transmission, transformation, distribution or switching.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B24">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B24</xs:enumeration>
     <dc:identifier>B24</dc:identifier>
-    <rdfs:label>Transformer</rdfs:label>
     <skos:prefLabel>Transformer</skos:prefLabel>
-    <skos:definition>Electrical device that transfers energy from one voltage level to another voltage level.</skos:definition>
+    <skos:definition xml:lang="en">Electrical device that transfers energy from one voltage level to another voltage level.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B25">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B25</xs:enumeration>
     <dc:identifier>B25</dc:identifier>
-    <rdfs:label>Energy storage</rdfs:label>
     <skos:prefLabel>Energy storage</skos:prefLabel>
-    <skos:definition>A resource that stores energy. It could be gas, electricity, etc.</skos:definition>
+    <skos:definition xml:lang="en">A resource that stores energy. It could be gas, electricity, etc.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B26">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B26</xs:enumeration>
     <dc:identifier>B26</dc:identifier>
-    <rdfs:label>Demand Side Response</rdfs:label>
     <skos:prefLabel>Demand Side Response</skos:prefLabel>
-    <skos:definition>A resource that change its electricity consumption patterns in response to a signal or incentive.</skos:definition>
+    <skos:definition xml:lang="en">A resource that change its electricity consumption patterns in response to a signal or incentive.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B27">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B27</xs:enumeration>
     <dc:identifier>B27</dc:identifier>
-    <rdfs:label>Dispatchable hydro resource</rdfs:label>
     <skos:prefLabel>Dispatchable hydro resource</skos:prefLabel>
-    <skos:definition>A resource referring to dispatchable hydro generation.</skos:definition>
+    <skos:definition xml:lang="en">A resource referring to dispatchable hydro generation.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B28">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B28</xs:enumeration>
     <dc:identifier>B28</dc:identifier>
-    <rdfs:label>Solar photovoltaic</rdfs:label>
     <skos:prefLabel>Solar photovoltaic</skos:prefLabel>
-    <skos:definition>Unit in which solar energy is converted to electricity using a technology based on the photoelectric effect.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which solar energy is converted to electricity using a technology based on the photoelectric effect.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B29">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B29</xs:enumeration>
     <dc:identifier>B29</dc:identifier>
-    <rdfs:label>Solar concentration</rdfs:label>
     <skos:prefLabel>Solar concentration</skos:prefLabel>
-    <skos:definition>Unit in which solar energy is converted to electricity using mirrors to concentrate the sun's energy to drive traditional steam turbines or engines.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which solar energy is converted to electricity using mirrors to concentrate the sun's energy to drive traditional steam turbines or engines.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B30">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B30</xs:enumeration>
     <dc:identifier>B30</dc:identifier>
-    <rdfs:label>Wind unspecified</rdfs:label>
     <skos:prefLabel>Wind unspecified</skos:prefLabel>
-    <skos:definition>Unit in which wind energy is converted to electricity with equipment/devices not specified.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which wind energy is converted to electricity with equipment/devices not specified.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B31">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B31</xs:enumeration>
     <dc:identifier>B31</dc:identifier>
-    <rdfs:label>Hydro-electric unspecified</rdfs:label>
     <skos:prefLabel>Hydro-electric unspecified</skos:prefLabel>
-    <skos:definition>Unit in which moving water energy is converted to electricity with equipment/devices not specified. </skos:definition>
+    <skos:definition xml:lang="en">Unit in which moving water energy is converted to electricity with equipment/devices not specified. </skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B32">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B32</xs:enumeration>
     <dc:identifier>B32</dc:identifier>
-    <rdfs:label>Hydro-electric mixed pumped storage head installation</rdfs:label>
     <skos:prefLabel>Hydro-electric mixed pumped storage head installation</skos:prefLabel>
-    <skos:definition>Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs. Mixed pumped storage plants use a combination of pumped storage and conventional hydroelectric plants with an upper reservoir that is replenished in part by natural inflows from a stream or river.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which moving water energy is converted to electricity using flowing water to generate electricity with a large dam and reservoirs. Mixed pumped storage plants use a combination of pumped storage and conventional hydroelectric plants with an upper reservoir that is replenished in part by natural inflows from a stream or river.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B33">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B33</xs:enumeration>
     <dc:identifier>B33</dc:identifier>
-    <rdfs:label>Marine tidal</rdfs:label>
     <skos:prefLabel>Marine tidal</skos:prefLabel>
-    <skos:definition>Unit in which marine energy from tides is converted to electricity.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which marine energy from tides is converted to electricity.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B34">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B34</xs:enumeration>
     <dc:identifier>B34</dc:identifier>
-    <rdfs:label>Marine wave</rdfs:label>
     <skos:prefLabel>Marine wave</skos:prefLabel>
-    <skos:definition>Unit in which marine energy from waves is converted to electricity.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which marine energy from waves is converted to electricity.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B35">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B35</xs:enumeration>
     <dc:identifier>B35</dc:identifier>
-    <rdfs:label>Marine currents</rdfs:label>
     <skos:prefLabel>Marine currents</skos:prefLabel>
-    <skos:definition>Unit in which marine energy from currents is converted to electricity.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which marine energy from currents is converted to electricity.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B36">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B36</xs:enumeration>
     <dc:identifier>B36</dc:identifier>
-    <rdfs:label>Marine pressure</rdfs:label>
     <skos:prefLabel>Marine pressure</skos:prefLabel>
-    <skos:definition>Unit in which marine energy from pressure is converted to electricity.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which marine energy from pressure is converted to electricity.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B37">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B37</xs:enumeration>
     <dc:identifier>B37</dc:identifier>
-    <rdfs:label>Thermal unspecified</rdfs:label>
     <skos:prefLabel>Thermal unspecified</skos:prefLabel>
-    <skos:definition>Unit in which heat energy is converted to electricity with equipment/devices not specified in other thermal types.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which heat energy is converted to electricity with equipment/devices not specified in other thermal types.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B38">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B38</xs:enumeration>
     <dc:identifier>B38</dc:identifier>
-    <rdfs:label>Thermal combined cycle gas turbine with heat recovery</rdfs:label>
     <skos:prefLabel>Thermal combined cycle gas turbine with heat recovery</skos:prefLabel>
-    <skos:definition>Unit in which heat energy is converted to electricity called Combined Cycle Gas Turbine. The power is generated by the single or multiple gas turbine(s) in combination with the steam turbine(s). The unit might be equipped with waste heat recovery (e.g. to district heating network).</skos:definition>
+    <skos:definition xml:lang="en">Unit in which heat energy is converted to electricity called Combined Cycle Gas Turbine. The power is generated by the single or multiple gas turbine(s) in combination with the steam turbine(s). The unit might be equipped with waste heat recovery (e.g. to district heating network).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B39">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B39</xs:enumeration>
     <dc:identifier>B39</dc:identifier>
-    <rdfs:label>Thermal steam turbine with back-pressure turbine (open cycle)</rdfs:label>
     <skos:prefLabel>Thermal steam turbine with back-pressure turbine (open cycle)</skos:prefLabel>
-    <skos:definition>Unit in which heat energy is converted to electricity. The power is generated with the steam that is expanded in the back-pressure steam turbine with or without heat output (e.g. to district heating network).</skos:definition>
+    <skos:definition xml:lang="en">Unit in which heat energy is converted to electricity. The power is generated with the steam that is expanded in the back-pressure steam turbine with or without heat output (e.g. to district heating network).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B40">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B40</xs:enumeration>
     <dc:identifier>B40</dc:identifier>
-    <rdfs:label>Thermal steam turbine with condensation turbine (closed cycle)</rdfs:label>
     <skos:prefLabel>Thermal steam turbine with condensation turbine (closed cycle)</skos:prefLabel>
-    <skos:definition>Unit in which heat energy is converted to electricity. The power is generated with the steam that is expanded in the condensation steam turbine with or without heat output (e.g. to district heating network).</skos:definition>
+    <skos:definition xml:lang="en">Unit in which heat energy is converted to electricity. The power is generated with the steam that is expanded in the condensation steam turbine with or without heat output (e.g. to district heating network).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B41">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B41</xs:enumeration>
     <dc:identifier>B41</dc:identifier>
-    <rdfs:label>Thermal gas turbine with heat recovery</rdfs:label>
     <skos:prefLabel>Thermal gas turbine with heat recovery</skos:prefLabel>
-    <skos:definition>Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine and the flue gas waste heat is recovered (e.g. to district heating network).</skos:definition>
+    <skos:definition xml:lang="en">Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine and the flue gas waste heat is recovered (e.g. to district heating network).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B42">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B42</xs:enumeration>
     <dc:identifier>B42</dc:identifier>
-    <rdfs:label>Thermal internal combustion engine</rdfs:label>
     <skos:prefLabel>Thermal internal combustion engine</skos:prefLabel>
-    <skos:definition>An internal combustion engine is a heat engine in which the combustion of a fuel occurs with an oxidizer (usually air) in a combustion chamber that is an integral part of the working fluid flow circuit (e.g. reciprocating engine). The unit might be equipped with waste heat recovery (e.g. to district heating network).</skos:definition>
+    <skos:definition xml:lang="en">An internal combustion engine is a heat engine in which the combustion of a fuel occurs with an oxidizer (usually air) in a combustion chamber that is an integral part of the working fluid flow circuit (e.g. reciprocating engine). The unit might be equipped with waste heat recovery (e.g. to district heating network).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B43">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B43</xs:enumeration>
     <dc:identifier>B43</dc:identifier>
-    <rdfs:label>Thermal micro-turbine</rdfs:label>
     <skos:prefLabel>Thermal micro-turbine</skos:prefLabel>
-    <skos:definition>Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine (capacity less than 500kWe). The unit might be equipped with waste heat recovery (e.g. to district heating network).</skos:definition>
+    <skos:definition xml:lang="en">Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine (capacity less than 500kWe). The unit might be equipped with waste heat recovery (e.g. to district heating network).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B44">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B44</xs:enumeration>
     <dc:identifier>B44</dc:identifier>
-    <rdfs:label>Thermal Stirling engine</rdfs:label>
     <skos:prefLabel>Thermal Stirling engine</skos:prefLabel>
-    <skos:definition>A Stirling engine is a heat engine that is operated by the cyclic compression and expansion of air or other gas (the working fluid) at different temperatures, resulting in a net conversion of heat energy to mechanical work.</skos:definition>
+    <skos:definition xml:lang="en">A Stirling engine is a heat engine that is operated by the cyclic compression and expansion of air or other gas (the working fluid) at different temperatures, resulting in a net conversion of heat energy to mechanical work.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B45">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B45</xs:enumeration>
     <dc:identifier>B45</dc:identifier>
-    <rdfs:label>Thermal fuel cell</rdfs:label>
     <skos:prefLabel>Thermal fuel cell</skos:prefLabel>
-    <skos:definition>A fuel cell is an electrochemical cell that converts the chemical energy of a fuel (e.g. hydrogen) and an oxidizing agent (e.g. oxygen) into electricity through a pair of redox reactions.</skos:definition>
+    <skos:definition xml:lang="en">A fuel cell is an electrochemical cell that converts the chemical energy of a fuel (e.g. hydrogen) and an oxidizing agent (e.g. oxygen) into electricity through a pair of redox reactions.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B46">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B46</xs:enumeration>
     <dc:identifier>B46</dc:identifier>
-    <rdfs:label>Thermal steam engine</rdfs:label>
     <skos:prefLabel>Thermal steam engine</skos:prefLabel>
-    <skos:definition>A steam engine is a heat engine that performs mechanical work using steam as its working fluid. The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder.</skos:definition>
+    <skos:definition xml:lang="en">A steam engine is a heat engine that performs mechanical work using steam as its working fluid. The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B47">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B47</xs:enumeration>
     <dc:identifier>B47</dc:identifier>
-    <rdfs:label>Thermal organic Rankine cycle</rdfs:label>
     <skos:prefLabel>Thermal organic Rankine cycle</skos:prefLabel>
-    <skos:definition>The Organic Rankine Cycle (ORC) is named for its use of an organic, high molecular mass fluid with a liquid-vapor phase change, or boiling point, occurring at a lower temperature than the water-steam phase change. The fluid allows Rankine cycle heat recovery from lower temperature sources such as biomass combustion, industrial waste heat, geothermal heat, solar ponds etc. The low-temperature heat is converted into useful work, that can itself be converted into electricity.</skos:definition>
+    <skos:definition xml:lang="en">The Organic Rankine Cycle (ORC) is named for its use of an organic, high molecular mass fluid with a liquid-vapor phase change, or boiling point, occurring at a lower temperature than the water-steam phase change. The fluid allows Rankine cycle heat recovery from lower temperature sources such as biomass combustion, industrial waste heat, geothermal heat, solar ponds etc. The low-temperature heat is converted into useful work, that can itself be converted into electricity.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B48">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B48</xs:enumeration>
     <dc:identifier>B48</dc:identifier>
-    <rdfs:label>Thermal gas turbine without heat recovery</rdfs:label>
     <skos:prefLabel>Thermal gas turbine without heat recovery</skos:prefLabel>
-    <skos:definition>Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine and there is no flue gas waste heat recovery.</skos:definition>
+    <skos:definition xml:lang="en">Unit in which heat energy is converted to electricity called Simple Cycle Gas Turbine. The power is generated by the gas turbine and there is no flue gas waste heat recovery.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B49">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B49</xs:enumeration>
     <dc:identifier>B49</dc:identifier>
-    <rdfs:label>Nuclear heavy water reactor</rdfs:label>
     <skos:prefLabel>Nuclear heavy water reactor</skos:prefLabel>
-    <skos:definition>A unit in which the heat source is a pressurized heavy-water reactor (PHWR) that is a nuclear reactor that uses heavy water (deuterium oxide D2O) as its coolant and neutron moderator.</skos:definition>
+    <skos:definition xml:lang="en">A unit in which the heat source is a pressurized heavy-water reactor (PHWR) that is a nuclear reactor that uses heavy water (deuterium oxide D2O) as its coolant and neutron moderator.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B50">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B50</xs:enumeration>
     <dc:identifier>B50</dc:identifier>
-    <rdfs:label>Nuclear light water reactor</rdfs:label>
     <skos:prefLabel>Nuclear light water reactor</skos:prefLabel>
-    <skos:definition>A unit in which the heat source is a light-water reactor (LWR) that is a type of thermal-neutron reactor that uses normal water, as both its coolant and neutron moderator – furthermore a solid form of fissile elements is used as fuel. </skos:definition>
+    <skos:definition xml:lang="en">A unit in which the heat source is a light-water reactor (LWR) that is a type of thermal-neutron reactor that uses normal water, as both its coolant and neutron moderator – furthermore a solid form of fissile elements is used as fuel. </skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B51">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B51</xs:enumeration>
     <dc:identifier>B51</dc:identifier>
-    <rdfs:label>Nuclear breeder</rdfs:label>
     <skos:prefLabel>Nuclear breeder</skos:prefLabel>
-    <skos:definition>A unit in which the heat source is a nuclear reactor that generates more fissile material than it consumes.</skos:definition>
+    <skos:definition xml:lang="en">A unit in which the heat source is a nuclear reactor that generates more fissile material than it consumes.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAssetTypeList/B52">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAssetTypeList"/>
-    <xs:enumeration>B52</xs:enumeration>
     <dc:identifier>B52</dc:identifier>
-    <rdfs:label>Nuclear graphite reactor</rdfs:label>
     <skos:prefLabel>Nuclear graphite reactor</skos:prefLabel>
-    <skos:definition>A unit in which the heat source is a graphite-moderated reactor that is a nuclear reactor that uses carbon as a neutron moderator, which allows natural uranium to be used as nuclear fuel.</skos:definition>
+    <skos:definition xml:lang="en">A unit in which the heat source is a graphite-moderated reactor that is a nuclear reactor that uses carbon as a neutron moderator, which allows natural uranium to be used as nuclear fuel.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

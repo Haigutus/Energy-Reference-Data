@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:0be6682b-8756-4356-896e-00569e729349">
+  <dcat:Distribution rdf:about="urn:uuid:6a75383c-3413-4d46-8baf-870015fe0755">
     <rdfs:label>entsoe-codelist-StandardQualityTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,56 +10,45 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardQualityTypeList">
-    <rdfs:label>StandardQualityTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardQualityTypeList</skos:prefLabel>
     <dc:identifier>ET0036</dc:identifier>
-    <skos:definition>The quality of an object.</skos:definition>
-    <ecl:Uid>ET0036</ecl:Uid>
-    <ecl:Definition>The quality of an object.</ecl:Definition>
+    <skos:definition xml:lang="en">The quality of an object.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardQualityTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Adjusted</rdfs:label>
     <skos:prefLabel>Adjusted</skos:prefLabel>
-    <skos:definition>The contents of the object have been adjusted.</skos:definition>
+    <skos:definition xml:lang="en">The contents of the object have been adjusted.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardQualityTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Not available</rdfs:label>
     <skos:prefLabel>Not available</skos:prefLabel>
-    <skos:definition>The contents of the object are not available.</skos:definition>
+    <skos:definition xml:lang="en">The contents of the object are not available.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardQualityTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>Estimated</rdfs:label>
     <skos:prefLabel>Estimated</skos:prefLabel>
-    <skos:definition>The contents of the object are estimated.</skos:definition>
+    <skos:definition xml:lang="en">The contents of the object are estimated.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardQualityTypeList/A04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
-    <xs:enumeration>A04</xs:enumeration>
     <dc:identifier>A04</dc:identifier>
-    <rdfs:label>As provided</rdfs:label>
     <skos:prefLabel>As provided</skos:prefLabel>
-    <skos:definition>The contents of the object are as provided.</skos:definition>
+    <skos:definition xml:lang="en">The contents of the object are as provided.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardQualityTypeList/A05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardQualityTypeList"/>
-    <xs:enumeration>A05</xs:enumeration>
     <dc:identifier>A05</dc:identifier>
-    <rdfs:label>Incomplete</rdfs:label>
     <skos:prefLabel>Incomplete</skos:prefLabel>
-    <skos:definition>The contents of the object are calculated based on incomplete data.</skos:definition>
+    <skos:definition xml:lang="en">The contents of the object are calculated based on incomplete data.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

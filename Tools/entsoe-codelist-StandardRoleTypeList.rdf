@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:2c943a3b-685e-45e0-af25-2499d2555b0b">
+  <dcat:Distribution rdf:about="urn:uuid:1aee833d-6173-4006-b28d-b1f7b3b29739">
     <rdfs:label>entsoe-codelist-StandardRoleTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,476 +10,373 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardRoleTypeList">
-    <rdfs:label>StandardRoleTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardRoleTypeList</skos:prefLabel>
     <dc:identifier>ET0005</dc:identifier>
-    <skos:definition>Identification of the role played by a party.</skos:definition>
-    <ecl:Uid>ET0005</ecl:Uid>
-    <ecl:Definition>Identification of the role played by a party.</ecl:Definition>
+    <skos:definition xml:lang="en">Identification of the role played by a party.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Trade responsible party</rdfs:label>
     <skos:prefLabel>Trade responsible party</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Consumption responsible party</rdfs:label>
     <skos:prefLabel>Consumption responsible party</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>Combined power exchange (not to be used)</rdfs:label>
     <skos:prefLabel>Combined power exchange (not to be used)</skos:prefLabel>
-    <skos:definition>This role is no longer in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">This role is no longer in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A04</xs:enumeration>
     <dc:identifier>A04</dc:identifier>
-    <rdfs:label>System operator</rdfs:label>
     <skos:prefLabel>System operator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A05</xs:enumeration>
     <dc:identifier>A05</dc:identifier>
-    <rdfs:label>Imbalance settlement responsible</rdfs:label>
     <skos:prefLabel>Imbalance settlement responsible</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A06">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A06</xs:enumeration>
     <dc:identifier>A06</dc:identifier>
-    <rdfs:label>Production responsible party</rdfs:label>
     <skos:prefLabel>Production responsible party</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A07">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A07</xs:enumeration>
     <dc:identifier>A07</dc:identifier>
-    <rdfs:label>Transmission capacity allocator</rdfs:label>
     <skos:prefLabel>Transmission capacity allocator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A08">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A08</xs:enumeration>
     <dc:identifier>A08</dc:identifier>
-    <rdfs:label>Balance responsible party</rdfs:label>
     <skos:prefLabel>Balance responsible party</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A09">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A09</xs:enumeration>
     <dc:identifier>A09</dc:identifier>
-    <rdfs:label>Metered data aggregator</rdfs:label>
     <skos:prefLabel>Metered data aggregator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A10">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A10</xs:enumeration>
     <dc:identifier>A10</dc:identifier>
-    <rdfs:label>Billing agent</rdfs:label>
     <skos:prefLabel>Billing agent</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A11">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A11</xs:enumeration>
     <dc:identifier>A11</dc:identifier>
-    <rdfs:label>Market operator</rdfs:label>
     <skos:prefLabel>Market operator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A12">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A12</xs:enumeration>
     <dc:identifier>A12</dc:identifier>
-    <rdfs:label>Balance supplier</rdfs:label>
     <skos:prefLabel>Balance supplier</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A13">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A13</xs:enumeration>
     <dc:identifier>A13</dc:identifier>
-    <rdfs:label>Consumer</rdfs:label>
     <skos:prefLabel>Consumer</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A14">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A14</xs:enumeration>
     <dc:identifier>A14</dc:identifier>
-    <rdfs:label>Control area operator</rdfs:label>
     <skos:prefLabel>Control area operator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A15">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A15</xs:enumeration>
     <dc:identifier>A15</dc:identifier>
-    <rdfs:label>Control block operator</rdfs:label>
     <skos:prefLabel>Control block operator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A16">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A16</xs:enumeration>
     <dc:identifier>A16</dc:identifier>
-    <rdfs:label>Coordination centre operator</rdfs:label>
     <skos:prefLabel>Coordination centre operator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A17">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A17</xs:enumeration>
     <dc:identifier>A17</dc:identifier>
-    <rdfs:label>Grid access provider</rdfs:label>
     <skos:prefLabel>Grid access provider</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A18">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A18</xs:enumeration>
     <dc:identifier>A18</dc:identifier>
-    <rdfs:label>Grid operator</rdfs:label>
     <skos:prefLabel>Grid operator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A19">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A19</xs:enumeration>
     <dc:identifier>A19</dc:identifier>
-    <rdfs:label>Meter administrator</rdfs:label>
     <skos:prefLabel>Meter administrator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A20">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A20</xs:enumeration>
     <dc:identifier>A20</dc:identifier>
-    <rdfs:label>Party connected to grid</rdfs:label>
     <skos:prefLabel>Party connected to grid</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A21">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A21</xs:enumeration>
     <dc:identifier>A21</dc:identifier>
-    <rdfs:label>Producer</rdfs:label>
     <skos:prefLabel>Producer</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A22">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A22</xs:enumeration>
     <dc:identifier>A22</dc:identifier>
-    <rdfs:label>Profile maintenance party</rdfs:label>
     <skos:prefLabel>Profile maintenance party</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A23">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A23</xs:enumeration>
     <dc:identifier>A23</dc:identifier>
-    <rdfs:label>Meter operator</rdfs:label>
     <skos:prefLabel>Meter operator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A24">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A24</xs:enumeration>
     <dc:identifier>A24</dc:identifier>
-    <rdfs:label>Metered data collector</rdfs:label>
     <skos:prefLabel>Metered data collector</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A25">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A25</xs:enumeration>
     <dc:identifier>A25</dc:identifier>
-    <rdfs:label>Metered data responsible</rdfs:label>
     <skos:prefLabel>Metered data responsible</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A26">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A26</xs:enumeration>
     <dc:identifier>A26</dc:identifier>
-    <rdfs:label>Metering point administrator</rdfs:label>
     <skos:prefLabel>Metering point administrator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A27">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A27</xs:enumeration>
     <dc:identifier>A27</dc:identifier>
-    <rdfs:label>Resource Provider</rdfs:label>
     <skos:prefLabel>Resource Provider</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A28">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A28</xs:enumeration>
     <dc:identifier>A28</dc:identifier>
-    <rdfs:label>Scheduling coordinator</rdfs:label>
     <skos:prefLabel>Scheduling coordinator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A29">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A29</xs:enumeration>
     <dc:identifier>A29</dc:identifier>
-    <rdfs:label>Capacity Trader</rdfs:label>
     <skos:prefLabel>Capacity Trader</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A30">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A30</xs:enumeration>
     <dc:identifier>A30</dc:identifier>
-    <rdfs:label>Interconnection Trade Responsible</rdfs:label>
     <skos:prefLabel>Interconnection Trade Responsible</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A31">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A31</xs:enumeration>
     <dc:identifier>A31</dc:identifier>
-    <rdfs:label>Nomination Validator</rdfs:label>
     <skos:prefLabel>Nomination Validator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A32">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A32</xs:enumeration>
     <dc:identifier>A32</dc:identifier>
-    <rdfs:label>Market information aggregator</rdfs:label>
     <skos:prefLabel>Market information aggregator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that collects information from different sources and assembles  it to provide a summary of the market.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A33">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A33</xs:enumeration>
     <dc:identifier>A33</dc:identifier>
-    <rdfs:label>Information receiver</rdfs:label>
     <skos:prefLabel>Information receiver</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party, not necessarily a market participant, which receives information about the market.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A34">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A34</xs:enumeration>
     <dc:identifier>A34</dc:identifier>
-    <rdfs:label>Reserve Allocator</rdfs:label>
     <skos:prefLabel>Reserve Allocator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A35">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A35</xs:enumeration>
     <dc:identifier>A35</dc:identifier>
-    <rdfs:label>MOL Responsible</rdfs:label>
     <skos:prefLabel>MOL Responsible</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that Informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A36">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A36</xs:enumeration>
     <dc:identifier>A36</dc:identifier>
-    <rdfs:label>Capacity Coordinator</rdfs:label>
     <skos:prefLabel>Capacity Coordinator</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party, acting on behalf of the SOs involved, responsible for establishing a coordinated Offered Capacity and/or NTC and/or ATC between several Market Balance Areas.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A37">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A37</xs:enumeration>
     <dc:identifier>A37</dc:identifier>
-    <rdfs:label>Reconciliation Accountable</rdfs:label>
     <skos:prefLabel>Reconciliation Accountable</skos:prefLabel>
-    <skos:definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that is financially accountable for the reconciled volume of energy products for a profiled local metering point.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A38">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A38</xs:enumeration>
     <dc:identifier>A38</dc:identifier>
-    <rdfs:label>Reconciliation Responsible</rdfs:label>
     <skos:prefLabel>Reconciliation Responsible</skos:prefLabel>
-    <skos:definition>A party that is responsible for reconciling, within a metering grid area, the volumes used in the imbalance settlement process for profiled metering points and the actual metered quantities.</skos:definition>
+    <skos:definition xml:lang="en">A party that is responsible for reconciling, within a metering grid area, the volumes used in the imbalance settlement process for profiled metering points and the actual metered quantities.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A39">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A39</xs:enumeration>
     <dc:identifier>A39</dc:identifier>
-    <rdfs:label>Data provider</rdfs:label>
     <skos:prefLabel>Data provider</skos:prefLabel>
-    <skos:definition>A party that is responsible for providing information to a central authority.</skos:definition>
+    <skos:definition xml:lang="en">A party that is responsible for providing information to a central authority.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A40">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A40</xs:enumeration>
     <dc:identifier>A40</dc:identifier>
-    <rdfs:label>Local Issuing Office (LIO)</rdfs:label>
     <skos:prefLabel>Local Issuing Office (LIO)</skos:prefLabel>
-    <skos:definition>A party that is responsible for operating a Local Issuing Office (LIO).</skos:definition>
+    <skos:definition xml:lang="en">A party that is responsible for operating a Local Issuing Office (LIO).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A41">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A41</xs:enumeration>
     <dc:identifier>A41</dc:identifier>
-    <rdfs:label>Central Issuing Office (CIO)</rdfs:label>
     <skos:prefLabel>Central Issuing Office (CIO)</skos:prefLabel>
-    <skos:definition>A party that is responsible for operating a Central Issuing Office (CIO).</skos:definition>
+    <skos:definition xml:lang="en">A party that is responsible for operating a Central Issuing Office (CIO).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A42">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A42</xs:enumeration>
     <dc:identifier>A42</dc:identifier>
-    <rdfs:label>EIC Participant</rdfs:label>
     <skos:prefLabel>EIC Participant</skos:prefLabel>
-    <skos:definition>A party that participates in the EIC environment.</skos:definition>
+    <skos:definition xml:lang="en">A party that participates in the EIC environment.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A43">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A43</xs:enumeration>
     <dc:identifier>A43</dc:identifier>
-    <rdfs:label>Weather analyser</rdfs:label>
     <skos:prefLabel>Weather analyser</skos:prefLabel>
-    <skos:definition>A party that analyses the current and forecast weather situation and establishes a prognosis of its impact on the renewable energy environment as well as the overall load.</skos:definition>
+    <skos:definition xml:lang="en">A party that analyses the current and forecast weather situation and establishes a prognosis of its impact on the renewable energy environment as well as the overall load.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A44">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A44</xs:enumeration>
     <dc:identifier>A44</dc:identifier>
-    <rdfs:label>Regional Security Coordinator (RSC)</rdfs:label>
     <skos:prefLabel>Regional Security Coordinator (RSC)</skos:prefLabel>
-    <skos:definition>The RSC as defined in the System Operation guideline.</skos:definition>
+    <skos:definition xml:lang="en">The RSC as defined in the System Operation guideline.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A45">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A45</xs:enumeration>
     <dc:identifier>A45</dc:identifier>
-    <rdfs:label>Energy Service Company (ESCO)</rdfs:label>
     <skos:prefLabel>Energy Service Company (ESCO)</skos:prefLabel>
-    <skos:definition>A party offering energy-related services to the Party Connected to Grid, but not directly active in the energy value chain or the physical infrastructure itself. The ESCO may provide insight services as well as energy management services.</skos:definition>
+    <skos:definition xml:lang="en">A party offering energy-related services to the Party Connected to Grid, but not directly active in the energy value chain or the physical infrastructure itself. The ESCO may provide insight services as well as energy management services.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A46">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A46</xs:enumeration>
     <dc:identifier>A46</dc:identifier>
-    <rdfs:label>Balancing Service Provider</rdfs:label>
     <skos:prefLabel>Balancing Service Provider</skos:prefLabel>
-    <skos:definition>A party with reserve-providing units or reserve-providing groups able to provide balancing services to LFC Operators.</skos:definition>
+    <skos:definition xml:lang="en">A party with reserve-providing units or reserve-providing groups able to provide balancing services to LFC Operators.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A47">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A47</xs:enumeration>
     <dc:identifier>A47</dc:identifier>
-    <rdfs:label>Energy trader</rdfs:label>
     <skos:prefLabel>Energy trader</skos:prefLabel>
-    <skos:definition>A party that is selling or buying energy.</skos:definition>
+    <skos:definition xml:lang="en">A party that is selling or buying energy.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A48">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A48</xs:enumeration>
     <dc:identifier>A48</dc:identifier>
-    <rdfs:label>LFC Operator</rdfs:label>
     <skos:prefLabel>LFC Operator</skos:prefLabel>
-    <skos:definition>A party that is responsible for the Load Frequency Control of its LFC Area or LFC Block.</skos:definition>
+    <skos:definition xml:lang="en">A party that is responsible for the Load Frequency Control of its LFC Area or LFC Block.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A49">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A49</xs:enumeration>
     <dc:identifier>A49</dc:identifier>
-    <rdfs:label>Transmission System Operator (TSO)</rdfs:label>
     <skos:prefLabel>Transmission System Operator (TSO)</skos:prefLabel>
-    <skos:definition>The Transmission System Operator (TSO) is responsible for the transport of electricity on the extra high-voltage and high-voltage interconnected system. This is a market participant and not a role in Harmonised Role Model.</skos:definition>
+    <skos:definition xml:lang="en">The Transmission System Operator (TSO) is responsible for the transport of electricity on the extra high-voltage and high-voltage interconnected system. This is a market participant and not a role in Harmonised Role Model.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A50">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A50</xs:enumeration>
     <dc:identifier>A50</dc:identifier>
-    <rdfs:label>Distribution System Operator (DSO)</rdfs:label>
     <skos:prefLabel>Distribution System Operator (DSO)</skos:prefLabel>
-    <skos:definition>Distribution System Operator (DSO) is responsible for transport of electricity on high-voltage (optionally), medium-voltage and low-voltage distribution systems. This is a market participant and not a role in Harmonised Role Model.</skos:definition>
+    <skos:definition xml:lang="en">Distribution System Operator (DSO) is responsible for transport of electricity on high-voltage (optionally), medium-voltage and low-voltage distribution systems. This is a market participant and not a role in Harmonised Role Model.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardRoleTypeList/A51">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardRoleTypeList"/>
-    <xs:enumeration>A51</xs:enumeration>
     <dc:identifier>A51</dc:identifier>
-    <rdfs:label>Resource Capacity Mechanism Operator</rdfs:label>
     <skos:prefLabel>Resource Capacity Mechanism Operator</skos:prefLabel>
-    <skos:definition>Resource capacity mechanism operator is the party responsible to operate the resource capacity mechanism in a member state. It can either be the TSO or an independent party.</skos:definition>
+    <skos:definition xml:lang="en">Resource capacity mechanism operator is the party responsible to operate the resource capacity mechanism in a member state. It can either be the TSO or an independent party.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

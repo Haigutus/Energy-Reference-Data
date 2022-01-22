@@ -58,7 +58,8 @@
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
   "definition": {
-      "namespace": "http://www.w3.org/2004/02/skos/core#"
+      "namespace": "http://www.w3.org/2004/02/skos/core#",
+      "language": "en"
   },
   "identifier": {
       "namespace": "http://purl.org/dc/elements/1.1/"

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:9beccd73-7df2-48a9-8468-327d1ded3fc8">
+  <dcat:Distribution rdf:about="urn:uuid:26867ef8-c88b-405f-a25e-0891994d15fd">
     <rdfs:label>entsoe-codelist-StandardObjectAggregationTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,146 +10,115 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList">
-    <rdfs:label>StandardObjectAggregationTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardObjectAggregationTypeList</skos:prefLabel>
     <dc:identifier>ET0018</dc:identifier>
-    <skos:definition>The identification of the domain that is the common dominator used to aggregate a time series.</skos:definition>
-    <ecl:Uid>ET0018</ecl:Uid>
-    <ecl:Definition>The identification of the domain that is the common dominator used to aggregate a time series.</ecl:Definition>
+    <skos:definition xml:lang="en">The identification of the domain that is the common dominator used to aggregate a time series.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Area</rdfs:label>
     <skos:prefLabel>Area</skos:prefLabel>
-    <skos:definition>The object being described concerns an area.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns an area.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Metering point</rdfs:label>
     <skos:prefLabel>Metering point</skos:prefLabel>
-    <skos:definition>The object being described concerns a metering point.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns a metering point.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>Party</rdfs:label>
     <skos:prefLabel>Party</skos:prefLabel>
-    <skos:definition>The object being described concerns a party.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns a party.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A04</xs:enumeration>
     <dc:identifier>A04</dc:identifier>
-    <rdfs:label>Agreement Identification</rdfs:label>
     <skos:prefLabel>Agreement Identification</skos:prefLabel>
-    <skos:definition>The object being described concerns an agreement identification.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns an agreement identification.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A05</xs:enumeration>
     <dc:identifier>A05</dc:identifier>
-    <rdfs:label>Accounting point</rdfs:label>
     <skos:prefLabel>Accounting point</skos:prefLabel>
-    <skos:definition>The object being described concerns an accounting point.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns an accounting point.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A06">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A06</xs:enumeration>
     <dc:identifier>A06</dc:identifier>
-    <rdfs:label>Resource Object</rdfs:label>
     <skos:prefLabel>Resource Object</skos:prefLabel>
-    <skos:definition>The object being described concerns a resource object.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns a resource object.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A07">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A07</xs:enumeration>
     <dc:identifier>A07</dc:identifier>
-    <rdfs:label>Tieline</rdfs:label>
     <skos:prefLabel>Tieline</skos:prefLabel>
-    <skos:definition>The object being described concerns a tieline.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns a tieline.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A08">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A08</xs:enumeration>
     <dc:identifier>A08</dc:identifier>
-    <rdfs:label>Resource type</rdfs:label>
     <skos:prefLabel>Resource type</skos:prefLabel>
-    <skos:definition>The object being described concerns a resource type.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns a resource type.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A09">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A09</xs:enumeration>
     <dc:identifier>A09</dc:identifier>
-    <rdfs:label>DC link</rdfs:label>
     <skos:prefLabel>DC link</skos:prefLabel>
-    <skos:definition>The object being described concerns a DC link.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns a DC link.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A10">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A10</xs:enumeration>
     <dc:identifier>A10</dc:identifier>
-    <rdfs:label>AC link</rdfs:label>
     <skos:prefLabel>AC link</skos:prefLabel>
-    <skos:definition>The object being described concerns an AC link.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns an AC link.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A11">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A11</xs:enumeration>
     <dc:identifier>A11</dc:identifier>
-    <rdfs:label>Merchant line</rdfs:label>
     <skos:prefLabel>Merchant line</skos:prefLabel>
-    <skos:definition>The object being described concerns a merchant line.</skos:definition>
+    <skos:definition xml:lang="en">The object being described concerns a merchant line.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A12">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A12</xs:enumeration>
     <dc:identifier>A12</dc:identifier>
-    <rdfs:label>Bidding zone</rdfs:label>
     <skos:prefLabel>Bidding zone</skos:prefLabel>
-    <skos:definition>The largest geographical area within which market participants are able to exchange energy without capacity allocation.</skos:definition>
+    <skos:definition xml:lang="en">The largest geographical area within which market participants are able to exchange energy without capacity allocation.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A13">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A13</xs:enumeration>
     <dc:identifier>A13</dc:identifier>
-    <rdfs:label>Virtual bidding zone</rdfs:label>
     <skos:prefLabel>Virtual bidding zone</skos:prefLabel>
-    <skos:definition>A non-geographical bidding zone to be able to apply extra constraints to Bidding Zones.</skos:definition>
+    <skos:definition xml:lang="en">A non-geographical bidding zone to be able to apply extra constraints to Bidding Zones.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A14">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A14</xs:enumeration>
     <dc:identifier>A14</dc:identifier>
-    <rdfs:label>Metering grid area</rdfs:label>
     <skos:prefLabel>Metering grid area</skos:prefLabel>
-    <skos:definition>A physical area where consumption, production and exchange can be measured. It is delimited by the placement of meters for continuous measurement for input to, and withdrawal from the area.</skos:definition>
+    <skos:definition xml:lang="en">A physical area where consumption, production and exchange can be measured. It is delimited by the placement of meters for continuous measurement for input to, and withdrawal from the area.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A15">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <xs:enumeration>A15</xs:enumeration>
     <dc:identifier>A15</dc:identifier>
-    <rdfs:label>Scheduling area</rdfs:label>
     <skos:prefLabel>Scheduling area</skos:prefLabel>
-    <skos:definition>An area within which the TSOs' obligations regarding scheduling apply due to operational or organisational needs.</skos:definition>
+    <skos:definition xml:lang="en">An area within which the TSOs' obligations regarding scheduling apply due to operational or organisational needs.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

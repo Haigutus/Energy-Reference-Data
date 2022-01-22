@@ -555,7 +555,7 @@ pandas.DataFrame.export_to_excel = export_to_excel
 
 def export_to_cimxml(data,
                      rdf_map=None,
-                     namespace_map={"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"},
+                     namespace_map=None,
                      class_KEY="Type",
                      export_undefined=True,
                      export_type="xml_per_instance_zip_per_xml",
@@ -569,6 +569,13 @@ def export_to_cimxml(data,
     if debug:
         start_time = datetime.datetime.now()
         init_time = start_time
+
+    if not namespace_map:
+        namespace_map = {
+            "xml": "http://www.w3.org/XML/1998/namespace",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        }
 
     # File names are kept under rdfs:lable
     labels = data.merge(data.query(f"KEY == '{class_KEY}' and VALUE == '{filename_class}'").ID).query(f"KEY == '{filename_tag}'").itertuples()
@@ -624,6 +631,7 @@ def export_to_cimxml(data,
                 class_namespace = class_def["namespace"]
                 id_name = class_def["attrib"]["attribute"]
                 id_value_prefix = class_def["attrib"]["value_prefix"]
+                language = class_def.get("language", None)
 
             else:
                 print("WARNING - Definition missing for class: {} with {}: ".format(class_name, ID))
@@ -641,6 +649,10 @@ def export_to_cimxml(data,
             rdf_object = E(QName(class_namespace, class_name))
             # Add ID attribute
             rdf_object.attrib[QName(id_name)] = f"{id_value_prefix}{ID}"
+
+            if language:
+                rdf_object.attrib["{http://www.w3.org/XML/1998/namespace}lang"] = language
+
             # Add object to RDF
             RDF.append(rdf_object)
             # Add object with it's ID to dict (later we use it to add attributes to that class)
@@ -668,11 +680,15 @@ def export_to_cimxml(data,
                         tag = E(QName(tag_def["namespace"], KEY))
                         attrib = tag_def.get("attrib", None)
                         text_prefix = tag_def.get("text", "")
+                        language = tag_def.get("language", None)
 
                         if attrib:
                             tag.attrib[QName(attrib["attribute"])] = f"{attrib['value_prefix']}{VALUE}"
                         else:
                             tag.text = f"{text_prefix}{VALUE}"
+
+                        if language:
+                            tag.attrib["{http://www.w3.org/XML/1998/namespace}lang"] = language
 
                         _object.append(tag)
 

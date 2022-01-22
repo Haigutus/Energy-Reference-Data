@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:12afb7b1-31a8-44f8-971d-1d921adb524f">
+  <dcat:Distribution rdf:about="urn:uuid:9bcd797f-15bb-44c6-b04e-fe4f0dc32ebd">
     <rdfs:label>entsoe-codelist-StandardAuctionTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,74 +10,59 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardAuctionTypeList">
-    <rdfs:label>StandardAuctionTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardAuctionTypeList</skos:prefLabel>
     <dc:identifier>ET0030</dc:identifier>
-    <skos:definition>The coded representation of different types of auction.</skos:definition>
-    <ecl:Uid>ET0030</ecl:Uid>
-    <ecl:Definition>The coded representation of different types of auction.</ecl:Definition>
+    <skos:definition xml:lang="en">The coded representation of different types of auction.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAuctionTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Implicit</rdfs:label>
     <skos:prefLabel>Implicit</skos:prefLabel>
-    <skos:definition>The auction is an implicit auction.</skos:definition>
+    <skos:definition xml:lang="en">The auction is an implicit auction.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAuctionTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Explicit</rdfs:label>
     <skos:prefLabel>Explicit</skos:prefLabel>
-    <skos:definition>The auction is an explicit auction.</skos:definition>
+    <skos:definition xml:lang="en">The auction is an explicit auction.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAuctionTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>Rule Based</rdfs:label>
     <skos:prefLabel>Rule Based</skos:prefLabel>
-    <skos:definition>The auction is a rule based auction.</skos:definition>
+    <skos:definition xml:lang="en">The auction is a rule based auction.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAuctionTypeList/A04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
-    <xs:enumeration>A04</xs:enumeration>
     <dc:identifier>A04</dc:identifier>
-    <rdfs:label>Mixed</rdfs:label>
     <skos:prefLabel>Mixed</skos:prefLabel>
-    <skos:definition>The auction is partially implicit and partially explicit.</skos:definition>
+    <skos:definition xml:lang="en">The auction is partially implicit and partially explicit.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAuctionTypeList/A05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
-    <xs:enumeration>A05</xs:enumeration>
     <dc:identifier>A05</dc:identifier>
-    <rdfs:label>Explicit/split</rdfs:label>
     <skos:prefLabel>Explicit/split</skos:prefLabel>
-    <skos:definition>The auction concerns two explicit auctions on a split border.</skos:definition>
+    <skos:definition xml:lang="en">The auction concerns two explicit auctions on a split border.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAuctionTypeList/A06">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
-    <xs:enumeration>A06</xs:enumeration>
     <dc:identifier>A06</dc:identifier>
-    <rdfs:label>Shadow auction</rdfs:label>
     <skos:prefLabel>Shadow auction</skos:prefLabel>
-    <skos:definition>An explicit auction carried out in the case of the failure of an implicit auction.</skos:definition>
+    <skos:definition xml:lang="en">An explicit auction carried out in the case of the failure of an implicit auction.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAuctionTypeList/A07">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAuctionTypeList"/>
-    <xs:enumeration>A07</xs:enumeration>
     <dc:identifier>A07</dc:identifier>
-    <rdfs:label>Flow-based</rdfs:label>
     <skos:prefLabel>Flow-based</skos:prefLabel>
-    <skos:definition>The allocation is an implicit auction using flow-based capacity calculation.</skos:definition>
+    <skos:definition xml:lang="en">The allocation is an implicit auction using flow-based capacity calculation.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

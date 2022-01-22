@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:24d7262f-ffe6-4519-8211-fd2ad24d278c">
+  <dcat:Distribution rdf:about="urn:uuid:98d06463-988f-42d0-979c-f630d48ec944">
     <rdfs:label>entsoe-codelist-StandardCategoryTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,47 +10,38 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardCategoryTypeList">
-    <rdfs:label>StandardCategoryTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardCategoryTypeList</skos:prefLabel>
     <dc:identifier>ET0037</dc:identifier>
-    <skos:definition>The product category of an auction.</skos:definition>
-    <ecl:Uid>ET0037</ecl:Uid>
-    <ecl:Definition>The product category of an auction.</ecl:Definition>
+    <skos:definition xml:lang="en">The product category of an auction.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCategoryTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCategoryTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCategoryTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Base</rdfs:label>
     <skos:prefLabel>Base</skos:prefLabel>
-    <skos:definition>The auction is for a base period.</skos:definition>
+    <skos:definition xml:lang="en">The auction is for a base period.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCategoryTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCategoryTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCategoryTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Peak</rdfs:label>
     <skos:prefLabel>Peak</skos:prefLabel>
-    <skos:definition>The auction is for a peak period.</skos:definition>
+    <skos:definition xml:lang="en">The auction is for a peak period.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCategoryTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCategoryTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCategoryTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>Off peak</rdfs:label>
     <skos:prefLabel>Off peak</skos:prefLabel>
-    <skos:definition>The auction is for an off peak period.</skos:definition>
+    <skos:definition xml:lang="en">The auction is for an off peak period.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCategoryTypeList/A04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCategoryTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCategoryTypeList"/>
-    <xs:enumeration>A04</xs:enumeration>
     <dc:identifier>A04</dc:identifier>
-    <rdfs:label>Hourly</rdfs:label>
     <skos:prefLabel>Hourly</skos:prefLabel>
-    <skos:definition>The auction is for an hourly period.</skos:definition>
+    <skos:definition xml:lang="en">The auction is for an hourly period.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

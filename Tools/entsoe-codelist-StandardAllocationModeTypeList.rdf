@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:792e8d55-a426-4209-ac8e-e58bf0184787">
+  <dcat:Distribution rdf:about="urn:uuid:9149fb0c-8c21-4530-805a-9f3d262fbccb">
     <rdfs:label>entsoe-codelist-StandardAllocationModeTypeList.rdf</rdfs:label>
     <dcterms:issued>2021-12-03</dcterms:issued>
     <dcat:version>80</dcat:version>
@@ -10,56 +10,45 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardAllocationModeTypeList">
-    <rdfs:label>StandardAllocationModeTypeList</rdfs:label>
+    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardAllocationModeTypeList</skos:prefLabel>
     <dc:identifier>ET0040</dc:identifier>
-    <skos:definition>The identification of the method of allocation in an auction.</skos:definition>
-    <ecl:Uid>ET0040</ecl:Uid>
-    <ecl:Definition>The identification of the method of allocation in an auction.</ecl:Definition>
+    <skos:definition xml:lang="en">The identification of the method of allocation in an auction.</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAllocationModeTypeList/A01">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
-    <xs:enumeration>A01</xs:enumeration>
     <dc:identifier>A01</dc:identifier>
-    <rdfs:label>Order by price with pro rata</rdfs:label>
     <skos:prefLabel>Order by price with pro rata</skos:prefLabel>
-    <skos:definition>The allocation method is by price with eventual pro rata.</skos:definition>
+    <skos:definition xml:lang="en">The allocation method is by price with eventual pro rata.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAllocationModeTypeList/A02">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
-    <xs:enumeration>A02</xs:enumeration>
     <dc:identifier>A02</dc:identifier>
-    <rdfs:label>Order by price with first come - first served</rdfs:label>
     <skos:prefLabel>Order by price with first come - first served</skos:prefLabel>
-    <skos:definition>The allocation method is by price with eventual use of first come first served.</skos:definition>
+    <skos:definition xml:lang="en">The allocation method is by price with eventual use of first come first served.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAllocationModeTypeList/A03">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
-    <xs:enumeration>A03</xs:enumeration>
     <dc:identifier>A03</dc:identifier>
-    <rdfs:label>First come - First served</rdfs:label>
     <skos:prefLabel>First come - First served</skos:prefLabel>
-    <skos:definition>The allocation method is first come first served.</skos:definition>
+    <skos:definition xml:lang="en">The allocation method is first come first served.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAllocationModeTypeList/A04">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
-    <xs:enumeration>A04</xs:enumeration>
     <dc:identifier>A04</dc:identifier>
-    <rdfs:label>Pro rata</rdfs:label>
     <skos:prefLabel>Pro rata</skos:prefLabel>
-    <skos:definition>The allocation method is pro rata.</skos:definition>
+    <skos:definition xml:lang="en">The allocation method is pro rata.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://data.europa.eu/energy/StandardAllocationModeTypeList/A05">
     <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
     <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardAllocationModeTypeList"/>
-    <xs:enumeration>A05</xs:enumeration>
     <dc:identifier>A05</dc:identifier>
-    <rdfs:label>Continuous</rdfs:label>
     <skos:prefLabel>Continuous</skos:prefLabel>
-    <skos:definition>The allocation method is continuous, i.e. there is no gate closure time when bids from the market participants are collected. Instead allocation procedure takes place immediately.</skos:definition>
+    <skos:definition xml:lang="en">The allocation method is continuous, i.e. there is no gate closure time when bids from the market participants are collected. Instead allocation procedure takes place immediately.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

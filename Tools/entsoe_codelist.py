@@ -9,6 +9,8 @@
 # Licence:     GPLv2
 # -------------------------------------------------------------------------------
 
+# TODO - add language tag
+
 import pandas
 import uuid
 from lxml import etree
@@ -36,9 +38,7 @@ for code_list in code_lists:
     if code_list_documentation is not None:
 
         ISSUED = message_documentation.find("ReleaseDate").text
-        VERISON = message_documentation.find("Version").text
-        #dcat: version
-        #dcterms: issued
+        VERSION = message_documentation.find("Version").text
 
         NAME = code_list.attrib["name"]
         UID = code_list_documentation.find("Uid").text
@@ -54,15 +54,17 @@ for code_list in code_lists:
                 (DIST_ID, "Type", "Distribution", INSTANCE_ID),
                 (DIST_ID, "label", f"entsoe-codelist-{NAME}.rdf", INSTANCE_ID),
                 (DIST_ID, "issued", ISSUED, INSTANCE_ID),
-                (DIST_ID, "version", VERISON, INSTANCE_ID),
+                (DIST_ID, "version", VERSION, INSTANCE_ID),
 
                 # Concept scheme definition
                 (ID, "Type", "ConceptScheme", INSTANCE_ID),
-                (ID, "label", NAME, INSTANCE_ID),
+                (ID, "issued", ISSUED, INSTANCE_ID),
+                (ID, "version", VERSION, INSTANCE_ID),
+                #(ID, "label", NAME, INSTANCE_ID),
                 (ID, "prefLabel", NAME, INSTANCE_ID),
                 (ID, "identifier", UID, INSTANCE_ID),
                 (ID, "definition", DEFINITION, INSTANCE_ID)
-                # TODO split name to words
+                # TODO split name to words?
 
             ]
         )
@@ -71,8 +73,8 @@ for code_list in code_lists:
         for element in message_documentation.getchildren():
             data_list.append((DIST_ID, element.tag, element.text, INSTANCE_ID))
 
-        for element in code_list_documentation.getchildren():
-            data_list.append((ID, element.tag, element.text, INSTANCE_ID))
+        #for element in code_list_documentation.getchildren():
+        #    data_list.append((ID, element.tag, element.text, INSTANCE_ID))
 
 # Add all codes
 codes = xml_tree.findall("//{*}enumeration")
@@ -89,7 +91,7 @@ for code in codes:
             (ID, "Type", "Concept", INSTANCE_ID),
             (ID, "inScheme", ConceptScheme_ID, INSTANCE_ID),
             (ID, "topConceptOf", ConceptScheme_ID, INSTANCE_ID),
-            (ID, "enumeration", code_value, INSTANCE_ID),
+            #(ID, "enumeration", code_value, INSTANCE_ID),
             (ID, "identifier", code_value, INSTANCE_ID)
         ]
     )
@@ -103,14 +105,14 @@ for code in codes:
 
         data_list.extend(
             [
-                (ID, "label", TITLE, INSTANCE_ID),
+                #(ID, "label", TITLE, INSTANCE_ID),
                 (ID, "prefLabel", TITLE, INSTANCE_ID),
                 (ID, "definition", DEFINITION, INSTANCE_ID)
             ]
         )
 
-        for element in code_description.getchildren():
-            data_list.append((ID, element.tag, element.text))
+        #for element in code_description.getchildren():
+        #    data_list.append((ID, element.tag, element.text, INSTANCE_ID))
 
 # Convert to dataframe
 data = pandas.DataFrame(data_list, columns=["ID", "KEY", "VALUE", "INSTANCE_ID"])
@@ -125,6 +127,7 @@ with open(export_format, "r") as conf_file:
 namespace_map = {
     "cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xml": "http://www.w3.org/XML/1998/namespace",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "dcat": "http://www.w3.org/ns/dcat#",
     "dc": "http://purl.org/dc/elements/1.1/",
