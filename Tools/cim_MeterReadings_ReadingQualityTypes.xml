@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReadingQualityTypes xmlns="http://iec.ch/TC57/2011/MeterReadings#">
+	<readingQualityType mRID="2.5.259">
+		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
+		<categorization>Failed reasonability testing</categorization>
+		<index>KnownMissingRead</index>
+		<description>Not Acquired</description>
+	</readingQualityType>
+	<readingQualityType mRID="1.4.9">
+		<systemIdentifier>End Device</systemIdentifier>
+		<categorization>Data collection related</categorization>
+		<index>ClockChanged</index>
+		<description>Time Shift</description>
+	</readingQualityType>
+	<readingQualityType mRID="1.2.32">
+		<systemIdentifier>End Device</systemIdentifier>
+		<categorization>Power quality related issues at the data collection point</categorization>
+		<index>PowerFail</index>
+		<description>Power Down</description>
+	</readingQualityType>
+	<readingQualityType mRID="1.4.131">
+		<systemIdentifier>End Device</systemIdentifier>
+		<categorization>Data collection related</categorization>
+		<index>ManualRead</index>
+		<description>Value Acquired By HHT</description>
+	</readingQualityType>
+	<readingQualityType mRID="2.8.0">
+		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
+		<categorization>Estimated</categorization>
+		<index>Estimated – Generic</index>
+		<description>Estimated Value</description>
+	</readingQualityType>
+	<readingQualityType mRID="2.7.0">
+		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
+		<categorization>Edited</categorization>
+		<index>Manually Edited – Generic</index>
+		<description>Norm Value Changed By User</description>
+	</readingQualityType>
+	<readingQualityType mRID="2.6.0">
+		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
+		<categorization>Failed validation testing</categorization>
+		<index>Failed validation – Generic</index>
+		<description>Invalid Value</description>
+	</readingQualityType>
+	<readingQualityType mRID="2.11.0">
+		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
+		<categorization>Derived</categorization>
+		<index>Derived - Deterministic</index>
+		<description>Aggregation Incomplete</description>
+	</readingQualityType>
+	<readingQualityType mRID="1.0.0">
+		<systemIdentifier>End Device</systemIdentifier>
+		<categorization>Valid</categorization>
+		<index>Data Valid</index>
+		<description>Status OK (no status)</description>
+	</readingQualityType>
+</ReadingQualityTypes>
