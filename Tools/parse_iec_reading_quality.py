@@ -1,4 +1,8 @@
 import xmltodict
+import uuid
+import json
+import pandas
+import RDF_parser
 
 reading_quality_type = {
     1: {"name": "systemIdentifier",
@@ -61,19 +65,19 @@ reading_quality_type = {
 }
 
 reading_quality = [
- {'mRID': '2.5.259', 'description': 'Not Acquired'},
- {'mRID': '1.4.9', 'description': 'Time Shift'},
- {'mRID': '1.2.32', 'description': 'Power Down'},
- {'mRID': '1.4.131', 'description': 'Value Acquired By HHT'},
- {'mRID': '2.8.0', 'description': 'Estimated Value'},
- {'mRID': '2.7.0', 'description': 'Norm Value Changed By User'},
- {'mRID': '2.6.0', 'description': 'Invalid Value'},
- {'mRID': '2.11.0', 'description': 'Aggregation Incomplete'},
- {'mRID': '1.0.0', 'description': 'Status OK (no status)'}
+ {'mRID': '2.5.259',    'description': 'Not Acquired'},
+ {'mRID': '1.4.9',      'description': 'Time Shift'},
+ {'mRID': '1.2.32',     'description': 'Power Down'},
+ {'mRID': '1.4.131',    'description': 'Value Acquired By HHT'},
+ {'mRID': '2.8.0',      'description': 'Estimated Value'},
+ {'mRID': '2.7.0',      'description': 'Norm Value Changed By User'},
+ {'mRID': '2.6.0',      'description': 'Invalid Value'},
+ {'mRID': '2.11.0',     'description': 'Aggregation Incomplete'},
+ {'mRID': '1.0.0',      'description': 'Status OK (no status)'}
 ]
 
 
-def parse_reading_quality_type(type_string="1.0.0", description=None):
+def parse_reading_quality_type_to_tree(type_string="1.0.0", description=None):
     coded_values = type_string.split(".")
     parsed = {"@mRID": type_string}
     for position in reading_quality_type.keys():
@@ -91,8 +95,94 @@ def parse_reading_quality_type(type_string="1.0.0", description=None):
 
 
 xml = xmltodict.unparse({"ReadingQualityTypes": {"@xmlns": "http://iec.ch/TC57/2011/MeterReadings#",
-                                                 "readingQualityType":[parse_reading_quality_type(reading["mRID"], reading["description"]) for reading in reading_quality]}}, pretty=True)
+                                                 "readingQualityType":[parse_reading_quality_type_to_tree(reading["mRID"], reading["description"]) for reading in reading_quality]}}, pretty=True)
 print(xml)
 
 with open("cim_MeterReadings_ReadingQualityTypes.xml", "w") as file_object:
     file_object.write(xml)
+
+data_list = []
+
+ISSUED = "2022-02-18" #TODO
+VERSION = "1"
+
+NAME = "MeterReadingQualityTypes"
+UID = '6074aa6b-de29-41bc-a4b5-b2bedbeaeffd'
+DEFINITION = "Meter Reading Quality Types"
+
+ID = NAME
+INSTANCE_ID = NAME
+DIST_ID = str(uuid.uuid4())
+
+data_list.extend(
+            [
+                # Distribution part, needed for filename
+                (DIST_ID, "Type", "Distribution", INSTANCE_ID),
+                (DIST_ID, "label", "cim_MeterReadings_ReadingQualityTypes.rdf", INSTANCE_ID),
+                #(DIST_ID, "issued", ISSUED, INSTANCE_ID),
+                (DIST_ID, "modified", ISSUED, INSTANCE_ID),
+                (DIST_ID, "version", VERSION, INSTANCE_ID),
+
+                # Concept scheme definition
+                (ID, "Type", "ConceptScheme", INSTANCE_ID),
+                #(ID, "issued", ISSUED, INSTANCE_ID),
+                (ID, "modified", ISSUED, INSTANCE_ID),
+                (ID, "version", VERSION, INSTANCE_ID),
+                #(ID, "label", NAME, INSTANCE_ID),
+                (ID, "prefLabel", NAME, INSTANCE_ID),
+                (ID, "identifier", UID, INSTANCE_ID),
+                (ID, "definition", DEFINITION, INSTANCE_ID)
+
+            ]
+        )
+
+ConceptScheme_ID = ID
+for reading in reading_quality:
+
+    ID = f"{ConceptScheme_ID}/{reading['mRID']}"
+    INSTANCE_ID = ConceptScheme_ID
+
+    data_list.extend(
+        [
+            (ID, "Type", "Concept", INSTANCE_ID),
+            (ID, "inScheme", ConceptScheme_ID, INSTANCE_ID),
+            (ID, "topConceptOf", ConceptScheme_ID, INSTANCE_ID),
+            # (ID, "enumeration", code_value, INSTANCE_ID),
+            (ID, "identifier", reading['mRID'], INSTANCE_ID),
+            (ID, "type", "ReadingQualityType", INSTANCE_ID),
+        ]
+    )
+
+    if reading['description'] is not None:
+        data_list.append((ID, "definition", reading['description'], INSTANCE_ID))
+
+    for key, value in parse_reading_quality_type_to_tree(type_string=reading['mRID']).items():
+        key = key.replace("@", "")
+        data_list.append((ID, key, value, INSTANCE_ID))
+
+
+data = pandas.DataFrame(data_list, columns=["ID", "KEY", "VALUE", "INSTANCE_ID"])
+
+
+export_format = "conf_dcat_entsoe_codelist.json"
+with open(export_format, "r") as conf_file:
+    rdf_map = json.load(conf_file)
+
+namespace_map = {
+    "cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xml": "http://www.w3.org/XML/1998/namespace",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "ecl": "urn:entsoe.eu:wgedi:codelists",
+    "xs": "http://www.w3.org/2001/XMLSchema"
+}
+
+# Export triplet to CGMES
+data.export_to_cimxml(rdf_map=rdf_map,
+                      namespace_map=namespace_map,
+                      export_undefined=True,
+                      export_type="xml_per_instance")
