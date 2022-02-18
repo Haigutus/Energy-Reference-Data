@@ -1,0 +1,94 @@
+{
+  "label": {
+      "namespace": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "type": {
+      "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "Concept": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+    "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "ConceptScheme": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+    "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "inScheme": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "topConceptOf": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "broader": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "narrower": {
+    "attrib": {
+      "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+      "value_prefix": "http://data.europa.eu/energy/"
+    },
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "prefLabel": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "altLabel": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "definition": {
+      "namespace": "http://www.w3.org/2004/02/skos/core#",
+      "language": "en"
+  },
+  "identifier": {
+      "namespace": "http://purl.org/dc/terms/"
+  },
+   "issued": {
+      "namespace": "http://purl.org/dc/terms/"
+  },
+   "modified": {
+      "namespace": "http://purl.org/dc/terms/"
+  },
+   "version": {
+      "namespace": "http://www.w3.org/ns/dcat#"
+  },
+
+
+  "IdentifiedObject.name": {
+            "namespace": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+            "text": ""
+        },
+  "IdentifiedObject.mRID": {
+            "namespace": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+            "text": ""
+        },
+  "ReadingQualityType.systemId": {
+            "namespace": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+            "text": ""
+        },
+  "ReadingQualityType.category": {
+            "namespace": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+            "text": ""
+        },
+  "ReadingQualityType.subCategory": {
+            "namespace": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+            "text": ""
+        }
+}

@@ -43,34 +43,35 @@ reading_type = {
          },
     17: {"name": "unit",
          "values": {
-             72: {"measurementUnit": "KWH",
-                  "energyProduct": "8716867000030"},
-             73: {"measurementUnit": "KAH",
-                  "energyProduct": "8716867000047"}
+             72: "KWH",
+             73: "KAH",
          }
          }
 }
 
 
-def parse_reading_type(type_string="0.0.7.6.1.1.12.0.0.0.0.0.0.0.0.3.72.0"):
+def parse_reading_type(type_string="0.0.7.6.1.1.12.0.0.0.0.0.0.0.0.3.72.0", description=None):
     coded_values = type_string.split(".")
     parsed = {"@mRID": type_string}
     for position in reading_type.keys():
         parsed[reading_type[position]["name"]] = reading_type[position]["values"].get(int(coded_values[position - 1]))
+
+    if description:
+        parsed["description"] = description
 
     print(xmltodict.unparse({"readingType": parsed}, pretty=True))
     return parsed
 
 
 reading_types_list = [
-    "0.0.7.6.1.1.12.0.0.0.0.0.0.0.0.3.72.0",
-    "0.0.7.6.19.1.12.0.0.0.0.0.0.0.0.3.72.0",
-    "0.0.7.6.1.1.12.0.0.0.0.0.0.0.0.3.73.0",
-    "0.0.7.6.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
+    {'mRID': '0.0.7.6.1.1.12.0.0.0.0.0.0.0.0.3.72.0',   'description': ''},
+    {'mRID': '0.0.7.6.19.1.12.0.0.0.0.0.0.0.0.3.72.0',  'description': ''},
+    {'mRID': '0.0.7.6.1.1.12.0.0.0.0.0.0.0.0.3.73.0',   'description': ''},
+    {'mRID': '0.0.7.6.19.1.12.0.0.0.0.0.0.0.0.3.73.0',  'description': ''}
 ]
 
 xml = xmltodict.unparse({"ReadingTypes": {"@xmlns": "http://iec.ch/TC57/2011/MeterReadings#",
-                                         "readingType":[parse_reading_type(reading) for reading in reading_types_list]}}, pretty=True)
+                                         "readingType":[parse_reading_type(reading["mRID"], reading['description']) for reading in reading_types_list]}}, pretty=True)
 print(xml)
 
 with open("cim_MeterReadings_ReadingTypes.xml", "w") as file_object:

@@ -1,114 +1,118 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <Distribution rdf:about="urn:uuid:308b29a3-07fc-4da1-ae65-52763ff25fbe">
-    <rdfs:label>cim_MeterReadings_ReadingQualityTypes.rdf</rdfs:label>
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes">
     <dcterms:modified>2022-02-18</dcterms:modified>
     <dcat:version>1</dcat:version>
-  </Distribution>
-  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes">
-    <dcterms:modified>2022-02-18</dcterms:modified>
-    <dcat:version>1</dcat:version>
-    <skos:prefLabel>MeterReadingQualityTypes</skos:prefLabel>
-    <dc:identifier>6074aa6b-de29-41bc-a4b5-b2bedbeaeffd</dc:identifier>
+    <skos:prefLabel>MeterReadingsQualityTypes</skos:prefLabel>
+    <dcterms:identifier>6074aa6b-de29-41bc-a4b5-b2bedbeaeffd</dcterms:identifier>
     <skos:definition xml:lang="en">Meter Reading Quality Types</skos:definition>
   </skos:ConceptScheme>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/2.5.259">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>2.5.259</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/2.5.259">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>2.5.259</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Not Acquired</skos:definition>
-    <mRID>2.5.259</mRID>
-    <systemIdentifier>Metering system (data collection) network</systemIdentifier>
-    <categorization>Failed reasonability testing</categorization>
-    <index>KnownMissingRead</index>
+    <cim:IdentifiedObject.name>Not Acquired</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>2.5.259</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Failed reasonability testing</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Known Missing Read</cim:ReadingQualityType.subCategory>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/1.4.9">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>1.4.9</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/1.4.9">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>1.4.9</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Time Shift</skos:definition>
-    <mRID>1.4.9</mRID>
-    <systemIdentifier>End Device</systemIdentifier>
-    <categorization>Data collection related</categorization>
-    <index>ClockChanged</index>
+    <cim:IdentifiedObject.name>Time Shift</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>1.4.9</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>End Device</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Data collection related</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Clock Changed</cim:ReadingQualityType.subCategory>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/1.2.32">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>1.2.32</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/1.2.32">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>1.2.32</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Power Down</skos:definition>
-    <mRID>1.2.32</mRID>
-    <systemIdentifier>End Device</systemIdentifier>
-    <categorization>Power quality related issues at the data collection point</categorization>
-    <index>PowerFail</index>
+    <cim:IdentifiedObject.name>Power Down</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>1.2.32</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>End Device</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Power quality related issues at the data collection point</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Power Fail</cim:ReadingQualityType.subCategory>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/1.4.131">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>1.4.131</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/1.4.131">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>1.4.131</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Value Acquired By HHT</skos:definition>
-    <mRID>1.4.131</mRID>
-    <systemIdentifier>End Device</systemIdentifier>
-    <categorization>Data collection related</categorization>
-    <index>ManualRead</index>
+    <cim:IdentifiedObject.name>Value Acquired By HHT</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>1.4.131</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>End Device</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Data collection related</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Manual Read</cim:ReadingQualityType.subCategory>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/2.8.0">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>2.8.0</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/2.8.0">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>2.8.0</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Estimated Value</skos:definition>
-    <mRID>2.8.0</mRID>
-    <systemIdentifier>Metering system (data collection) network</systemIdentifier>
-    <categorization>Estimated</categorization>
-    <index>Estimated – Generic</index>
+    <cim:IdentifiedObject.name>Estimated Value</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>2.8.0</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Estimated</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Estimated – Generic</cim:ReadingQualityType.subCategory>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/2.7.0">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>2.7.0</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/2.7.0">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>2.7.0</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Norm Value Changed By User</skos:definition>
-    <mRID>2.7.0</mRID>
-    <systemIdentifier>Metering system (data collection) network</systemIdentifier>
-    <categorization>Edited</categorization>
-    <index>Manually Edited – Generic</index>
+    <cim:IdentifiedObject.name>Norm Value Changed By User</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>2.7.0</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Edited</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Manually Edited – Generic</cim:ReadingQualityType.subCategory>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/2.6.0">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>2.6.0</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/2.6.0">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>2.6.0</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Invalid Value</skos:definition>
-    <mRID>2.6.0</mRID>
-    <systemIdentifier>Metering system (data collection) network</systemIdentifier>
-    <categorization>Failed validation testing</categorization>
-    <index>Failed validation – Generic</index>
+    <cim:IdentifiedObject.name>Invalid Value</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>2.6.0</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Failed validation testing</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Failed validation – Generic</cim:ReadingQualityType.subCategory>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/2.11.0">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>2.11.0</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/2.11.0">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>2.11.0</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Aggregation Incomplete</skos:definition>
-    <mRID>2.11.0</mRID>
-    <systemIdentifier>Metering system (data collection) network</systemIdentifier>
-    <categorization>Derived</categorization>
-    <index>Derived - Deterministic</index>
+    <cim:IdentifiedObject.name>Aggregation Incomplete</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>2.11.0</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Derived</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Derived - Deterministic</cim:ReadingQualityType.subCategory>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingQualityTypes/1.0.0">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingQualityTypes"/>
-    <dc:identifier>1.0.0</dc:identifier>
-    <type>ReadingQualityType</type>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/MeterReadingsQualityTypes/1.0.0">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/MeterReadingsQualityTypes"/>
+    <dcterms:identifier>1.0.0</dcterms:identifier>
+    <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Status OK (no status)</skos:definition>
-    <mRID>1.0.0</mRID>
-    <systemIdentifier>End Device</systemIdentifier>
-    <categorization>Valid</categorization>
-    <index>Data Valid</index>
+    <cim:IdentifiedObject.name>Status OK (no status)</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>1.0.0</cim:IdentifiedObject.mRID>
+    <cim:ReadingQualityType.systemId>End Device</cim:ReadingQualityType.systemId>
+    <cim:ReadingQualityType.category>Valid</cim:ReadingQualityType.category>
+    <cim:ReadingQualityType.subCategory>Data Valid</cim:ReadingQualityType.subCategory>
   </skos:Concept>
 </rdf:RDF>

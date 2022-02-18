@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ReadingQualityTypes xmlns="http://iec.ch/TC57/2011/MeterReadings#">
-	<readingQualityType mRID="2.5.259">
-		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
-		<categorization>Failed reasonability testing</categorization>
-		<index>KnownMissingRead</index>
+	<ReadingQualityType mRID="2.5.259">
+		<ReadingQualityType.systemId>Metering system (data collection) network</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Failed reasonability testing</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Known Missing Read</ReadingQualityType.subCategory>
 		<description>Not Acquired</description>
-	</readingQualityType>
-	<readingQualityType mRID="1.4.9">
-		<systemIdentifier>End Device</systemIdentifier>
-		<categorization>Data collection related</categorization>
-		<index>ClockChanged</index>
+	</ReadingQualityType>
+	<ReadingQualityType mRID="1.4.9">
+		<ReadingQualityType.systemId>End Device</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Data collection related</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Clock Changed</ReadingQualityType.subCategory>
 		<description>Time Shift</description>
-	</readingQualityType>
-	<readingQualityType mRID="1.2.32">
-		<systemIdentifier>End Device</systemIdentifier>
-		<categorization>Power quality related issues at the data collection point</categorization>
-		<index>PowerFail</index>
+	</ReadingQualityType>
+	<ReadingQualityType mRID="1.2.32">
+		<ReadingQualityType.systemId>End Device</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Power quality related issues at the data collection point</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Power Fail</ReadingQualityType.subCategory>
 		<description>Power Down</description>
-	</readingQualityType>
-	<readingQualityType mRID="1.4.131">
-		<systemIdentifier>End Device</systemIdentifier>
-		<categorization>Data collection related</categorization>
-		<index>ManualRead</index>
+	</ReadingQualityType>
+	<ReadingQualityType mRID="1.4.131">
+		<ReadingQualityType.systemId>End Device</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Data collection related</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Manual Read</ReadingQualityType.subCategory>
 		<description>Value Acquired By HHT</description>
-	</readingQualityType>
-	<readingQualityType mRID="2.8.0">
-		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
-		<categorization>Estimated</categorization>
-		<index>Estimated – Generic</index>
+	</ReadingQualityType>
+	<ReadingQualityType mRID="2.8.0">
+		<ReadingQualityType.systemId>Metering system (data collection) network</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Estimated</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Estimated – Generic</ReadingQualityType.subCategory>
 		<description>Estimated Value</description>
-	</readingQualityType>
-	<readingQualityType mRID="2.7.0">
-		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
-		<categorization>Edited</categorization>
-		<index>Manually Edited – Generic</index>
+	</ReadingQualityType>
+	<ReadingQualityType mRID="2.7.0">
+		<ReadingQualityType.systemId>Metering system (data collection) network</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Edited</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Manually Edited – Generic</ReadingQualityType.subCategory>
 		<description>Norm Value Changed By User</description>
-	</readingQualityType>
-	<readingQualityType mRID="2.6.0">
-		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
-		<categorization>Failed validation testing</categorization>
-		<index>Failed validation – Generic</index>
+	</ReadingQualityType>
+	<ReadingQualityType mRID="2.6.0">
+		<ReadingQualityType.systemId>Metering system (data collection) network</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Failed validation testing</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Failed validation – Generic</ReadingQualityType.subCategory>
 		<description>Invalid Value</description>
-	</readingQualityType>
-	<readingQualityType mRID="2.11.0">
-		<systemIdentifier>Metering system (data collection) network</systemIdentifier>
-		<categorization>Derived</categorization>
-		<index>Derived - Deterministic</index>
+	</ReadingQualityType>
+	<ReadingQualityType mRID="2.11.0">
+		<ReadingQualityType.systemId>Metering system (data collection) network</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Derived</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Derived - Deterministic</ReadingQualityType.subCategory>
 		<description>Aggregation Incomplete</description>
-	</readingQualityType>
-	<readingQualityType mRID="1.0.0">
-		<systemIdentifier>End Device</systemIdentifier>
-		<categorization>Valid</categorization>
-		<index>Data Valid</index>
+	</ReadingQualityType>
+	<ReadingQualityType mRID="1.0.0">
+		<ReadingQualityType.systemId>End Device</ReadingQualityType.systemId>
+		<ReadingQualityType.category>Valid</ReadingQualityType.category>
+		<ReadingQualityType.subCategory>Data Valid</ReadingQualityType.subCategory>
 		<description>Status OK (no status)</description>
-	</readingQualityType>
+	</ReadingQualityType>
 </ReadingQualityTypes>
