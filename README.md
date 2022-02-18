@@ -7,3 +7,4 @@ Here will be examples and tooling to convert existing data:
   -  ENTSO-E codelists
   -  EIC
   -  Common data from CGMES boundary
+  -  CIM Meter Reading Type and Quality
