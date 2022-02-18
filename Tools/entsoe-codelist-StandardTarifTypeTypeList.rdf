@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <dcat:Distribution rdf:about="urn:uuid:b1aa009d-4f95-4536-ac14-c3397098712c">
+  <dcat:Distribution rdf:about="urn:uuid:ad89a320-ef61-4e95-8db9-c285860b3a16">
     <rdfs:label>entsoe-codelist-StandardTarifTypeTypeList.rdf</rdfs:label>
-    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcterms:modified>2021-12-03</dcterms:modified>
     <dcat:version>80</dcat:version>
     <ecl:Version>80</ecl:Version>
     <ecl:Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</ecl:Title>
@@ -10,7 +10,7 @@
     <ecl:ReleaseDate>2021-12-03</ecl:ReleaseDate>
   </dcat:Distribution>
   <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList">
-    <dcterms:issued>2021-12-03</dcterms:issued>
+    <dcterms:modified>2021-12-03</dcterms:modified>
     <dcat:version>80</dcat:version>
     <skos:prefLabel>StandardTarifTypeTypeList</skos:prefLabel>
     <dc:identifier>ET0039</dc:identifier>

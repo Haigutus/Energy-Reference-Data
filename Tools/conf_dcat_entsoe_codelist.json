@@ -67,6 +67,9 @@
    "issued": {
       "namespace": "http://purl.org/dc/terms/"
   },
+   "modified": {
+      "namespace": "http://purl.org/dc/terms/"
+  },
    "version": {
       "namespace": "http://www.w3.org/ns/dcat#"
   },

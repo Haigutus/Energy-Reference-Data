@@ -53,12 +53,14 @@ for code_list in code_lists:
                 # Distribution part, needed for filename
                 (DIST_ID, "Type", "Distribution", INSTANCE_ID),
                 (DIST_ID, "label", f"entsoe-codelist-{NAME}.rdf", INSTANCE_ID),
-                (DIST_ID, "issued", ISSUED, INSTANCE_ID),
+                #(DIST_ID, "issued", ISSUED, INSTANCE_ID),
+                (DIST_ID, "modified", ISSUED, INSTANCE_ID),
                 (DIST_ID, "version", VERSION, INSTANCE_ID),
 
                 # Concept scheme definition
                 (ID, "Type", "ConceptScheme", INSTANCE_ID),
-                (ID, "issued", ISSUED, INSTANCE_ID),
+                #(ID, "issued", ISSUED, INSTANCE_ID),
+                (ID, "modified", ISSUED, INSTANCE_ID),
                 (ID, "version", VERSION, INSTANCE_ID),
                 #(ID, "label", NAME, INSTANCE_ID),
                 (ID, "prefLabel", NAME, INSTANCE_ID),
@@ -120,7 +122,7 @@ data = pandas.DataFrame(data_list, columns=["ID", "KEY", "VALUE", "INSTANCE_ID"]
 
 
 
-export_format = "code_list.json"
+export_format = "conf_dcat_entsoe_codelist.json"
 with open(export_format, "r") as conf_file:
     rdf_map = json.load(conf_file)
 
