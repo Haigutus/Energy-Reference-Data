@@ -640,6 +640,7 @@ def export_to_cimxml(data,
                     class_namespace = default_namespace
                     id_name = default_id_attribute
                     id_value_prefix = default_id_prefix
+                    language = None
                 else:
                     print("INFO - Not Exported")
                     continue

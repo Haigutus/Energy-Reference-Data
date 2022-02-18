@@ -142,7 +142,7 @@ namespace_map = {
 # Export triplet to CGMES
 data.export_to_cimxml(rdf_map=rdf_map,
                       namespace_map=namespace_map,
-                      export_undefined=True,
+                      export_undefined=False,
                       export_type="xml_per_instance")
 
 #TODO - Ask for fix: Titre -> Title
