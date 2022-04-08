@@ -28,11 +28,11 @@ time_frames = {
         "period_duration": "P1D"
     },
     "H-8": {
-            "description": "Process running 8 hours ahead in intraday",
-            "reference_time": "currentHourStart",
-            "period_start": "PT1H",
-            "period_duration": "PT8H"
-        },
+        "description": "Process running 8 hours ahead in intraday",
+        "reference_time": "currentHourStart",
+        "period_start": "PT1H",
+        "period_duration": "PT8H"
+    },
     "D-1": {
         "description": "Process that runs day before the targeted day",
         "reference_time": "currentDayStart",
@@ -82,16 +82,11 @@ business_processes = {
         "description": "IGM creation and submission process",
         "time_zone": "Europe/Brussels",
         "responsible_role": "TSO",
-        "quality_portal": "https://qas.opde.entsoe.eu/",
-        "support_email": "opde.support@entsoe.eu",
     },
     "CGM_CREATION": {
         "description": "CGM creation and submission process",
         "time_zone": "Europe/Brussels",
-        "responsible_role": "RSC",
-        "responsible_group": "Operator",
-        "quality_portal": "https://qas.opde.entsoe.eu/",
-        "support_email": "opde.support@entsoe.eu",
+        "responsible_role": "RSC"
 
     }
 
