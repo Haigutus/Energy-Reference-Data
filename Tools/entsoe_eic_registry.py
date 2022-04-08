@@ -62,8 +62,7 @@ def get_metadata_from_xml(xml, include_namespace=False, include_root=False):
     return properties_dict
 
 
-def get_allocated_eic_triplet(
-        allocated_eic_url="https://www.entsoe.eu/fileadmin/user_upload/edi/library/eic/allocated-eic-codes.xml"):
+def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin/user_upload/edi/library/eic/allocated-eic-codes.xml"):
     allocated_eic = requests.get(allocated_eic_url)
 
     xml_tree = etree.fromstring(allocated_eic.content)
@@ -71,7 +70,7 @@ def get_allocated_eic_triplet(
     ID = str(uuid.uuid4())
     eic_data_list = [
         (ID, "Type", "Distribution"),
-        (ID, "label", "allocated-eic.rdf")
+        (ID, "label", "../GeneratedData/allocated-eic.rdf")
     ]
 
     ConceptScheme_ID = "EIC"
@@ -132,19 +131,19 @@ def rename_and_append_key(data, original_key, new_key):
 data = get_allocated_eic_triplet()
 
 # Bring some original values under new keys to data
-data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "definition")
+data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "altLabel")
 data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "start.use")
 data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "prefLabel")
-data = rename_and_append_key(data, "EICCode_MarketDocument.description", "altLabel")
+data = rename_and_append_key(data, "EICCode_MarketDocument.description", "definition")
 
 # Add functions
 for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Function_Names.name'").groupby("VALUE"):
     # Clean name for ID use
-    group_id = f"Fuction#{group_name.title().replace(' ', '')}"
+    group_id = f"Function#{group_name.title().replace(' ', '')}"
 
     data = data.append([
         {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
-        {"ID": group_id, "KEY": "label", "VALUE": group_name}
+        {"ID": group_id, "KEY": "prefLabel", "VALUE": group_name}
     ], ignore_index=True)
 
     # Transform data
@@ -191,7 +190,7 @@ for group_code, group_data in object_types.groupby("EIC_Type"):
 # Add graph ID (expected by export function as multiple graphs could be included)
 data["INSTANCE_ID"] = str(uuid.uuid4())
 
-export_format = "eic.json"
+export_format = "conf_dcat_eic.json"
 with open(export_format, "r") as conf_file:
     rdf_map = json.load(conf_file)
 

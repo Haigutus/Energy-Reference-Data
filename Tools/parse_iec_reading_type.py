@@ -72,7 +72,8 @@ reading_types_list = [
 
 xml = xmltodict.unparse({"ReadingTypes": {"@xmlns": "http://iec.ch/TC57/2011/MeterReadings#",
                                          "readingType":[parse_reading_type(reading["mRID"], reading['description']) for reading in reading_types_list]}}, pretty=True)
-print(xml)
+#print(xml)
 
-with open("cim_MeterReadings_ReadingTypes.xml", "w") as file_object:
+with open("../GeneratedData/cim_MeterReadings_ReadingTypes.xml", "w") as file_object:
     file_object.write(xml)
+

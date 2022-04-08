@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardCoordinateSystemTypeList">
+    <dcterms:modified>2021-12-03</dcterms:modified>
+    <dcat:version>80</dcat:version>
+    <skos:prefLabel>StandardCoordinateSystemTypeList</skos:prefLabel>
+    <dcterms:identifier>ET0108</dcterms:identifier>
+    <skos:definition xml:lang="en">The identification of the coordinate system used for the location position.</skos:definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCoordinateSystemTypeList/A01">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCoordinateSystemTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCoordinateSystemTypeList"/>
+    <dcterms:identifier>A01</dcterms:identifier>
+    <skos:prefLabel>ED50</skos:prefLabel>
+    <skos:definition xml:lang="en">ED 50 (European Datum 1950) is a geodetic datum which was defined after World War II for the international connection of geodetic networks.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCoordinateSystemTypeList/A02">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCoordinateSystemTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCoordinateSystemTypeList"/>
+    <dcterms:identifier>A02</dcterms:identifier>
+    <skos:prefLabel>OSGB36</skos:prefLabel>
+    <skos:definition xml:lang="en">Ordinance Survey Great Britain 1936. The Ordinance Survey (OS) devised the national grid reference system, and it is heavily used in their survey data, and in maps (whether published by the Ordinance Survey or commercial map producers) based on those surveys.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCoordinateSystemTypeList/A03">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCoordinateSystemTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCoordinateSystemTypeList"/>
+    <dcterms:identifier>A03</dcterms:identifier>
+    <skos:prefLabel>WGS84</skos:prefLabel>
+    <skos:definition xml:lang="en">The World Geodetic System version 1984. for use in cartography, geodesy, and navigation including by GPS. It comprises a standard coordinate system for the earth, a standard spheroidal reference surface (the datum or reference ellipsoid) for raw altitude data, and a gravitational equipotential surface (the geoid) that defines the nominal sea level.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCoordinateSystemTypeList/A04">
+    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCoordinateSystemTypeList"/>
+    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCoordinateSystemTypeList"/>
+    <dcterms:identifier>A04</dcterms:identifier>
+    <skos:prefLabel>GTRF</skos:prefLabel>
+    <skos:definition xml:lang="en">Galileo Terrestrial Reference Frame</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

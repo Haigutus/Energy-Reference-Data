@@ -98,7 +98,7 @@ xml = xmltodict.unparse({"ReadingQualityTypes": {"@xmlns": "http://iec.ch/TC57/2
                                                  "ReadingQualityType":[parse_reading_quality_type_to_tree(reading["mRID"], reading["description"]) for reading in reading_quality]}}, pretty=True)
 print(xml)
 
-with open("cim_MeterReadings_ReadingQualityTypes.xml", "w") as file_object:
+with open("../GeneratedData/cim_MeterReadings_ReadingQualityTypes.xml", "w") as file_object:
     file_object.write(xml)
 
 data_list = []
@@ -118,7 +118,7 @@ data_list.extend(
             [
                 # Distribution part, needed for filename
                 (DIST_ID, "Type", "Distribution", INSTANCE_ID),
-                (DIST_ID, "label", "cim_MeterReadings_ReadingQualityTypes.rdf", INSTANCE_ID),
+                (DIST_ID, "label", "../GeneratedData/cim_MeterReadings_ReadingQualityTypes.rdf", INSTANCE_ID),
                 #(DIST_ID, "issued", ISSUED, INSTANCE_ID),
                 (DIST_ID, "modified", ISSUED, INSTANCE_ID),
                 (DIST_ID, "version", VERSION, INSTANCE_ID),

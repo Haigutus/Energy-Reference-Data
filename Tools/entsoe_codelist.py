@@ -52,7 +52,7 @@ for code_list in code_lists:
             [
                 # Distribution part, needed for filename
                 (DIST_ID, "Type", "Distribution", INSTANCE_ID),
-                (DIST_ID, "label", f"entsoe-codelist-{NAME}.rdf", INSTANCE_ID),
+                (DIST_ID, "label", f"../GeneratedData/entsoe-codelist-{NAME}.rdf", INSTANCE_ID),
                 #(DIST_ID, "issued", ISSUED, INSTANCE_ID),
                 (DIST_ID, "modified", ISSUED, INSTANCE_ID),
                 (DIST_ID, "version", VERSION, INSTANCE_ID),

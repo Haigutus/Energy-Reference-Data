@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReadingTypes xmlns="http://iec.ch/TC57/2011/MeterReadings#">
+	<readingType mRID="0.0.7.6.1.1.12.0.0.0.0.0.0.0.0.3.72.0">
+		<aggregate>none</aggregate>
+		<measuringPeriod>PT1H</measuringPeriod>
+		<accumulation>indicating</accumulation>
+		<flowDirrection>A02</flowDirrection>
+		<commodity>electricity</commodity>
+		<measurementKind>energy</measurementKind>
+		<multiplier>K</multiplier>
+		<unit>KWH</unit>
+	</readingType>
+	<readingType mRID="0.0.7.6.19.1.12.0.0.0.0.0.0.0.0.3.72.0">
+		<aggregate>none</aggregate>
+		<measuringPeriod>PT1H</measuringPeriod>
+		<accumulation>indicating</accumulation>
+		<flowDirrection>A01</flowDirrection>
+		<commodity>electricity</commodity>
+		<measurementKind>energy</measurementKind>
+		<multiplier>K</multiplier>
+		<unit>KWH</unit>
+	</readingType>
+	<readingType mRID="0.0.7.6.1.1.12.0.0.0.0.0.0.0.0.3.73.0">
+		<aggregate>none</aggregate>
+		<measuringPeriod>PT1H</measuringPeriod>
+		<accumulation>indicating</accumulation>
+		<flowDirrection>A02</flowDirrection>
+		<commodity>electricity</commodity>
+		<measurementKind>energy</measurementKind>
+		<multiplier>K</multiplier>
+		<unit>KAH</unit>
+	</readingType>
+	<readingType mRID="0.0.7.6.19.1.12.0.0.0.0.0.0.0.0.3.73.0">
+		<aggregate>none</aggregate>
+		<measuringPeriod>PT1H</measuringPeriod>
+		<accumulation>indicating</accumulation>
+		<flowDirrection>A01</flowDirrection>
+		<commodity>electricity</commodity>
+		<measurementKind>energy</measurementKind>
+		<multiplier>K</multiplier>
+		<unit>KAH</unit>
+	</readingType>
+</ReadingTypes>
