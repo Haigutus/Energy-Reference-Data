@@ -1,0 +1,10 @@
+{
+  "@dct:conformsTo": ["http://www.w3.org/TR/rdf-schema/", "http://www.w3.org/TR/rdf11-concepts/"],
+
+  "label": {
+    "namespace": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "type": {
+    "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  }
+}

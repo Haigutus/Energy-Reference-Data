@@ -48,13 +48,13 @@ reading_quality_type = {
                 259: "Known Missing Read",
             },
             6: {
-                0: "Failed validation – Generic",
+                0: "Failed validation - Generic",
             },
             7: {
-                0: "Manually Edited – Generic",
+                0: "Manually Edited - Generic",
             },
             8: {
-                0: "Estimated – Generic",
+                0: "Estimated - Generic",
             },
             11: {
                 0: "Derived - Deterministic",
@@ -167,9 +167,14 @@ for reading in reading_quality:
 data = pandas.DataFrame(data_list, columns=["ID", "KEY", "VALUE", "INSTANCE_ID"])
 
 
-export_format = "conf_dcat_cim_metering.json"
-with open(export_format, "r") as conf_file:
-    rdf_map = json.load(conf_file)
+#export_format = "conf_dcat_cim_metering.json"
+#with open(export_format, "r") as conf_file:
+#    rdf_map = json.load(conf_file)
+
+rdf_map = RDF_parser.load_export_conf(["conf_skos.json",
+                                       "conf_dcat.json",
+                                       "conf_cim16.json",
+                                       "conf_rdf_rdfs.json"])
 
 namespace_map = {
     "cim":      "http://iec.ch/TC57/2013/CIM-schema-cim16#",
@@ -180,8 +185,6 @@ namespace_map = {
     "dc":       "http://purl.org/dc/elements/1.1/",
     "dcterms":  "http://purl.org/dc/terms/",
     "skos":     "http://www.w3.org/2004/02/skos/core#",
-    "ecl":      "urn:entsoe.eu:wgedi:codelists",
-    "xs":       "http://www.w3.org/2001/XMLSchema"
 }
 
 # Export triplet to CGMES

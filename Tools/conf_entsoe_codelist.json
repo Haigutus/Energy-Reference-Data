@@ -1,0 +1,20 @@
+{
+  "Version": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Title": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Release": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "ReleaseDate": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Definition": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  },
+  "Uid": {
+      "namespace": "urn:entsoe.eu:wgedi:codelists"
+  }
+}

@@ -122,9 +122,12 @@ data = pandas.DataFrame(data_list, columns=["ID", "KEY", "VALUE", "INSTANCE_ID"]
 
 
 
-export_format = "conf_dcat_entsoe_codelist.json"
-with open(export_format, "r") as conf_file:
-    rdf_map = json.load(conf_file)
+#export_format = "conf_dcat_entsoe_codelist.json"
+#with open(export_format, "r") as conf_file:
+#    rdf_map = json.load(conf_file)
+
+rdf_map = RDF_parser.load_export_conf(["conf_skos.json", "conf_dcat.json"])
+
 
 namespace_map = {
     "cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",

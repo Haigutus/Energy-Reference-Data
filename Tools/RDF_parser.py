@@ -23,6 +23,7 @@ import datetime
 import zipfile
 import uuid
 import time
+import json
 
 from collections import OrderedDict
 
@@ -911,6 +912,16 @@ def export_to_networkx(data):
     return graph
 
 pandas.DataFrame.to_networkx = export_to_networkx
+
+
+def load_export_conf(list_of_conf_paths):
+    """Loads export configuration form json files"""
+    conf = {}
+    for export_format in list_of_conf_paths:
+        print(f"Loading {export_format}")
+        conf.update(json.load(open(export_format)))
+
+    return conf
 
 # END OF FUNCTIONS
 

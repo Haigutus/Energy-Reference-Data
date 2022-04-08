@@ -87,7 +87,7 @@ def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin
     EICs = xml_tree.iter("{*}EICCode_MarketDocument")
 
     for EIC in EICs:
-        ID = EIC[0].text
+        ID = f"{ConceptScheme_ID}/{EIC[0].text}"
 
         elements = [{"element": EIC}]
         # eic_data_list.append((ID, "Type", EIC.tag.split('}')[1]))
@@ -139,7 +139,7 @@ data = rename_and_append_key(data, "EICCode_MarketDocument.description", "defini
 # Add functions
 for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Function_Names.name'").groupby("VALUE"):
     # Clean name for ID use
-    group_id = f"Function#{group_name.title().replace(' ', '')}"
+    group_id = f"EIC/Function/{group_name.title().replace(' ', '')}"
 
     data = data.append([
         {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
@@ -165,12 +165,12 @@ object_type_names = {
     'A': {'name': 'Substations', 'description': r''}}
 
 object_types = pandas.DataFrame(data.query("KEY == 'Type' and VALUE == 'Concept'"))
-object_types["EIC_Type"] = object_types.ID.str[2:3]  # 3. letter defines EIC type
+object_types["EIC_Type"] = object_types.ID.str[6:7]  # 3. letter defines EIC type
 
 for group_code, group_data in object_types.groupby("EIC_Type"):
     # Clean name for ID use
     group_name = object_type_names[str(group_code)]['name']
-    group_id = f"ObjectType#{group_name.title().replace(' ', '')}"
+    group_id = f"EIC/ObjectType/{group_name.title().replace(' ', '')}"
 
     data = data.append([
         {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
@@ -190,9 +190,14 @@ for group_code, group_data in object_types.groupby("EIC_Type"):
 # Add graph ID (expected by export function as multiple graphs could be included)
 data["INSTANCE_ID"] = str(uuid.uuid4())
 
-export_format = "conf_dcat_eic.json"
-with open(export_format, "r") as conf_file:
-    rdf_map = json.load(conf_file)
+#export_format = "conf_eic.json"
+#with open(export_format, "r") as conf_file:
+#    rdf_map = json.load(conf_file)
+
+rdf_map = RDF_parser.load_export_conf(["conf_skos.json",
+                                       "conf_dcat.json",
+                                       "conf_eic.json",
+                                       "conf_rdf_rdfs.json"])
 
 namespace_map = {
     "cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",

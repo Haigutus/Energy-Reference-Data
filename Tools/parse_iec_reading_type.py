@@ -19,7 +19,7 @@ reading_type = {
             6: "indicating",
         },
         },
-    5: {"name": "flowDirrection",
+    5: {"name": "flowDirection",
         "values": {
             1: "A02",
             19: "A01",
