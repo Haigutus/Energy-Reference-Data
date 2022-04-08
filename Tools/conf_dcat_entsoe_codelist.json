@@ -55,7 +55,7 @@
       "language": "en"
   },
   "identifier": {
-      "namespace": "http://purl.org/dc/elements/1.1/"
+      "namespace": "http://purl.org/dc/terms/"
   },
    "issued": {
       "namespace": "http://purl.org/dc/terms/"
