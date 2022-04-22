@@ -156,11 +156,12 @@ for reading in reading_quality:
     if reading['description'] is not None:
         data_list.extend([
             (ID, "definition", reading['description'], INSTANCE_ID),
-            (ID, "IdentifiedObject.name", reading['description'], INSTANCE_ID)
+            (ID, "IdentifiedObject.mRID", uuid.uuid5(uuid.NAMESPACE_URL, reading['mRID']), INSTANCE_ID),
+            (ID, "IdentifiedObject.description", reading['description'], INSTANCE_ID)
         ])
 
     for key, value in parse_reading_quality_type_to_tree(type_string=reading['mRID']).items():
-        key = key.replace("@", "IdentifiedObject.")
+        key = key.replace("@mRID", "IdentifiedObject.Name")
         data_list.append((ID, key, value, INSTANCE_ID))
 
 

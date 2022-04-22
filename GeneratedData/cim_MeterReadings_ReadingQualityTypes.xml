@@ -27,19 +27,19 @@
 	<ReadingQualityType mRID="2.8.0">
 		<ReadingQualityType.systemId>Metering system (data collection) network</ReadingQualityType.systemId>
 		<ReadingQualityType.category>Estimated</ReadingQualityType.category>
-		<ReadingQualityType.subCategory>Estimated – Generic</ReadingQualityType.subCategory>
+		<ReadingQualityType.subCategory>Estimated - Generic</ReadingQualityType.subCategory>
 		<description>Estimated Value</description>
 	</ReadingQualityType>
 	<ReadingQualityType mRID="2.7.0">
 		<ReadingQualityType.systemId>Metering system (data collection) network</ReadingQualityType.systemId>
 		<ReadingQualityType.category>Edited</ReadingQualityType.category>
-		<ReadingQualityType.subCategory>Manually Edited – Generic</ReadingQualityType.subCategory>
+		<ReadingQualityType.subCategory>Manually Edited - Generic</ReadingQualityType.subCategory>
 		<description>Norm Value Changed By User</description>
 	</ReadingQualityType>
 	<ReadingQualityType mRID="2.6.0">
 		<ReadingQualityType.systemId>Metering system (data collection) network</ReadingQualityType.systemId>
 		<ReadingQualityType.category>Failed validation testing</ReadingQualityType.category>
-		<ReadingQualityType.subCategory>Failed validation – Generic</ReadingQualityType.subCategory>
+		<ReadingQualityType.subCategory>Failed validation - Generic</ReadingQualityType.subCategory>
 		<description>Invalid Value</description>
 	</ReadingQualityType>
 	<ReadingQualityType mRID="2.11.0">
