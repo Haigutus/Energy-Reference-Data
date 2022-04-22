@@ -161,7 +161,7 @@ for reading in reading_quality:
         ])
 
     for key, value in parse_reading_quality_type_to_tree(type_string=reading['mRID']).items():
-        key = key.replace("@mRID", "IdentifiedObject.Name")
+        key = key.replace("@mRID", "IdentifiedObject.name")
         data_list.append((ID, key, value, INSTANCE_ID))
 
 

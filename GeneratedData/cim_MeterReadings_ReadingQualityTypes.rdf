@@ -14,6 +14,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Not Acquired</skos:definition>
     <cim:IdentifiedObject.mRID>08b24658-8b5f-5e64-822f-1e0e2b1f077a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Not Acquired</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>2.5.259</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Failed reasonability testing</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Known Missing Read</cim:ReadingQualityType.subCategory>
@@ -25,6 +27,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Time Shift</skos:definition>
     <cim:IdentifiedObject.mRID>a43fe090-f985-5bb7-85ec-02ad07490d3a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Time Shift</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>1.4.9</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>End Device</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Data collection related</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Clock Changed</cim:ReadingQualityType.subCategory>
@@ -36,6 +40,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Power Down</skos:definition>
     <cim:IdentifiedObject.mRID>a0b796d8-ff59-522c-a5ba-1f24cf04d1c7</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Power Down</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>1.2.32</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>End Device</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Power quality related issues at the data collection point</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Power Fail</cim:ReadingQualityType.subCategory>
@@ -47,6 +53,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Value Acquired By HHT</skos:definition>
     <cim:IdentifiedObject.mRID>f989e6a8-0371-52e1-bd8e-70144a92e936</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Value Acquired By HHT</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>1.4.131</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>End Device</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Data collection related</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Manual Read</cim:ReadingQualityType.subCategory>
@@ -58,6 +66,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Estimated Value</skos:definition>
     <cim:IdentifiedObject.mRID>62331566-6478-57e1-8115-8a8806921340</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Estimated Value</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>2.8.0</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Estimated</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Estimated - Generic</cim:ReadingQualityType.subCategory>
@@ -69,6 +79,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Norm Value Changed By User</skos:definition>
     <cim:IdentifiedObject.mRID>3f5494ca-639f-5b24-827d-7dec159a2200</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Norm Value Changed By User</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>2.7.0</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Edited</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Manually Edited - Generic</cim:ReadingQualityType.subCategory>
@@ -80,6 +92,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Invalid Value</skos:definition>
     <cim:IdentifiedObject.mRID>81cbc882-5e05-5bea-a876-81a10abe2776</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Invalid Value</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>2.6.0</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Failed validation testing</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Failed validation - Generic</cim:ReadingQualityType.subCategory>
@@ -91,6 +105,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Aggregation Incomplete</skos:definition>
     <cim:IdentifiedObject.mRID>4b22799f-411c-5630-a5a1-4e9f6e0e461b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Aggregation Incomplete</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>2.11.0</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Derived</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Derived - Deterministic</cim:ReadingQualityType.subCategory>
@@ -102,6 +118,8 @@
     <rdf:type>cim:ReadingQualityType</rdf:type>
     <skos:definition xml:lang="en">Status OK (no status)</skos:definition>
     <cim:IdentifiedObject.mRID>74073ca1-7b97-5423-9a1c-45676b8ff2e4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.description>Status OK (no status)</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.name>1.0.0</cim:IdentifiedObject.name>
     <cim:ReadingQualityType.systemId>End Device</cim:ReadingQualityType.systemId>
     <cim:ReadingQualityType.category>Valid</cim:ReadingQualityType.category>
     <cim:ReadingQualityType.subCategory>Data Valid</cim:ReadingQualityType.subCategory>

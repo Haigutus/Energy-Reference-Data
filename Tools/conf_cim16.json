@@ -1,10 +1,14 @@
 {
   "@dct:conformsTo": "?",
+  "IdentifiedObject.mRID": {
+            "namespace": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+            "text": ""
+        },
   "IdentifiedObject.name": {
             "namespace": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
             "text": ""
         },
-  "IdentifiedObject.mRID": {
+  "IdentifiedObject.description": {
             "namespace": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
             "text": ""
         },
