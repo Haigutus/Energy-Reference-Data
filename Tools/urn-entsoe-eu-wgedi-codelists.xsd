@@ -3,10 +3,10 @@
   <xsd:include schemaLocation="urn-entsoe-eu-local-extension-types.xsd" />
   <xsd:annotation>
     <xsd:documentation>
-      <Version>80</Version>
+      <Version>81</Version>
       <Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</Title>
       <Release>0</Release>
-      <ReleaseDate>2021-12-03</ReleaseDate>
+      <ReleaseDate>2022-03-31</ReleaseDate>
     </xsd:documentation>
   </xsd:annotation>
   <xsd:simpleType name="StandardAllocationModeTypeList">
@@ -1043,6 +1043,16 @@
             <CodeDescription>
               <Title>Flow-based</Title>
               <Definition>The allocation is an implicit auction using flow-based capacity calculation.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A08">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Continuous</Title>
+              <Definition>The auction type is continuous, i.e. there is no gate closure time when bids from the market participants are collected. Instead allocation procedure takes place immediately.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -3846,6 +3856,46 @@ Critical network elements are displayed in details and their impact on the marke
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="C82">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Other unavailability</Title>
+              <Definition>This is an unplanned unavailability. Not considered by market participants as a planned maintenance.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C83">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Faster than standard FAT</Title>
+              <Definition>Bids that can support a “Full Activation Time” (FAT) that is faster than standard FAT. Fast activation can be done for bids with activation time shorter than the minimum requirement for the standard product. When circumstances call for it, the TSO can order activation of such bids on a shorter notice.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C84">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Faster than standard deactivation time</Title>
+              <Definition>Fast deactivation can be done for bids with activation time shorter than the minimum requirement for the standard product. When circumstances call for it, the TSO can order activation of such bids on a shorter notice.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C85">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Slower than standard FAT</Title>
+              <Definition>Bids that can support a Full Activation Time (FAT) that is slower than standard FAT.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardCategoryTypeList">
@@ -4061,6 +4111,16 @@ Critical network elements are displayed in details and their impact on the marke
           <xsd:documentation>
             <CodeDescription>
               <Title>Serbia and Montenegro National coding scheme</Title>
+              <Definition>The National coding scheme of the country in question.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="NCY">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Cyprus National coding scheme</Title>
               <Definition>The National coding scheme of the country in question.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -7219,6 +7279,26 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="B47">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Other market information</Title>
+              <Definition>A document providing other market information.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B48">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Message partially accepted</Title>
+              <Definition>The detailed transactions of the received document are partially accepted. It is necessary to look at the detailed (transaction) level to determine if the transaction is accepted, rejected etc.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardMarketProductTypeList">
@@ -7485,6 +7565,16 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
             <CodeDescription>
               <Title>Scheduling area</Title>
               <Definition>An area within which the TSOs' obligations regarding scheduling apply due to operational or organisational needs.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A16">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Exchange point</Title>
+              <Definition>The object being described concerns an exchange point.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -8384,7 +8474,7 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
           <xsd:documentation>
             <CodeDescription>
               <Title>Estimated</Title>
-              <Definition>The contents of the object are estimated.</Definition>
+              <Definition>The contents of the object are estimated. The code is typically used when measured values are missing and an estimate is made based on historical data. </Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -8405,6 +8495,16 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
             <CodeDescription>
               <Title>Incomplete</Title>
               <Definition>The contents of the object are calculated based on incomplete data.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A06">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Calculated</Title>
+              <Definition>The contents of the object are calculated. The code is typically used when a value is calculated based on several other known values.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -10095,7 +10195,7 @@ In the case of a Final Confirmation Report this is informing the recipient that 
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Balance supplier</Title>
+              <Title>Energy supplier</Title>
               <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10493,6 +10593,16 @@ A party that is financially accountable for the reconciled volume of energy prod
             <CodeDescription>
               <Title>Resource Capacity Mechanism Operator</Title>
               <Definition>Resource capacity mechanism operator is the party responsible to operate the resource capacity mechanism in a member state. It can either be the TSO or an independent party.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A52">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Resource aggregator</Title>
+              <Definition>A party that aggregates resources for usage by a service provider for energy market services.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
