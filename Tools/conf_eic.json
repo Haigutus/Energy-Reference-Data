@@ -5,14 +5,14 @@
   "EICCode_MarketDocument.eICParent_MarketDocument.mRID": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://data.europa.eu/energy/EIC/"
+      "value_prefix": "http://energy.referencedata.eu/EIC/"
     },
     "namespace": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
   },
   "EICCode_MarketDocument.eICResponsible_MarketParticipant.mRID": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://data.europa.eu/energy/EIC/"
+      "value_prefix": "http://energy.referencedata.eu/EIC/"
     },
     "namespace": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
   }

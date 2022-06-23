@@ -15,42 +15,42 @@
   "Concept": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
-      "value_prefix": "http://data.europa.eu/energy/"
+      "value_prefix": "http://energy.referencedata.eu/"
     },
     "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
   "ConceptScheme": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
-      "value_prefix": "http://data.europa.eu/energy/"
+      "value_prefix": "http://energy.referencedata.eu/"
     },
     "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
   "inScheme": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://data.europa.eu/energy/"
+      "value_prefix": "http://energy.referencedata.eu/"
     },
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
   "topConceptOf": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://data.europa.eu/energy/"
+      "value_prefix": "http://energy.referencedata.eu/"
     },
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
   "Collection": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
-      "value_prefix": "http://data.europa.eu/energy/"
+      "value_prefix": "http://energy.referencedata.eu/"
     },
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
   "member": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
-      "value_prefix": "http://data.europa.eu/energy/"
+      "value_prefix": "http://energy.referencedata.eu/"
     },
       "namespace": "http://www.w3.org/2004/02/skos/core#"
   }
