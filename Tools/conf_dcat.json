@@ -12,6 +12,9 @@
    "modified": {
       "namespace": "http://purl.org/dc/terms/"
   },
+  "keyword": {
+      "namespace": "http://www.w3.org/ns/dcat#"
+  },
   "Concept": {
     "attrib": {
       "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",

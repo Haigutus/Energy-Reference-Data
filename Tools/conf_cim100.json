@@ -1,0 +1,110 @@
+{
+  "@dct:conformsTo": "http://iec.ch/TC57/CIM100#",
+  "IdentifiedObject.mRID": {
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+  "IdentifiedObject.name": {
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+    "PowerFlowSettings": {
+            "attrib": {
+              "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about",
+              "value_prefix": "http://energy.referencedata.eu/"
+            },
+            "namespace": "http://iec.ch/TC57/CIM100#"
+        },
+  "PowerFlowSettings.respectReactivePowerLimits": {
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "maxIterationNumberAIC":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "maxIterationNumber":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.shiftKind":{
+            "attrib": {
+                "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+                "value_prefix": "http://iec.ch/TC57/CIM100#"
+            },
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.interchangeControlEnabled":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.slackDistributionKind":{
+            "attrib": {
+                "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+                "value_prefix": "http://iec.ch/TC57/CIM100#"
+            },
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.staticVarCompensatorControlPriority":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.switchedShuntControlPriority":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.transformerRatioTapControlPriority":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.transformerPhaseTapControlPriority":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.respectActivePowerLimits":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.flatStart":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "IdentifiedObject.description":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.impedanceThreshold":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.algorithmKind":{
+            "attrib": {
+                "attribute": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+                "value_prefix": "http://iec.ch/TC57/CIM100#"
+            },
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.loadVoltageDependency":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.activePowerTolerance":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.reactivePowerTolerance":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.voltageTolerance":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        },
+ "PowerFlowSettings.voltageAngleLimit":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
+        }
+}

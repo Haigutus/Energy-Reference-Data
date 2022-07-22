@@ -1,0 +1,12 @@
+{
+  "@dct:conformsTo": "http://entsoe.eu/ns/Metadata-European#",
+  "PowerFlowSettings.maxIterationNumberAIC":{
+            "namespace": "http://entsoe.eu/ns/Metadata-European#",
+            "text": ""
+        },
+  "PowerFlowSettings.maxIterationNumber":{
+            "namespace": "http://entsoe.eu/ns/Metadata-European#",
+            "text": ""
+        }
+
+}

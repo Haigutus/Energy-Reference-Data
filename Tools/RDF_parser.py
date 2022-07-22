@@ -857,6 +857,7 @@ def remove_triplet_from_triplet(from_triplet, what_triplet, columns=["ID", "KEY"
 def filter_triplet_by_type(triplet, type):
     """Filter out all objects data by rdf:type"""
     return triplet.merge(triplet.query("KEY == 'Type' and VALUE == @type").ID)
+pandas.DataFrame.filter_by_type = filter_triplet_by_type
 
 
 def triplet_diff(left_data, right_data):
