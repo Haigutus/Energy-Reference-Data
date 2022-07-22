@@ -1,57 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList">
+  <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardTarifTypeTypeList">
     <dcterms:modified>2022-03-31</dcterms:modified>
     <dcat:version>81</dcat:version>
     <skos:prefLabel>StandardTarifTypeTypeList</skos:prefLabel>
     <dcterms:identifier>ET0039</dcterms:identifier>
     <skos:definition xml:lang="en">The standard tariff types as defined in the RGCE policies.</skos:definition>
   </skos:ConceptScheme>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList/A01">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTarifTypeTypeList/A01">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
     <dcterms:identifier>A01</dcterms:identifier>
     <skos:prefLabel>Winter HT</skos:prefLabel>
     <skos:definition xml:lang="en">Winter HT tariff.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList/A02">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTarifTypeTypeList/A02">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
     <dcterms:identifier>A02</dcterms:identifier>
     <skos:prefLabel>Winter HHT</skos:prefLabel>
     <skos:definition xml:lang="en">Winter HHT tariff.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList/A03">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTarifTypeTypeList/A03">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
     <dcterms:identifier>A03</dcterms:identifier>
     <skos:prefLabel>Winter NT</skos:prefLabel>
     <skos:definition xml:lang="en">Winter NT tariff.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList/A04">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTarifTypeTypeList/A04">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
     <dcterms:identifier>A04</dcterms:identifier>
     <skos:prefLabel>Summer HT</skos:prefLabel>
     <skos:definition xml:lang="en">Summer HT tariff.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList/A05">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTarifTypeTypeList/A05">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
     <dcterms:identifier>A05</dcterms:identifier>
     <skos:prefLabel>Summer HHT1</skos:prefLabel>
     <skos:definition xml:lang="en">Summer HHT1 tariff.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList/A06">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTarifTypeTypeList/A06">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
     <dcterms:identifier>A06</dcterms:identifier>
     <skos:prefLabel>Summer HHT2</skos:prefLabel>
     <skos:definition xml:lang="en">Summer HHT2 tariff.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardTarifTypeTypeList/A07">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardTarifTypeTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTarifTypeTypeList/A07">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTarifTypeTypeList"/>
     <dcterms:identifier>A07</dcterms:identifier>
     <skos:prefLabel>Summer NT</skos:prefLabel>
     <skos:definition xml:lang="en">Summer NT tariff.</skos:definition>

@@ -1,463 +1,463 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardProcessTypeList">
+  <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardProcessTypeList">
     <dcterms:modified>2022-03-31</dcterms:modified>
     <dcat:version>81</dcat:version>
     <skos:prefLabel>StandardProcessTypeList</skos:prefLabel>
     <dcterms:identifier>ET0020</dcterms:identifier>
     <skos:definition xml:lang="en">Indicates the nature of process that the document addresses.</skos:definition>
   </skos:ConceptScheme>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A01">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A01">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A01</dcterms:identifier>
     <skos:prefLabel>Day ahead</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns a day ahead process.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A02">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A02">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A02</dcterms:identifier>
     <skos:prefLabel>Intra day incremental</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns an intra day schedule.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A03">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A03">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A03</dcterms:identifier>
     <skos:prefLabel>Inter-area transit</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns an inter area transit schedule. The rules governing this process are market dependent</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A04">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A04">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A04</dcterms:identifier>
     <skos:prefLabel>System operation closure</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns the closure of a given period of both scheduled and regulation information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A05">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A05">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A05</dcterms:identifier>
     <skos:prefLabel>Metered data aggregation</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns the aggregation process of metered information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A06">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A06">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A06</dcterms:identifier>
     <skos:prefLabel>Imbalance settlement</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns the imbalance settlement for a given period for a balance responsible party or parties.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A07">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A07">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A07</dcterms:identifier>
     <skos:prefLabel>Capacity allocation</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns the capacity allocation process.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A08">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A08">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A08</dcterms:identifier>
     <skos:prefLabel>Central reconciliation</skos:prefLabel>
     <skos:definition xml:lang="en">The process carried out to finalise the imbalance settlement based on actual metered values against provisional values from profiled metering points. </skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A09">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A09">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A09</dcterms:identifier>
     <skos:prefLabel>Released capacity allocation</skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns the notification of capacity rights that are being released.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A10">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A10">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A10</dcterms:identifier>
     <skos:prefLabel>Proposed capacity allocation</skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns the proposed capacity to be allocated for a given border.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A11">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A11">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A11</dcterms:identifier>
     <skos:prefLabel>Agreed capacity allocation</skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns the capacity that has been agreed for allocation for a border.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A12">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A12">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A12</dcterms:identifier>
     <skos:prefLabel>Long term</skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns scheduling all schedules except daily and intraday contracts.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A13">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A13">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A13</dcterms:identifier>
     <skos:prefLabel>Post scheduling adjustment</skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns the adjustments made to previous schedules after the period of execution.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A14">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A14">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A14</dcterms:identifier>
     <skos:prefLabel>Forecast</skos:prefLabel>
     <skos:definition xml:lang="en">The data contained in the document are to be handled in short, medium, long term forecasting process.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A15">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A15">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A15</dcterms:identifier>
     <skos:prefLabel>Capacity determination</skos:prefLabel>
     <skos:definition xml:lang="en">The process of determining the capacity for use.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A16">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A16">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A16</dcterms:identifier>
     <skos:prefLabel>Realised</skos:prefLabel>
     <skos:definition xml:lang="en">The process for the treatment of realised data as opposed to forecast data.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A17">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A17">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A17</dcterms:identifier>
     <skos:prefLabel>Schedule day</skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns the day ahead, intraday and eventually ex-post scheduling in a single document. The schedule will be transferred within the total  position including historic information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A18">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A18">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A18</dcterms:identifier>
     <skos:prefLabel>Intraday total</skos:prefLabel>
     <skos:definition xml:lang="en">This process concerns an intraday schedule which contains the accumulated day ahead and intraday current position.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A19">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A19">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A19</dcterms:identifier>
     <skos:prefLabel>Intraday accumulated</skos:prefLabel>
     <skos:definition xml:lang="en">This process concerns a single intraday schedule process where only intraday evolutions occur through version changes.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A20">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A20">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A20</dcterms:identifier>
     <skos:prefLabel>SOMA process</skos:prefLabel>
     <skos:definition xml:lang="en"> System Operator meter alignment process.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A21">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A21">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A21</dcterms:identifier>
     <skos:prefLabel>SOVM process</skos:prefLabel>
     <skos:definition xml:lang="en"> System Operator validated measurement process.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A22">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A22">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A22</dcterms:identifier>
     <skos:prefLabel>RGCE accounting process</skos:prefLabel>
     <skos:definition xml:lang="en">The document provides ENTSO-E Regional Group Continental Europe accounting process information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A23">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A23">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A23</dcterms:identifier>
     <skos:prefLabel>CCSR RGCE Settlement </skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns the control center settlement report for the whole of the ENTSO-E Regional Group Continental Europe.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A24">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A24">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A24</dcterms:identifier>
     <skos:prefLabel>CBSR Settlement </skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns the control block settlement report.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A25">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A25">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A25</dcterms:identifier>
     <skos:prefLabel>CASR Settlement </skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns the control area settlement report.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A26">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A26">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A26</dcterms:identifier>
     <skos:prefLabel>Outage information</skos:prefLabel>
     <skos:definition xml:lang="en">The process concerns TSO publication of outages on its power system.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A27">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A27">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A27</dcterms:identifier>
     <skos:prefLabel>Reserve resource process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for general reserve resources.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A28">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A28">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A28</dcterms:identifier>
     <skos:prefLabel>Primary reserve process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for primary reserves.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A29">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A29">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A29</dcterms:identifier>
     <skos:prefLabel>Secondary reserve process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for secondary reserves.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A30">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A30">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A30</dcterms:identifier>
     <skos:prefLabel>Tertiary reserve process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for tertiary reserves.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A31">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A31">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A31</dcterms:identifier>
     <skos:prefLabel>Week ahead</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for the week ahead.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A32">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A32">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A32</dcterms:identifier>
     <skos:prefLabel>Month ahead</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for the month ahead.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A33">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A33">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A33</dcterms:identifier>
     <skos:prefLabel>Year ahead</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for the year ahead.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A34">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A34">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A34</dcterms:identifier>
     <skos:prefLabel>Contracted</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for contracted information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A35">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A35">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A35</dcterms:identifier>
     <skos:prefLabel>Network information</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for network information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A36">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A36">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A36</dcterms:identifier>
     <skos:prefLabel>Creation</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for the creation of information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A37">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A37">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A37</dcterms:identifier>
     <skos:prefLabel>Modification</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for the modification of information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A38">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A38">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A38</dcterms:identifier>
     <skos:prefLabel>Deactivation process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for deactivation of information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A39">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A39">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A39</dcterms:identifier>
     <skos:prefLabel>Synchronisation process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for the synchronisation of information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A40">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A40">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A40</dcterms:identifier>
     <skos:prefLabel>Intraday process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for intraday process.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A41">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A41">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A41</dcterms:identifier>
     <skos:prefLabel>Redispatch process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for redispatch activation.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A42">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A42">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A42</dcterms:identifier>
     <skos:prefLabel>Activation history process</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for the provision of an activation history.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A43">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A43">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A43</dcterms:identifier>
     <skos:prefLabel>Flow based domain constraint day-ahead</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns the flow-based process in day ahead.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A44">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A44">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A44</dcterms:identifier>
     <skos:prefLabel>Flow based domain constraint intraday</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns the flow-based process in intraday.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A45">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A45">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A45</dcterms:identifier>
     <skos:prefLabel>Two days ahead</skos:prefLabel>
     <skos:definition xml:lang="en">Two days ahead.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A46">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A46">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A46</dcterms:identifier>
     <skos:prefLabel>Replacement reserve</skos:prefLabel>
     <skos:definition xml:lang="en">A process being described is for replacement reserves (RR) to restore or support the required level of frequency restoration reserves.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A47">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A47">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A47</dcterms:identifier>
     <skos:prefLabel>Manual frequency restoration reserve</skos:prefLabel>
     <skos:definition xml:lang="en">A process being described is for manual frequency restoration reserves (mFRR).</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A48">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A48">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A48</dcterms:identifier>
     <skos:prefLabel>Day-ahead capacity determination</skos:prefLabel>
     <skos:definition xml:lang="en">The process run at the day-ahead timeframe to determine the capacity for use.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A49">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A49">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A49</dcterms:identifier>
     <skos:prefLabel>Intraday capacity determination</skos:prefLabel>
     <skos:definition xml:lang="en">The process run at the intraday timeframe to determine the capacity for use.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A50">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A50">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A50</dcterms:identifier>
     <skos:prefLabel>Long term capacity determination</skos:prefLabel>
     <skos:definition xml:lang="en">The process run at the long term timeframe to determine the capacity for use.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A51">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A51">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A51</dcterms:identifier>
     <skos:prefLabel>Automatic frequency restoration reserve</skos:prefLabel>
     <skos:definition xml:lang="en">A process being described is for automatic frequency restoration reserves (aFRR).</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A52">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A52">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A52</dcterms:identifier>
     <skos:prefLabel>Frequency containment reserve</skos:prefLabel>
     <skos:definition xml:lang="en">A process being described is for frequency containment reserves (FCR).</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A53">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A53">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A53</dcterms:identifier>
     <skos:prefLabel>Common Grid Model (CGM) merging process</skos:prefLabel>
     <skos:definition xml:lang="en">The process for merging individual grid models to form the common grid model.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A54">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A54">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A54</dcterms:identifier>
     <skos:prefLabel>Coordinated operational security analysis</skos:prefLabel>
     <skos:definition xml:lang="en">The process to perform an operational security analysis in a coordinated manner.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A55">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A55">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A55</dcterms:identifier>
     <skos:prefLabel>Exchange of master data</skos:prefLabel>
     <skos:definition xml:lang="en">A process for exchanging master data.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A56">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A56">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A56</dcterms:identifier>
     <skos:prefLabel>Frequency restoration reserve</skos:prefLabel>
     <skos:definition xml:lang="en">The process being described is for general frequency restoration reserve.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A57">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A57">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A57</dcterms:identifier>
     <skos:prefLabel>FSKAR settlement</skos:prefLabel>
     <skos:definition xml:lang="en">The information provided concerns the Financial Settlement of K?f, ACE and ramping period settlement for a given period.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A58">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A58">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A58</dcterms:identifier>
     <skos:prefLabel>Reserve option market</skos:prefLabel>
     <skos:definition xml:lang="en">Processes related to the Reserve option market to assure that there are enough available reserves for the manual FRR market.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A59">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A59">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A59</dcterms:identifier>
     <skos:prefLabel>Internal trade reporting</skos:prefLabel>
     <skos:definition xml:lang="en">The process related to internal trade reporting.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A60">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A60">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A60</dcterms:identifier>
     <skos:prefLabel>Scheduled activation mFRR</skos:prefLabel>
     <skos:definition xml:lang="en">mFRR being subject to scheduled activation.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A61">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A61">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A61</dcterms:identifier>
     <skos:prefLabel>Direct activation mFRR</skos:prefLabel>
     <skos:definition xml:lang="en">mFRR being subject to direct activation.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A62">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A62">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A62</dcterms:identifier>
     <skos:prefLabel>Registration</skos:prefLabel>
     <skos:definition xml:lang="en">A process related to the registration and management of object information.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A63">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A63">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A63</dcterms:identifier>
     <skos:prefLabel>Imbalance Netting</skos:prefLabel>
     <skos:definition xml:lang="en">The process described is for imbalance netting.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A64">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A64">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A64</dcterms:identifier>
     <skos:prefLabel>Criteria application for instantaneous frequency</skos:prefLabel>
     <skos:definition xml:lang="en">The  process describes criteria application for instantaneous frequency.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardProcessTypeList/A65">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardProcessTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A65">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
     <dcterms:identifier>A65</dcterms:identifier>
     <skos:prefLabel>Criteria application for frequency restoration</skos:prefLabel>
     <skos:definition xml:lang="en">The process describes criteria application for frequency restoration.</skos:definition>

@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardPriceDirectionTypeList">
+  <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardPriceDirectionTypeList">
     <dcterms:modified>2022-03-31</dcterms:modified>
     <dcat:version>81</dcat:version>
     <skos:prefLabel>StandardPriceDirectionTypeList</skos:prefLabel>
     <dcterms:identifier>ET0049</dcterms:identifier>
     <skos:definition xml:lang="en">The nature of a price, i.e. an impacted area system operator pays to internal market parties or inverse.</skos:definition>
   </skos:ConceptScheme>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceDirectionTypeList/A01">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceDirectionTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceDirectionTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardPriceDirectionTypeList/A01">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardPriceDirectionTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardPriceDirectionTypeList"/>
     <dcterms:identifier>A01</dcterms:identifier>
     <skos:prefLabel>Expenditure.</skos:prefLabel>
     <skos:definition xml:lang="en">Expenditure, i.e. the Impacted Area System Operator pays to the internal Market Parties.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardPriceDirectionTypeList/A02">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardPriceDirectionTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardPriceDirectionTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardPriceDirectionTypeList/A02">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardPriceDirectionTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardPriceDirectionTypeList"/>
     <dcterms:identifier>A02</dcterms:identifier>
     <skos:prefLabel>Income.</skos:prefLabel>
     <skos:definition xml:lang="en">Income, i.e. The Impacted Area System Operator receives from the internal Market Parties.</skos:definition>

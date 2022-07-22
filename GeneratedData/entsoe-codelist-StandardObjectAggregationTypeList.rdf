@@ -1,120 +1,120 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList">
+  <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList">
     <dcterms:modified>2022-03-31</dcterms:modified>
     <dcat:version>81</dcat:version>
     <skos:prefLabel>StandardObjectAggregationTypeList</skos:prefLabel>
     <dcterms:identifier>ET0018</dcterms:identifier>
     <skos:definition xml:lang="en">The identification of the domain that is the common dominator used to aggregate a time series.</skos:definition>
   </skos:ConceptScheme>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A01">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A01">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A01</dcterms:identifier>
     <skos:prefLabel>Area</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns an area.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A02">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A02">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A02</dcterms:identifier>
     <skos:prefLabel>Metering point</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns a metering point.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A03">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A03">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A03</dcterms:identifier>
     <skos:prefLabel>Party</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns a party.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A04">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A04">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A04</dcterms:identifier>
     <skos:prefLabel>Agreement Identification</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns an agreement identification.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A05">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A05">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A05</dcterms:identifier>
     <skos:prefLabel>Accounting point</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns an accounting point.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A06">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A06">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A06</dcterms:identifier>
     <skos:prefLabel>Resource Object</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns a resource object.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A07">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A07">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A07</dcterms:identifier>
     <skos:prefLabel>Tieline</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns a tieline.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A08">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A08">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A08</dcterms:identifier>
     <skos:prefLabel>Resource type</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns a resource type.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A09">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A09">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A09</dcterms:identifier>
     <skos:prefLabel>DC link</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns a DC link.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A10">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A10">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A10</dcterms:identifier>
     <skos:prefLabel>AC link</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns an AC link.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A11">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A11">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A11</dcterms:identifier>
     <skos:prefLabel>Merchant line</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns a merchant line.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A12">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A12">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A12</dcterms:identifier>
     <skos:prefLabel>Bidding zone</skos:prefLabel>
     <skos:definition xml:lang="en">The largest geographical area within which market participants are able to exchange energy without capacity allocation.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A13">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A13">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A13</dcterms:identifier>
     <skos:prefLabel>Virtual bidding zone</skos:prefLabel>
     <skos:definition xml:lang="en">A non-geographical bidding zone to be able to apply extra constraints to Bidding Zones.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A14">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A14">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A14</dcterms:identifier>
     <skos:prefLabel>Metering grid area</skos:prefLabel>
     <skos:definition xml:lang="en">A physical area where consumption, production and exchange can be measured. It is delimited by the placement of meters for continuous measurement for input to, and withdrawal from the area.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A15">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A15">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A15</dcterms:identifier>
     <skos:prefLabel>Scheduling area</skos:prefLabel>
     <skos:definition xml:lang="en">An area within which the TSOs' obligations regarding scheduling apply due to operational or organisational needs.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardObjectAggregationTypeList/A16">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardObjectAggregationTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardObjectAggregationTypeList/A16">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardObjectAggregationTypeList"/>
     <dcterms:identifier>A16</dcterms:identifier>
     <skos:prefLabel>Exchange point</skos:prefLabel>
     <skos:definition xml:lang="en">The object being described concerns an exchange point.</skos:definition>

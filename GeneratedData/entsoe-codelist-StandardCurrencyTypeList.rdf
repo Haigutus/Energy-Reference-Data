@@ -1,169 +1,169 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <skos:ConceptScheme rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList">
+  <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList">
     <dcterms:modified>2022-03-31</dcterms:modified>
     <dcat:version>81</dcat:version>
     <skos:prefLabel>StandardCurrencyTypeList</skos:prefLabel>
     <dcterms:identifier>ET0024</dcterms:identifier>
     <skos:definition xml:lang="en">The coded identification of legal tender using ISO 4217 3 alpha codes.</skos:definition>
   </skos:ConceptScheme>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/BAM">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/BAM">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>BAM</dcterms:identifier>
     <skos:prefLabel>Bosnian convertible marka</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Bosnia and Herzegovina.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/BGN">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/BGN">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>BGN</dcterms:identifier>
     <skos:prefLabel>Bulgarian lev</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Bulgaria.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/CHF">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/CHF">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>CHF</dcterms:identifier>
     <skos:prefLabel>Swiss Franc</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Switzerland.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/CZK">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/CZK">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>CZK</dcterms:identifier>
     <skos:prefLabel>Czech Koruna</skos:prefLabel>
     <skos:definition xml:lang="en">The legal tender of the Czech Republic.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/DKK">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/DKK">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>DKK</dcterms:identifier>
     <skos:prefLabel>Danish Kroner </skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Denmark.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/EUR">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/EUR">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>EUR</dcterms:identifier>
     <skos:prefLabel>EURO</skos:prefLabel>
     <skos:definition xml:lang="en">The European legal tender.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/GBP">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/GBP">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>GBP</dcterms:identifier>
     <skos:prefLabel>Pound Sterling</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of the United Kingdom.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/HRK">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/HRK">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>HRK</dcterms:identifier>
     <skos:prefLabel>Croatian kuna</skos:prefLabel>
     <skos:definition xml:lang="en">The legal tender of Croatia.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/HUF">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/HUF">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>HUF</dcterms:identifier>
     <skos:prefLabel>Hungarian Forint</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Hungary.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/ISK">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/ISK">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>ISK</dcterms:identifier>
     <skos:prefLabel>Icelandic krona</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Iceland.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/LEK">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/LEK">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>LEK</dcterms:identifier>
     <skos:prefLabel>Albanian lek</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Albania.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/LTL">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/LTL">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>LTL</dcterms:identifier>
     <skos:prefLabel>Lithuanian litas</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Lithuania</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/MKD">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/MKD">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>MKD</dcterms:identifier>
     <skos:prefLabel>Macedonian denar</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of FYROM.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/NOK">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/NOK">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>NOK</dcterms:identifier>
     <skos:prefLabel>Norwegian Kroner </skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Norway.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/PLN">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/PLN">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>PLN</dcterms:identifier>
     <skos:prefLabel>Polish zloty</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Poland.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/RON">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/RON">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>RON</dcterms:identifier>
     <skos:prefLabel>Romanian Leu</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Romania.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/RSD">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/RSD">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>RSD</dcterms:identifier>
     <skos:prefLabel>Serbian dinar</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Serbian Republic.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/SAR">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/SAR">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>SAR</dcterms:identifier>
     <skos:prefLabel>Saudi Arabian Riyal</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Saudi Arabia.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/SEK">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/SEK">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>SEK</dcterms:identifier>
     <skos:prefLabel>Swedish kroner</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Sweden.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/SKK">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/SKK">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>SKK</dcterms:identifier>
     <skos:prefLabel>Slovak Koruna</skos:prefLabel>
     <skos:definition xml:lang="en">The legal tender of Slovakia.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/TRY">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/TRY">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>TRY</dcterms:identifier>
     <skos:prefLabel>New Turkish Lira</skos:prefLabel>
     <skos:definition xml:lang="en">The Legal tender of Turkey.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/UAH">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/UAH">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>UAH</dcterms:identifier>
     <skos:prefLabel>Ukrainian hryvnia</skos:prefLabel>
     <skos:definition xml:lang="en">The legal tender of Ukraine.</skos:definition>
   </skos:Concept>
-  <skos:Concept rdf:about="http://data.europa.eu/energy/StandardCurrencyTypeList/USD">
-    <skos:inScheme rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
-    <skos:topConceptOf rdf:resource="http://data.europa.eu/energy/StandardCurrencyTypeList"/>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardCurrencyTypeList/USD">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardCurrencyTypeList"/>
     <dcterms:identifier>USD</dcterms:identifier>
     <skos:prefLabel>US Dollar</skos:prefLabel>
     <skos:definition xml:lang="en">The legal tender of the USA.</skos:definition>
