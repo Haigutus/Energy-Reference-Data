@@ -106,5 +106,9 @@
  "PowerFlowSettings.voltageAngleLimit":{
             "namespace": "http://iec.ch/TC57/CIM100#",
             "text": ""
+        },
+  "BaseVoltage.nominalVoltage":{
+            "namespace": "http://iec.ch/TC57/CIM100#",
+            "text": ""
         }
 }
