@@ -59,6 +59,7 @@ for code_list in code_lists:
 
                 # Concept scheme definition
                 (ID, "Type", "ConceptScheme", INSTANCE_ID),
+                (ID, "type", "http://www.w3.org/ns/dcat#Dataset", INSTANCE_ID),
                 #(ID, "issued", ISSUED, INSTANCE_ID),
                 (ID, "modified", ISSUED, INSTANCE_ID),
                 (ID, "version", VERSION, INSTANCE_ID),
@@ -126,7 +127,7 @@ data = pandas.DataFrame(data_list, columns=["ID", "KEY", "VALUE", "INSTANCE_ID"]
 #with open(export_format, "r") as conf_file:
 #    rdf_map = json.load(conf_file)
 
-rdf_map = RDF_parser.load_export_conf(["conf_skos.json", "conf_dcat.json"])
+rdf_map = RDF_parser.load_export_conf(["conf_skos.json", "conf_dcat.json", "conf_rdf_rdfs.json"])
 
 
 namespace_map = {

@@ -61,6 +61,7 @@ header_list = [
 
                 # Concept scheme definition
                 (NAME, "Type", "ConceptScheme", INSTANCE_ID),
+                (NAME, "type", "http://www.w3.org/ns/dcat#Dataset", INSTANCE_ID),
                 #(NAME, "issued", ISSUED, INSTANCE_ID),
                 (NAME, "modified", ISSUED, INSTANCE_ID),
                 (NAME, "version", VERSION, INSTANCE_ID),
