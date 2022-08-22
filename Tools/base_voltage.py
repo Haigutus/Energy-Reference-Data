@@ -72,11 +72,11 @@ header_list = [
                 (NAME, "definition", DEFINITION, INSTANCE_ID)
                 ]
 
-data = pandas.read_RDF([r"C:\Users\kristjan.vilgo\Documents\GitHub\USVDM\Tools\ENTSOE_BOUNDARY_UPDATE\export\20211007T0000Z__ENTSOE_EQBD_001.zip"])
+data = pandas.read_RDF([r"C:\Users\kristjan.vilgo\Downloads\20220817T0000Z__ENTSOE_EQBD_001.zip"])
 basevoltages = data.filter_by_type("BaseVoltage")
 
 # Fix UUID representation where possible
-basevoltages.ID = basevoltages.ID.apply(fix_uuid)
+#basevoltages.ID = basevoltages.ID.apply(fix_uuid)
 
 # Add ID-s as dcterms identifiers
 id_data = basevoltages.query("KEY == 'Type'")

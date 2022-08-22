@@ -2,194 +2,183 @@
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
   <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/BaseVoltage">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:modified>2022-08-22T11:24:16.834191</dcterms:modified>
+    <dcterms:modified>2022-08-22T14:41:35.519734</dcterms:modified>
     <dcat:version>1</dcat:version>
     <skos:prefLabel>BaseVoltage</skos:prefLabel>
     <dcterms:identifier>4261296f-4625-4a92-9b8e-ab5369f29a86</dcterms:identifier>
     <skos:definition xml:lang="en">List of commonly used Base Voltages</skos:definition>
   </skos:ConceptScheme>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/7891a026-ba2c-4209-8556-665efd13ba94">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/7891a026ba2c42098556665efd13ba94">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>220</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-220</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 220 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>7891a026-ba2c-4209-8556-665efd13ba94</dcterms:identifier>
+    <dcterms:identifier>7891a026ba2c42098556665efd13ba94</dcterms:identifier>
     <skos:prefLabel>AC-220</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 220 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/65dd04e7-9258-4b3b-9123-74e35dec032e">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/65dd04e792584b3b912374e35dec032e">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>400</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-400</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 400 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>65dd04e7-9258-4b3b-9123-74e35dec032e</dcterms:identifier>
+    <dcterms:identifier>65dd04e792584b3b912374e35dec032e</dcterms:identifier>
     <skos:prefLabel>AC-400</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 400 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/6d63ed36-bf68-42f3-b989-95e04eed3dd0">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/6d63ed36bf6842f3b98995e04eed3dd0">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>330</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-330</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 330 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>6d63ed36-bf68-42f3-b989-95e04eed3dd0</dcterms:identifier>
+    <dcterms:identifier>6d63ed36bf6842f3b98995e04eed3dd0</dcterms:identifier>
     <skos:prefLabel>AC-330</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 330 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/a6281202-3967-4c99-9d37-665d329761b7">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/a628120239674c999d37665d329761b7">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>275</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-275</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 275 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>a6281202-3967-4c99-9d37-665d329761b7</dcterms:identifier>
+    <dcterms:identifier>a628120239674c999d37665d329761b7</dcterms:identifier>
     <skos:prefLabel>AC-275</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 275 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/b88e6bde-1126-4fea-8335-5102cd4f182c">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/b88e6bde11264fea83355102cd4f182c">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>380</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-380</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 380 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>b88e6bde-1126-4fea-8335-5102cd4f182c</dcterms:identifier>
+    <dcterms:identifier>b88e6bde11264fea83355102cd4f182c</dcterms:identifier>
     <skos:prefLabel>AC-380</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 380 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/b8e17237-e0ca-4fca-9e4e-285b80ab30d0">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/b8e17237e0ca4fca9e4e285b80ab30d0">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>110</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-110</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 110 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>b8e17237-e0ca-4fca-9e4e-285b80ab30d0</dcterms:identifier>
+    <dcterms:identifier>b8e17237e0ca4fca9e4e285b80ab30d0</dcterms:identifier>
     <skos:prefLabel>AC-110</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 110 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/e50ca4bd-591d-4c30-bd6e-ca3635f70516">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/e50ca4bd591d4c30bd6eca3635f70516">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>150</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-150</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 150 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>e50ca4bd-591d-4c30-bd6e-ca3635f70516</dcterms:identifier>
+    <dcterms:identifier>e50ca4bd591d4c30bd6eca3635f70516</dcterms:identifier>
     <skos:prefLabel>AC-150</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 150 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/2f422903-3235-4b55-b66a-a149044ffdb2">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/2f42290332354b55b66aa149044ffdb2">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>300</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-300</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 300 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>2f422903-3235-4b55-b66a-a149044ffdb2</dcterms:identifier>
+    <dcterms:identifier>2f42290332354b55b66aa149044ffdb2</dcterms:identifier>
     <skos:prefLabel>AC-300</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 300 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/4bd4054c-5304-4528-9e31-df0770d1c939">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/4bd4054c530445289e31df0770d1c939">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>132</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-132</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 132 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>4bd4054c-5304-4528-9e31-df0770d1c939</dcterms:identifier>
+    <dcterms:identifier>4bd4054c530445289e31df0770d1c939</dcterms:identifier>
     <skos:prefLabel>AC-132</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 132 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/27bc805b-0b35-4395-9651-95c4f1151042">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/27bc805b0b354395965195c4f1151042">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>165</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-165</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 165 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>27bc805b-0b35-4395-9651-95c4f1151042</dcterms:identifier>
+    <dcterms:identifier>27bc805b0b354395965195c4f1151042</dcterms:identifier>
     <skos:prefLabel>AC-165</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 165 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/eb0254c2-7271-4397-9b93-e4d1bb1d59d8">
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
-    <cim:BaseVoltage.nominalVoltage>135</cim:BaseVoltage.nominalVoltage>
-    <cim:IdentifiedObject.name>AC-135</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 135 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>eb0254c2-7271-4397-9b93-e4d1bb1d59d8</dcterms:identifier>
-    <skos:prefLabel>AC-135</skos:prefLabel>
-    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 135 kV</skos:definition>
-    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
-    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/06a6876b-afba-4532-83b9-e8cb9e3fc358">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/06a6876bafba453283b9e8cb9e3fc358">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>600</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-600</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 600 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>06a6876b-afba-4532-83b9-e8cb9e3fc358</dcterms:identifier>
+    <dcterms:identifier>06a6876bafba453283b9e8cb9e3fc358</dcterms:identifier>
     <skos:prefLabel>AC-600</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 600 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/dbc68186-07ad-4a68-888d-23952d2c6b8d">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/dbc6818607ad4a68888d23952d2c6b8d">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>320</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-320</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 320 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>dbc68186-07ad-4a68-888d-23952d2c6b8d</dcterms:identifier>
+    <dcterms:identifier>dbc6818607ad4a68888d23952d2c6b8d</dcterms:identifier>
     <skos:prefLabel>AC-320</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 320 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/de347629-1239-49be-b4c3-18814ea74fff">
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
-    <cim:BaseVoltage.nominalVoltage>70</cim:BaseVoltage.nominalVoltage>
-    <cim:IdentifiedObject.name>AC-70</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 70 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>de347629-1239-49be-b4c3-18814ea74fff</dcterms:identifier>
-    <skos:prefLabel>AC-70</skos:prefLabel>
-    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 70 kV</skos:definition>
-    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
-    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/e888440d-2c05-45f9-a2f4-333d3e81a10c">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/e888440d2c0545f9a2f4333d3e81a10c">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>750</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-750</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 750 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>e888440d-2c05-45f9-a2f4-333d3e81a10c</dcterms:identifier>
+    <dcterms:identifier>e888440d2c0545f9a2f4333d3e81a10c</dcterms:identifier>
     <skos:prefLabel>AC-750</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 750 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/2e7ec472-b9c0-45cd-b6bb-c8f0a1f17ed1">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/eb0254c2727143979b93e4d1bb1d59d8">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>135</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-135</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 135 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>eb0254c2727143979b93e4d1bb1d59d8</dcterms:identifier>
+    <skos:prefLabel>AC-135</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 135 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/2e7ec472b9c045cdb6bbc8f0a1f17ed1">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>500</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-500</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 500 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>2e7ec472-b9c0-45cd-b6bb-c8f0a1f17ed1</dcterms:identifier>
+    <dcterms:identifier>2e7ec472b9c045cdb6bbc8f0a1f17ed1</dcterms:identifier>
     <skos:prefLabel>AC-500</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 500 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/11d0b6c9-cf12-4122-9fec-89dbce938f82">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/11d0b6c9cf1241229fec89dbce938f82">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>200</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-200</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 200 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>11d0b6c9-cf12-4122-9fec-89dbce938f82</dcterms:identifier>
+    <dcterms:identifier>11d0b6c9cf1241229fec89dbce938f82</dcterms:identifier>
     <skos:prefLabel>AC-200</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 200 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
@@ -258,6 +247,17 @@
     <dcterms:identifier>6db54b62-aa32-4bff-b47a-4ea9a54c57b9</dcterms:identifier>
     <skos:prefLabel>AC-6-3</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 6.3 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/7aceb2b1-3333-4abc-8562-74982239ccde">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>6.6</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-6-6</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 6.6 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>7aceb2b1-3333-4abc-8562-74982239ccde</dcterms:identifier>
+    <skos:prefLabel>AC-6-6</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 6.6 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
@@ -448,12 +448,12 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/c1d5bff1-8f80-11e0-8e4d-00247eb1f55e">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/c1d5bff18f8011e08e4d00247eb1f55e">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>15.75</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-15-75</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 15.75 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>c1d5bff1-8f80-11e0-8e4d-00247eb1f55e</dcterms:identifier>
+    <dcterms:identifier>c1d5bff18f8011e08e4d00247eb1f55e</dcterms:identifier>
     <skos:prefLabel>AC-15-75</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 15.75 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
@@ -547,12 +547,12 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/e6c221a2-b8c1-4a67-8c05-e8b59301257d">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/e6c221a2b8c14a678c05e8b59301257d">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>22</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-22</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage 22 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>e6c221a2-b8c1-4a67-8c05-e8b59301257d</dcterms:identifier>
+    <dcterms:identifier>e6c221a2b8c14a678c05e8b59301257d</dcterms:identifier>
     <skos:prefLabel>AC-22</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage 22 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
@@ -588,6 +588,17 @@
     <dcterms:identifier>9111fe3e-5a67-11a9-f49b-3c66359e0aad</dcterms:identifier>
     <skos:prefLabel>AC-26</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 26 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/c5541ca8-4521-5cde-ea54-554ddcce2b1d">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>27</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-27</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 27 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>c5541ca8-4521-5cde-ea54-554ddcce2b1d</dcterms:identifier>
+    <skos:prefLabel>AC-27</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 27 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
@@ -668,6 +679,28 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/aa641228-4ae1-23de-4154-acbddeeee6b1">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>44</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-44</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 44 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>aa641228-4ae1-23de-4154-acbddeeee6b1</dcterms:identifier>
+    <skos:prefLabel>AC-44</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 44 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/4511accc-8564-df54-d8ea-cd654134455e">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>55</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-55</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 55 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>4511accc-8564-df54-d8ea-cd654134455e</dcterms:identifier>
+    <skos:prefLabel>AC-55</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 55 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/9bab2de9-b92e-eed5-a5fa-2260bb47b95c">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>65</cim:BaseVoltage.nominalVoltage>
@@ -687,6 +720,28 @@
     <dcterms:identifier>1d57ef25-73e5-c940-de64-61253ce02e87</dcterms:identifier>
     <skos:prefLabel>AC-66</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 66 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/de347629123949beb4c318814ea74fff">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>70</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-70</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 70 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>de347629123949beb4c318814ea74fff</dcterms:identifier>
+    <skos:prefLabel>AC-70</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 70 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/6acdb5cc-9844-cdf6-65cd-6ccad586cacd">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>77</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-77</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 77 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>6acdb5cc-9844-cdf6-65cd-6ccad586cacd</dcterms:identifier>
+    <skos:prefLabel>AC-77</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 77 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
@@ -712,12 +767,12 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/f59e652a-a06d-42e3-a925-1502eef849da">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/f59e652aa06d42e3a9251502eef849da">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>115</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-115</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 115 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>f59e652a-a06d-42e3-a925-1502eef849da</dcterms:identifier>
+    <dcterms:identifier>f59e652aa06d42e3a9251502eef849da</dcterms:identifier>
     <skos:prefLabel>AC-115</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 115 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
@@ -767,12 +822,12 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/6d19fe9b-46f8-4cb7-ae1c-4c0e00eedb3d">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/6d19fe9b46f84cb7ae1c4c0e00eedb3d">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>154</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-154</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 154 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>6d19fe9b-46f8-4cb7-ae1c-4c0e00eedb3d</dcterms:identifier>
+    <dcterms:identifier>6d19fe9b46f84cb7ae1c4c0e00eedb3d</dcterms:identifier>
     <skos:prefLabel>AC-154</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 154 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
@@ -844,45 +899,45 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/b6cfed01-695f-40df-8fae-5751e3421f75">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/b6cfed01695f40df8fae5751e3421f75">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>250</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-250</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 250 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>b6cfed01-695f-40df-8fae-5751e3421f75</dcterms:identifier>
+    <dcterms:identifier>b6cfed01695f40df8fae5751e3421f75</dcterms:identifier>
     <skos:prefLabel>AC-250</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 250 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/ebeda6e3-90bf-4cd3-9535-e264d8f3fce0">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/ebeda6e390bf4cd39535e264d8f3fce0">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>285</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-285</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 285 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>ebeda6e3-90bf-4cd3-9535-e264d8f3fce0</dcterms:identifier>
+    <dcterms:identifier>ebeda6e390bf4cd39535e264d8f3fce0</dcterms:identifier>
     <skos:prefLabel>AC-285</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 285 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/c50c33fd-4781-42c1-a0d3-0a4b7c6a78ba">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/c50c33fd478142c1a0d30a4b7c6a78ba">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>350</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-350</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 350 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>c50c33fd-4781-42c1-a0d3-0a4b7c6a78ba</dcterms:identifier>
+    <dcterms:identifier>c50c33fd478142c1a0d30a4b7c6a78ba</dcterms:identifier>
     <skos:prefLabel>AC-350</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 350 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/97c6bb59-0be9-466f-abf1-f15191cc1c34">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/97c6bb590be9466fabf1f15191cc1c34">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>450</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-450</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 450 kV</cim:IdentifiedObject.description>
-    <dcterms:identifier>97c6bb59-0be9-466f-abf1-f15191cc1c34</dcterms:identifier>
+    <dcterms:identifier>97c6bb590be9466fabf1f15191cc1c34</dcterms:identifier>
     <skos:prefLabel>AC-450</skos:prefLabel>
     <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 450 kV</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
