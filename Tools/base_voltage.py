@@ -105,6 +105,9 @@ data = rename_and_append_key(data, "IdentifiedObject.name", "prefLabel")
 data = rename_and_append_key(data, "IdentifiedObject.description", "definition")
 data = rename_and_append_key(data, "IdentifiedObject.mRID", "identifier")
 
+# Add urn:uuid: to identifier
+data.update("urn:uuid:" + data.query("KEY == 'identifier'").VALUE)
+
 data = rename_and_append_key(data, "Type", "Type", original_value=NAME, new_value="Concept")
 
 type_data = data.query("KEY == 'Type' and VALUE == @NAME")

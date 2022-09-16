@@ -2,10 +2,10 @@
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
   <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/PowerFlowSettings">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:modified>2022-08-22T14:53:31.874011</dcterms:modified>
+    <dcterms:modified>2022-09-16T13:18:37.985254</dcterms:modified>
     <dcat:version>1</dcat:version>
     <skos:prefLabel>PowerFlowSettings</skos:prefLabel>
-    <dcterms:identifier>aaed01a1-fff7-49aa-a5f2-df07c05e16a9</dcterms:identifier>
+    <dcterms:identifier>urn:uuid:aaed01a1-fff7-49aa-a5f2-df07c05e16a9</dcterms:identifier>
     <dcat:keyword>PFS</dcat:keyword>
     <skos:definition xml:lang="en">List of commonly used Power Flow Settings</skos:definition>
   </skos:ConceptScheme>
@@ -33,7 +33,7 @@
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#PowerFlowSettings"/>
     <skos:prefLabel>IGM Convergence</skos:prefLabel>
     <skos:definition xml:lang="en">CGM Process - IGM Convergence check before merging to CGM</skos:definition>
-    <dcterms:identifier>9fe9b47b-468f-488a-bf35-0cf998b5ed2b</dcterms:identifier>
+    <dcterms:identifier>urn:uuid:9fe9b47b-468f-488a-bf35-0cf998b5ed2b</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/PowerFlowSettings"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/PowerFlowSettings"/>
   </skos:Concept>
@@ -62,7 +62,7 @@
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#PowerFlowSettings"/>
     <skos:prefLabel>CGM Creation Default</skos:prefLabel>
     <skos:definition xml:lang="en">CGM Process - Default settings to use when creating a CGM</skos:definition>
-    <dcterms:identifier>e4068581-713b-4d37-88e7-bca1fd78a8f7</dcterms:identifier>
+    <dcterms:identifier>urn:uuid:e4068581-713b-4d37-88e7-bca1fd78a8f7</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/PowerFlowSettings"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/PowerFlowSettings"/>
   </skos:Concept>
@@ -91,7 +91,7 @@
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#PowerFlowSettings"/>
     <skos:prefLabel>CGM Creation Relaxed 1</skos:prefLabel>
     <skos:definition xml:lang="en">CGM Process - Relaxed settings with controls on transformers and shunts disabled. To be used when creating a CGM and CGM creation fails with Default settings</skos:definition>
-    <dcterms:identifier>0722a865-678e-4539-99a3-460e42d87b39</dcterms:identifier>
+    <dcterms:identifier>urn:uuid:0722a865-678e-4539-99a3-460e42d87b39</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/PowerFlowSettings"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/PowerFlowSettings"/>
   </skos:Concept>
@@ -120,7 +120,7 @@
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#PowerFlowSettings"/>
     <skos:prefLabel>CGM Creation Relaxed 2</skos:prefLabel>
     <skos:definition xml:lang="en">CGM Process - Relaxed settings with controls on transformers and shunts disabled and reactive power limits disabled. To be used when creating a CGM and CGM creation fails with CGM Creation Relaxed 1</skos:definition>
-    <dcterms:identifier>af5ae620-edb8-46b3-a69f-a2d29b9610eb</dcterms:identifier>
+    <dcterms:identifier>urn:uuid:af5ae620-edb8-46b3-a69f-a2d29b9610eb</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/PowerFlowSettings"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/PowerFlowSettings"/>
   </skos:Concept>

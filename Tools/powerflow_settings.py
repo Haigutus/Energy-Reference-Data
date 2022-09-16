@@ -90,6 +90,10 @@ def add_key_and_value(data, type, key, value, id=None):
 data = rename_and_append_key(data, "IdentifiedObject.name", "prefLabel")
 data = rename_and_append_key(data, "IdentifiedObject.description", "definition")
 data = rename_and_append_key(data, "IdentifiedObject.mRID", "identifier")
+
+# Add urn:uuid to identifier
+data.update("urn:uuid:" + data.query("KEY == 'identifier'").VALUE)
+
 data = rename_and_append_key(data, "type", "Type", original_value=f"http://iec.ch/TC57/CIM100#{NAME}", new_value="Concept")
 
 data = add_key_and_value(data, type="Concept", key="inScheme", value=NAME)
