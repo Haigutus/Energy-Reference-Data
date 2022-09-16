@@ -2,8 +2,8 @@
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardAllocationModeTypeList">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:modified>2022-03-31</dcterms:modified>
-    <dcat:version>81</dcat:version>
+    <dcterms:modified>2022-08-26</dcterms:modified>
+    <dcat:version>83</dcat:version>
     <skos:prefLabel>StandardAllocationModeTypeList</skos:prefLabel>
     <dcterms:identifier>ET0040</dcterms:identifier>
     <skos:definition xml:lang="en">The identification of the method of allocation in an auction.</skos:definition>
@@ -35,12 +35,5 @@
     <dcterms:identifier>A04</dcterms:identifier>
     <skos:prefLabel>Pro rata</skos:prefLabel>
     <skos:definition xml:lang="en">The allocation method is pro rata.</skos:definition>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardAllocationModeTypeList/A05">
-    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardAllocationModeTypeList"/>
-    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardAllocationModeTypeList"/>
-    <dcterms:identifier>A05</dcterms:identifier>
-    <skos:prefLabel>Continuous</skos:prefLabel>
-    <skos:definition xml:lang="en">The allocation method is continuous, i.e. there is no gate closure time when bids from the market participants are collected. Instead allocation procedure takes place immediately.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

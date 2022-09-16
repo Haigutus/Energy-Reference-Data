@@ -2,8 +2,8 @@
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:modified>2022-03-31</dcterms:modified>
-    <dcat:version>81</dcat:version>
+    <dcterms:modified>2022-08-26</dcterms:modified>
+    <dcat:version>83</dcat:version>
     <skos:prefLabel>StandardBusinessTypeList</skos:prefLabel>
     <dcterms:identifier>ET0017</dcterms:identifier>
     <skos:definition xml:lang="en">The exact business nature identifying the principal characteristic of a time series.</skos:definition>
@@ -55,7 +55,7 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
     <dcterms:identifier>A07</dcterms:identifier>
     <skos:prefLabel>Net Production / Consumption</skos:prefLabel>
-    <skos:definition xml:lang="en">Net production/consumption - where signed values will be used. 
+    <skos:definition xml:lang="en">Net production/consumption - where signed values will be used.
 With the following rules: In area=Out area, In party=Out party, + means production and - means consumption.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/A08">
@@ -203,7 +203,7 @@ With the following rules: In area=Out area, In party=Out party, + means producti
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
     <dcterms:identifier>A28</dcterms:identifier>
     <skos:prefLabel>Control Area Program</skos:prefLabel>
-    <skos:definition xml:lang="en">A time series providing the total exchanges between two TSOs (including the commercial transactions, the compensation program and the losses compensation program). 
+    <skos:definition xml:lang="en">A time series providing the total exchanges between two TSOs (including the commercial transactions, the compensation program and the losses compensation program).
 Note this definition might change when UCTE brings forward its coding requirements.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/A29">
@@ -954,8 +954,8 @@ Note this definition might change when UCTE brings forward its coding requiremen
     <dcterms:identifier>B37</dcterms:identifier>
     <skos:prefLabel>Constraint situation</skos:prefLabel>
     <skos:definition xml:lang="en">The timeseries describes the constraint situation for a given TimeInterval.
-A constraint situation can be: 
-- composed of a list of network elements in outage associated for each outage to a list of network elements on which remedial actions have been carried out accordingly to contingency process 
+A constraint situation can be:
+- composed of a list of network elements in outage associated for each outage to a list of network elements on which remedial actions have been carried out accordingly to contingency process
 - or it can be an external constraint.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/B38">
@@ -963,7 +963,7 @@ A constraint situation can be:
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
     <dcterms:identifier>B38</dcterms:identifier>
     <skos:prefLabel>Initial domain</skos:prefLabel>
-    <skos:definition xml:lang="en">The timeseries describe the full flow based domain for a given TimeInterval. 
+    <skos:definition xml:lang="en">The timeseries describe the full flow based domain for a given TimeInterval.
 Critical network elements are displayed in details and their impact on the market is quantified.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/B39">
@@ -971,7 +971,7 @@ Critical network elements are displayed in details and their impact on the marke
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
     <dcterms:identifier>B39</dcterms:identifier>
     <skos:prefLabel>Flow based domain adjusted to long term schedules</skos:prefLabel>
-    <skos:definition xml:lang="en">The timeseries describe the full flow based domain for a given TimeInterval adjusted to the latest update of the schedules. 
+    <skos:definition xml:lang="en">The timeseries describe the full flow based domain for a given TimeInterval adjusted to the latest update of the schedules.
 Critical network elements are displayed in details and their impact on the market is quantified.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/B40">
@@ -1990,5 +1990,33 @@ Critical network elements are displayed in details and their impact on the marke
     <dcterms:identifier>C85</dcterms:identifier>
     <skos:prefLabel>Slower than standard FAT</skos:prefLabel>
     <skos:definition xml:lang="en">Bids that can support a Full Activation Time (FAT) that is slower than standard FAT.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/C86">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
+    <dcterms:identifier>C86</dcterms:identifier>
+    <skos:prefLabel>Remedial action cost summary</skos:prefLabel>
+    <skos:definition xml:lang="en">A timeseries summarizing all incurred costs and/or revenues per party related to the activated remedial actions eligible to Cost Sharing.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/C87">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
+    <dcterms:identifier>C87</dcterms:identifier>
+    <skos:prefLabel>Settlement result</skos:prefLabel>
+    <skos:definition xml:lang="en">A timeseries representing the cost sharing settlement results between parties (i.e. which party will be paying and/or receiving money for the concerned period).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/C88">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
+    <dcterms:identifier>C88</dcterms:identifier>
+    <skos:prefLabel>Reserved cross zonal capacity</skos:prefLabel>
+    <skos:definition xml:lang="en">The reserved cross zonal capacity for system operator needs (EBGL art. 38(1)(b) and art. 41.).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardBusinessTypeList/C89">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardBusinessTypeList"/>
+    <dcterms:identifier>C89</dcterms:identifier>
+    <skos:prefLabel>Energy reserves</skos:prefLabel>
+    <skos:definition xml:lang="en">A timeseries describing energy reserves.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

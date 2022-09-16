@@ -2,8 +2,8 @@
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardProcessTypeList">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:modified>2022-03-31</dcterms:modified>
-    <dcat:version>81</dcat:version>
+    <dcterms:modified>2022-08-26</dcterms:modified>
+    <dcat:version>83</dcat:version>
     <skos:prefLabel>StandardProcessTypeList</skos:prefLabel>
     <dcterms:identifier>ET0020</dcterms:identifier>
     <skos:definition xml:lang="en">Indicates the nature of process that the document addresses.</skos:definition>
@@ -462,5 +462,40 @@
     <dcterms:identifier>A65</dcterms:identifier>
     <skos:prefLabel>Criteria application for frequency restoration</skos:prefLabel>
     <skos:definition xml:lang="en">The process describes criteria application for frequency restoration.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A66">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <dcterms:identifier>A66</dcterms:identifier>
+    <skos:prefLabel>Cost sharing</skos:prefLabel>
+    <skos:definition xml:lang="en">The process describes the cost sharing process for costly remedial actions.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A67">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <dcterms:identifier>A67</dcterms:identifier>
+    <skos:prefLabel>Central selection aFRR</skos:prefLabel>
+    <skos:definition xml:lang="en">aFRR subject to central selection of bids for activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A68">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <dcterms:identifier>A68</dcterms:identifier>
+    <skos:prefLabel>Local selection aFRR</skos:prefLabel>
+    <skos:definition xml:lang="en">aFRR subject to local selection of bids for activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A69">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <dcterms:identifier>A69</dcterms:identifier>
+    <skos:prefLabel>Common grid model alignment</skos:prefLabel>
+    <skos:definition xml:lang="en">The process for aligning bidding zone net positions.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardProcessTypeList/A70">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardProcessTypeList"/>
+    <dcterms:identifier>A70</dcterms:identifier>
+    <skos:prefLabel>Pan-European verification function</skos:prefLabel>
+    <skos:definition xml:lang="en">The process for verifying bidding zone net positions.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

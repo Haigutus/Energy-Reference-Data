@@ -3,10 +3,10 @@
   <xsd:include schemaLocation="urn-entsoe-eu-local-extension-types.xsd" />
   <xsd:annotation>
     <xsd:documentation>
-      <Version>81</Version>
+      <Version>83</Version>
       <Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</Title>
       <Release>0</Release>
-      <ReleaseDate>2022-03-31</ReleaseDate>
+      <ReleaseDate>2022-08-26</ReleaseDate>
     </xsd:documentation>
   </xsd:annotation>
   <xsd:simpleType name="StandardAllocationModeTypeList">
@@ -53,16 +53,6 @@
             <CodeDescription>
               <Title>Pro rata</Title>
               <Definition>The allocation method is pro rata.</Definition>
-            </CodeDescription>
-          </xsd:documentation>
-        </xsd:annotation>
-      </xsd:enumeration>
-      <xsd:enumeration value="A05">
-        <xsd:annotation>
-          <xsd:documentation>
-            <CodeDescription>
-              <Title>Continuous</Title>
-              <Definition>The allocation method is continuous, i.e. there is no gate closure time when bids from the market participants are collected. Instead allocation procedure takes place immediately.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -1132,7 +1122,7 @@
           <xsd:documentation>
             <CodeDescription>
               <Title>Net Production / Consumption</Title>
-              <Definition>Net production/consumption - where signed values will be used. 
+              <Definition>Net production/consumption - where signed values will be used.
 With the following rules: In area=Out area, In party=Out party, + means production and - means consumption.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -1343,7 +1333,7 @@ With the following rules: In area=Out area, In party=Out party, + means producti
           <xsd:documentation>
             <CodeDescription>
               <Title>Control Area Program</Title>
-              <Definition>A time series providing the total exchanges between two TSOs (including the commercial transactions, the compensation program and the losses compensation program). 
+              <Definition>A time series providing the total exchanges between two TSOs (including the commercial transactions, the compensation program and the losses compensation program).
 Note this definition might change when UCTE brings forward its coding requirements.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -2415,8 +2405,8 @@ Note this definition might change when UCTE brings forward its coding requiremen
             <CodeDescription>
               <Title>Constraint situation</Title>
               <Definition>The timeseries describes the constraint situation for a given TimeInterval.
-A constraint situation can be: 
-- composed of a list of network elements in outage associated for each outage to a list of network elements on which remedial actions have been carried out accordingly to contingency process 
+A constraint situation can be:
+- composed of a list of network elements in outage associated for each outage to a list of network elements on which remedial actions have been carried out accordingly to contingency process
 - or it can be an external constraint.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -2427,7 +2417,7 @@ A constraint situation can be:
           <xsd:documentation>
             <CodeDescription>
               <Title>Initial domain</Title>
-              <Definition>The timeseries describe the full flow based domain for a given TimeInterval. 
+              <Definition>The timeseries describe the full flow based domain for a given TimeInterval.
 Critical network elements are displayed in details and their impact on the market is quantified.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -2438,7 +2428,7 @@ Critical network elements are displayed in details and their impact on the marke
           <xsd:documentation>
             <CodeDescription>
               <Title>Flow based domain adjusted to long term schedules</Title>
-              <Definition>The timeseries describe the full flow based domain for a given TimeInterval adjusted to the latest update of the schedules. 
+              <Definition>The timeseries describe the full flow based domain for a given TimeInterval adjusted to the latest update of the schedules.
 Critical network elements are displayed in details and their impact on the market is quantified.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -3896,6 +3886,46 @@ Critical network elements are displayed in details and their impact on the marke
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="C86">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Remedial action cost summary</Title>
+              <Definition>A timeseries summarizing all incurred costs and/or revenues per party related to the activated remedial actions eligible to Cost Sharing.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C87">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Settlement result</Title>
+              <Definition>A timeseries representing the cost sharing settlement results between parties (i.e. which party will be paying and/or receiving money for the concerned period).</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C88">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Reserved cross zonal capacity</Title>
+              <Definition>The reserved cross zonal capacity for system operator needs (EBGL art. 38(1)(b) and art. 41.).</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C89">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Energy reserves</Title>
+              <Definition>A timeseries describing energy reserves.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardCategoryTypeList">
@@ -4542,7 +4572,7 @@ Critical network elements are displayed in details and their impact on the marke
     <xsd:annotation>
       <xsd:documentation>
         <Uid>ET0010</Uid>
-        <Definition>The contract type defines the conditions under which the capacity is allocated and handled, e.g. daily auction, weekly auction, monthly auction, yearly auction, etc. 
+        <Definition>The contract type defines the conditions under which the capacity is allocated and handled, e.g. daily auction, weekly auction, monthly auction, yearly auction, etc.
 The significance of this type is dependent on area specific coded working methods.</Definition>
       </xsd:documentation>
     </xsd:annotation>
@@ -8439,6 +8469,56 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="A66">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Cost sharing</Title>
+              <Definition>The process describes the cost sharing process for costly remedial actions.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A67">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Central selection aFRR</Title>
+              <Definition>aFRR subject to central selection of bids for activation.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A68">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Local selection aFRR</Title>
+              <Definition>aFRR subject to local selection of bids for activation.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A69">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Common grid model alignment</Title>
+              <Definition>The process for aligning bidding zone net positions.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A70">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Pan-European verification function</Title>
+              <Definition>The process for verifying bidding zone net positions.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardQualityTypeList">
@@ -8714,8 +8794,8 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
           <xsd:documentation>
             <CodeDescription>
               <Title>Counterpart time series missing </Title>
-              <Definition>This provides an indication that the time series has not got a counterpart time series. 
-In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received. 
+              <Definition>This provides an indication that the time series has not got a counterpart time series.
+In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received.
 In the case of a Final Confirmation Report this is informing the recipient that the time series has been rejected because the counterpart time series has not been forthcoming. </Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10396,7 +10476,7 @@ In the case of a Final Confirmation Report this is informing the recipient that 
           <xsd:documentation>
             <CodeDescription>
               <Title>Market information aggregator</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
 A party that collects information from different sources and assembles  it to provide a summary of the market.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10407,7 +10487,7 @@ A party that collects information from different sources and assembles  it to pr
           <xsd:documentation>
             <CodeDescription>
               <Title>Information receiver</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
 A party, not necessarily a market participant, which receives information about the market.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10418,7 +10498,7 @@ A party, not necessarily a market participant, which receives information about 
           <xsd:documentation>
             <CodeDescription>
               <Title>Reserve Allocator</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
 A party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10429,7 +10509,7 @@ A party that informs the market of reserve requirements, receives tenders agains
           <xsd:documentation>
             <CodeDescription>
               <Title>MOL Responsible</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
 A party that Informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10440,8 +10520,7 @@ A party that Informs the market of reserve requirements, receives tenders agains
           <xsd:documentation>
             <CodeDescription>
               <Title>Capacity Coordinator</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
-A party, acting on behalf of the SOs involved, responsible for establishing a coordinated Offered Capacity and/or NTC and/or ATC between several Market Balance Areas.</Definition>
+              <Definition>A party, acting on behalf of the SOs involved, responsible for establishing a coordinated Offered Capacity and/or NTC and/or ATC between several Scheduling Areas.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -10451,7 +10530,7 @@ A party, acting on behalf of the SOs involved, responsible for establishing a co
           <xsd:documentation>
             <CodeDescription>
               <Title>Reconciliation Accountable</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
 A party that is financially accountable for the reconciled volume of energy products for a profiled local metering point.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10603,6 +10682,26 @@ A party that is financially accountable for the reconciled volume of energy prod
             <CodeDescription>
               <Title>Resource aggregator</Title>
               <Definition>A party that aggregates resources for usage by a service provider for energy market services.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A53">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Cost sharing calculator</Title>
+              <Definition>A party responsible for the mapping of the costs between areas and parties.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A54">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Settlement responsible</Title>
+              <Definition>A party responsible for settling the costs.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -11338,6 +11437,16 @@ In this case the resources are no longer available to all Acquiring System Opera
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="A73">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Delta</Title>
+              <Definition>Describes a status representing a difference between two values.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardTarifTypeTypeList">
@@ -11414,6 +11523,26 @@ In this case the resources are no longer available to all Acquiring System Opera
             <CodeDescription>
               <Title>Summer NT</Title>
               <Definition>Summer NT tariff.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="StandardTimeframeTypeList">
+    <xsd:annotation>
+      <xsd:documentation>
+        <Uid>ET0053</Uid>
+        <Definition>The identification of the timeframe.</Definition>
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:NMTOKEN">
+      <xsd:enumeration value="A01">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Test</Title>
+              <Definition>Test. Do not use</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -11904,7 +12033,7 @@ In this case the resources are no longer available to all Acquiring System Opera
     <xsd:annotation>
       <xsd:documentation>
         <Uid>ET0003</Uid>
-        <Definition>The DocumentTypeList is only used in XML instances using deprecated ENTSO-E schema; otherwise for XML instances based CIM, the codelist is MessageTypeList. 
+        <Definition>The DocumentTypeList is only used in XML instances using deprecated ENTSO-E schema; otherwise for XML instances based CIM, the codelist is MessageTypeList.
 Therefore, you are kindly advised to refer to the MessageType enumeration, which includes the same enumeration codes.</Definition>
       </xsd:documentation>
     </xsd:annotation>
@@ -13036,6 +13165,9 @@ Therefore, you are kindly advised to refer to the MessageType enumeration, which
   </xsd:simpleType>
   <xsd:simpleType name="TarifTypeTypeList">
     <xsd:union memberTypes="ecl:StandardTarifTypeTypeList ecl:LocalTarifTypeType" />
+  </xsd:simpleType>
+  <xsd:simpleType name="TimeframeTypeList">
+    <xsd:union memberTypes="ecl:StandardTimeframeTypeList ecl:LocalTimeframeType" />
   </xsd:simpleType>
   <xsd:simpleType name="UnitMultiplier">
     <xsd:union memberTypes="ecl:StandardUnitMultiplier ecl:LocalUnitMultiplier" />
