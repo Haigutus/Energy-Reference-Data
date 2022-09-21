@@ -2,9 +2,9 @@
 
 Project to create common reference data to be used for Energy related business processes using Simple Knowledge Organization System (SKOS) for structure, Data Catalog Vocabulary (DCAT) for additional metadata and Common Information Model (CIM) as energy domain data
 
--https://www.w3.org/TR/skos-reference/
--https://www.w3.org/TR/vocab-dcat-3/
--https://www.entsoe.eu/digital/common-information-model/
+- https://www.w3.org/TR/skos-reference/
+- https://www.w3.org/TR/vocab-dcat-3/
+- https://www.entsoe.eu/digital/common-information-model/
 
 ## Content
 Here will be examples and tooling to convert existing data:
