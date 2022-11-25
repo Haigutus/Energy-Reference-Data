@@ -9,7 +9,6 @@
     <skos:definition xml:lang="en">List of commonly used confidentiality categories</skos:definition>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab">
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <dcterms:identifier>urn:uuid:ec8c443e-edab-4256-80b2-4a7824f754ab</dcterms:identifier>
     <skos:prefLabel>OPDE Secret</skos:prefLabel>
     <skos:definition xml:lang="en">OPDE Secret</skos:definition>
@@ -17,7 +16,6 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/4cd9b326-1275-4da7-9724-28c5e1deeb87">
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <dcterms:identifier>urn:uuid:4cd9b326-1275-4da7-9724-28c5e1deeb87</dcterms:identifier>
     <skos:prefLabel>OPDE Confidential</skos:prefLabel>
     <skos:definition xml:lang="en">OPDE Confidential</skos:definition>
@@ -25,7 +23,6 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/b4365641-6296-486a-bcf5-746a96ed67bd">
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <dcterms:identifier>urn:uuid:b4365641-6296-486a-bcf5-746a96ed67bd</dcterms:identifier>
     <skos:prefLabel>OPC/STA Secret</skos:prefLabel>
     <skos:definition xml:lang="en">OPC/STA Secret</skos:definition>
@@ -33,7 +30,6 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c">
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <dcterms:identifier>urn:uuid:251e7f88-dbd3-48e0-aea6-669f8cd67e8c</dcterms:identifier>
     <skos:prefLabel>OPC/STA Confidential</skos:prefLabel>
     <skos:definition xml:lang="en">OPC/STA Confidential</skos:definition>
@@ -41,12 +37,11 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90">
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <dcterms:identifier>urn:uuid:0080531c-fa18-4d51-8832-4bcbced77c90</dcterms:identifier>
     <skos:prefLabel>Public</skos:prefLabel>
     <skos:definition xml:lang="en">Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.</skos:definition>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
-	<skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
   </skos:Concept>  
 </rdf:RDF>
