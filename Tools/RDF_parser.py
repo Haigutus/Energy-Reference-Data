@@ -924,6 +924,33 @@ def load_export_conf(list_of_conf_paths):
 
     return conf
 
+
+def rename_and_append_key(data, original_key, new_key, original_value=None, new_value=None):
+
+    if original_value:
+        description = pandas.DataFrame(data.query(f"KEY == '{original_key}' and VALUE =='{original_value}'"))
+        description["VALUE"] = new_value
+    else:
+        description = pandas.DataFrame(data.query(f"KEY == '{original_key}'"))
+
+    description["KEY"] = new_key
+    data = data.append(description, ignore_index=True)
+    return data
+
+def add_key_and_value(data, type, key, value, id=None):
+
+    if id:
+        filter = data.query("ID == @id and KEY == 'Type' and VALUE == @type")
+
+    else:
+        filter = data.query("KEY == 'Type' and VALUE == @type")
+
+    filter["KEY"] = key
+    filter["VALUE"] = value
+
+    data = data.append(filter, ignore_index=True)
+    return data
+
 # END OF FUNCTIONS
 
 
