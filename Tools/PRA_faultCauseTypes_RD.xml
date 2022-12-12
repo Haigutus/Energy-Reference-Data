@@ -77,22 +77,22 @@
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_540f6a96-338f-480d-8cdd-a9746545dba2">
 		<cim:IdentifiedObject.mRID>540f6a96-338f-480d-8cdd-a9746545dba2</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>externalInluences.humanThirdParty</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>externalInfluences.humanThirdParty</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_af5594ba-241b-444f-bac5-23b808a5c707">
 		<cim:IdentifiedObject.mRID>af5594ba-241b-444f-bac5-23b808a5c707</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>externalInluences.foreignObjects</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>externalInfluences.foreignObjects</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_527331e7-20ec-4454-8a31-c7aa564bfeba">
 		<cim:IdentifiedObject.mRID>527331e7-20ec-4454-8a31-c7aa564bfeba</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>externalInluences.animals</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>externalInfluences.animals</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_d9df5598-9383-4ea7-9063-6ffeea874b41">
 		<cim:IdentifiedObject.mRID>d9df5598-9383-4ea7-9063-6ffeea874b41</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>externalInluences.other</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>externalInfluences.other</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Other causes due to external influences that do not fit under the other subcategories.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_ac03c3d2-5d34-46a8-84c2-133fd6dbe45d">
