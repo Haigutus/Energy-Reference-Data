@@ -12,6 +12,7 @@
 import requests
 import pandas
 import uuid
+from datetime import datetime
 from lxml import etree
 import RDF_parser
 import json
@@ -67,34 +68,45 @@ def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin
 
     xml_tree = etree.fromstring(allocated_eic.content)
 
-    ID = str(uuid.uuid4())
+    ID = "f4c70c71-77e2-410e-9903-cbd85305cdc4"
+    VERSION = "1"
+    NAME = "EIC"
+    DEFINITION = "Energy Identification Codes"
+    ISSUED = datetime.utcnow().isoformat()
+    DIST_ID = str(uuid.uuid4())
+
     eic_data_list = [
-        (ID, "Type", "Distribution"),
-        (ID, "label", "../GeneratedData/allocated-eic.rdf")
+        (DIST_ID, "Type", "Distribution"),
+        (DIST_ID, "label", "../GeneratedData/allocated-eic.rdf"),
+
+
+        (NAME, "Type", "ConceptScheme"),
+        (NAME, "type", "http://www.w3.org/ns/dcat#Dataset"),
+        (NAME, "prefLabel", "Energy Identification Codes"),
+        # (NAME, "issued", ISSUED, INSTANCE_ID),
+        # (NAME, "modified", ISSUED),
+        # (NAME, "version", VERSION),
+        (NAME, "prefLabel", NAME),
+        (NAME, "identifier", ID),
+        (NAME, "keyword", "EIC"),
+        (NAME, "definition", DEFINITION)
     ]
 
-    ConceptScheme_ID = "EIC"
-
-    eic_data_list.extend([
-        (ConceptScheme_ID, "Type", "ConceptScheme"),
-        (ConceptScheme_ID, "label", "EIC"),
-        (ConceptScheme_ID, "prefLabel", "Energy Identification Codding Scheme")
-    ])
 
     for key, value in get_metadata_from_xml(xml_tree).items():
-        eic_data_list.append((ID, key, value))
+        eic_data_list.append((NAME, key, value))
 
     EICs = xml_tree.iter("{*}EICCode_MarketDocument")
 
     for EIC in EICs:
-        ID = f"{ConceptScheme_ID}/{EIC[0].text}"
+        ID = f"{NAME}/{EIC[0].text}"
 
         elements = [{"element": EIC}]
         # eic_data_list.append((ID, "Type", EIC.tag.split('}')[1]))
         eic_data_list.extend([
             (ID, "Type", "Concept"),
-            (ID, "inScheme", ConceptScheme_ID),
-            (ID, "topConceptOf", ConceptScheme_ID)
+            (ID, "inScheme", NAME),
+            (ID, "topConceptOf", NAME)
         ])
 
         for element in elements:
@@ -130,11 +142,28 @@ def rename_and_append_key(data, original_key, new_key):
 # Get published EIC
 data = get_allocated_eic_triplet()
 
-# Bring some original values under new keys to data
+# Add header files
+data = rename_and_append_key(data, "revisionNumber", "version")
+data = rename_and_append_key(data, "eic:createdDateTime", "modified")
+data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "prefLabel")
+
+# Add fields for SKOS
 data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "altLabel")
 data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "start.use")
 data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "prefLabel")
 data = rename_and_append_key(data, "EICCode_MarketDocument.description", "definition")
+
+# Add fields for EIC
+data = rename_and_append_key(data, "EICCode_MarketDocument.mRID", "IdentifiedObject.mRID")
+data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "IdentifiedObject.name")
+data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "Names.name")
+data = rename_and_append_key(data, "EICCode_MarketParticipant.ACERCode_Name.name", "Names.name")
+data = rename_and_append_key(data, "EICCode_MarketParticipant.VATCode_Name.name", "Names.name")
+data = rename_and_append_key(data, "EICCode_MarketDocument.description", "IdentifiedObject.description")
+data = rename_and_append_key(data, "EICCode_MarketDocument.docStatus.value", "Document.docStatus")
+data = rename_and_append_key(data, "EICCode_MarketDocument.attributeInstanceComponent.attribute", "AttributeInstanceComponent.attribute")
+data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "DateAndOrTime.date")
+data = rename_and_append_key(data, "EICCode_MarketDocument.Function_Names.name", "DateAndOrTime.date")
 
 # Add functions
 for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Function_Names.name'").groupby("VALUE"):
@@ -151,7 +180,7 @@ for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Functio
     group_data["ID"] = group_id
     group_data["KEY"] = "member"  # skos:member
 
-    data = data.append(group_data, ignore_index=True)
+    data = pandas.concat([data, group_data], ignore_index=True)
 
 # TODO - Add EIC object types, by creating column with 3-rd letter of EIC and then group by, as above
 
@@ -182,7 +211,7 @@ for group_code, group_data in object_types.groupby("EIC_Type"):
     group_data["ID"] = group_id
     group_data["KEY"] = "member"  # skos:member
 
-    data = data.append(group_data[["ID", "KEY", "VALUE"]], ignore_index=True)
+    data = pandas.concat([data, group_data[["ID", "KEY", "VALUE"]]], ignore_index=True)
 
 
 
@@ -190,9 +219,6 @@ for group_code, group_data in object_types.groupby("EIC_Type"):
 # Add graph ID (expected by export function as multiple graphs could be included)
 data["INSTANCE_ID"] = str(uuid.uuid4())
 
-#export_format = "conf_eic.json"
-#with open(export_format, "r") as conf_file:
-#    rdf_map = json.load(conf_file)
 
 rdf_map = RDF_parser.load_export_conf(["conf_skos.json",
                                        "conf_dcat.json",
