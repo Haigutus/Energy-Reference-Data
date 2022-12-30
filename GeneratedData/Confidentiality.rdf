@@ -44,4 +44,28 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
     <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
   </skos:Concept>  
+  <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/ef58471e-08a0-4c8b-b488-3e5ef4a21422">
+    <dcterms:identifier>urn:uuid:ef58471e-08a0-4c8b-b488-3e5ef4a21422</dcterms:identifier>
+    <skos:prefLabel>Restricted</skos:prefLabel>
+    <skos:definition xml:lang="en">Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released.</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/RESTRICTED"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/51378918-8ef6-4cce-9711-4af4539f1ef5">
+    <dcterms:identifier>urn:uuid:51378918-8ef6-4cce-9711-4af4539f1ef5</dcterms:identifier>
+    <skos:prefLabel>Confidential</skos:prefLabel>
+    <skos:definition xml:lang="en">Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade.</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/c28079e4-02ba-4a08-9093-8247ebe57f21">
+    <dcterms:identifier>urn:uuid:c28079e4-02ba-4a08-9093-8247ebe57f21</dcterms:identifier>
+    <skos:prefLabel>Sensitive</skos:prefLabel>
+    <skos:definition xml:lang="en">Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information.</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/SENSITIVE"/>
+  </skos:Concept>
 </rdf:RDF>
