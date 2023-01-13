@@ -107,8 +107,24 @@
             "namespace": "http://iec.ch/TC57/CIM100#",
             "text": ""
         },
-  "BaseVoltage.nominalVoltage":{
-            "namespace": "http://iec.ch/TC57/CIM100#",
-            "text": ""
-        }
+ "BaseVoltage.nominalVoltage":{
+          "namespace": "http://iec.ch/TC57/CIM100#",
+          "text": ""
+      },
+ "DateAndOrTime.date":{
+          "namespace": "http://iec.ch/TC57/CIM100#",
+          "text": ""
+      },
+ "Document.docStatus":{
+          "namespace": "http://iec.ch/TC57/CIM100#",
+          "text": ""
+      },
+ "AttributeInstanceComponent.attribute":{
+        "namespace": "http://iec.ch/TC57/CIM100#",
+        "text": ""
+    },
+ "Names.name":{
+      "namespace": "http://iec.ch/TC57/CIM100#",
+      "text": ""
+  }
 }

@@ -106,7 +106,8 @@ def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin
         eic_data_list.extend([
             (ID, "Type", "Concept"),
             (ID, "inScheme", NAME),
-            (ID, "topConceptOf", NAME)
+            (ID, "topConceptOf", NAME),
+            (ID, "type", "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument")
         ])
 
         for element in elements:
@@ -145,7 +146,7 @@ data = get_allocated_eic_triplet()
 # Add header files
 data = rename_and_append_key(data, "revisionNumber", "version")
 data = rename_and_append_key(data, "eic:createdDateTime", "modified")
-data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "prefLabel")
+
 
 # Add fields for SKOS
 data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "altLabel")
@@ -157,13 +158,13 @@ data = rename_and_append_key(data, "EICCode_MarketDocument.description", "defini
 data = rename_and_append_key(data, "EICCode_MarketDocument.mRID", "IdentifiedObject.mRID")
 data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "IdentifiedObject.name")
 data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "Names.name")
-data = rename_and_append_key(data, "EICCode_MarketParticipant.ACERCode_Name.name", "Names.name")
-data = rename_and_append_key(data, "EICCode_MarketParticipant.VATCode_Name.name", "Names.name")
+data = rename_and_append_key(data, "EICCode_MarketDocument.eICCode_MarketParticipant.aCERCode_Names.name", "Names.name")
+data = rename_and_append_key(data, "EICCode_MarketDocument.eICCode_MarketParticipant.vATCode_Names.name", "Names.name")
 data = rename_and_append_key(data, "EICCode_MarketDocument.description", "IdentifiedObject.description")
 data = rename_and_append_key(data, "EICCode_MarketDocument.docStatus.value", "Document.docStatus")
 data = rename_and_append_key(data, "EICCode_MarketDocument.attributeInstanceComponent.attribute", "AttributeInstanceComponent.attribute")
 data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "DateAndOrTime.date")
-data = rename_and_append_key(data, "EICCode_MarketDocument.Function_Names.name", "DateAndOrTime.date")
+data = rename_and_append_key(data, "EICCode_MarketDocument.Function_Names.name", "Names.name")
 
 # Add functions
 for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Function_Names.name'").groupby("VALUE"):
@@ -222,11 +223,11 @@ data["INSTANCE_ID"] = str(uuid.uuid4())
 
 rdf_map = RDF_parser.load_export_conf(["conf_skos.json",
                                        "conf_dcat.json",
-                                       "conf_eic.json",
+                                       "conf_cim100.json",
                                        "conf_rdf_rdfs.json"])
 
 namespace_map = {
-    "cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+    "cim": "http://iec.ch/TC57/CIM100#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "dcat": "http://www.w3.org/ns/dcat#",
@@ -239,6 +240,6 @@ namespace_map = {
 data.export_to_cimxml(rdf_map=rdf_map,
                       namespace_map=namespace_map,
                       default_namespace="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0",
-                      export_undefined=True,
+                      export_undefined=False,
                       export_type="xml_per_instance"
                       )
