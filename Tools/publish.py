@@ -49,6 +49,19 @@ frontpage_html_template = """
         color: #fff;
         padding: 20px;
         text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }}
+      header a {{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+      }}
+      header img {{
+        height: 50px;
+        margin-right: 10px;
       }}
       h1 {{
         margin: 0;
@@ -89,7 +102,11 @@ frontpage_html_template = """
   </head>
   <body>
     <header>
+      <div></div>      
       <h1>Energy Reference Data</h1>
+      <a href="https://github.com/Haigutus/Energy-Reference-Data" target="_blank">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+      </a>
     </header>
     <main>
       <table>
