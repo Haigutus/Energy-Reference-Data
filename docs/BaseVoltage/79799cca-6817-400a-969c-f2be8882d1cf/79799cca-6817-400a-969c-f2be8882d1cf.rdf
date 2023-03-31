@@ -1,0 +1,12 @@
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/79799cca-6817-400a-969c-f2be8882d1cf">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>24</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-24</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage 24 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>urn:uuid:79799cca-6817-400a-969c-f2be8882d1cf</dcterms:identifier>
+    <skos:prefLabel>AC-24</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage 24 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  

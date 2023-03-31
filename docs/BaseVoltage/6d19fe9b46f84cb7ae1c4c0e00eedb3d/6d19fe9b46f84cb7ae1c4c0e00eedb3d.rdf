@@ -1,0 +1,12 @@
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/6d19fe9b46f84cb7ae1c4c0e00eedb3d">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>154</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-154</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 154 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>urn:uuid:6d19fe9b46f84cb7ae1c4c0e00eedb3d</dcterms:identifier>
+    <skos:prefLabel>AC-154</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 154 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  

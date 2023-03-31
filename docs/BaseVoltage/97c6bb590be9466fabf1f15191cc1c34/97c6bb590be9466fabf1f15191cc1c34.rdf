@@ -1,0 +1,11 @@
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/97c6bb590be9466fabf1f15191cc1c34">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>450</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-450</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 450 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>urn:uuid:97c6bb590be9466fabf1f15191cc1c34</dcterms:identifier>
+    <skos:prefLabel>AC-450</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 450 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>

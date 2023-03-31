@@ -1,0 +1,12 @@
+<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/63893f24-5b4e-407c-9a1e-4ff71121f33c">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>225</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-225</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 225 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>urn:uuid:63893f24-5b4e-407c-9a1e-4ff71121f33c</dcterms:identifier>
+    <skos:prefLabel>AC-225</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 225 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+  

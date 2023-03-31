@@ -23,10 +23,14 @@ At the moment ther are 4 folders:
 - docs: Data published to webpage (experimental for now)
 
 ## Publications of data
-Official publication:
+### Official publication:
 - page: https://www.entsoe.eu/publications/electronic-data-interchange-edi-library/
 - direct: https://www.entsoe.eu/Documents/EDI/Library/ENTSO-E%20SKOS%20codelist.zip
 
-Proof of Concept publication:
+### Unofficial Resolvable publication:
+
+- root: https://energy.referencedata.eu
+
+#### Example
 - full: https://energy.referencedata.eu/PowerFlowSettings
 - single: https://energy.referencedata.eu/PowerFlowSettings/9fe9b47b-468f-488a-bf35-0cf998b5ed2b
