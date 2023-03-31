@@ -1,4 +1,5 @@
-<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/2e7ec472b9c045cdb6bbc8f0a1f17ed1">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/2e7ec472b9c045cdb6bbc8f0a1f17ed1">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>500</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-500</cim:IdentifiedObject.name>
@@ -9,4 +10,4 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  
+</rdf:RDF>

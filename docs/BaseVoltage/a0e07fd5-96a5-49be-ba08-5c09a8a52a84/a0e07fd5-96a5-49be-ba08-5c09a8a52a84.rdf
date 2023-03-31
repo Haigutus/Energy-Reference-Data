@@ -1,4 +1,5 @@
-<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/a0e07fd5-96a5-49be-ba08-5c09a8a52a84">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/a0e07fd5-96a5-49be-ba08-5c09a8a52a84">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>31</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-31</cim:IdentifiedObject.name>
@@ -9,4 +10,4 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
   </skos:Concept>
-  
+</rdf:RDF>

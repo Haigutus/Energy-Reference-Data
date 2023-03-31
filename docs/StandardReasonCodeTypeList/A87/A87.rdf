@@ -1,8 +1,9 @@
-<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema" rdf:about="http://energy.referencedata.eu/StandardReasonCodeTypeList/A87">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/StandardReasonCodeTypeList/A87">
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
     <dcterms:identifier>A87</dcterms:identifier>
     <skos:prefLabel>For action (only in intermediate confirmation - time series need mutual agreement and action)</skos:prefLabel>
     <skos:definition xml:lang="en">The report in question is only for action in an intermediate stage.</skos:definition>
   </skos:Concept>
-  
+</rdf:RDF>

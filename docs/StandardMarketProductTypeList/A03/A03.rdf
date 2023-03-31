@@ -1,8 +1,9 @@
-<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema" rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A03">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A03">
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
     <dcterms:identifier>A03</dcterms:identifier>
     <skos:prefLabel>Product from integrated scheduling process</skos:prefLabel>
     <skos:definition xml:lang="en">From the EBGL Article 2 (19), means an iterative process that uses at least integrated scheduling process bids that contain commercial data, complex technical data of individual power generating facilities or demand facilities and explicitly includes the start-up characteristics, the latest control area adequacy analysis and the operational security limits as an input to the process.</skos:definition>
   </skos:Concept>
-  
+</rdf:RDF>

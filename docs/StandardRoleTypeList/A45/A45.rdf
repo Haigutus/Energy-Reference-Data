@@ -1,8 +1,9 @@
-<skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema" rdf:about="http://energy.referencedata.eu/StandardRoleTypeList/A45">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/StandardRoleTypeList/A45">
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardRoleTypeList"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardRoleTypeList"/>
     <dcterms:identifier>A45</dcterms:identifier>
     <skos:prefLabel>Energy Service Company (ESCO)</skos:prefLabel>
     <skos:definition xml:lang="en">A party offering energy-related services to the Party Connected to Grid, but not directly active in the energy value chain or the physical infrastructure itself. The ESCO may provide insight services as well as energy management services.</skos:definition>
   </skos:Concept>
-  
+</rdf:RDF>

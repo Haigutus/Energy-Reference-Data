@@ -19,7 +19,7 @@ def publish_item(data, name, relative_path="", base_path=publication_base_path):
     item_index_path.write_text(redirect_html_template.format(path=item_file_name))
 
     # Write .rdf data itself
-    item_file_path.write_bytes(etree.tostring(data))
+    item_file_path.write_bytes(etree.tostring(data, pretty_print=True))
 
 
 redirect_html_template = """
@@ -158,7 +158,8 @@ data_to_publish = [
 frontpage_rows = ""
 for item in data_to_publish:
     # Parse XML and find relevant elements
-    data = etree.parse(item)
+    parser = etree.XMLParser(remove_blank_text=True)
+    data = etree.parse(item, parser=parser)
     concept_scheme = data.find("{*}ConceptScheme")
     concepts = data.iterfind("{*}Concept")
 
@@ -173,7 +174,12 @@ for item in data_to_publish:
     for concept in concepts:
         name = concept.attrib.values()[0].split("/")[-1]
         relative_path = concept_scheme_metadata["prefLabel"]
-        publish_item(concept, name, relative_path)
+
+        # Wrap concept in RDF root element
+        rdf_root = etree.Element('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF')
+        rdf_root.append(concept)
+
+        publish_item(rdf_root, name, relative_path)
 
 print(f"Generating frontpage to {publication_base_path}")
 Path(publication_base_path).joinpath("index.html").write_text(frontpage_html_template.format(frontpage_rows))
