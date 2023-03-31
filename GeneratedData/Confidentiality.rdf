@@ -22,13 +22,6 @@
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
   </skos:Concept>
-  <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/b4365641-6296-486a-bcf5-746a96ed67bd">
-    <dcterms:identifier>urn:uuid:b4365641-6296-486a-bcf5-746a96ed67bd</dcterms:identifier>
-    <skos:prefLabel>OPC/STA Secret</skos:prefLabel>
-    <skos:definition xml:lang="en">OPC/STA Secret</skos:definition>
-    <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
-    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
-  </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c">
     <dcterms:identifier>urn:uuid:251e7f88-dbd3-48e0-aea6-669f8cd67e8c</dcterms:identifier>
     <skos:prefLabel>OPC/STA Confidential</skos:prefLabel>
