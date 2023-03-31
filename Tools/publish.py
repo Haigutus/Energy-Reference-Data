@@ -1,8 +1,8 @@
 from lxml import etree
 from pathlib import Path
 
-
-def publish_item(data, name, relative_path="", base_path=r"../docs"):
+publication_base_path = r"../docs"
+def publish_item(data, name, relative_path="", base_path=publication_base_path):
     # Define all folder and path names
     item_path = Path(base_path).joinpath(Path(relative_path)).joinpath(Path(name))
     print(f"Publishing {item_path}")
@@ -30,6 +30,98 @@ redirect_html_template = """
     </body>
 </html>"""
 
+frontpage_html_template = """
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <style>
+           body {{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #000;
+      }}
+      header {{
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }}
+      h1 {{
+        margin: 0;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }}
+      main {{
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.5;
+      }}
+      table {{
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }}
+      th, td {{
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }}
+      th {{
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-transform: uppercase;
+      }}
+      a {{
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+      }}
+      a:hover {{
+        color: #f00;
+      }}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Energy Reference Data</h1>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Label</th>
+            <th>Definition</th>
+            <th>Modified</th>
+            <th>Version</th>            
+            <th>Identifier</th>
+          </tr>
+        </thead>
+        <tbody>
+          {}
+          <!-- Add more rows for each concept scheme -->
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
+"""
+
+table_row_html_template = """
+<tr>
+    <td><a href="{prefLabel}">{prefLabel}</a></td>
+    <td>{definition}</td>
+    <td>{modified}</td>
+    <td>{version}</td>
+    <td>{identifier}</td>        
+</tr>
+"""
+
 
 
 data_to_publish = [
@@ -46,7 +138,7 @@ data_to_publish = [
 # TODO - create nice HTML page with all published data to root
 # TODO - add status to ConceptScheme and Concept so that official and unofficial lists can be differenciated
 
-
+frontpage_rows = ""
 for item in data_to_publish:
     # Parse XML and find relevant elements
     data = etree.parse(item)
@@ -55,6 +147,7 @@ for item in data_to_publish:
 
     # Extract metadata from ConceptScheme
     concept_scheme_metadata = {child.tag.split("}")[1]: child.text for child in concept_scheme.getchildren() if child.text != None}
+    frontpage_rows += table_row_html_template.format(**concept_scheme_metadata)
 
     # Publish ConceptCheme
     publish_item(data, concept_scheme_metadata["prefLabel"])
@@ -65,5 +158,7 @@ for item in data_to_publish:
         relative_path = concept_scheme_metadata["prefLabel"]
         publish_item(concept, name, relative_path)
 
+print(f"Generating frontpage to {publication_base_path}")
+Path(publication_base_path).joinpath("index.html").write_text(frontpage_html_template.format(frontpage_rows))
 print("Done")
 
