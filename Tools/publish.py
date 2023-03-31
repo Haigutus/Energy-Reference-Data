@@ -105,7 +105,7 @@ frontpage_html_template = """
       <div></div>      
       <h1>Energy Reference Data</h1>
       <a href="https://github.com/Haigutus/Energy-Reference-Data" target="_blank">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+        <img src="github-mark-white.svg" alt="GitHub Logo">
       </a>
     </header>
     <main>
