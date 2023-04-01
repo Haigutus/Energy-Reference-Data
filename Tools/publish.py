@@ -25,6 +25,17 @@ def publish_item(data, name, relative_path="", base_path=publication_base_path):
 redirect_html_template = """
 <!DOCTYPE html>
 <html>
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){{dataLayer.push(arguments);}}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-L1R5VF4NBS');
+        </script>
+    </head>    
     <body>
         <meta http-equiv = "refresh" content = "0; url = {path}" />
     </body>
@@ -34,6 +45,17 @@ frontpage_html_template = """
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-L1R5VF4NBS');
+    </script>
+    
+    <!-- Metadata Section -->
     <meta charset="UTF-8">
     <title>Energy Reference Data SKOS Concept Schemes</title>
     <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
@@ -43,14 +65,6 @@ frontpage_html_template = """
     <meta name="dc.title" content="Energy Reference Data SKOS Concept Schemes">
     <meta name="dc.description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
     <meta name="dc.subject" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){{dataLayer.push(arguments);}}
-      gtag('js', new Date());    
-      gtag('config', 'G-L1R5VF4NBS');
-    </script>
     <style>
            body {{
         font-family: Arial, sans-serif;
