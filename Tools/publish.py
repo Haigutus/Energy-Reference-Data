@@ -36,6 +36,14 @@ frontpage_html_template = """
   <head>
     <meta charset="UTF-8">
     <title>Energy Reference Data SKOS Concept Schemes</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());    
+      gtag('config', 'G-L1R5VF4NBS');
+    </script>
     <style>
            body {{
         font-family: Arial, sans-serif;
