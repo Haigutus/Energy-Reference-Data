@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/80a63ef2-e426-4917-8d8e-cdba21edde46> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "34" ;
+    cim:IdentifiedObject.description "Base voltage 34 kV" ;
+    cim:IdentifiedObject.name "AC-34" ;
+    dcterms:identifier "urn:uuid:80a63ef2-e426-4917-8d8e-cdba21edde46" ;
+    skos:definition "Base voltage 34 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-34" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

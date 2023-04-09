@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A39> a skos:Concept ;
+    dcterms:identifier "A39" ;
+    skos:definition "A party that is responsible for providing information to a central authority."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Data provider" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

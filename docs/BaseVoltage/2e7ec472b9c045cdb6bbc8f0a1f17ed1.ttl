@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/2e7ec472b9c045cdb6bbc8f0a1f17ed1> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "500" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 500 kV" ;
+    cim:IdentifiedObject.name "AC-500" ;
+    dcterms:identifier "urn:uuid:2e7ec472b9c045cdb6bbc8f0a1f17ed1" ;
+    skos:definition "Base voltage defined by ENTSO-E 500 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-500" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

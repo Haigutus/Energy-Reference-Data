@@ -1,0 +1,11 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A34> a skos:Concept ;
+    dcterms:identifier "A34" ;
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+A party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders."""@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Reserve Allocator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

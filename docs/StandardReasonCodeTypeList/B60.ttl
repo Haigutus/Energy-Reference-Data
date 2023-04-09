@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B60> a skos:Concept ;
+    dcterms:identifier "B60" ;
+    skos:definition "Unavailability of tools to detect predetermined system conditions that have a high probability of causing unusual stress on the power system, for which pre-planned remedial action is considered necessary or for which automatic protective actions may be triggered such as special protection schemes or automatic load shedding."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Unavailability of automatic protection systems" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

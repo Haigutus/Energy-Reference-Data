@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/c8f7a2b8-a325-461f-a6d4-e74a1476ba2a> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "11" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 11 kV" ;
+    cim:IdentifiedObject.name "AC-11" ;
+    dcterms:identifier "urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a" ;
+    skos:definition "Base voltage defined by ENTSO-E 11 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-11" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

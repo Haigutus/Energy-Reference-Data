@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A67> a skos:Concept ;
+    dcterms:identifier "A67" ;
+    skos:definition "Bid available if linked bid activated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Available if linked bid activated" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

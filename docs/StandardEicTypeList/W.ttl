@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardEicTypeList/W> a skos:Concept ;
+    dcterms:identifier "W" ;
+    skos:definition "An EIC code to identify resource objects."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardEicTypeList> ;
+    skos:prefLabel "Resource Object" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardEicTypeList> .
+

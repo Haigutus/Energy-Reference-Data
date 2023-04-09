@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A50> a skos:Concept ;
+    dcterms:identifier "A50" ;
+    skos:definition "Describes an element which needs to be taken into account in a capacity calculation process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "To be included in capacity calculation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

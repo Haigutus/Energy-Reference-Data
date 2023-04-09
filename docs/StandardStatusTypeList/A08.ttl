@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A08> a skos:Concept ;
+    dcterms:identifier "A08" ;
+    skos:definition "The quantities in the time series are in the process of activation (an activation request has been made)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "In process" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

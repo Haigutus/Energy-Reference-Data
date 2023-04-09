@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardMarketProductTypeList/A08> a skos:Concept ;
+    dcterms:identifier "A08" ;
+    skos:definition "This is a market-wide resource capacity mechanism where all resource capacity required to ensure security of supply receives payment. These mechanisms are open for participation to all capacity resources contributing to adequacy."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardMarketProductTypeList> ;
+    skos:prefLabel "Market wide resource capacity mechanism" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardMarketProductTypeList> .
+

@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A12> a skos:Concept ;
+    dcterms:identifier "A12" ;
+    skos:definition "The information has been agreed within the ENTSO-E Regional Group Continental Europe process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "RGCE agreed" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

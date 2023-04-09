@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/9bab2de9-b92e-eed5-a5fa-2260bb47b95c> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "65" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 65 kV" ;
+    cim:IdentifiedObject.name "AC-65" ;
+    dcterms:identifier "urn:uuid:9bab2de9-b92e-eed5-a5fa-2260bb47b95c" ;
+    skos:definition "Base voltage defined by ENTSO-E 65 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-65" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

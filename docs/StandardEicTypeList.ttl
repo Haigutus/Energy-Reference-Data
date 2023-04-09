@@ -1,0 +1,61 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardEicTypeList/A> a skos:Concept ;
+    dcterms:identifier "A" ;
+    skos:definition "An EIC code to substations."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardEicTypeList> ;
+    skos:prefLabel "Substation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardEicTypeList> .
+
+<http://energy.referencedata.eu/StandardEicTypeList/T> a skos:Concept ;
+    dcterms:identifier "T" ;
+    skos:definition "An EIC code to identify tielines."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardEicTypeList> ;
+    skos:prefLabel "Tieline" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardEicTypeList> .
+
+<http://energy.referencedata.eu/StandardEicTypeList/V> a skos:Concept ;
+    dcterms:identifier "V" ;
+    skos:definition "An EIC code to identify locations."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardEicTypeList> ;
+    skos:prefLabel "Location" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardEicTypeList> .
+
+<http://energy.referencedata.eu/StandardEicTypeList/W> a skos:Concept ;
+    dcterms:identifier "W" ;
+    skos:definition "An EIC code to identify resource objects."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardEicTypeList> ;
+    skos:prefLabel "Resource Object" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardEicTypeList> .
+
+<http://energy.referencedata.eu/StandardEicTypeList/X> a skos:Concept ;
+    dcterms:identifier "X" ;
+    skos:definition "An EIC code to identify parties."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardEicTypeList> ;
+    skos:prefLabel "Party" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardEicTypeList> .
+
+<http://energy.referencedata.eu/StandardEicTypeList/Y> a skos:Concept ;
+    dcterms:identifier "Y" ;
+    skos:definition "An EIC code to identify areas or domains."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardEicTypeList> ;
+    skos:prefLabel "Area or Domain" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardEicTypeList> .
+
+<http://energy.referencedata.eu/StandardEicTypeList/Z> a skos:Concept ;
+    dcterms:identifier "Z" ;
+    skos:definition "An EIC code to identify measurement points."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardEicTypeList> ;
+    skos:prefLabel "Measurement point" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardEicTypeList> .
+
+<http://energy.referencedata.eu/StandardEicTypeList> a skos:ConceptScheme,
+        dcat:Dataset ;
+    dcterms:identifier "ET0028" ;
+    dcterms:modified "2022-08-26" ;
+    skos:definition "The coded identification of the type of an EIC code."@en ;
+    skos:prefLabel "StandardEicTypeList" ;
+    dcat:version "83" .
+

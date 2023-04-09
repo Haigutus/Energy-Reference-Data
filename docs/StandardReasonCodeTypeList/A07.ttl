@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A07> a skos:Concept ;
+    dcterms:identifier "A07" ;
+    skos:definition "The schedule of the recipient as presented has been partially accepted. It is necessary to look at the time series level to determine the changes (time series rejected, modified, etc.)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Schedule partially accepted " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

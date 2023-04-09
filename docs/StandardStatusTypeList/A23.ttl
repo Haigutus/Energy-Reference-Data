@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A23> a skos:Concept ;
+    dcterms:identifier "A23" ;
+    skos:definition "The action being described consists of stopping the production or consumption connected to a network element."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Stop" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

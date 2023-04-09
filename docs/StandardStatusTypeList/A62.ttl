@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A62> a skos:Concept ;
+    dcterms:identifier "A62" ;
+    skos:definition "A value is traded for the second or next times between two parties."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Secondary market" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

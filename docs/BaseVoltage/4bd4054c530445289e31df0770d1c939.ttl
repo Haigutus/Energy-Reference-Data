@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/4bd4054c530445289e31df0770d1c939> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "132" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 132 kV" ;
+    cim:IdentifiedObject.name "AC-132" ;
+    dcterms:identifier "urn:uuid:4bd4054c530445289e31df0770d1c939" ;
+    skos:definition "Base voltage defined by ENTSO-E 132 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-132" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

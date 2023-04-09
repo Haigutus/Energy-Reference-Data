@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/244daaf9-1fdd-4b0a-9f46-193a65595f19> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "27.5" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 27.5 kV" ;
+    cim:IdentifiedObject.name "AC-27-5" ;
+    dcterms:identifier "urn:uuid:244daaf9-1fdd-4b0a-9f46-193a65595f19" ;
+    skos:definition "Base voltage defined by ENTSO-E 27.5 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-27-5" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

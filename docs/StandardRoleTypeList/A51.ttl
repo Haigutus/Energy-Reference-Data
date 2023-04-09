@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A51> a skos:Concept ;
+    dcterms:identifier "A51" ;
+    skos:definition "Resource capacity mechanism operator is the party responsible to operate the resource capacity mechanism in a member state. It can either be the TSO or an independent party."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Resource Capacity Mechanism Operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

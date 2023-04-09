@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A65> a skos:Concept ;
+    dcterms:identifier "A65" ;
+    skos:definition "Bid available as long as none of the conditions associated with the linked bids materialise."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Conditionally available" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

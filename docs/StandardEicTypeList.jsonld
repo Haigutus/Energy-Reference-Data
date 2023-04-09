@@ -17,38 +17,6 @@
             }
         },
         {
-            "@id": "http://energy.referencedata.eu/StandardEicTypeList/X",
-            "@type": "@skos:Concept",
-            "@skos:inScheme": {
-                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
-            },
-            "@skos:topConceptOf": {
-                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
-            },
-            "@dcterms:identifier": "X",
-            "@skos:prefLabel": "Party",
-            "@skos:definition": {
-                "@language": "en",
-                "@value": "An EIC code to identify parties."
-            }
-        },
-        {
-            "@id": "http://energy.referencedata.eu/StandardEicTypeList/W",
-            "@type": "@skos:Concept",
-            "@skos:inScheme": {
-                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
-            },
-            "@skos:topConceptOf": {
-                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
-            },
-            "@dcterms:identifier": "W",
-            "@skos:prefLabel": "Resource Object",
-            "@skos:definition": {
-                "@language": "en",
-                "@value": "An EIC code to identify resource objects."
-            }
-        },
-        {
             "@id": "http://energy.referencedata.eu/StandardEicTypeList/Z",
             "@type": "@skos:Concept",
             "@skos:inScheme": {
@@ -62,6 +30,37 @@
             "@skos:definition": {
                 "@language": "en",
                 "@value": "An EIC code to identify measurement points."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList",
+            "@type": [
+                "@skos:ConceptScheme",
+                "@dcat:Dataset"
+            ],
+            "@dcterms:modified": "2022-08-26",
+            "@dcat:version": "83",
+            "@skos:prefLabel": "StandardEicTypeList",
+            "@dcterms:identifier": "ET0028",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "The coded identification of the type of an EIC code."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/T",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "T",
+            "@skos:prefLabel": "Tieline",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to identify tielines."
             }
         },
         {
@@ -97,22 +96,7 @@
             }
         },
         {
-            "@id": "http://energy.referencedata.eu/StandardEicTypeList",
-            "@type": [
-                "@skos:ConceptScheme",
-                "@dcat:Dataset"
-            ],
-            "@dcterms:modified": "2022-08-26",
-            "@dcat:version": "83",
-            "@skos:prefLabel": "StandardEicTypeList",
-            "@dcterms:identifier": "ET0028",
-            "@skos:definition": {
-                "@language": "en",
-                "@value": "The coded identification of the type of an EIC code."
-            }
-        },
-        {
-            "@id": "http://energy.referencedata.eu/StandardEicTypeList/T",
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/W",
             "@type": "@skos:Concept",
             "@skos:inScheme": {
                 "@id": "http://energy.referencedata.eu/StandardEicTypeList"
@@ -120,11 +104,27 @@
             "@skos:topConceptOf": {
                 "@id": "http://energy.referencedata.eu/StandardEicTypeList"
             },
-            "@dcterms:identifier": "T",
-            "@skos:prefLabel": "Tieline",
+            "@dcterms:identifier": "W",
+            "@skos:prefLabel": "Resource Object",
             "@skos:definition": {
                 "@language": "en",
-                "@value": "An EIC code to identify tielines."
+                "@value": "An EIC code to identify resource objects."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/X",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "X",
+            "@skos:prefLabel": "Party",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to identify parties."
             }
         }
     ],

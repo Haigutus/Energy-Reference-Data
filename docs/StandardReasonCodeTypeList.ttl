@@ -1,0 +1,1050 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/999> a skos:Concept ;
+    dcterms:identifier "999" ;
+    skos:definition "This code is used to identify errors that have not been specifically addressed in the Reason code list. It can be used at any level and refers to the level for which it has been identified."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Errors not specifically identified " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A01> a skos:Concept ;
+    dcterms:identifier "A01" ;
+    skos:definition "The message has been fully accepted for application processing."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Message fully accepted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A02> a skos:Concept ;
+    dcterms:identifier "A02" ;
+    skos:definition "No part of the message has been accepted for application processing, e.g. Global position incomplete."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Message fully rejected " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A03> a skos:Concept ;
+    dcterms:identifier "A03" ;
+    skos:definition "Part of the message contents, i.e. certain time series, has been accepted for application processing. It is necessary to look at the time series level to determine the time series that have been rejected. The time series is excluded from the global position."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Message contains errors at the time series level " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A04> a skos:Concept ;
+    dcterms:identifier "A04" ;
+    skos:definition "The schedule time interval is not within the contractual agreement or the period does not agree with the schedule time interval."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time interval incorrect " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A05> a skos:Concept ;
+    dcterms:identifier "A05" ;
+    skos:definition "The sender has no current valid contract with the TSO. The message consequently will be fully rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Sender without valid contract " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A06> a skos:Concept ;
+    dcterms:identifier "A06" ;
+    skos:definition "The schedule of the recipient as presented has been completely accepted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Schedule accepted " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A07> a skos:Concept ;
+    dcterms:identifier "A07" ;
+    skos:definition "The schedule of the recipient as presented has been partially accepted. It is necessary to look at the time series level to determine the changes (time series rejected, modified, etc.)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Schedule partially accepted " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A08> a skos:Concept ;
+    dcterms:identifier "A08" ;
+    skos:definition "The schedule of the recipient as presented has been totally rejected. The cause could be the non presentation of a counter part for the involved trades."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Schedule rejected " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A09> a skos:Concept ;
+    dcterms:identifier "A09" ;
+    skos:definition "Time series mismatches. "@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series not matching" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A10> a skos:Concept ;
+    dcterms:identifier "A10" ;
+    skos:definition "The contractual credit limit has been exceeded and as such the message has been rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Credit limit exceeded " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A20> a skos:Concept ;
+    dcterms:identifier "A20" ;
+    skos:definition "The time series has been fully rejected. In the case of a confirmation report, this reason code is used in conjunction with either A26 or A30."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series fully rejected " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A21> a skos:Concept ;
+    dcterms:identifier "A21" ;
+    skos:definition "The time series has been accepted but some time interval quantities have been rectified or zeroed out."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series accepted with specific time interval errors " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A22> a skos:Concept ;
+    dcterms:identifier "A22" ;
+    skos:definition "There is no contract for the parties indicated or the rules for cross border nominations are not being respected. The time series has been rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "In party/Out party invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A23> a skos:Concept ;
+    dcterms:identifier "A23" ;
+    skos:definition "The area is unknown or not allowed. The time series has been rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Area invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A24> a skos:Concept ;
+    dcterms:identifier "A24" ;
+    skos:definition "This code is no longer applicable."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "A24 not applicable" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A25> a skos:Concept ;
+    dcterms:identifier "A25" ;
+    skos:definition "This code is no longer applicable."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "A25 not applicable" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A26> a skos:Concept ;
+    dcterms:identifier "A26" ;
+    skos:definition "The time series has been rejected and replaced with a default time series profile. This reason code may not be used in conjunction with A30."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Default time series applied " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A27> a skos:Concept ;
+    dcterms:identifier "A27" ;
+    skos:definition "The cross border capacity has been exceeded. The time series has been rejected or adjusted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Cross border capacity exceeded " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A28> a skos:Concept ;
+    dcterms:identifier "A28" ;
+    skos:definition """This provides an indication that the time series has not got a counterpart time series.
+In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received.
+In the case of a Final Confirmation Report this is informing the recipient that the time series has been rejected because the counterpart time series has not been forthcoming. """@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Counterpart time series missing " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A29> a skos:Concept ;
+    dcterms:identifier "A29" ;
+    skos:definition "The time series has been rejected as it does not match that of the counterpart who is considered by market rules to be correct."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Counterpart time series quantity differences " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A30> a skos:Concept ;
+    dcterms:identifier "A30" ;
+    skos:definition "The nominated party's time series has replaced the current time series. This reason code may not be used in conjunction with A26."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Imposed Time series from nominated party's time series (party identified in reason text)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A41> a skos:Concept ;
+    dcterms:identifier "A41" ;
+    skos:definition "The resolution is not coherent with the time interval, or resolution not valid."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Resolution inconsistency " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A42> a skos:Concept ;
+    dcterms:identifier "A42" ;
+    skos:definition "The quantity is not coherent. For example a time period with the same version number but different quantities or an non permitted number of digits after the decimal point, etc."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Quantity inconsistency " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A43> a skos:Concept ;
+    dcterms:identifier "A43" ;
+    skos:definition "The quantity has been increased in order to satisfy minimum constraints."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Quantity increased " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A44> a skos:Concept ;
+    dcterms:identifier "A44" ;
+    skos:definition "The quantity has been decreased in order to satisfy congestion constraints."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Quantity decreased " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A45> a skos:Concept ;
+    dcterms:identifier "A45" ;
+    skos:definition "The default quantity has been applied as the current quantity does not satisfy contractual obligations."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Default quantity applied " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A46> a skos:Concept ;
+    dcterms:identifier "A46" ;
+    skos:definition "The quantity proposed is illegal since signed values are only permitted in specific circumstances."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Quantities must not be signed values" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A47> a skos:Concept ;
+    dcterms:identifier "A47" ;
+    skos:definition "This code is no longer applicable."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "A47 not applicable" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A48> a skos:Concept ;
+    dcterms:identifier "A48" ;
+    skos:definition "In an intraday transmission, the reason for the modification is as follows (in the reason text)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Modification reason" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A49> a skos:Concept ;
+    dcterms:identifier "A49" ;
+    skos:definition "A position is missing or too many."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Position inconsistency" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A50> a skos:Concept ;
+    dcterms:identifier "A50" ;
+    skos:definition "There is an error in the sender time series version, i.e. it could be superior to the message version or is inconsistent with the existing data. The time series has been rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Senders time series version conflict" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A51> a skos:Concept ;
+    dcterms:identifier "A51" ;
+    skos:definition "The message identification is already in the receiving system. Or a higher version already exists. Message rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Message identification or version conflict" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A52> a skos:Concept ;
+    dcterms:identifier "A52" ;
+    skos:definition "A time series is not contained in a new version of the message. Message rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series missing from new version of message" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A53> a skos:Concept ;
+    dcterms:identifier "A53" ;
+    skos:definition "The receiving party is incorrect. Message rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Receiving party incorrect" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A54> a skos:Concept ;
+    dcterms:identifier "A54" ;
+    skos:definition "The message does not balance out to zero. Market rules might require that the message is rejected. "@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Global position not in balance" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A55> a skos:Concept ;
+    dcterms:identifier "A55" ;
+    skos:definition "The identification of the time series is duplicated or incorrect. Time series will be rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series identification conflict" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A56> a skos:Concept ;
+    dcterms:identifier "A56" ;
+    skos:definition "All corresponding time series must be netted. Time series rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Corresponding Time series not netted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A57> a skos:Concept ;
+    dcterms:identifier "A57" ;
+    skos:definition "The deadline for receiving schedule messages has passed. Message or time series rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Deadline limit exceeded/Gate not open" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A58> a skos:Concept ;
+    dcterms:identifier "A58" ;
+    skos:definition "There is a one to one nomination inconstancy with the in/out parties or areas. Time series rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "One to one nomination inconsistency" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A59> a skos:Concept ;
+    dcterms:identifier "A59" ;
+    skos:definition "The level in which this is identified is not in compliance with local market rules. The level in question has been rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Not compliant to local market rules" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A60> a skos:Concept ;
+    dcterms:identifier "A60" ;
+    skos:definition "The inter-area transit schedule exceeds the nominated schedule for the same time interval. The inter-area transit schedule is rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Inter-area transit schedule exceeds nominated schedule" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A61> a skos:Concept ;
+    dcterms:identifier "A61" ;
+    skos:definition "The currency is not in compliance with ISO 4217."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Currency invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A62> a skos:Concept ;
+    dcterms:identifier "A62" ;
+    skos:definition "The business type does not belong to the valid set of business types for the process in question."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Invalid business type" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A63> a skos:Concept ;
+    dcterms:identifier "A63" ;
+    skos:definition "The time series has been modified."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time Series modified" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A64> a skos:Concept ;
+    dcterms:identifier "A64" ;
+    skos:definition "The Resource Object defined in the document is not valid."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Resource Object Invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A65> a skos:Concept ;
+    dcterms:identifier "A65" ;
+    skos:definition "Reserve objects aggregated values are not within technical/prequalified limits"@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Reserve object Technical  limits exceeded" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A66> a skos:Concept ;
+    dcterms:identifier "A66" ;
+    skos:definition "Planned reserves do not correspond with contractual data."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Planned reserves do not correspond with contractual data" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A67> a skos:Concept ;
+    dcterms:identifier "A67" ;
+    skos:definition "Limit Data is not available."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Limit Data is not available" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A68> a skos:Concept ;
+    dcterms:identifier "A68" ;
+    skos:definition "Reserve Object is not qualified for reserve type."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Reserve Object not qualified for reserve type" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A69> a skos:Concept ;
+    dcterms:identifier "A69" ;
+    skos:definition "Mandatory attributes missing."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Mandatory attributes missing" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A70> a skos:Concept ;
+    dcterms:identifier "A70" ;
+    skos:definition "The capacity in question has been curtailed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Curtailment" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A71> a skos:Concept ;
+    dcterms:identifier "A71" ;
+    skos:definition "The bid in question has been rejected because an associated bid has been unsuccessful."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Linked bid rejected due to associated bid unsuccessful" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A72> a skos:Concept ;
+    dcterms:identifier "A72" ;
+    skos:definition "The original bid quantity has been divided to enable it to be accepted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Original bid divided to permit acceptance" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A73> a skos:Concept ;
+    dcterms:identifier "A73" ;
+    skos:definition "The bid in question has been accepted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Bid accepted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A74> a skos:Concept ;
+    dcterms:identifier "A74" ;
+    skos:definition "The information in the Reason Text provides auction status information."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Auction Status" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A75> a skos:Concept ;
+    dcterms:identifier "A75" ;
+    skos:definition "The information in the Reason Text provides status information concerning the transmission rights in question."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Right status information" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A76> a skos:Concept ;
+    dcterms:identifier "A76" ;
+    skos:definition "There is an inconsistency between the contract type and the agreement identification."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Agreement identification inconsistency" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A77> a skos:Concept ;
+    dcterms:identifier "A77" ;
+    skos:definition "There is an inconsistency between the document contents and the dependency matrix."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Dependency matrix not respected" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A78> a skos:Concept ;
+    dcterms:identifier "A78" ;
+    skos:definition "The identification of the sender or the sender/role combination is invalid."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Sender identification and/or role invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A79> a skos:Concept ;
+    dcterms:identifier "A79" ;
+    skos:definition "The process type does not figure in the list of valid process types for this document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Process type invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A80> a skos:Concept ;
+    dcterms:identifier "A80" ;
+    skos:definition "The domain does not figure in the list of valid domains for this document and process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Domain invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A81> a skos:Concept ;
+    dcterms:identifier "A81" ;
+    skos:definition "The period is not within the expected limits."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Matching period invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A82> a skos:Concept ;
+    dcterms:identifier "A82" ;
+    skos:definition "The in and out area does not figure within the domain specified."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "In/Out area inconsistent with domain" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A83> a skos:Concept ;
+    dcterms:identifier "A83" ;
+    skos:definition "The matching results provided are not consistent."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Disagree with matching results" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A84> a skos:Concept ;
+    dcterms:identifier "A84" ;
+    skos:definition "The report has been ignored since a higher version has been received."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Confirmation ignored due to higher version already received" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A85> a skos:Concept ;
+    dcterms:identifier "A85" ;
+    skos:definition "The report has been successfully matched without any changes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Confirmation without adjustment (time series have been matched without change)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A86> a skos:Concept ;
+    dcterms:identifier "A86" ;
+    skos:definition "The report has been matched but required adjustment."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Confirmation with adjustment (time series have been modified)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A87> a skos:Concept ;
+    dcterms:identifier "A87" ;
+    skos:definition "The report in question is only for action in an intermediate stage."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "For action (only in intermediate confirmation - time series need mutual agreement and action)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A88> a skos:Concept ;
+    dcterms:identifier "A88" ;
+    skos:definition "The time series has been successfully matched."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series matched" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A89> a skos:Concept ;
+    dcterms:identifier "A89" ;
+    skos:definition "The time series has been ignored and not matched since it does not figure in a counterparty transmission. All are correctly equal to zero."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series ignored (note: this can only apply to time series that are set to zero - see matching principles)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A90> a skos:Concept ;
+    dcterms:identifier "A90" ;
+    skos:definition "The document is a proposal for change before finalization."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Modification proposal (intermediate confirmation)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A91> a skos:Concept ;
+    dcterms:identifier "A91" ;
+    skos:definition "The document that is expected has not been received within the expected timeframe."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Expected document not received" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A92> a skos:Concept ;
+    dcterms:identifier "A92" ;
+    skos:definition "The document that is due cannot be transmitted within the required timeframe. An estimated time of transmission is provided."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Not possible to send document on time, but estimated delivery time is provided" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A93> a skos:Concept ;
+    dcterms:identifier "A93" ;
+    skos:definition "The document that is due cannot be transmitted within the required timeframe. The time of transmission of the document is unknown."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Not possible to send document on time, and furthermore no expected time of return to normal situation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A94> a skos:Concept ;
+    dcterms:identifier "A94" ;
+    skos:definition "The receiving system cannot process that document in question."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Document cannot be processed by receiving system" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A95> a skos:Concept ;
+    dcterms:identifier "A95" ;
+    skos:definition "Additional text is provided in order to further explain a condition, for example to provide details of an outage."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Complementary information" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A96> a skos:Concept ;
+    dcterms:identifier "A96" ;
+    skos:definition "A technical constraint has been applied."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Technical constraint" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A97> a skos:Concept ;
+    dcterms:identifier "A97" ;
+    skos:definition "Curtailment due to Force Majeure. A code that enables the identification of the curtailment reason for settlement purposes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Force majeure curtailment" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A98> a skos:Concept ;
+    dcterms:identifier "A98" ;
+    skos:definition "Curtailment due to network security reasons A code that enables the identification of the curtailment reason for settlement purposes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Network security curtailment" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A99> a skos:Concept ;
+    dcterms:identifier "A99" ;
+    skos:definition "The auction has been cancelled."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Auction cancelled" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B01> a skos:Concept ;
+    dcterms:identifier "B01" ;
+    skos:definition "The document is incomplete and cannot be processed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Incomplete document" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B02> a skos:Concept ;
+    dcterms:identifier "B02" ;
+    skos:definition "The document is incomplete as a time series for an accounting point is missing."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Accounting Point (tie-line) Time Series missing" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B03> a skos:Concept ;
+    dcterms:identifier "B03" ;
+    skos:definition "The document is incomplete as a time series for meter data is missing."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Meter data Time series missing" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B04> a skos:Concept ;
+    dcterms:identifier "B04" ;
+    skos:definition "The document is in its initial form and estimated values are not allowed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Estimated values not allowed in first transmission" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B05> a skos:Concept ;
+    dcterms:identifier "B05" ;
+    skos:definition "No quantity values are allowed for a quality that is not available."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "No quantity values allowed for a quality that is not available" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B06> a skos:Concept ;
+    dcterms:identifier "B06" ;
+    skos:definition "Time series accepted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series accepted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B07> a skos:Concept ;
+    dcterms:identifier "B07" ;
+    skos:definition "The auction has terminated without any bids being submitted. The ReasonText may provide the identification of the auction in question."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Auction without bids being entered" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B08> a skos:Concept ;
+    dcterms:identifier "B08" ;
+    skos:definition "It is not possible to perform the necessary action since the required data for this action is not yet available."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Data not yet available" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B09> a skos:Concept ;
+    dcterms:identifier "B09" ;
+    skos:definition "The bid in question has not been accepted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Bid not accepted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B10> a skos:Concept ;
+    dcterms:identifier "B10" ;
+    skos:definition "The problem concerns the initiator area."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Initiator area problem" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B11> a skos:Concept ;
+    dcterms:identifier "B11" ;
+    skos:definition "The problem concerns the cooperating area."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Cooperating area problem" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B12> a skos:Concept ;
+    dcterms:identifier "B12" ;
+    skos:definition "The status within the system indicates that the communication capability is currently active."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Communication status currently active" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B13> a skos:Concept ;
+    dcterms:identifier "B13" ;
+    skos:definition "The status within the system indicates that the communication capability is currently inactive."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Communication status currently inactive" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B14> a skos:Concept ;
+    dcterms:identifier "B14" ;
+    skos:definition "The status within the system indicates that the communication capability is currently restricted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Communication status currently restricted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B15> a skos:Concept ;
+    dcterms:identifier "B15" ;
+    skos:definition "The problem concerns both areas."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Problem associated with both areas" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B16> a skos:Concept ;
+    dcterms:identifier "B16" ;
+    skos:definition "A tender that has been requested is no longer available in the MOL."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Tender unavailable in MOL list" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B17> a skos:Concept ;
+    dcterms:identifier "B17" ;
+    skos:definition "The price is based on a preliminary exchange rate."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Price based on preliminary exchange rate" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B18> a skos:Concept ;
+    dcterms:identifier "B18" ;
+    skos:definition "A failure has occurred."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Failure" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B19> a skos:Concept ;
+    dcterms:identifier "B19" ;
+    skos:definition "Maintenance is foreseen."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Foreseen maintenance" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B20> a skos:Concept ;
+    dcterms:identifier "B20" ;
+    skos:definition "A shutdown has occurred."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Shutdown" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B21> a skos:Concept ;
+    dcterms:identifier "B21" ;
+    skos:definition "The official exchange rate has been approved."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Official exchange rate approved" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B22> a skos:Concept ;
+    dcterms:identifier "B22" ;
+    skos:definition "The information provided regards a regulation for system purposes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "System regulation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B23> a skos:Concept ;
+    dcterms:identifier "B23" ;
+    skos:definition "The information provided regards a regulation for frequency purposes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Frequency regulation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B24> a skos:Concept ;
+    dcterms:identifier "B24" ;
+    skos:definition "Situation in the grid, where loading of a certain grid element, e.g. overhead line, is above defined technical limits."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Load flow overload" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B25> a skos:Concept ;
+    dcterms:identifier "B25" ;
+    skos:definition "A TSO activity to maintain an acceptable voltage profile throughout the network. This is achieved by balancing of the respective reactive power requirements of the network and the customers."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Voltage level adjustment" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B26> a skos:Concept ;
+    dcterms:identifier "B26" ;
+    skos:definition "Curtailment due to emergency situation. A code that enables the identification of the curtailment reason for settlement purposes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Emergency situation curtailment" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B27> a skos:Concept ;
+    dcterms:identifier "B27" ;
+    skos:definition "The calculation has not been performed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Calculation process failed" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B28> a skos:Concept ;
+    dcterms:identifier "B28" ;
+    skos:definition "The market position is such as no capacity constraint is applied to limit the cross border exchanges."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "No capacity constraint impact on the market" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B29> a skos:Concept ;
+    dcterms:identifier "B29" ;
+    skos:definition "Special condition need to be fulfilled."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Special Condition" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B30> a skos:Concept ;
+    dcterms:identifier "B30" ;
+    skos:definition "Missing or not validated data."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Unverified" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B31> a skos:Concept ;
+    dcterms:identifier "B31" ;
+    skos:definition "Data has successfully passed the verification process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Verified" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B32> a skos:Concept ;
+    dcterms:identifier "B32" ;
+    skos:definition "Describes an element which was not found in the CGM."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "CGM inconsistency" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B33> a skos:Concept ;
+    dcterms:identifier "B33" ;
+    skos:definition "Describes an element which was not found in the network dictionary."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Network dictionary inconsistency" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B34> a skos:Concept ;
+    dcterms:identifier "B34" ;
+    skos:definition "Describes a capacity that was reduced by a TSO."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Capacity reduced by TSO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B35> a skos:Concept ;
+    dcterms:identifier "B35" ;
+    skos:definition "Describes an N-k or N state overload."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Overload" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B36> a skos:Concept ;
+    dcterms:identifier "B36" ;
+    skos:definition "Describes a situation in which there is not enough power adjustment in the GLSK file to cover the capacity."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "GLSK limitation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B37> a skos:Concept ;
+    dcterms:identifier "B37" ;
+    skos:definition "Describes an N-k or N state voltage violation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Voltage constraint" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B38> a skos:Concept ;
+    dcterms:identifier "B38" ;
+    skos:definition "Describes an N-k or N state angle violation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Angle constraint" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B39> a skos:Concept ;
+    dcterms:identifier "B39" ;
+    skos:definition "Describes a situation in which the dynamic behaviour of the network violated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Stability" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B40> a skos:Concept ;
+    dcterms:identifier "B40" ;
+    skos:definition "Describes a network situation in which the provided capacity values are part of a load flow divergence situation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Loadflow divergence" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B41> a skos:Concept ;
+    dcterms:identifier "B41" ;
+    skos:definition "This is the adjustment applied to the capacity of a branch to have a minimum RAM (Remaining Available Margin) available for commercial exchanges."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Exclusion for SoS reasons" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B42> a skos:Concept ;
+    dcterms:identifier "B42" ;
+    skos:definition "A constraint due to market restrictions."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Constraint by the market" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B43> a skos:Concept ;
+    dcterms:identifier "B43" ;
+    skos:definition "The contingency is ordinary (methodology for coordinating operational security analysis, article 6)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Ordinary" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B44> a skos:Concept ;
+    dcterms:identifier "B44" ;
+    skos:definition "The contingency is exceptional (methodology for coordinating operational security analysis, article 6)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Exceptional" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B45> a skos:Concept ;
+    dcterms:identifier "B45" ;
+    skos:definition "The contingency is out of range (methodology for coordinating operational security analysis, article 6)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Out of range" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B46> a skos:Concept ;
+    dcterms:identifier "B46" ;
+    skos:definition "A temporary congestion within a bidding zone or scheduling area."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Internal congestion" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B47> a skos:Concept ;
+    dcterms:identifier "B47" ;
+    skos:definition "Operational security constraints identified by TSOs."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Operational security constraints" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B48> a skos:Concept ;
+    dcterms:identifier "B48" ;
+    skos:definition "Describes a situation where a calculation process has failed and extrapolated or interpolated values will be applied."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Estimated value" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B49> a skos:Concept ;
+    dcterms:identifier "B49" ;
+    skos:definition "Activated for balancing purposes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Balancing" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B50> a skos:Concept ;
+    dcterms:identifier "B50" ;
+    skos:definition "Values of this time series are also valid for counter-party."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Values shared" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B51> a skos:Concept ;
+    dcterms:identifier "B51" ;
+    skos:definition "The offered price is not within the valid limits."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Outside price limits" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B52> a skos:Concept ;
+    dcterms:identifier "B52" ;
+    skos:definition "In case of processing issue, sent data are based on the previous timeframe."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Previous timeframe data" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B53> a skos:Concept ;
+    dcterms:identifier "B53" ;
+    skos:definition "The merging of the Merit Order List has been successfully processed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "MOL merging succesful" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B54> a skos:Concept ;
+    dcterms:identifier "B54" ;
+    skos:definition "The merging of the Merit Order List has failed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "MOL merging failed" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B55> a skos:Concept ;
+    dcterms:identifier "B55" ;
+    skos:definition "Because of redispatching according to Article 2(26) of Commission Regulation (EU) 543/2013"@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Because of redispatching" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B56> a skos:Concept ;
+    dcterms:identifier "B56" ;
+    skos:definition "Because of countertrading according to Article 2(13) of Commission Regulation (EU) 543/2013"@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Because of countertrading" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B57> a skos:Concept ;
+    dcterms:identifier "B57" ;
+    skos:definition "Not available because of any remedial action."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Because of other remedial action" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B58> a skos:Concept ;
+    dcterms:identifier "B58" ;
+    skos:definition "The reserve capacity is not sufficient."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Insufficiency of reserves" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B59> a skos:Concept ;
+    dcterms:identifier "B59" ;
+    skos:definition "The unit providing the reserve is subject to technical unavailability."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Unavailability of reserve providing unit" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B60> a skos:Concept ;
+    dcterms:identifier "B60" ;
+    skos:definition "Unavailability of tools to detect predetermined system conditions that have a high probability of causing unusual stress on the power system, for which pre-planned remedial action is considered necessary or for which automatic protective actions may be triggered such as special protection schemes or automatic load shedding."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Unavailability of automatic protection systems" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B61> a skos:Concept ;
+    dcterms:identifier "B61" ;
+    skos:definition "Limitation due to physical cable or converter restrictions."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Physical cable or converter restrictions" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B62> a skos:Concept ;
+    dcterms:identifier "B62" ;
+    skos:definition "Limitation due to constraints in controller systems."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Constraints in controller systems" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B63> a skos:Concept ;
+    dcterms:identifier "B63" ;
+    skos:definition "The capacity is adjusted because of an expected violation of operational security limits of physical transmission assets."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Adjusted because of expected violation of operational security" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B64> a skos:Concept ;
+    dcterms:identifier "B64" ;
+    skos:definition "The capacity is adjusted because the remedial actions were assessed as not sufficient or ineffective to avoid the expected violation of operational security limit(s)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Adjusted because already considered remedial actions are assessed as not sufficient" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B65> a skos:Concept ;
+    dcterms:identifier "B65" ;
+    skos:definition "The time series is partially accepted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series partially accepted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B66> a skos:Concept ;
+    dcterms:identifier "B66" ;
+    skos:definition "Demand was fully netted against other demand(s)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Demand fully netted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B67> a skos:Concept ;
+    dcterms:identifier "B67" ;
+    skos:definition "One or several bids were activated in the same direction within the same uncongested area as the demand."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Bid activated in same direction" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList> a skos:ConceptScheme,
+        dcat:Dataset ;
+    dcterms:identifier "ET0015" ;
+    dcterms:modified "2022-08-26" ;
+    skos:definition "The coded motivation of an act."@en ;
+    skos:prefLabel "StandardReasonCodeTypeList" ;
+    dcat:version "83" .
+

@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardMarketProductTypeList/A01> a skos:Concept ;
+    dcterms:identifier "A01" ;
+    skos:definition "A harmonised balancing product defined by all TSOs for the exchange of balancing services."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardMarketProductTypeList> ;
+    skos:prefLabel "Standard balancing product" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardMarketProductTypeList> .
+

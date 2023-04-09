@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A89> a skos:Concept ;
+    dcterms:identifier "A89" ;
+    skos:definition "The time series has been ignored and not matched since it does not figure in a counterparty transmission. All are correctly equal to zero."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series ignored (note: this can only apply to time series that are set to zero - see matching principles)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

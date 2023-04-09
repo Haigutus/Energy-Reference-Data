@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A39> a skos:Concept ;
+    dcterms:identifier "A39" ;
+    skos:definition "The object defined in the series could be used."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Could Be Used" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

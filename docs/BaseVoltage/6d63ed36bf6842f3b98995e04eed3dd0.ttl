@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/6d63ed36bf6842f3b98995e04eed3dd0> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "330" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 330 kV" ;
+    cim:IdentifiedObject.name "AC-330" ;
+    dcterms:identifier "urn:uuid:6d63ed36bf6842f3b98995e04eed3dd0" ;
+    skos:definition "Base voltage defined by ENTSO-E 330 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-330" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

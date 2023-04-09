@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/1009e780-864c-4f22-93cf-aebcae8e0d55> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "120" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 120 kV" ;
+    cim:IdentifiedObject.name "AC-120" ;
+    dcterms:identifier "urn:uuid:1009e780-864c-4f22-93cf-aebcae8e0d55" ;
+    skos:definition "Base voltage defined by ENTSO-E 120 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-120" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

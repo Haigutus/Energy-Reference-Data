@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/a24bbc66-812e-40b0-9076-32ed1d74b6a6> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "15" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 15 kV" ;
+    cim:IdentifiedObject.name "AC-15" ;
+    dcterms:identifier "urn:uuid:a24bbc66-812e-40b0-9076-32ed1d74b6a6" ;
+    skos:definition "Base voltage defined by ENTSO-E 15 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-15" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

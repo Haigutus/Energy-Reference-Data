@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/9617073d-e66b-4680-988d-31adaa37c43e> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "13.8" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 13.8 kV" ;
+    cim:IdentifiedObject.name "AC-13-8" ;
+    dcterms:identifier "urn:uuid:9617073d-e66b-4680-988d-31adaa37c43e" ;
+    skos:definition "Base voltage defined by ENTSO-E 13.8 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-13-8" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

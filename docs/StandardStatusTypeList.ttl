@@ -1,0 +1,524 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A01> a skos:Concept ;
+    dcterms:identifier "A01" ;
+    skos:definition "The document is in a non finalized state."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Intermediate" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A02> a skos:Concept ;
+    dcterms:identifier "A02" ;
+    skos:definition "The document is in a definitive state."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Final" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A03> a skos:Concept ;
+    dcterms:identifier "A03" ;
+    skos:definition "The object being reported has been deactivated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Deactivated" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A04> a skos:Concept ;
+    dcterms:identifier "A04" ;
+    skos:definition "The object being reported has been reactivated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Reactivated" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A05> a skos:Concept ;
+    dcterms:identifier "A05" ;
+    skos:definition "The object being reported is currently active."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Active" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A06> a skos:Concept ;
+    dcterms:identifier "A06" ;
+    skos:definition "The volumes (one or more) are available."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Available" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A07> a skos:Concept ;
+    dcterms:identifier "A07" ;
+    skos:definition "The quantities in the time series have been activated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Activated" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A08> a skos:Concept ;
+    dcterms:identifier "A08" ;
+    skos:definition "The quantities in the time series are in the process of activation (an activation request has been made)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "In process" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A09> a skos:Concept ;
+    dcterms:identifier "A09" ;
+    skos:definition """The tender indicated in the time series has been completely cancelled.
+In this case the resources are no longer available to all Acquiring System Operators"""@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Cancelled" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A10> a skos:Concept ;
+    dcterms:identifier "A10" ;
+    skos:definition "The quantities in the time series are to be activated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Ordered" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A11> a skos:Concept ;
+    dcterms:identifier "A11" ;
+    skos:definition "The volumes (one or more) are unavailable."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Unavailable" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A12> a skos:Concept ;
+    dcterms:identifier "A12" ;
+    skos:definition "The information has been agreed within the ENTSO-E Regional Group Continental Europe process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "RGCE agreed" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A13> a skos:Concept ;
+    dcterms:identifier "A13" ;
+    skos:definition "The information has been withdrawn by the submitter."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Withdrawn" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A14> a skos:Concept ;
+    dcterms:identifier "A14" ;
+    skos:definition "The action requested to be carried out is the creation of a new object."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Creation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A15> a skos:Concept ;
+    dcterms:identifier "A15" ;
+    skos:definition "The action requested to be carried out is the update an existing object."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Update" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A16> a skos:Concept ;
+    dcterms:identifier "A16" ;
+    skos:definition "The action requested to be carried out is to deactivate an existing object."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Deactivation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A17> a skos:Concept ;
+    dcterms:identifier "A17" ;
+    skos:definition "The action requested to be carried out is to reactivate a previously deactivated object."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Reactivation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A18> a skos:Concept ;
+    dcterms:identifier "A18" ;
+    skos:definition "The remedial action is applied to prevent an outage."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Preventive" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A19> a skos:Concept ;
+    dcterms:identifier "A19" ;
+    skos:definition "The remedial action is applied after an outage has occurred, in order to maintain the operational security."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Curative" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A20> a skos:Concept ;
+    dcterms:identifier "A20" ;
+    skos:definition "The remedial action being described is applied by an automation when an outage occurs."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Automatic" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A21> a skos:Concept ;
+    dcterms:identifier "A21" ;
+    skos:definition "The action being described consists of disconnecting the network element  to the transmission network."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Open" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A22> a skos:Concept ;
+    dcterms:identifier "A22" ;
+    skos:definition "The action being described consists of connecting the network element  to the transmission network."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Close" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A23> a skos:Concept ;
+    dcterms:identifier "A23" ;
+    skos:definition "The action being described consists of stopping the production or consumption connected to a network element."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Stop" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A24> a skos:Concept ;
+    dcterms:identifier "A24" ;
+    skos:definition "The action being described consists of starting the production or consumption connected to a network element."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Start" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A25> a skos:Concept ;
+    dcterms:identifier "A25" ;
+    skos:definition "The quantity being described is a relative value to an initial state."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Relative" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A26> a skos:Concept ;
+    dcterms:identifier "A26" ;
+    skos:definition "The quantity being described is an absolute value."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Absolute" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A27> a skos:Concept ;
+    dcterms:identifier "A27" ;
+    skos:definition "The remedial action can be applied to prevent an outage or after an outage has occurred in order to maintain the operational security."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Curative or preventive" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A28> a skos:Concept ;
+    dcterms:identifier "A28" ;
+    skos:definition "Used to indicate that the bid cannot be shared."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Unshared bid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A29> a skos:Concept ;
+    dcterms:identifier "A29" ;
+    skos:definition "to be process"@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Pre Processed" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A30> a skos:Concept ;
+    dcterms:identifier "A30" ;
+    skos:definition "Substituted pre-processing data."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Substituted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A31> a skos:Concept ;
+    dcterms:identifier "A31" ;
+    skos:definition "Modified pre-processing data by RSC or CGMA platform."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Modified" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A32> a skos:Concept ;
+    dcterms:identifier "A32" ;
+    skos:definition "Result"@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Result" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A33> a skos:Concept ;
+    dcterms:identifier "A33" ;
+    skos:definition "The need described in the time series cannot be satisfied."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Not satisfied" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A34> a skos:Concept ;
+    dcterms:identifier "A34" ;
+    skos:definition "The document rejected by one or more parties."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Rejected" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A35> a skos:Concept ;
+    dcterms:identifier "A35" ;
+    skos:definition "Indicative information only for initial planning purposes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Preliminary" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A36> a skos:Concept ;
+    dcterms:identifier "A36" ;
+    skos:definition "Is planned."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Planned" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A37> a skos:Concept ;
+    dcterms:identifier "A37" ;
+    skos:definition "The status is  confirmed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Confirmed" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A38> a skos:Concept ;
+    dcterms:identifier "A38" ;
+    skos:definition "The object defined in the series shall be used."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Shall Be Used" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A39> a skos:Concept ;
+    dcterms:identifier "A39" ;
+    skos:definition "The object defined in the series could be used."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Could Be Used" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A40> a skos:Concept ;
+    dcterms:identifier "A40" ;
+    skos:definition "The status of the information is proposed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Proposed" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A41> a skos:Concept ;
+    dcterms:identifier "A41" ;
+    skos:definition "The network data provided in the document or series concerns the the unique TSO area describes by the document or series."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Individual Network Data" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A42> a skos:Concept ;
+    dcterms:identifier "A42" ;
+    skos:definition "The network data provided in the document or series concerns the whole area describes by the document or series."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Common Network Data" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A43> a skos:Concept ;
+    dcterms:identifier "A43" ;
+    skos:definition "The code for the power setpoint mode of operation of the HVDC link."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Setpoint schedule" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A44> a skos:Concept ;
+    dcterms:identifier "A44" ;
+    skos:definition "The code for the proportional external signal mode of operation of the HVDC link."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Proportional external signal" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A45> a skos:Concept ;
+    dcterms:identifier "A45" ;
+    skos:definition "The code for the AC emulation mode of operation of the HVDC link."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "AC emulation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A46> a skos:Concept ;
+    dcterms:identifier "A46" ;
+    skos:definition "An importing network element in which the flow measurement enters."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Importing element" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A47> a skos:Concept ;
+    dcterms:identifier "A47" ;
+    skos:definition "An exporting network element from which the flow measurement comes out."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Exporting element" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A48> a skos:Concept ;
+    dcterms:identifier "A48" ;
+    skos:definition "Describes an element which needs to be optimized by an optimization process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "To be optimized" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A49> a skos:Concept ;
+    dcterms:identifier "A49" ;
+    skos:definition "Describes an element which needs to be monitored by an optimization process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "To be monitored" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A50> a skos:Concept ;
+    dcterms:identifier "A50" ;
+    skos:definition "Describes an element which needs to be taken into account in a capacity calculation process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "To be included in capacity calculation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A51> a skos:Concept ;
+    dcterms:identifier "A51" ;
+    skos:definition "The quantity being described is a relative value to a previous point in time."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Relative to previous point in time" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A52> a skos:Concept ;
+    dcterms:identifier "A52" ;
+    skos:definition "Describes an element which needs to be optimized by a flow optimization process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "For flow optimization" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A53> a skos:Concept ;
+    dcterms:identifier "A53" ;
+    skos:definition "Describes an element which needs to be optimized by a voltage optimization process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "For voltage optimization" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A54> a skos:Concept ;
+    dcterms:identifier "A54" ;
+    skos:definition "Describes an active constraint that limits the exchanges. It is part of the presolved domain."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Presolved" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A55> a skos:Concept ;
+    dcterms:identifier "A55" ;
+    skos:definition "Bid not available if linked bid activated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Not available if linked bid activated" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A56> a skos:Concept ;
+    dcterms:identifier "A56" ;
+    skos:definition "Bid not available if linked bid rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Not available if linked bid rejected" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A57> a skos:Concept ;
+    dcterms:identifier "A57" ;
+    skos:definition "Bid not available for direct activation if linked bid subject to direct activation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Not available for DA if linked bid subject to DA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A58> a skos:Concept ;
+    dcterms:identifier "A58" ;
+    skos:definition "Bid not available for direct activation if linked bid subject to scheduled activation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Not available for DA if linked bid subject to SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A59> a skos:Concept ;
+    dcterms:identifier "A59" ;
+    skos:definition "Bid not available if linked bid subject to scheduled activation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Not available if linked bid subject to SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A60> a skos:Concept ;
+    dcterms:identifier "A60" ;
+    skos:definition "Bid not available if linked bid subject to direct activation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Not available if linked bid subject to DA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A61> a skos:Concept ;
+    dcterms:identifier "A61" ;
+    skos:definition "A value is traded for the first time."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Primary market" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A62> a skos:Concept ;
+    dcterms:identifier "A62" ;
+    skos:definition "A value is traded for the second or next times between two parties."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Secondary market" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A63> a skos:Concept ;
+    dcterms:identifier "A63" ;
+    skos:definition "Describes an asset which is considered as interesting."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Interesting" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A64> a skos:Concept ;
+    dcterms:identifier "A64" ;
+    skos:definition "Describes an asset which is considered as relevant."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Relevant" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A65> a skos:Concept ;
+    dcterms:identifier "A65" ;
+    skos:definition "Bid available as long as none of the conditions associated with the linked bids materialise."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Conditionally available" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A66> a skos:Concept ;
+    dcterms:identifier "A66" ;
+    skos:definition "Bid unavailable as long as none of the conditions associated with the linked bids materialise."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Conditionally unavailable" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A67> a skos:Concept ;
+    dcterms:identifier "A67" ;
+    skos:definition "Bid available if linked bid activated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Available if linked bid activated" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A68> a skos:Concept ;
+    dcterms:identifier "A68" ;
+    skos:definition "Bid available if linked bid rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Available if linked bid rejected" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A69> a skos:Concept ;
+    dcterms:identifier "A69" ;
+    skos:definition "Bid available if linked bid subject to scheduled activation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Available if linked bid subject to SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A70> a skos:Concept ;
+    dcterms:identifier "A70" ;
+    skos:definition "Bid available if linked bid subject to direct activation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Available if linked bid subject to DA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A71> a skos:Concept ;
+    dcterms:identifier "A71" ;
+    skos:definition "Bid available for direct activation if linked bid subject to direct activation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Available for DA if linked bid subject to DA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A72> a skos:Concept ;
+    dcterms:identifier "A72" ;
+    skos:definition "Bid available for direct activation if linked bid subject to scheduled activation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Available for DA if linked bid subject to SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A73> a skos:Concept ;
+    dcterms:identifier "A73" ;
+    skos:definition "Describes a status representing a difference between two values."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Delta" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList> a skos:ConceptScheme,
+        dcat:Dataset ;
+    dcterms:identifier "ET0025" ;
+    dcterms:modified "2022-08-26" ;
+    skos:definition "The condition or position of an object with regard to its standing."@en ;
+    skos:prefLabel "StandardStatusTypeList" ;
+    dcat:version "83" .
+
