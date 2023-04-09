@@ -21,6 +21,23 @@ def publish_item(data, name, relative_path="", base_path=publication_base_path):
     # Write .rdf data itself
     item_file_path.write_bytes(etree.tostring(data, pretty_print=True))
 
+from pathlib import Path
+
+def clean_directory(path: str, excluded_files: set):
+    path = Path(path)
+    folders_to_delete = []
+    for item in path.iterdir():
+        if item.is_dir():
+            folders_to_delete.append(item)
+            clean_directory(item, excluded_files)
+        elif item.is_file() and item.name not in excluded_files:
+            item.unlink()
+    for folder in  folders_to_delete:
+        if not any(folder.iterdir()):
+            folder.rmdir()
+
+
+
 
 redirect_html_template = """
 <!DOCTYPE html>
@@ -180,10 +197,19 @@ data_to_publish = [
     "../GeneratedData/entsoe-codelist-StandardStatusTypeList.rdf"
 ]
 
+files_to_keep = {
+    "CNAME",
+    "github-mark-white.svg"
+}
+
+# TODO - move .rdf file one step up in folder structure so that one could have path and resource differeciated by file extentsion
 # TODO - add a conf file for data to be published
 # TODO - create nice HTML page with all published data to root
 # TODO - add status to ConceptScheme and Concept so that official and unofficial lists can be differenciated
 
+# Clean
+clean_directory(publication_base_path, files_to_keep)
+# Generate new content
 frontpage_rows = ""
 for item in data_to_publish:
     # Parse XML and find relevant elements
