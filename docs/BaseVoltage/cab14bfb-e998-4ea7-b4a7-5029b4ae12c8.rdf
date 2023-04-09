@@ -1,5 +1,5 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/BaseVoltage/cab14bfb-e998-4ea7-b4a7-5029b4ae12c8">
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/cab14bfb-e998-4ea7-b4a7-5029b4ae12c8">
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
     <cim:BaseVoltage.nominalVoltage>11.5</cim:BaseVoltage.nominalVoltage>
     <cim:IdentifiedObject.name>AC-11-5</cim:IdentifiedObject.name>

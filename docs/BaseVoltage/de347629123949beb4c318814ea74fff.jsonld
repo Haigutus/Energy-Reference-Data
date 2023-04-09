@@ -1,0 +1,31 @@
+{
+    "@id": "http://energy.referencedata.eu/BaseVoltage/de347629123949beb4c318814ea74fff",
+    "@type": [
+        "@skos:Concept",
+        "@cim:BaseVoltage"
+    ],
+    "@cim:BaseVoltage.nominalVoltage": "70",
+    "@cim:IdentifiedObject.name": "AC-70",
+    "@cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 70 kV",
+    "@dcterms:identifier": "urn:uuid:de347629123949beb4c318814ea74fff",
+    "@skos:prefLabel": "AC-70",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Base voltage defined by ENTSO-E 70 kV"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "@id": "http://energy.referencedata.eu/BaseVoltage/e6c221a2b8c14a678c05e8b59301257d",
+    "@type": [
+        "@skos:Concept",
+        "@cim:BaseVoltage"
+    ],
+    "@cim:BaseVoltage.nominalVoltage": "22",
+    "@cim:IdentifiedObject.name": "AC-22",
+    "@cim:IdentifiedObject.description": "Base voltage 22 kV",
+    "@dcterms:identifier": "urn:uuid:e6c221a2b8c14a678c05e8b59301257d",
+    "@skos:prefLabel": "AC-22",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Base voltage 22 kV"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

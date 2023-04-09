@@ -1,0 +1,31 @@
+{
+    "@id": "http://energy.referencedata.eu/BaseVoltage/1d57ef25-73e5-c940-de64-61253ce02e87",
+    "@type": [
+        "@skos:Concept",
+        "@cim:BaseVoltage"
+    ],
+    "@cim:BaseVoltage.nominalVoltage": "66",
+    "@cim:IdentifiedObject.name": "AC-66",
+    "@cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 66 kV",
+    "@dcterms:identifier": "urn:uuid:1d57ef25-73e5-c940-de64-61253ce02e87",
+    "@skos:prefLabel": "AC-66",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Base voltage defined by ENTSO-E 66 kV"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

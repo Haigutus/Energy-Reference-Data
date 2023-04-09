@@ -1,5 +1,5 @@
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about="http://energy.referencedata.eu/PowerFlowSettings/9fe9b47b-468f-488a-bf35-0cf998b5ed2b">
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/PowerFlowSettings/9fe9b47b-468f-488a-bf35-0cf998b5ed2b">
     <cim:IdentifiedObject.mRID>9fe9b47b-468f-488a-bf35-0cf998b5ed2b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>IGM Convergence</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>CGM Process - IGM Convergence check before merging to CGM</cim:IdentifiedObject.description>

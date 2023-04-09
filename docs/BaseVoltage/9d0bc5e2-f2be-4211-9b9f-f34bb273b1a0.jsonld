@@ -1,0 +1,31 @@
+{
+    "@id": "http://energy.referencedata.eu/BaseVoltage/9d0bc5e2-f2be-4211-9b9f-f34bb273b1a0",
+    "@type": [
+        "@skos:Concept",
+        "@cim:BaseVoltage"
+    ],
+    "@cim:BaseVoltage.nominalVoltage": "232",
+    "@cim:IdentifiedObject.name": "AC-232",
+    "@cim:IdentifiedObject.description": "Base voltage 232 kV",
+    "@dcterms:identifier": "urn:uuid:9d0bc5e2-f2be-4211-9b9f-f34bb273b1a0",
+    "@skos:prefLabel": "AC-232",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Base voltage 232 kV"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

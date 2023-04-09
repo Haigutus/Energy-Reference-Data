@@ -1,5 +1,6 @@
 from lxml import etree
 from pathlib import Path
+from rdflib import Graph
 
 publication_base_path = r"../docs"
 def publish_item(data, name, relative_path="", base_path=publication_base_path):
@@ -18,8 +19,11 @@ def publish_item(data, name, relative_path="", base_path=publication_base_path):
     # Write index.html
     item_index_path.write_text(redirect_html_template.format(path=item_file_name.with_suffix(".rdf")))
 
-    # Write .rdf data itself
+    # Write .rdf data
     item_file_path.with_suffix(".rdf").write_bytes(etree.tostring(data, pretty_print=True))
+
+    # Generate .jsonld data based on .rdf
+    convert_rdfxml_to_jsonld(item_file_path.with_suffix(".rdf"), item_file_path.with_suffix(".jsonld"))
 
 from pathlib import Path
 
@@ -36,6 +40,20 @@ def clean_directory(path: str, excluded_files: set):
         if not any(folder.iterdir()):
             folder.rmdir()
 
+def convert_rdfxml_to_jsonld(source_path, destination_path):
+    # Parse to graph
+    graph = Graph()
+    graph.parse(source_path, format='application/rdf+xml')
+
+    # Extend context
+    context = {f"@{key}": value for key, value in etree.parse(source_path).getroot().nsmap.items()}
+    #context["@language"] = "en"
+
+    # Serialize rdflib graph to JSON-LD
+    jsonld_data = graph.serialize(format='json-ld', indent=4, context=context, sort_keys=False, use_native_types=True)
+
+    # Write JSON-LD data to a file
+    Path(destination_path).write_text(jsonld_data)
 
 
 
@@ -229,7 +247,7 @@ for item in data_to_publish:
         relative_path = concept_scheme_metadata["prefLabel"]
 
         # Wrap concept in RDF root element
-        rdf_root = etree.Element('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF')
+        rdf_root = etree.Element('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', nsmap=concept.nsmap)
         rdf_root.append(concept)
 
         publish_item(rdf_root, name, relative_path)

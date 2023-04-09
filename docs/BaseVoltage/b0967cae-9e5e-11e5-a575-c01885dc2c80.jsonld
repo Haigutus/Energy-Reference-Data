@@ -1,0 +1,31 @@
+{
+    "@id": "http://energy.referencedata.eu/BaseVoltage/b0967cae-9e5e-11e5-a575-c01885dc2c80",
+    "@type": [
+        "@skos:Concept",
+        "@cim:BaseVoltage"
+    ],
+    "@cim:BaseVoltage.nominalVoltage": "15.5",
+    "@cim:IdentifiedObject.name": "AC-15-5",
+    "@cim:IdentifiedObject.description": "Base voltage 15.5 kV",
+    "@dcterms:identifier": "urn:uuid:b0967cae-9e5e-11e5-a575-c01885dc2c80",
+    "@skos:prefLabel": "AC-15-5",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Base voltage 15.5 kV"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}
