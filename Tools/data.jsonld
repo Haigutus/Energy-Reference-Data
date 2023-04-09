@@ -1,0 +1,587 @@
+[
+    {
+        "@id": "http://energy.referencedata.eu/PowerFlowSettings",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "http://www.w3.org/ns/dcat#Dataset"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "urn:uuid:aaed01a1-fff7-49aa-a5f2-df07c05e16a9"
+            }
+        ],
+        "http://purl.org/dc/terms/modified": [
+            {
+                "@value": "2022-09-16T13:18:37.985254"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "List of commonly used Power Flow Settings"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "PowerFlowSettings"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#keyword": [
+            {
+                "@value": "PFS"
+            }
+        ],
+        "http://www.w3.org/ns/dcat#version": [
+            {
+                "@value": "1"
+            }
+        ]
+    },
+    {
+        "@id": "http://energy.referencedata.eu/PowerFlowSettings/af5ae620-edb8-46b3-a69f-a2d29b9610eb",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept",
+            "http://iec.ch/TC57/CIM100#PowerFlowSettings"
+        ],
+        "http://entsoe.eu/ns/Metadata-European#PowerFlowSettings.maxIterationNumber": [
+            {
+                "@value": "30"
+            }
+        ],
+        "http://entsoe.eu/ns/Metadata-European#PowerFlowSettings.maxIterationNumberAIC": [
+            {
+                "@value": "15"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.description": [
+            {
+                "@value": "CGM Process - Relaxed settings with controls on transformers and shunts disabled and reactive power limits disabled. To be used when creating a CGM and CGM creation fails with CGM Creation Relaxed 1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.mRID": [
+            {
+                "@value": "af5ae620-edb8-46b3-a69f-a2d29b9610eb"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.name": [
+            {
+                "@value": "CGM Creation Relaxed 2"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.activePowerTolerance": [
+            {
+                "@value": "0.5"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.algorithmKind": [
+            {
+                "@id": "http://iec.ch/TC57/CIM100#PowerFlowAlgorithmKind.fullNewtonRaphson"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.flatStart": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.impedanceThreshold": [
+            {
+                "@value": "1e-05"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.interchangeControlEnabled": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.loadVoltageDependency": [
+            {
+                "@value": "false"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.reactivePowerTolerance": [
+            {
+                "@value": "0.5"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.respectActivePowerLimits": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.respectReactivePowerLimits": [
+            {
+                "@value": "false"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.slackDistributionKind": [
+            {
+                "@id": "http://iec.ch/TC57/CIM100#SlackDistributionKind.generationDistributionActivePowerAndVoltageNodesOnly"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.staticVarCompensatorControlPriority": [
+            {
+                "@value": "0"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.switchedShuntControlPriority": [
+            {
+                "@value": "0"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.transformerPhaseTapControlPriority": [
+            {
+                "@value": "0"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.transformerRatioTapControlPriority": [
+            {
+                "@value": "0"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.voltageAngleLimit": [
+            {
+                "@value": "10"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.voltageTolerance": [
+            {
+                "@value": "0.0001"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "urn:uuid:af5ae620-edb8-46b3-a69f-a2d29b9610eb"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "CGM Process - Relaxed settings with controls on transformers and shunts disabled and reactive power limits disabled. To be used when creating a CGM and CGM creation fails with CGM Creation Relaxed 1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "CGM Creation Relaxed 2"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        ]
+    },
+    {
+        "@id": "http://energy.referencedata.eu/PowerFlowSettings/0722a865-678e-4539-99a3-460e42d87b39",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept",
+            "http://iec.ch/TC57/CIM100#PowerFlowSettings"
+        ],
+        "http://entsoe.eu/ns/Metadata-European#PowerFlowSettings.maxIterationNumber": [
+            {
+                "@value": "30"
+            }
+        ],
+        "http://entsoe.eu/ns/Metadata-European#PowerFlowSettings.maxIterationNumberAIC": [
+            {
+                "@value": "15"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.description": [
+            {
+                "@value": "CGM Process - Relaxed settings with controls on transformers and shunts disabled. To be used when creating a CGM and CGM creation fails with Default settings"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.mRID": [
+            {
+                "@value": "0722a865-678e-4539-99a3-460e42d87b39"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.name": [
+            {
+                "@value": "CGM Creation Relaxed 1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.activePowerTolerance": [
+            {
+                "@value": "0.1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.algorithmKind": [
+            {
+                "@id": "http://iec.ch/TC57/CIM100#PowerFlowAlgorithmKind.fullNewtonRaphson"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.flatStart": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.impedanceThreshold": [
+            {
+                "@value": "1e-05"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.interchangeControlEnabled": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.loadVoltageDependency": [
+            {
+                "@value": "false"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.reactivePowerTolerance": [
+            {
+                "@value": "0.1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.respectActivePowerLimits": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.respectReactivePowerLimits": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.slackDistributionKind": [
+            {
+                "@id": "http://iec.ch/TC57/CIM100#SlackDistributionKind.generationDistributionActivePowerAndVoltageNodesOnly"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.staticVarCompensatorControlPriority": [
+            {
+                "@value": "0"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.switchedShuntControlPriority": [
+            {
+                "@value": "0"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.transformerPhaseTapControlPriority": [
+            {
+                "@value": "0"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.transformerRatioTapControlPriority": [
+            {
+                "@value": "0"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.voltageAngleLimit": [
+            {
+                "@value": "10"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.voltageTolerance": [
+            {
+                "@value": "0.0001"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "urn:uuid:0722a865-678e-4539-99a3-460e42d87b39"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "CGM Process - Relaxed settings with controls on transformers and shunts disabled. To be used when creating a CGM and CGM creation fails with Default settings"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "CGM Creation Relaxed 1"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        ]
+    },
+    {
+        "@id": "http://energy.referencedata.eu/PowerFlowSettings/e4068581-713b-4d37-88e7-bca1fd78a8f7",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept",
+            "http://iec.ch/TC57/CIM100#PowerFlowSettings"
+        ],
+        "http://entsoe.eu/ns/Metadata-European#PowerFlowSettings.maxIterationNumber": [
+            {
+                "@value": "30"
+            }
+        ],
+        "http://entsoe.eu/ns/Metadata-European#PowerFlowSettings.maxIterationNumberAIC": [
+            {
+                "@value": "15"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.description": [
+            {
+                "@value": "CGM Process - Default settings to use when creating a CGM"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.mRID": [
+            {
+                "@value": "e4068581-713b-4d37-88e7-bca1fd78a8f7"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.name": [
+            {
+                "@value": "CGM Creation Default"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.activePowerTolerance": [
+            {
+                "@value": "0.1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.algorithmKind": [
+            {
+                "@id": "http://iec.ch/TC57/CIM100#PowerFlowAlgorithmKind.fullNewtonRaphson"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.flatStart": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.impedanceThreshold": [
+            {
+                "@value": "1e-05"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.interchangeControlEnabled": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.loadVoltageDependency": [
+            {
+                "@value": "false"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.reactivePowerTolerance": [
+            {
+                "@value": "0.1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.respectActivePowerLimits": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.respectReactivePowerLimits": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.slackDistributionKind": [
+            {
+                "@id": "http://iec.ch/TC57/CIM100#SlackDistributionKind.generationDistributionActivePowerAndVoltageNodesOnly"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.staticVarCompensatorControlPriority": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.switchedShuntControlPriority": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.transformerPhaseTapControlPriority": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.transformerRatioTapControlPriority": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.voltageAngleLimit": [
+            {
+                "@value": "10"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.voltageTolerance": [
+            {
+                "@value": "0.0001"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "urn:uuid:e4068581-713b-4d37-88e7-bca1fd78a8f7"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "CGM Process - Default settings to use when creating a CGM"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "CGM Creation Default"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        ]
+    },
+    {
+        "@id": "http://energy.referencedata.eu/PowerFlowSettings/9fe9b47b-468f-488a-bf35-0cf998b5ed2b",
+        "@type": [
+            "http://www.w3.org/2004/02/skos/core#Concept",
+            "http://iec.ch/TC57/CIM100#PowerFlowSettings"
+        ],
+        "http://entsoe.eu/ns/Metadata-European#PowerFlowSettings.maxIterationNumber": [
+            {
+                "@value": "20"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.description": [
+            {
+                "@value": "CGM Process - IGM Convergence check before merging to CGM"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.mRID": [
+            {
+                "@value": "9fe9b47b-468f-488a-bf35-0cf998b5ed2b"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#IdentifiedObject.name": [
+            {
+                "@value": "IGM Convergence"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.activePowerTolerance": [
+            {
+                "@value": "0.1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.algorithmKind": [
+            {
+                "@id": "http://iec.ch/TC57/CIM100#PowerFlowAlgorithmKind.fullNewtonRaphson"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.flatStart": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.impedanceThreshold": [
+            {
+                "@value": "1e-05"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.interchangeControlEnabled": [
+            {
+                "@value": "false"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.loadVoltageDependency": [
+            {
+                "@value": "false"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.reactivePowerTolerance": [
+            {
+                "@value": "0.1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.respectActivePowerLimits": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.respectReactivePowerLimits": [
+            {
+                "@value": "true"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.slackDistributionKind": [
+            {
+                "@id": "http://iec.ch/TC57/CIM100#SlackDistributionKind.generationDistributionParticipationFactor"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.staticVarCompensatorControlPriority": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.switchedShuntControlPriority": [
+            {
+                "@value": "2"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.transformerPhaseTapControlPriority": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.transformerRatioTapControlPriority": [
+            {
+                "@value": "1"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.voltageAngleLimit": [
+            {
+                "@value": "10"
+            }
+        ],
+        "http://iec.ch/TC57/CIM100#PowerFlowSettings.voltageTolerance": [
+            {
+                "@value": "0.0001"
+            }
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "urn:uuid:9fe9b47b-468f-488a-bf35-0cf998b5ed2b"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "CGM Process - IGM Convergence check before merging to CGM"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#inScheme": [
+            {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+            {
+                "@value": "IGM Convergence"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+            {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        ]
+    }
+]

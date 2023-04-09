@@ -7,19 +7,19 @@ def publish_item(data, name, relative_path="", base_path=publication_base_path):
     item_path = Path(base_path).joinpath(Path(relative_path)).joinpath(Path(name))
     print(f"Publishing {item_path}")
 
-    item_file_name = Path(f"{name}.rdf")
+    item_file_name = Path(name)
 
-    item_file_path = item_path.joinpath(item_file_name)
+    item_file_path = item_path.parent.joinpath(item_file_name)
     item_index_path = item_path.joinpath(Path("index.html"))
 
     # Create path
     item_path.mkdir(parents=True, exist_ok=True)
 
     # Write index.html
-    item_index_path.write_text(redirect_html_template.format(path=item_file_name))
+    item_index_path.write_text(redirect_html_template.format(path=item_file_name.with_suffix(".rdf")))
 
     # Write .rdf data itself
-    item_file_path.write_bytes(etree.tostring(data, pretty_print=True))
+    item_file_path.with_suffix(".rdf").write_bytes(etree.tostring(data, pretty_print=True))
 
 from pathlib import Path
 
@@ -54,7 +54,7 @@ redirect_html_template = """
         </script>
     </head>    
     <body>
-        <meta http-equiv = "refresh" content = "0; url = {path}" />
+        <meta http-equiv = "refresh" content = "0; url = ../{path}" />
     </body>
 </html>"""
 
@@ -202,10 +202,8 @@ files_to_keep = {
     "github-mark-white.svg"
 }
 
-# TODO - move .rdf file one step up in folder structure so that one could have path and resource differeciated by file extentsion
 # TODO - add a conf file for data to be published
-# TODO - create nice HTML page with all published data to root
-# TODO - add status to ConceptScheme and Concept so that official and unofficial lists can be differenciated
+# TODO - add status to ConceptScheme and Concept so that official and unofficial lists can be differentiated
 
 # Clean
 clean_directory(publication_base_path, files_to_keep)
