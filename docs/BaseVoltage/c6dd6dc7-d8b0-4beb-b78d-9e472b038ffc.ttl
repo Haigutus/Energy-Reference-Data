@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "33" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 33 kV" ;
+    cim:IdentifiedObject.name "AC-33" ;
+    dcterms:identifier "urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc" ;
+    skos:definition "Base voltage defined by ENTSO-E 33 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-33" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

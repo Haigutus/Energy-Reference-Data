@@ -1,0 +1,80 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified>2022-08-26</dcterms:modified>
+    <dcat:version>83</dcat:version>
+    <skos:prefLabel>StandardMarketProductTypeList</skos:prefLabel>
+    <dcterms:identifier>ET0008</dcterms:identifier>
+    <skos:definition xml:lang="en">The identification of the type of a product on a market view</skos:definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A01">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A01</dcterms:identifier>
+    <skos:prefLabel>Standard balancing product</skos:prefLabel>
+    <skos:definition xml:lang="en">A harmonised balancing product defined by all TSOs for the exchange of balancing services.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A02">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A02</dcterms:identifier>
+    <skos:prefLabel>Specific balancing product</skos:prefLabel>
+    <skos:definition xml:lang="en">A product different from a standard product.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A03">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A03</dcterms:identifier>
+    <skos:prefLabel>Product from integrated scheduling process</skos:prefLabel>
+    <skos:definition xml:lang="en">From the EBGL Article 2 (19), means an iterative process that uses at least integrated scheduling process bids that contain commercial data, complex technical data of individual power generating facilities or demand facilities and explicitly includes the start-up characteristics, the latest control area adequacy analysis and the operational security limits as an input to the process.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A04">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A04</dcterms:identifier>
+    <skos:prefLabel>Local balancing product</skos:prefLabel>
+    <skos:definition xml:lang="en">A balancing product that is neither standard nor specific. This type may be applicable only in the interim period until standard and specific products have been defined within the given scheduling area.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A05">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A05</dcterms:identifier>
+    <skos:prefLabel>Standard mFRR product eligible for scheduled activation</skos:prefLabel>
+    <skos:definition xml:lang="en">Standard mFRR product eligible for scheduled activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A06">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A06</dcterms:identifier>
+    <skos:prefLabel>Standard mFRR product eligible for direct activation</skos:prefLabel>
+    <skos:definition xml:lang="en">Standard mFRR product eligible for direct activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A07">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A07</dcterms:identifier>
+    <skos:prefLabel>Standard mFRR product eligible for direct and scheduled activation</skos:prefLabel>
+    <skos:definition xml:lang="en">Standard mFRR product eligible for direct as well as scheduled activation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A08">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A08</dcterms:identifier>
+    <skos:prefLabel>Market wide resource capacity mechanism</skos:prefLabel>
+    <skos:definition xml:lang="en">This is a market-wide resource capacity mechanism where all resource capacity required to ensure security of supply receives payment. These mechanisms are open for participation to all capacity resources contributing to adequacy.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A09">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A09</dcterms:identifier>
+    <skos:prefLabel>Strategic reserve resource capacity mechanism</skos:prefLabel>
+    <skos:definition xml:lang="en">This is a market resource capacity mechanism that is kept outside of the electricity market and only used if the market participants do not offer enough generation to meet short-term demand.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardMarketProductTypeList/A10">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardMarketProductTypeList"/>
+    <dcterms:identifier>A10</dcterms:identifier>
+    <skos:prefLabel>Other resource capacity mechanism</skos:prefLabel>
+    <skos:definition xml:lang="en">This is any other kind of market resource capacity mechanism.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

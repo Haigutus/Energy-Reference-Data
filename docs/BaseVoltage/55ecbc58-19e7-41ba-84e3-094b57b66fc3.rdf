@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/55ecbc58-19e7-41ba-84e3-094b57b66fc3">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>17</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-17</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage 17 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3</dcterms:identifier>
+    <skos:prefLabel>AC-17</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage 17 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/dbc6818607ad4a68888d23952d2c6b8d> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "320" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 320 kV" ;
+    cim:IdentifiedObject.name "AC-320" ;
+    dcterms:identifier "urn:uuid:dbc6818607ad4a68888d23952d2c6b8d" ;
+    skos:definition "Base voltage defined by ENTSO-E 320 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-320" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

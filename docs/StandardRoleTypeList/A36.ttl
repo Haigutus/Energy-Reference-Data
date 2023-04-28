@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A36> a skos:Concept ;
+    dcterms:identifier "A36" ;
+    skos:definition "A party, acting on behalf of the SOs involved, responsible for establishing a coordinated Offered Capacity and/or NTC and/or ATC between several Scheduling Areas."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Capacity Coordinator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A24> a skos:Concept ;
+    dcterms:identifier "A24" ;
+    skos:definition "The action being described consists of starting the production or consumption connected to a network element."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Start" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

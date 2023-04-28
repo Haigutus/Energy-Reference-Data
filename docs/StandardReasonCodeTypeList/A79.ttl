@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A79> a skos:Concept ;
+    dcterms:identifier "A79" ;
+    skos:definition "The process type does not figure in the list of valid process types for this document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Process type invalid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

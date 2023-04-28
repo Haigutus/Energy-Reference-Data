@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/138ded76-5558-db6b-7e96-810b3b63711f> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "205" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 205 kV" ;
+    cim:IdentifiedObject.name "AC-205" ;
+    dcterms:identifier "urn:uuid:138ded76-5558-db6b-7e96-810b3b63711f" ;
+    skos:definition "Base voltage defined by ENTSO-E 205 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-205" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

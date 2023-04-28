@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B34> a skos:Concept ;
+    dcterms:identifier "B34" ;
+    skos:definition "Describes a capacity that was reduced by a TSO."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Capacity reduced by TSO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

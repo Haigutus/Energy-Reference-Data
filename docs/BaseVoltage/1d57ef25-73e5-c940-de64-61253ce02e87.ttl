@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/1d57ef25-73e5-c940-de64-61253ce02e87> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "66" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 66 kV" ;
+    cim:IdentifiedObject.name "AC-66" ;
+    dcterms:identifier "urn:uuid:1d57ef25-73e5-c940-de64-61253ce02e87" ;
+    skos:definition "Base voltage defined by ENTSO-E 66 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-66" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

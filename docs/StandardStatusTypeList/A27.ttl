@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A27> a skos:Concept ;
+    dcterms:identifier "A27" ;
+    skos:definition "The remedial action can be applied to prevent an outage or after an outage has occurred in order to maintain the operational security."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Curative or preventive" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

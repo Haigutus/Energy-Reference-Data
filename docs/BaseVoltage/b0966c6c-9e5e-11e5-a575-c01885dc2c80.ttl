@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/b0966c6c-9e5e-11e5-a575-c01885dc2c80> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "130" ;
+    cim:IdentifiedObject.description "Base voltage 130 kV" ;
+    cim:IdentifiedObject.name "AC-130" ;
+    dcterms:identifier "urn:uuid:b0966c6c-9e5e-11e5-a575-c01885dc2c80" ;
+    skos:definition "Base voltage 130 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-130" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

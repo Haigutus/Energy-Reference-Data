@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/9d0bc5e2-f2be-4211-9b9f-f34bb273b1a0">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>232</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-232</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage 232 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>urn:uuid:9d0bc5e2-f2be-4211-9b9f-f34bb273b1a0</dcterms:identifier>
+    <skos:prefLabel>AC-232</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage 232 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/27bc805b0b354395965195c4f1151042> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "165" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 165 kV" ;
+    cim:IdentifiedObject.name "AC-165" ;
+    dcterms:identifier "urn:uuid:27bc805b0b354395965195c4f1151042" ;
+    skos:definition "Base voltage defined by ENTSO-E 165 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-165" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/b0966c86-9e5e-11e5-a575-c01885dc2c80> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "63" ;
+    cim:IdentifiedObject.description "Base voltage 63 kV" ;
+    cim:IdentifiedObject.name "AC-63" ;
+    dcterms:identifier "urn:uuid:b0966c86-9e5e-11e5-a575-c01885dc2c80" ;
+    skos:definition "Base voltage 63 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-63" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

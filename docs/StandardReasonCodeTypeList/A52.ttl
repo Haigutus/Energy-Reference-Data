@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A52> a skos:Concept ;
+    dcterms:identifier "A52" ;
+    skos:definition "A time series is not contained in a new version of the message. Message rejected."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series missing from new version of message" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

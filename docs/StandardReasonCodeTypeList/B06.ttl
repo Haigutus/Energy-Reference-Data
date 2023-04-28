@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B06> a skos:Concept ;
+    dcterms:identifier "B06" ;
+    skos:definition "Time series accepted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Time series accepted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

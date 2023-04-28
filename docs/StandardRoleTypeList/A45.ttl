@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A45> a skos:Concept ;
+    dcterms:identifier "A45" ;
+    skos:definition "A party offering energy-related services to the Party Connected to Grid, but not directly active in the energy value chain or the physical infrastructure itself. The ESCO may provide insight services as well as energy management services."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Energy Service Company (ESCO)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B14> a skos:Concept ;
+    dcterms:identifier "B14" ;
+    skos:definition "The status within the system indicates that the communication capability is currently restricted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Communication status currently restricted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

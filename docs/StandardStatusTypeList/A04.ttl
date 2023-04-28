@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A04> a skos:Concept ;
+    dcterms:identifier "A04" ;
+    skos:definition "The object being reported has been reactivated."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Reactivated" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

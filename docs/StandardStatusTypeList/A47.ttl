@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A47> a skos:Concept ;
+    dcterms:identifier "A47" ;
+    skos:definition "An exporting network element from which the flow measurement comes out."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Exporting element" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

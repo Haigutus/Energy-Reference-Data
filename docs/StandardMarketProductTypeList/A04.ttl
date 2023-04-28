@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardMarketProductTypeList/A04> a skos:Concept ;
+    dcterms:identifier "A04" ;
+    skos:definition "A balancing product that is neither standard nor specific. This type may be applicable only in the interim period until standard and specific products have been defined within the given scheduling area."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardMarketProductTypeList> ;
+    skos:prefLabel "Local balancing product" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardMarketProductTypeList> .
+

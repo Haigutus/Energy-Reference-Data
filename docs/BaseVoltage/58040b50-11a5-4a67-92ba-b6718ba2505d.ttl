@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/58040b50-11a5-4a67-92ba-b6718ba2505d> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "19" ;
+    cim:IdentifiedObject.description "Base voltage 19 kV" ;
+    cim:IdentifiedObject.name "AC-19" ;
+    dcterms:identifier "urn:uuid:58040b50-11a5-4a67-92ba-b6718ba2505d" ;
+    skos:definition "Base voltage 19 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-19" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

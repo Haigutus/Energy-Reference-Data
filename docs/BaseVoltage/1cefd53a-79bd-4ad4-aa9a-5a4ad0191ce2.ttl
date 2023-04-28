@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/1cefd53a-79bd-4ad4-aa9a-5a4ad0191ce2> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "21" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 21 kV" ;
+    cim:IdentifiedObject.name "AC-21" ;
+    dcterms:identifier "urn:uuid:1cefd53a-79bd-4ad4-aa9a-5a4ad0191ce2" ;
+    skos:definition "Base voltage defined by ENTSO-E 21 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-21" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

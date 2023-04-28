@@ -1,0 +1,11 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A37> a skos:Concept ;
+    dcterms:identifier "A37" ;
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+A party that is financially accountable for the reconciled volume of energy products for a profiled local metering point."""@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Reconciliation Accountable" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardMarketProductTypeList/A03> a skos:Concept ;
+    dcterms:identifier "A03" ;
+    skos:definition "From the EBGL Article 2 (19), means an iterative process that uses at least integrated scheduling process bids that contain commercial data, complex technical data of individual power generating facilities or demand facilities and explicitly includes the start-up characteristics, the latest control area adequacy analysis and the operational security limits as an input to the process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardMarketProductTypeList> ;
+    skos:prefLabel "Product from integrated scheduling process" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardMarketProductTypeList> .
+

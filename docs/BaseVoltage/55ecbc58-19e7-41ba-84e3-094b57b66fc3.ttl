@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/55ecbc58-19e7-41ba-84e3-094b57b66fc3> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "17" ;
+    cim:IdentifiedObject.description "Base voltage 17 kV" ;
+    cim:IdentifiedObject.name "AC-17" ;
+    dcterms:identifier "urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3" ;
+    skos:definition "Base voltage 17 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-17" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/4ace87c9-16c7-4097-914f-d4551d7d8cd5> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "20" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 20 kV" ;
+    cim:IdentifiedObject.name "AC-20" ;
+    dcterms:identifier "urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5" ;
+    skos:definition "Base voltage defined by ENTSO-E 20 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-20" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

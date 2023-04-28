@@ -1,0 +1,142 @@
+{
+    "@graph": [
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/Y",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "Y",
+            "@skos:prefLabel": "Area or Domain",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to identify areas or domains."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/Z",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "Z",
+            "@skos:prefLabel": "Measurement point",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to identify measurement points."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList",
+            "@type": [
+                "@skos:ConceptScheme",
+                "@dcat:Dataset"
+            ],
+            "@dcterms:modified": "2022-08-26",
+            "@dcat:version": "83",
+            "@skos:prefLabel": "StandardEicTypeList",
+            "@dcterms:identifier": "ET0028",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "The coded identification of the type of an EIC code."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/T",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "T",
+            "@skos:prefLabel": "Tieline",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to identify tielines."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/A",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "A",
+            "@skos:prefLabel": "Substation",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to substations."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/V",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "V",
+            "@skos:prefLabel": "Location",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to identify locations."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/W",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "W",
+            "@skos:prefLabel": "Resource Object",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to identify resource objects."
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/StandardEicTypeList/X",
+            "@type": "@skos:Concept",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/StandardEicTypeList"
+            },
+            "@dcterms:identifier": "X",
+            "@skos:prefLabel": "Party",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "An EIC code to identify parties."
+            }
+        }
+    ],
+    "@context": {
+        "@cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@dc": "http://purl.org/dc/elements/1.1/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@ecl": "urn:entsoe.eu:wgedi:codelists",
+        "@xs": "http://www.w3.org/2001/XMLSchema"
+    }
+}

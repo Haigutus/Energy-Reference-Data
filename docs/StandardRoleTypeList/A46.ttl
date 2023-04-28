@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A46> a skos:Concept ;
+    dcterms:identifier "A46" ;
+    skos:definition "A party with reserve-providing units or reserve-providing groups able to provide balancing services to LFC Operators."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Balancing Service Provider" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

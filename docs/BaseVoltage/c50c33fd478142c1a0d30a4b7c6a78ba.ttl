@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/c50c33fd478142c1a0d30a4b7c6a78ba> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "350" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 350 kV" ;
+    cim:IdentifiedObject.name "AC-350" ;
+    dcterms:identifier "urn:uuid:c50c33fd478142c1a0d30a4b7c6a78ba" ;
+    skos:definition "Base voltage defined by ENTSO-E 350 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-350" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

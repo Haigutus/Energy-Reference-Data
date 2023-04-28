@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/a0e07fd5-96a5-49be-ba08-5c09a8a52a84> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "31" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 31 kV" ;
+    cim:IdentifiedObject.name "AC-31" ;
+    dcterms:identifier "urn:uuid:a0e07fd5-96a5-49be-ba08-5c09a8a52a84" ;
+    skos:definition "Base voltage defined by ENTSO-E 31 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-31" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

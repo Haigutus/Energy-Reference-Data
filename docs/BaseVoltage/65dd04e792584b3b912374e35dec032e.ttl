@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/65dd04e792584b3b912374e35dec032e> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "400" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 400 kV" ;
+    cim:IdentifiedObject.name "AC-400" ;
+    dcterms:identifier "urn:uuid:65dd04e792584b3b912374e35dec032e" ;
+    skos:definition "Base voltage defined by ENTSO-E 400 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-400" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

@@ -1,0 +1,31 @@
+{
+    "@id": "http://energy.referencedata.eu/BaseVoltage/862a4658-6b03-4550-9de2-b5c413912b75",
+    "@type": [
+        "@skos:Concept",
+        "@cim:BaseVoltage"
+    ],
+    "@cim:BaseVoltage.nominalVoltage": "10.5",
+    "@cim:IdentifiedObject.name": "AC-10-5",
+    "@cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 10.5 kV",
+    "@dcterms:identifier": "urn:uuid:862a4658-6b03-4550-9de2-b5c413912b75",
+    "@skos:prefLabel": "AC-10-5",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Base voltage defined by ENTSO-E 10.5 kV"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

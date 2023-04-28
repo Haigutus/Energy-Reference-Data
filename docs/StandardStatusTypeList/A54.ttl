@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A54> a skos:Concept ;
+    dcterms:identifier "A54" ;
+    skos:definition "Describes an active constraint that limits the exchanges. It is part of the presolved domain."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Presolved" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

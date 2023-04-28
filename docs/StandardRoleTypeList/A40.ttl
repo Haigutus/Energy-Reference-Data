@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A40> a skos:Concept ;
+    dcterms:identifier "A40" ;
+    skos:definition "A party that is responsible for operating a Local Issuing Office (LIO)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Local Issuing Office (LIO)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

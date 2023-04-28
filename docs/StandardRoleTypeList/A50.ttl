@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A50> a skos:Concept ;
+    dcterms:identifier "A50" ;
+    skos:definition "Distribution System Operator (DSO) is responsible for transport of electricity on high-voltage (optionally), medium-voltage and low-voltage distribution systems. This is a market participant and not a role in Harmonised Role Model."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Distribution System Operator (DSO)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

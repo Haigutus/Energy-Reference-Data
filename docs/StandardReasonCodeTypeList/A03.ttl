@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A03> a skos:Concept ;
+    dcterms:identifier "A03" ;
+    skos:definition "Part of the message contents, i.e. certain time series, has been accepted for application processing. It is necessary to look at the time series level to determine the time series that have been rejected. The time series is excluded from the global position."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Message contains errors at the time series level " ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

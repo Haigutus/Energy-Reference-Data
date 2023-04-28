@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/79799cca-6817-400a-969c-f2be8882d1cf> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "24" ;
+    cim:IdentifiedObject.description "Base voltage 24 kV" ;
+    cim:IdentifiedObject.name "AC-24" ;
+    dcterms:identifier "urn:uuid:79799cca-6817-400a-969c-f2be8882d1cf" ;
+    skos:definition "Base voltage 24 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-24" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

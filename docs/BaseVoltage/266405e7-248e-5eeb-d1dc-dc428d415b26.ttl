@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/266405e7-248e-5eeb-d1dc-dc428d415b26> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "16" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 16 kV" ;
+    cim:IdentifiedObject.name "AC-16" ;
+    dcterms:identifier "urn:uuid:266405e7-248e-5eeb-d1dc-dc428d415b26" ;
+    skos:definition "Base voltage defined by ENTSO-E 16 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-16" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

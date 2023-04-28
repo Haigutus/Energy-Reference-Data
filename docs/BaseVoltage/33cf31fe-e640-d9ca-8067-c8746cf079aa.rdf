@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/BaseVoltage/33cf31fe-e640-d9ca-8067-c8746cf079aa">
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#BaseVoltage"/>
+    <cim:BaseVoltage.nominalVoltage>15.7</cim:BaseVoltage.nominalVoltage>
+    <cim:IdentifiedObject.name>AC-15-7</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Base voltage defined by ENTSO-E 15.7 kV</cim:IdentifiedObject.description>
+    <dcterms:identifier>urn:uuid:33cf31fe-e640-d9ca-8067-c8746cf079aa</dcterms:identifier>
+    <skos:prefLabel>AC-15-7</skos:prefLabel>
+    <skos:definition xml:lang="en">Base voltage defined by ENTSO-E 15.7 kV</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/BaseVoltage"/>
+  </skos:Concept>
+</rdf:RDF>

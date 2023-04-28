@@ -1,0 +1,9 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardReasonCodeTypeList/A03">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
+    <dcterms:identifier>A03</dcterms:identifier>
+    <skos:prefLabel>Message contains errors at the time series level </skos:prefLabel>
+    <skos:definition xml:lang="en">Part of the message contents, i.e. certain time series, has been accepted for application processing. It is necessary to look at the time series level to determine the time series that have been rejected. The time series is excluded from the global position.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

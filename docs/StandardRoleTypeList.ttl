@@ -1,0 +1,395 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A01> a skos:Concept ;
+    dcterms:identifier "A01" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Trade responsible party" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A02> a skos:Concept ;
+    dcterms:identifier "A02" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Consumption responsible party" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A03> a skos:Concept ;
+    dcterms:identifier "A03" ;
+    skos:definition "This role is no longer in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Combined power exchange (not to be used)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A04> a skos:Concept ;
+    dcterms:identifier "A04" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "System operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A05> a skos:Concept ;
+    dcterms:identifier "A05" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Imbalance settlement responsible" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A06> a skos:Concept ;
+    dcterms:identifier "A06" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Production responsible party" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A07> a skos:Concept ;
+    dcterms:identifier "A07" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Transmission capacity allocator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A08> a skos:Concept ;
+    dcterms:identifier "A08" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Balance responsible party" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A09> a skos:Concept ;
+    dcterms:identifier "A09" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Metered data aggregator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A10> a skos:Concept ;
+    dcterms:identifier "A10" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Billing agent" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A11> a skos:Concept ;
+    dcterms:identifier "A11" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Market operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A12> a skos:Concept ;
+    dcterms:identifier "A12" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Energy supplier" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A13> a skos:Concept ;
+    dcterms:identifier "A13" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Consumer" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A14> a skos:Concept ;
+    dcterms:identifier "A14" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Control area operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A15> a skos:Concept ;
+    dcterms:identifier "A15" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Control block operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A16> a skos:Concept ;
+    dcterms:identifier "A16" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Coordination centre operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A17> a skos:Concept ;
+    dcterms:identifier "A17" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Grid access provider" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A18> a skos:Concept ;
+    dcterms:identifier "A18" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Grid operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A19> a skos:Concept ;
+    dcterms:identifier "A19" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Meter administrator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A20> a skos:Concept ;
+    dcterms:identifier "A20" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Party connected to grid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A21> a skos:Concept ;
+    dcterms:identifier "A21" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Producer" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A22> a skos:Concept ;
+    dcterms:identifier "A22" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Profile maintenance party" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A23> a skos:Concept ;
+    dcterms:identifier "A23" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Meter operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A24> a skos:Concept ;
+    dcterms:identifier "A24" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Metered data collector" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A25> a skos:Concept ;
+    dcterms:identifier "A25" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Metered data responsible" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A26> a skos:Concept ;
+    dcterms:identifier "A26" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Metering point administrator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A27> a skos:Concept ;
+    dcterms:identifier "A27" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Resource Provider" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A28> a skos:Concept ;
+    dcterms:identifier "A28" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Scheduling coordinator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A29> a skos:Concept ;
+    dcterms:identifier "A29" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Capacity Trader" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A30> a skos:Concept ;
+    dcterms:identifier "A30" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Interconnection Trade Responsible" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A31> a skos:Concept ;
+    dcterms:identifier "A31" ;
+    skos:definition "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Nomination Validator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A32> a skos:Concept ;
+    dcterms:identifier "A32" ;
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+A party that collects information from different sources and assembles  it to provide a summary of the market."""@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Market information aggregator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A33> a skos:Concept ;
+    dcterms:identifier "A33" ;
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+A party, not necessarily a market participant, which receives information about the market."""@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Information receiver" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A34> a skos:Concept ;
+    dcterms:identifier "A34" ;
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+A party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders."""@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Reserve Allocator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A35> a skos:Concept ;
+    dcterms:identifier "A35" ;
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+A party that Informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders."""@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "MOL Responsible" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A36> a skos:Concept ;
+    dcterms:identifier "A36" ;
+    skos:definition "A party, acting on behalf of the SOs involved, responsible for establishing a coordinated Offered Capacity and/or NTC and/or ATC between several Scheduling Areas."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Capacity Coordinator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A37> a skos:Concept ;
+    dcterms:identifier "A37" ;
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+A party that is financially accountable for the reconciled volume of energy products for a profiled local metering point."""@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Reconciliation Accountable" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A38> a skos:Concept ;
+    dcterms:identifier "A38" ;
+    skos:definition "A party that is responsible for reconciling, within a metering grid area, the volumes used in the imbalance settlement process for profiled metering points and the actual metered quantities."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Reconciliation Responsible" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A39> a skos:Concept ;
+    dcterms:identifier "A39" ;
+    skos:definition "A party that is responsible for providing information to a central authority."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Data provider" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A40> a skos:Concept ;
+    dcterms:identifier "A40" ;
+    skos:definition "A party that is responsible for operating a Local Issuing Office (LIO)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Local Issuing Office (LIO)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A41> a skos:Concept ;
+    dcterms:identifier "A41" ;
+    skos:definition "A party that is responsible for operating a Central Issuing Office (CIO)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Central Issuing Office (CIO)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A42> a skos:Concept ;
+    dcterms:identifier "A42" ;
+    skos:definition "A party that participates in the EIC environment."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "EIC Participant" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A43> a skos:Concept ;
+    dcterms:identifier "A43" ;
+    skos:definition "A party that analyses the current and forecast weather situation and establishes a prognosis of its impact on the renewable energy environment as well as the overall load."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Weather analyser" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A44> a skos:Concept ;
+    dcterms:identifier "A44" ;
+    skos:definition "The RSC as defined in the System Operation guideline."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Regional Security Coordinator (RSC)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A45> a skos:Concept ;
+    dcterms:identifier "A45" ;
+    skos:definition "A party offering energy-related services to the Party Connected to Grid, but not directly active in the energy value chain or the physical infrastructure itself. The ESCO may provide insight services as well as energy management services."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Energy Service Company (ESCO)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A46> a skos:Concept ;
+    dcterms:identifier "A46" ;
+    skos:definition "A party with reserve-providing units or reserve-providing groups able to provide balancing services to LFC Operators."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Balancing Service Provider" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A47> a skos:Concept ;
+    dcterms:identifier "A47" ;
+    skos:definition "A party that is selling or buying energy."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Energy trader" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A48> a skos:Concept ;
+    dcterms:identifier "A48" ;
+    skos:definition "A party that is responsible for the Load Frequency Control of its LFC Area or LFC Block."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "LFC Operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A49> a skos:Concept ;
+    dcterms:identifier "A49" ;
+    skos:definition "The Transmission System Operator (TSO) is responsible for the transport of electricity on the extra high-voltage and high-voltage interconnected system. This is a market participant and not a role in Harmonised Role Model."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Transmission System Operator (TSO)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A50> a skos:Concept ;
+    dcterms:identifier "A50" ;
+    skos:definition "Distribution System Operator (DSO) is responsible for transport of electricity on high-voltage (optionally), medium-voltage and low-voltage distribution systems. This is a market participant and not a role in Harmonised Role Model."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Distribution System Operator (DSO)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A51> a skos:Concept ;
+    dcterms:identifier "A51" ;
+    skos:definition "Resource capacity mechanism operator is the party responsible to operate the resource capacity mechanism in a member state. It can either be the TSO or an independent party."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Resource Capacity Mechanism Operator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A52> a skos:Concept ;
+    dcterms:identifier "A52" ;
+    skos:definition "A party that aggregates resources for usage by a service provider for energy market services."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Resource aggregator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A53> a skos:Concept ;
+    dcterms:identifier "A53" ;
+    skos:definition "A party responsible for the mapping of the costs between areas and parties."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Cost sharing calculator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A54> a skos:Concept ;
+    dcterms:identifier "A54" ;
+    skos:definition "A party responsible for settling the costs."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Settlement responsible" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList> a skos:ConceptScheme,
+        dcat:Dataset ;
+    dcterms:identifier "ET0005" ;
+    dcterms:modified "2022-08-26" ;
+    skos:definition "Identification of the role played by a party."@en ;
+    skos:prefLabel "StandardRoleTypeList" ;
+    dcat:version "83" .
+

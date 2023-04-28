@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/A30> a skos:Concept ;
+    dcterms:identifier "A30" ;
+    skos:definition "The nominated party's time series has replaced the current time series. This reason code may not be used in conjunction with A26."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Imposed Time series from nominated party's time series (party identified in reason text)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

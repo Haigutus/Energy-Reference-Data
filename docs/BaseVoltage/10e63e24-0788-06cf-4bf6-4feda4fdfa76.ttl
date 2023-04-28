@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/10e63e24-0788-06cf-4bf6-4feda4fdfa76> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "12.8" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 12.8 kV" ;
+    cim:IdentifiedObject.name "AC-12-8" ;
+    dcterms:identifier "urn:uuid:10e63e24-0788-06cf-4bf6-4feda4fdfa76" ;
+    skos:definition "Base voltage defined by ENTSO-E 12.8 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-12-8" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A73> a skos:Concept ;
+    dcterms:identifier "A73" ;
+    skos:definition "Describes a status representing a difference between two values."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Delta" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

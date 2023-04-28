@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A31> a skos:Concept ;
+    dcterms:identifier "A31" ;
+    skos:definition "Modified pre-processing data by RSC or CGMA platform."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Modified" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

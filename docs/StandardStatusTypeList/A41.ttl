@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A41> a skos:Concept ;
+    dcterms:identifier "A41" ;
+    skos:definition "The network data provided in the document or series concerns the the unique TSO area describes by the document or series."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Individual Network Data" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

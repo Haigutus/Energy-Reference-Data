@@ -1,0 +1,31 @@
+{
+    "@id": "http://energy.referencedata.eu/BaseVoltage/266405e7-248e-5eeb-d1dc-dc428d415b26",
+    "@type": [
+        "@skos:Concept",
+        "@cim:BaseVoltage"
+    ],
+    "@cim:BaseVoltage.nominalVoltage": "16",
+    "@cim:IdentifiedObject.name": "AC-16",
+    "@cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 16 kV",
+    "@dcterms:identifier": "urn:uuid:266405e7-248e-5eeb-d1dc-dc428d415b26",
+    "@skos:prefLabel": "AC-16",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Base voltage defined by ENTSO-E 16 kV"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/BaseVoltage"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

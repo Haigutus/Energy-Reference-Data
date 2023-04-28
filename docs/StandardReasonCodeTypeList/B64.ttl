@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B64> a skos:Concept ;
+    dcterms:identifier "B64" ;
+    skos:definition "The capacity is adjusted because the remedial actions were assessed as not sufficient or ineffective to avoid the expected violation of operational security limit(s)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Adjusted because already considered remedial actions are assessed as not sufficient" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+

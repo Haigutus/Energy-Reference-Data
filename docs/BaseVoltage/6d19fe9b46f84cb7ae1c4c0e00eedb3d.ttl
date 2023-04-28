@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/6d19fe9b46f84cb7ae1c4c0e00eedb3d> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "154" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 154 kV" ;
+    cim:IdentifiedObject.name "AC-154" ;
+    dcterms:identifier "urn:uuid:6d19fe9b46f84cb7ae1c4c0e00eedb3d" ;
+    skos:definition "Base voltage defined by ENTSO-E 154 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-154" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

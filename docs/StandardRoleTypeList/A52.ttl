@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A52> a skos:Concept ;
+    dcterms:identifier "A52" ;
+    skos:definition "A party that aggregates resources for usage by a service provider for energy market services."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Resource aggregator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+

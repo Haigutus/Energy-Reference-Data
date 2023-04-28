@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/6acd47cc-9547-cdf6-6dad-6ccaccc6cacd> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "1" ;
+    cim:IdentifiedObject.description "Base voltage defined by ENTSO-E 1 kV" ;
+    cim:IdentifiedObject.name "AC-1" ;
+    dcterms:identifier "urn:uuid:6acd47cc-9547-cdf6-6dad-6ccaccc6cacd" ;
+    skos:definition "Base voltage defined by ENTSO-E 1 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-1" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A44> a skos:Concept ;
+    dcterms:identifier "A44" ;
+    skos:definition "The code for the proportional external signal mode of operation of the HVDC link."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Proportional external signal" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

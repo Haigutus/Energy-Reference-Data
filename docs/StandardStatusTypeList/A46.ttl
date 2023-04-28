@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A46> a skos:Concept ;
+    dcterms:identifier "A46" ;
+    skos:definition "An importing network element in which the flow measurement enters."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Importing element" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

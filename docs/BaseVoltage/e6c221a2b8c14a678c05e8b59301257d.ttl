@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/BaseVoltage/e6c221a2b8c14a678c05e8b59301257d> a cim:BaseVoltage,
+        skos:Concept ;
+    cim:BaseVoltage.nominalVoltage "22" ;
+    cim:IdentifiedObject.description "Base voltage 22 kV" ;
+    cim:IdentifiedObject.name "AC-22" ;
+    dcterms:identifier "urn:uuid:e6c221a2b8c14a678c05e8b59301257d" ;
+    skos:definition "Base voltage 22 kV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/BaseVoltage> ;
+    skos:prefLabel "AC-22" ;
+    skos:topConceptOf <http://energy.referencedata.eu/BaseVoltage> .
+

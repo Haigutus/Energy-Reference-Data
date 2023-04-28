@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A25> a skos:Concept ;
+    dcterms:identifier "A25" ;
+    skos:definition "The quantity being described is a relative value to an initial state."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Relative" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+

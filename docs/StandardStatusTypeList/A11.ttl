@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/StandardStatusTypeList/A11> a skos:Concept ;
+    dcterms:identifier "A11" ;
+    skos:definition "The volumes (one or more) are unavailable."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardStatusTypeList> ;
+    skos:prefLabel "Unavailable" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardStatusTypeList> .
+
