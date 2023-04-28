@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/574ad0d5-1610-47a2-bca7-4e586fb3be2b> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "574ad0d5-1610-47a2-bca7-4e586fb3be2b" ;
+    cim:IdentifiedObject.name "environmental.lightning" ;
+    dcterms:identifier "urn:uuid:574ad0d5-1610-47a2-bca7-4e586fb3be2b" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.lightning" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

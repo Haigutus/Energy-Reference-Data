@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/e1943fa9-6dab-4633-bc03-23b45109b2b3">
+    <cim:IdentifiedObject.mRID>e1943fa9-6dab-4633-bc03-23b45109b2b3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>operationAndMaintenance.personnel.deficientRoutinesOrInstructions</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Deficient routines, instructions, procedures etc. that cause a fault. If the cause is insufficient monitoring, and monitoring is not included in the routines or instructions, it should be reported as deficient routines or instructions.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>operationAndMaintenance.personnel.deficientRoutinesOrInstructions</skos:prefLabel>
+    <skos:definition xml:lang="en">Deficient routines, instructions, procedures etc. that cause a fault. If the cause is insufficient monitoring, and monitoring is not included in the routines or instructions, it should be reported as deficient routines or instructions.</skos:definition>
+    <dcterms:identifier>urn:uuid:e1943fa9-6dab-4633-bc03-23b45109b2b3</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,10 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90">
+    <dcterms:identifier>urn:uuid:0080531c-fa18-4d51-8832-4bcbced77c90</dcterms:identifier>
+    <skos:prefLabel>Public</skos:prefLabel>
+    <skos:definition xml:lang="en">Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+  </skos:Concept>
+</rdf:RDF>

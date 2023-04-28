@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/15b33d52-9e7f-4f11-bee8-8a481761837c">
+    <cim:IdentifiedObject.mRID>15b33d52-9e7f-4f11-bee8-8a481761837c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>environmental.temperature.lowAmbient</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Low ambient temperature due to external temperature.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>environmental.temperature.lowAmbient</skos:prefLabel>
+    <skos:definition xml:lang="en">Low ambient temperature due to external temperature.</skos:definition>
+    <dcterms:identifier>urn:uuid:15b33d52-9e7f-4f11-bee8-8a481761837c</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

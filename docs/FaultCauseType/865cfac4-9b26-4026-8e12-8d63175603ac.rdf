@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/865cfac4-9b26-4026-8e12-8d63175603ac">
+    <cim:IdentifiedObject.mRID>865cfac4-9b26-4026-8e12-8d63175603ac</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>operationAndMaintenance.personnel.faultyProtectionRelayScheme</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>operationAndMaintenance.personnel.faultyProtectionRelayScheme</skos:prefLabel>
+    <skos:definition xml:lang="en">Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme.</skos:definition>
+    <dcterms:identifier>urn:uuid:865cfac4-9b26-4026-8e12-8d63175603ac</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

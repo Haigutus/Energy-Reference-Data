@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/865cfac4-9b26-4026-8e12-8d63175603ac> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme." ;
+    cim:IdentifiedObject.mRID "865cfac4-9b26-4026-8e12-8d63175603ac" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.faultyProtectionRelayScheme" ;
+    dcterms:identifier "urn:uuid:865cfac4-9b26-4026-8e12-8d63175603ac" ;
+    skos:definition "Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.faultyProtectionRelayScheme" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

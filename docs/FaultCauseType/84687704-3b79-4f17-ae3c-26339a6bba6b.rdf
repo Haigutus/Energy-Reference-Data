@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/84687704-3b79-4f17-ae3c-26339a6bba6b">
+    <cim:IdentifiedObject.mRID>84687704-3b79-4f17-ae3c-26339a6bba6b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>environmental.waterIce.snowIce</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Includes, for example, frost heave.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>environmental.waterIce.snowIce</skos:prefLabel>
+    <skos:definition xml:lang="en">Includes, for example, frost heave.</skos:definition>
+    <dcterms:identifier>urn:uuid:84687704-3b79-4f17-ae3c-26339a6bba6b</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

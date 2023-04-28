@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/15b33d52-9e7f-4f11-bee8-8a481761837c> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Low ambient temperature due to external temperature." ;
+    cim:IdentifiedObject.mRID "15b33d52-9e7f-4f11-bee8-8a481761837c" ;
+    cim:IdentifiedObject.name "environmental.temperature.lowAmbient" ;
+    dcterms:identifier "urn:uuid:15b33d52-9e7f-4f11-bee8-8a481761837c" ;
+    skos:definition "Low ambient temperature due to external temperature."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.temperature.lowAmbient" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

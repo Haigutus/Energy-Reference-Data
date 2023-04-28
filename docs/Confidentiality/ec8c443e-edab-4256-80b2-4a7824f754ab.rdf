@@ -1,0 +1,9 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab">
+    <dcterms:identifier>urn:uuid:ec8c443e-edab-4256-80b2-4a7824f754ab</dcterms:identifier>
+    <skos:prefLabel>OPDE Secret</skos:prefLabel>
+    <skos:definition xml:lang="en">OPDE Secret</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+  </skos:Concept>
+</rdf:RDF>

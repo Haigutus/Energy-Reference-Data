@@ -1,0 +1,21 @@
+{
+    "@id": "http://energy.referencedata.eu/PropertyReference/CurrentLimit.value",
+    "@type": [
+        "@skos:Concept",
+        "http://iec.ch/TC57/CIM100#PropertyReference"
+    ],
+    "@skos:topConceptOf": "http://energy.referencedata.eu/PropertyReference",
+    "@skos:inScheme": "http://energy.referencedata.eu/PropertyReference",
+    "@skos:definition": "Limit on current flow. The attribute shall be a positive value or zero.",
+    "@skos:prefLabel": "CurrentLimit.value",
+    "@dcterms:identifier": "urn:uuid:0cc39f5e-a2eb-451f-9177-583d1a6b8a37",
+    "@nc:PropertyReference.name": "CurrentLimit.value",
+    "@nc:PropertyReference.mRID": "0cc39f5e-a2eb-451f-9177-583d1a6b8a37",
+    "@context": {
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@nc": "http://entsoe.eu/ns/nc#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@dcat": "http://www.w3.org/ns/dcat#"
+    }
+}

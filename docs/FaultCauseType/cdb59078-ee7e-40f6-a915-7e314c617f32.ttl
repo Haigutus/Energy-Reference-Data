@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/cdb59078-ee7e-40f6-a915-7e314c617f32> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Fault due to other component in the grid below 100 kV." ;
+    cim:IdentifiedObject.mRID "cdb59078-ee7e-40f6-a915-7e314c617f32" ;
+    cim:IdentifiedObject.name "technical.adjoiningGrid.below_100KV" ;
+    dcterms:identifier "urn:uuid:cdb59078-ee7e-40f6-a915-7e314c617f32" ;
+    skos:definition "Fault due to other component in the grid below 100 kV."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.adjoiningGrid.below_100KV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

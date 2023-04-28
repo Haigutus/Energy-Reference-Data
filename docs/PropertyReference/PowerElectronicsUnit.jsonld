@@ -1,0 +1,21 @@
+{
+    "@id": "http://energy.referencedata.eu/PropertyReference/PowerElectronicsUnit.participationFactor",
+    "@type": [
+        "@skos:Concept",
+        "http://iec.ch/TC57/CIM100#PropertyReference"
+    ],
+    "@skos:topConceptOf": "http://energy.referencedata.eu/PropertyReference",
+    "@skos:inScheme": "http://energy.referencedata.eu/PropertyReference",
+    "@skos:definition": "Situation economic participation factor.",
+    "@skos:prefLabel": "PowerElectronicsUnit.participationFactor",
+    "@dcterms:identifier": "urn:uuid:4da10084-f2d2-40ed-80fa-e80e0a0c7f15",
+    "@nc:PropertyReference.name": "PowerElectronicsUnit.participationFactor",
+    "@nc:PropertyReference.mRID": "4da10084-f2d2-40ed-80fa-e80e0a0c7f15",
+    "@context": {
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@nc": "http://entsoe.eu/ns/nc#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@dcat": "http://www.w3.org/ns/dcat#"
+    }
+}

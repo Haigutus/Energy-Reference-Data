@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Includes other faults due to third party humans, for example, flashover or emergency disconnection due to humans climbing up power pylons." ;
+    cim:IdentifiedObject.mRID "78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c" ;
+    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.other" ;
+    dcterms:identifier "urn:uuid:78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c" ;
+    skos:definition "Includes other faults due to third party humans, for example, flashover or emergency disconnection due to humans climbing up power pylons."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences.humanThirdParty.other" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/baec6ee9-3d37-4aa9-8ff5-0f4f8547432b> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "baec6ee9-3d37-4aa9-8ff5-0f4f8547432b" ;
+    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.cyberAttack" ;
+    dcterms:identifier "urn:uuid:baec6ee9-3d37-4aa9-8ff5-0f4f8547432b" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences.humanThirdParty.cyberAttack" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

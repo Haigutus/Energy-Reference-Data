@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/06308d42-b5ed-46fc-bcda-d4d01028effd">
+    <cim:IdentifiedObject.mRID>06308d42-b5ed-46fc-bcda-d4d01028effd</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>operationAndMaintenance.operations.oscillations</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>This cause is considered as a cause for a system fault.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>operationAndMaintenance.operations.oscillations</skos:prefLabel>
+    <skos:definition xml:lang="en">This cause is considered as a cause for a system fault.</skos:definition>
+    <dcterms:identifier>urn:uuid:06308d42-b5ed-46fc-bcda-d4d01028effd</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

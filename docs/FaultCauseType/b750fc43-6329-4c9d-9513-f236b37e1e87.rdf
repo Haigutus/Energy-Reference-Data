@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/b750fc43-6329-4c9d-9513-f236b37e1e87">
+    <cim:IdentifiedObject.mRID>b750fc43-6329-4c9d-9513-f236b37e1e87</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>environmental.temperature.fires</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Wildfires and other fire due to environmental causes (not human).</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>environmental.temperature.fires</skos:prefLabel>
+    <skos:definition xml:lang="en">Wildfires and other fire due to environmental causes (not human).</skos:definition>
+    <dcterms:identifier>urn:uuid:b750fc43-6329-4c9d-9513-f236b37e1e87</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

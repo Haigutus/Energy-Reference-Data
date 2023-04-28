@@ -1,49 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "http://energy.referencedata.eu/PowerFlowSettings/9fe9b47b-468f-488a-bf35-0cf998b5ed2b",
-            "@type": [
-                "@skos:Concept",
-                "@cim:PowerFlowSettings"
-            ],
-            "@cim:IdentifiedObject.mRID": "9fe9b47b-468f-488a-bf35-0cf998b5ed2b",
-            "@cim:IdentifiedObject.name": "IGM Convergence",
-            "@cim:IdentifiedObject.description": "CGM Process - IGM Convergence check before merging to CGM",
-            "@cim:PowerFlowSettings.loadVoltageDependency": "false",
-            "@cim:PowerFlowSettings.algorithmKind": {
-                "@id": "@cim:PowerFlowAlgorithmKind.fullNewtonRaphson"
-            },
-            "@cim:PowerFlowSettings.flatStart": "true",
-            "@cim:PowerFlowSettings.activePowerTolerance": "0.1",
-            "@cim:PowerFlowSettings.reactivePowerTolerance": "0.1",
-            "@cim:PowerFlowSettings.voltageTolerance": "0.0001",
-            "@cim:PowerFlowSettings.voltageAngleLimit": "10",
-            "@cim:PowerFlowSettings.impedanceThreshold": "1e-05",
-            "@cim:PowerFlowSettings.respectActivePowerLimits": "true",
-            "@cim:PowerFlowSettings.respectReactivePowerLimits": "true",
-            "@cim:PowerFlowSettings.transformerRatioTapControlPriority": "1",
-            "@cim:PowerFlowSettings.transformerPhaseTapControlPriority": "1",
-            "@cim:PowerFlowSettings.switchedShuntControlPriority": "2",
-            "@cim:PowerFlowSettings.staticVarCompensatorControlPriority": "2",
-            "@cim:PowerFlowSettings.slackDistributionKind": {
-                "@id": "@cim:SlackDistributionKind.generationDistributionParticipationFactor"
-            },
-            "@cim:PowerFlowSettings.interchangeControlEnabled": "false",
-            "@eumd:PowerFlowSettings.maxIterationNumber": "20",
-            "@skos:prefLabel": "IGM Convergence",
-            "@skos:definition": {
-                "@language": "en",
-                "@value": "CGM Process - IGM Convergence check before merging to CGM"
-            },
-            "@dcterms:identifier": "urn:uuid:9fe9b47b-468f-488a-bf35-0cf998b5ed2b",
-            "@skos:inScheme": {
-                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
-            },
-            "@skos:topConceptOf": {
-                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
-            }
-        },
-        {
             "@id": "http://energy.referencedata.eu/PowerFlowSettings/e4068581-713b-4d37-88e7-bca1fd78a8f7",
             "@type": [
                 "@skos:Concept",
@@ -132,6 +89,65 @@
             }
         },
         {
+            "@id": "http://energy.referencedata.eu/PowerFlowSettings/9fe9b47b-468f-488a-bf35-0cf998b5ed2b",
+            "@type": [
+                "@skos:Concept",
+                "@cim:PowerFlowSettings"
+            ],
+            "@cim:IdentifiedObject.mRID": "9fe9b47b-468f-488a-bf35-0cf998b5ed2b",
+            "@cim:IdentifiedObject.name": "IGM Convergence",
+            "@cim:IdentifiedObject.description": "CGM Process - IGM Convergence check before merging to CGM",
+            "@cim:PowerFlowSettings.loadVoltageDependency": "false",
+            "@cim:PowerFlowSettings.algorithmKind": {
+                "@id": "@cim:PowerFlowAlgorithmKind.fullNewtonRaphson"
+            },
+            "@cim:PowerFlowSettings.flatStart": "true",
+            "@cim:PowerFlowSettings.activePowerTolerance": "0.1",
+            "@cim:PowerFlowSettings.reactivePowerTolerance": "0.1",
+            "@cim:PowerFlowSettings.voltageTolerance": "0.0001",
+            "@cim:PowerFlowSettings.voltageAngleLimit": "10",
+            "@cim:PowerFlowSettings.impedanceThreshold": "1e-05",
+            "@cim:PowerFlowSettings.respectActivePowerLimits": "true",
+            "@cim:PowerFlowSettings.respectReactivePowerLimits": "true",
+            "@cim:PowerFlowSettings.transformerRatioTapControlPriority": "1",
+            "@cim:PowerFlowSettings.transformerPhaseTapControlPriority": "1",
+            "@cim:PowerFlowSettings.switchedShuntControlPriority": "2",
+            "@cim:PowerFlowSettings.staticVarCompensatorControlPriority": "2",
+            "@cim:PowerFlowSettings.slackDistributionKind": {
+                "@id": "@cim:SlackDistributionKind.generationDistributionParticipationFactor"
+            },
+            "@cim:PowerFlowSettings.interchangeControlEnabled": "false",
+            "@eumd:PowerFlowSettings.maxIterationNumber": "20",
+            "@skos:prefLabel": "IGM Convergence",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "CGM Process - IGM Convergence check before merging to CGM"
+            },
+            "@dcterms:identifier": "urn:uuid:9fe9b47b-468f-488a-bf35-0cf998b5ed2b",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/PowerFlowSettings"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/PowerFlowSettings",
+            "@type": [
+                "@skos:ConceptScheme",
+                "@dcat:Dataset"
+            ],
+            "@dcterms:modified": "2022-09-16T13:18:37.985254",
+            "@dcat:version": "1",
+            "@skos:prefLabel": "PowerFlowSettings",
+            "@dcterms:identifier": "urn:uuid:aaed01a1-fff7-49aa-a5f2-df07c05e16a9",
+            "@dcat:keyword": "PFS",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "List of commonly used Power Flow Settings"
+            }
+        },
+        {
             "@id": "http://energy.referencedata.eu/PowerFlowSettings/0722a865-678e-4539-99a3-460e42d87b39",
             "@type": [
                 "@skos:Concept",
@@ -173,22 +189,6 @@
             },
             "@skos:topConceptOf": {
                 "@id": "http://energy.referencedata.eu/PowerFlowSettings"
-            }
-        },
-        {
-            "@id": "http://energy.referencedata.eu/PowerFlowSettings",
-            "@type": [
-                "@skos:ConceptScheme",
-                "@dcat:Dataset"
-            ],
-            "@dcterms:modified": "2022-09-16T13:18:37.985254",
-            "@dcat:version": "1",
-            "@skos:prefLabel": "PowerFlowSettings",
-            "@dcterms:identifier": "urn:uuid:aaed01a1-fff7-49aa-a5f2-df07c05e16a9",
-            "@dcat:keyword": "PFS",
-            "@skos:definition": {
-                "@language": "en",
-                "@value": "List of commonly used Power Flow Settings"
             }
         }
     ],

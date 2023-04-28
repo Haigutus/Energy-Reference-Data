@@ -1,0 +1,152 @@
+{
+    "@graph": [
+        {
+            "@id": "http://energy.referencedata.eu/Confidentiality",
+            "@type": [
+                "@skos:ConceptScheme",
+                "@dcat:Dataset"
+            ],
+            "@dcterms:modified": "2022-11-25T07:30:00.000",
+            "@dcat:version": "1",
+            "@skos:prefLabel": "Confidentiality",
+            "@dcterms:identifier": "urn:uuid:4d19c86f-884e-4e94-b8b5-386655d2fcb2",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "List of commonly used confidentiality categories"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab",
+            "@type": "@skos:Concept",
+            "@dcterms:identifier": "urn:uuid:ec8c443e-edab-4256-80b2-4a7824f754ab",
+            "@skos:prefLabel": "OPDE Secret",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "OPDE Secret"
+            },
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/Confidentiality/51378918-8ef6-4cce-9711-4af4539f1ef5",
+            "@type": "@skos:Concept",
+            "@dcterms:identifier": "urn:uuid:51378918-8ef6-4cce-9711-4af4539f1ef5",
+            "@skos:prefLabel": "Confidential",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade."
+            },
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:exactMatch": {
+                "@id": "http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90",
+            "@type": "@skos:Concept",
+            "@dcterms:identifier": "urn:uuid:0080531c-fa18-4d51-8832-4bcbced77c90",
+            "@skos:prefLabel": "Public",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys."
+            },
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:exactMatch": {
+                "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/Confidentiality/c28079e4-02ba-4a08-9093-8247ebe57f21",
+            "@type": "@skos:Concept",
+            "@dcterms:identifier": "urn:uuid:c28079e4-02ba-4a08-9093-8247ebe57f21",
+            "@skos:prefLabel": "Sensitive",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information."
+            },
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:exactMatch": {
+                "@id": "http://publications.europa.eu/resource/authority/access-right/SENSITIVE"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c",
+            "@type": "@skos:Concept",
+            "@dcterms:identifier": "urn:uuid:251e7f88-dbd3-48e0-aea6-669f8cd67e8c",
+            "@skos:prefLabel": "OPC/STA Confidential",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "OPC/STA Confidential"
+            },
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/Confidentiality/4cd9b326-1275-4da7-9724-28c5e1deeb87",
+            "@type": "@skos:Concept",
+            "@dcterms:identifier": "urn:uuid:4cd9b326-1275-4da7-9724-28c5e1deeb87",
+            "@skos:prefLabel": "OPDE Confidential",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "OPDE Confidential"
+            },
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/Confidentiality/ef58471e-08a0-4c8b-b488-3e5ef4a21422",
+            "@type": "@skos:Concept",
+            "@dcterms:identifier": "urn:uuid:ef58471e-08a0-4c8b-b488-3e5ef4a21422",
+            "@skos:prefLabel": "Restricted",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released."
+            },
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/Confidentiality"
+            },
+            "@skos:exactMatch": {
+                "@id": "http://publications.europa.eu/resource/authority/access-right/RESTRICTED"
+            }
+        }
+    ],
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/2a540119-044d-4096-b6af-fa2bbf6c629e> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Also includes components installed in places against manufacturer recommendations and insufficient monitoring. If the cause is insufficient monitoring, and monitoring is included in the routines or instructions, it should be reported as instructions not followed." ;
+    cim:IdentifiedObject.mRID "2a540119-044d-4096-b6af-fa2bbf6c629e" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.instructionsNotFollowed" ;
+    dcterms:identifier "urn:uuid:2a540119-044d-4096-b6af-fa2bbf6c629e" ;
+    skos:definition "Also includes components installed in places against manufacturer recommendations and insufficient monitoring. If the cause is insufficient monitoring, and monitoring is included in the routines or instructions, it should be reported as instructions not followed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.instructionsNotFollowed" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

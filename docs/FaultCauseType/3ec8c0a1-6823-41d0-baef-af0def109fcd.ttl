@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/3ec8c0a1-6823-41d0-baef-af0def109fcd> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "3ec8c0a1-6823-41d0-baef-af0def109fcd" ;
+    cim:IdentifiedObject.name "environmental.pollution" ;
+    dcterms:identifier "urn:uuid:3ec8c0a1-6823-41d0-baef-af0def109fcd" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.pollution" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

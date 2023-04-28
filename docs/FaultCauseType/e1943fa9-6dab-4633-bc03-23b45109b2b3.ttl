@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/e1943fa9-6dab-4633-bc03-23b45109b2b3> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Deficient routines, instructions, procedures etc. that cause a fault. If the cause is insufficient monitoring, and monitoring is not included in the routines or instructions, it should be reported as deficient routines or instructions." ;
+    cim:IdentifiedObject.mRID "e1943fa9-6dab-4633-bc03-23b45109b2b3" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.deficientRoutinesOrInstructions" ;
+    dcterms:identifier "urn:uuid:e1943fa9-6dab-4633-bc03-23b45109b2b3" ;
+    skos:definition "Deficient routines, instructions, procedures etc. that cause a fault. If the cause is insufficient monitoring, and monitoring is not included in the routines or instructions, it should be reported as deficient routines or instructions."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.deficientRoutinesOrInstructions" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/ad8c5b33-10b4-40ab-bda7-43ce6c4889ab">
+    <cim:IdentifiedObject.mRID>ad8c5b33-10b4-40ab-bda7-43ce6c4889ab</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>environmental.temperature.highAmbient</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>High ambient temperature due to external temperature.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>environmental.temperature.highAmbient</skos:prefLabel>
+    <skos:definition xml:lang="en">High ambient temperature due to external temperature.</skos:definition>
+    <dcterms:identifier>urn:uuid:ad8c5b33-10b4-40ab-bda7-43ce6c4889ab</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

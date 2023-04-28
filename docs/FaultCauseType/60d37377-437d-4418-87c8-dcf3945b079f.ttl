@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/60d37377-437d-4418-87c8-dcf3945b079f> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Includes, for example, natural disasters, solar flares and other rare environmental causes." ;
+    cim:IdentifiedObject.mRID "60d37377-437d-4418-87c8-dcf3945b079f" ;
+    cim:IdentifiedObject.name "environmental.other" ;
+    dcterms:identifier "urn:uuid:60d37377-437d-4418-87c8-dcf3945b079f" ;
+    skos:definition "Includes, for example, natural disasters, solar flares and other rare environmental causes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.other" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

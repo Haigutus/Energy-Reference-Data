@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/540f6a96-338f-480d-8cdd-a9746545dba2> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "540f6a96-338f-480d-8cdd-a9746545dba2" ;
+    cim:IdentifiedObject.name "externalInfluences.humanThirdParty" ;
+    dcterms:identifier "urn:uuid:540f6a96-338f-480d-8cdd-a9746545dba2" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences.humanThirdParty" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

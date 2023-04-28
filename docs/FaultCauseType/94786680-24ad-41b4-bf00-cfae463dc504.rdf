@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/94786680-24ad-41b4-bf00-cfae463dc504">
+    <cim:IdentifiedObject.mRID>94786680-24ad-41b4-bf00-cfae463dc504</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>externalInfluences</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>External influences are causes caused by third parties, that is, parties that are not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system, foreign objects, and animals.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>externalInfluences</skos:prefLabel>
+    <skos:definition xml:lang="en">External influences are causes caused by third parties, that is, parties that are not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system, foreign objects, and animals.</skos:definition>
+    <dcterms:identifier>urn:uuid:94786680-24ad-41b4-bf00-cfae463dc504</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/e0ad1933-1448-48cf-aa91-c53a5960c39b> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "e0ad1933-1448-48cf-aa91-c53a5960c39b" ;
+    cim:IdentifiedObject.name "technical.equipment.wearTear" ;
+    dcterms:identifier "urn:uuid:e0ad1933-1448-48cf-aa91-c53a5960c39b" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.wearTear" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

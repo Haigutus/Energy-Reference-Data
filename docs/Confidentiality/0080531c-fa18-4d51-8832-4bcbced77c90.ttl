@@ -1,0 +1,11 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90> a skos:Concept ;
+    dcterms:identifier "urn:uuid:0080531c-fa18-4d51-8832-4bcbced77c90" ;
+    skos:definition "Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys."@en ;
+    skos:exactMatch <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    skos:inScheme <http://energy.referencedata.eu/Confidentiality> ;
+    skos:prefLabel "Public" ;
+    skos:topConceptOf <http://energy.referencedata.eu/Confidentiality> .
+

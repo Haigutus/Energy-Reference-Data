@@ -1,0 +1,1779 @@
+{
+    "@graph": [
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/6bf83d88-aa17-4999-9b6f-f3adf9a4e976",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "6bf83d88-aa17-4999-9b6f-f3adf9a4e976",
+            "@cim:IdentifiedObject.name": "technical.equipment.communication",
+            "@cim:IdentifiedObject.description": "Telecommunication errors. Faults on, for example, SCADA or RTU should be reported as a fault with the fault location SCADA or RTU.",
+            "@skos:prefLabel": "technical.equipment.communication",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Telecommunication errors. Faults on, for example, SCADA or RTU should be reported as a fault with the fault location SCADA or RTU."
+            },
+            "@dcterms:identifier": "urn:uuid:6bf83d88-aa17-4999-9b6f-f3adf9a4e976",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/04d1eded-d2d2-4ae9-8951-7be375b49e89",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "04d1eded-d2d2-4ae9-8951-7be375b49e89",
+            "@cim:IdentifiedObject.name": "environmental.waterIce.moistureRainHail",
+            "@cim:IdentifiedObject.description": "Fault causes due to water elements with a temperature above the freezing point. Includes, for example, moisture ingress, fog.",
+            "@skos:prefLabel": "environmental.waterIce.moistureRainHail",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Fault causes due to water elements with a temperature above the freezing point. Includes, for example, moisture ingress, fog."
+            },
+            "@dcterms:identifier": "urn:uuid:04d1eded-d2d2-4ae9-8951-7be375b49e89",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c",
+            "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.other",
+            "@cim:IdentifiedObject.description": "Includes other faults due to third party humans, for example, flashover or emergency disconnection due to humans climbing up power pylons.",
+            "@skos:prefLabel": "externalInfluences.humanThirdParty.other",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Includes other faults due to third party humans, for example, flashover or emergency disconnection due to humans climbing up power pylons."
+            },
+            "@dcterms:identifier": "urn:uuid:78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/af5594ba-241b-444f-bac5-23b808a5c707",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "af5594ba-241b-444f-bac5-23b808a5c707",
+            "@cim:IdentifiedObject.name": "externalInfluences.foreignObjects",
+            "@skos:prefLabel": "externalInfluences.foreignObjects",
+            "@dcterms:identifier": "urn:uuid:af5594ba-241b-444f-bac5-23b808a5c707",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/c36e2936-9788-4297-89c1-c0bbbdb0596f",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "c36e2936-9788-4297-89c1-c0bbbdb0596f",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.incorrectManualOperation",
+            "@cim:IdentifiedObject.description": "Includes, for example, wrongful dispatching.",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.incorrectManualOperation",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Includes, for example, wrongful dispatching."
+            },
+            "@dcterms:identifier": "urn:uuid:c36e2936-9788-4297-89c1-c0bbbdb0596f",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/f3bdc787-57e9-47f7-b421-e375150bf753",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "f3bdc787-57e9-47f7-b421-e375150bf753",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.changeOfLoad",
+            "@cim:IdentifiedObject.description": "This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.changeOfLoad",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:f3bdc787-57e9-47f7-b421-e375150bf753",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "bda46d8e-9515-4678-a6c9-dd62be9c5deb",
+            "@cim:IdentifiedObject.name": "environmental.temperature",
+            "@skos:prefLabel": "environmental.temperature",
+            "@dcterms:identifier": "urn:uuid:bda46d8e-9515-4678-a6c9-dd62be9c5deb",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.islanding",
+            "@cim:IdentifiedObject.description": "Even if islanding is not a fault by itself, it may be a cause and consequence that leads to other faults in the power system. It is therefore included under Operation and maintenance > Operations.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.islanding",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Even if islanding is not a fault by itself, it may be a cause and consequence that leads to other faults in the power system. It is therefore included under Operation and maintenance > Operations."
+            },
+            "@dcterms:identifier": "urn:uuid:ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11",
+            "@cim:IdentifiedObject.name": "environmental.pollution.air",
+            "@skos:prefLabel": "environmental.pollution.air",
+            "@dcterms:identifier": "urn:uuid:8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/71245205-9ed1-4962-93ab-a9e226b92863",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "71245205-9ed1-4962-93ab-a9e226b92863",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.harmonics",
+            "@cim:IdentifiedObject.description": "This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.harmonics",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:71245205-9ed1-4962-93ab-a9e226b92863",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/dc74466d-5115-475c-a90c-ff103487b3e0",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "dc74466d-5115-475c-a90c-ff103487b3e0",
+            "@cim:IdentifiedObject.name": "environmental.pollution.ashParticles",
+            "@skos:prefLabel": "environmental.pollution.ashParticles",
+            "@dcterms:identifier": "urn:uuid:dc74466d-5115-475c-a90c-ff103487b3e0",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/865cfac4-9b26-4026-8e12-8d63175603ac",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "865cfac4-9b26-4026-8e12-8d63175603ac",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.faultyProtectionRelayScheme",
+            "@cim:IdentifiedObject.description": "Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme.",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.faultyProtectionRelayScheme",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme."
+            },
+            "@dcterms:identifier": "urn:uuid:865cfac4-9b26-4026-8e12-8d63175603ac",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/ac03c3d2-5d34-46a8-84c2-133fd6dbe45d",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "ac03c3d2-5d34-46a8-84c2-133fd6dbe45d",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel",
+            "@skos:prefLabel": "operationAndMaintenance.personnel",
+            "@dcterms:identifier": "urn:uuid:ac03c3d2-5d34-46a8-84c2-133fd6dbe45d",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/5be5b488-2bca-4876-bde5-65881df424b0",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "5be5b488-2bca-4876-bde5-65881df424b0",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.documentationError",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.documentationError",
+            "@dcterms:identifier": "urn:uuid:5be5b488-2bca-4876-bde5-65881df424b0",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/6e52d582-7d16-49f9-8f85-e6e8225434ba",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "6e52d582-7d16-49f9-8f85-e6e8225434ba",
+            "@cim:IdentifiedObject.name": "environmental.physicalSurroundings.vegetation",
+            "@cim:IdentifiedObject.description": "Includes, for example, tree toppling and other vegetation growth.\n\t\t\t",
+            "@skos:prefLabel": "environmental.physicalSurroundings.vegetation",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Includes, for example, tree toppling and other vegetation growth.\n\t\t\t"
+            },
+            "@dcterms:identifier": "urn:uuid:6e52d582-7d16-49f9-8f85-e6e8225434ba",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/51e4c6f2-1f41-4885-8d8f-44e3f6438e19",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "51e4c6f2-1f41-4885-8d8f-44e3f6438e19",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.undervoltageVoltageCollapse",
+            "@cim:IdentifiedObject.description": "This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.undervoltageVoltageCollapse",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:51e4c6f2-1f41-4885-8d8f-44e3f6438e19",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/307de251-d9b6-4c10-8a98-9b16a7d8e0cb",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "307de251-d9b6-4c10-8a98-9b16a7d8e0cb",
+            "@cim:IdentifiedObject.name": "technical.adjoiningGrid",
+            "@skos:prefLabel": "technical.adjoiningGrid",
+            "@dcterms:identifier": "urn:uuid:307de251-d9b6-4c10-8a98-9b16a7d8e0cb",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/0638044d-1262-4b6d-bb12-be34565b6977",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "0638044d-1262-4b6d-bb12-be34565b6977",
+            "@cim:IdentifiedObject.name": "technical.equipment.crackBreakage",
+            "@skos:prefLabel": "technical.equipment.crackBreakage",
+            "@dcterms:identifier": "urn:uuid:0638044d-1262-4b6d-bb12-be34565b6977",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/77be6f95-d7f8-4f14-aeee-1a8bab3d2916",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "77be6f95-d7f8-4f14-aeee-1a8bab3d2916",
+            "@cim:IdentifiedObject.name": "technical.equipment.corrosion",
+            "@skos:prefLabel": "technical.equipment.corrosion",
+            "@dcterms:identifier": "urn:uuid:77be6f95-d7f8-4f14-aeee-1a8bab3d2916",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/6ab2d89c-5911-486b-8049-88264a1092fc",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "6ab2d89c-5911-486b-8049-88264a1092fc",
+            "@cim:IdentifiedObject.name": "environmental.physicalSurroundings.landslidesAvalanche",
+            "@cim:IdentifiedObject.description": "Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snowslides (avalanches). Submarine landslides are also included.",
+            "@skos:prefLabel": "environmental.physicalSurroundings.landslidesAvalanche",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snowslides (avalanches). Submarine landslides are also included."
+            },
+            "@dcterms:identifier": "urn:uuid:6ab2d89c-5911-486b-8049-88264a1092fc",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/873155bb-7675-4fc3-8391-609461c3d174",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "873155bb-7675-4fc3-8391-609461c3d174",
+            "@cim:IdentifiedObject.name": "externalInfluences.animals.other",
+            "@skos:prefLabel": "externalInfluences.animals.other",
+            "@dcterms:identifier": "urn:uuid:873155bb-7675-4fc3-8391-609461c3d174",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/7c2ef4f5-3e11-4b29-8920-6ba18fba23be",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "7c2ef4f5-3e11-4b29-8920-6ba18fba23be",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.installationError",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.installationError",
+            "@dcterms:identifier": "urn:uuid:7c2ef4f5-3e11-4b29-8920-6ba18fba23be",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/527331e7-20ec-4454-8a31-c7aa564bfeba",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "527331e7-20ec-4454-8a31-c7aa564bfeba",
+            "@cim:IdentifiedObject.name": "externalInfluences.animals",
+            "@skos:prefLabel": "externalInfluences.animals",
+            "@dcterms:identifier": "urn:uuid:527331e7-20ec-4454-8a31-c7aa564bfeba",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/b750fc43-6329-4c9d-9513-f236b37e1e87",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "b750fc43-6329-4c9d-9513-f236b37e1e87",
+            "@cim:IdentifiedObject.name": "environmental.temperature.fires",
+            "@cim:IdentifiedObject.description": "Wildfires and other fire due to environmental causes (not human).",
+            "@skos:prefLabel": "environmental.temperature.fires",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Wildfires and other fire due to environmental causes (not human)."
+            },
+            "@dcterms:identifier": "urn:uuid:b750fc43-6329-4c9d-9513-f236b37e1e87",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/c1a6e942-9ed0-422d-97a7-0afbdaffa610",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "c1a6e942-9ed0-422d-97a7-0afbdaffa610",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.vibrationElectromechanical",
+            "@cim:IdentifiedObject.description": "Electromechanical vibration. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.vibrationElectromechanical",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Electromechanical vibration. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:c1a6e942-9ed0-422d-97a7-0afbdaffa610",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/041e2fb7-dd49-4609-9bc5-fe6df04b96cf",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "041e2fb7-dd49-4609-9bc5-fe6df04b96cf",
+            "@cim:IdentifiedObject.name": "technical.equipment.blockage",
+            "@skos:prefLabel": "technical.equipment.blockage",
+            "@dcterms:identifier": "urn:uuid:041e2fb7-dd49-4609-9bc5-fe6df04b96cf",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType",
+            "@type": [
+                "@skos:ConceptScheme",
+                "@dcat:Dataset"
+            ],
+            "@dcterms:modified": "2022-12-09T07:54:25.846827",
+            "@dcat:version": "1",
+            "@skos:prefLabel": "FaultCauseType",
+            "@dcterms:identifier": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4",
+            "@dcat:keyword": "RD",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "ENTSO-E Fault Cause Reference model"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/3d48ff25-3c44-4ee2-abc6-4809f3e43ca0",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "3d48ff25-3c44-4ee2-abc6-4809f3e43ca0",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.faultySettingsOrAdjustments",
+            "@cim:IdentifiedObject.description": "Includes, for example, relay settings that were wrongfully input or adjusted.",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.faultySettingsOrAdjustments",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Includes, for example, relay settings that were wrongfully input or adjusted."
+            },
+            "@dcterms:identifier": "urn:uuid:3d48ff25-3c44-4ee2-abc6-4809f3e43ca0",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/22a35799-b398-478c-9fda-b6e800dc5ff1",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "22a35799-b398-478c-9fda-b6e800dc5ff1",
+            "@cim:IdentifiedObject.name": "technical.equipment.designDimensioningError",
+            "@cim:IdentifiedObject.description": "Includes, for example, design and dimensioning errors, errors made during the investment project calculations.",
+            "@skos:prefLabel": "technical.equipment.designDimensioningError",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Includes, for example, design and dimensioning errors, errors made during the investment project calculations."
+            },
+            "@dcterms:identifier": "urn:uuid:22a35799-b398-478c-9fda-b6e800dc5ff1",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9",
+            "@cim:IdentifiedObject.name": "environmental.physicalSurroundings",
+            "@skos:prefLabel": "environmental.physicalSurroundings",
+            "@dcterms:identifier": "urn:uuid:9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/bea6bd0c-ca21-4de5-8e16-e524884bb8a3",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "bea6bd0c-ca21-4de5-8e16-e524884bb8a3",
+            "@cim:IdentifiedObject.name": "unknown",
+            "@skos:prefLabel": "unknown",
+            "@dcterms:identifier": "urn:uuid:bea6bd0c-ca21-4de5-8e16-e524884bb8a3",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/e57f023c-027d-4d75-8364-177690c8346b",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "e57f023c-027d-4d75-8364-177690c8346b",
+            "@cim:IdentifiedObject.name": "technical.equipment.discharges",
+            "@skos:prefLabel": "technical.equipment.discharges",
+            "@dcterms:identifier": "urn:uuid:e57f023c-027d-4d75-8364-177690c8346b",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/ad8c5b33-10b4-40ab-bda7-43ce6c4889ab",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "ad8c5b33-10b4-40ab-bda7-43ce6c4889ab",
+            "@cim:IdentifiedObject.name": "environmental.temperature.highAmbient",
+            "@cim:IdentifiedObject.description": "High ambient temperature due to external temperature.",
+            "@skos:prefLabel": "environmental.temperature.highAmbient",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "High ambient temperature due to external temperature."
+            },
+            "@dcterms:identifier": "urn:uuid:ad8c5b33-10b4-40ab-bda7-43ce6c4889ab",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/9ca7699a-e792-45ea-b40b-6b056e603143",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "9ca7699a-e792-45ea-b40b-6b056e603143",
+            "@cim:IdentifiedObject.name": "environmental.wind",
+            "@skos:prefLabel": "environmental.wind",
+            "@dcterms:identifier": "urn:uuid:9ca7699a-e792-45ea-b40b-6b056e603143",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "02ada721-1e81-49c9-8c1a-4c7561da8d2c",
+            "@cim:IdentifiedObject.name": [
+                "externalInfluences.humanThirdParty.constructionWork",
+                "operationAndMaintenance.personnel.constructionWork"
+            ],
+            "@cim:IdentifiedObject.description": "Any kind of third party construction work such as rock blasting, building construction, infrastructure building.",
+            "@skos:prefLabel": [
+                "externalInfluences.humanThirdParty.constructionWork",
+                "operationAndMaintenance.personnel.constructionWork"
+            ],
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Any kind of third party construction work such as rock blasting, building construction, infrastructure building."
+            },
+            "@dcterms:identifier": "urn:uuid:02ada721-1e81-49c9-8c1a-4c7561da8d2c",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/d1304c3d-0d07-4379-841d-d2ce47025498",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "d1304c3d-0d07-4379-841d-d2ce47025498",
+            "@cim:IdentifiedObject.name": "environmental.waterIce",
+            "@skos:prefLabel": "environmental.waterIce",
+            "@dcterms:identifier": "urn:uuid:d1304c3d-0d07-4379-841d-d2ce47025498",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/3a647504-e22a-49b7-969e-7e806e527e8a",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "3a647504-e22a-49b7-969e-7e806e527e8a",
+            "@cim:IdentifiedObject.name": "technical.equipment.contamination",
+            "@skos:prefLabel": "technical.equipment.contamination",
+            "@dcterms:identifier": "urn:uuid:3a647504-e22a-49b7-969e-7e806e527e8a",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/d9df5598-9383-4ea7-9063-6ffeea874b41",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "d9df5598-9383-4ea7-9063-6ffeea874b41",
+            "@cim:IdentifiedObject.name": "externalInfluences.other",
+            "@cim:IdentifiedObject.description": "Other causes due to external influences that do not fit under the other subcategories.",
+            "@skos:prefLabel": "externalInfluences.other",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Other causes due to external influences that do not fit under the other subcategories."
+            },
+            "@dcterms:identifier": "urn:uuid:d9df5598-9383-4ea7-9063-6ffeea874b41",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/cae54098-a3e2-45fd-a659-ed3f42539c31",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "cae54098-a3e2-45fd-a659-ed3f42539c31",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.insufficientProtectionRelayInstalled",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.insufficientProtectionRelayInstalled",
+            "@dcterms:identifier": "urn:uuid:cae54098-a3e2-45fd-a659-ed3f42539c31",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/06308d42-b5ed-46fc-bcda-d4d01028effd",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "06308d42-b5ed-46fc-bcda-d4d01028effd",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.oscillations",
+            "@cim:IdentifiedObject.description": "This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.oscillations",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:06308d42-b5ed-46fc-bcda-d4d01028effd",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0",
+            "@cim:IdentifiedObject.name": "technical.equipment.softwareHardwareError",
+            "@cim:IdentifiedObject.description": "Software and hardware errors that do not involve operational errors.",
+            "@skos:prefLabel": "technical.equipment.softwareHardwareError",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Software and hardware errors that do not involve operational errors."
+            },
+            "@dcterms:identifier": "urn:uuid:ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/60d37377-437d-4418-87c8-dcf3945b079f",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "60d37377-437d-4418-87c8-dcf3945b079f",
+            "@cim:IdentifiedObject.name": "environmental.other",
+            "@cim:IdentifiedObject.description": "Includes, for example, natural disasters, solar flares and other rare environmental causes.",
+            "@skos:prefLabel": "environmental.other",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Includes, for example, natural disasters, solar flares and other rare environmental causes."
+            },
+            "@dcterms:identifier": "urn:uuid:60d37377-437d-4418-87c8-dcf3945b079f",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/81d22f06-0b56-4656-a4c4-a868c79c9865",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "81d22f06-0b56-4656-a4c4-a868c79c9865",
+            "@cim:IdentifiedObject.name": "externalInfluences.animals.birds",
+            "@skos:prefLabel": "externalInfluences.animals.birds",
+            "@dcterms:identifier": "urn:uuid:81d22f06-0b56-4656-a4c4-a868c79c9865",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/fccda3ac-6e0c-47fc-9591-d1297f46c0c5",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "fccda3ac-6e0c-47fc-9591-d1297f46c0c5",
+            "@cim:IdentifiedObject.name": "technical.equipment.leakage",
+            "@skos:prefLabel": "technical.equipment.leakage",
+            "@dcterms:identifier": "urn:uuid:fccda3ac-6e0c-47fc-9591-d1297f46c0c5",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/0f90e893-5d5f-4a4e-9298-fd003ff67f5d",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "0f90e893-5d5f-4a4e-9298-fd003ff67f5d",
+            "@cim:IdentifiedObject.name": "technical.faultOnOtherComponent",
+            "@cim:IdentifiedObject.description": "Causes not due to faults in the component itself",
+            "@skos:prefLabel": "technical.faultOnOtherComponent",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Causes not due to faults in the component itself"
+            },
+            "@dcterms:identifier": "urn:uuid:0f90e893-5d5f-4a4e-9298-fd003ff67f5d",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/7e1b22f6-fd21-4e12-937f-6cb17c1a9940",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "7e1b22f6-fd21-4e12-937f-6cb17c1a9940",
+            "@cim:IdentifiedObject.name": "technical.other",
+            "@cim:IdentifiedObject.description": "Other technical causes that do not fit under the other subcategories.",
+            "@skos:prefLabel": "technical.other",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Other technical causes that do not fit under the other subcategories."
+            },
+            "@dcterms:identifier": "urn:uuid:7e1b22f6-fd21-4e12-937f-6cb17c1a9940",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/540f6a96-338f-480d-8cdd-a9746545dba2",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "540f6a96-338f-480d-8cdd-a9746545dba2",
+            "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty",
+            "@skos:prefLabel": "externalInfluences.humanThirdParty",
+            "@dcterms:identifier": "urn:uuid:540f6a96-338f-480d-8cdd-a9746545dba2",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/5f8933b2-70c0-48cf-8cbf-55b2f36ba475",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "5f8933b2-70c0-48cf-8cbf-55b2f36ba475",
+            "@cim:IdentifiedObject.name": "technical.adjoiningGrid.atOrAbove_100KV",
+            "@cim:IdentifiedObject.description": "Fault due to other component in the grid at 100 kV or above.",
+            "@skos:prefLabel": "technical.adjoiningGrid.atOrAbove_100KV",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Fault due to other component in the grid at 100 kV or above."
+            },
+            "@dcterms:identifier": "urn:uuid:5f8933b2-70c0-48cf-8cbf-55b2f36ba475",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/7647ea49-8129-414a-81d2-683e959723ea",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "7647ea49-8129-414a-81d2-683e959723ea",
+            "@cim:IdentifiedObject.name": "technical.equipment",
+            "@skos:prefLabel": "technical.equipment",
+            "@dcterms:identifier": "urn:uuid:7647ea49-8129-414a-81d2-683e959723ea",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/d1b907e4-a210-419f-a64a-f1601e0dde09",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "d1b907e4-a210-419f-a64a-f1601e0dde09",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.overload",
+            "@cim:IdentifiedObject.description": "Also overheating due to overload. This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.overload",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Also overheating due to overload. This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:d1b907e4-a210-419f-a64a-f1601e0dde09",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/04991d18-8994-43cb-88e1-8d2af5a61577",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "04991d18-8994-43cb-88e1-8d2af5a61577",
+            "@cim:IdentifiedObject.name": "technical.equipment.aging",
+            "@skos:prefLabel": "technical.equipment.aging",
+            "@dcterms:identifier": "urn:uuid:04991d18-8994-43cb-88e1-8d2af5a61577",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/1485acaf-d2cb-4e02-9c5e-29e9452e743f",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "1485acaf-d2cb-4e02-9c5e-29e9452e743f",
+            "@cim:IdentifiedObject.name": "technical.equipment.rotDamage",
+            "@skos:prefLabel": "technical.equipment.rotDamage",
+            "@dcterms:identifier": "urn:uuid:1485acaf-d2cb-4e02-9c5e-29e9452e743f",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/82cbc4cd-554f-4f09-ad48-e00fdd95d2b5",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "82cbc4cd-554f-4f09-ad48-e00fdd95d2b5",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations",
+            "@skos:prefLabel": "operationAndMaintenance.operations",
+            "@dcterms:identifier": "urn:uuid:82cbc4cd-554f-4f09-ad48-e00fdd95d2b5",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "389299f2-c3ee-4eb5-b34c-6df7b87470e9",
+            "@cim:IdentifiedObject.name": [
+                "externalInfluences.humanThirdParty.logging",
+                "operationAndMaintenance.personnel.logging"
+            ],
+            "@cim:IdentifiedObject.description": "Any kind of third party logging and tree felling.",
+            "@skos:prefLabel": [
+                "externalInfluences.humanThirdParty.logging",
+                "operationAndMaintenance.personnel.logging"
+            ],
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Any kind of third party logging and tree felling."
+            },
+            "@dcterms:identifier": "urn:uuid:389299f2-c3ee-4eb5-b34c-6df7b87470e9",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/89b98b08-ed03-4964-bf32-72c0cad8ad69",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "89b98b08-ed03-4964-bf32-72c0cad8ad69",
+            "@cim:IdentifiedObject.name": "environmental",
+            "@cim:IdentifiedObject.description": "Environmental causes are external causes due to environmental effects.",
+            "@skos:prefLabel": "environmental",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Environmental causes are external causes due to environmental effects."
+            },
+            "@dcterms:identifier": "urn:uuid:89b98b08-ed03-4964-bf32-72c0cad8ad69",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/fd7bce20-cd68-4366-9db7-2815156ed3b2",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "fd7bce20-cd68-4366-9db7-2815156ed3b2",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.commissioningTesting",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.commissioningTesting",
+            "@dcterms:identifier": "urn:uuid:fd7bce20-cd68-4366-9db7-2815156ed3b2",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/456ac068-5c16-45e4-8d3e-108333de9344",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "456ac068-5c16-45e4-8d3e-108333de9344",
+            "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.fireExplosion",
+            "@skos:prefLabel": "externalInfluences.humanThirdParty.fireExplosion",
+            "@dcterms:identifier": "urn:uuid:456ac068-5c16-45e4-8d3e-108333de9344",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/e1943fa9-6dab-4633-bc03-23b45109b2b3",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "e1943fa9-6dab-4633-bc03-23b45109b2b3",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.deficientRoutinesOrInstructions",
+            "@cim:IdentifiedObject.description": "Deficient routines, instructions, procedures etc. that cause a fault. If the cause is insufficient monitoring, and monitoring is not included in the routines or instructions, it should be reported as deficient routines or instructions.",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.deficientRoutinesOrInstructions",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Deficient routines, instructions, procedures etc. that cause a fault. If the cause is insufficient monitoring, and monitoring is not included in the routines or instructions, it should be reported as deficient routines or instructions."
+            },
+            "@dcterms:identifier": "urn:uuid:e1943fa9-6dab-4633-bc03-23b45109b2b3",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595",
+            "@cim:IdentifiedObject.name": "environmental.pollution.salt",
+            "@skos:prefLabel": "environmental.pollution.salt",
+            "@dcterms:identifier": "urn:uuid:6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/f287b5cb-af83-4dfc-a0bf-15c3a6adb403",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "f287b5cb-af83-4dfc-a0bf-15c3a6adb403",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.overvoltage",
+            "@cim:IdentifiedObject.description": "This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.overvoltage",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:f287b5cb-af83-4dfc-a0bf-15c3a6adb403",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/ce8c4614-d014-4419-9f2c-99925ba93328",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "ce8c4614-d014-4419-9f2c-99925ba93328",
+            "@cim:IdentifiedObject.name": "technical",
+            "@skos:prefLabel": "technical",
+            "@dcterms:identifier": "urn:uuid:ce8c4614-d014-4419-9f2c-99925ba93328",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/a2c170ac-5d5a-4673-a102-a548ab35c5e2",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "a2c170ac-5d5a-4673-a102-a548ab35c5e2",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.changeOfGeneration",
+            "@cim:IdentifiedObject.description": "This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.changeOfGeneration",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:a2c170ac-5d5a-4673-a102-a548ab35c5e2",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "59ee68fb-28e8-4ac6-9c29-69a02c892742",
+            "@cim:IdentifiedObject.name": [
+                "externalInfluences.humanThirdParty.diggingExcavation",
+                "operationAndMaintenance.personnel.diggingExcavation"
+            ],
+            "@cim:IdentifiedObject.description": "Any kind of third party digging or excavation.",
+            "@skos:prefLabel": [
+                "externalInfluences.humanThirdParty.diggingExcavation",
+                "operationAndMaintenance.personnel.diggingExcavation"
+            ],
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Any kind of third party digging or excavation."
+            },
+            "@dcterms:identifier": "urn:uuid:59ee68fb-28e8-4ac6-9c29-69a02c892742",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/84687704-3b79-4f17-ae3c-26339a6bba6b",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "84687704-3b79-4f17-ae3c-26339a6bba6b",
+            "@cim:IdentifiedObject.name": "environmental.waterIce.snowIce",
+            "@cim:IdentifiedObject.description": "Includes, for example, frost heave.",
+            "@skos:prefLabel": "environmental.waterIce.snowIce",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Includes, for example, frost heave."
+            },
+            "@dcterms:identifier": "urn:uuid:84687704-3b79-4f17-ae3c-26339a6bba6b",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a",
+            "@cim:IdentifiedObject.name": [
+                "externalInfluences.humanThirdParty.trafficDamage",
+                "operationAndMaintenance.personnel.trafficDamage"
+            ],
+            "@cim:IdentifiedObject.description": [
+                "Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects.",
+                "Includes land, sea and air traffic and off-road."
+            ],
+            "@skos:prefLabel": [
+                "externalInfluences.humanThirdParty.trafficDamage",
+                "operationAndMaintenance.personnel.trafficDamage"
+            ],
+            "@skos:definition": [
+                {
+                    "@language": "en",
+                    "@value": "Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects."
+                },
+                {
+                    "@language": "en",
+                    "@value": "Includes land, sea and air traffic and off-road."
+                }
+            ],
+            "@dcterms:identifier": "urn:uuid:9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/9eb57f55-c6b2-4df1-a411-128aeac5aa6d",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "9eb57f55-c6b2-4df1-a411-128aeac5aa6d",
+            "@cim:IdentifiedObject.name": "technical.faultOnOtherComponent.other",
+            "@skos:prefLabel": "technical.faultOnOtherComponent.other",
+            "@dcterms:identifier": "urn:uuid:9eb57f55-c6b2-4df1-a411-128aeac5aa6d",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/2a540119-044d-4096-b6af-fa2bbf6c629e",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "2a540119-044d-4096-b6af-fa2bbf6c629e",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.instructionsNotFollowed",
+            "@cim:IdentifiedObject.description": "Also includes components installed in places against manufacturer recommendations and insufficient monitoring. If the cause is insufficient monitoring, and monitoring is included in the routines or instructions, it should be reported as instructions not followed.",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.instructionsNotFollowed",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Also includes components installed in places against manufacturer recommendations and insufficient monitoring. If the cause is insufficient monitoring, and monitoring is included in the routines or instructions, it should be reported as instructions not followed."
+            },
+            "@dcterms:identifier": "urn:uuid:2a540119-044d-4096-b6af-fa2bbf6c629e",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/9208d5a8-558c-4878-9183-aed6becbd40a",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "9208d5a8-558c-4878-9183-aed6becbd40a",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.gallopingMechanical",
+            "@cim:IdentifiedObject.description": "Mechanical galloping. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault.",
+            "@skos:prefLabel": "operationAndMaintenance.operations.gallopingMechanical",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Mechanical galloping. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault."
+            },
+            "@dcterms:identifier": "urn:uuid:9208d5a8-558c-4878-9183-aed6becbd40a",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/574ad0d5-1610-47a2-bca7-4e586fb3be2b",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "574ad0d5-1610-47a2-bca7-4e586fb3be2b",
+            "@cim:IdentifiedObject.name": "environmental.lightning",
+            "@skos:prefLabel": "environmental.lightning",
+            "@dcterms:identifier": "urn:uuid:574ad0d5-1610-47a2-bca7-4e586fb3be2b",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/506f89b7-f061-443f-b05a-8c22fa33127a",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "506f89b7-f061-443f-b05a-8c22fa33127a",
+            "@cim:IdentifiedObject.name": "technical.equipment.damagedPart",
+            "@skos:prefLabel": "technical.equipment.damagedPart",
+            "@dcterms:identifier": "urn:uuid:506f89b7-f061-443f-b05a-8c22fa33127a",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/f0678796-efba-4252-a16b-1a4094b90917",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "f0678796-efba-4252-a16b-1a4094b90917",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.deficientMaintenance",
+            "@skos:prefLabel": "operationAndMaintenance.personnel.deficientMaintenance",
+            "@dcterms:identifier": "urn:uuid:f0678796-efba-4252-a16b-1a4094b90917",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/75b740f4-9080-461c-ac9a-e6318cffc5e3",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "75b740f4-9080-461c-ac9a-e6318cffc5e3",
+            "@cim:IdentifiedObject.name": "technical.equipment.erosion",
+            "@skos:prefLabel": "technical.equipment.erosion",
+            "@dcterms:identifier": "urn:uuid:75b740f4-9080-461c-ac9a-e6318cffc5e3",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/93992f35-49b1-4bcd-93a8-a2d16233385e",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "93992f35-49b1-4bcd-93a8-a2d16233385e",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance",
+            "@skos:prefLabel": "operationAndMaintenance",
+            "@dcterms:identifier": "urn:uuid:93992f35-49b1-4bcd-93a8-a2d16233385e",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/15b33d52-9e7f-4f11-bee8-8a481761837c",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "15b33d52-9e7f-4f11-bee8-8a481761837c",
+            "@cim:IdentifiedObject.name": "environmental.temperature.lowAmbient",
+            "@cim:IdentifiedObject.description": "Low ambient temperature due to external temperature.",
+            "@skos:prefLabel": "environmental.temperature.lowAmbient",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Low ambient temperature due to external temperature."
+            },
+            "@dcterms:identifier": "urn:uuid:15b33d52-9e7f-4f11-bee8-8a481761837c",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/baec6ee9-3d37-4aa9-8ff5-0f4f8547432b",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "baec6ee9-3d37-4aa9-8ff5-0f4f8547432b",
+            "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.cyberAttack",
+            "@skos:prefLabel": "externalInfluences.humanThirdParty.cyberAttack",
+            "@dcterms:identifier": "urn:uuid:baec6ee9-3d37-4aa9-8ff5-0f4f8547432b",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f",
+            "@cim:IdentifiedObject.name": "technical.equipment.looseElectricalContactPoint",
+            "@skos:prefLabel": "technical.equipment.looseElectricalContactPoint",
+            "@dcterms:identifier": "urn:uuid:f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/e0ad1933-1448-48cf-aa91-c53a5960c39b",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "e0ad1933-1448-48cf-aa91-c53a5960c39b",
+            "@cim:IdentifiedObject.name": "technical.equipment.wearTear",
+            "@skos:prefLabel": "technical.equipment.wearTear",
+            "@dcterms:identifier": "urn:uuid:e0ad1933-1448-48cf-aa91-c53a5960c39b",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/c2083d59-b5c8-43b0-a334-3d83a8c338aa",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "c2083d59-b5c8-43b0-a334-3d83a8c338aa",
+            "@cim:IdentifiedObject.name": "environmental.physicalSurroundings.flood",
+            "@cim:IdentifiedObject.description": "Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party.",
+            "@skos:prefLabel": "environmental.physicalSurroundings.flood",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party."
+            },
+            "@dcterms:identifier": "urn:uuid:c2083d59-b5c8-43b0-a334-3d83a8c338aa",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/94786680-24ad-41b4-bf00-cfae463dc504",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "94786680-24ad-41b4-bf00-cfae463dc504",
+            "@cim:IdentifiedObject.name": "externalInfluences",
+            "@cim:IdentifiedObject.description": "External influences are causes caused by third parties, that is, parties that are not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system, foreign objects, and animals.",
+            "@skos:prefLabel": "externalInfluences",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "External influences are causes caused by third parties, that is, parties that are not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system, foreign objects, and animals."
+            },
+            "@dcterms:identifier": "urn:uuid:94786680-24ad-41b4-bf00-cfae463dc504",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/f39e9c18-e979-4c9a-b551-3070fec7f9b4",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "f39e9c18-e979-4c9a-b551-3070fec7f9b4",
+            "@cim:IdentifiedObject.name": "technical.equipment.cavitation",
+            "@cim:IdentifiedObject.description": "Faults due to cavitation in, for example, water turbines at hydro plants.",
+            "@skos:prefLabel": "technical.equipment.cavitation",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Faults due to cavitation in, for example, water turbines at hydro plants."
+            },
+            "@dcterms:identifier": "urn:uuid:f39e9c18-e979-4c9a-b551-3070fec7f9b4",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/ddad843a-7da8-405c-9baf-dca66921f828",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "ddad843a-7da8-405c-9baf-dca66921f828",
+            "@cim:IdentifiedObject.name": "environmental.wind.unfavourableDirection",
+            "@skos:prefLabel": "environmental.wind.unfavourableDirection",
+            "@dcterms:identifier": "urn:uuid:ddad843a-7da8-405c-9baf-dca66921f828",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/40bb349a-e86b-46b2-8b3c-cdbac0b5bb61",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "40bb349a-e86b-46b2-8b3c-cdbac0b5bb61",
+            "@cim:IdentifiedObject.name": "technical.equipment.manufacturingError",
+            "@cim:IdentifiedObject.description": "For example, errors during the production of a component or during the construction phase of a power pylon.",
+            "@skos:prefLabel": "technical.equipment.manufacturingError",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "For example, errors during the production of a component or during the construction phase of a power pylon."
+            },
+            "@dcterms:identifier": "urn:uuid:40bb349a-e86b-46b2-8b3c-cdbac0b5bb61",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/3ec8c0a1-6823-41d0-baef-af0def109fcd",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "3ec8c0a1-6823-41d0-baef-af0def109fcd",
+            "@cim:IdentifiedObject.name": "environmental.pollution",
+            "@skos:prefLabel": "environmental.pollution",
+            "@dcterms:identifier": "urn:uuid:3ec8c0a1-6823-41d0-baef-af0def109fcd",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/650891dc-1f0f-410a-95d9-7ba5b56f59da",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "650891dc-1f0f-410a-95d9-7ba5b56f59da",
+            "@cim:IdentifiedObject.name": "operationAndMaintenance.other",
+            "@cim:IdentifiedObject.description": "Other operation and maintenance causes that do not fit under the other subcategories.",
+            "@skos:prefLabel": "operationAndMaintenance.other",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Other operation and maintenance causes that do not fit under the other subcategories."
+            },
+            "@dcterms:identifier": "urn:uuid:650891dc-1f0f-410a-95d9-7ba5b56f59da",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/94bd2c45-29e7-4a34-99db-9ec1e18a26c5",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "94bd2c45-29e7-4a34-99db-9ec1e18a26c5",
+            "@cim:IdentifiedObject.name": "technical.equipment.loosePart",
+            "@skos:prefLabel": "technical.equipment.loosePart",
+            "@dcterms:identifier": "urn:uuid:94bd2c45-29e7-4a34-99db-9ec1e18a26c5",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/f433182d-7606-478f-b074-832bda795353",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "f433182d-7606-478f-b074-832bda795353",
+            "@cim:IdentifiedObject.name": "technical.faultOnOtherComponent.damageFromNearbyFailure",
+            "@cim:IdentifiedObject.description": "Faults due to other nearby equipment, for example, equipment that (physically) fall on other equipment.",
+            "@skos:prefLabel": "technical.faultOnOtherComponent.damageFromNearbyFailure",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Faults due to other nearby equipment, for example, equipment that (physically) fall on other equipment."
+            },
+            "@dcterms:identifier": "urn:uuid:f433182d-7606-478f-b074-832bda795353",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/cdb59078-ee7e-40f6-a915-7e314c617f32",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "cdb59078-ee7e-40f6-a915-7e314c617f32",
+            "@cim:IdentifiedObject.name": "technical.adjoiningGrid.below_100KV",
+            "@cim:IdentifiedObject.description": "Fault due to other component in the grid below 100 kV.",
+            "@skos:prefLabel": "technical.adjoiningGrid.below_100KV",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Fault due to other component in the grid below 100 kV."
+            },
+            "@dcterms:identifier": "urn:uuid:cdb59078-ee7e-40f6-a915-7e314c617f32",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/a6a8ee4a-d696-4382-886c-3226c613912b",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "a6a8ee4a-d696-4382-886c-3226c613912b",
+            "@cim:IdentifiedObject.name": "environmental.wind.highSpeed",
+            "@skos:prefLabel": "environmental.wind.highSpeed",
+            "@dcterms:identifier": "urn:uuid:a6a8ee4a-d696-4382-886c-3226c613912b",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        },
+        {
+            "@id": "http://energy.referencedata.eu/FaultCauseType/4487e4ca-ccab-4460-9b89-28bd2cb6aa21",
+            "@type": [
+                "@skos:Concept",
+                "@cim:FaultCauseType"
+            ],
+            "@cim:IdentifiedObject.mRID": "4487e4ca-ccab-4460-9b89-28bd2cb6aa21",
+            "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.vandalismSabotage",
+            "@cim:IdentifiedObject.description": "Also includes theft.",
+            "@skos:prefLabel": "externalInfluences.humanThirdParty.vandalismSabotage",
+            "@skos:definition": {
+                "@language": "en",
+                "@value": "Also includes theft."
+            },
+            "@dcterms:identifier": "urn:uuid:4487e4ca-ccab-4460-9b89-28bd2cb6aa21",
+            "@skos:inScheme": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            },
+            "@skos:topConceptOf": {
+                "@id": "http://energy.referencedata.eu/FaultCauseType"
+            }
+        }
+    ],
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

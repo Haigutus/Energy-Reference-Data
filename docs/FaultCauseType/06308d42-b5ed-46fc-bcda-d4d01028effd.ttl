@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/06308d42-b5ed-46fc-bcda-d4d01028effd> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "This cause is considered as a cause for a system fault." ;
+    cim:IdentifiedObject.mRID "06308d42-b5ed-46fc-bcda-d4d01028effd" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations.oscillations" ;
+    dcterms:identifier "urn:uuid:06308d42-b5ed-46fc-bcda-d4d01028effd" ;
+    skos:definition "This cause is considered as a cause for a system fault."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations.oscillations" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

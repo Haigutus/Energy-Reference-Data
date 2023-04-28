@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/041e2fb7-dd49-4609-9bc5-fe6df04b96cf> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "041e2fb7-dd49-4609-9bc5-fe6df04b96cf" ;
+    cim:IdentifiedObject.name "technical.equipment.blockage" ;
+    dcterms:identifier "urn:uuid:041e2fb7-dd49-4609-9bc5-fe6df04b96cf" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.blockage" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

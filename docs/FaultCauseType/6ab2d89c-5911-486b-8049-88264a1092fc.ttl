@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/6ab2d89c-5911-486b-8049-88264a1092fc> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snowslides (avalanches). Submarine landslides are also included." ;
+    cim:IdentifiedObject.mRID "6ab2d89c-5911-486b-8049-88264a1092fc" ;
+    cim:IdentifiedObject.name "environmental.physicalSurroundings.landslidesAvalanche" ;
+    dcterms:identifier "urn:uuid:6ab2d89c-5911-486b-8049-88264a1092fc" ;
+    skos:definition "Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snowslides (avalanches). Submarine landslides are also included."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.physicalSurroundings.landslidesAvalanche" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

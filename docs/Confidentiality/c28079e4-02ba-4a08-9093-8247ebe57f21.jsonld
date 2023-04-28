@@ -1,0 +1,28 @@
+{
+    "@id": "http://energy.referencedata.eu/Confidentiality/c28079e4-02ba-4a08-9093-8247ebe57f21",
+    "@type": "@skos:Concept",
+    "@dcterms:identifier": "urn:uuid:c28079e4-02ba-4a08-9093-8247ebe57f21",
+    "@skos:prefLabel": "Sensitive",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information."
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@skos:exactMatch": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/SENSITIVE"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

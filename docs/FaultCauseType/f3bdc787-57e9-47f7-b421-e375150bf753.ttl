@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/f3bdc787-57e9-47f7-b421-e375150bf753> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "This cause is considered as a cause for a system fault." ;
+    cim:IdentifiedObject.mRID "f3bdc787-57e9-47f7-b421-e375150bf753" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations.changeOfLoad" ;
+    dcterms:identifier "urn:uuid:f3bdc787-57e9-47f7-b421-e375150bf753" ;
+    skos:definition "This cause is considered as a cause for a system fault."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations.changeOfLoad" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

@@ -1,0 +1,32 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/2a540119-044d-4096-b6af-fa2bbf6c629e",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "2a540119-044d-4096-b6af-fa2bbf6c629e",
+    "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.instructionsNotFollowed",
+    "@cim:IdentifiedObject.description": "Also includes components installed in places against manufacturer recommendations and insufficient monitoring. If the cause is insufficient monitoring, and monitoring is included in the routines or instructions, it should be reported as instructions not followed.",
+    "@skos:prefLabel": "operationAndMaintenance.personnel.instructionsNotFollowed",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Also includes components installed in places against manufacturer recommendations and insufficient monitoring. If the cause is insufficient monitoring, and monitoring is included in the routines or instructions, it should be reported as instructions not followed."
+    },
+    "@dcterms:identifier": "urn:uuid:2a540119-044d-4096-b6af-fa2bbf6c629e",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

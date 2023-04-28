@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/51e4c6f2-1f41-4885-8d8f-44e3f6438e19> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "This cause is considered as a cause for a system fault." ;
+    cim:IdentifiedObject.mRID "51e4c6f2-1f41-4885-8d8f-44e3f6438e19" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations.undervoltageVoltageCollapse" ;
+    dcterms:identifier "urn:uuid:51e4c6f2-1f41-4885-8d8f-44e3f6438e19" ;
+    skos:definition "This cause is considered as a cause for a system fault."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations.undervoltageVoltageCollapse" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

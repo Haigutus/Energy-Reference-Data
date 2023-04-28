@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0">
+    <cim:IdentifiedObject.mRID>ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>technical.equipment.softwareHardwareError</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Software and hardware errors that do not involve operational errors.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>technical.equipment.softwareHardwareError</skos:prefLabel>
+    <skos:definition xml:lang="en">Software and hardware errors that do not involve operational errors.</skos:definition>
+    <dcterms:identifier>urn:uuid:ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

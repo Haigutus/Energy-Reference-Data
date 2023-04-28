@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/40bb349a-e86b-46b2-8b3c-cdbac0b5bb61> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "For example, errors during the production of a component or during the construction phase of a power pylon." ;
+    cim:IdentifiedObject.mRID "40bb349a-e86b-46b2-8b3c-cdbac0b5bb61" ;
+    cim:IdentifiedObject.name "technical.equipment.manufacturingError" ;
+    dcterms:identifier "urn:uuid:40bb349a-e86b-46b2-8b3c-cdbac0b5bb61" ;
+    skos:definition "For example, errors during the production of a component or during the construction phase of a power pylon."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.manufacturingError" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

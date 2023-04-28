@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/dc74466d-5115-475c-a90c-ff103487b3e0> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "dc74466d-5115-475c-a90c-ff103487b3e0" ;
+    cim:IdentifiedObject.name "environmental.pollution.ashParticles" ;
+    dcterms:identifier "urn:uuid:dc74466d-5115-475c-a90c-ff103487b3e0" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.pollution.ashParticles" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

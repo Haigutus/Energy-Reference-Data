@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/0f90e893-5d5f-4a4e-9298-fd003ff67f5d> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Causes not due to faults in the component itself" ;
+    cim:IdentifiedObject.mRID "0f90e893-5d5f-4a4e-9298-fd003ff67f5d" ;
+    cim:IdentifiedObject.name "technical.faultOnOtherComponent" ;
+    dcterms:identifier "urn:uuid:0f90e893-5d5f-4a4e-9298-fd003ff67f5d" ;
+    skos:definition "Causes not due to faults in the component itself"@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.faultOnOtherComponent" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

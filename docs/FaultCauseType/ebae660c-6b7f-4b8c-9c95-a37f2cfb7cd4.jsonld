@@ -1,0 +1,32 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4",
+    "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.islanding",
+    "@cim:IdentifiedObject.description": "Even if islanding is not a fault by itself, it may be a cause and consequence that leads to other faults in the power system. It is therefore included under Operation and maintenance > Operations.",
+    "@skos:prefLabel": "operationAndMaintenance.operations.islanding",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Even if islanding is not a fault by itself, it may be a cause and consequence that leads to other faults in the power system. It is therefore included under Operation and maintenance > Operations."
+    },
+    "@dcterms:identifier": "urn:uuid:ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

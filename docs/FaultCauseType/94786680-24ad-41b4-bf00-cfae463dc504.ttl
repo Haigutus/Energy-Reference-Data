@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/94786680-24ad-41b4-bf00-cfae463dc504> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "External influences are causes caused by third parties, that is, parties that are not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system, foreign objects, and animals." ;
+    cim:IdentifiedObject.mRID "94786680-24ad-41b4-bf00-cfae463dc504" ;
+    cim:IdentifiedObject.name "externalInfluences" ;
+    dcterms:identifier "urn:uuid:94786680-24ad-41b4-bf00-cfae463dc504" ;
+    skos:definition "External influences are causes caused by third parties, that is, parties that are not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system, foreign objects, and animals."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

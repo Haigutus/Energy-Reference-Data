@@ -1,0 +1,25 @@
+{
+    "@id": "http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab",
+    "@type": "@skos:Concept",
+    "@dcterms:identifier": "urn:uuid:ec8c443e-edab-4256-80b2-4a7824f754ab",
+    "@skos:prefLabel": "OPDE Secret",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "OPDE Secret"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

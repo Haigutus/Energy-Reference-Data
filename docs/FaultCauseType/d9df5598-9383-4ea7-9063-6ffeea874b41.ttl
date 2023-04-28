@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/d9df5598-9383-4ea7-9063-6ffeea874b41> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Other causes due to external influences that do not fit under the other subcategories." ;
+    cim:IdentifiedObject.mRID "d9df5598-9383-4ea7-9063-6ffeea874b41" ;
+    cim:IdentifiedObject.name "externalInfluences.other" ;
+    dcterms:identifier "urn:uuid:d9df5598-9383-4ea7-9063-6ffeea874b41" ;
+    skos:definition "Other causes due to external influences that do not fit under the other subcategories."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences.other" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

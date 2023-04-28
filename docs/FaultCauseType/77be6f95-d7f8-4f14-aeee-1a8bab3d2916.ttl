@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/77be6f95-d7f8-4f14-aeee-1a8bab3d2916> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "77be6f95-d7f8-4f14-aeee-1a8bab3d2916" ;
+    cim:IdentifiedObject.name "technical.equipment.corrosion" ;
+    dcterms:identifier "urn:uuid:77be6f95-d7f8-4f14-aeee-1a8bab3d2916" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.corrosion" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

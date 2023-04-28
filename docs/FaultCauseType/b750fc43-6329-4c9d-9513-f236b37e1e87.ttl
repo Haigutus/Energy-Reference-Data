@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/b750fc43-6329-4c9d-9513-f236b37e1e87> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Wildfires and other fire due to environmental causes (not human)." ;
+    cim:IdentifiedObject.mRID "b750fc43-6329-4c9d-9513-f236b37e1e87" ;
+    cim:IdentifiedObject.name "environmental.temperature.fires" ;
+    dcterms:identifier "urn:uuid:b750fc43-6329-4c9d-9513-f236b37e1e87" ;
+    skos:definition "Wildfires and other fire due to environmental causes (not human)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.temperature.fires" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

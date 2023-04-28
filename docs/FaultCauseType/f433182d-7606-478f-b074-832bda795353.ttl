@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/f433182d-7606-478f-b074-832bda795353> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Faults due to other nearby equipment, for example, equipment that (physically) fall on other equipment." ;
+    cim:IdentifiedObject.mRID "f433182d-7606-478f-b074-832bda795353" ;
+    cim:IdentifiedObject.name "technical.faultOnOtherComponent.damageFromNearbyFailure" ;
+    dcterms:identifier "urn:uuid:f433182d-7606-478f-b074-832bda795353" ;
+    skos:definition "Faults due to other nearby equipment, for example, equipment that (physically) fall on other equipment."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.faultOnOtherComponent.damageFromNearbyFailure" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

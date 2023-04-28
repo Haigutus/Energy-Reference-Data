@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/7647ea49-8129-414a-81d2-683e959723ea> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "7647ea49-8129-414a-81d2-683e959723ea" ;
+    cim:IdentifiedObject.name "technical.equipment" ;
+    dcterms:identifier "urn:uuid:7647ea49-8129-414a-81d2-683e959723ea" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

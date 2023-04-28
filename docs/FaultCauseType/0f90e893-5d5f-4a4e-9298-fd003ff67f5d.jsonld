@@ -1,0 +1,32 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/0f90e893-5d5f-4a4e-9298-fd003ff67f5d",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "0f90e893-5d5f-4a4e-9298-fd003ff67f5d",
+    "@cim:IdentifiedObject.name": "technical.faultOnOtherComponent",
+    "@cim:IdentifiedObject.description": "Causes not due to faults in the component itself",
+    "@skos:prefLabel": "technical.faultOnOtherComponent",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Causes not due to faults in the component itself"
+    },
+    "@dcterms:identifier": "urn:uuid:0f90e893-5d5f-4a4e-9298-fd003ff67f5d",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

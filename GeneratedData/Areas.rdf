@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <Distribution rdf:about="urn:uuid:249a460f-4f58-4281-bd90-2586a47ff74d">
+    <rdfs:label>../GeneratedData/Areas.rdf</rdfs:label>
+    <dcterms:modified>2023-02-15T20:35:33.043070</dcterms:modified>
+    <dcat:version>1</dcat:version>
+  </Distribution>
+  <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/Areas">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified>2023-02-15T20:35:33.043070</dcterms:modified>
+    <dcat:version>1</dcat:version>
+    <skos:prefLabel>Areas</skos:prefLabel>
+    <dcterms:identifier>a25c69ca-f7dd-4e40-86e7-34e0b62480df</dcterms:identifier>
+    <skos:definition xml:lang="en">Commonly used Areas</skos:definition>
+  </skos:ConceptScheme>
+  <SubGeographicalRegion rdf:about="urn:uuid:d81cedde-fca0-4ab8-9604-33e4a8839325">
+    <cim:IdentifiedObject.name>ENTSOE</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Pan European Region of ENTSO-E</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>ENTSOE</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>6f010c0a-a735-49ec-99b1-76fed42ea948</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>ENTSOE</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.entsoe.eu/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.Functions>SubGeographicalRegion</NetworkRegion.Functions>
+    <SubGeographicalRegion.Region>7e6dab44-5e92-4698-92d1-dcc3421cce1a</SubGeographicalRegion.Region>
+    <add_to_boundary>True</add_to_boundary>
+  </SubGeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:78f33e50-e9e6-403b-bf36-5b5e05c8f2c8">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A016</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>GB-NI</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Northern Ireland</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>NI</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>da672ff8-a612-47bb-beb7-4ae5b45b3ffd</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>SONI</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.eirgridgroup.com/ni/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>IE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:550dd529-d483-4d7e-a471-e1bb73c6e27e">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A39I</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>EE</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Estonia</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>EE</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>986e94d0-1f86-49e5-a9d3-a78105196292</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>ELERING</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.elering.ee/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>EE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:e809c536-0733-41b7-b05f-3e2e43df7351">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A49F</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>RUSSIAN_AREA</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Russian area</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>RU</IdentifiedObject.shortName>
+    <NetworkRegion.isoCode>RU</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:e10adc82-8cbd-4cb7-80f1-d7bd7a461a24">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A50U</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>KALININGRAD_AREA</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Kaliningrad area</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>KG</IdentifiedObject.shortName>
+    <NetworkRegion.isoCode>RU</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:ab9ba255-f4d5-4c91-8d94-b6ba512fabc8">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A51S</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>BELARUS_AREA</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Belarus area</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>BY</IdentifiedObject.shortName>
+    <NetworkRegion.isoCode>BY</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:b0d6289a-b3f6-43d2-b0ba-e165178ca107">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A65H</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>DK</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Denmark</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>DK</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>ed7f3d52-b688-42f7-ab6f-0a53aa6e50bd</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>DK</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.energinet.dk/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>DK</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:7e6dab44-5e92-4698-92d1-dcc3421cce1a">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001C--00037Z</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>EUROPE_EEA_CH</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>European Single Market Area, EEA plus Switzerland</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>EU</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>6f010c0a-a735-49ec-99b1-76fed42ea948</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>ENTSOE</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.entsoe.eu/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>EU</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:c9f6846c-0f51-436d-9239-0d2f767130fd">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001C--00100H</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>CAKOSTT</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Control Area Kosovo*</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>KS</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>c6efb5f1-125c-4c88-964a-1e3fd929a047</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>KOSTT</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.kostt.com/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>UN</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:89438050-50e5-41d7-a072-ca3e274c5eb5">
+    <IdentifiedObject.energyIdentCodeEic>10YAL-KESH-----5</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>AL</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Albania</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>AL</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>8900a00b-51f1-4463-acdd-819ca85af8e5</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>OST</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.ost.al/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>AL</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:b6110c7c-61e0-4c00-bc62-943461754bff">
+    <IdentifiedObject.energyIdentCodeEic>10YAT-APG------L</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>AT</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Austria</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>AT</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>dfdfe90b-0910-49a7-b1bb-dbb48524c4d5</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>APG</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.apg.at/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>AT</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:0dcbc64b-d06a-480d-80fd-182c0342680a">
+    <IdentifiedObject.energyIdentCodeEic>10YBA-JPCC-----D</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>BA</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Bosnia and Herzegovina</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>BA</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>818aa854-6eaa-4697-a651-b281e215a163</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>NOSBIH</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.nosbih.ba/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>BA</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:952f0d5f-cf4d-40fc-932c-1c973266bd90">
+    <IdentifiedObject.energyIdentCodeEic>10YBE----------2</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>BE</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Belgium</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>BE</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>07d471b4-2d16-473d-9b98-8cbc22a2f7cf</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>BE</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.elia.be/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>BE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:bc1184a7-cb75-4e29-bac9-00071373bb91">
+    <IdentifiedObject.energyIdentCodeEic>10YCA-BULGARIA-R</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>BG</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Bulgaria</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>BG</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>699f00ea-4f71-4ca2-aab5-46e256fb6fcb</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>ESO</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.eso.bg/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>BG</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:b59aa20e-f448-4220-8b55-46fd65934b96">
+    <IdentifiedObject.energyIdentCodeEic>10YCH-SWISSGRIDZ</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>CH</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Switzerland</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>CH</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>591cb37f-03f9-454e-b1b1-0507fdcde4a9</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>SWISSGRID</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.swissgrid.ch/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>CH</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:3a620330-db70-4517-a772-76acf325bde0">
+    <IdentifiedObject.energyIdentCodeEic>10YCS-CG-TSO---S</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>ME</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Montenegro</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>ME</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>c67cf066-7d5a-4cac-a01c-a55f796578fe</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>CGES</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.cges.me/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>ME</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:1bf98b93-0e6b-49c1-bb19-715fad9293ed">
+    <IdentifiedObject.energyIdentCodeEic>10YCS-SERBIATSOV</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>RS</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Serbia</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>RS</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>61c327dc-7783-4209-9eda-7d612db21c81</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>EMS</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.ems.rs/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>RS</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:3ac9d23c-9dc8-4439-932c-5ba139c55ff0">
+    <IdentifiedObject.energyIdentCodeEic>10YCZ-CEPS-----N</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>CZ</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Czech Republic</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>CZ</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>7f5d3ca4-4ee9-43fc-b5f3-33fe23f6924b</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>CEPS</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.ceps.cz/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>CZ</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:3f8d73f3-bc52-4b0f-a568-ea6bf5e65845">
+    <IdentifiedObject.energyIdentCodeEic>10YDE-ENBW-----N</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>DE-TRANSNETBW</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Germany TransnetBW</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>D4</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>b9645107-a1a6-4695-9c31-d52d011d7d77</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>D4</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.transnetbw.de/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>DE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:efcd447e-63ef-48bf-809e-1fde6db75523">
+    <IdentifiedObject.energyIdentCodeEic>10YDE-EON------1</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>DE-TENNET_DE</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Germany TenneT DE</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>D2</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>89224337-8913-4f40-99fa-68cdae61ed9f</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>TTG</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.tennet.eu/de/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>DE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:c816a91b-7214-495c-8cbb-64688a2c687e">
+    <IdentifiedObject.energyIdentCodeEic>10YDE-RWENET---I</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>DE-AMPRION-SCHED</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Amprion GmbH</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>D7</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>93ee290f-9d82-444f-bba4-7fd3eeab4696</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>D7</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.amprion.net/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>DE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:97376dd1-c711-419d-bb5e-9ef8b142097f">
+    <IdentifiedObject.energyIdentCodeEic>10YDE-VE-------2</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>DE-50HERTZ</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Germany 50Hertz</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>D8</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>67d59152-d0c6-42eb-b58a-ea56c6e94941</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>50hertz</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.50hertz.com/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>DE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:df80281f-2bef-4ec6-8f80-4da2da71c6ab">
+    <IdentifiedObject.energyIdentCodeEic>10YES-REE------0</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>ES</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Spain</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>ES</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>ee6a8558-726b-4c20-aeeb-1b47746bbea1</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>REE</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.ree.es/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>ES</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:1cb34656-b7c8-4d17-9fb1-6fafaa2776eb">
+    <IdentifiedObject.energyIdentCodeEic>10YFI-1--------U</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>FI</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Finland</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>FI</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>170d481b-eece-4794-aa21-f93dc11c85ba</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>FINGRID</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.fingrid.fi/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>FI</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:78963970-8155-4d8d-b799-e70ae5e2145b">
+    <IdentifiedObject.energyIdentCodeEic>10YFR-RTE------C</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>FR</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>France</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>FR</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>bcefbe57-7cd1-4b39-9b22-f2cbe73c6948</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>RTEFRANCE</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.rte-france.com/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>FR</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:d383cad8-f2ca-4d3d-84f5-85e4225ea0e7">
+    <IdentifiedObject.energyIdentCodeEic>10YGB----------A</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>GB</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Great Britain</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>GB</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>ac076828-8eed-4f81-9d73-784ecd93198d</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>NG</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.nationalgrideso.com/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>GB</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeoGraphicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:03e204ad-d0cd-4332-b5c2-ee6d269dd5de">
+    <IdentifiedObject.energyIdentCodeEic>10YGR-HTSO-----Y</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>GR</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Greece</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>GR</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>58f7a088-dcb6-48aa-bb00-4ba228c358d7</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>IPTO</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.admie.gr/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>GR</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:92db284a-2cd2-47f5-860b-5fa27bf6b03d">
+    <IdentifiedObject.energyIdentCodeEic>10YHR-HEP------M</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>HR</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Croatia</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>HR</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>038854e5-c36a-467e-8800-5c6d7c57532f</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>HOPS</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.hops.hr/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>HR</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:d9daf137-31d1-449e-9ed7-9ef6d5353bf5">
+    <IdentifiedObject.energyIdentCodeEic>10YHU-MAVIR----U</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>HU</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Hungary</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>HU</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>9af9aaf1-08cc-47e5-b591-04307b28eed5</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>MAVIR</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.mavir.hu/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>HU</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:60671603-d076-421d-93e0-b6fc1605c239">
+    <IdentifiedObject.energyIdentCodeEic>10YIE-1001A00010</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>IE</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Ireland</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>IE</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>2c22131f-504c-4e24-9141-ef6b0d0c6c99</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>EIRGRID</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.eirgridgroup.com/ie/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>IE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:dbc33d3a-d42c-4d3b-a35a-8a6d9a215c10">
+    <IdentifiedObject.energyIdentCodeEic>10YIT-GRTN-----B</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>IT</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Italy</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>IT</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>73b58945-4207-407d-9082-d691b52ecd80</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>TERNA</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.terna.it/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>IT</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:30ddfa7d-8f6c-410c-a9b5-6191282ed6d2">
+    <IdentifiedObject.energyIdentCodeEic>10YLT-1001A0008Q</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>LT</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Lithuania</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>LT</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>f6f2cd0e-eca6-4d0e-8c39-74140f41283c</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>LITGRID</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.litgrid.eu/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>LT</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:38c7f570-0b0a-4d23-ad7c-4f4595b7dfeb">
+    <IdentifiedObject.energyIdentCodeEic>10YLU-CEGEDEL-NQ</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>LU</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Luxembourg</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>LU</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>f61ecf2a-18e9-40ae-987b-bd588e0cca6d</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>CREOS</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.creos-net.lu/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>LU</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:833dc8d1-8fdb-4c13-b802-4df1e44a00c9">
+    <IdentifiedObject.energyIdentCodeEic>10YLV-1001A00074</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>LV</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Latvia</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>LV</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>0104899f-6355-4d3e-aaa2-f4a2167ca89c</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>AST</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.ast.lv/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>LV</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:20e593ea-30d4-4b95-99ed-948d5dcc96f6">
+    <IdentifiedObject.energyIdentCodeEic>10YMK-MEPSO----8</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>MK</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>FYROM</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>MK</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>35cdf6a6-0896-410a-9ebe-378ec4c0b6d1</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>MEPSO</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.mepso.com.mk/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>MK</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:43c59e0c-7cc3-47b5-acd2-37b10e90b732">
+    <IdentifiedObject.energyIdentCodeEic>10YNL----------L</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>NL</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Netherlands</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>NL</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>a1ece756-817a-42c1-a2bd-b10e52d1479a</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>TTN</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.tennet.eu/nl/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>NL</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:92fb36b2-1ff4-49b6-a103-8b913a132a19">
+    <IdentifiedObject.energyIdentCodeEic>10YNO-0--------C</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>NO</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Norway</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>NO</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>289fc34c-33e8-4983-8ea3-4c980bafff32</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>NO</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.statnett.no/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>NO</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:37a472a1-997c-4d6e-ad1e-cefefca251b4">
+    <IdentifiedObject.energyIdentCodeEic>10YPL-AREA-----S</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>PL</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Poland</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>PL</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>5068b606-2593-457f-ba12-97491f2ea078</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>PSE</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.pse.pl/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>PL</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:4d8af96c-5c4d-4cf7-a258-d21b6f563651">
+    <IdentifiedObject.energyIdentCodeEic>10YPT-REN------W</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>PT</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Portugal</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>PT</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>cb5ecf78-7b50-4d32-a564-dcaa8c9268bc</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>REN</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.ren.pt/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>PT</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:26e703ad-6460-41d6-9d13-c3ff1f0e095a">
+    <IdentifiedObject.energyIdentCodeEic>10YRO-TEL------P</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>RO</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Romania</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>RO</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>89f9bae3-e23b-4399-999e-71f67963f728</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>TRANSELECTRICA</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.transelectrica.ro/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>RO</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:6908d486-69e4-41d2-a479-9cf1b81178ef">
+    <IdentifiedObject.energyIdentCodeEic>10YSE-1--------K</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>SE</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Sweden</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>SE</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>02fd5c21-4b3b-41e4-9306-f6d6fe0121fe</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>SVK</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.svk.se/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>SE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:64b54ab0-264a-4a3c-afdc-52a05a938225">
+    <IdentifiedObject.energyIdentCodeEic>10YSI-ELES-----O</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>SI</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Slovenia</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>SI</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>29aa7a98-0ca6-4145-a845-63bc3eb955f6</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>ELES</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.eles.si/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>SI</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:916aee87-9c66-4794-a431-895f756c4d97">
+    <IdentifiedObject.energyIdentCodeEic>10YSK-SEPS-----K</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>SK</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Slovak Republic</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>SK</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>b4d8ee45-0eab-4486-b642-fac83ce9f42b</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>SEPS</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.sepsas.sk/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>SK</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:3ad5710e-7792-473d-8796-86c2ac8b8cc3">
+    <IdentifiedObject.energyIdentCodeEic>10YTR-TEIAS----W</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>TEIAS_AREA</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>TEIAS Area</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>TR</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>f6fdfdcc-a1c1-490f-990b-222d493f61f8</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>TEIAS</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.teias.gov.tr/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>TR</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:df31a973-2442-4beb-bbf9-601dc30675c4">
+    <IdentifiedObject.energyIdentCodeEic>10YUA-WEPS-----0</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>UA-BEI</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Ukrainian Area of Burshtyn island</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>UA</IdentifiedObject.shortName>
+    <MARegion.ModelingAuthority>6a0d3dcc-408a-4ce0-8469-1e588d12097f</MARegion.ModelingAuthority>
+    <NetworkRegion.sourcingActor>Ukrenergo</NetworkRegion.sourcingActor>
+    <NetworkRegion.masUri>http://www.ukrenergo.energy.gov.ua/OperationalPlanning</NetworkRegion.masUri>
+    <NetworkRegion.isoCode>UA</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>OptimisationArea, ControlArea, SchedulingArea, GeographicalRegion</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <GeographicalRegion rdf:about="urn:uuid:243c9adc-9d51-420b-983f-d6075a69b0d3">
+    <IdentifiedObject.energyIdentCodeEic>10YMA-ONE------O</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>MOROCCO</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Morocco Market area</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>MA</IdentifiedObject.shortName>
+    <NetworkRegion.isoCode>MA</NetworkRegion.isoCode>
+    <add_to_boundary>True</add_to_boundary>
+  </GeographicalRegion>
+  <CGMRegion rdf:about="urn:uuid:3e3ea18c-8d41-4908-872e-f87e72a3e2a8">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A59C</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>SEM</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Ireland and Northern Ireland</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>IN</IdentifiedObject.shortName>
+    <NetworkRegion.isoCode>IE</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>SynchronousArea, CGMType</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </CGMRegion>
+  <CGMRegion rdf:about="urn:uuid:961e96da-3756-41d8-bf1e-931f265f85cd">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A91G</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>NORDIC_AREA</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Nordic Market Area</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>NO</IdentifiedObject.shortName>
+    <NetworkRegion.Functions>SynchronousArea, CGMType</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </CGMRegion>
+  <CGMRegion rdf:about="urn:uuid:d650bd21-1845-4d09-8026-1eae7a5c229c">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A92E</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>UK</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>United Kingdom</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>UK</IdentifiedObject.shortName>
+    <NetworkRegion.isoCode>GB</NetworkRegion.isoCode>
+    <NetworkRegion.Functions>SynchronousArea, CGMType</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </CGMRegion>
+  <CGMRegion rdf:about="urn:uuid:7a83e750-da41-43d5-ba19-1ed0d231706a">
+    <IdentifiedObject.energyIdentCodeEic>10Y1001A1001A94A</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>SYN_BALTICS</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Synchronous area of Baltic states</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>BA</IdentifiedObject.shortName>
+    <NetworkRegion.Functions>SynchronousArea, CGMType</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </CGMRegion>
+  <CGMRegion rdf:about="urn:uuid:b669c5ca-ec83-41f1-86a5-43499734b9e3">
+    <IdentifiedObject.energyIdentCodeEic>10YEU-CONT-SYNC0</IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>EU-CONTINENT-SYN</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Synchronous Zone of Continental Europe</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>CE</IdentifiedObject.shortName>
+    <NetworkRegion.Functions>SynchronousArea, CGMType</NetworkRegion.Functions>
+    <add_to_boundary>True</add_to_boundary>
+  </CGMRegion>
+  <CGMRegion rdf:about="urn:uuid:383b7015-ca60-43e0-82c7-74cb72fdc224">
+    <cim:IdentifiedObject.name>EU_CGM_AREA</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Pan European CGM Area</cim:IdentifiedObject.description>
+    <IdentifiedObject.shortName>EU</IdentifiedObject.shortName>
+    <NetworkRegion.isoCode>EU</NetworkRegion.isoCode>
+    <add_to_boundary>True</add_to_boundary>
+  </CGMRegion>
+</rdf:RDF>

@@ -1,0 +1,11 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/Confidentiality/51378918-8ef6-4cce-9711-4af4539f1ef5> a skos:Concept ;
+    dcterms:identifier "urn:uuid:51378918-8ef6-4cce-9711-4af4539f1ef5" ;
+    skos:definition "Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade."@en ;
+    skos:exactMatch <http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL> ;
+    skos:inScheme <http://energy.referencedata.eu/Confidentiality> ;
+    skos:prefLabel "Confidential" ;
+    skos:topConceptOf <http://energy.referencedata.eu/Confidentiality> .
+

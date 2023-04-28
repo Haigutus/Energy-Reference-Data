@@ -1,0 +1,11 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb">
+    <cim:IdentifiedObject.mRID>bda46d8e-9515-4678-a6c9-dd62be9c5deb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>environmental.temperature</cim:IdentifiedObject.name>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>environmental.temperature</skos:prefLabel>
+    <dcterms:identifier>urn:uuid:bda46d8e-9515-4678-a6c9-dd62be9c5deb</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

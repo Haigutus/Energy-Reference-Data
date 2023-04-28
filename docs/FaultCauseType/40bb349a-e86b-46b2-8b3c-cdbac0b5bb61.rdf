@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/40bb349a-e86b-46b2-8b3c-cdbac0b5bb61">
+    <cim:IdentifiedObject.mRID>40bb349a-e86b-46b2-8b3c-cdbac0b5bb61</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>technical.equipment.manufacturingError</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>For example, errors during the production of a component or during the construction phase of a power pylon.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>technical.equipment.manufacturingError</skos:prefLabel>
+    <skos:definition xml:lang="en">For example, errors during the production of a component or during the construction phase of a power pylon.</skos:definition>
+    <dcterms:identifier>urn:uuid:40bb349a-e86b-46b2-8b3c-cdbac0b5bb61</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

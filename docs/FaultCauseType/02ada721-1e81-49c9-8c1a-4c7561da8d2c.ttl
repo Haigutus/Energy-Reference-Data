@@ -1,0 +1,17 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Any kind of third party construction work such as rock blasting, building construction, infrastructure building." ;
+    cim:IdentifiedObject.mRID "02ada721-1e81-49c9-8c1a-4c7561da8d2c" ;
+    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.constructionWork",
+        "operationAndMaintenance.personnel.constructionWork" ;
+    dcterms:identifier "urn:uuid:02ada721-1e81-49c9-8c1a-4c7561da8d2c" ;
+    skos:definition "Any kind of third party construction work such as rock blasting, building construction, infrastructure building."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences.humanThirdParty.constructionWork",
+        "operationAndMaintenance.personnel.constructionWork" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

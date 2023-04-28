@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/82cbc4cd-554f-4f09-ad48-e00fdd95d2b5> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "82cbc4cd-554f-4f09-ad48-e00fdd95d2b5" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations" ;
+    dcterms:identifier "urn:uuid:82cbc4cd-554f-4f09-ad48-e00fdd95d2b5" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

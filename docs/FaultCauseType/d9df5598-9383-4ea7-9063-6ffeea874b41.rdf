@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/d9df5598-9383-4ea7-9063-6ffeea874b41">
+    <cim:IdentifiedObject.mRID>d9df5598-9383-4ea7-9063-6ffeea874b41</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>externalInfluences.other</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Other causes due to external influences that do not fit under the other subcategories.</cim:IdentifiedObject.description>
+    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
+    <skos:prefLabel>externalInfluences.other</skos:prefLabel>
+    <skos:definition xml:lang="en">Other causes due to external influences that do not fit under the other subcategories.</skos:definition>
+    <dcterms:identifier>urn:uuid:d9df5598-9383-4ea7-9063-6ffeea874b41</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/307de251-d9b6-4c10-8a98-9b16a7d8e0cb> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "307de251-d9b6-4c10-8a98-9b16a7d8e0cb" ;
+    cim:IdentifiedObject.name "technical.adjoiningGrid" ;
+    dcterms:identifier "urn:uuid:307de251-d9b6-4c10-8a98-9b16a7d8e0cb" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.adjoiningGrid" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

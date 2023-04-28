@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/873155bb-7675-4fc3-8391-609461c3d174> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "873155bb-7675-4fc3-8391-609461c3d174" ;
+    cim:IdentifiedObject.name "externalInfluences.animals.other" ;
+    dcterms:identifier "urn:uuid:873155bb-7675-4fc3-8391-609461c3d174" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences.animals.other" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

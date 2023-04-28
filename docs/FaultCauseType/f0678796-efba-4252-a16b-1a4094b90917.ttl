@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/f0678796-efba-4252-a16b-1a4094b90917> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "f0678796-efba-4252-a16b-1a4094b90917" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.deficientMaintenance" ;
+    dcterms:identifier "urn:uuid:f0678796-efba-4252-a16b-1a4094b90917" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.deficientMaintenance" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

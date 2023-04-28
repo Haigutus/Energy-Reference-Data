@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/cae54098-a3e2-45fd-a659-ed3f42539c31> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "cae54098-a3e2-45fd-a659-ed3f42539c31" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.insufficientProtectionRelayInstalled" ;
+    dcterms:identifier "urn:uuid:cae54098-a3e2-45fd-a659-ed3f42539c31" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.insufficientProtectionRelayInstalled" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

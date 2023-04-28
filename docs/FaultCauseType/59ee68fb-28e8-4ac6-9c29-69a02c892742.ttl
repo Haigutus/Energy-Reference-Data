@@ -1,0 +1,17 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Any kind of third party digging or excavation." ;
+    cim:IdentifiedObject.mRID "59ee68fb-28e8-4ac6-9c29-69a02c892742" ;
+    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.diggingExcavation",
+        "operationAndMaintenance.personnel.diggingExcavation" ;
+    dcterms:identifier "urn:uuid:59ee68fb-28e8-4ac6-9c29-69a02c892742" ;
+    skos:definition "Any kind of third party digging or excavation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences.humanThirdParty.diggingExcavation",
+        "operationAndMaintenance.personnel.diggingExcavation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/1485acaf-d2cb-4e02-9c5e-29e9452e743f> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "1485acaf-d2cb-4e02-9c5e-29e9452e743f" ;
+    cim:IdentifiedObject.name "technical.equipment.rotDamage" ;
+    dcterms:identifier "urn:uuid:1485acaf-d2cb-4e02-9c5e-29e9452e743f" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.rotDamage" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

@@ -1,0 +1,32 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/04d1eded-d2d2-4ae9-8951-7be375b49e89",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "04d1eded-d2d2-4ae9-8951-7be375b49e89",
+    "@cim:IdentifiedObject.name": "environmental.waterIce.moistureRainHail",
+    "@cim:IdentifiedObject.description": "Fault causes due to water elements with a temperature above the freezing point. Includes, for example, moisture ingress, fog.",
+    "@skos:prefLabel": "environmental.waterIce.moistureRainHail",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault causes due to water elements with a temperature above the freezing point. Includes, for example, moisture ingress, fog."
+    },
+    "@dcterms:identifier": "urn:uuid:04d1eded-d2d2-4ae9-8951-7be375b49e89",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/9208d5a8-558c-4878-9183-aed6becbd40a> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Mechanical galloping. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault." ;
+    cim:IdentifiedObject.mRID "9208d5a8-558c-4878-9183-aed6becbd40a" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations.gallopingMechanical" ;
+    dcterms:identifier "urn:uuid:9208d5a8-558c-4878-9183-aed6becbd40a" ;
+    skos:definition "Mechanical galloping. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations.gallopingMechanical" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

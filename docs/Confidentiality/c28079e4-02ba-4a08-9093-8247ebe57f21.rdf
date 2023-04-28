@@ -1,0 +1,10 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/c28079e4-02ba-4a08-9093-8247ebe57f21">
+    <dcterms:identifier>urn:uuid:c28079e4-02ba-4a08-9093-8247ebe57f21</dcterms:identifier>
+    <skos:prefLabel>Sensitive</skos:prefLabel>
+    <skos:definition xml:lang="en">Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information.</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/SENSITIVE"/>
+  </skos:Concept>
+</rdf:RDF>

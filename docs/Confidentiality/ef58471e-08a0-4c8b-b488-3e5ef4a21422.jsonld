@@ -1,0 +1,28 @@
+{
+    "@id": "http://energy.referencedata.eu/Confidentiality/ef58471e-08a0-4c8b-b488-3e5ef4a21422",
+    "@type": "@skos:Concept",
+    "@dcterms:identifier": "urn:uuid:ef58471e-08a0-4c8b-b488-3e5ef4a21422",
+    "@skos:prefLabel": "Restricted",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released."
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@skos:exactMatch": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/RESTRICTED"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

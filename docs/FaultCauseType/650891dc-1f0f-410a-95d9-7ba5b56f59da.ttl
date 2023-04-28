@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/650891dc-1f0f-410a-95d9-7ba5b56f59da> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Other operation and maintenance causes that do not fit under the other subcategories." ;
+    cim:IdentifiedObject.mRID "650891dc-1f0f-410a-95d9-7ba5b56f59da" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.other" ;
+    dcterms:identifier "urn:uuid:650891dc-1f0f-410a-95d9-7ba5b56f59da" ;
+    skos:definition "Other operation and maintenance causes that do not fit under the other subcategories."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.other" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

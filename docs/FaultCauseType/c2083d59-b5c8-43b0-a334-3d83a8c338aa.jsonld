@@ -1,0 +1,32 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/c2083d59-b5c8-43b0-a334-3d83a8c338aa",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "c2083d59-b5c8-43b0-a334-3d83a8c338aa",
+    "@cim:IdentifiedObject.name": "environmental.physicalSurroundings.flood",
+    "@cim:IdentifiedObject.description": "Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party.",
+    "@skos:prefLabel": "environmental.physicalSurroundings.flood",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party."
+    },
+    "@dcterms:identifier": "urn:uuid:c2083d59-b5c8-43b0-a334-3d83a8c338aa",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

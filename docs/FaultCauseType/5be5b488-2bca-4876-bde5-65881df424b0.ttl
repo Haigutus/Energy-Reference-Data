@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/5be5b488-2bca-4876-bde5-65881df424b0> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "5be5b488-2bca-4876-bde5-65881df424b0" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.documentationError" ;
+    dcterms:identifier "urn:uuid:5be5b488-2bca-4876-bde5-65881df424b0" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.documentationError" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

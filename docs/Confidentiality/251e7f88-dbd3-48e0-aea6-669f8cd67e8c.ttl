@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c> a skos:Concept ;
+    dcterms:identifier "urn:uuid:251e7f88-dbd3-48e0-aea6-669f8cd67e8c" ;
+    skos:definition "OPC/STA Confidential"@en ;
+    skos:inScheme <http://energy.referencedata.eu/Confidentiality> ;
+    skos:prefLabel "OPC/STA Confidential" ;
+    skos:topConceptOf <http://energy.referencedata.eu/Confidentiality> .
+

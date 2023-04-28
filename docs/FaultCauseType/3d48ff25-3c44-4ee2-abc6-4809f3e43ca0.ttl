@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/3d48ff25-3c44-4ee2-abc6-4809f3e43ca0> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Includes, for example, relay settings that were wrongfully input or adjusted." ;
+    cim:IdentifiedObject.mRID "3d48ff25-3c44-4ee2-abc6-4809f3e43ca0" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.faultySettingsOrAdjustments" ;
+    dcterms:identifier "urn:uuid:3d48ff25-3c44-4ee2-abc6-4809f3e43ca0" ;
+    skos:definition "Includes, for example, relay settings that were wrongfully input or adjusted."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.faultySettingsOrAdjustments" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/c36e2936-9788-4297-89c1-c0bbbdb0596f> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Includes, for example, wrongful dispatching." ;
+    cim:IdentifiedObject.mRID "c36e2936-9788-4297-89c1-c0bbbdb0596f" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.incorrectManualOperation" ;
+    dcterms:identifier "urn:uuid:c36e2936-9788-4297-89c1-c0bbbdb0596f" ;
+    skos:definition "Includes, for example, wrongful dispatching."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.incorrectManualOperation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

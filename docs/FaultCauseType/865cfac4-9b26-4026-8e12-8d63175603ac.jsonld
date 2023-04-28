@@ -1,0 +1,32 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/865cfac4-9b26-4026-8e12-8d63175603ac",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "865cfac4-9b26-4026-8e12-8d63175603ac",
+    "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.faultyProtectionRelayScheme",
+    "@cim:IdentifiedObject.description": "Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme.",
+    "@skos:prefLabel": "operationAndMaintenance.personnel.faultyProtectionRelayScheme",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme."
+    },
+    "@dcterms:identifier": "urn:uuid:865cfac4-9b26-4026-8e12-8d63175603ac",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

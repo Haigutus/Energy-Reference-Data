@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/c2083d59-b5c8-43b0-a334-3d83a8c338aa> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party." ;
+    cim:IdentifiedObject.mRID "c2083d59-b5c8-43b0-a334-3d83a8c338aa" ;
+    cim:IdentifiedObject.name "environmental.physicalSurroundings.flood" ;
+    dcterms:identifier "urn:uuid:c2083d59-b5c8-43b0-a334-3d83a8c338aa" ;
+    skos:definition "Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.physicalSurroundings.flood" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

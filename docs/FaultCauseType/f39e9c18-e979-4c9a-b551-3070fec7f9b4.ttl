@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/f39e9c18-e979-4c9a-b551-3070fec7f9b4> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Faults due to cavitation in, for example, water turbines at hydro plants." ;
+    cim:IdentifiedObject.mRID "f39e9c18-e979-4c9a-b551-3070fec7f9b4" ;
+    cim:IdentifiedObject.name "technical.equipment.cavitation" ;
+    dcterms:identifier "urn:uuid:f39e9c18-e979-4c9a-b551-3070fec7f9b4" ;
+    skos:definition "Faults due to cavitation in, for example, water turbines at hydro plants."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.cavitation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

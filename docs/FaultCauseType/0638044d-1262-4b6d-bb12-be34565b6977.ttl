@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/0638044d-1262-4b6d-bb12-be34565b6977> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "0638044d-1262-4b6d-bb12-be34565b6977" ;
+    cim:IdentifiedObject.name "technical.equipment.crackBreakage" ;
+    dcterms:identifier "urn:uuid:0638044d-1262-4b6d-bb12-be34565b6977" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.crackBreakage" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

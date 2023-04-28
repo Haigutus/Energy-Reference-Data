@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9" ;
+    cim:IdentifiedObject.name "environmental.physicalSurroundings" ;
+    dcterms:identifier "urn:uuid:9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.physicalSurroundings" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Software and hardware errors that do not involve operational errors." ;
+    cim:IdentifiedObject.mRID "ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0" ;
+    cim:IdentifiedObject.name "technical.equipment.softwareHardwareError" ;
+    dcterms:identifier "urn:uuid:ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0" ;
+    skos:definition "Software and hardware errors that do not involve operational errors."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.softwareHardwareError" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

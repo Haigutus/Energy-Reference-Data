@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/fccda3ac-6e0c-47fc-9591-d1297f46c0c5> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "fccda3ac-6e0c-47fc-9591-d1297f46c0c5" ;
+    cim:IdentifiedObject.name "technical.equipment.leakage" ;
+    dcterms:identifier "urn:uuid:fccda3ac-6e0c-47fc-9591-d1297f46c0c5" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.leakage" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

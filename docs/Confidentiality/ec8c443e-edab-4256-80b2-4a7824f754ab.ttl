@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab> a skos:Concept ;
+    dcterms:identifier "urn:uuid:ec8c443e-edab-4256-80b2-4a7824f754ab" ;
+    skos:definition "OPDE Secret"@en ;
+    skos:inScheme <http://energy.referencedata.eu/Confidentiality> ;
+    skos:prefLabel "OPDE Secret" ;
+    skos:topConceptOf <http://energy.referencedata.eu/Confidentiality> .
+

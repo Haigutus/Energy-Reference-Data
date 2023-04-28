@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/04d1eded-d2d2-4ae9-8951-7be375b49e89> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Fault causes due to water elements with a temperature above the freezing point. Includes, for example, moisture ingress, fog." ;
+    cim:IdentifiedObject.mRID "04d1eded-d2d2-4ae9-8951-7be375b49e89" ;
+    cim:IdentifiedObject.name "environmental.waterIce.moistureRainHail" ;
+    dcterms:identifier "urn:uuid:04d1eded-d2d2-4ae9-8951-7be375b49e89" ;
+    skos:definition "Fault causes due to water elements with a temperature above the freezing point. Includes, for example, moisture ingress, fog."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.waterIce.moistureRainHail" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

@@ -1,0 +1,28 @@
+{
+    "@id": "http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90",
+    "@type": "@skos:Concept",
+    "@dcterms:identifier": "urn:uuid:0080531c-fa18-4d51-8832-4bcbced77c90",
+    "@skos:prefLabel": "Public",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys."
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@skos:exactMatch": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,17 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/6e52d582-7d16-49f9-8f85-e6e8225434ba> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description """Includes, for example, tree toppling and other vegetation growth.
+			""" ;
+    cim:IdentifiedObject.mRID "6e52d582-7d16-49f9-8f85-e6e8225434ba" ;
+    cim:IdentifiedObject.name "environmental.physicalSurroundings.vegetation" ;
+    dcterms:identifier "urn:uuid:6e52d582-7d16-49f9-8f85-e6e8225434ba" ;
+    skos:definition """Includes, for example, tree toppling and other vegetation growth.
+			"""@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.physicalSurroundings.vegetation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

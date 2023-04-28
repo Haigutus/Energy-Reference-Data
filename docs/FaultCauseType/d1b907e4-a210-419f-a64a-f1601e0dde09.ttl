@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/d1b907e4-a210-419f-a64a-f1601e0dde09> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Also overheating due to overload. This cause is considered as a cause for a system fault." ;
+    cim:IdentifiedObject.mRID "d1b907e4-a210-419f-a64a-f1601e0dde09" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations.overload" ;
+    dcterms:identifier "urn:uuid:d1b907e4-a210-419f-a64a-f1601e0dde09" ;
+    skos:definition "Also overheating due to overload. This cause is considered as a cause for a system fault."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations.overload" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

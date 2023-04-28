@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f" ;
+    cim:IdentifiedObject.name "technical.equipment.looseElectricalContactPoint" ;
+    dcterms:identifier "urn:uuid:f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.looseElectricalContactPoint" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

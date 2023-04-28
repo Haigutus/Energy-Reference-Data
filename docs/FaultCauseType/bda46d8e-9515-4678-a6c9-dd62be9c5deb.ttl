@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "bda46d8e-9515-4678-a6c9-dd62be9c5deb" ;
+    cim:IdentifiedObject.name "environmental.temperature" ;
+    dcterms:identifier "urn:uuid:bda46d8e-9515-4678-a6c9-dd62be9c5deb" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.temperature" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

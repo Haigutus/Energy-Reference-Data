@@ -49,7 +49,7 @@ def convert_rdfxml_to_jsonld(source_path, destination_path):
     graph.parse(source_path, format='application/rdf+xml')
 
     # Extend context
-    context = {f"@{key}": value for key, value in etree.parse(source_path).getroot().nsmap.items()}
+    context = {f"@{key}": value for key, value in etree.parse(str(source_path)).getroot().nsmap.items()}
     #context["@language"] = "en"
 
     # Serialize rdflib graph to JSON-LD
@@ -226,7 +226,10 @@ data_to_publish = [
     "../GeneratedData/entsoe-codelist-StandardMarketProductTypeList.rdf",
     "../GeneratedData/entsoe-codelist-StandardReasonCodeTypeList.rdf",
     "../GeneratedData/entsoe-codelist-StandardRoleTypeList.rdf",
-    "../GeneratedData/entsoe-codelist-StandardStatusTypeList.rdf"
+    "../GeneratedData/entsoe-codelist-StandardStatusTypeList.rdf",
+    "../GeneratedData/Confidentiality.rdf",
+    "../GeneratedData/FaultCauseType.rdf",
+    "../GeneratedData/PropertyReference.rdf",
 ]
 
 files_to_keep = {

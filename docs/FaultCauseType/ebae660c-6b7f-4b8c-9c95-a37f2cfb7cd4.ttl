@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Even if islanding is not a fault by itself, it may be a cause and consequence that leads to other faults in the power system. It is therefore included under Operation and maintenance > Operations." ;
+    cim:IdentifiedObject.mRID "ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations.islanding" ;
+    dcterms:identifier "urn:uuid:ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4" ;
+    skos:definition "Even if islanding is not a fault by itself, it may be a cause and consequence that leads to other faults in the power system. It is therefore included under Operation and maintenance > Operations."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations.islanding" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

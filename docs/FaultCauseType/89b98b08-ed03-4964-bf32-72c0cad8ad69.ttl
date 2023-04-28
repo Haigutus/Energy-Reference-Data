@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/89b98b08-ed03-4964-bf32-72c0cad8ad69> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Environmental causes are external causes due to environmental effects." ;
+    cim:IdentifiedObject.mRID "89b98b08-ed03-4964-bf32-72c0cad8ad69" ;
+    cim:IdentifiedObject.name "environmental" ;
+    dcterms:identifier "urn:uuid:89b98b08-ed03-4964-bf32-72c0cad8ad69" ;
+    skos:definition "Environmental causes are external causes due to environmental effects."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

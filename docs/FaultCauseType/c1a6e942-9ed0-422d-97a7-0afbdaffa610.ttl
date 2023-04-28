@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/c1a6e942-9ed0-422d-97a7-0afbdaffa610> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Electromechanical vibration. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault." ;
+    cim:IdentifiedObject.mRID "c1a6e942-9ed0-422d-97a7-0afbdaffa610" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations.vibrationElectromechanical" ;
+    dcterms:identifier "urn:uuid:c1a6e942-9ed0-422d-97a7-0afbdaffa610" ;
+    skos:definition "Electromechanical vibration. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations.vibrationElectromechanical" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

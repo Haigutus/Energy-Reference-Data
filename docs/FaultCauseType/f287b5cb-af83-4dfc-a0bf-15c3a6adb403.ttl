@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/f287b5cb-af83-4dfc-a0bf-15c3a6adb403> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "This cause is considered as a cause for a system fault." ;
+    cim:IdentifiedObject.mRID "f287b5cb-af83-4dfc-a0bf-15c3a6adb403" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.operations.overvoltage" ;
+    dcterms:identifier "urn:uuid:f287b5cb-af83-4dfc-a0bf-15c3a6adb403" ;
+    skos:definition "This cause is considered as a cause for a system fault."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.operations.overvoltage" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

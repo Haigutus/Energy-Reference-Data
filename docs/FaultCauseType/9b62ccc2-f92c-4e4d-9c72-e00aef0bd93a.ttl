@@ -1,0 +1,19 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects.",
+        "Includes land, sea and air traffic and off-road." ;
+    cim:IdentifiedObject.mRID "9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a" ;
+    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.trafficDamage",
+        "operationAndMaintenance.personnel.trafficDamage" ;
+    dcterms:identifier "urn:uuid:9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a" ;
+    skos:definition "Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects."@en,
+        "Includes land, sea and air traffic and off-road."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "externalInfluences.humanThirdParty.trafficDamage",
+        "operationAndMaintenance.personnel.trafficDamage" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

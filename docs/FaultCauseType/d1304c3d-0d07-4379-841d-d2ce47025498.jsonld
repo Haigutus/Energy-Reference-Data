@@ -1,0 +1,27 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/d1304c3d-0d07-4379-841d-d2ce47025498",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "d1304c3d-0d07-4379-841d-d2ce47025498",
+    "@cim:IdentifiedObject.name": "environmental.waterIce",
+    "@skos:prefLabel": "environmental.waterIce",
+    "@dcterms:identifier": "urn:uuid:d1304c3d-0d07-4379-841d-d2ce47025498",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

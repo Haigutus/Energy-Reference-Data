@@ -1,0 +1,13 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/fd7bce20-cd68-4366-9db7-2815156ed3b2> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.mRID "fd7bce20-cd68-4366-9db7-2815156ed3b2" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.commissioningTesting" ;
+    dcterms:identifier "urn:uuid:fd7bce20-cd68-4366-9db7-2815156ed3b2" ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.commissioningTesting" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

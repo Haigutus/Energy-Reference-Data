@@ -1,0 +1,25 @@
+{
+    "@id": "http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c",
+    "@type": "@skos:Concept",
+    "@dcterms:identifier": "urn:uuid:251e7f88-dbd3-48e0-aea6-669f8cd67e8c",
+    "@skos:prefLabel": "OPC/STA Confidential",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "OPC/STA Confidential"
+    },
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/Confidentiality"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/f3bdc787-57e9-47f7-b421-e375150bf753",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "f3bdc787-57e9-47f7-b421-e375150bf753",
+    "@cim:IdentifiedObject.name": "operationAndMaintenance.operations.changeOfLoad",
+    "@cim:IdentifiedObject.description": "This cause is considered as a cause for a system fault.",
+    "@skos:prefLabel": "operationAndMaintenance.operations.changeOfLoad",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "This cause is considered as a cause for a system fault."
+    },
+    "@dcterms:identifier": "urn:uuid:f3bdc787-57e9-47f7-b421-e375150bf753",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

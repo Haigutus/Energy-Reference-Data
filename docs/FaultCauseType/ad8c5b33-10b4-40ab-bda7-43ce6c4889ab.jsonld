@@ -1,0 +1,32 @@
+{
+    "@id": "http://energy.referencedata.eu/FaultCauseType/ad8c5b33-10b4-40ab-bda7-43ce6c4889ab",
+    "@type": [
+        "@skos:Concept",
+        "@cim:FaultCauseType"
+    ],
+    "@cim:IdentifiedObject.mRID": "ad8c5b33-10b4-40ab-bda7-43ce6c4889ab",
+    "@cim:IdentifiedObject.name": "environmental.temperature.highAmbient",
+    "@cim:IdentifiedObject.description": "High ambient temperature due to external temperature.",
+    "@skos:prefLabel": "environmental.temperature.highAmbient",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "High ambient temperature due to external temperature."
+    },
+    "@dcterms:identifier": "urn:uuid:ad8c5b33-10b4-40ab-bda7-43ce6c4889ab",
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/FaultCauseType"
+    },
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@at": "http://publications.europa.eu/ontology/authority/",
+        "@dcterms": "http://purl.org/dc/terms/",
+        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+    }
+}

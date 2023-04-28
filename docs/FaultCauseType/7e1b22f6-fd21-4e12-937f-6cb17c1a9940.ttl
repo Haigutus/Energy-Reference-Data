@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/7e1b22f6-fd21-4e12-937f-6cb17c1a9940> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Other technical causes that do not fit under the other subcategories." ;
+    cim:IdentifiedObject.mRID "7e1b22f6-fd21-4e12-937f-6cb17c1a9940" ;
+    cim:IdentifiedObject.name "technical.other" ;
+    dcterms:identifier "urn:uuid:7e1b22f6-fd21-4e12-937f-6cb17c1a9940" ;
+    skos:definition "Other technical causes that do not fit under the other subcategories."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.other" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

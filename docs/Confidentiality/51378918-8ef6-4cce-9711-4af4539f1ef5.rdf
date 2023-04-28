@@ -1,0 +1,10 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/Confidentiality/51378918-8ef6-4cce-9711-4af4539f1ef5">
+    <dcterms:identifier>urn:uuid:51378918-8ef6-4cce-9711-4af4539f1ef5</dcterms:identifier>
+    <skos:prefLabel>Confidential</skos:prefLabel>
+    <skos:definition xml:lang="en">Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade.</skos:definition>
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/Confidentiality"/>
+    <skos:exactMatch rdf:resource="http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"/>
+  </skos:Concept>
+</rdf:RDF>

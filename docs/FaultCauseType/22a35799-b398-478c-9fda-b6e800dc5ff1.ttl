@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/22a35799-b398-478c-9fda-b6e800dc5ff1> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Includes, for example, design and dimensioning errors, errors made during the investment project calculations." ;
+    cim:IdentifiedObject.mRID "22a35799-b398-478c-9fda-b6e800dc5ff1" ;
+    cim:IdentifiedObject.name "technical.equipment.designDimensioningError" ;
+    dcterms:identifier "urn:uuid:22a35799-b398-478c-9fda-b6e800dc5ff1" ;
+    skos:definition "Includes, for example, design and dimensioning errors, errors made during the investment project calculations."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "technical.equipment.designDimensioningError" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

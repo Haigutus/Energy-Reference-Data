@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/ad8c5b33-10b4-40ab-bda7-43ce6c4889ab> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "High ambient temperature due to external temperature." ;
+    cim:IdentifiedObject.mRID "ad8c5b33-10b4-40ab-bda7-43ce6c4889ab" ;
+    cim:IdentifiedObject.name "environmental.temperature.highAmbient" ;
+    dcterms:identifier "urn:uuid:ad8c5b33-10b4-40ab-bda7-43ce6c4889ab" ;
+    skos:definition "High ambient temperature due to external temperature."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.temperature.highAmbient" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

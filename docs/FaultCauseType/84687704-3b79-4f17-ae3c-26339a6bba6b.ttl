@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/84687704-3b79-4f17-ae3c-26339a6bba6b> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Includes, for example, frost heave." ;
+    cim:IdentifiedObject.mRID "84687704-3b79-4f17-ae3c-26339a6bba6b" ;
+    cim:IdentifiedObject.name "environmental.waterIce.snowIce" ;
+    dcterms:identifier "urn:uuid:84687704-3b79-4f17-ae3c-26339a6bba6b" ;
+    skos:definition "Includes, for example, frost heave."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "environmental.waterIce.snowIce" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+
