@@ -1,18 +1,227 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-L1R5VF4NBS');
-        </script>
-    </head>    
-    <body>
-        <meta http-equiv = "refresh" content = "0; url = ../StandardMarketProductTypeList.rdf" />
-    </body>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L1R5VF4NBS');
+    </script>
+
+    <!-- Metadata Section -->
+    <meta charset="UTF-8">
+    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
+    <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
+    <meta name="robots" content="index,follow">
+    <meta name="dc.language" content="en">
+    <meta name="dc.title" content="Energy Reference Data SKOS Concept Schemes">
+    <meta name="dc.description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
+    <meta name="dc.subject" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
+    <style>
+           body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #000;
+      }
+      header {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header a {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+      }
+      header img {
+        height: 50px;
+        margin-right: 10px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      main {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.5;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        color: #f00;
+      }
+      .publication-column a {
+        font-size: smaller;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div></div>      
+      <h1>Energy Reference Data</h1>
+      <a href="https://github.com/Haigutus/Energy-Reference-Data" target="_blank">
+        <img src="github-mark-white.svg" alt="GitHub Logo">
+      </a>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Label</th>
+            <th>Definition</th>           
+            <th>Identifier</th>
+            <th>Serialisation</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+<tr>
+    <td><a href="A01.rdf">Standard balancing product</a></td>
+    <td>A harmonised balancing product defined by all TSOs for the exchange of balancing services.</td>
+    <td>A01</td> 
+    <td id="publication-column">
+        <a href="A01.rdf">RDF/XML</a><br>
+        <a href="A01.jsonld">JSON-LD</a><br>
+        <a href="A01.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A02.rdf">Specific balancing product</a></td>
+    <td>A product different from a standard product.</td>
+    <td>A02</td> 
+    <td id="publication-column">
+        <a href="A02.rdf">RDF/XML</a><br>
+        <a href="A02.jsonld">JSON-LD</a><br>
+        <a href="A02.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A03.rdf">Product from integrated scheduling process</a></td>
+    <td>From the EBGL Article 2 (19), means an iterative process that uses at least integrated scheduling process bids that contain commercial data, complex technical data of individual power generating facilities or demand facilities and explicitly includes the start-up characteristics, the latest control area adequacy analysis and the operational security limits as an input to the process.</td>
+    <td>A03</td> 
+    <td id="publication-column">
+        <a href="A03.rdf">RDF/XML</a><br>
+        <a href="A03.jsonld">JSON-LD</a><br>
+        <a href="A03.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A04.rdf">Local balancing product</a></td>
+    <td>A balancing product that is neither standard nor specific. This type may be applicable only in the interim period until standard and specific products have been defined within the given scheduling area.</td>
+    <td>A04</td> 
+    <td id="publication-column">
+        <a href="A04.rdf">RDF/XML</a><br>
+        <a href="A04.jsonld">JSON-LD</a><br>
+        <a href="A04.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A05.rdf">Standard mFRR product eligible for scheduled activation</a></td>
+    <td>Standard mFRR product eligible for scheduled activation.</td>
+    <td>A05</td> 
+    <td id="publication-column">
+        <a href="A05.rdf">RDF/XML</a><br>
+        <a href="A05.jsonld">JSON-LD</a><br>
+        <a href="A05.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A06.rdf">Standard mFRR product eligible for direct activation</a></td>
+    <td>Standard mFRR product eligible for direct activation.</td>
+    <td>A06</td> 
+    <td id="publication-column">
+        <a href="A06.rdf">RDF/XML</a><br>
+        <a href="A06.jsonld">JSON-LD</a><br>
+        <a href="A06.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A07.rdf">Standard mFRR product eligible for direct and scheduled activation</a></td>
+    <td>Standard mFRR product eligible for direct as well as scheduled activation.</td>
+    <td>A07</td> 
+    <td id="publication-column">
+        <a href="A07.rdf">RDF/XML</a><br>
+        <a href="A07.jsonld">JSON-LD</a><br>
+        <a href="A07.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A08.rdf">Market wide resource capacity mechanism</a></td>
+    <td>This is a market-wide resource capacity mechanism where all resource capacity required to ensure security of supply receives payment. These mechanisms are open for participation to all capacity resources contributing to adequacy.</td>
+    <td>A08</td> 
+    <td id="publication-column">
+        <a href="A08.rdf">RDF/XML</a><br>
+        <a href="A08.jsonld">JSON-LD</a><br>
+        <a href="A08.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A09.rdf">Strategic reserve resource capacity mechanism</a></td>
+    <td>This is a market resource capacity mechanism that is kept outside of the electricity market and only used if the market participants do not offer enough generation to meet short-term demand.</td>
+    <td>A09</td> 
+    <td id="publication-column">
+        <a href="A09.rdf">RDF/XML</a><br>
+        <a href="A09.jsonld">JSON-LD</a><br>
+        <a href="A09.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="A10.rdf">Other resource capacity mechanism</a></td>
+    <td>This is any other kind of market resource capacity mechanism.</td>
+    <td>A10</td> 
+    <td id="publication-column">
+        <a href="A10.rdf">RDF/XML</a><br>
+        <a href="A10.jsonld">JSON-LD</a><br>
+        <a href="A10.ttl">Turtle</a>
+    </td>      
+</tr>
+
+          <!-- Add more rows for each concept scheme -->
+        </tbody>
+      </table>
+    </main>
+  </body>
 </html>

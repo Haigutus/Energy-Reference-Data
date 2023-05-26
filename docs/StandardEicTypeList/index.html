@@ -1,18 +1,194 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-L1R5VF4NBS');
-        </script>
-    </head>    
-    <body>
-        <meta http-equiv = "refresh" content = "0; url = ../StandardEicTypeList.rdf" />
-    </body>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L1R5VF4NBS');
+    </script>
+
+    <!-- Metadata Section -->
+    <meta charset="UTF-8">
+    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
+    <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
+    <meta name="robots" content="index,follow">
+    <meta name="dc.language" content="en">
+    <meta name="dc.title" content="Energy Reference Data SKOS Concept Schemes">
+    <meta name="dc.description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
+    <meta name="dc.subject" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
+    <style>
+           body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #000;
+      }
+      header {
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header a {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+      }
+      header img {
+        height: 50px;
+        margin-right: 10px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      main {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.5;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        color: #f00;
+      }
+      .publication-column a {
+        font-size: smaller;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div></div>      
+      <h1>Energy Reference Data</h1>
+      <a href="https://github.com/Haigutus/Energy-Reference-Data" target="_blank">
+        <img src="github-mark-white.svg" alt="GitHub Logo">
+      </a>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Label</th>
+            <th>Definition</th>           
+            <th>Identifier</th>
+            <th>Serialisation</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+<tr>
+    <td><a href="A.rdf">Substation</a></td>
+    <td>An EIC code to substations.</td>
+    <td>A</td> 
+    <td id="publication-column">
+        <a href="A.rdf">RDF/XML</a><br>
+        <a href="A.jsonld">JSON-LD</a><br>
+        <a href="A.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="T.rdf">Tieline</a></td>
+    <td>An EIC code to identify tielines.</td>
+    <td>T</td> 
+    <td id="publication-column">
+        <a href="T.rdf">RDF/XML</a><br>
+        <a href="T.jsonld">JSON-LD</a><br>
+        <a href="T.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="V.rdf">Location</a></td>
+    <td>An EIC code to identify locations.</td>
+    <td>V</td> 
+    <td id="publication-column">
+        <a href="V.rdf">RDF/XML</a><br>
+        <a href="V.jsonld">JSON-LD</a><br>
+        <a href="V.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="W.rdf">Resource Object</a></td>
+    <td>An EIC code to identify resource objects.</td>
+    <td>W</td> 
+    <td id="publication-column">
+        <a href="W.rdf">RDF/XML</a><br>
+        <a href="W.jsonld">JSON-LD</a><br>
+        <a href="W.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="X.rdf">Party</a></td>
+    <td>An EIC code to identify parties.</td>
+    <td>X</td> 
+    <td id="publication-column">
+        <a href="X.rdf">RDF/XML</a><br>
+        <a href="X.jsonld">JSON-LD</a><br>
+        <a href="X.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="Y.rdf">Area or Domain</a></td>
+    <td>An EIC code to identify areas or domains.</td>
+    <td>Y</td> 
+    <td id="publication-column">
+        <a href="Y.rdf">RDF/XML</a><br>
+        <a href="Y.jsonld">JSON-LD</a><br>
+        <a href="Y.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr>
+    <td><a href="Z.rdf">Measurement point</a></td>
+    <td>An EIC code to identify measurement points.</td>
+    <td>Z</td> 
+    <td id="publication-column">
+        <a href="Z.rdf">RDF/XML</a><br>
+        <a href="Z.jsonld">JSON-LD</a><br>
+        <a href="Z.ttl">Turtle</a>
+    </td>      
+</tr>
+
+          <!-- Add more rows for each concept scheme -->
+        </tbody>
+      </table>
+    </main>
+  </body>
 </html>

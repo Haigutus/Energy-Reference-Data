@@ -176,6 +176,9 @@ frontpage_html_template = """
       a:hover {{
         color: #f00;
       }}
+      .publication-column a {{
+        font-size: smaller;
+      }}
     </style>
   </head>
   <body>
@@ -195,6 +198,126 @@ frontpage_html_template = """
             <th>Modified</th>
             <th>Version</th>            
             <th>Identifier</th>
+            <th>Serialisation</th>
+          </tr>
+        </thead>
+        <tbody>
+          {}
+          <!-- Add more rows for each concept scheme -->
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
+"""
+
+concept_html_template = """
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L1R5VF4NBS');
+    </script>
+
+    <!-- Metadata Section -->
+    <meta charset="UTF-8">
+    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
+    <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
+    <meta name="robots" content="index,follow">
+    <meta name="dc.language" content="en">
+    <meta name="dc.title" content="Energy Reference Data SKOS Concept Schemes">
+    <meta name="dc.description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
+    <meta name="dc.subject" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
+    <style>
+           body {{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #000;
+      }}
+      header {{
+        background-color: #000;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }}
+      header a {{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+      }}
+      header img {{
+        height: 50px;
+        margin-right: 10px;
+      }}
+      h1 {{
+        margin: 0;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }}
+      main {{
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.5;
+      }}
+      table {{
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }}
+      th, td {{
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }}
+      th {{
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-transform: uppercase;
+      }}
+      a {{
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+      }}
+      a:hover {{
+        color: #f00;
+      }}
+      .publication-column a {{
+        font-size: smaller;
+      }}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div></div>      
+      <h1>Energy Reference Data</h1>
+      <a href="https://github.com/Haigutus/Energy-Reference-Data" target="_blank">
+        <img src="github-mark-white.svg" alt="GitHub Logo">
+      </a>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Label</th>
+            <th>Definition</th>           
+            <th>Identifier</th>
+            <th>Serialisation</th>
           </tr>
         </thead>
         <tbody>
@@ -213,7 +336,25 @@ table_row_html_template = """
     <td>{definition}</td>
     <td>{modified}</td>
     <td>{version}</td>
-    <td>{identifier}</td>        
+    <td>{identifier}</td> 
+    <td id="publication-column">
+        <a href="{prefLabel}.rdf">RDF/XML</a><br>
+        <a href="{prefLabel}.jsonld">JSON-LD</a><br>
+        <a href="{prefLabel}.ttl">Turtle</a>
+    </td>      
+</tr>
+"""
+
+concept_table_row_html_template = """
+<tr>
+    <td><a href="{identifier}.rdf">{prefLabel}</a></td>
+    <td>{definition}</td>
+    <td>{identifier}</td> 
+    <td id="publication-column">
+        <a href="{identifier}.rdf">RDF/XML</a><br>
+        <a href="{identifier}.jsonld">JSON-LD</a><br>
+        <a href="{identifier}.ttl">Turtle</a>
+    </td>      
 </tr>
 """
 
@@ -255,10 +396,11 @@ for item in data_to_publish:
     concept_scheme_metadata = {child.tag.split("}")[1]: child.text for child in concept_scheme.getchildren() if child.text != None}
     frontpage_rows += table_row_html_template.format(**concept_scheme_metadata)
 
-    # Publish ConceptCheme
+    # Publish ConceptScheme
     publish_item(data, concept_scheme_metadata["prefLabel"])
 
     # Publish Concepts
+    concept_rows = ""
     for concept in concepts:
         name = concept.attrib.values()[0].split("/")[-1]
         relative_path = concept_scheme_metadata["prefLabel"]
@@ -268,6 +410,29 @@ for item in data_to_publish:
         rdf_root.append(concept)
 
         publish_item(rdf_root, name, relative_path)
+
+        # Extract concept metadata
+        concept_metadata = {child.tag.split("}")[1]: child.text for child in concept.getchildren() if child.text != None}
+
+        if len(concept_metadata.values()) == 0:
+            print(f"ERROR - empty concept {concept.attrib}")
+            continue
+
+        if not concept_metadata.get("definition"):
+            print(f"WARNING - Concept missing definition {concept_metadata}")
+            concept_metadata["definition"] = ""
+
+        if not concept_metadata.get("prefLabel"):
+            print(f"WARNING - Concept missing prefLabel {concept_metadata}")
+            concept_metadata["prefLabel"] = ""
+
+        concept_metadata["identifier"] = concept_metadata["identifier"].split(":")[-1]
+
+        concept_rows += concept_table_row_html_template.format(**concept_metadata)
+
+    # Publish Concept Index
+    print(f"Generating index fo {publication_base_path}/{relative_path}")
+    Path(publication_base_path).joinpath(relative_path).joinpath("index.html").write_text(concept_html_template.format(concept_rows))
 
 print(f"Generating frontpage to {publication_base_path}")
 Path(publication_base_path).joinpath("index.html").write_text(frontpage_html_template.format(frontpage_rows))
