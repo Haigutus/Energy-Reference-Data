@@ -1,6 +1,7 @@
 from lxml import etree
 from pathlib import Path
 from rdflib import Graph
+from os import path
 
 publication_base_path = r"../docs"
 def publish_item(data, name, relative_path="", base_path=publication_base_path):
@@ -17,18 +18,17 @@ def publish_item(data, name, relative_path="", base_path=publication_base_path):
     item_path.mkdir(parents=True, exist_ok=True)
 
     # Write index.html
-    item_index_path.write_text(redirect_html_template.format(path=item_file_name.with_suffix(".rdf")))
+    item_index_path.write_text(redirect_html_template.format(path=f"{name}.rdf"))
 
     # Write .rdf data
-    item_file_path.with_suffix(".rdf").write_bytes(etree.tostring(data, pretty_print=True))
+    Path(f"{item_file_path}.rdf").write_bytes(etree.tostring(data, pretty_print=True))
 
     # Generate .jsonld data based on .rdf
-    convert_rdfxml_to_jsonld(item_file_path.with_suffix(".rdf"), item_file_path.with_suffix(".jsonld"))
+    convert_rdfxml_to_jsonld(f"{item_file_path}.rdf", f"{item_file_path}.jsonld")
 
     # Generate .ttl data based on .rdf
-    convert_rdfxml_to_turtle(item_file_path.with_suffix(".rdf"), item_file_path.with_suffix(".ttl"))
+    convert_rdfxml_to_turtle(f"{item_file_path}.rdf", f"{item_file_path}.ttl")
 
-from pathlib import Path
 
 def clean_directory(path: str, excluded_files: set):
     path = Path(path)
@@ -307,7 +307,7 @@ concept_html_template = """
       <div></div>      
       <h1>Energy Reference Data</h1>
       <a href="https://github.com/Haigutus/Energy-Reference-Data" target="_blank">
-        <img src="github-mark-white.svg" alt="GitHub Logo">
+        <img src="../github-mark-white.svg" alt="GitHub Logo">
       </a>
     </header>
     <main>
@@ -347,13 +347,13 @@ table_row_html_template = """
 
 concept_table_row_html_template = """
 <tr>
-    <td><a href="{identifier}.rdf">{prefLabel}</a></td>
+    <td><a href="{url}.rdf">{prefLabel}</a></td>
     <td>{definition}</td>
     <td>{identifier}</td> 
     <td id="publication-column">
-        <a href="{identifier}.rdf">RDF/XML</a><br>
-        <a href="{identifier}.jsonld">JSON-LD</a><br>
-        <a href="{identifier}.ttl">Turtle</a>
+        <a href="{url}.rdf">RDF/XML</a><br>
+        <a href="{url}.jsonld">JSON-LD</a><br>
+        <a href="{url}.ttl">Turtle</a>
     </td>      
 </tr>
 """
@@ -414,6 +414,8 @@ for item in data_to_publish:
         # Extract concept metadata
         concept_metadata = {child.tag.split("}")[1]: child.text for child in concept.getchildren() if child.text != None}
 
+        concept_metadata["url"] = concept.attrib.values()[0]
+
         if len(concept_metadata.values()) == 0:
             print(f"ERROR - empty concept {concept.attrib}")
             continue
@@ -426,7 +428,9 @@ for item in data_to_publish:
             print(f"WARNING - Concept missing prefLabel {concept_metadata}")
             concept_metadata["prefLabel"] = ""
 
-        concept_metadata["identifier"] = concept_metadata["identifier"].split(":")[-1]
+        if not concept_metadata.get("identifier"):
+            print(f"WARNING - Concept missing identifier {concept_metadata}")
+            concept_metadata["identifier"] = ""
 
         concept_rows += concept_table_row_html_template.format(**concept_metadata)
 
