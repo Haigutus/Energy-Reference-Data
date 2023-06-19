@@ -28,47 +28,47 @@
 	<cim:FaultCauseType rdf:ID="_93992f35-49b1-4bcd-93a8-a2d16233385e">
 		<cim:IdentifiedObject.mRID>93992f35-49b1-4bcd-93a8-a2d16233385e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Operation and maintenance focus on faults that occur during operation and maintenance by internal and external personnel and operational errors that lead to unplanned and sudden changes in the electric power system operating conditions.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_ce8c4614-d014-4419-9f2c-99925ba93328">
 		<cim:IdentifiedObject.mRID>ce8c4614-d014-4419-9f2c-99925ba93328</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>The cause category technical equipment focuses on faults that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_bea6bd0c-ca21-4de5-8e16-e524884bb8a3">
 		<cim:IdentifiedObject.mRID>bea6bd0c-ca21-4de5-8e16-e524884bb8a3</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>unknown</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Unknown is registered as the cause if the cause of the fault cannot be determined at any certainty.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_574ad0d5-1610-47a2-bca7-4e586fb3be2b">
 		<cim:IdentifiedObject.mRID>574ad0d5-1610-47a2-bca7-4e586fb3be2b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.lightning</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Environmental causes due to lightning.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_9ca7699a-e792-45ea-b40b-6b056e603143">
 		<cim:IdentifiedObject.mRID>9ca7699a-e792-45ea-b40b-6b056e603143</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.wind</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Environmental causes due to wind. Use the subcategory high wind speed and/or unfavourable wind direction if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_d1304c3d-0d07-4379-841d-d2ce47025498">
 		<cim:IdentifiedObject.mRID>d1304c3d-0d07-4379-841d-d2ce47025498</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.waterIce</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault caused due to water elements. Use the subcategory moisture/rain/hail or snow/ice if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_3ec8c0a1-6823-41d0-baef-af0def109fcd">
 		<cim:IdentifiedObject.mRID>3ec8c0a1-6823-41d0-baef-af0def109fcd</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.pollution</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault caused by pollution. Use the subcategory air pollution, salt or ash particles if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_bda46d8e-9515-4678-a6c9-dd62be9c5deb">
 		<cim:IdentifiedObject.mRID>bda46d8e-9515-4678-a6c9-dd62be9c5deb</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.temperature</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault causes due to high/low ambient temperatures or (wild) fires due to environmental causes (not human). Use the subcategory fires, high ambient temperature or low ambient temperature if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9">
 		<cim:IdentifiedObject.mRID>9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.physicalSurroundings</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault causes due to physical surroundings without human intervention. Use the subcategory vegetation, landslide/avalanche or flood if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_60d37377-437d-4418-87c8-dcf3945b079f">
 		<cim:IdentifiedObject.mRID>60d37377-437d-4418-87c8-dcf3945b079f</cim:IdentifiedObject.mRID>
@@ -78,17 +78,17 @@
 	<cim:FaultCauseType rdf:ID="_540f6a96-338f-480d-8cdd-a9746545dba2">
 		<cim:IdentifiedObject.mRID>540f6a96-338f-480d-8cdd-a9746545dba2</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>externalInfluences.humanThirdParty</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults caused by third parties not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system. Use the subcategories under external.humanThirdParty if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_af5594ba-241b-444f-bac5-23b808a5c707">
 		<cim:IdentifiedObject.mRID>af5594ba-241b-444f-bac5-23b808a5c707</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>externalInfluences.foreignObjects</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Foreign objects not related to human activity or animals.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_527331e7-20ec-4454-8a31-c7aa564bfeba">
 		<cim:IdentifiedObject.mRID>527331e7-20ec-4454-8a31-c7aa564bfeba</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>externalInfluences.animals</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults due to animals. Use the subcategory birds or other animals if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_d9df5598-9383-4ea7-9063-6ffeea874b41">
 		<cim:IdentifiedObject.mRID>d9df5598-9383-4ea7-9063-6ffeea874b41</cim:IdentifiedObject.mRID>
@@ -98,12 +98,12 @@
 	<cim:FaultCauseType rdf:ID="_ac03c3d2-5d34-46a8-84c2-133fd6dbe45d">
 		<cim:IdentifiedObject.mRID>ac03c3d2-5d34-46a8-84c2-133fd6dbe45d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_82cbc4cd-554f-4f09-ad48-e00fdd95d2b5">
 		<cim:IdentifiedObject.mRID>82cbc4cd-554f-4f09-ad48-e00fdd95d2b5</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.operations</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_650891dc-1f0f-410a-95d9-7ba5b56f59da">
 		<cim:IdentifiedObject.mRID>650891dc-1f0f-410a-95d9-7ba5b56f59da</cim:IdentifiedObject.mRID>
@@ -113,7 +113,7 @@
 	<cim:FaultCauseType rdf:ID="_7647ea49-8129-414a-81d2-683e959723ea">
 		<cim:IdentifiedObject.mRID>7647ea49-8129-414a-81d2-683e959723ea</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Causes that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans. Use the subcategories of this cause if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_0f90e893-5d5f-4a4e-9298-fd003ff67f5d">
 		<cim:IdentifiedObject.mRID>0f90e893-5d5f-4a4e-9298-fd003ff67f5d</cim:IdentifiedObject.mRID>
@@ -123,7 +123,7 @@
 	<cim:FaultCauseType rdf:ID="_307de251-d9b6-4c10-8a98-9b16a7d8e0cb">
 		<cim:IdentifiedObject.mRID>307de251-d9b6-4c10-8a98-9b16a7d8e0cb</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.adjoiningGrid</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Causes not due to faults in the component itself and originating from the adjoining grid. Use the subcategory below 100 kV or at 100 kV or above if possible.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_7e1b22f6-fd21-4e12-937f-6cb17c1a9940">
 		<cim:IdentifiedObject.mRID>7e1b22f6-fd21-4e12-937f-6cb17c1a9940</cim:IdentifiedObject.mRID>
@@ -133,12 +133,12 @@
 	<cim:FaultCauseType rdf:ID="_a6a8ee4a-d696-4382-886c-3226c613912b">
 		<cim:IdentifiedObject.mRID>a6a8ee4a-d696-4382-886c-3226c613912b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.wind.highSpeed</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Environmental causes due to high wind speed.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_ddad843a-7da8-405c-9baf-dca66921f828">
 		<cim:IdentifiedObject.mRID>ddad843a-7da8-405c-9baf-dca66921f828</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.wind.unfavourableDirection</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Environmental causes due to unfavourable wind direction.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_04d1eded-d2d2-4ae9-8951-7be375b49e89">
 		<cim:IdentifiedObject.mRID>04d1eded-d2d2-4ae9-8951-7be375b49e89</cim:IdentifiedObject.mRID>
@@ -153,17 +153,17 @@
 	<cim:FaultCauseType rdf:ID="_8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11">
 		<cim:IdentifiedObject.mRID>8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.pollution.air</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Environmental causes due to air pollution.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595">
 		<cim:IdentifiedObject.mRID>6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.pollution.salt</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Environmental causes due to salt.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_dc74466d-5115-475c-a90c-ff103487b3e0">
 		<cim:IdentifiedObject.mRID>dc74466d-5115-475c-a90c-ff103487b3e0</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.pollution.ashParticles</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Environmental causes due to ash particles from, for example, volcanoes.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_b750fc43-6329-4c9d-9513-f236b37e1e87">
 		<cim:IdentifiedObject.mRID>b750fc43-6329-4c9d-9513-f236b37e1e87</cim:IdentifiedObject.mRID>
@@ -183,18 +183,17 @@
 	<cim:FaultCauseType rdf:ID="_6e52d582-7d16-49f9-8f85-e6e8225434ba">
 		<cim:IdentifiedObject.mRID>6e52d582-7d16-49f9-8f85-e6e8225434ba</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.physicalSurroundings.vegetation</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Includes, for example, tree toppling and other vegetation growth.
-			</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Includes, for example, tree toppling and other vegetation growth.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_6ab2d89c-5911-486b-8049-88264a1092fc">
 		<cim:IdentifiedObject.mRID>6ab2d89c-5911-486b-8049-88264a1092fc</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.physicalSurroundings.landslidesAvalanche</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snowslides (avalanches). Submarine landslides are also included.</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snow slides (avalanches). Submarine landslides are also included.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_c2083d59-b5c8-43b0-a334-3d83a8c338aa">
 		<cim:IdentifiedObject.mRID>c2083d59-b5c8-43b0-a334-3d83a8c338aa</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>environmental.physicalSurroundings.flood</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party.</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences &gt; Human - third party.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_389299f2-c3ee-4eb5-b34c-6df7b87470e9">
 		<cim:IdentifiedObject.mRID>389299f2-c3ee-4eb5-b34c-6df7b87470e9</cim:IdentifiedObject.mRID>
@@ -219,7 +218,7 @@
 	<cim:FaultCauseType rdf:ID="_456ac068-5c16-45e4-8d3e-108333de9344">
 		<cim:IdentifiedObject.mRID>456ac068-5c16-45e4-8d3e-108333de9344</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>externalInfluences.humanThirdParty.fireExplosion</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Unintentional fires or explosions due to third-party human activity.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_4487e4ca-ccab-4460-9b89-28bd2cb6aa21">
 		<cim:IdentifiedObject.mRID>4487e4ca-ccab-4460-9b89-28bd2cb6aa21</cim:IdentifiedObject.mRID>
@@ -229,7 +228,7 @@
 	<cim:FaultCauseType rdf:ID="_baec6ee9-3d37-4aa9-8ff5-0f4f8547432b">
 		<cim:IdentifiedObject.mRID>baec6ee9-3d37-4aa9-8ff5-0f4f8547432b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>externalInfluences.humanThirdParty.cyberAttack</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults due to cyberattacks.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c">
 		<cim:IdentifiedObject.mRID>78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c</cim:IdentifiedObject.mRID>
@@ -239,22 +238,22 @@
 	<cim:FaultCauseType rdf:ID="_81d22f06-0b56-4656-a4c4-a868c79c9865">
 		<cim:IdentifiedObject.mRID>81d22f06-0b56-4656-a4c4-a868c79c9865</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>externalInfluences.animals.birds</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults due to birds.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_873155bb-7675-4fc3-8391-609461c3d174">
 		<cim:IdentifiedObject.mRID>873155bb-7675-4fc3-8391-609461c3d174</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>externalInfluences.animals.other</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults due to other animals than birds.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_5be5b488-2bca-4876-bde5-65881df424b0">
 		<cim:IdentifiedObject.mRID>5be5b488-2bca-4876-bde5-65881df424b0</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel.documentationError</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults during operation or maintenance due to erroneous documentation.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_7c2ef4f5-3e11-4b29-8920-6ba18fba23be">
 		<cim:IdentifiedObject.mRID>7c2ef4f5-3e11-4b29-8920-6ba18fba23be</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel.installationError</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults during operation or maintenance due to incorrect installation of network element or equipment.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_3d48ff25-3c44-4ee2-abc6-4809f3e43ca0">
 		<cim:IdentifiedObject.mRID>3d48ff25-3c44-4ee2-abc6-4809f3e43ca0</cim:IdentifiedObject.mRID>
@@ -274,12 +273,12 @@
 	<cim:FaultCauseType rdf:ID="_f0678796-efba-4252-a16b-1a4094b90917">
 		<cim:IdentifiedObject.mRID>f0678796-efba-4252-a16b-1a4094b90917</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel.deficientMaintenance</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults during operation or maintenance due to deficient maintenance.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_cae54098-a3e2-45fd-a659-ed3f42539c31">
 		<cim:IdentifiedObject.mRID>cae54098-a3e2-45fd-a659-ed3f42539c31</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel.insufficientProtectionRelayInstalled</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults during operation or maintenance due to installed protection relay that is insufficient or not capable of performing the required operation.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_865cfac4-9b26-4026-8e12-8d63175603ac">
 		<cim:IdentifiedObject.mRID>865cfac4-9b26-4026-8e12-8d63175603ac</cim:IdentifiedObject.mRID>
@@ -294,22 +293,22 @@
 	<cim:FaultCauseType rdf:ID="_fd7bce20-cd68-4366-9db7-2815156ed3b2">
 		<cim:IdentifiedObject.mRID>fd7bce20-cd68-4366-9db7-2815156ed3b2</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel.commissioningTesting</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Faults caused during commission or testing of (new) equipment.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_c847878d-1899-493a-9bed-7b1fc85df672">
 		<cim:IdentifiedObject.mRID>c847878d-1899-493a-9bed-7b1fc85df672</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel.logging</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Any kind of logging and tree felling by internal or external personnel.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_59ee68fb-28e8-4ac6-9c29-69a02c892742">
 		<cim:IdentifiedObject.mRID>59ee68fb-28e8-4ac6-9c29-69a02c892742</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel.diggingExcavation</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Any kind of digging or excavation by internal or external personnel.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_85c4d05a-0459-4b8e-90e7-cc0ef2173d91">
 		<cim:IdentifiedObject.mRID>85c4d05a-0459-4b8e-90e7-cc0ef2173d91</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>operationAndMaintenance.personnel.constructionWork</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Any kind of construction work such as rock blasting, building construction, infrastructure building performed by internal or external personnel.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_1a9e6d88-4679-46b0-9f98-deab2638f644">
 		<cim:IdentifiedObject.mRID>1a9e6d88-4679-46b0-9f98-deab2638f644</cim:IdentifiedObject.mRID>
@@ -378,48 +377,48 @@
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_04991d18-8994-43cb-88e1-8d2af5a61577">
 		<cim:IdentifiedObject.mRID>04991d18-8994-43cb-88e1-8d2af5a61577</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>technical.equipment.aging</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>technical.equipment.ageing</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Fault in an equipment due to its ageing.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_e0ad1933-1448-48cf-aa91-c53a5960c39b">
 		<cim:IdentifiedObject.mRID>e0ad1933-1448-48cf-aa91-c53a5960c39b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.wearTear</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to wear and tear in ordinary operation.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_77be6f95-d7f8-4f14-aeee-1a8bab3d2916">
 		<cim:IdentifiedObject.mRID>77be6f95-d7f8-4f14-aeee-1a8bab3d2916</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.corrosion</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to corrosion.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_94bd2c45-29e7-4a34-99db-9ec1e18a26c5">
 		<cim:IdentifiedObject.mRID>94bd2c45-29e7-4a34-99db-9ec1e18a26c5</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.loosePart</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due one or several loose parts.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_506f89b7-f061-443f-b05a-8c22fa33127a">
 		<cim:IdentifiedObject.mRID>506f89b7-f061-443f-b05a-8c22fa33127a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.damagedPart</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due one or several damaged parts.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f">
 		<cim:IdentifiedObject.mRID>f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.looseElectricalContactPoint</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due one or several loose electrical contact points.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_e57f023c-027d-4d75-8364-177690c8346b">
 		<cim:IdentifiedObject.mRID>e57f023c-027d-4d75-8364-177690c8346b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.discharges</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to discharge(s).</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_fccda3ac-6e0c-47fc-9591-d1297f46c0c5">
 		<cim:IdentifiedObject.mRID>fccda3ac-6e0c-47fc-9591-d1297f46c0c5</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.leakage</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to leakage(s).</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_0638044d-1262-4b6d-bb12-be34565b6977">
 		<cim:IdentifiedObject.mRID>0638044d-1262-4b6d-bb12-be34565b6977</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.crackBreakage</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to a crack or breakage.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_f39e9c18-e979-4c9a-b551-3070fec7f9b4">
 		<cim:IdentifiedObject.mRID>f39e9c18-e979-4c9a-b551-3070fec7f9b4</cim:IdentifiedObject.mRID>
@@ -429,22 +428,22 @@
 	<cim:FaultCauseType rdf:ID="_75b740f4-9080-461c-ac9a-e6318cffc5e3">
 		<cim:IdentifiedObject.mRID>75b740f4-9080-461c-ac9a-e6318cffc5e3</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.erosion</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to erosion.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_1485acaf-d2cb-4e02-9c5e-29e9452e743f">
 		<cim:IdentifiedObject.mRID>1485acaf-d2cb-4e02-9c5e-29e9452e743f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.rotDamage</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to rot damage.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_3a647504-e22a-49b7-969e-7e806e527e8a">
 		<cim:IdentifiedObject.mRID>3a647504-e22a-49b7-969e-7e806e527e8a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.contamination</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to contamination.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_041e2fb7-dd49-4609-9bc5-fe6df04b96cf">
 		<cim:IdentifiedObject.mRID>041e2fb7-dd49-4609-9bc5-fe6df04b96cf</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.equipment.blockage</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Fault in an equipment due to blockage.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_6bf83d88-aa17-4999-9b6f-f3adf9a4e976">
 		<cim:IdentifiedObject.mRID>6bf83d88-aa17-4999-9b6f-f3adf9a4e976</cim:IdentifiedObject.mRID>
@@ -464,7 +463,7 @@
 	<cim:FaultCauseType rdf:ID="_9eb57f55-c6b2-4df1-a411-128aeac5aa6d">
 		<cim:IdentifiedObject.mRID>9eb57f55-c6b2-4df1-a411-128aeac5aa6d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>technical.faultOnOtherComponent.other</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Other causes due to faults on other components.</cim:IdentifiedObject.description>
 	</cim:FaultCauseType>
 	<cim:FaultCauseType rdf:ID="_cdb59078-ee7e-40f6-a915-7e314c617f32">
 		<cim:IdentifiedObject.mRID>cdb59078-ee7e-40f6-a915-7e314c617f32</cim:IdentifiedObject.mRID>
