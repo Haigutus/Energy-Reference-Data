@@ -8,11 +8,11 @@
 	>
 
 	<md:FullModel rdf:about="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4">
-		<md:Model.created>2022-10-28T15:32:00</md:Model.created>
+		<md:Model.created>2023-06-19T15:00:00+02</md:Model.created>
 		<md:Model.version>1</md:Model.version>
-		<md:Model.description>ENTSO-E Fault Cause Reference model</md:Model.description>
-		<md:Model.modelingAuthoritySet>"http://energy.referencedata.eu/Fault"</md:Model.modelingAuthoritySet>
-		<dcat:keyword>RD</dcat:keyword>
+		<md:Model.description>Fault Cause Reference model</md:Model.description>
+		<md:Model.modelingAuthoritySet>"https://energy.referencedata.eu/FaultCauseType"</md:Model.modelingAuthoritySet>
+		<dcat:keyword>GD</dcat:keyword>
 	</md:FullModel>
 	
 	<cim:FaultCauseType rdf:ID="_89b98b08-ed03-4964-bf32-72c0cad8ad69">
