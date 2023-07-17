@@ -1,0 +1,7 @@
+{
+  "@dct:conformsTo": "http://schema.org/",
+
+  "vatID": {
+    "namespace": "http://schema.org/"
+  }
+}

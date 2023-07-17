@@ -62,11 +62,12 @@ def get_metadata_from_xml(xml, include_namespace=False, include_root=False):
 
     return properties_dict
 
-
-def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin/user_upload/edi/library/eic/allocated-eic-codes.xml"):
+def get_allocated_eic(allocated_eic_url="https://www.entsoe.eu/fileadmin/user_upload/edi/library/eic/allocated-eic-codes.xml"):
     allocated_eic = requests.get(allocated_eic_url)
-
     xml_tree = etree.fromstring(allocated_eic.content)
+    return xml_tree
+
+def allocated_eic_to_triplet(xml_tree):
 
     ID = "f4c70c71-77e2-410e-9903-cbd85305cdc4"
     VERSION = "1"
@@ -82,9 +83,7 @@ def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin
 
         (NAME, "Type", "ConceptScheme"),
         (NAME, "type", "http://www.w3.org/ns/dcat#Dataset"),
-        (NAME, "prefLabel", "Energy Identification Codes"),
-        # (NAME, "issued", ISSUED, INSTANCE_ID),
-        # (NAME, "modified", ISSUED),
+        (NAME, "modified", ISSUED),
         # (NAME, "version", VERSION),
         (NAME, "prefLabel", NAME),
         (NAME, "identifier", ID),
@@ -94,7 +93,7 @@ def get_allocated_eic_triplet(allocated_eic_url="https://www.entsoe.eu/fileadmin
 
 
     for key, value in get_metadata_from_xml(xml_tree).items():
-        eic_data_list.append((NAME, key, value))
+        eic_data_list.append((NAME, f"eic:{key}", value))
 
     EICs = xml_tree.iter("{*}EICCode_MarketDocument")
 
@@ -141,7 +140,8 @@ def rename_and_append_key(data, original_key, new_key):
 
 
 # Get published EIC
-data = get_allocated_eic_triplet()
+data = allocated_eic_to_triplet(get_allocated_eic())
+#data = allocated_eic_to_triplet(etree.parse("/home/kristjan/Downloads/allocated-eic-codes.xml").getroot())
 
 # Add header files
 data = rename_and_append_key(data, "revisionNumber", "version")
@@ -149,9 +149,9 @@ data = rename_and_append_key(data, "eic:createdDateTime", "modified")
 
 
 # Add fields for SKOS
-data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "altLabel")
+data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "altLabel")
 data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "start.use")
-data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "prefLabel")
+data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "prefLabel")
 data = rename_and_append_key(data, "EICCode_MarketDocument.description", "definition")
 
 # Add fields for EIC
@@ -165,6 +165,12 @@ data = rename_and_append_key(data, "EICCode_MarketDocument.docStatus.value", "Do
 data = rename_and_append_key(data, "EICCode_MarketDocument.attributeInstanceComponent.attribute", "AttributeInstanceComponent.attribute")
 data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "DateAndOrTime.date")
 data = rename_and_append_key(data, "EICCode_MarketDocument.Function_Names.name", "Names.name")
+
+# Add base type of Thing to use Schema.org attributes
+data = RDF_parser.add_key_and_value(data, "Concept", "type", "http://schema.org/Thing")
+
+# Add schema.org parameters
+data = rename_and_append_key(data, "EICCode_MarketDocument.eICCode_MarketParticipant.vATCode_Names.name", "vatID")
 
 # Add functions
 for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Function_Names.name'").groupby("VALUE"):
@@ -204,7 +210,10 @@ for group_code, group_data in object_types.groupby("EIC_Type"):
 
     data = data.append([
         {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
-        {"ID": group_id, "KEY": "label", "VALUE": group_name}
+        {"ID": group_id, "KEY": "label", "VALUE": group_name},
+
+        # TODO - check if rdfs:domain can be used to link skos:Collection -> skos:Concept that defines type of the Collection
+        {"ID": group_id, "KEY": "domain", "VALUE": f"http://energy.referencedata.eu/StandardEicTypeList/{group_code}"},
     ], ignore_index=True)
 
     # Transform data
@@ -224,7 +233,8 @@ data["INSTANCE_ID"] = str(uuid.uuid4())
 rdf_map = RDF_parser.load_export_conf(["conf_skos.json",
                                        "conf_dcat.json",
                                        "conf_cim100.json",
-                                       "conf_rdf_rdfs.json"])
+                                       "conf_rdf_rdfs.json",
+                                       "conf_schemaOrg.json"])
 
 namespace_map = {
     "cim": "http://iec.ch/TC57/CIM100#",
@@ -232,14 +242,16 @@ namespace_map = {
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "dcat": "http://www.w3.org/ns/dcat#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "at": "http://publications.europa.eu/ontology/authority/",
-    "eic": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
+    "schema": "http://schema.org/",
+    #"at": "http://publications.europa.eu/ontology/authority/",
+    "dcterms": "http://purl.org/dc/terms/",
+#    "eic": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
 }
 
 # Export triplet to CGMES
 data.export_to_cimxml(rdf_map=rdf_map,
                       namespace_map=namespace_map,
-                      default_namespace="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0",
+                      #default_namespace="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0",
                       export_undefined=False,
                       export_type="xml_per_instance"
                       )
