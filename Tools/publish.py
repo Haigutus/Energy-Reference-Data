@@ -18,7 +18,7 @@ def publish_item(data, name, relative_path="", base_path=publication_base_path):
     item_path.mkdir(parents=True, exist_ok=True)
 
     # Write index.html
-    item_index_path.write_text(redirect_html_template.format(path=f"{name}.rdf"))
+    item_index_path.write_text(redirect_html_template.format(identifier=name))
 
     # Write .rdf data
     Path(f"{item_file_path}.rdf").write_bytes(etree.tostring(data, pretty_print=True))
@@ -75,6 +75,9 @@ redirect_html_template = """
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="alternate" type="application/rdf+xml" href="../{identifier}.rdf" title="RDF/XML" />
+        <link rel="alternate" type="application/ld+json" href="../{identifier}.jsonld" title="JSON-LD" />
+        <link rel="alternate" type="text/turtle" href="../{identifier}.ttl" title="Turtle" />
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
         <script>
@@ -86,13 +89,13 @@ redirect_html_template = """
         </script>
     </head>    
     <body>
-        <meta http-equiv = "refresh" content = "0; url = ../{path}" />
+        <meta http-equiv = "refresh" content = "0; url = ../{identifier}.rdf" />
     </body>
 </html>"""
 
 frontpage_html_template = """
 <!DOCTYPE html>
-<html>
+<html xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
@@ -190,14 +193,14 @@ frontpage_html_template = """
       </a>
     </header>
     <main>
-      <table>
+      <table typeof="skos:ConceptScheme dcat:Dataset">
         <thead>
           <tr>
-            <th>Label</th>
-            <th>Definition</th>
-            <th>Modified</th>
-            <th>Version</th>            
-            <th>Identifier</th>
+            <th property="skos:prefLabel">Label</th>
+            <th property="skos:definition" lang="en">Definition</th>
+            <th property="dcterms:modified">Modified</th>
+            <th property="dcat:version">Version</th>            
+            <th property="dcterms:identifier">Identifier</th>
             <th>Serialisation</th>
           </tr>
         </thead>
@@ -211,10 +214,29 @@ frontpage_html_template = """
 </html>
 """
 
-concept_html_template = """
+table_row_html_template = """
+<tr typeof="skos:ConceptScheme dcat:Dataset">
+    <td property="skos:prefLabel"><a href="{prefLabel}">{prefLabel}</a></td>
+    <td property="skos:definition">{definition}</td>
+    <td property="dcterms:modified">{modified}</td>
+    <td property="dcat:version">{version}</td>
+    <td property="dcterms:identifier">{identifier}</td> 
+    <td id="publication-column">
+        <a href="{prefLabel}.rdf">RDF/XML</a><br>
+        <a href="{prefLabel}.jsonld">JSON-LD</a><br>
+        <a href="{prefLabel}.ttl">Turtle</a>
+    </td>      
+</tr>
+"""
+
+concept_scheme_html_template = """
 <!DOCTYPE html>
-<html>
+<html xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
+    <link rel="alternate" type="application/rdf+xml" href="../{identifier}.rdf" title="RDF/XML" />
+    <link rel="alternate" type="application/ld+json" href="../{identifier}.jsonld" title="JSON-LD" />
+    <link rel="alternate" type="text/turtle" href="../{identifier}.ttl" title="Turtle" />
+  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
     <script>
@@ -227,7 +249,7 @@ concept_html_template = """
 
     <!-- Metadata Section -->
     <meta charset="UTF-8">
-    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <title>{identifier} SKOS Concept Scheme</title>
     <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
     <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
     <meta name="robots" content="index,follow">
@@ -313,16 +335,16 @@ concept_html_template = """
     <main>
       <table>
         <thead>
-          <tr>
-            <th>Label</th>
-            <th>Definition</th>           
-            <th>Identifier</th>
+          <tr typeof="skos:Concept">
+            <th property="skos:prefLabel">Label</th>
+            <th property="skos:definition" lang="en">Definition</th>           
+            <th property="dcterms:identifier">Identifier</th>
             <th>Serialisation</th>
           </tr>
         </thead>
         <tbody>
-          {}
-          <!-- Add more rows for each concept scheme -->
+          {concept_rows}
+          <!-- Add more rows for each concept -->
         </tbody>
       </table>
     </main>
@@ -330,26 +352,11 @@ concept_html_template = """
 </html>
 """
 
-table_row_html_template = """
-<tr>
-    <td><a href="{prefLabel}">{prefLabel}</a></td>
-    <td>{definition}</td>
-    <td>{modified}</td>
-    <td>{version}</td>
-    <td>{identifier}</td> 
-    <td id="publication-column">
-        <a href="{prefLabel}.rdf">RDF/XML</a><br>
-        <a href="{prefLabel}.jsonld">JSON-LD</a><br>
-        <a href="{prefLabel}.ttl">Turtle</a>
-    </td>      
-</tr>
-"""
-
 concept_table_row_html_template = """
-<tr>
-    <td><a href="{url}.rdf">{prefLabel}</a></td>
-    <td>{definition}</td>
-    <td>{identifier}</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="{url}.rdf">{prefLabel}</a></td>
+    <td property="skos:definition" lang="en">{definition}</td>
+    <td property="dcterms:identifier">{identifier}</td> 
     <td id="publication-column">
         <a href="{url}.rdf">RDF/XML</a><br>
         <a href="{url}.jsonld">JSON-LD</a><br>
@@ -436,7 +443,7 @@ for item in data_to_publish:
 
     # Publish Concept Index
     print(f"Generating index fo {publication_base_path}/{relative_path}")
-    Path(publication_base_path).joinpath(relative_path).joinpath("index.html").write_text(concept_html_template.format(concept_rows))
+    Path(publication_base_path).joinpath(relative_path).joinpath("index.html").write_text(concept_scheme_html_template.format(concept_rows=concept_rows, identifier=concept_scheme_metadata["prefLabel"]))
 
 print(f"Generating frontpage to {publication_base_path}")
 Path(publication_base_path).joinpath("index.html").write_text(frontpage_html_template.format(frontpage_rows))
