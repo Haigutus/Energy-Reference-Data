@@ -87,7 +87,7 @@ def allocated_eic_to_triplet(xml_tree):
         # (NAME, "version", VERSION),
         (NAME, "prefLabel", NAME),
         (NAME, "identifier", ID),
-        (NAME, "keyword", "EIC"),
+        #(NAME, "keyword", "EIC"),
         (NAME, "definition", DEFINITION)
     ]
 
@@ -149,9 +149,15 @@ data = rename_and_append_key(data, "eic:createdDateTime", "modified")
 
 
 # Add fields for SKOS
-data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "altLabel")
+data = rename_and_append_key(data, "EICCode_MarketDocument.mRID", "identifier")
+# Add urn:uuid: prefix
+data.reset_index(inplace=True, drop=True)
+eic_id = "urn:eic:" + data.merge(data.query("KEY == 'Type' and VALUE == 'Concept'").ID, how="left").query("KEY == 'identifier'").VALUE
+data.iloc[eic_id.index, data.columns.get_loc("VALUE")] = eic_id
+
 data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "start.use")
 data = rename_and_append_key(data, "EICCode_MarketDocument.long_Names.name", "prefLabel")
+data = rename_and_append_key(data, "EICCode_MarketDocument.display_Names.name", "altLabel")
 data = rename_and_append_key(data, "EICCode_MarketDocument.description", "definition")
 
 # Add fields for EIC
@@ -176,6 +182,8 @@ data = rename_and_append_key(data, "EICCode_MarketDocument.eICCode_MarketPartici
 for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Function_Names.name'").groupby("VALUE"):
     # Clean name for ID use
     group_id = f"EIC/Function/{group_name.title().replace(' ', '')}"
+
+    print(group_name)
 
     data = data.append([
         {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
