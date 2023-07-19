@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XGRASTIM98999Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XGRASTIM98999Z" ;
+    cim:IdentifiedObject.name "GRASTIM J.V. S.R.L." ;
+    cim:Names.name "Balance Responsible Party",
+        "GRASTIMJVSRL",
+        "IT05486561219" ;
+    dcterms:identifier "urn:eic:59XGRASTIM98999Z" ;
+    schema1:vatID "IT05486561219" ;
+    skos:altLabel "GRASTIMJVSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GRASTIM J.V. S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

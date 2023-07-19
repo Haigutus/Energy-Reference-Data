@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41T6501712318LN6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-09-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "41T6501712318LN6" ;
+    cim:IdentifiedObject.name "Panevėžys-Jonava LN317" ;
+    cim:Names.name "6501712318LN",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:41T6501712318LN6" ;
+    skos:altLabel "6501712318LN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Panevėžys-Jonava LN317" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

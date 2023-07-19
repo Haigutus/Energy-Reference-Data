@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XFOMPE-12345-M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XFOMPE-12345-M" ;
+    cim:IdentifiedObject.name "FOMPEDRAZA COGENERACION, S.A." ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESA47442652",
+        "FOMPE",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XFOMPE-12345-M" ;
+    schema1:vatID "ESA47442652" ;
+    skos:altLabel "FOMPE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FOMPEDRAZA COGENERACION, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

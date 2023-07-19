@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001260F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-10-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacty Trader,Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "21X000000001260F" ;
+    cim:IdentifiedObject.name "Galp gas Natural S.A." ;
+    cim:Names.name "Capacity Trader",
+        "GALP-GN-PT",
+        "PT503103616",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:21X000000001260F" ;
+    schema1:vatID "PT503103616" ;
+    skos:altLabel "GALP-GN-PT" ;
+    skos:definition "Capacty Trader,Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Galp gas Natural S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

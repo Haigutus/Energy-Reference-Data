@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33X32XSEEPOWER1T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33X32XSEEPOWER1T" ;
+    cim:IdentifiedObject.name "SEE POWER TRADING DOOEL" ;
+    cim:Names.name "4044014509498",
+        "SEEPOWER",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33X32XSEEPOWER1T" ;
+    schema1:vatID "4044014509498" ;
+    skos:altLabel "SEEPOWER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SEE POWER TRADING DOOEL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

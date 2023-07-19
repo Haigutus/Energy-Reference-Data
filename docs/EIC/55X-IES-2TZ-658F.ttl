@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55X-IES-2TZ-658F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-05-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Area Operator" ;
+    cim:IdentifiedObject.mRID "55X-IES-2TZ-658F" ;
+    cim:IdentifiedObject.name "Inspired Energy Solutions" ;
+    cim:Names.name "IES",
+        "Market Area Operator",
+        "UK123379519" ;
+    dcterms:identifier "urn:eic:55X-IES-2TZ-658F" ;
+    schema1:vatID "UK123379519" ;
+    skos:altLabel "IES" ;
+    skos:definition "Market Area Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Inspired Energy Solutions" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

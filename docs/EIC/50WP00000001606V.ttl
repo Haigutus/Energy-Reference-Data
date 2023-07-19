@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WP00000001606V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-08-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WP00000001606V" ;
+    cim:IdentifiedObject.name "Naaden O.J." ;
+    cim:Names.name "NO-NAADEN-O-J-_P",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:50WP00000001606V" ;
+    skos:altLabel "NO-NAADEN-O-J-_P" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Naaden O.J." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

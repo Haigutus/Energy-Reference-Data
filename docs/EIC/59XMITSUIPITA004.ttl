@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XMITSUIPITA004> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XMITSUIPITA004" ;
+    cim:IdentifiedObject.name "Mitsui E&P Italia A S.r.l" ;
+    cim:Names.name "00887700151",
+        "MITSUIE&PITALIA",
+        "Producer" ;
+    dcterms:identifier "urn:eic:59XMITSUIPITA004" ;
+    schema1:vatID "00887700151" ;
+    skos:altLabel "MITSUIE&PITALIA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Mitsui E&P Italia A S.r.l" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

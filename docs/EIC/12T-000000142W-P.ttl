@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12T-000000142W-P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "12T-000000142W-P" ;
+    cim:IdentifiedObject.name "220 kV Riddes-St Triphon 2" ;
+    cim:Names.name "2RIDD-TRI2----IL",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:12T-000000142W-P" ;
+    skos:altLabel "2RIDD-TRI2----IL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "220 kV Riddes-St Triphon 2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

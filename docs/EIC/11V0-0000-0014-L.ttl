@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11V0-0000-0014-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11V0-0000-0014-L" ;
+    cim:IdentifiedObject.name "EMCO N ECP END POINT TEST" ;
+    cim:Names.name "EMCO_NECP_EP_TST",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:11V0-0000-0014-L" ;
+    skos:altLabel "EMCO_NECP_EP_TST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EMCO N ECP END POINT TEST" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

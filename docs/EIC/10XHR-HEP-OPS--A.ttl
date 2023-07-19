@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10XHR-HEP-OPS--A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "System Operator, Transmission Capacity Allocator" ;
+    cim:IdentifiedObject.mRID "10XHR-HEP-OPS--A" ;
+    cim:IdentifiedObject.name "Croatian Transmission System Operator Plc." ;
+    cim:Names.name "HOPS",
+        "HR13148821633",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:10XHR-HEP-OPS--A" ;
+    schema1:vatID "HR13148821633" ;
+    skos:altLabel "HOPS" ;
+    skos:definition "System Operator, Transmission Capacity Allocator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Croatian Transmission System Operator Plc." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

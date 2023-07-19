@@ -1,0 +1,37 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/66X-00000000011Q",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:66X-00000000011Q",
+    "@skos:prefLabel": "Kotkamills Oy",
+    "@skos:altLabel": "66KOTKAMILLSOY",
+    "@cim:IdentifiedObject.mRID": "66X-00000000011Q",
+    "@cim:IdentifiedObject.name": "Kotkamills Oy",
+    "@cim:Names.name": [
+        "66KOTKAMILLSOY",
+        "FI08274241",
+        "Network User"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-10-13",
+    "@schema:vatID": "FI08274241",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

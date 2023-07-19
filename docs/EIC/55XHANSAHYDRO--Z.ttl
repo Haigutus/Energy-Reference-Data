@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XHANSAHYDRO--Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "55XHANSAHYDRO--Z" ;
+    cim:IdentifiedObject.name "HANSA HYDROCARBONS LTD" ;
+    cim:Names.name "GB933631822",
+        "HANSA",
+        "Producer" ;
+    dcterms:identifier "urn:eic:55XHANSAHYDRO--Z" ;
+    schema1:vatID "GB933631822" ;
+    skos:altLabel "HANSA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HANSA HYDROCARBONS LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

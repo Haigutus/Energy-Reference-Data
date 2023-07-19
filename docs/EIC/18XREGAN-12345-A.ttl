@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XREGAN-12345-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-06-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XREGAN-12345-A" ;
+    cim:IdentifiedObject.name "COMUNIDAD GENERAL DE REGANTES DEL CANAL DE LAS BARDENAS" ;
+    cim:Names.name "ESG50157320",
+        "Production Responsible party",
+        "REGAN" ;
+    dcterms:identifier "urn:eic:18XREGAN-12345-A" ;
+    schema1:vatID "ESG50157320" ;
+    skos:altLabel "REGAN" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COMUNIDAD GENERAL DE REGANTES DEL CANAL DE LAS BARDENAS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

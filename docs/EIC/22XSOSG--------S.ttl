@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XSOSG--------S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "22XSOSG--------S" ;
+    cim:IdentifiedObject.name "ALINSO N.V." ;
+    cim:Names.name "BE0875095792",
+        "BE_ALINSO",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22XSOSG--------S" ;
+    schema1:vatID "BE0875095792" ;
+    skos:altLabel "BE_ALINSO" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALINSO N.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

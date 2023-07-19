@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X0000000000464> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45X0000000000464" ;
+    cim:IdentifiedObject.name "NGF Nature Energy Green Gas Sales AS" ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "Consumption Responsible Party",
+        "DK38765604",
+        "NE_GREENGAS",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:45X0000000000464" ;
+    schema1:vatID "DK38765604" ;
+    skos:altLabel "NE_GREENGAS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NGF Nature Energy Green Gas Sales AS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XGRPEN1234567N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-04-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XGRPEN1234567N" ;
+    cim:IdentifiedObject.name "GRP ENIAR S.A" ;
+    cim:Names.name "ESA85315513",
+        "GRPEN",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XGRPEN1234567N" ;
+    schema1:vatID "ESA85315513" ;
+    skos:altLabel "GRPEN" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GRP ENIAR S.A" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

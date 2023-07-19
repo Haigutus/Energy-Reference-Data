@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50TL00000002674T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50TL00000002674T" ;
+    cim:IdentifiedObject.name "S Langedal 132 Aar X" ;
+    cim:Names.name "Internal Line",
+        "NO-LANGEDAL132AA" ;
+    dcterms:identifier "urn:eic:50TL00000002674T" ;
+    skos:altLabel "NO-LANGEDAL132AA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S Langedal 132 Aar X" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

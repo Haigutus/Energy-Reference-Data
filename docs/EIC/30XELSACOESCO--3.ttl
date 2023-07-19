@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XELSACOESCO--3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-09-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "30XELSACOESCO--3" ;
+    cim:IdentifiedObject.name "S.C. Elsaco Esco S.R.L." ;
+    cim:Names.name "Balance Responsible Party",
+        "RO16396697",
+        "RO_ELSACO" ;
+    dcterms:identifier "urn:eic:30XELSACOESCO--3" ;
+    schema1:vatID "RO16396697" ;
+    skos:altLabel "RO_ELSACO" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S.C. Elsaco Esco S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

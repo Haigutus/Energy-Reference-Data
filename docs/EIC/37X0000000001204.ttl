@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37X0000000001204> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-03-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "37X0000000001204" ;
+    cim:IdentifiedObject.name "Stadtwerke Springe GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE163600288",
+        "STADTWE_SPRINGE" ;
+    dcterms:identifier "urn:eic:37X0000000001204" ;
+    schema1:vatID "DE163600288" ;
+    skos:altLabel "STADTWE_SPRINGE" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Springe GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27X-EURO-GAS---M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-08-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "27X-EURO-GAS---M" ;
+    cim:IdentifiedObject.name "EURO GAS Holding, a.s." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ01850181",
+        "EURO-GAS" ;
+    dcterms:identifier "urn:eic:27X-EURO-GAS---M" ;
+    schema1:vatID "CZ01850181" ;
+    skos:altLabel "EURO-GAS" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EURO GAS Holding, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

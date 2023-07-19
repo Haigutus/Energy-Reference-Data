@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/54X-EFT-TIRANA-V",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:54X-EFT-TIRANA-V",
+    "@skos:prefLabel": "Energy Financing TEAM TIRANA sh.p.k",
+    "@skos:altLabel": "EFT_TRN",
+    "@cim:IdentifiedObject.mRID": "54X-EFT-TIRANA-V",
+    "@cim:IdentifiedObject.name": "Energy Financing TEAM TIRANA sh.p.k",
+    "@cim:Names.name": [
+        "EFT_TRN",
+        "L71801017U",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-08-17",
+    "@schema:vatID": "L71801017U",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

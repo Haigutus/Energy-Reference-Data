@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-APMPHANDELSI> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "X-Code Trade Responsible Party -IO" ;
+    cim:IdentifiedObject.mRID "25X-APMPHANDELSI" ;
+    cim:IdentifiedObject.name "A.P.M.P. Handelsgesellschaft m.b.H." ;
+    cim:Names.name "APMP",
+        "ATU58016827",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:25X-APMPHANDELSI" ;
+    schema1:vatID "ATU58016827" ;
+    skos:altLabel "APMP" ;
+    skos:definition "X-Code Trade Responsible Party -IO"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "A.P.M.P. Handelsgesellschaft m.b.H." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

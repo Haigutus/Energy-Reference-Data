@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XSBPENERGYPROA> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-10-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33XSBPENERGYPROA" ;
+    cim:IdentifiedObject.name "SBP Energy Production DOOEL " ;
+    cim:Names.name "4027021533912",
+        "SBP_ENERGY_PRO",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XSBPENERGYPROA" ;
+    schema1:vatID "4027021533912" ;
+    skos:altLabel "SBP_ENERGY_PRO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SBP Energy Production DOOEL " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

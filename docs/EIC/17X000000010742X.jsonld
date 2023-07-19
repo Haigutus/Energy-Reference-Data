@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/17X000000010742X",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:17X000000010742X",
+    "@skos:prefLabel": "Roquette Frères",
+    "@skos:altLabel": "FR_ROQUETTE",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Roquette, groupe familial français de dimension internationale, a pour activité la transformation de matières premières végétales : maïs, blé, pomme de terre, pois et microalgues"
+    },
+    "@cim:IdentifiedObject.mRID": "17X000000010742X",
+    "@cim:IdentifiedObject.name": "Roquette Frères",
+    "@cim:Names.name": [
+        "FR_ROQUETTE",
+        "A0008819Y.FR",
+        "FR46357200054",
+        "Consumer",
+        "Producer"
+    ],
+    "@cim:IdentifiedObject.description": "Roquette, groupe familial français de dimension internationale, a pour activité la transformation de matières premières végétales : maïs, blé, pomme de terre, pois et microalgues",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-04-24",
+    "@schema:vatID": "FR46357200054",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

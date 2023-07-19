@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/24XMONDIBPSCP--Z",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:24XMONDIBPSCP--Z",
+    "@skos:prefLabel": "Mondi Business paper SCP, a.s.",
+    "@skos:altLabel": "MONDIBPSCPAS",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Produce Of Paper, Produce Of Heat And Electricity (Vyroba Papiera, Vyroba Tepla A Elektrickej Energie)"
+    },
+    "@cim:IdentifiedObject.mRID": "24XMONDIBPSCP--Z",
+    "@cim:IdentifiedObject.name": "Mondi Business paper SCP, a.s.",
+    "@cim:Names.name": [
+        "MONDIBPSCPAS",
+        "SK2020431116",
+        "Valid EIC Function needed"
+    ],
+    "@cim:IdentifiedObject.description": "Produce Of Paper, Produce Of Heat And Electricity (Vyroba Papiera, Vyroba Tepla A Elektrickej Energie)",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@schema:vatID": "SK2020431116",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

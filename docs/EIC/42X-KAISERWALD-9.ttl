@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/42X-KAISERWALD-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "42X-KAISERWALD-9" ;
+    cim:IdentifiedObject.name "KAISERWALD, s.r.o." ;
+    cim:Names.name "Energy Supplier",
+        "KAISERWALD",
+        "SK2024060929" ;
+    dcterms:identifier "urn:eic:42X-KAISERWALD-9" ;
+    schema1:vatID "SK2024060929" ;
+    skos:altLabel "KAISERWALD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KAISERWALD, s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

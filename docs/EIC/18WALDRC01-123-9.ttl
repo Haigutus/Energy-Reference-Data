@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WALDRC01-123-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WALDRC01-123-9" ;
+    cim:IdentifiedObject.name "ALDRO ENERGIA Y SOLUCIONES SL" ;
+    cim:Names.name "ALDRC01",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18WALDRC01-123-9" ;
+    skos:altLabel "ALDRC01" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALDRO ENERGIA Y SOLUCIONES SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

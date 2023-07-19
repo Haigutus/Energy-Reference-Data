@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22V1001A1001A0BJ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-11-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ELIA ECPV4 CORE Test EndPoint" ;
+    cim:IdentifiedObject.mRID "22V1001A1001A0BJ" ;
+    cim:IdentifiedObject.name "ELIA ECPV4 CORE Test EndPoint" ;
+    cim:Names.name "BE_ECP_TESTENDPT",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:22V1001A1001A0BJ" ;
+    skos:altLabel "BE_ECP_TESTENDPT" ;
+    skos:definition "ELIA ECPV4 CORE Test EndPoint"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELIA ECPV4 CORE Test EndPoint" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

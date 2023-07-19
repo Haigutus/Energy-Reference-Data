@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XELNORSUPPLY-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-11-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "33XELNORSUPPLY-9" ;
+    cim:IdentifiedObject.name "Company for Trading electricity ELNOR DOO Skopje" ;
+    cim:Names.name "4080014544990",
+        "ELNOR_DOO",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XELNORSUPPLY-9" ;
+    schema1:vatID "4080014544990" ;
+    skos:altLabel "ELNOR_DOO" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Company for Trading electricity ELNOR DOO Skopje" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

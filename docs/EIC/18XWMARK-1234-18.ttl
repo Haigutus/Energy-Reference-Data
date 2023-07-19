@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XWMARK-1234-18> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XWMARK-1234-18" ;
+    cim:IdentifiedObject.name "WIND TO MARKET" ;
+    cim:Names.name "ESA84000884",
+        "Trade Responsible Party",
+        "WMARK" ;
+    dcterms:identifier "urn:eic:18XWMARK-1234-18" ;
+    schema1:vatID "ESA84000884" ;
+    skos:altLabel "WMARK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "WIND TO MARKET" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

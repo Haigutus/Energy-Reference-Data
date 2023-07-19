@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160407-NK-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-04-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User" ;
+    cim:IdentifiedObject.mRID "23X--160407-NK-A" ;
+    cim:IdentifiedObject.name "UAB Nemėžio komunalininkas" ;
+    cim:Names.name "LT860632610",
+        "NEMEZIO_K",
+        "Network User" ;
+    dcterms:identifier "urn:eic:23X--160407-NK-A" ;
+    schema1:vatID "LT860632610" ;
+    skos:altLabel "NEMEZIO_K" ;
+    skos:definition "Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Nemėžio komunalininkas" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

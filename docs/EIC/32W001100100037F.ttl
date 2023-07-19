@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32W001100100037F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-01-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Generation Unit" ;
+    cim:IdentifiedObject.mRID "32W001100100037F" ;
+    cim:IdentifiedObject.name "CONTOURGLOBAL MARITSA EAST 3 G1" ;
+    cim:Names.name "Generation Unit",
+        "TPP_MI3_G1" ;
+    dcterms:identifier "urn:eic:32W001100100037F" ;
+    skos:altLabel "TPP_MI3_G1" ;
+    skos:definition "Generation Unit"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CONTOURGLOBAL MARITSA EAST 3 G1" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/61X-GT-EGENERG-1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "61X-GT-EGENERG-1" ;
+    cim:IdentifiedObject.name "UAB Elenger" ;
+    cim:Names.name "LT100011992719",
+        "Network User",
+        "Trade Responsible Party",
+        "UAB_ELENGER" ;
+    dcterms:identifier "urn:eic:61X-GT-EGENERG-1" ;
+    schema1:vatID "LT100011992719" ;
+    skos:altLabel "UAB_ELENGER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Elenger" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

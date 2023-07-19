@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--141214--VH1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-12-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--141214--VH1" ;
+    cim:IdentifiedObject.name "vigoris Handels GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE274691203",
+        "Trade Responsible Party",
+        "VIGORIS_HANDEL" ;
+    dcterms:identifier "urn:eic:23X--141214--VH1" ;
+    schema1:vatID "DE274691203" ;
+    skos:altLabel "VIGORIS_HANDEL" ;
+    skos:definition "Balance Responsible Party, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "vigoris Handels GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

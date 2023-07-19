@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X001100100039Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Network User" ;
+    cim:IdentifiedObject.mRID "32X001100100039Y" ;
+    cim:IdentifiedObject.name "TOPLOFIKATSIA-BURGAS EAD" ;
+    cim:Names.name "BG102011085",
+        "Balance Responsible Party",
+        "Network User",
+        "TOPLO_BURGAS" ;
+    dcterms:identifier "urn:eic:32X001100100039Y" ;
+    schema1:vatID "BG102011085" ;
+    skos:altLabel "TOPLO_BURGAS" ;
+    skos:definition "Balance Responsible Party, Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TOPLOFIKATSIA-BURGAS EAD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

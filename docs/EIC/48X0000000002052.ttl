@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X0000000002052> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48X0000000002052" ;
+    cim:IdentifiedObject.name "Hywind Scotland Limited" ;
+    cim:Names.name "Balance Responsible Party",
+        "GB263024043",
+        "HYWIND",
+        "Imbalance Settlement Responsible",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:48X0000000002052" ;
+    schema1:vatID "GB263024043" ;
+    skos:altLabel "HYWIND" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Hywind Scotland Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

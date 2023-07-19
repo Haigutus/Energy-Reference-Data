@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X930000008770E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X930000008770E" ;
+    cim:IdentifiedObject.name "Limited Liability Company \"TRADING HOUSE AUGUR\"" ;
+    cim:Names.name "395119526550",
+        "AUGUR",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X930000008770E" ;
+    schema1:vatID "395119526550" ;
+    skos:altLabel "AUGUR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Limited Liability Company \"TRADING HOUSE AUGUR\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0000OEASBNR-U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-02-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "26X0000OEASBNR-U" ;
+    cim:IdentifiedObject.name "ABENERGIE SPA" ;
+    cim:Names.name "IT-ABENERGIE_SPA",
+        "IT03308940166",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:26X0000OEASBNR-U" ;
+    schema1:vatID "IT03308940166" ;
+    skos:altLabel "IT-ABENERGIE_SPA" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ABENERGIE SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XNZRT-TRADE-0C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XNZRT-TRADE-0C" ;
+    cim:IdentifiedObject.name "NZrt-Trade Kft." ;
+    cim:Names.name "HU14392911",
+        "NZRT",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:39XNZRT-TRADE-0C" ;
+    schema1:vatID "HU14392911" ;
+    skos:altLabel "NZRT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NZrt-Trade Kft." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

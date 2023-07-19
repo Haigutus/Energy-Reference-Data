@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XJAAIE-12345-7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-05-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XJAAIE-12345-7" ;
+    cim:IdentifiedObject.name "SOLELEC IBÉRICA, S.L." ;
+    cim:Names.name "ESB93257640",
+        "JAAIE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XJAAIE-12345-7" ;
+    schema1:vatID "ESB93257640" ;
+    skos:altLabel "JAAIE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SOLELEC IBÉRICA, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

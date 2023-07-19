@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z0000000004855> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "21Z0000000004855" ;
+    cim:IdentifiedObject.name "Dornum OGE GPL " ;
+    cim:Names.name "Connection Point",
+        "DORNUM-OG-NO-DE" ;
+    dcterms:identifier "urn:eic:21Z0000000004855" ;
+    skos:altLabel "DORNUM-OG-NO-DE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Dornum OGE GPL " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

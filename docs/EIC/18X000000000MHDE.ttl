@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000MHDE> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000MHDE" ;
+    cim:IdentifiedObject.name "SOLAR DE LA CONTRAVIESA 6 S.L" ;
+    cim:Names.name "ES-B18829903",
+        "ESB18829903",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18X000000000MHDE" ;
+    schema1:vatID "ESB18829903" ;
+    skos:altLabel "ES-B18829903" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SOLAR DE LA CONTRAVIESA 6 S.L" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

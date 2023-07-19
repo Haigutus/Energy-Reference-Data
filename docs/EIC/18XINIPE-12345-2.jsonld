@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XINIPE-12345-2",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XINIPE-12345-2",
+    "@skos:prefLabel": "INIPEL S.L.",
+    "@skos:altLabel": "INIPE",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Consumption Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XINIPE-12345-2",
+    "@cim:IdentifiedObject.name": "INIPEL S.L.",
+    "@cim:Names.name": [
+        "INIPE",
+        "ESB30302855",
+        "Consumption Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Consumption Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2013-04-29",
+    "@schema:vatID": "ESB30302855",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

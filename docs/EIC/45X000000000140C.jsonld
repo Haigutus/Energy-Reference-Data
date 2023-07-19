@@ -1,0 +1,37 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/45X000000000140C",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:45X000000000140C",
+    "@skos:prefLabel": "Copenhagen Green Energy A/S",
+    "@skos:altLabel": "DK_CGE",
+    "@cim:IdentifiedObject.mRID": "45X000000000140C",
+    "@cim:IdentifiedObject.name": "Copenhagen Green Energy A/S",
+    "@cim:Names.name": [
+        "DK_CGE",
+        "40641408",
+        "Energy Supplier"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-05-17",
+    "@schema:vatID": "40641408",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

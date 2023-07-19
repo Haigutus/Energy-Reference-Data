@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--00003F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-03-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10Y1001C--00003F" ;
+    cim:IdentifiedObject.name "Ukraine" ;
+    cim:Names.name "Member State",
+        "UA" ;
+    dcterms:identifier "urn:eic:10Y1001C--00003F" ;
+    skos:altLabel "UA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Ukraine" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

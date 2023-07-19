@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XFOHIS-12345-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XFOHIS-12345-L" ;
+    cim:IdentifiedObject.name "FOMENSA HISPANIA, S.L." ;
+    cim:Names.name "ESB36316172",
+        "FOHIS",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XFOHIS-12345-L" ;
+    schema1:vatID "ESB36316172" ;
+    skos:altLabel "FOHIS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FOMENSA HISPANIA, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

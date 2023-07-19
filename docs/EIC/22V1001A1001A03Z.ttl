@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22V1001A1001A03Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-03-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ECP RNP PROD network 2 (Nemolink)" ;
+    cim:IdentifiedObject.mRID "22V1001A1001A03Z" ;
+    cim:IdentifiedObject.name "ELIA ECP RNP NEMO Link PROD network " ;
+    cim:Names.name "BE_ELIA_ECPRNP_2",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:22V1001A1001A03Z" ;
+    skos:altLabel "BE_ELIA_ECPRNP_2" ;
+    skos:definition "ECP RNP PROD network 2 (Nemolink)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELIA ECP RNP NEMO Link PROD network " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

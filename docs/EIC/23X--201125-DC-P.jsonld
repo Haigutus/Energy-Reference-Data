@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--201125-DC-P",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--201125-DC-P",
+    "@skos:prefLabel": "Danske Commodities Kosovo SH.P.K.",
+    "@skos:altLabel": "DANSKE_KOSOVO",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Certificate of national VAT number from Tax Administration of Kosovo submitted. EU VAT ID not available, because Kosovo is not member of EU."
+    },
+    "@cim:IdentifiedObject.mRID": "23X--201125-DC-P",
+    "@cim:IdentifiedObject.name": "Danske Commodities Kosovo SH.P.K.",
+    "@cim:Names.name": [
+        "DANSKE_KOSOVO",
+        "600861125",
+        "Balance Responsible Party",
+        "Trade Responsible Party",
+        "Interconnection Trade Responsible"
+    ],
+    "@cim:IdentifiedObject.description": "Certificate of national VAT number from Tax Administration of Kosovo submitted. EU VAT ID not available, because Kosovo is not member of EU.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-11-26",
+    "@schema:vatID": "600861125",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

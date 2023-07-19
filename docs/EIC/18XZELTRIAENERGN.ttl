@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XZELTRIAENERGN> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-10-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XZELTRIAENERGN" ;
+    cim:IdentifiedObject.name "ZELTRIA ENERGIA" ;
+    cim:Names.name "ESB73727927",
+        "Trade Responsible Party",
+        "ZELTR" ;
+    dcterms:identifier "urn:eic:18XZELTRIAENERGN" ;
+    schema1:vatID "ESB73727927" ;
+    skos:altLabel "ZELTR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZELTRIA ENERGIA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

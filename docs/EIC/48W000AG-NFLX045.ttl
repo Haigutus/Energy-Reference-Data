@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48W000AG-NFLX045> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48W000AG-NFLX045" ;
+    cim:IdentifiedObject.name "AG-NFLX04" ;
+    cim:Names.name "AG-NFLX04",
+        "Generation Unit" ;
+    dcterms:identifier "urn:eic:48W000AG-NFLX045" ;
+    skos:altLabel "AG-NFLX04" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AG-NFLX04" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

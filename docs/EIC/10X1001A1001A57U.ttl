@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10X1001A1001A57U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-03-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Transmission Capacity Allocator" ;
+    cim:IdentifiedObject.mRID "10X1001A1001A57U" ;
+    cim:IdentifiedObject.name "JAO S.A." ;
+    cim:Names.name "Capacity Trader",
+        "JAO-SA",
+        "LU22902629",
+        "Transmission Capacity Allocator" ;
+    dcterms:identifier "urn:eic:10X1001A1001A57U" ;
+    schema1:vatID "LU22902629" ;
+    skos:altLabel "JAO-SA" ;
+    skos:definition "Transmission Capacity Allocator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "JAO S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

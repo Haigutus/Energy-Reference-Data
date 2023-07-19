@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28XTES-SI------O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "28XTES-SI------O" ;
+    cim:IdentifiedObject.name "TERMOELEKTRARNA SOSTANJ d.o.o." ;
+    cim:Names.name "Producer",
+        "SI92189903",
+        "TES" ;
+    dcterms:identifier "urn:eic:28XTES-SI------O" ;
+    schema1:vatID "SI92189903" ;
+    skos:altLabel "TES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TERMOELEKTRARNA SOSTANJ d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

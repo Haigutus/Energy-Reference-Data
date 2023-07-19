@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WIMPI-M04CMGIF> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26WIMPI-M04CMGIF" ;
+    cim:IdentifiedObject.name "IM_M04CMGI" ;
+    cim:Names.name "IM-M04CMGI",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:26WIMPI-M04CMGIF" ;
+    skos:altLabel "IM-M04CMGI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IM_M04CMGI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

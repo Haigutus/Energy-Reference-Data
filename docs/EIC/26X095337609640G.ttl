@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X095337609640G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X095337609640G" ;
+    cim:IdentifiedObject.name "ASTI ENERGY SRL" ;
+    cim:Names.name "A0013405A.IT",
+        "IT-ASTIENERGYSRL",
+        "IT09533760964",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:26X095337609640G" ;
+    schema1:vatID "IT09533760964" ;
+    skos:altLabel "IT-ASTIENERGYSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ASTI ENERGY SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53ZPL0000390204C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53ZPL0000390204C" ;
+    cim:IdentifiedObject.name "Zakłady Azotowe Kędzierzyn" ;
+    cim:Names.name "390204_Z-AZOT-KE",
+        "Connection Point" ;
+    dcterms:identifier "urn:eic:53ZPL0000390204C" ;
+    skos:altLabel "390204_Z-AZOT-KE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Zakłady Azotowe Kędzierzyn" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

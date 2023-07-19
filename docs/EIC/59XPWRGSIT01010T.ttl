@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XPWRGSIT01010T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XPWRGSIT01010T" ;
+    cim:IdentifiedObject.name "POWERGAS CLIENTI SRL" ;
+    cim:Names.name "Balance Responsible Party",
+        "IT03053750166",
+        "POWERGASCLIENTI" ;
+    dcterms:identifier "urn:eic:59XPWRGSIT01010T" ;
+    schema1:vatID "IT03053750166" ;
+    skos:altLabel "POWERGASCLIENTI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "POWERGAS CLIENTI SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

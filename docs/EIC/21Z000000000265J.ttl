@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z000000000265J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-11-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Connection Point" ;
+    cim:IdentifiedObject.mRID "21Z000000000265J" ;
+    cim:IdentifiedObject.name "Baumgarten MAB SK-AT" ;
+    cim:Names.name "BAUM-MAB-SK-AT",
+        "Connection Point" ;
+    dcterms:identifier "urn:eic:21Z000000000265J" ;
+    skos:altLabel "BAUM-MAB-SK-AT" ;
+    skos:definition "Connection Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Baumgarten MAB SK-AT" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

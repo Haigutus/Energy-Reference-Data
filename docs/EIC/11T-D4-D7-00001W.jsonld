@@ -1,0 +1,35 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/11T-D4-D7-00001W",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:11T-D4-D7-00001W",
+    "@skos:prefLabel": "AMP-APG-TNG/220/ Buers - Y-Werben / ge-403-Bludenz W",
+    "@skos:altLabel": "BLUDNZW-BUERS",
+    "@cim:IdentifiedObject.mRID": "11T-D4-D7-00001W",
+    "@cim:IdentifiedObject.name": "AMP-APG-TNG/220/ Buers - Y-Werben / ge-403-Bludenz W",
+    "@cim:Names.name": [
+        "BLUDNZW-BUERS",
+        "Tieline"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-08-22",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

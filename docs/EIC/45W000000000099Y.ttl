@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45W000000000099Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45W000000000099Y" ;
+    cim:IdentifiedObject.name "Silkeborgværket GU" ;
+    cim:Names.name "Generation Unit",
+        "SILKEBORGVAERK_G" ;
+    dcterms:identifier "urn:eic:45W000000000099Y" ;
+    skos:altLabel "SILKEBORGVAERK_G" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Silkeborgværket GU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

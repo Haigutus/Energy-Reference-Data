@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31X-0141-G-000-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "31X-0141-G-000-Z" ;
+    cim:IdentifiedObject.name "OMS - Upravljanje d.o.o." ;
+    cim:Names.name "HR-OMS-UPRAV",
+        "HR42356884916",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:31X-0141-G-000-Z" ;
+    schema1:vatID "HR42356884916" ;
+    skos:altLabel "HR-OMS-UPRAV" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OMS - Upravljanje d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

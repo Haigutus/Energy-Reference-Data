@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12T-000000142O-C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "12T-000000142O-C" ;
+    cim:IdentifiedObject.name "380 kV Chamoson-Chippis 1 " ;
+    cim:Names.name "3CAMO-CHI1----IL",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:12T-000000142O-C" ;
+    skos:altLabel "3CAMO-CHI1----IL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "380 kV Chamoson-Chippis 1 " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

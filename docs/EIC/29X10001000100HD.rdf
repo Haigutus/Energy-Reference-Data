@@ -1,0 +1,24 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/29X10001000100HD">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:29X10001000100HD</dcterms:identifier>
+    <skos:prefLabel>Axpo Solutions AG Greek Branch</skos:prefLabel>
+    <skos:altLabel>AXPOGREEKBRANCH</skos:altLabel>
+    <skos:definition xml:lang="en">Axpo Solutions AG Greek Branch intends to undertake the following functions in the Greek electricity market: - Supply of electricity to end customers; - Aggregation of renewable energy sources; and - Cross-border trading of electricity.</skos:definition>
+    <cim:IdentifiedObject.mRID>29X10001000100HD</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Axpo Solutions AG Greek Branch</cim:IdentifiedObject.name>
+    <cim:Names.name>AXPOGREEKBRANCH</cim:Names.name>
+    <cim:Names.name>A00009170.DE</cim:Names.name>
+    <cim:Names.name>EL996807877</cim:Names.name>
+    <cim:IdentifiedObject.description>Axpo Solutions AG Greek Branch intends to undertake the following functions in the Greek electricity market: - Supply of electricity to end customers; - Aggregation of renewable energy sources; and - Cross-border trading of electricity.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2021-03-23</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <cim:Names.name>Energy Supplier</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>EL996807877</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

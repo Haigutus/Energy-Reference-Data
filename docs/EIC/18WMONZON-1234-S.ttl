@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WMONZON-1234-S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WMONZON-1234-S" ;
+    cim:IdentifiedObject.name "ENERGYWORKS MONZON" ;
+    cim:Names.name "Generation Unit",
+        "MONZON" ;
+    dcterms:identifier "urn:eic:18WMONZON-1234-S" ;
+    skos:altLabel "MONZON" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGYWORKS MONZON" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21YNL----TTF-H-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Title Transfer Facilities On Ttf-H" ;
+    cim:IdentifiedObject.mRID "21YNL----TTF-H-L" ;
+    cim:IdentifiedObject.name "NL TTF-H" ;
+    cim:Names.name "NL-TTF-H",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:21YNL----TTF-H-L" ;
+    skos:altLabel "NL-TTF-H" ;
+    skos:definition "Title Transfer Facilities On Ttf-H"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NL TTF-H" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

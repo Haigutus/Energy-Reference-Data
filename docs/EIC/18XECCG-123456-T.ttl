@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XECCG-123456-T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-03-16" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Interconnection Trade Responsible" ;
+    cim:IdentifiedObject.mRID "18XECCG-123456-T" ;
+    cim:IdentifiedObject.name "European Commodity Clearing AG" ;
+    cim:Names.name "ECCG",
+        "ES248156757",
+        "Interconnection Trade Responsible" ;
+    dcterms:identifier "urn:eic:18XECCG-123456-T" ;
+    schema1:vatID "ES248156757" ;
+    skos:altLabel "ECCG" ;
+    skos:definition "Interconnection Trade Responsible"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "European Commodity Clearing AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

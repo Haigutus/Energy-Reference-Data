@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WMUE6-123456-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WMUE6-123456-N" ;
+    cim:IdentifiedObject.name "IBERDROLA GENERACION S.A.U." ;
+    cim:Names.name "Generation Unit",
+        "MUE6" ;
+    dcterms:identifier "urn:eic:18WMUE6-123456-N" ;
+    skos:altLabel "MUE6" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IBERDROLA GENERACION S.A.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

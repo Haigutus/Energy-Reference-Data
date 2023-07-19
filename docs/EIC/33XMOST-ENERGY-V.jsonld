@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/33XMOST-ENERGY-V",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:33XMOST-ENERGY-V",
+    "@skos:prefLabel": "MOST ENERGYN EU DOO Skopje",
+    "@skos:altLabel": "MOST_ENERGY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Trade Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "33XMOST-ENERGY-V",
+    "@cim:IdentifiedObject.name": "MOST ENERGYN EU DOO Skopje",
+    "@cim:Names.name": [
+        "MOST_ENERGY",
+        "4080015549554",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Trade Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2015-06-03",
+    "@schema:vatID": "4080015549554",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

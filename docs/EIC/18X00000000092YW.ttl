@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X00000000092YW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-04-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X00000000092YW" ;
+    cim:IdentifiedObject.name "GERMANS AYMERICH ISERN S.L." ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESB62327184",
+        "TRIPO" ;
+    dcterms:identifier "urn:eic:18X00000000092YW" ;
+    schema1:vatID "ESB62327184" ;
+    skos:altLabel "TRIPO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GERMANS AYMERICH ISERN S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

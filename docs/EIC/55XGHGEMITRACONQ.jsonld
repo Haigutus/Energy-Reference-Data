@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/55XGHGEMITRACONQ",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:55XGHGEMITRACONQ",
+    "@skos:prefLabel": "GHG Emissions Traders and Consultants Ltd",
+    "@skos:altLabel": "GHG",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Responsible Party, Balance Group Responsible Party, Trade Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "55XGHGEMITRACONQ",
+    "@cim:IdentifiedObject.name": "GHG Emissions Traders and Consultants Ltd",
+    "@cim:Names.name": [
+        "GHG",
+        "GB895773160",
+        "Trade Responsible Party",
+        "Balance Group Responsible Party",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Responsible Party, Balance Group Responsible Party, Trade Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-01-21",
+    "@schema:vatID": "GB895773160",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

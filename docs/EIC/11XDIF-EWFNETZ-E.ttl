@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XDIF-EWFNETZ-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XDIF-EWFNETZ-E" ;
+    cim:IdentifiedObject.name "Energie Waldeck-Frankenberg GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE113089011",
+        "EWF-DIF" ;
+    dcterms:identifier "urn:eic:11XDIF-EWFNETZ-E" ;
+    schema1:vatID "DE113089011" ;
+    skos:altLabel "EWF-DIF" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energie Waldeck-Frankenberg GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

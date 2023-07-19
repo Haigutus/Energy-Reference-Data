@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/48W00000HLTWW-1U",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:48W00000HLTWW-1U",
+    "@skos:prefLabel": "Hill of Towie Wind Farm",
+    "@skos:altLabel": "HLTWW-1",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "this is an 'update' for us but a 'create' for you as never submitted to you previously as local (now all international). The W BMU code now belongs to a different X code - the one here"
+    },
+    "@cim:IdentifiedObject.mRID": "48W00000HLTWW-1U",
+    "@cim:IdentifiedObject.name": "Hill of Towie Wind Farm",
+    "@cim:Names.name": [
+        "HLTWW-1",
+        "Generation Unit"
+    ],
+    "@cim:IdentifiedObject.description": "this is an 'update' for us but a 'create' for you as never submitted to you previously as local (now all international). The W BMU code now belongs to a different X code - the one here",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-12-18",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

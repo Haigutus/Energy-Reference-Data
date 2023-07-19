@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WVERTALC-123-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WVERTALC-123-B" ;
+    cim:IdentifiedObject.name "HERA AMASA S.A." ;
+    cim:Names.name "Generation Unit",
+        "VERTALC" ;
+    dcterms:identifier "urn:eic:18WVERTALC-123-B" ;
+    skos:altLabel "VERTALC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HERA AMASA S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

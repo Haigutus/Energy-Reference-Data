@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/33XOKTAREFINERYS",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:33XOKTAREFINERYS",
+    "@skos:prefLabel": "OKTA - Crude Oil Refinery, Skopje, Miladinovci",
+    "@skos:altLabel": "OKTA-SKOPJE",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Crude Oil Processing And Oil Derivates Production"
+    },
+    "@cim:IdentifiedObject.mRID": "33XOKTAREFINERYS",
+    "@cim:IdentifiedObject.name": "OKTA - Crude Oil Refinery, Skopje, Miladinovci",
+    "@cim:Names.name": [
+        "OKTA-SKOPJE",
+        "4030980254845",
+        "Valid EIC Function needed"
+    ],
+    "@cim:IdentifiedObject.description": "Crude Oil Processing And Oil Derivates Production",
+    "@cim:Document.docStatus": "A03",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-03-23",
+    "@schema:vatID": "4030980254845",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

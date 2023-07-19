@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/45X000000000076W",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:45X000000000076W",
+    "@skos:prefLabel": "Better Energy A/S",
+    "@skos:altLabel": "BETTER_ENERGY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "The VAT code is approved at the Danish registry  and checked by the danish LIO, https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=31865883&soeg=31865883&language=da. "
+    },
+    "@cim:IdentifiedObject.mRID": "45X000000000076W",
+    "@cim:IdentifiedObject.name": "Better Energy A/S",
+    "@cim:Names.name": [
+        "BETTER_ENERGY",
+        "DK31865883",
+        "Producer"
+    ],
+    "@cim:IdentifiedObject.description": "The VAT code is approved at the Danish registry  and checked by the danish LIO, https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=31865883&soeg=31865883&language=da. ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-11-18",
+    "@schema:vatID": "DK31865883",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

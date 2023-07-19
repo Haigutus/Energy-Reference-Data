@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59ZLAVISMEZZ111E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59ZLAVISMEZZ111E" ;
+    cim:IdentifiedObject.name "34518700- LAVIS+MEZZOLOMBARDO" ;
+    cim:Names.name "34518700",
+        "Metering Point" ;
+    dcterms:identifier "urn:eic:59ZLAVISMEZZ111E" ;
+    skos:altLabel "34518700" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "34518700- LAVIS+MEZZOLOMBARDO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

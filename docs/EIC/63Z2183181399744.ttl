@@ -1,0 +1,20 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/63Z2183181399744> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "63Z2183181399744" ;
+    cim:IdentifiedObject.name "SERENE ATLANTIQUE " ;
+    cim:Names.name "FRG_ATLANTIQUE" ;
+    dcterms:identifier "urn:eic:63Z2183181399744" ;
+    skos:altLabel "FRG_ATLANTIQUE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SERENE ATLANTIQUE " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-BP-ENERGIA-F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-04-01" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "15X-BP-ENERGIA-F" ;
+    cim:IdentifiedObject.name "B.E.K Group Kft." ;
+    cim:Names.name "BP-HUN-BC",
+        "Balance Responsible Party",
+        "HU14199347" ;
+    dcterms:identifier "urn:eic:15X-BP-ENERGIA-F" ;
+    schema1:vatID "HU14199347" ;
+    skos:altLabel "BP-HUN-BC" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "B.E.K Group Kft." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

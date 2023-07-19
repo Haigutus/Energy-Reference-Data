@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59Z50177301ZLTVH> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59Z50177301ZLTVH" ;
+    cim:IdentifiedObject.name "PIVGN S.I.M. s.r.l" ;
+    cim:Names.name "50177301",
+        "Accounting Point" ;
+    dcterms:identifier "urn:eic:59Z50177301ZLTVH" ;
+    skos:altLabel "50177301" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PIVGN S.I.M. s.r.l" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

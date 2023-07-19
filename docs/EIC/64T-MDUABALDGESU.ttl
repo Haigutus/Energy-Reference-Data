@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64T-MDUABALDGESU> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-07-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "64T-MDUABALDGESU" ;
+    cim:IdentifiedObject.name "OHL Balti-Dnestrovsk_HPP 330kV" ;
+    cim:Names.name "L_BALTI-DNGES",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:64T-MDUABALDGESU" ;
+    skos:altLabel "L_BALTI-DNGES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OHL Balti-Dnestrovsk_HPP 330kV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

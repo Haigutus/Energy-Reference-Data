@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XEAER-12345-1C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XEAER-12345-1C" ;
+    cim:IdentifiedObject.name "ENERGÍAS ALTERNATIVAS EÓLICAS RIOJANAS, S.L." ;
+    cim:Names.name "EAER",
+        "ESB26308916",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XEAER-12345-1C" ;
+    schema1:vatID "ESB26308916" ;
+    skos:altLabel "EAER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGÍAS ALTERNATIVAS EÓLICAS RIOJANAS, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/20XSOTEL-RESEAUN",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:20XSOTEL-RESEAUN",
+    "@skos:prefLabel": "Sotel RÃ©seau et Cie",
+    "@skos:altLabel": "SOTEL_RES",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Grid Operator"
+    },
+    "@cim:IdentifiedObject.mRID": "20XSOTEL-RESEAUN",
+    "@cim:IdentifiedObject.name": "Sotel RÃ©seau et Cie",
+    "@cim:Names.name": [
+        "SOTEL_RES",
+        "LU18943139",
+        "Grid Operator"
+    ],
+    "@cim:IdentifiedObject.description": "Grid Operator",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2015-11-13",
+    "@schema:vatID": "LU18943139",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

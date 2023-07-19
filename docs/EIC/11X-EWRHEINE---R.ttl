@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X-EWRHEINE---R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "balance responsible party" ;
+    cim:IdentifiedObject.mRID "11X-EWRHEINE---R" ;
+    cim:IdentifiedObject.name "Energie- und Wasserversorgung Rheine GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE811212082",
+        "EW-RHEINE" ;
+    dcterms:identifier "urn:eic:11X-EWRHEINE---R" ;
+    schema1:vatID "DE811212082" ;
+    skos:altLabel "EW-RHEINE" ;
+    skos:definition "balance responsible party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energie- und Wasserversorgung Rheine GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

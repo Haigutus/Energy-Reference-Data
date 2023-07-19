@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X930000119320R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X930000119320R" ;
+    cim:IdentifiedObject.name "T&F Agriculture GmbH" ;
+    cim:Names.name "ATU74738714",
+        "Network User",
+        "TF_AGRICULTURE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X930000119320R" ;
+    schema1:vatID "ATU74738714" ;
+    skos:altLabel "TF_AGRICULTURE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "T&F Agriculture GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

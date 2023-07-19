@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-HYCORIAT---R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "25X-HYCORIAT---R" ;
+    cim:IdentifiedObject.name "Hycori GmbH" ;
+    cim:Names.name "ATU74937401",
+        "Capacity Trader",
+        "Energy Supplier",
+        "HYCORIAT" ;
+    dcterms:identifier "urn:eic:25X-HYCORIAT---R" ;
+    schema1:vatID "ATU74937401" ;
+    skos:altLabel "HYCORIAT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Hycori GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

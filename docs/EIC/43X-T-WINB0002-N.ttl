@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/43X-T-WINB0002-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-08-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "43X-T-WINB0002-N" ;
+    cim:IdentifiedObject.name "SIA \"WIN BALTIC\"" ;
+    cim:Names.name "LV-WINB",
+        "LV50103711941",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:43X-T-WINB0002-N" ;
+    schema1:vatID "LV50103711941" ;
+    skos:altLabel "LV-WINB" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SIA \"WIN BALTIC\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

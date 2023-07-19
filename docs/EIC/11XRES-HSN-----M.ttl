@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XRES-HSN-----M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-19" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XRES-HSN-----M" ;
+    cim:IdentifiedObject.name "HSN Magdeburg GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE232523649",
+        "HSN-RESI" ;
+    dcterms:identifier "urn:eic:11XRES-HSN-----M" ;
+    schema1:vatID "DE232523649" ;
+    skos:altLabel "HSN-RESI" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HSN Magdeburg GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

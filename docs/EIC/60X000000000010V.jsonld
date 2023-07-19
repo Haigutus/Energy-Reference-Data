@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/60X000000000010V",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:60X000000000010V",
+    "@skos:prefLabel": "STRATUM ENERGY ROMANIA LLC",
+    "@skos:altLabel": "STRATUM",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Producer"
+    },
+    "@cim:IdentifiedObject.mRID": "60X000000000010V",
+    "@cim:IdentifiedObject.name": "STRATUM ENERGY ROMANIA LLC",
+    "@cim:Names.name": [
+        "STRATUM",
+        "RO25275929",
+        "Producer"
+    ],
+    "@cim:IdentifiedObject.description": "Producer",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-06-30",
+    "@schema:vatID": "RO25275929",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

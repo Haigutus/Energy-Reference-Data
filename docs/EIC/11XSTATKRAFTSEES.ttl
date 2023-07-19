@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSTATKRAFTSEES> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-06-05" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XSTATKRAFTSEES" ;
+    cim:IdentifiedObject.name "Statkraft South East Europe EOOD" ;
+    cim:Names.name "BG175088271",
+        "Balance Responsible Party",
+        "STATKRAFT-SEE" ;
+    dcterms:identifier "urn:eic:11XSTATKRAFTSEES" ;
+    schema1:vatID "BG175088271" ;
+    skos:altLabel "STATKRAFT-SEE" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Statkraft South East Europe EOOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

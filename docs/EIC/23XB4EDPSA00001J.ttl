@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23XB4EDPSA00001J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Legal And Trading" ;
+    cim:IdentifiedObject.mRID "23XB4EDPSA00001J" ;
+    cim:IdentifiedObject.name "Energias de Potugal SA" ;
+    cim:Names.name "EDP_SA",
+        "PT500697256",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:23XB4EDPSA00001J" ;
+    schema1:vatID "PT500697256" ;
+    skos:altLabel "EDP_SA" ;
+    skos:definition "Legal And Trading"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energias de Potugal SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

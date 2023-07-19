@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--140630-VC-R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-06-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--140630-VC-R" ;
+    cim:IdentifiedObject.name "Velox Commodities S.r.l." ;
+    cim:Names.name "Balance Responsible Party",
+        "RO23983600",
+        "Trade Responsible Party",
+        "VELOX_COMMOD" ;
+    dcterms:identifier "urn:eic:23X--140630-VC-R" ;
+    schema1:vatID "RO23983600" ;
+    skos:altLabel "VELOX_COMMOD" ;
+    skos:definition "Balance Responsible Party, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Velox Commodities S.r.l." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

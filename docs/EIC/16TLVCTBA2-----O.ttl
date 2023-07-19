@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16TLVCTBA2-----O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-08-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16TLVCTBA2-----O" ;
+    cim:IdentifiedObject.name "Vila Chã-Tábua 2" ;
+    cim:Names.name "Internal Line",
+        "LVC.TBA2" ;
+    dcterms:identifier "urn:eic:16TLVCTBA2-----O" ;
+    skos:altLabel "LVC.TBA2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vila Chã-Tábua 2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

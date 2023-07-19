@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31XG-PTK-KUTINAP> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-10-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "31XG-PTK-KUTINAP" ;
+    cim:IdentifiedObject.name "Petrokemija d.d. tvornica gnojiva" ;
+    cim:Names.name "Balance Responsible Party",
+        "HR24503685008",
+        "PTKM-KUTINA-HR" ;
+    dcterms:identifier "urn:eic:31XG-PTK-KUTINAP" ;
+    schema1:vatID "HR24503685008" ;
+    skos:altLabel "PTKM-KUTINA-HR" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Petrokemija d.d. tvornica gnojiva" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

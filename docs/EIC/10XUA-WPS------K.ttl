@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10XUA-WPS------K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Transmission System Operator" ;
+    cim:IdentifiedObject.mRID "10XUA-WPS------K" ;
+    cim:IdentifiedObject.name "UKRENERGO, WESTERN POWER SYSTEM" ;
+    cim:Names.name "20851817",
+        "System Operator",
+        "UA_WPS" ;
+    dcterms:identifier "urn:eic:10XUA-WPS------K" ;
+    schema1:vatID "20851817" ;
+    skos:altLabel "UA_WPS" ;
+    skos:definition "Transmission System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UKRENERGO, WESTERN POWER SYSTEM" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

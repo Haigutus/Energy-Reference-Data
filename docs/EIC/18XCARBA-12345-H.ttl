@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCARBA-12345-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-07-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XCARBA-12345-H" ;
+    cim:IdentifiedObject.name "P.E. SIERRA DE LAS CARBAS" ;
+    cim:Names.name "CARBA",
+        "ESB84486307",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XCARBA-12345-H" ;
+    schema1:vatID "ESB84486307" ;
+    skos:altLabel "CARBA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "P.E. SIERRA DE LAS CARBAS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

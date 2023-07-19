@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XHIDGA-12345-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XHIDGA-12345-Y" ;
+    cim:IdentifiedObject.name "HIDROMEDIA DE GALICIA S.L." ;
+    cim:Names.name "ESB39218946",
+        "HIDGA",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XHIDGA-12345-Y" ;
+    schema1:vatID "ESB39218946" ;
+    skos:altLabel "HIDGA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HIDROMEDIA DE GALICIA S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

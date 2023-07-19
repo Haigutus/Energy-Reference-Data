@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XELPOP-12345-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-04-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Access Provider" ;
+    cim:IdentifiedObject.mRID "18XELPOP-12345-N" ;
+    cim:IdentifiedObject.name "EELCTRCIA POPULAR,S.COOP.MAD" ;
+    cim:Names.name "ELPOP",
+        "ESF28201374",
+        "Grid Access Provider" ;
+    dcterms:identifier "urn:eic:18XELPOP-12345-N" ;
+    schema1:vatID "ESF28201374" ;
+    skos:altLabel "ELPOP" ;
+    skos:definition "Grid Access Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EELCTRCIA POPULAR,S.COOP.MAD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

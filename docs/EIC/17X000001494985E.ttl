@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000001494985E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "17X000001494985E" ;
+    cim:IdentifiedObject.name "AILES MARINES SAS" ;
+    cim:Names.name "FR51538781857",
+        "FR_AILES_MARINES",
+        "Producer" ;
+    dcterms:identifier "urn:eic:17X000001494985E" ;
+    schema1:vatID "FR51538781857" ;
+    skos:altLabel "FR_AILES_MARINES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AILES MARINES SAS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

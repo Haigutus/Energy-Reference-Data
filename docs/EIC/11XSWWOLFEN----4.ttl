@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWWOLFEN----4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-01-09" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XSWWOLFEN----4" ;
+    cim:IdentifiedObject.name "envia Mitteldeutsche Energie AG" ;
+    cim:Names.name "Balance Group",
+        "DE813427980",
+        "ENVIAM_VER_SWWOL" ;
+    dcterms:identifier "urn:eic:11XSWWOLFEN----4" ;
+    schema1:vatID "DE813427980" ;
+    skos:altLabel "ENVIAM_VER_SWWOL" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "envia Mitteldeutsche Energie AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-BESTEN-HUN-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-26" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "15X-BESTEN-HUN-I" ;
+    cim:IdentifiedObject.name "Best Energy Trade Kft." ;
+    cim:Names.name "BESTEN-HUN-BC",
+        "Balance Responsible Party",
+        "HU14579110" ;
+    dcterms:identifier "urn:eic:15X-BESTEN-HUN-I" ;
+    schema1:vatID "HU14579110" ;
+    skos:altLabel "BESTEN-HUN-BC" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Best Energy Trade Kft." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

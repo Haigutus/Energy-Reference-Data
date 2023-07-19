@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/53XPL000000SLAB3",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:53XPL000000SLAB3",
+    "@skos:prefLabel": "StratsLab Sp. z o.o. Sp. k.",
+    "@skos:altLabel": "STRATSLAB",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Platform Operator"
+    },
+    "@cim:IdentifiedObject.mRID": "53XPL000000SLAB3",
+    "@cim:IdentifiedObject.name": "StratsLab Sp. z o.o. Sp. k.",
+    "@cim:Names.name": [
+        "STRATSLAB",
+        "PL7010511697",
+        "Platform Operator"
+    ],
+    "@cim:IdentifiedObject.description": "Platform Operator",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-09-02",
+    "@schema:vatID": "PL7010511697",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

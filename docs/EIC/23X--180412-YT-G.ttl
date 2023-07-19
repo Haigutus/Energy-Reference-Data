@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--180412-YT-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-04-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company is registered in Singapore. Company registration number and the national tax number is the same: 201304475C Written confirmation from ACRA (Accounting and Corporate Regulatory Authority) received." ;
+    cim:IdentifiedObject.mRID "23X--180412-YT-G" ;
+    cim:IdentifiedObject.name "Yamal Trade Pte. Ltd." ;
+    cim:Names.name "A00136925.BE",
+        "Trade Responsible Party",
+        "YAMAL_TRADE" ;
+    dcterms:identifier "urn:eic:23X--180412-YT-G" ;
+    skos:altLabel "YAMAL_TRADE" ;
+    skos:definition "Company is registered in Singapore. Company registration number and the national tax number is the same: 201304475C Written confirmation from ACRA (Accounting and Corporate Regulatory Authority) received."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Yamal Trade Pte. Ltd." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

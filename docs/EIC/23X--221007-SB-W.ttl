@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--221007-SB-W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "SWAN BRIDGE INVESTMENTS LLC, registered in the USA Company registration No.: 3117560 Employer Identification Number (EIN): 85-1661525" ;
+    cim:IdentifiedObject.mRID "23X--221007-SB-W" ;
+    cim:IdentifiedObject.name "Swan Bridge Investments LLC" ;
+    cim:Names.name "851661525",
+        "SWAN_BRIDGE_INV",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--221007-SB-W" ;
+    schema1:vatID "851661525" ;
+    skos:altLabel "SWAN_BRIDGE_INV" ;
+    skos:definition "SWAN BRIDGE INVESTMENTS LLC, registered in the USA Company registration No.: 3117560 Employer Identification Number (EIN): 85-1661525"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Swan Bridge Investments LLC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

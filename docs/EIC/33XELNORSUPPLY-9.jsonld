@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/33XELNORSUPPLY-9",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:33XELNORSUPPLY-9",
+    "@skos:prefLabel": "Company for Trading electricity ELNOR DOO Skopje",
+    "@skos:altLabel": "ELNOR_DOO",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Trade Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "33XELNORSUPPLY-9",
+    "@cim:IdentifiedObject.name": "Company for Trading electricity ELNOR DOO Skopje",
+    "@cim:Names.name": [
+        "ELNOR_DOO",
+        "4080014544990",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Trade Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2014-11-26",
+    "@schema:vatID": "4080014544990",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

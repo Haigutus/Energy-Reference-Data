@@ -1,0 +1,41 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10Y1001C--00139R",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10Y1001C--00139R",
+    "@skos:prefLabel": "Capacity Calculation Region Selene",
+    "@skos:altLabel": "CCR-SEE",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "EIC code being required for SeleneCC RSC use in CC document exchanges RO-BG-EL"
+    },
+    "@cim:IdentifiedObject.mRID": "10Y1001C--00139R",
+    "@cim:IdentifiedObject.name": "Capacity Calculation Region Selene",
+    "@cim:Names.name": [
+        "CCR-SEE",
+        "Capacity Calculation Region",
+        "Outage Coordination Region"
+    ],
+    "@cim:IdentifiedObject.description": "EIC code being required for SeleneCC RSC use in CC document exchanges RO-BG-EL",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-05-12",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

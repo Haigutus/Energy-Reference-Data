@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WP00000001763F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WP00000001763F" ;
+    cim:IdentifiedObject.name "Gangsbekken" ;
+    cim:Names.name "NO-GANGSBEKKEN",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:50WP00000001763F" ;
+    skos:altLabel "NO-GANGSBEKKEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Gangsbekken" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

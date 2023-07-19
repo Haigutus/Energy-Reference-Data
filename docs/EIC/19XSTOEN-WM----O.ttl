@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XSTOEN-WM----O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trading And Distribution Of Electricity." ;
+    cim:IdentifiedObject.mRID "19XSTOEN-WM----O" ;
+    cim:IdentifiedObject.name "E.ON POLSKA SPÓŁKA AKCYJNA" ;
+    cim:Names.name "Balance Responsible Party",
+        "EON-POLSKA",
+        "PL5250000794" ;
+    dcterms:identifier "urn:eic:19XSTOEN-WM----O" ;
+    schema1:vatID "PL5250000794" ;
+    skos:altLabel "EON-POLSKA" ;
+    skos:definition "Trading And Distribution Of Electricity."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E.ON POLSKA SPÓŁKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

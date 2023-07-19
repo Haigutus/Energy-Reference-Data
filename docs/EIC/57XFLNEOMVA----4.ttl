@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/57XFLNEOMVA----4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "No VAT because outside of EU, instead registration number." ;
+    cim:IdentifiedObject.mRID "57XFLNEOMVA----4" ;
+    cim:IdentifiedObject.name "Novatek Middle East DMCC" ;
+    cim:Names.name "A0020213K.BE",
+        "DMCC193988",
+        "NOVAME",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:57XFLNEOMVA----4" ;
+    schema1:vatID "DMCC193988" ;
+    skos:altLabel "NOVAME" ;
+    skos:definition "No VAT because outside of EU, instead registration number."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Novatek Middle East DMCC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

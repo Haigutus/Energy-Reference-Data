@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41XKTE-------012> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "41XKTE-------012" ;
+    cim:IdentifiedObject.name "UAB Kauno termofikacijos elektrine" ;
+    cim:Names.name "KTE-------01",
+        "LT108844917",
+        "Producer" ;
+    dcterms:identifier "urn:eic:41XKTE-------012" ;
+    schema1:vatID "LT108844917" ;
+    skos:altLabel "KTE-------01" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Kauno termofikacijos elektrine" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

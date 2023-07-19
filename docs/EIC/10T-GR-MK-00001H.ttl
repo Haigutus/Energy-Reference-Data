@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10T-GR-MK-00001H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-06-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Tieline" ;
+    cim:IdentifiedObject.mRID "10T-GR-MK-00001H" ;
+    cim:IdentifiedObject.name "Florina-Bitola" ;
+    cim:Names.name "L_FLORINA-BITOLA",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:10T-GR-MK-00001H" ;
+    skos:altLabel "L_FLORINA-BITOLA" ;
+    skos:definition "Tieline"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Florina-Bitola" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

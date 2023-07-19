@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49X000000000057D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "49X000000000057D" ;
+    cim:IdentifiedObject.name "NLD Power BV" ;
+    cim:Names.name "Capacity Trader",
+        "NL862806562B01",
+        "NLD_POWER_BV" ;
+    dcterms:identifier "urn:eic:49X000000000057D" ;
+    schema1:vatID "NL862806562B01" ;
+    skos:altLabel "NLD_POWER_BV" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NLD Power BV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

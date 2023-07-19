@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X930000118470D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X930000118470D" ;
+    cim:IdentifiedObject.name "\"GASCOMPOST\" Limited liability Company" ;
+    cim:Names.name "437677626599",
+        "GASCOMPOST",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X930000118470D" ;
+    schema1:vatID "437677626599" ;
+    skos:altLabel "GASCOMPOST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "\"GASCOMPOST\" Limited liability Company" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

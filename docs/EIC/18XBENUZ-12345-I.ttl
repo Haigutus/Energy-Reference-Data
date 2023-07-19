@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XBENUZ-12345-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XBENUZ-12345-I" ;
+    cim:IdentifiedObject.name "ELECTRICAS DE BENUZA SL" ;
+    cim:Names.name "BENUZ",
+        "ESB24374647",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XBENUZ-12345-I" ;
+    schema1:vatID "ESB24374647" ;
+    skos:altLabel "BENUZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRICAS DE BENUZA SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

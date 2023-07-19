@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XELPETRAENERGC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "29XELPETRAENERGC" ;
+    cim:IdentifiedObject.name "Elpetra Energy S.A." ;
+    cim:Names.name "Balance Responsible Party",
+        "EL998774259",
+        "ELPETRA" ;
+    dcterms:identifier "urn:eic:29XELPETRAENERGC" ;
+    schema1:vatID "EL998774259" ;
+    skos:altLabel "ELPETRA" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Elpetra Energy S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XINFRABEL----U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "22XINFRABEL----U" ;
+    cim:IdentifiedObject.name "INFRABEL" ;
+    cim:Names.name "BE0869763267",
+        "BE_INFRABEL",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22XINFRABEL----U" ;
+    schema1:vatID "BE0869763267" ;
+    skos:altLabel "BE_INFRABEL" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "INFRABEL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

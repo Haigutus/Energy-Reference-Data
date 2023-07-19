@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17W100P100P1597G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Generation unit" ;
+    cim:IdentifiedObject.mRID "17W100P100P1597G" ;
+    cim:IdentifiedObject.name "GROUPE 03 DE LA CENTRALE HYDRAULIQUE DE GENISSIAT" ;
+    cim:Names.name "FR_HY-GENIS-G3",
+        "Generation Unit" ;
+    dcterms:identifier "urn:eic:17W100P100P1597G" ;
+    skos:altLabel "FR_HY-GENIS-G3" ;
+    skos:definition "Generation unit"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GROUPE 03 DE LA CENTRALE HYDRAULIQUE DE GENISSIAT" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

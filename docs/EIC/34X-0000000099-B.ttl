@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34X-0000000099-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "34X-0000000099-B" ;
+    cim:IdentifiedObject.name "GREEN ENERGY TRADING-TRGOVINA ZELENOM ENERGIJOM doo Beograd" ;
+    cim:Names.name "113379889",
+        "GRIN",
+        "Producer",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:34X-0000000099-B" ;
+    schema1:vatID "113379889" ;
+    skos:altLabel "GRIN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GREEN ENERGY TRADING-TRGOVINA ZELENOM ENERGIJOM doo Beograd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

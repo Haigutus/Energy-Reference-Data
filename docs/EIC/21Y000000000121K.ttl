@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Y000000000121K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-11" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Market Area, Market Balance Area" ;
+    cim:IdentifiedObject.mRID "21Y000000000121K" ;
+    cim:IdentifiedObject.name "Oude Statenzijl H Area" ;
+    cim:Names.name "OUDE_STATENZIJL" ;
+    dcterms:identifier "urn:eic:21Y000000000121K" ;
+    skos:altLabel "OUDE_STATENZIJL" ;
+    skos:definition "Market Area, Market Balance Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Oude Statenzijl H Area" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

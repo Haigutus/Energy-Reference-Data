@@ -1,0 +1,32 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000001017891A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "17X000001017891A" ;
+    cim:IdentifiedObject.name "NW RE" ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "Consumer",
+        "Coordination Center Operator",
+        "FR11899433502",
+        "FR_NWRE",
+        "Imbalance Settlement Responsible",
+        "Market Area Operator",
+        "Market Operator",
+        "Metered Data Aggregator",
+        "Storage System Operator",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:17X000001017891A" ;
+    schema1:vatID "FR11899433502" ;
+    skos:altLabel "FR_NWRE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NW RE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XENGJ2-12345-M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-01-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XENGJ2-12345-M" ;
+    cim:IdentifiedObject.name "ENERGÍA FOTOVOLTAICA LA JARILLA II, S.L." ;
+    cim:Names.name "ENGJ2",
+        "ESB45674041",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XENGJ2-12345-M" ;
+    schema1:vatID "ESB45674041" ;
+    skos:altLabel "ENGJ2" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGÍA FOTOVOLTAICA LA JARILLA II, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

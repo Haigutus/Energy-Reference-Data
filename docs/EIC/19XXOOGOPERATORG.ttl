@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XXOOGOPERATORG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Narwany gość 663337363, osoba kontaktowa już nie pracuje 2022.12.06 " ;
+    cim:IdentifiedObject.mRID "19XXOOGOPERATORG" ;
+    cim:IdentifiedObject.name "XOOG OPERATOR SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    cim:Names.name "Balance Responsible Party",
+        "Energy Supplier",
+        "PL6152065528",
+        "XOOG_OPERATOR" ;
+    dcterms:identifier "urn:eic:19XXOOGOPERATORG" ;
+    schema1:vatID "PL6152065528" ;
+    skos:altLabel "XOOG_OPERATOR" ;
+    skos:definition "Narwany gość 663337363, osoba kontaktowa już nie pracuje 2022.12.06 "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "XOOG OPERATOR SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

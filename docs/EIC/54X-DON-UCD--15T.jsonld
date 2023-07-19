@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/54X-DON-UCD--15T",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:54X-DON-UCD--15T",
+    "@skos:prefLabel": "DON UCD sh.p.k",
+    "@skos:altLabel": "DON-UCD",
+    "@cim:IdentifiedObject.mRID": "54X-DON-UCD--15T",
+    "@cim:IdentifiedObject.name": "DON UCD sh.p.k",
+    "@cim:Names.name": [
+        "DON-UCD",
+        "L51326022D",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-07-18",
+    "@schema:vatID": "L51326022D",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

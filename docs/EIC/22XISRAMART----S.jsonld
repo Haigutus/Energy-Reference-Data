@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/22XISRAMART----S",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:22XISRAMART----S",
+    "@skos:prefLabel": "ISRA MART SRL",
+    "@skos:altLabel": "BE_ISRA-MART",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "ENERGY AND ENVIRONMENTAL BROKER IN EASTERN EUROPE, PROVIDING FULL-SERVICE AND OVER THE COUNTER BROKING AND ADVISORY CAPABILITIES TO A BROAD SPECTRUM OF BUSINESSES THROUGHOUT EUROPE."
+    },
+    "@cim:IdentifiedObject.mRID": "22XISRAMART----S",
+    "@cim:IdentifiedObject.name": "ISRA MART SRL",
+    "@cim:Names.name": [
+        "BE_ISRA-MART",
+        "RO25620601",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "ENERGY AND ENVIRONMENTAL BROKER IN EASTERN EUROPE, PROVIDING FULL-SERVICE AND OVER THE COUNTER BROKING AND ADVISORY CAPABILITIES TO A BROAD SPECTRUM OF BUSINESSES THROUGHOUT EUROPE.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2010-01-06",
+    "@schema:vatID": "RO25620601",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

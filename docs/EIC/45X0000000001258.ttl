@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X0000000001258> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45X0000000001258" ;
+    cim:IdentifiedObject.name "Vindenergi Danmark amba" ;
+    cim:Names.name "Balance Responsible Party",
+        "DK21973505",
+        "VEDK" ;
+    dcterms:identifier "urn:eic:45X0000000001258" ;
+    schema1:vatID "DK21973505" ;
+    skos:altLabel "VEDK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vindenergi Danmark amba" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

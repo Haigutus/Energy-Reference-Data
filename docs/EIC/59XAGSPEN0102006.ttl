@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XAGSPEN0102006> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XAGSPEN0102006" ;
+    cim:IdentifiedObject.name "AGESP ENERGIA SRL" ;
+    cim:Names.name "AGESPENERGIASRL",
+        "Balance Responsible Party",
+        "IT02727450120" ;
+    dcterms:identifier "urn:eic:59XAGSPEN0102006" ;
+    schema1:vatID "IT02727450120" ;
+    skos:altLabel "AGESPENERGIASRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AGESP ENERGIA SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

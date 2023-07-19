@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XKMW---------H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-10-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XKMW---------H" ;
+    cim:IdentifiedObject.name "Kraftwerke Mainz-Wiesbaden AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE149055538",
+        "KMW" ;
+    dcterms:identifier "urn:eic:11XKMW---------H" ;
+    schema1:vatID "DE149055538" ;
+    skos:altLabel "KMW" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kraftwerke Mainz-Wiesbaden AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

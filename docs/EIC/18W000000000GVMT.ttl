@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18W000000000GVMT> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-03-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18W000000000GVMT" ;
+    cim:IdentifiedObject.name "TVB (Virtual balancing LNG tank)" ;
+    cim:Names.name "Generation Unit",
+        "TVB" ;
+    dcterms:identifier "urn:eic:18W000000000GVMT" ;
+    skos:altLabel "TVB" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TVB (Virtual balancing LNG tank)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

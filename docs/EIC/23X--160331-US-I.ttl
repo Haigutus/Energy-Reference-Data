@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160331-US-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User" ;
+    cim:IdentifiedObject.mRID "23X--160331-US-I" ;
+    cim:IdentifiedObject.name "UAB UKMERGES SILUMA" ;
+    cim:Names.name "LT827148515",
+        "Network User",
+        "UKMERGES_SILUMA" ;
+    dcterms:identifier "urn:eic:23X--160331-US-I" ;
+    schema1:vatID "LT827148515" ;
+    skos:altLabel "UKMERGES_SILUMA" ;
+    skos:definition "Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB UKMERGES SILUMA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

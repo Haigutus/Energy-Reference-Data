@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37X000000000054S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Metered Data Aggregator" ;
+    cim:IdentifiedObject.mRID "37X000000000054S" ;
+    cim:IdentifiedObject.name "caplog-x GmbH" ;
+    cim:Names.name "CAPLOG-X",
+        "DE262874107",
+        "Metered Data Aggregator" ;
+    dcterms:identifier "urn:eic:37X000000000054S" ;
+    schema1:vatID "DE262874107" ;
+    skos:altLabel "CAPLOG-X" ;
+    skos:definition "Metered Data Aggregator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "caplog-x GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

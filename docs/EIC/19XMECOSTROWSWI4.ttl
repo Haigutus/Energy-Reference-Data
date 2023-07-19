@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XMECOSTROWSWI4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XMECOSTROWSWI4" ;
+    cim:IdentifiedObject.name "MIEJSKA ENERGETYKA CIEPLNA SP. Z O.O." ;
+    cim:Names.name "Balance Responsible Party",
+        "MEC_SPZOO",
+        "PL6610000208" ;
+    dcterms:identifier "urn:eic:19XMECOSTROWSWI4" ;
+    schema1:vatID "PL6610000208" ;
+    skos:altLabel "MEC_SPZOO" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MIEJSKA ENERGETYKA CIEPLNA SP. Z O.O." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

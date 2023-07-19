@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWSBK-HANDELX> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-09-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSWSBK-HANDELX" ;
+    cim:IdentifiedObject.name "Stadtwerke Schönebeck GmbH - SWS -" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE139488392",
+        "SW-SBK-HANDEL" ;
+    dcterms:identifier "urn:eic:11XSWSBK-HANDELX" ;
+    schema1:vatID "DE139488392" ;
+    skos:altLabel "SW-SBK-HANDEL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Schönebeck GmbH - SWS -" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

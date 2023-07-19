@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WGFR-GS1-12--T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WGFR-GS1-12--T" ;
+    cim:IdentifiedObject.name "GDF SUEZ TRADING" ;
+    cim:Names.name "GFRGS1",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18WGFR-GS1-12--T" ;
+    skos:altLabel "GFRGS1" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GDF SUEZ TRADING" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

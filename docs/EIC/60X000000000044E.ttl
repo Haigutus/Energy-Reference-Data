@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000044E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000044E" ;
+    cim:IdentifiedObject.name "DISTRIGAZ VEST SA" ;
+    cim:Names.name "A00055745.RO",
+        "DISTRIGAZ-VEST",
+        "Distribution System Operator",
+        "Network User",
+        "RO14370054",
+        "Resource Provider" ;
+    dcterms:identifier "urn:eic:60X000000000044E" ;
+    schema1:vatID "RO14370054" ;
+    skos:altLabel "DISTRIGAZ-VEST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DISTRIGAZ VEST SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

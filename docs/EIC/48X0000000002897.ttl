@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X0000000002897> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48X0000000002897" ;
+    cim:IdentifiedObject.name "Igloo Energy Supply Ltd" ;
+    cim:Names.name "Balance Responsible Party",
+        "GB265025224",
+        "IGLOO_ENERGY" ;
+    dcterms:identifier "urn:eic:48X0000000002897" ;
+    schema1:vatID "GB265025224" ;
+    skos:altLabel "IGLOO_ENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Igloo Energy Supply Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

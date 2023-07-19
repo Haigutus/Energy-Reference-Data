@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29X10001000100TQ",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29X10001000100TQ",
+    "@skos:prefLabel": "SYMPOWER GREECE ΜΟΝΟΠΡΟΣΩΠΗ ΙΚΕ",
+    "@skos:altLabel": "SYMPOWERGR",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Demand Responsible Independent Aggregator Additional e-mail: konstantinos.tsinnas@sympower.gr    Additional contact persons: KONSTANTINOS ATHANASOPOULOS (kostas.athanasopoulos@sympower.net, +30 6936749469) IRENE ALMENAR (irene.almenar@sympower.net) "
+    },
+    "@cim:IdentifiedObject.mRID": "29X10001000100TQ",
+    "@cim:IdentifiedObject.name": "SYMPOWER GREECE ΜΟΝΟΠΡΟΣΩΠΗ ΙΚΕ",
+    "@cim:Names.name": [
+        "SYMPOWERGR",
+        "EL801627226",
+        "Balance Responsible Party",
+        "Balancing Service Provider"
+    ],
+    "@cim:IdentifiedObject.description": "Demand Responsible Independent Aggregator Additional e-mail: konstantinos.tsinnas@sympower.gr    Additional contact persons: KONSTANTINOS ATHANASOPOULOS (kostas.athanasopoulos@sympower.net, +30 6936749469) IRENE ALMENAR (irene.almenar@sympower.net) ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-05-03",
+    "@schema:vatID": "EL801627226",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

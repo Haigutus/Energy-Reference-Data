@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62X666142686048M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62X666142686048M" ;
+    cim:IdentifiedObject.name "Limited Liability Company \"UKRAINIAN-BELARUSIAN HOLDING\"" ;
+    cim:Names.name "Trade Responsible Party",
+        "UA444999506257",
+        "UKRBELHOL" ;
+    dcterms:identifier "urn:eic:62X666142686048M" ;
+    schema1:vatID "UA444999506257" ;
+    skos:altLabel "UKRBELHOL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Limited Liability Company \"UKRAINIAN-BELARUSIAN HOLDING\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31XG-ECONGASHR-X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "31XG-ECONGASHR-X" ;
+    cim:IdentifiedObject.name "OMV Gas Marketing&Trading d.o.o u likvidaciji" ;
+    cim:Names.name "Balance Responsible Party",
+        "HR82365058297",
+        "OMV-GAS-HR" ;
+    dcterms:identifier "urn:eic:31XG-ECONGASHR-X" ;
+    schema1:vatID "HR82365058297" ;
+    skos:altLabel "OMV-GAS-HR" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OMV Gas Marketing&Trading d.o.o u likvidaciji" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

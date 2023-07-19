@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29X10001000100FH> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Services for the SEE and GRIT CCRs according to SOGL and CACM EU Regulations (Common Grid Model, Coordinated Capacity Calculation, Coordinated Security Assessment, Short Term Adequacy Forecast, Outage Planning Coordination)." ;
+    cim:IdentifiedObject.mRID "29X10001000100FH" ;
+    cim:IdentifiedObject.name "South East Electricity Network Coordination Center" ;
+    cim:Names.name "Coordination Center Operator",
+        "EL801350177",
+        "SELENECC" ;
+    dcterms:identifier "urn:eic:29X10001000100FH" ;
+    schema1:vatID "EL801350177" ;
+    skos:altLabel "SELENECC" ;
+    skos:definition "Services for the SEE and GRIT CCRs according to SOGL and CACM EU Regulations (Common Grid Model, Coordinated Capacity Calculation, Coordinated Security Assessment, Short Term Adequacy Forecast, Outage Planning Coordination)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "South East Electricity Network Coordination Center" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

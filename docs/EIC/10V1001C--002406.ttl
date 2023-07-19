@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--002406> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "In the context of the implementation of the Core capacity calculation within Core CCR, and its connection to the Market Coupling system, a new test environement (test2) has been set up to validate the market coupling process and the post coupling activities. As a new ECP4 endpoint is being implemented for the files exchanges with this environement an EIC code is requested for this endpoint" ;
+    cim:IdentifiedObject.mRID "10V1001C--002406" ;
+    cim:IdentifiedObject.name "ECP Core Test2 Endpoint" ;
+    cim:Names.name "ECP_CORE_TST_EDP",
+        "IT-system" ;
+    dcterms:identifier "urn:eic:10V1001C--002406" ;
+    skos:altLabel "ECP_CORE_TST_EDP" ;
+    skos:definition "In the context of the implementation of the Core capacity calculation within Core CCR, and its connection to the Market Coupling system, a new test environement (test2) has been set up to validate the market coupling process and the post coupling activities. As a new ECP4 endpoint is being implemented for the files exchanges with this environement an EIC code is requested for this endpoint"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ECP Core Test2 Endpoint" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XNETRAS236726S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XNETRAS236726S" ;
+    cim:IdentifiedObject.name "NETRAS S.r.l. " ;
+    cim:Names.name "IT12532970964",
+        "Market Operator",
+        "NETRASSRL" ;
+    dcterms:identifier "urn:eic:59XNETRAS236726S" ;
+    schema1:vatID "IT12532970964" ;
+    skos:altLabel "NETRASSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NETRAS S.r.l. " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

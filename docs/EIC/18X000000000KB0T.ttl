@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000KB0T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000KB0T" ;
+    cim:IdentifiedObject.name "Clearview Energy S.L.U." ;
+    cim:Names.name "ES-00000001CLEAR",
+        "ESB88578901",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000KB0T" ;
+    schema1:vatID "ESB88578901" ;
+    skos:altLabel "ES-00000001CLEAR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Clearview Energy S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/48X000000000287B",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:48X000000000287B",
+    "@skos:prefLabel": "Windy Rig Wind Farm Limited",
+    "@skos:altLabel": "WINDYRIGWFL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "GB 842 4207 48 is the VAT code supplied by the participant.  "
+    },
+    "@cim:IdentifiedObject.mRID": "48X000000000287B",
+    "@cim:IdentifiedObject.name": "Windy Rig Wind Farm Limited",
+    "@cim:Names.name": [
+        "WINDYRIGWFL",
+        "GB842420748",
+        "Production Responsible party",
+        "Producer",
+        "Party Connected To Grid"
+    ],
+    "@cim:IdentifiedObject.description": "GB 842 4207 48 is the VAT code supplied by the participant.  ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-09-16",
+    "@schema:vatID": "GB842420748",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

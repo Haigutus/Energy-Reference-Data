@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-ZANGASHOCH-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "update from BGRP to BGR -IO" ;
+    cim:IdentifiedObject.mRID "25X-ZANGASHOCH-H" ;
+    cim:IdentifiedObject.name "ZaNGaS Hoch- und Tiefbau GmbH" ;
+    cim:Names.name "ATU61697658",
+        "Balance Responsible Party",
+        "ZANGAS" ;
+    dcterms:identifier "urn:eic:25X-ZANGASHOCH-H" ;
+    schema1:vatID "ATU61697658" ;
+    skos:altLabel "ZANGAS" ;
+    skos:definition "update from BGRP to BGR -IO"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZaNGaS Hoch- und Tiefbau GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

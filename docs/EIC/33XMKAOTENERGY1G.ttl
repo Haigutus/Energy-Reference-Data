@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XMKAOTENERGY1G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33XMKAOTENERGY1G" ;
+    cim:IdentifiedObject.name "AOT ENERGY MACEDONIA DOOEL" ;
+    cim:Names.name "4080020590260",
+        "AOT_ENERGY_MKD",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XMKAOTENERGY1G" ;
+    schema1:vatID "4080020590260" ;
+    skos:altLabel "AOT_ENERGY_MKD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AOT ENERGY MACEDONIA DOOEL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-URITRANSDNGY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-04-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "25X-URITRANSDNGY" ;
+    cim:IdentifiedObject.name "Uritrans Düngemittelhandelsges.m.b.H." ;
+    cim:Names.name "ATU44587808",
+        "Capacity Trader",
+        "URITRANS" ;
+    dcterms:identifier "urn:eic:25X-URITRANSDNGY" ;
+    schema1:vatID "ATU44587808" ;
+    skos:altLabel "URITRANS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Uritrans Düngemittelhandelsges.m.b.H." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

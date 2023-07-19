@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-GEN-I-HUN--8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-30" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "15X-GEN-I-HUN--8" ;
+    cim:IdentifiedObject.name "Gen-I Budapest Kft." ;
+    cim:Names.name "Balance Responsible Party",
+        "GEN-I-HUN-BC",
+        "HU14007866" ;
+    dcterms:identifier "urn:eic:15X-GEN-I-HUN--8" ;
+    schema1:vatID "HU14007866" ;
+    skos:altLabel "GEN-I-HUN-BC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Gen-I Budapest Kft." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

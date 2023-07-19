@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000MPGKI> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53XPL000000MPGKI" ;
+    cim:IdentifiedObject.name "Miejskie Przedsiębiorstwo Gospodarki Komunalnej Sp. z o.o. w Jaśle" ;
+    cim:Names.name "Consumer",
+        "MPGK_SP_Z_O_O",
+        "PL6850004967" ;
+    dcterms:identifier "urn:eic:53XPL000000MPGKI" ;
+    schema1:vatID "PL6850004967" ;
+    skos:altLabel "MPGK_SP_Z_O_O" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Miejskie Przedsiębiorstwo Gospodarki Komunalnej Sp. z o.o. w Jaśle" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--00001J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-09-11" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Border between Denmark (DK1) and Netherlands (NL) at Eemshaven. " ;
+    cim:IdentifiedObject.mRID "10Y1001C--00001J" ;
+    cim:IdentifiedObject.name "Border domain Denmark-Netherlands at Eemshaven" ;
+    cim:Names.name "DK1-NL-EEMSHAVEN" ;
+    dcterms:identifier "urn:eic:10Y1001C--00001J" ;
+    skos:altLabel "DK1-NL-EEMSHAVEN" ;
+    skos:definition "Border between Denmark (DK1) and Netherlands (NL) at Eemshaven. "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Border domain Denmark-Netherlands at Eemshaven" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

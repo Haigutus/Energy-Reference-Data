@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XKENENERGYSA-4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-12-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Import, supply, marketing, sale and distribution of electricity and other energy products such as fuel for power plants, steam and heated water, capacity booking on connections. Purchase, supply, trade, sale of the electricity which is produced in power plants. Development, financing, construction, operation, exploitation, maintenance and acquisition or participation in thermal power plants in Greece. Construction, operation, exploitation, acquisition or participation in power plants for renewable energy sources." ;
+    cim:IdentifiedObject.mRID "29XKENENERGYSA-4" ;
+    cim:IdentifiedObject.name "ΚΕΝ ΠΑΡΑΓΩΓΗ ΚΑΙ ΕΜΠΟΡΙΑ ΕΝΕΡΓΕΙΑΚΩΝ ΠΡΟΙΟΝΤΩΝ ΑΝΩΝΥΜΟΣ ΕΤΑΙΡΕΙΑ " ;
+    cim:Names.name "EL800749766",
+        "KENENERGY",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:29XKENENERGYSA-4" ;
+    schema1:vatID "EL800749766" ;
+    skos:altLabel "KENENERGY" ;
+    skos:definition "Import, supply, marketing, sale and distribution of electricity and other energy products such as fuel for power plants, steam and heated water, capacity booking on connections. Purchase, supply, trade, sale of the electricity which is produced in power plants. Development, financing, construction, operation, exploitation, maintenance and acquisition or participation in thermal power plants in Greece. Construction, operation, exploitation, acquisition or participation in power plants for renewable energy sources."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ΚΕΝ ΠΑΡΑΓΩΓΗ ΚΑΙ ΕΜΠΟΡΙΑ ΕΝΕΡΓΕΙΑΚΩΝ ΠΡΟΙΟΝΤΩΝ ΑΝΩΝΥΜΟΣ ΕΤΑΙΡΕΙΑ " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

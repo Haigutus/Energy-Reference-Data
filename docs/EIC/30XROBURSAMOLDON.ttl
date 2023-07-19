@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XROBURSAMOLDON> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-10-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "30XROBURSAMOLDON" ;
+    cim:IdentifiedObject.name "BURSA MOLDOVEI SA IASI" ;
+    cim:Names.name "RO4255619",
+        "RO_BURSAMOL",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:30XROBURSAMOLDON" ;
+    schema1:vatID "RO4255619" ;
+    skos:altLabel "RO_BURSAMOL" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BURSA MOLDOVEI SA IASI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

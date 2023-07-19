@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000062C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-12-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000062C" ;
+    cim:IdentifiedObject.name "CONEF GAZ SRL" ;
+    cim:Names.name "CONEFGAZ",
+        "Network User",
+        "RO19161733",
+        "Resource Provider" ;
+    dcterms:identifier "urn:eic:60X000000000062C" ;
+    schema1:vatID "RO19161733" ;
+    skos:altLabel "CONEFGAZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CONEF GAZ SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

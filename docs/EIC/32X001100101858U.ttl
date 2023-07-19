@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X001100101858U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32X001100101858U" ;
+    cim:IdentifiedObject.name "PIRINSKA BISTRITZA ENERGIA EAD" ;
+    cim:Names.name "A0004017C.BG",
+        "BG121893417",
+        "Balance Responsible Party",
+        "PBE_EAD" ;
+    dcterms:identifier "urn:eic:32X001100101858U" ;
+    schema1:vatID "BG121893417" ;
+    skos:altLabel "PBE_EAD" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PIRINSKA BISTRITZA ENERGIA EAD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

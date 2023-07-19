@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XPONTS-12345-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-04-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XPONTS-12345-B" ;
+    cim:IdentifiedObject.name "ELECTRICA DE PONTS" ;
+    cim:Names.name "ESB25428905",
+        "PONTS",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XPONTS-12345-B" ;
+    schema1:vatID "ESB25428905" ;
+    skos:altLabel "PONTS" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRICA DE PONTS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

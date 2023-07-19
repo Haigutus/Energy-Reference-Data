@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XDANSKECOM--PM> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-12-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "33XDANSKECOM--PM" ;
+    cim:IdentifiedObject.name "Danske Commodities dooel Skopje" ;
+    cim:Names.name "4057011512905",
+        "DANSKESKOPJE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XDANSKECOM--PM" ;
+    schema1:vatID "4057011512905" ;
+    skos:altLabel "DANSKESKOPJE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Danske Commodities dooel Skopje" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

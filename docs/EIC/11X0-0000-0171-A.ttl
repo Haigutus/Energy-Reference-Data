@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X0-0000-0171-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-11-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11X0-0000-0171-A" ;
+    cim:IdentifiedObject.name "EnBW Energy Factory GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE263309375",
+        "ENERGY_FACTORY" ;
+    dcterms:identifier "urn:eic:11X0-0000-0171-A" ;
+    schema1:vatID "DE263309375" ;
+    skos:altLabel "ENERGY_FACTORY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EnBW Energy Factory GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,24 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/17X000000013544M">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:17X000000013544M</dcterms:identifier>
+    <skos:prefLabel>LYONDELL CHIMIE FRANCE</skos:prefLabel>
+    <skos:altLabel>FR_LYONDELL</skos:altLabel>
+    <skos:definition xml:lang="en">LYONDELL CHIMIE FRANCE SAS</skos:definition>
+    <cim:IdentifiedObject.mRID>17X000000013544M</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>LYONDELL CHIMIE FRANCE</cim:IdentifiedObject.name>
+    <cim:Names.name>FR_LYONDELL</cim:Names.name>
+    <cim:Names.name>FR38333834562</cim:Names.name>
+    <cim:IdentifiedObject.description>LYONDELL CHIMIE FRANCE SAS</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2017-06-20</cim:DateAndOrTime.date>
+    <cim:Names.name>Consumer</cim:Names.name>
+    <cim:Names.name>Party Connected To Grid</cim:Names.name>
+    <cim:Names.name>Capacity Trader</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>FR38333834562</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

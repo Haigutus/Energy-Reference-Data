@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/45X0000000000707",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:45X0000000000707",
+    "@skos:prefLabel": "Green Power Trading Aps",
+    "@skos:altLabel": "DK_GPTRADING",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Dear CIO-Office, as discussed please note that Green Power Trading Aps is a registered company in Denmark according to our authorities web-page since 9th July 2020 (https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=41507462&soeg=41507462&language=da) Therefore, I kindly ask you to approve the registration of the EIC code asap.  Kind regards Markus "
+    },
+    "@cim:IdentifiedObject.mRID": "45X0000000000707",
+    "@cim:IdentifiedObject.name": "Green Power Trading Aps",
+    "@cim:Names.name": [
+        "DK_GPTRADING",
+        "DK41507462",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Dear CIO-Office, as discussed please note that Green Power Trading Aps is a registered company in Denmark according to our authorities web-page since 9th July 2020 (https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=41507462&soeg=41507462&language=da) Therefore, I kindly ask you to approve the registration of the EIC code asap.  Kind regards Markus ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-08-03",
+    "@schema:vatID": "DK41507462",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

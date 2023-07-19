@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XTB2ENERGIA00H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XTB2ENERGIA00H" ;
+    cim:IdentifiedObject.name "TB2 ENERGIA SP. Z O.O." ;
+    cim:Names.name "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PL7272825072",
+        "System Operator",
+        "TB2ENERGIA" ;
+    dcterms:identifier "urn:eic:19XTB2ENERGIA00H" ;
+    schema1:vatID "PL7272825072" ;
+    skos:altLabel "TB2ENERGIA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TB2 ENERGIA SP. Z O.O." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

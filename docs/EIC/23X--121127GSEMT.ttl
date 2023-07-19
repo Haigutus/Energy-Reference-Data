@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--121127GSEMT> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--121127GSEMT" ;
+    cim:IdentifiedObject.name "ENGIE Energy Management scrl" ;
+    cim:Names.name "BE0831958211",
+        "Balance Responsible Party",
+        "GDF_EMT",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--121127GSEMT" ;
+    schema1:vatID "BE0831958211" ;
+    skos:altLabel "GDF_EMT" ;
+    skos:definition "Balance Responsible Party, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENGIE Energy Management scrl" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

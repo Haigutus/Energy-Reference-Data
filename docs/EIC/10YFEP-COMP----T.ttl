@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10YFEP-COMP----T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Fictitious Area" ;
+    cim:IdentifiedObject.mRID "10YFEP-COMP----T" ;
+    cim:IdentifiedObject.name "Comp. Control area France-Spain-Portugal" ;
+    cim:Names.name "FICT_COMP_FR",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:10YFEP-COMP----T" ;
+    skos:altLabel "FICT_COMP_FR" ;
+    skos:definition "Fictitious Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Comp. Control area France-Spain-Portugal" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

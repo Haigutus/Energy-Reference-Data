@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/10V1001C--002406">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:10V1001C--002406</dcterms:identifier>
+    <skos:prefLabel>ECP Core Test2 Endpoint</skos:prefLabel>
+    <skos:altLabel>ECP_CORE_TST_EDP</skos:altLabel>
+    <skos:definition xml:lang="en">In the context of the implementation of the Core capacity calculation within Core CCR, and its connection to the Market Coupling system, a new test environement (test2) has been set up to validate the market coupling process and the post coupling activities. As a new ECP4 endpoint is being implemented for the files exchanges with this environement an EIC code is requested for this endpoint</skos:definition>
+    <cim:IdentifiedObject.mRID>10V1001C--002406</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ECP Core Test2 Endpoint</cim:IdentifiedObject.name>
+    <cim:Names.name>ECP_CORE_TST_EDP</cim:Names.name>
+    <cim:IdentifiedObject.description>In the context of the implementation of the Core capacity calculation within Core CCR, and its connection to the Market Coupling system, a new test environement (test2) has been set up to validate the market coupling process and the post coupling activities. As a new ECP4 endpoint is being implemented for the files exchanges with this environement an EIC code is requested for this endpoint</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2021-01-26</cim:DateAndOrTime.date>
+    <cim:Names.name>IT-system</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+  </skos:Concept>
+</rdf:RDF>

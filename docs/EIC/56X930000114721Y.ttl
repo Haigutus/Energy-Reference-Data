@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X930000114721Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-02-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X930000114721Y" ;
+    cim:IdentifiedObject.name "Limited Liability Company \"ANK TRADE\"" ;
+    cim:Names.name "414061026584",
+        "ANK_TRADE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X930000114721Y" ;
+    schema1:vatID "414061026584" ;
+    skos:altLabel "ANK_TRADE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Limited Liability Company \"ANK TRADE\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

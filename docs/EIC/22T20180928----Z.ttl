@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22T20180928----Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-02-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "BE00_REDISPATCH" ;
+    cim:IdentifiedObject.mRID "22T20180928----Z" ;
+    cim:IdentifiedObject.name "00 REDISPATCH" ;
+    cim:Names.name "BE00_REDISPATCH",
+        "Internal Tie-Line" ;
+    dcterms:identifier "urn:eic:22T20180928----Z" ;
+    skos:altLabel "BE00_REDISPATCH" ;
+    skos:definition "BE00_REDISPATCH"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "00 REDISPATCH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

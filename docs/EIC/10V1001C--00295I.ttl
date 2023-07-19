@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--00295I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "In the context of the implementation of the Long Term Core capacity calculation within Core CCR, a new location EIC code is required for the CORE Long Term Capacity Calculation tool. This code will be used for Receiver/Sender identification fields in input/output XMLs. Note : A similar code was created for the CORE Intra-Day Ahead capacity calculation tool (10V1001C--00262X )" ;
+    cim:IdentifiedObject.mRID "10V1001C--00295I" ;
+    cim:IdentifiedObject.name "Long Term CORE CC tool" ;
+    cim:Names.name "CORE_LTCC_TOOL",
+        "IT-system" ;
+    dcterms:identifier "urn:eic:10V1001C--00295I" ;
+    skos:altLabel "CORE_LTCC_TOOL" ;
+    skos:definition "In the context of the implementation of the Long Term Core capacity calculation within Core CCR, a new location EIC code is required for the CORE Long Term Capacity Calculation tool. This code will be used for Receiver/Sender identification fields in input/output XMLs. Note : A similar code was created for the CORE Intra-Day Ahead capacity calculation tool (10V1001C--00262X )"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Long Term CORE CC tool" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

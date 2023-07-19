@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-ENERGIEBURVJ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "update company name -IO" ;
+    cim:IdentifiedObject.mRID "25X-ENERGIEBURVJ" ;
+    cim:IdentifiedObject.name "BE Vertrieb GmbH & Co KG" ;
+    cim:Names.name "ATU56317415",
+        "Consumption Responsible Party",
+        "EBVER",
+        "Energy Supplier" ;
+    dcterms:identifier "urn:eic:25X-ENERGIEBURVJ" ;
+    schema1:vatID "ATU56317415" ;
+    skos:altLabel "EBVER" ;
+    skos:definition "update company name -IO"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BE Vertrieb GmbH & Co KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10XCH-EGL-GRID-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Tso Scheduling" ;
+    cim:IdentifiedObject.mRID "10XCH-EGL-GRID-G" ;
+    cim:IdentifiedObject.name "EGL Grid AG" ;
+    cim:Names.name "CH500050",
+        "EGL_GRID",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:10XCH-EGL-GRID-G" ;
+    schema1:vatID "CH500050" ;
+    skos:altLabel "EGL_GRID" ;
+    skos:definition "Tso Scheduling"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EGL Grid AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

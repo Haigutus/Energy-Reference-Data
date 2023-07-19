@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XFMV-WEG-----N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-05-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "12XFMV-WEG-----N" ;
+    cim:IdentifiedObject.name "FMV SA" ;
+    cim:Names.name "Balance Group",
+        "CH208051",
+        "FMV-ST" ;
+    dcterms:identifier "urn:eic:12XFMV-WEG-----N" ;
+    schema1:vatID "CH208051" ;
+    skos:altLabel "FMV-ST" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FMV SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

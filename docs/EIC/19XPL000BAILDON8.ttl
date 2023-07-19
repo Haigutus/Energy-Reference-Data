@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPL000BAILDON8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XPL000BAILDON8" ;
+    cim:IdentifiedObject.name "WOJEWÓDZKIE PRZEDSIEBIORSTWO ROBÓT DROGOWYCH SPÓŁKA AKCYJNA" ;
+    cim:Names.name "A0014791C.PL",
+        "Consumer",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "OSDN-BAILDON",
+        "PL6270011873",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:19XPL000BAILDON8" ;
+    schema1:vatID "PL6270011873" ;
+    skos:altLabel "OSDN-BAILDON" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "WOJEWÓDZKIE PRZEDSIEBIORSTWO ROBÓT DROGOWYCH SPÓŁKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

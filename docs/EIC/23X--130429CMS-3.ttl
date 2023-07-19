@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--130429CMS-3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-05-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--130429CMS-3" ;
+    cim:IdentifiedObject.name "CMS Metals Ltd" ;
+    cim:Names.name "125818607",
+        "Balance Responsible Party",
+        "CMS_METALS" ;
+    dcterms:identifier "urn:eic:23X--130429CMS-3" ;
+    schema1:vatID "125818607" ;
+    skos:altLabel "CMS_METALS" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CMS Metals Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001927-J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-11-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacity Trader, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "12X-0000001927-J" ;
+    cim:IdentifiedObject.name "Youtrade Energy Commodities SA" ;
+    cim:Names.name "CHE301593923",
+        "Capacity Trader",
+        "Trade Responsible Party",
+        "YOUTRADE-ENER-ST" ;
+    dcterms:identifier "urn:eic:12X-0000001927-J" ;
+    schema1:vatID "CHE301593923" ;
+    skos:altLabel "YOUTRADE-ENER-ST" ;
+    skos:definition "Capacity Trader, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Youtrade Energy Commodities SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

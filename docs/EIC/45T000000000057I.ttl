@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45T000000000057I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45T000000000057I" ;
+    cim:IdentifiedObject.name "400 Asnæsværket Bjæverskov" ;
+    cim:Names.name "ASV_400_BJS",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:45T000000000057I" ;
+    skos:altLabel "ASV_400_BJS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "400 Asnæsværket Bjæverskov" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

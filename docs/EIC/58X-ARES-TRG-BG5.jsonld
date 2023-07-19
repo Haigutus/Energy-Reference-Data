@@ -1,0 +1,37 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/58X-ARES-TRG-BG5",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:58X-ARES-TRG-BG5",
+    "@skos:prefLabel": "ARES TRADING EOOD",
+    "@skos:altLabel": "ARESTRADING-BG",
+    "@cim:IdentifiedObject.mRID": "58X-ARES-TRG-BG5",
+    "@cim:IdentifiedObject.name": "ARES TRADING EOOD",
+    "@cim:Names.name": [
+        "ARESTRADING-BG",
+        "BG206565510",
+        "Trade Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-07-05",
+    "@schema:vatID": "BG206565510",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

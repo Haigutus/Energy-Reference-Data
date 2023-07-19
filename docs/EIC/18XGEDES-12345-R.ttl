@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XGEDES-12345-R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-01-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XGEDES-12345-R" ;
+    cim:IdentifiedObject.name "GESTIÓN Y DESARROLLO DEL MEDIO AMBIENTE S.A." ;
+    cim:Names.name "ESA78416070",
+        "GEDES",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XGEDES-12345-R" ;
+    schema1:vatID "ESA78416070" ;
+    skos:altLabel "GEDES" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GESTIÓN Y DESARROLLO DEL MEDIO AMBIENTE S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

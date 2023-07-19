@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XCIMO--------E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Sociã©Tã© De Services Pour Syngenta, Ciba Et Huntsman, Usine De Monthey" ;
+    cim:IdentifiedObject.mRID "12XCIMO--------E" ;
+    cim:IdentifiedObject.name "Cimo Compagnie industrielle de Monthey SA" ;
+    cim:Names.name "CH201664",
+        "CIMO",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XCIMO--------E" ;
+    schema1:vatID "CH201664" ;
+    skos:altLabel "CIMO" ;
+    skos:definition "Sociã©Tã© De Services Pour Syngenta, Ciba Et Huntsman, Usine De Monthey"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Cimo Compagnie industrielle de Monthey SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

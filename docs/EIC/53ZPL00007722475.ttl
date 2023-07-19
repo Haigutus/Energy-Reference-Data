@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53ZPL00007722475> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53ZPL00007722475" ;
+    cim:IdentifiedObject.name "Roszków" ;
+    cim:Names.name "772247_ROSZKOW",
+        "Connection Point" ;
+    dcterms:identifier "urn:eic:53ZPL00007722475" ;
+    skos:altLabel "772247_ROSZKOW" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Roszków" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

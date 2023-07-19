@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41XBALANCY-GRIDN> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "41XBALANCY-GRIDN" ;
+    cim:IdentifiedObject.name "Balancy grid MB" ;
+    cim:Names.name "BALANCY-GRID",
+        "Balance Responsible Party",
+        "LT100015112812" ;
+    dcterms:identifier "urn:eic:41XBALANCY-GRIDN" ;
+    schema1:vatID "LT100015112812" ;
+    skos:altLabel "BALANCY-GRID" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Balancy grid MB" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

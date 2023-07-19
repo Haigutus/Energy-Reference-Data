@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X20141202----5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-12-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balancing responsible party" ;
+    cim:IdentifiedObject.mRID "22X20141202----5" ;
+    cim:IdentifiedObject.name "NANO ENERGIES BENELUX BVBA" ;
+    cim:Names.name "BE0564831097",
+        "BE_NANO",
+        "Balance Responsible Party" ;
+    dcterms:identifier "urn:eic:22X20141202----5" ;
+    schema1:vatID "BE0564831097" ;
+    skos:altLabel "BE_NANO" ;
+    skos:definition "Balancing responsible party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NANO ENERGIES BENELUX BVBA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

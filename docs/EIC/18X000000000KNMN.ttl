@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000KNMN> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000KNMN" ;
+    cim:IdentifiedObject.name "JAVIER BIELA PAMIES" ;
+    cim:Names.name "Capacity Trader",
+        "Consumption Responsible Party",
+        "ES-1234567890QWE",
+        "ES43742684L",
+        "Market Operator",
+        "Production Responsible party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000KNMN" ;
+    schema1:vatID "ES43742684L" ;
+    skos:altLabel "ES-1234567890QWE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "JAVIER BIELA PAMIES" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

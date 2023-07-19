@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--160422-KP-N",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--160422-KP-N",
+    "@skos:prefLabel": "UAB Komunalinių paslaugų centras",
+    "@skos:altLabel": "KPC_LT",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Network User"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--160422-KP-N",
+    "@cim:IdentifiedObject.name": "UAB Komunalinių paslaugų centras",
+    "@cim:Names.name": [
+        "KPC_LT",
+        "LT100004286913",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "Network User",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-04-22",
+    "@schema:vatID": "LT100004286913",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

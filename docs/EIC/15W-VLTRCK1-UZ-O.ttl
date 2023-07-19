@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15W-VLTRCK1-UZ-O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "15W-VLTRCK1-UZ-O" ;
+    cim:IdentifiedObject.name "Voltrack aggregátor" ;
+    cim:Names.name "Production Unit",
+        "VLTRCK1" ;
+    dcterms:identifier "urn:eic:15W-VLTRCK1-UZ-O" ;
+    skos:altLabel "VLTRCK1" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Voltrack aggregátor" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

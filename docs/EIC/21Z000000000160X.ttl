@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z000000000160X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-05-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Connection Point" ;
+    cim:IdentifiedObject.mRID "21Z000000000160X" ;
+    cim:IdentifiedObject.name "Negru Voda 2,3 (RO)/Kardam (BG)" ;
+    cim:Names.name "Connection Point",
+        "NEGRU-2-RO-BG" ;
+    dcterms:identifier "urn:eic:21Z000000000160X" ;
+    skos:altLabel "NEGRU-2-RO-BG" ;
+    skos:definition "Connection Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Negru Voda 2,3 (RO)/Kardam (BG)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

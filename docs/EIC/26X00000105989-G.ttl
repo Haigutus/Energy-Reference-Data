@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X00000105989-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-03-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Operator" ;
+    cim:IdentifiedObject.mRID "26X00000105989-G" ;
+    cim:IdentifiedObject.name "DELMA ENERGIA" ;
+    cim:Names.name "IT-DELMA_ENERGIA",
+        "IT07734580967",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:26X00000105989-G" ;
+    schema1:vatID "IT07734580967" ;
+    skos:altLabel "IT-DELMA_ENERGIA" ;
+    skos:definition "Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DELMA ENERGIA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

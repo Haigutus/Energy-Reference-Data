@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58Z-000000012-KD> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Cross-border connection point between the gas transmission systems of Bulgartransgaz (Bulgaria) and Srbijagas (Serbia)." ;
+    cim:IdentifiedObject.mRID "58Z-000000012-KD" ;
+    cim:IdentifiedObject.name "Kalotina (BG)/Dimitrovgrad (RS)" ;
+    cim:Names.name "Connection Point",
+        "KALOTINA-BG-RS" ;
+    dcterms:identifier "urn:eic:58Z-000000012-KD" ;
+    skos:altLabel "KALOTINA-BG-RS" ;
+    skos:definition "Cross-border connection point between the gas transmission systems of Bulgartransgaz (Bulgaria) and Srbijagas (Serbia)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kalotina (BG)/Dimitrovgrad (RS)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

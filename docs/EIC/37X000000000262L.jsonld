@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/37X000000000262L",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:37X000000000262L",
+    "@skos:prefLabel": "Elbehafen LNG GmbH ",
+    "@skos:altLabel": "ELBEHAFEN_LNG_GM",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "LNG System Operator"
+    },
+    "@cim:IdentifiedObject.mRID": "37X000000000262L",
+    "@cim:IdentifiedObject.name": "Elbehafen LNG GmbH ",
+    "@cim:Names.name": [
+        "ELBEHAFEN_LNG_GM",
+        "DE356596263",
+        "LNG System Operator"
+    ],
+    "@cim:IdentifiedObject.description": "LNG System Operator",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-12-07",
+    "@schema:vatID": "DE356596263",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

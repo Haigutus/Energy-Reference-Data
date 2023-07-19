@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/43X-TG-MHO00044Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-05-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "43X-TG-MHO00044Y" ;
+    cim:IdentifiedObject.name "\"Moduss Holding\" SIA" ;
+    cim:Names.name "Balance Responsible Party",
+        "LV-TGMH29",
+        "LV50203068851" ;
+    dcterms:identifier "urn:eic:43X-TG-MHO00044Y" ;
+    schema1:vatID "LV50203068851" ;
+    skos:altLabel "LV-TGMH29" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "\"Moduss Holding\" SIA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

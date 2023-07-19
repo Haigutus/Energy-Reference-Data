@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X20161115----5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Deviens international car est le responsible party d'une unité de generation internationale" ;
+    cim:IdentifiedObject.mRID "22X20161115----5" ;
+    cim:IdentifiedObject.name "NOBELWIND NV" ;
+    cim:Names.name "BE0543652534",
+        "BE_NOBELWIND",
+        "Consumer",
+        "Producer" ;
+    dcterms:identifier "urn:eic:22X20161115----5" ;
+    schema1:vatID "BE0543652534" ;
+    skos:altLabel "BE_NOBELWIND" ;
+    skos:definition "Deviens international car est le responsible party d'une unité de generation internationale"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NOBELWIND NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

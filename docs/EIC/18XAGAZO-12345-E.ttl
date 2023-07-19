@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XAGAZO-12345-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-05-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XAGAZO-12345-E" ;
+    cim:IdentifiedObject.name "AGAZOS S.L." ;
+    cim:Names.name "AGAZO",
+        "ESB24229684",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XAGAZO-12345-E" ;
+    schema1:vatID "ESB24229684" ;
+    skos:altLabel "AGAZO" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AGAZOS S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

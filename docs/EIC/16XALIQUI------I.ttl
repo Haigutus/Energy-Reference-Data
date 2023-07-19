@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XALIQUI------I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-04-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XALIQUI------I" ;
+    cim:IdentifiedObject.name "Sociedade Portuguesa do Ar Líquido, S.A." ;
+    cim:Names.name "ALIQUI",
+        "Consumption Responsible Party",
+        "PT500261512" ;
+    dcterms:identifier "urn:eic:16XALIQUI------I" ;
+    schema1:vatID "PT500261512" ;
+    skos:altLabel "ALIQUI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Sociedade Portuguesa do Ar Líquido, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21YHS-EC------0B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Terminal: Identification Of The Uk Hornsea Terminal" ;
+    cim:IdentifiedObject.mRID "21YHS-EC------0B" ;
+    cim:IdentifiedObject.name "Terminal Hornsea Entry Cap" ;
+    cim:Names.name "HS-EC",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:21YHS-EC------0B" ;
+    skos:altLabel "HS-EC" ;
+    skos:definition "Terminal: Identification Of The Uk Hornsea Terminal"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Terminal Hornsea Entry Cap" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

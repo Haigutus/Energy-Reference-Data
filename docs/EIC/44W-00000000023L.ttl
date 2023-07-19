@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44W-00000000023L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "44W-00000000023L" ;
+    cim:IdentifiedObject.name "Fortum Power and Heat Oy " ;
+    cim:Names.name "44SUOMENOJA11",
+        "Load" ;
+    dcterms:identifier "urn:eic:44W-00000000023L" ;
+    skos:altLabel "44SUOMENOJA11" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fortum Power and Heat Oy " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

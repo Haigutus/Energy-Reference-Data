@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10XNITSO-12345-O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Transmission System Operator" ;
+    cim:IdentifiedObject.mRID "10XNITSO-12345-O" ;
+    cim:IdentifiedObject.name "System Operator Northern Ireland Ltd" ;
+    cim:Names.name "GB945676869",
+        "SONI",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:10XNITSO-12345-O" ;
+    schema1:vatID "GB945676869" ;
+    skos:altLabel "SONI" ;
+    skos:definition "Transmission System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "System Operator Northern Ireland Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

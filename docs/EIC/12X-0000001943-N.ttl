@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001943-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Distribution System Operator, Grid Operator, Meter Administrator, Meter Operator, Metered Data Aggregator, Metered Data Collector, Metered Point Operator, Measurement Service Provider, Market Area Operator, Transmission Capacity Allocator" ;
+    cim:IdentifiedObject.mRID "12X-0000001943-N" ;
+    cim:IdentifiedObject.name "Liechtensteinische Gasversorgung" ;
+    cim:Names.name "CHE224997030",
+        "Grid Operator",
+        "LGV-LI-ST",
+        "Market Area Operator",
+        "Measurement Service Provider",
+        "Meter Administrator",
+        "Metered Data Aggregator" ;
+    dcterms:identifier "urn:eic:12X-0000001943-N" ;
+    schema1:vatID "CHE224997030" ;
+    skos:altLabel "LGV-LI-ST" ;
+    skos:definition "Distribution System Operator, Grid Operator, Meter Administrator, Meter Operator, Metered Data Aggregator, Metered Data Collector, Metered Point Operator, Measurement Service Provider, Market Area Operator, Transmission Capacity Allocator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Liechtensteinische Gasversorgung" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

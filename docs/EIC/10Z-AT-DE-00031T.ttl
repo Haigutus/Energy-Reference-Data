@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-AT-DE-00031T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-10-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-AT-DE-00031T" ;
+    cim:IdentifiedObject.name "Summe 20kV Verteilnetz VKW" ;
+    cim:Names.name "Accounting Point",
+        "M-SUM_VKW-AT-DE" ;
+    dcterms:identifier "urn:eic:10Z-AT-DE-00031T" ;
+    skos:altLabel "M-SUM_VKW-AT-DE" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Summe 20kV Verteilnetz VKW" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

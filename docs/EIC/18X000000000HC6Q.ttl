@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000HC6Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-03-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000HC6Q" ;
+    cim:IdentifiedObject.name "DERIVADOS ASFÁLTICOS NORMALIZADOS S.A." ;
+    cim:Names.name "Consumption Responsible Party",
+        "DANOS",
+        "ESA28127918" ;
+    dcterms:identifier "urn:eic:18X000000000HC6Q" ;
+    schema1:vatID "ESA28127918" ;
+    skos:altLabel "DANOS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DERIVADOS ASFÁLTICOS NORMALIZADOS S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

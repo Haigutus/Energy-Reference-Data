@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/57XFLQATARET---R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "57XFLQATARET---R" ;
+    cim:IdentifiedObject.name "QatarEnergy Trading LLC" ;
+    cim:Names.name "QATARENERGY_TRAD",
+        "T00857",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:57XFLQATARET---R" ;
+    schema1:vatID "T00857" ;
+    skos:altLabel "QATARENERGY_TRAD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "QatarEnergy Trading LLC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

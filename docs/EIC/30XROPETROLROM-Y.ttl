@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XROPETROLROM-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-08-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Capacity Trader" ;
+    cim:IdentifiedObject.mRID "30XROPETROLROM-Y" ;
+    cim:IdentifiedObject.name "PETROL BUCHAREST ROM SRL" ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "RO33887180",
+        "RO_PETROL" ;
+    dcterms:identifier "urn:eic:30XROPETROLROM-Y" ;
+    schema1:vatID "RO33887180" ;
+    skos:altLabel "RO_PETROL" ;
+    skos:definition "Balance Responsible Party, Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PETROL BUCHAREST ROM SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

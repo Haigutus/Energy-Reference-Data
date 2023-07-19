@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160406SV--D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-04-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User" ;
+    cim:IdentifiedObject.mRID "23X--160406SV--D" ;
+    cim:IdentifiedObject.name "UAB Šiaulių vandenys" ;
+    cim:Names.name "LT441333610",
+        "Network User",
+        "SIAULIU_VANDENYS" ;
+    dcterms:identifier "urn:eic:23X--160406SV--D" ;
+    schema1:vatID "LT441333610" ;
+    skos:altLabel "SIAULIU_VANDENYS" ;
+    skos:definition "Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Šiaulių vandenys" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

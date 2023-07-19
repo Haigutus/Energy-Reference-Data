@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WR105852-123-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WR105852-123-A" ;
+    cim:IdentifiedObject.name "TEJEDA SOLAR, S.L" ;
+    cim:Names.name "Generation Unit",
+        "R105852" ;
+    dcterms:identifier "urn:eic:18WR105852-123-A" ;
+    skos:altLabel "R105852" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TEJEDA SOLAR, S.L" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

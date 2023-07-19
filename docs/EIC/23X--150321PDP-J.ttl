@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--150321PDP-J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-12-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "23X--150321PDP-J" ;
+    cim:IdentifiedObject.name "DTEK PAVLOHRADCOAL PrJSC" ;
+    cim:Names.name "001783504102",
+        "A0012165A.HU",
+        "Balance Responsible Party",
+        "Consumption Responsible Party",
+        "PJSC_DTEK",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--150321PDP-J" ;
+    schema1:vatID "001783504102" ;
+    skos:altLabel "PJSC_DTEK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DTEK PAVLOHRADCOAL PrJSC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

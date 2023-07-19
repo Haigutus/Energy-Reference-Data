@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XCEEGEXZRTHUND> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XCEEGEXZRTHUND" ;
+    cim:IdentifiedObject.name "CEEGEX Zrt." ;
+    cim:Names.name "CEEGEX_ZRT",
+        "HU23408612",
+        "Interconnection Trade Responsible" ;
+    dcterms:identifier "urn:eic:39XCEEGEXZRTHUND" ;
+    schema1:vatID "HU23408612" ;
+    skos:altLabel "CEEGEX_ZRT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEEGEX Zrt." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

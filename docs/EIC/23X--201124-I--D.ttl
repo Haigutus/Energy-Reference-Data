@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--201124-I--D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Certificate of national VAT number from Tax Administration of Kosovo submitted. EU VAT ID not available, because Kosovo is not member of EU." ;
+    cim:IdentifiedObject.mRID "23X--201124-I--D" ;
+    cim:IdentifiedObject.name "Interenergo d.o.o. - Kosova SH.P.K." ;
+    cim:Names.name "601639141",
+        "Balance Responsible Party",
+        "INTERENERGO-XK",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--201124-I--D" ;
+    schema1:vatID "601639141" ;
+    skos:altLabel "INTERENERGO-XK" ;
+    skos:definition "Certificate of national VAT number from Tax Administration of Kosovo submitted. EU VAT ID not available, because Kosovo is not member of EU."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Interenergo d.o.o. - Kosova SH.P.K." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

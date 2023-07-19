@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WP00000001953A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WP00000001953A" ;
+    cim:IdentifiedObject.name "Valken" ;
+    cim:Names.name "NO-VALKEN",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:50WP00000001953A" ;
+    skos:altLabel "NO-VALKEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Valken" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

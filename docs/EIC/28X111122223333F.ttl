@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28X111122223333F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-06-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Interconnection Trade Responsible" ;
+    cim:IdentifiedObject.mRID "28X111122223333F" ;
+    cim:IdentifiedObject.name "IG Prodaja d.o.o." ;
+    cim:Names.name "IG-PRODAJA",
+        "Interconnection Trade Responsible",
+        "SI51405652" ;
+    dcterms:identifier "urn:eic:28X111122223333F" ;
+    schema1:vatID "SI51405652" ;
+    skos:altLabel "IG-PRODAJA" ;
+    skos:definition "Interconnection Trade Responsible"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IG Prodaja d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

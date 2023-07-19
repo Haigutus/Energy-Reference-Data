@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59Z34631400FDHTJ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59Z34631400FDHTJ" ;
+    cim:IdentifiedObject.name "PdR di COPPARO" ;
+    cim:Names.name "34631400",
+        "Accounting Point" ;
+    dcterms:identifier "urn:eic:59Z34631400FDHTJ" ;
+    skos:altLabel "34631400" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PdR di COPPARO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

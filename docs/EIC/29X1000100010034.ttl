@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29X1000100010034> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-08-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Η SOLAR ENERGY ΘΩΜΑΣ ΣΟΥΜΠΑΣΗΣ Μ.Ε.Π.Ε ιδρύθηκε τον Απρίλιο του 2008, στην Φλώρινα, απο τον κ. Θωμά Σουμπάση ο οποίος είναι και ο μοναδικός μέτοχος της εταιρείας. Η εταιρεία, δραστηριοποιείται στον κλάδο της παραγωγής ηλεκτρικής ενέργειας μέσω φωτοβολταικών συστημάτων και πρόσφατα απέκτησε άδεια προμήθειας ηλεκτρικής ενεργείας." ;
+    cim:IdentifiedObject.mRID "29X1000100010034" ;
+    cim:IdentifiedObject.name "ΘΩΜΑΣ ΣΟΥΜΠΑΣΗΣ ΜΕΠΕ" ;
+    cim:Names.name "Balance Responsible Party",
+        "EL998564072",
+        "SOLARENERGY" ;
+    dcterms:identifier "urn:eic:29X1000100010034" ;
+    schema1:vatID "EL998564072" ;
+    skos:altLabel "SOLARENERGY" ;
+    skos:definition "Η SOLAR ENERGY ΘΩΜΑΣ ΣΟΥΜΠΑΣΗΣ Μ.Ε.Π.Ε ιδρύθηκε τον Απρίλιο του 2008, στην Φλώρινα, απο τον κ. Θωμά Σουμπάση ο οποίος είναι και ο μοναδικός μέτοχος της εταιρείας. Η εταιρεία, δραστηριοποιείται στον κλάδο της παραγωγής ηλεκτρικής ενέργειας μέσω φωτοβολταικών συστημάτων και πρόσφατα απέκτησε άδεια προμήθειας ηλεκτρικής ενεργείας."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ΘΩΜΑΣ ΣΟΥΜΠΑΣΗΣ ΜΕΠΕ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

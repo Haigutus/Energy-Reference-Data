@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55X-BARR-GREEN-W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-02-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "55X-BARR-GREEN-W" ;
+    cim:IdentifiedObject.name "Barrow Shipping Ltd" ;
+    cim:Names.name "BARROWGREENGAS",
+        "Balance Responsible Party",
+        "GB143141649" ;
+    dcterms:identifier "urn:eic:55X-BARR-GREEN-W" ;
+    schema1:vatID "GB143141649" ;
+    skos:altLabel "BARROWGREENGAS" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Barrow Shipping Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

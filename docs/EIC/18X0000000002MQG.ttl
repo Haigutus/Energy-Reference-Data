@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000002MQG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000002MQG" ;
+    cim:IdentifiedObject.name "VIVA ENERGIA Y SOLUCIONES SL" ;
+    cim:Names.name "ESB87717823",
+        "Trade Responsible Party",
+        "VIVA" ;
+    dcterms:identifier "urn:eic:18X0000000002MQG" ;
+    schema1:vatID "ESB87717823" ;
+    skos:altLabel "VIVA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VIVA ENERGIA Y SOLUCIONES SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

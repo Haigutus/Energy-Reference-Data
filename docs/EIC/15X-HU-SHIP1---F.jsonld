@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/15X-HU-SHIP1---F",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:15X-HU-SHIP1---F",
+    "@skos:prefLabel": "MAVIR Shipper BC",
+    "@skos:altLabel": "HU-SHIP1",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "It is a technical code for MAVIR's shipper balance group. We use it for the purpose of 4M MC process and we would like to use it for DE-AT-PL-4MMC (interim coupling) project. We would publish it on the CIO Repository in order to have a valid code for authentication between the relevant systems."
+    },
+    "@cim:IdentifiedObject.mRID": "15X-HU-SHIP1---F",
+    "@cim:IdentifiedObject.name": "MAVIR Shipper BC",
+    "@cim:Names.name": [
+        "HU-SHIP1",
+        "HU12550753",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "It is a technical code for MAVIR's shipper balance group. We use it for the purpose of 4M MC process and we would like to use it for DE-AT-PL-4MMC (interim coupling) project. We would publish it on the CIO Repository in order to have a valid code for authentication between the relevant systems.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-12-03",
+    "@schema:vatID": "HU12550753",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

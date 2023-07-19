@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/64XSDENERGY--F4X",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:64XSDENERGY--F4X",
+    "@skos:prefLabel": "S.R.L. \"SD Energy Engineering Group\"",
+    "@skos:altLabel": "SDENERGY_F",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "In accordance with ANRE licence nr.001446 from 17/03/2020"
+    },
+    "@cim:IdentifiedObject.mRID": "64XSDENERGY--F4X",
+    "@cim:IdentifiedObject.name": "S.R.L. \"SD Energy Engineering Group\"",
+    "@cim:Names.name": [
+        "SDENERGY_F",
+        "6701615",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "In accordance with ANRE licence nr.001446 from 17/03/2020",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-10-01",
+    "@schema:vatID": "6701615",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

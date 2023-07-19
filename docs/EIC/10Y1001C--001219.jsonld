@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10Y1001C--001219",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10Y1001C--001219",
+    "@skos:prefLabel": "Norwegian Fictitious Area 2A",
+    "@skos:altLabel": "NO_FICT_AREA_2A",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "With the implementation of Nordlink the sum of capacity and ramping in/out of the Bidding Zone NO2 in southern Norway increased. To maintain the operational security in southern Norway, Statnett has a need to set limitations for both ramping and capacity for all HVDC interconnectors connected to BZ NO2. Instead of only setting the limitations to each singe interconnector, Statnett wants to set a sum restriction on ramping and capacity for this HVDC interconnectors. The benefit of this solution is to optimise the use of capacity and ramping in the most cost efficient way. The ramping limit on each single interconnector may be increased The interconnectors are Skagerrak (NO2-DK1), NorNed (NO"
+    },
+    "@cim:IdentifiedObject.mRID": "10Y1001C--001219",
+    "@cim:IdentifiedObject.name": "Norwegian Fictitious Area 2A",
+    "@cim:Names.name": [
+        "NO_FICT_AREA_2A",
+        "Bidding Zone"
+    ],
+    "@cim:IdentifiedObject.description": "With the implementation of Nordlink the sum of capacity and ramping in/out of the Bidding Zone NO2 in southern Norway increased. To maintain the operational security in southern Norway, Statnett has a need to set limitations for both ramping and capacity for all HVDC interconnectors connected to BZ NO2. Instead of only setting the limitations to each singe interconnector, Statnett wants to set a sum restriction on ramping and capacity for this HVDC interconnectors. The benefit of this solution is to optimise the use of capacity and ramping in the most cost efficient way. The ramping limit on each single interconnector may be increased The interconnectors are Skagerrak (NO2-DK1), NorNed (NO",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-01-28",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/26X00000008141-C",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:26X00000008141-C",
+    "@skos:prefLabel": "VULCANO SRL",
+    "@skos:altLabel": "VULCANO_SRL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Commercio Dell Energia Elettrica"
+    },
+    "@cim:IdentifiedObject.mRID": "26X00000008141-C",
+    "@cim:IdentifiedObject.name": "VULCANO SRL",
+    "@cim:Names.name": [
+        "VULCANO_SRL",
+        "07047330969",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Commercio Dell Energia Elettrica",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@schema:vatID": "07047330969",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

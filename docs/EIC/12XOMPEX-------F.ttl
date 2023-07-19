@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XOMPEX-------F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group Responsible Party, Transmission Capacity Allocator, Added Function BRP 20201209 - Sacha Perret" ;
+    cim:IdentifiedObject.mRID "12XOMPEX-------F" ;
+    cim:IdentifiedObject.name "OMPEX AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "CH640029",
+        "OMPEX" ;
+    dcterms:identifier "urn:eic:12XOMPEX-------F" ;
+    schema1:vatID "CH640029" ;
+    skos:altLabel "OMPEX" ;
+    skos:definition "Balance Group Responsible Party, Transmission Capacity Allocator, Added Function BRP 20201209 - Sacha Perret"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OMPEX AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49W000000000191N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "49W000000000191N" ;
+    cim:IdentifiedObject.name "Offshore Wind Farm Hollandse Kust Noord String G" ;
+    cim:Names.name "Generation Unit",
+        "OWF_HKN_STRINGG" ;
+    dcterms:identifier "urn:eic:49W000000000191N" ;
+    skos:altLabel "OWF_HKN_STRINGG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Offshore Wind Farm Hollandse Kust Noord String G" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

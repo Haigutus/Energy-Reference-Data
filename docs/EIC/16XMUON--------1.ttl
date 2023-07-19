@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XMUON--------1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-06-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XMUON--------1" ;
+    cim:IdentifiedObject.name "MUON ELECTRIC, Lda" ;
+    cim:Names.name "MUON",
+        "PT514632798",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XMUON--------1" ;
+    schema1:vatID "PT514632798" ;
+    skos:altLabel "MUON" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MUON ELECTRIC, Lda" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

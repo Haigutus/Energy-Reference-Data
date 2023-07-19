@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000002008-Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "12X-0000002008-Q" ;
+    cim:IdentifiedObject.name "Polar Energy SA" ;
+    cim:Names.name "CHE116066867",
+        "POLAR-ENERGY-ST",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:12X-0000002008-Q" ;
+    schema1:vatID "CHE116066867" ;
+    skos:altLabel "POLAR-ENERGY-ST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Polar Energy SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

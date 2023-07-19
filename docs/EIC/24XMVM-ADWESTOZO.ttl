@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XMVM-ADWESTOZO> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Electric Supply" ;
+    cim:IdentifiedObject.mRID "24XMVM-ADWESTOZO" ;
+    cim:IdentifiedObject.name "MVM-ADWEST Marketing und Handelsgesellschaft m.b.H.-organizacna zlozka" ;
+    cim:Names.name "MVM-ADWEST",
+        "SK2022096131",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:24XMVM-ADWESTOZO" ;
+    schema1:vatID "SK2022096131" ;
+    skos:altLabel "MVM-ADWEST" ;
+    skos:definition "Electric Supply"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MVM-ADWEST Marketing und Handelsgesellschaft m.b.H.-organizacna zlozka" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

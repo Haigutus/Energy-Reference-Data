@@ -1,0 +1,28 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XSOUSAKIPOWERE> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Construction and operation of power plants and natural gas and electricity trading. (Additional Contact email: MOHNGAS@MOH.GR  )" ;
+    cim:IdentifiedObject.mRID "29XSOUSAKIPOWERE" ;
+    cim:IdentifiedObject.name "MOTOR OIL RENEWABLE ENERGY SINGLE MEMBER S.A." ;
+    cim:Names.name "Balance Responsible Party",
+        "EL998382909",
+        "MORE",
+        "Network User",
+        "Production Responsible party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:29XSOUSAKIPOWERE" ;
+    schema1:vatID "EL998382909" ;
+    skos:altLabel "MORE" ;
+    skos:definition "Construction and operation of power plants and natural gas and electricity trading. (Additional Contact email: MOHNGAS@MOH.GR  )"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MOTOR OIL RENEWABLE ENERGY SINGLE MEMBER S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

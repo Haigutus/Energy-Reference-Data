@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEW-SCHWEIGERG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-06-05" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "balance group" ;
+    cim:IdentifiedObject.mRID "11XEW-SCHWEIGERG" ;
+    cim:IdentifiedObject.name "E-Werk Schweiger GmbH" ;
+    cim:Names.name "DE128025277",
+        "EWS",
+        "balance group" ;
+    dcterms:identifier "urn:eic:11XEW-SCHWEIGERG" ;
+    schema1:vatID "DE128025277" ;
+    skos:altLabel "EWS" ;
+    skos:definition "balance group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E-Werk Schweiger GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18T000000000IFRR> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18T000000000IFRR" ;
+    cim:IdentifiedObject.name "LA SERNA-MAGALLON-1 400 kV" ;
+    cim:Names.name "Internal Line",
+        "L_SER_MAGA_1_400" ;
+    dcterms:identifier "urn:eic:18T000000000IFRR" ;
+    skos:altLabel "L_SER_MAGA_1_400" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "LA SERNA-MAGALLON-1 400 kV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

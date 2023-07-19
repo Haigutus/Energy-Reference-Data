@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000AVMDD> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-09-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Distribution System Operator" ;
+    cim:IdentifiedObject.mRID "53XPL000000AVMDD" ;
+    cim:IdentifiedObject.name "Avrio Media Sp. z o.o." ;
+    cim:Names.name "AVRIO",
+        "Distribution System Operator",
+        "PL7831599859" ;
+    dcterms:identifier "urn:eic:53XPL000000AVMDD" ;
+    schema1:vatID "PL7831599859" ;
+    skos:altLabel "AVRIO" ;
+    skos:definition "Distribution System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Avrio Media Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

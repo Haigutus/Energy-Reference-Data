@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEPPELBORN---6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-03-21" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XEPPELBORN---6" ;
+    cim:IdentifiedObject.name "Gemeindewerke Eppelborn GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE196704022",
+        "EPPELBORN" ;
+    dcterms:identifier "urn:eic:11XEPPELBORN---6" ;
+    schema1:vatID "DE196704022" ;
+    skos:altLabel "EPPELBORN" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Gemeindewerke Eppelborn GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

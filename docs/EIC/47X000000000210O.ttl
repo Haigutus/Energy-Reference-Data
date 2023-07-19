@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47X000000000210O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "47X000000000210O" ;
+    cim:IdentifiedObject.name "Cenergise Trading Limited" ;
+    cim:Names.name "Balance Responsible Party",
+        "IE210O",
+        "IE3424951BH" ;
+    dcterms:identifier "urn:eic:47X000000000210O" ;
+    schema1:vatID "IE3424951BH" ;
+    skos:altLabel "IE210O" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Cenergise Trading Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/21X000000001243F",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:21X000000001243F",
+    "@skos:prefLabel": "Maersk Energy Marketing A/S",
+    "@skos:altLabel": "MEMAS",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Capacity Trader"
+    },
+    "@cim:IdentifiedObject.mRID": "21X000000001243F",
+    "@cim:IdentifiedObject.name": "Maersk Energy Marketing A/S",
+    "@cim:Names.name": [
+        "MEMAS",
+        "DK22757318",
+        "Capacity Trader"
+    ],
+    "@cim:IdentifiedObject.description": "Capacity Trader",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2013-06-20",
+    "@schema:vatID": "DK22757318",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

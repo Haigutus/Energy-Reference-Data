@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--001227> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-02-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "New interconnector to be commissioned in 2022" ;
+    cim:IdentifiedObject.mRID "10Y1001C--001227" ;
+    cim:IdentifiedObject.name "Border area Slovenia-Hungary" ;
+    cim:Names.name "Border Area",
+        "SI-HU-AREA" ;
+    dcterms:identifier "urn:eic:10Y1001C--001227" ;
+    skos:altLabel "SI-HU-AREA" ;
+    skos:definition "New interconnector to be commissioned in 2022"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Border area Slovenia-Hungary" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

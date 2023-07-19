@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28XCELJE03-----V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-10-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "28XCELJE03-----V" ;
+    cim:IdentifiedObject.name "ECE d.o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "ECE_DOO",
+        "SI55722679" ;
+    dcterms:identifier "urn:eic:28XCELJE03-----V" ;
+    schema1:vatID "SI55722679" ;
+    skos:altLabel "ECE_DOO" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ECE d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

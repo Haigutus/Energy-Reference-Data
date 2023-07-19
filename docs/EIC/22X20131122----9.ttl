@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X20131122----9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "22X20131122----9" ;
+    cim:IdentifiedObject.name "ENERFLEXY" ;
+    cim:Names.name "BE0880270050",
+        "BE_ENERFLEXY",
+        "Balance Responsible Party" ;
+    dcterms:identifier "urn:eic:22X20131122----9" ;
+    schema1:vatID "BE0880270050" ;
+    skos:altLabel "BE_ENERFLEXY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERFLEXY" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

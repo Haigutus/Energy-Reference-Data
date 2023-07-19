@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49X000000000012Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Party Connected To Grid" ;
+    cim:IdentifiedObject.mRID "49X000000000012Z" ;
+    cim:IdentifiedObject.name "EEW Energy from Waste Delfzijl B.V." ;
+    cim:Names.name "EEW_DELFZIJL",
+        "NL817920420B01",
+        "Party Connected To Grid" ;
+    dcterms:identifier "urn:eic:49X000000000012Z" ;
+    schema1:vatID "NL817920420B01" ;
+    skos:altLabel "EEW_DELFZIJL" ;
+    skos:definition "Party Connected To Grid"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EEW Energy from Waste Delfzijl B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X0-0000-0393-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-03-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11X0-0000-0393-N" ;
+    cim:IdentifiedObject.name "Optimax Energia eood" ;
+    cim:Names.name "BG203733789",
+        "Balance Responsible Party",
+        "OPTIMAXBG" ;
+    dcterms:identifier "urn:eic:11X0-0000-0393-N" ;
+    schema1:vatID "BG203733789" ;
+    skos:altLabel "OPTIMAXBG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Optimax Energia eood" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

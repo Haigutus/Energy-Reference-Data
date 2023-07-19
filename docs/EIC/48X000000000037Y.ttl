@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000037Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-12-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "submitting to you now as need to edit W codes to belong to this X code and this X code was never previously submitted (local - now all international)" ;
+    cim:IdentifiedObject.mRID "48X000000000037Y" ;
+    cim:IdentifiedObject.name "Scottish Power Energy Management Centre" ;
+    cim:Names.name "Balance Responsible Party",
+        "GB659372008",
+        "Production Responsible party",
+        "SCP_POWER",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:48X000000000037Y" ;
+    schema1:vatID "GB659372008" ;
+    skos:altLabel "SCP_POWER" ;
+    skos:definition "submitting to you now as need to edit W codes to belong to this X code and this X code was never previously submitted (local - now all international)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Scottish Power Energy Management Centre" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

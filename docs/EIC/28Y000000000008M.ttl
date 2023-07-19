@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28Y000000000008M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "28Y000000000008M" ;
+    cim:IdentifiedObject.name "ZDS Petrol Energetika Štore" ;
+    cim:Names.name "Distribution Network Area",
+        "ZDS_PE_STORE" ;
+    dcterms:identifier "urn:eic:28Y000000000008M" ;
+    skos:altLabel "ZDS_PE_STORE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZDS Petrol Energetika Štore" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

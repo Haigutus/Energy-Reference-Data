@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XULTR-123456-8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-07-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XULTR-123456-8" ;
+    cim:IdentifiedObject.name "Ultransa SL" ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESB32027294",
+        "ULTR" ;
+    dcterms:identifier "urn:eic:18XULTR-123456-8" ;
+    schema1:vatID "ESB32027294" ;
+    skos:altLabel "ULTR" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Ultransa SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

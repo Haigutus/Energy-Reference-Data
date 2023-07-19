@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/56X9300000075205",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:56X9300000075205",
+    "@skos:prefLabel": "Limited Liability Company \"NextTrade\"",
+    "@skos:altLabel": "NEXTTRADE_LLC",
+    "@cim:IdentifiedObject.mRID": "56X9300000075205",
+    "@cim:IdentifiedObject.name": "Limited Liability Company \"NextTrade\"",
+    "@cim:Names.name": [
+        "NEXTTRADE_LLC",
+        "402890603188",
+        "Trade Responsible Party",
+        "Network User"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-04-01",
+    "@schema:vatID": "402890603188",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

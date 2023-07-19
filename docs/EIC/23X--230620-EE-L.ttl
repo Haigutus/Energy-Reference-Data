@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--230620-EE-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company registration and fiscal number confirmed by the Tax Administration of Kosovo and Ministry of Industry, Entrepreneurship and Trade: 812029496" ;
+    cim:IdentifiedObject.mRID "23X--230620-EE-L" ;
+    cim:IdentifiedObject.name "Eurosol&Energy LTD SH.P.K." ;
+    cim:Names.name "812029496",
+        "Capacity Trader",
+        "EUROSOL_ENERGY",
+        "Energy Supplier",
+        "Producer" ;
+    dcterms:identifier "urn:eic:23X--230620-EE-L" ;
+    schema1:vatID "812029496" ;
+    skos:altLabel "EUROSOL_ENERGY" ;
+    skos:definition "Company registration and fiscal number confirmed by the Tax Administration of Kosovo and Ministry of Industry, Entrepreneurship and Trade: 812029496"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Eurosol&Energy LTD SH.P.K." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

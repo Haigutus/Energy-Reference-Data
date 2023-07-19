@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10T-MK-BG-000015> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-06-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Tieline" ;
+    cim:IdentifiedObject.mRID "10T-MK-BG-000015" ;
+    cim:IdentifiedObject.name "Palanka-Skakavica" ;
+    cim:Names.name "L_PALANK-SKAKAVI",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:10T-MK-BG-000015" ;
+    skos:altLabel "L_PALANK-SKAKAVI" ;
+    skos:definition "Tieline"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Palanka-Skakavica" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

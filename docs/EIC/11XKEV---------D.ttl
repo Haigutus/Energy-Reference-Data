@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XKEV---------D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XKEV---------D" ;
+    cim:IdentifiedObject.name "Kommunale Energieversorgung GmbH Eisenhüttenstadt" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE205288173",
+        "KEV" ;
+    dcterms:identifier "urn:eic:11XKEV---------D" ;
+    schema1:vatID "DE205288173" ;
+    skos:altLabel "KEV" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kommunale Energieversorgung GmbH Eisenhüttenstadt" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

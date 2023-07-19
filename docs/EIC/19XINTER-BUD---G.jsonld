@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19XINTER-BUD---G",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19XINTER-BUD---G",
+    "@skos:prefLabel": "FRB INTER-BUD SP Z OO SPK",
+    "@skos:altLabel": "FRB-INTER-BUD",
+    "@cim:IdentifiedObject.mRID": "19XINTER-BUD---G",
+    "@cim:IdentifiedObject.name": "FRB INTER-BUD SP Z OO SPK",
+    "@cim:Names.name": [
+        "FRB-INTER-BUD",
+        "A0016871A.PL",
+        "PL9452168323",
+        "Energy Supplier"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-12-14",
+    "@schema:vatID": "PL9452168323",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

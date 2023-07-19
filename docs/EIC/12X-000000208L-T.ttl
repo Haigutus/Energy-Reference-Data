@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-000000208L-T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "12X-000000208L-T" ;
+    cim:IdentifiedObject.name "Beideck International Cooperation GmbH" ;
+    cim:Names.name "BEIDECK-INTL--ST",
+        "CHE101995829",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:12X-000000208L-T" ;
+    schema1:vatID "CHE101995829" ;
+    skos:altLabel "BEIDECK-INTL--ST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Beideck International Cooperation GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

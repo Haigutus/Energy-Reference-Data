@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-CODEPATRADIA> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "25X-CODEPATRADIA" ;
+    cim:IdentifiedObject.name "codepa trading GmbH" ;
+    cim:Names.name "ATU75927446",
+        "CODEPATRADING",
+        "Capacity Trader" ;
+    dcterms:identifier "urn:eic:25X-CODEPATRADIA" ;
+    schema1:vatID "ATU75927446" ;
+    skos:altLabel "CODEPATRADING" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "codepa trading GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

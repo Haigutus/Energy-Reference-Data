@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWP----NETZ-F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-06-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XSWP----NETZ-F" ;
+    cim:IdentifiedObject.name "SWP Stadtwerke Pforzheim GmbH & Co. KG" ;
+    cim:Names.name "Balance Group",
+        "DE214129630",
+        "SWP" ;
+    dcterms:identifier "urn:eic:11XSWP----NETZ-F" ;
+    schema1:vatID "DE214129630" ;
+    skos:altLabel "SWP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SWP Stadtwerke Pforzheim GmbH & Co. KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

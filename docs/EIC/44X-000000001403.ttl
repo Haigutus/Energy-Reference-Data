@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44X-000000001403> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-02-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "44X-000000001403" ;
+    cim:IdentifiedObject.name "Loiste Sähkönmyynti Oy " ;
+    cim:Names.name "44LOISTE",
+        "Balance Responsible Party",
+        "Energy Supplier",
+        "FI20389316" ;
+    dcterms:identifier "urn:eic:44X-000000001403" ;
+    schema1:vatID "FI20389316" ;
+    skos:altLabel "44LOISTE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Loiste Sähkönmyynti Oy " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

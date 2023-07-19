@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XMICTA-12345-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-08-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "18XMICTA-12345-Z" ;
+    cim:IdentifiedObject.name "Minicentrales del Tajo, S.A." ;
+    cim:Names.name "ESA78921533",
+        "MICTA",
+        "Producer" ;
+    dcterms:identifier "urn:eic:18XMICTA-12345-Z" ;
+    schema1:vatID "ESA78921533" ;
+    skos:altLabel "MICTA" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Minicentrales del Tajo, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

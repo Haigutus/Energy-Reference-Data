@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X00000001631-X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Function Missing" ;
+    cim:IdentifiedObject.mRID "26X00000001631-X" ;
+    cim:IdentifiedObject.name "A.G.A.M. SPA" ;
+    cim:Names.name "AGAM_SPA",
+        "Balance Responsible Party",
+        "IT02871370967" ;
+    dcterms:identifier "urn:eic:26X00000001631-X" ;
+    schema1:vatID "IT02871370967" ;
+    skos:altLabel "AGAM_SPA" ;
+    skos:definition "Function Missing"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "A.G.A.M. SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

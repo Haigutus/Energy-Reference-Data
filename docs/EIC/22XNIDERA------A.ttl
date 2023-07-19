@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XNIDERA------A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2006-12-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "GRAIN AND ENERGY TRADING COMPANY" ;
+    cim:IdentifiedObject.mRID "22XNIDERA------A" ;
+    cim:IdentifiedObject.name "NIDERA HANDELSCOMPAGNIE B.V." ;
+    cim:Names.name "BE_NIDERA",
+        "NL006323741B01",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:22XNIDERA------A" ;
+    schema1:vatID "NL006323741B01" ;
+    skos:altLabel "BE_NIDERA" ;
+    skos:definition "GRAIN AND ENERGY TRADING COMPANY"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NIDERA HANDELSCOMPAGNIE B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

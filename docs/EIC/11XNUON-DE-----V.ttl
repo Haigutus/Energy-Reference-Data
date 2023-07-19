@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XNUON-DE-----V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-15" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XNUON-DE-----V" ;
+    cim:IdentifiedObject.name "NUON Energie und Wasser GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE219123849",
+        "NUON_DE" ;
+    dcterms:identifier "urn:eic:11XNUON-DE-----V" ;
+    schema1:vatID "DE219123849" ;
+    skos:altLabel "NUON_DE" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NUON Energie und Wasser GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

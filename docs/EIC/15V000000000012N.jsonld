@@ -1,0 +1,35 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/15V000000000012N",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:15V000000000012N",
+    "@skos:prefLabel": "MAVIR ECP4 Transparency Platform Test Broker",
+    "@skos:altLabel": "TRPL_ECP4_T_BR",
+    "@cim:IdentifiedObject.mRID": "15V000000000012N",
+    "@cim:IdentifiedObject.name": "MAVIR ECP4 Transparency Platform Test Broker",
+    "@cim:Names.name": [
+        "TRPL_ECP4_T_BR",
+        "IT-topic"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-12-20",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

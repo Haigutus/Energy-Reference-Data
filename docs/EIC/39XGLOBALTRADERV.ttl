@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XGLOBALTRADERV> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XGLOBALTRADERV" ;
+    cim:IdentifiedObject.name "Global Commodity Traders Kft" ;
+    cim:Names.name "Balance Responsible Party",
+        "GLOBALTRADER",
+        "HU32059182" ;
+    dcterms:identifier "urn:eic:39XGLOBALTRADERV" ;
+    schema1:vatID "HU32059182" ;
+    skos:altLabel "GLOBALTRADER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Global Commodity Traders Kft" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

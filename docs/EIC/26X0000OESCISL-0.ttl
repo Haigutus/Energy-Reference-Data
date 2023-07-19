@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0000OESCISL-0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X0000OESCISL-0" ;
+    cim:IdentifiedObject.name "SOLVAY CHIMICA ITALIA SPA" ;
+    cim:Names.name "IT-SOLVAYCHIMICA",
+        "IT00104340492",
+        "Producer" ;
+    dcterms:identifier "urn:eic:26X0000OESCISL-0" ;
+    schema1:vatID "IT00104340492" ;
+    skos:altLabel "IT-SOLVAYCHIMICA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SOLVAY CHIMICA ITALIA SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

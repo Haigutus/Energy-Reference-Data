@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--220120-BG-3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company registration number: 142328401000  " ;
+    cim:IdentifiedObject.mRID "23X--220120-BG-3" ;
+    cim:IdentifiedObject.name "BLUE GRID GAS AND POWER" ;
+    cim:Names.name "A0016729Y.GR",
+        "BLUE_GRID_GP",
+        "EL800829207",
+        "Energy Supplier",
+        "Network User" ;
+    dcterms:identifier "urn:eic:23X--220120-BG-3" ;
+    schema1:vatID "EL800829207" ;
+    skos:altLabel "BLUE_GRID_GP" ;
+    skos:definition "Company registration number: 142328401000  "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BLUE GRID GAS AND POWER" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

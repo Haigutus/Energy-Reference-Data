@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0303858024104> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X0303858024104" ;
+    cim:IdentifiedObject.name "EUSEBIO ENERGIA S.R.L." ;
+    cim:Names.name "A0011404E.IT",
+        "IT-EUSEBIOENERGI",
+        "IT03038580241",
+        "Producer" ;
+    dcterms:identifier "urn:eic:26X0303858024104" ;
+    schema1:vatID "IT03038580241" ;
+    skos:altLabel "IT-EUSEBIOENERGI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EUSEBIO ENERGIA S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10T-DK-SE-000063",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10T-DK-SE-000063",
+    "@skos:prefLabel": "400 Gørløsegård Söderåsen",
+    "@skos:altLabel": "L_GOER_SAAN_1",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Tieline"
+    },
+    "@cim:IdentifiedObject.mRID": "10T-DK-SE-000063",
+    "@cim:IdentifiedObject.name": "400 Gørløsegård Söderåsen",
+    "@cim:Names.name": [
+        "L_GOER_SAAN_1",
+        "Tieline"
+    ],
+    "@cim:IdentifiedObject.description": "Tieline",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2014-11-10",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

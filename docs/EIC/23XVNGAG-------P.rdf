@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/23XVNGAG-------P">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:23XVNGAG-------P</dcterms:identifier>
+    <skos:prefLabel>VNG Handel &amp; Vertrieb GmbH</skos:prefLabel>
+    <skos:altLabel>VNG_HANDEL_V</skos:altLabel>
+    <skos:definition xml:lang="en">Spin-off of activities from one entity (VNG AG) to the other (VNG Handel &amp; Vertrieb GmbH). Checked and agreed between CIO, LIO and Counterparties in February 2018. </skos:definition>
+    <cim:IdentifiedObject.mRID>23XVNGAG-------P</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>VNG Handel &amp; Vertrieb GmbH</cim:IdentifiedObject.name>
+    <cim:Names.name>VNG_HANDEL_V</cim:Names.name>
+    <cim:Names.name>DE141628049</cim:Names.name>
+    <cim:IdentifiedObject.description>Spin-off of activities from one entity (VNG AG) to the other (VNG Handel &amp; Vertrieb GmbH). Checked and agreed between CIO, LIO and Counterparties in February 2018. </cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2022-10-10</cim:DateAndOrTime.date>
+    <cim:Names.name>Trade Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>DE141628049</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

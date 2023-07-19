@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19XVORTEXOBROT-I",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19XVORTEXOBROT-I",
+    "@skos:prefLabel": "VORTEX ENERGY - OBRÓT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI",
+    "@skos:altLabel": "VORTEX-OBROT",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faks: +48914843111"
+    },
+    "@cim:IdentifiedObject.mRID": "19XVORTEXOBROT-I",
+    "@cim:IdentifiedObject.name": "VORTEX ENERGY - OBRÓT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI",
+    "@cim:Names.name": [
+        "VORTEX-OBROT",
+        "PL8513207816",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Faks: +48914843111",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-06-01",
+    "@schema:vatID": "PL8513207816",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

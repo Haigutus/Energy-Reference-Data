@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62X744360601270V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62X744360601270V" ;
+    cim:IdentifiedObject.name "TOV TANDEM 2006" ;
+    cim:Names.name "Consumption Responsible Party",
+        "TANDEM2006_TOV",
+        "UA345131604626" ;
+    dcterms:identifier "urn:eic:62X744360601270V" ;
+    schema1:vatID "UA345131604626" ;
+    skos:altLabel "TANDEM2006_TOV" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TOV TANDEM 2006" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XAZZENSRL0000I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XAZZENSRL0000I" ;
+    cim:IdentifiedObject.name "AZZALINI ENERGIE SRL" ;
+    cim:Names.name "AZZALINIENERGIE",
+        "Balance Responsible Party",
+        "IT01192250254" ;
+    dcterms:identifier "urn:eic:59XAZZENSRL0000I" ;
+    schema1:vatID "IT01192250254" ;
+    skos:altLabel "AZZALINIENERGIE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AZZALINI ENERGIE SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XTELDAFAX----O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-06" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XTELDAFAX----O" ;
+    cim:IdentifiedObject.name "TelDaFax Energy GmbH" ;
+    cim:Names.name "22059940108",
+        "Balance Group",
+        "TELDAFAX" ;
+    dcterms:identifier "urn:eic:11XTELDAFAX----O" ;
+    schema1:vatID "22059940108" ;
+    skos:altLabel "TELDAFAX" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TelDaFax Energy GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

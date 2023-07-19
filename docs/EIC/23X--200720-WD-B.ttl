@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--200720-WD-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "23X--200720-WD-B" ;
+    cim:IdentifiedObject.name "Wintershall Dea Norge AS" ;
+    cim:Names.name "NO985224323",
+        "Producer",
+        "WINTERSHALL_DEA" ;
+    dcterms:identifier "urn:eic:23X--200720-WD-B" ;
+    schema1:vatID "NO985224323" ;
+    skos:altLabel "WINTERSHALL_DEA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Wintershall Dea Norge AS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

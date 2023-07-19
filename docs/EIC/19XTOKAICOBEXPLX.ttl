@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XTOKAICOBEXPLX> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XTOKAICOBEXPLX" ;
+    cim:IdentifiedObject.name "Tokai COBEX Polska sp. z o.o." ;
+    cim:Names.name "A0012611O.PL",
+        "PL6390003994",
+        "System Operator",
+        "TOKAICOBEXPL" ;
+    dcterms:identifier "urn:eic:19XTOKAICOBEXPLX" ;
+    schema1:vatID "PL6390003994" ;
+    skos:altLabel "TOKAICOBEXPL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Tokai COBEX Polska sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

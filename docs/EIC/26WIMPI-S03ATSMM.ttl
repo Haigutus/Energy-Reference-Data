@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WIMPI-S03ATSMM> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-07-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26WIMPI-S03ATSMM" ;
+    cim:IdentifiedObject.name "IM_S03ATSM" ;
+    cim:Names.name "IM-S03ATSM",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:26WIMPI-S03ATSMM" ;
+    skos:altLabel "IM-S03ATSM" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IM_S03ATSM" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

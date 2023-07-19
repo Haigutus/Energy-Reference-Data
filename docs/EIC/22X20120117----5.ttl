@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X20120117----5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-03-20" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "22X20120117----5" ;
+    cim:IdentifiedObject.name "PAN ENERGY MARKETS" ;
+    cim:Names.name "BE_PAN",
+        "GB971328804",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:22X20120117----5" ;
+    schema1:vatID "GB971328804" ;
+    skos:altLabel "BE_PAN" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PAN ENERGY MARKETS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

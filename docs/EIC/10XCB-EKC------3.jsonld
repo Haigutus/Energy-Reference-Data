@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10XCB-EKC------3",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10XCB-EKC------3",
+    "@skos:prefLabel": "Electricity Coordinating Center",
+    "@skos:altLabel": "CB_MK-CG-SR",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Jiel Control Block Coordinator"
+    },
+    "@cim:IdentifiedObject.mRID": "10XCB-EKC------3",
+    "@cim:IdentifiedObject.name": "Electricity Coordinating Center",
+    "@cim:Names.name": [
+        "CB_MK-CG-SR",
+        "Valid EIC Function needed"
+    ],
+    "@cim:IdentifiedObject.description": "Jiel Control Block Coordinator",
+    "@cim:Document.docStatus": "A03",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

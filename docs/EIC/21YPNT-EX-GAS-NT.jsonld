@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/21YPNT-EX-GAS-NT",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:21YPNT-EX-GAS-NT",
+    "@skos:prefLabel": "Point Exchange Gas - NORD",
+    "@skos:altLabel": "PEGNORD",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Identification Of The Peg North Subterminal In France, Managed By Gaz De France"
+    },
+    "@cim:IdentifiedObject.mRID": "21YPNT-EX-GAS-NT",
+    "@cim:IdentifiedObject.name": "Point Exchange Gas - NORD",
+    "@cim:Names.name": [
+        "PEGNORD",
+        "Valid EIC Function needed"
+    ],
+    "@cim:IdentifiedObject.description": "Identification Of The Peg North Subterminal In France, Managed By Gaz De France",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

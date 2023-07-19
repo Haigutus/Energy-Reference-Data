@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X001100100375I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-12-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32X001100100375I" ;
+    cim:IdentifiedObject.name "ENERGOPROEKT UTILITIES OOD" ;
+    cim:Names.name "BG201643663",
+        "Balance Responsible Party",
+        "ENPRO_UTILITIES" ;
+    dcterms:identifier "urn:eic:32X001100100375I" ;
+    schema1:vatID "BG201643663" ;
+    skos:altLabel "ENPRO_UTILITIES" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGOPROEKT UTILITIES OOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

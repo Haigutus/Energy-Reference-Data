@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/45X0000000000480",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:45X0000000000480",
+    "@skos:prefLabel": "Norlys Energi A/S",
+    "@skos:altLabel": "NORLYS",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "The two companies Syd Energi Holding A/S (no EIC) and Eniig A/S (45X0000000000480) are merging to one company under the name Norlys Energi A/S. Ticket https://entsoe.zendesk.com/agent/tickets/9336296"
+    },
+    "@cim:IdentifiedObject.mRID": "45X0000000000480",
+    "@cim:IdentifiedObject.name": "Norlys Energi A/S",
+    "@cim:Names.name": [
+        "NORLYS",
+        "DK25118359",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "The two companies Syd Energi Holding A/S (no EIC) and Eniig A/S (45X0000000000480) are merging to one company under the name Norlys Energi A/S. Ticket https://entsoe.zendesk.com/agent/tickets/9336296",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-03-30",
+    "@schema:vatID": "DK25118359",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15WPAKSG5----STP> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "15WPAKSG5----STP" ;
+    cim:IdentifiedObject.name "PA_gép5" ;
+    cim:Names.name "Generation Unit",
+        "PAKSG5" ;
+    dcterms:identifier "urn:eic:15WPAKSG5----STP" ;
+    skos:altLabel "PAKSG5" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PA_gép5" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

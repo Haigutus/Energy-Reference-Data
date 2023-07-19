@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XBARER-12345-W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-04-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XBARER-12345-W" ;
+    cim:IdentifiedObject.name "BARBO ENERGÍAS RENOVABLES, S.A." ;
+    cim:Names.name "BARER",
+        "ESA95641692",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XBARER-12345-W" ;
+    schema1:vatID "ESA95641692" ;
+    skos:altLabel "BARER" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BARBO ENERGÍAS RENOVABLES, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

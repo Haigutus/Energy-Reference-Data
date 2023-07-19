@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X137082000000G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "MONITA " ;
+    cim:IdentifiedObject.mRID "26X137082000000G" ;
+    cim:IdentifiedObject.name "MONITA INTERCONNECTOR" ;
+    cim:Names.name "13342121004",
+        "Balance Responsible Party",
+        "IT_MONITAINTERC" ;
+    dcterms:identifier "urn:eic:26X137082000000G" ;
+    schema1:vatID "13342121004" ;
+    skos:altLabel "IT_MONITAINTERC" ;
+    skos:definition "MONITA "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MONITA INTERCONNECTOR" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/30XROREFURO----E",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:30XROREFURO----E",
+    "@skos:prefLabel": "MET ROMANIA ENERGY SA",
+    "@skos:altLabel": "RO_MET_ENERGY",
+    "@cim:IdentifiedObject.mRID": "30XROREFURO----E",
+    "@cim:IdentifiedObject.name": "MET ROMANIA ENERGY SA",
+    "@cim:Names.name": [
+        "RO_MET_ENERGY",
+        "RO1877048",
+        "Capacity Trader",
+        "Balance Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-06-22",
+    "@schema:vatID": "RO1877048",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

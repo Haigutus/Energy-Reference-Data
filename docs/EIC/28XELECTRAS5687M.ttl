@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28XELECTRAS5687M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-06-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Interconnection Trade Responsible" ;
+    cim:IdentifiedObject.mRID "28XELECTRAS5687M" ;
+    cim:IdentifiedObject.name "ELECTRAS d.o.o." ;
+    cim:Names.name "ELECTRAS",
+        "Interconnection Trade Responsible",
+        "SI75293501" ;
+    dcterms:identifier "urn:eic:28XELECTRAS5687M" ;
+    schema1:vatID "SI75293501" ;
+    skos:altLabel "ELECTRAS" ;
+    skos:definition "Interconnection Trade Responsible"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRAS d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XELTB-12345-6D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-22" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "18XELTB-12345-6D" ;
+    cim:IdentifiedObject.name "ELECTRABEL S.A." ;
+    cim:Names.name "BE0403170701",
+        "ELTB",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XELTB-12345-6D" ;
+    schema1:vatID "BE0403170701" ;
+    skos:altLabel "ELTB" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRABEL S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

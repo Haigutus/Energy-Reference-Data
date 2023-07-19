@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--140115---C7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-01-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Operator Capacity Trader" ;
+    cim:IdentifiedObject.mRID "23X--140115---C7" ;
+    cim:IdentifiedObject.name "COOPGAS SRL" ;
+    cim:Names.name "COOPGAS_SRL",
+        "IT11650030155",
+        "Market Operator Capacity Trader" ;
+    dcterms:identifier "urn:eic:23X--140115---C7" ;
+    schema1:vatID "IT11650030155" ;
+    skos:altLabel "COOPGAS_SRL" ;
+    skos:definition "Market Operator Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COOPGAS SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

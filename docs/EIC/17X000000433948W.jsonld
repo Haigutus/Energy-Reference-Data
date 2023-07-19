@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/17X000000433948W",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:17X000000433948W",
+    "@skos:prefLabel": "HPC",
+    "@skos:altLabel": "FR_HPC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Request for an EIC clode to close an open transaction "
+    },
+    "@cim:IdentifiedObject.mRID": "17X000000433948W",
+    "@cim:IdentifiedObject.name": "HPC",
+    "@cim:Names.name": [
+        "FR_HPC",
+        "FR25488581406",
+        "Capacity Trader"
+    ],
+    "@cim:IdentifiedObject.description": "Request for an EIC clode to close an open transaction ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-03-09",
+    "@schema:vatID": "FR25488581406",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

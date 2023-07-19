@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000HFKQ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-03-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000HFKQ" ;
+    cim:IdentifiedObject.name "COMUNIDAD DE REGANTES DEL CANAL DE ESTREMERA" ;
+    cim:Names.name "CRCES",
+        "Consumption Responsible Party",
+        "ESG82262304" ;
+    dcterms:identifier "urn:eic:18X000000000HFKQ" ;
+    schema1:vatID "ESG82262304" ;
+    skos:altLabel "CRCES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COMUNIDAD DE REGANTES DEL CANAL DE ESTREMERA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27X-RUSKYPLYN--N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "27X-RUSKYPLYN--N" ;
+    cim:IdentifiedObject.name "RUSKÝ PLYN s.r.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ03603075",
+        "RUSKYPLYN" ;
+    dcterms:identifier "urn:eic:27X-RUSKYPLYN--N" ;
+    schema1:vatID "CZ03603075" ;
+    skos:altLabel "RUSKYPLYN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RUSKÝ PLYN s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

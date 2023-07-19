@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X027222401870Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X027222401870Q" ;
+    cim:IdentifiedObject.name "RETI DI. VOGHERA S.R.L." ;
+    cim:Names.name "Distribution System Operator",
+        "IT-RETIDIVOGHERA",
+        "IT02722240187" ;
+    dcterms:identifier "urn:eic:26X027222401870Q" ;
+    schema1:vatID "IT02722240187" ;
+    skos:altLabel "IT-RETIDIVOGHERA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RETI DI. VOGHERA S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

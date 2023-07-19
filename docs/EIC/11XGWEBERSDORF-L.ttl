@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XGWEBERSDORF-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XGWEBERSDORF-L" ;
+    cim:IdentifiedObject.name "Gemeindewerke Ebersdorf" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE157398108",
+        "GW-EBERSDORF" ;
+    dcterms:identifier "urn:eic:11XGWEBERSDORF-L" ;
+    schema1:vatID "DE157398108" ;
+    skos:altLabel "GW-EBERSDORF" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Gemeindewerke Ebersdorf" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

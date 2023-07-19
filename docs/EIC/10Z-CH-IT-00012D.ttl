@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-CH-IT-00012D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-05-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-CH-IT-00012D" ;
+    cim:IdentifiedObject.name "Cagno - Mendrisio (Merchant Line)" ;
+    cim:Names.name "Accounting Point",
+        "M_CAGNO-MENDRISI" ;
+    dcterms:identifier "urn:eic:10Z-CH-IT-00012D" ;
+    skos:altLabel "M_CAGNO-MENDRISI" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Cagno - Mendrisio (Merchant Line)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

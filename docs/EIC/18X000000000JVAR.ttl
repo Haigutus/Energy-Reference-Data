@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000JVAR> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000JVAR" ;
+    cim:IdentifiedObject.name "COMERCAST ENERGIAS, SL" ;
+    cim:Names.name "ES-COMERCAST0001",
+        "ESB42718924",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000JVAR" ;
+    schema1:vatID "ESB42718924" ;
+    skos:altLabel "ES-COMERCAST0001" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COMERCAST ENERGIAS, SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

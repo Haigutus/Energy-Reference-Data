@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XEGSPLWKK2013P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-03-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XEGSPLWKK2013P" ;
+    cim:IdentifiedObject.name "EUROGLAS POLSKA SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    cim:Names.name "Balance Responsible Party",
+        "EUROGLAS_POLSKA",
+        "PL7732400872" ;
+    dcterms:identifier "urn:eic:19XEGSPLWKK2013P" ;
+    schema1:vatID "PL7732400872" ;
+    skos:altLabel "EUROGLAS_POLSKA" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EUROGLAS POLSKA SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24X-ALPIQ-UA---D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-11-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "24X-ALPIQ-UA---D" ;
+    cim:IdentifiedObject.name "LLC Alpiq Energy Ukraine" ;
+    cim:Names.name "366340226569",
+        "ALPIQ-UKRAINE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:24X-ALPIQ-UA---D" ;
+    schema1:vatID "366340226569" ;
+    skos:altLabel "ALPIQ-UKRAINE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "LLC Alpiq Energy Ukraine" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

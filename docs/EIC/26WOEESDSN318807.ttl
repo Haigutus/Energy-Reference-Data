@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WOEESDSN318807> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26WOEESDSN318807" ;
+    cim:IdentifiedObject.name "UP_OEESDSN_31880" ;
+    cim:Names.name "Generation Unit",
+        "IT-UP-OEESDSN880" ;
+    dcterms:identifier "urn:eic:26WOEESDSN318807" ;
+    skos:altLabel "IT-UP-OEESDSN880" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UP_OEESDSN_31880" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

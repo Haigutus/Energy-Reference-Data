@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XYVAMLUVE----L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "22XYVAMLUVE----L" ;
+    cim:IdentifiedObject.name "ALERIS" ;
+    cim:Names.name "BE0403045292",
+        "BE_ALERIS",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22XYVAMLUVE----L" ;
+    schema1:vatID "BE0403045292" ;
+    skos:altLabel "BE_ALERIS" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALERIS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

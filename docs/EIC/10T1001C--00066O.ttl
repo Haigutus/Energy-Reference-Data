@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10T1001C--00066O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "EIC for a part of a Internal Line is required. A ACCOUNTING POINT (Z-CODE) IS NOT REQUIRED." ;
+    cim:IdentifiedObject.mRID "10T1001C--00066O" ;
+    cim:IdentifiedObject.name "Oberbachern – Krün – Silz 270/250 – BRANCH Oberbachern" ;
+    cim:Names.name "L_OAKRSI-270-OBA",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:10T1001C--00066O" ;
+    skos:altLabel "L_OAKRSI-270-OBA" ;
+    skos:definition "EIC for a part of a Internal Line is required. A ACCOUNTING POINT (Z-CODE) IS NOT REQUIRED."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Oberbachern – Krün – Silz 270/250 – BRANCH Oberbachern" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XVORTEXOBROT-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Faks: +48914843111" ;
+    cim:IdentifiedObject.mRID "19XVORTEXOBROT-I" ;
+    cim:IdentifiedObject.name "VORTEX ENERGY - OBRÓT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI" ;
+    cim:Names.name "Balance Responsible Party",
+        "PL8513207816",
+        "VORTEX-OBROT" ;
+    dcterms:identifier "urn:eic:19XVORTEXOBROT-I" ;
+    schema1:vatID "PL8513207816" ;
+    skos:altLabel "VORTEX-OBROT" ;
+    skos:definition "Faks: +48914843111"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VORTEX ENERGY - OBRÓT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

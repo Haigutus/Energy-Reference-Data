@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000BMGRY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User" ;
+    cim:IdentifiedObject.mRID "53XPL000000BMGRY" ;
+    cim:IdentifiedObject.name "BM Group sp. z o.o. Sp. k." ;
+    cim:Names.name "BM_GROUP",
+        "Network User",
+        "PL6222782756" ;
+    dcterms:identifier "urn:eic:53XPL000000BMGRY" ;
+    schema1:vatID "PL6222782756" ;
+    skos:altLabel "BM_GROUP" ;
+    skos:definition "Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BM Group sp. z o.o. Sp. k." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

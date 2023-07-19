@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22V1001A1001A12Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-11-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ELIA ECP V4 MARI IOP EndPoint" ;
+    cim:IdentifiedObject.mRID "22V1001A1001A12Y" ;
+    cim:IdentifiedObject.name "ELIA ECP ACC MARI" ;
+    cim:Names.name "BE_ECP_ACC_MARI",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:22V1001A1001A12Y" ;
+    skos:altLabel "BE_ECP_ACC_MARI" ;
+    skos:definition "ELIA ECP V4 MARI IOP EndPoint"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELIA ECP ACC MARI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

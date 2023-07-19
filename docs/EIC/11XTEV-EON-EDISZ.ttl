@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XTEV-EON-EDISZ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-06" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XTEV-EON-EDISZ" ;
+    cim:IdentifiedObject.name "E.ON edis Netz GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE251021893",
+        "EON-EDIS-NETZ" ;
+    dcterms:identifier "urn:eic:11XTEV-EON-EDISZ" ;
+    schema1:vatID "DE251021893" ;
+    skos:altLabel "EON-EDIS-NETZ" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E.ON edis Netz GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

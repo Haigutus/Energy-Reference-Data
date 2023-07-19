@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24VSEPS-ECP-BA3A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "24VSEPS-ECP-BA3A" ;
+    cim:IdentifiedObject.name "Slovenská elektrizačná prenosová sústava, a. s." ;
+    cim:Names.name "Endpoint",
+        "SEPS-ECP-BA3" ;
+    dcterms:identifier "urn:eic:24VSEPS-ECP-BA3A" ;
+    skos:altLabel "SEPS-ECP-BA3" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Slovenská elektrizačná prenosová sústava, a. s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

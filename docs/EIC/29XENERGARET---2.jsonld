@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29XENERGARET---2",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29XENERGARET---2",
+    "@skos:prefLabel": "ENERGA ELECTRICAL ENERGY RETAIL & TRADE",
+    "@skos:altLabel": "ENERGARET",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Responsible Party, Trade Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "29XENERGARET---2",
+    "@cim:IdentifiedObject.name": "ENERGA ELECTRICAL ENERGY RETAIL & TRADE",
+    "@cim:Names.name": [
+        "ENERGARET",
+        "EL999069060",
+        "Trade Responsible Party",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Responsible Party, Trade Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-12-05",
+    "@schema:vatID": "EL999069060",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

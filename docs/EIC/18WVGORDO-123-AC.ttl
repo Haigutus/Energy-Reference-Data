@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WVGORDO-123-AC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WVGORDO-123-AC" ;
+    cim:IdentifiedObject.name "HTRAG" ;
+    cim:Names.name "Generation Unit",
+        "VGORDO" ;
+    dcterms:identifier "urn:eic:18WVGORDO-123-AC" ;
+    skos:altLabel "VGORDO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HTRAG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

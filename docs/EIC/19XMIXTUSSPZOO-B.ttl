@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XMIXTUSSPZOO-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XMIXTUSSPZOO-B" ;
+    cim:IdentifiedObject.name "MIXTUS SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    cim:Names.name "Balance Responsible Party",
+        "MIXTUS",
+        "PL8133703414" ;
+    dcterms:identifier "urn:eic:19XMIXTUSSPZOO-B" ;
+    schema1:vatID "PL8133703414" ;
+    skos:altLabel "MIXTUS" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MIXTUS SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

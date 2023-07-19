@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19XMONDISWIECIES",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19XMONDISWIECIES",
+    "@skos:prefLabel": "MONDI ŚWIECIE SPÓŁKA AKCYJNA",
+    "@skos:altLabel": "MONDI_SWIECIE",
+    "@cim:IdentifiedObject.mRID": "19XMONDISWIECIES",
+    "@cim:IdentifiedObject.name": "MONDI ŚWIECIE SPÓŁKA AKCYJNA",
+    "@cim:Names.name": [
+        "MONDI_SWIECIE",
+        "PL5590000505",
+        "Metered Data Responsible",
+        "Grid Access Provider",
+        "Consumer",
+        "Meter Administrator",
+        "System Operator",
+        "Producer",
+        "Balance Responsible Party",
+        "Energy Supplier"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-01-04",
+    "@schema:vatID": "PL5590000505",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

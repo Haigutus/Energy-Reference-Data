@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WP00000001168T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-08-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WP00000001168T" ;
+    cim:IdentifiedObject.name "Helle bruk" ;
+    cim:Names.name "NO-HELLE-BRUK_PL",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:50WP00000001168T" ;
+    skos:altLabel "NO-HELLE-BRUK_PL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Helle bruk" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

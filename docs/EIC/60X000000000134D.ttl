@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000134D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000134D" ;
+    cim:IdentifiedObject.name "GET ENERGY TRADING SRL" ;
+    cim:Names.name "GETENERGYTRADING",
+        "RO47150403",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:60X000000000134D" ;
+    schema1:vatID "RO47150403" ;
+    skos:altLabel "GETENERGYTRADING" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GET ENERGY TRADING SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

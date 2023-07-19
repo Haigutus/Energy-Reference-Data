@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31W-0535-P-003-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "31W-0535-P-003-I" ;
+    cim:IdentifiedObject.name "HE MILJACKA AG3 6,4 MW" ;
+    cim:Names.name "Generation Unit",
+        "HR-HE-MILJ3-7" ;
+    dcterms:identifier "urn:eic:31W-0535-P-003-I" ;
+    skos:altLabel "HR-HE-MILJ3-7" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HE MILJACKA AG3 6,4 MW" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001026N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "21X000000001026N" ;
+    cim:IdentifiedObject.name "EQUINOR ASA" ;
+    cim:Names.name "Balance Responsible Party",
+        "EQUINOR",
+        "NO923609016",
+        "Producer" ;
+    dcterms:identifier "urn:eic:21X000000001026N" ;
+    schema1:vatID "NO923609016" ;
+    skos:altLabel "EQUINOR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EQUINOR ASA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

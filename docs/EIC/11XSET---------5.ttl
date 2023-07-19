@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSET---------5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-06-05" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XSET---------5" ;
+    cim:IdentifiedObject.name "SJB Energy Trading B.V." ;
+    cim:Names.name "Balance Group",
+        "NL009834813B01",
+        "SJB-E-T" ;
+    dcterms:identifier "urn:eic:11XSET---------5" ;
+    schema1:vatID "NL009834813B01" ;
+    skos:altLabel "SJB-E-T" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SJB Energy Trading B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

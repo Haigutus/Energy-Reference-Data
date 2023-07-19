@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55ZSALT-FLEETB41> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-05-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Connection Point" ;
+    cim:IdentifiedObject.mRID "55ZSALT-FLEETB41" ;
+    cim:IdentifiedObject.name "Saltfleetby Storage (Theddlethorpe)" ;
+    cim:Names.name "Connection Point",
+        "SALTFLEETSTOR" ;
+    dcterms:identifier "urn:eic:55ZSALT-FLEETB41" ;
+    skos:altLabel "SALTFLEETSTOR" ;
+    skos:definition "Connection Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Saltfleetby Storage (Theddlethorpe)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

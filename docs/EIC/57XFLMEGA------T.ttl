@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/57XFLMEGA------T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-10-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "57XFLMEGA------T" ;
+    cim:IdentifiedObject.name "Power Online SA" ;
+    cim:Names.name "BE0535615192",
+        "Balance Responsible Party",
+        "MEGA_BE" ;
+    dcterms:identifier "urn:eic:57XFLMEGA------T" ;
+    schema1:vatID "BE0535615192" ;
+    skos:altLabel "MEGA_BE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Power Online SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001917-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-07-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Capacity Trader" ;
+    cim:IdentifiedObject.mRID "12X-0000001917-N" ;
+    cim:IdentifiedObject.name "My Green Power Sagl" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE163536643",
+        "Capacity Trader",
+        "MY-GREEN-POWE-ST" ;
+    dcterms:identifier "urn:eic:12X-0000001917-N" ;
+    schema1:vatID "CHE163536643" ;
+    skos:altLabel "MY-GREEN-POWE-ST" ;
+    skos:definition "Balance Responsible Party, Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "My Green Power Sagl" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XGOLDPOWER-119> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-02-07" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XGOLDPOWER-119" ;
+    cim:IdentifiedObject.name "goldpower GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE276114051",
+        "GOLDPOWER" ;
+    dcterms:identifier "urn:eic:11XGOLDPOWER-119" ;
+    schema1:vatID "DE276114051" ;
+    skos:altLabel "GOLDPOWER" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "goldpower GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

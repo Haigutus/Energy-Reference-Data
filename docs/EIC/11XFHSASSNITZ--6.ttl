@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XFHSASSNITZ--6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-11-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XFHSASSNITZ--6" ;
+    cim:IdentifiedObject.name "Fährhafen Sassnitz Gesellschaft mit beschränkter Haftung" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE137555680",
+        "FHSASSNITZ" ;
+    dcterms:identifier "urn:eic:11XFHSASSNITZ--6" ;
+    schema1:vatID "DE137555680" ;
+    skos:altLabel "FHSASSNITZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fährhafen Sassnitz Gesellschaft mit beschränkter Haftung" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

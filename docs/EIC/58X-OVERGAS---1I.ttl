@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58X-OVERGAS---1I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User" ;
+    cim:IdentifiedObject.mRID "58X-OVERGAS---1I" ;
+    cim:IdentifiedObject.name "OVERGAS INC" ;
+    cim:Names.name "BG040845618",
+        "Network User",
+        "OVERGAS_INC" ;
+    dcterms:identifier "urn:eic:58X-OVERGAS---1I" ;
+    schema1:vatID "BG040845618" ;
+    skos:altLabel "OVERGAS_INC" ;
+    skos:definition "Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OVERGAS INC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

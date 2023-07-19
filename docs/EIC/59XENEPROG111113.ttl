@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XENEPROG111113> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XENEPROG111113" ;
+    cim:IdentifiedObject.name "ENERGY PROGRESS SPA" ;
+    cim:Names.name "Balance Responsible Party",
+        "ENEPROGSPA",
+        "IT02930720780" ;
+    dcterms:identifier "urn:eic:59XENEPROG111113" ;
+    schema1:vatID "IT02930720780" ;
+    skos:altLabel "ENEPROGSPA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGY PROGRESS SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

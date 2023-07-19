@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XBLB-NRW-----2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XBLB-NRW-----2" ;
+    cim:IdentifiedObject.name "Land Nordrhein-Westfalen vertreten durch Bau- und Liegenschaftsbetrieb" ;
+    cim:Names.name "BLB-NRW",
+        "Balance Responsible Party",
+        "DE216120450" ;
+    dcterms:identifier "urn:eic:11XBLB-NRW-----2" ;
+    schema1:vatID "DE216120450" ;
+    skos:altLabel "BLB-NRW" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Land Nordrhein-Westfalen vertreten durch Bau- und Liegenschaftsbetrieb" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

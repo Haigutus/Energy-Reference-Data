@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/65TT-SALKHINO114> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "65TT-SALKHINO114" ;
+    cim:IdentifiedObject.name "Salkhino line" ;
+    cim:Names.name "SALKHINOLINE",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:65TT-SALKHINO114" ;
+    skos:altLabel "SALKHINOLINE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Salkhino line" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

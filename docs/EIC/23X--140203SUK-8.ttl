@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--140203SUK-8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-03-19" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--140203SUK-8" ;
+    cim:IdentifiedObject.name "SHELL U.K. LIMITED" ;
+    cim:Names.name "GB235763255",
+        "SHELL_UK_LTD",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--140203SUK-8" ;
+    schema1:vatID "GB235763255" ;
+    skos:altLabel "SHELL_UK_LTD" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SHELL U.K. LIMITED" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

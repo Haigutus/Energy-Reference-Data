@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000000KXG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18X0000000000KXG" ;
+    cim:IdentifiedObject.name "Viva Luz Soluciones S.L." ;
+    cim:Names.name "ESB66823881",
+        "Trade Responsible Party",
+        "VIVAL" ;
+    dcterms:identifier "urn:eic:18X0000000000KXG" ;
+    schema1:vatID "ESB66823881" ;
+    skos:altLabel "VIVAL" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Viva Luz Soluciones S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

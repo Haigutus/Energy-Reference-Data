@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XFUTENG033033Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XFUTENG033033Z" ;
+    cim:IdentifiedObject.name "FUTURENERGY RINNOVABILE S.R.L." ;
+    cim:Names.name "Balance Responsible Party",
+        "FUTURENERGY",
+        "IT10483110010" ;
+    dcterms:identifier "urn:eic:59XFUTENG033033Z" ;
+    schema1:vatID "IT10483110010" ;
+    skos:altLabel "FUTURENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FUTURENERGY RINNOVABILE S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

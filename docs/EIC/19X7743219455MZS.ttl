@@ -1,0 +1,28 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19X7743219455MZS> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19X7743219455MZS" ;
+    cim:IdentifiedObject.name "MAZOVIAN ENERGY PARTNERS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    cim:Names.name "Consumer",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "MAZOVIAN_SP_ZOO",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PL7743219455",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:19X7743219455MZS" ;
+    schema1:vatID "PL7743219455" ;
+    skos:altLabel "MAZOVIAN_SP_ZOO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MAZOVIAN ENERGY PARTNERS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

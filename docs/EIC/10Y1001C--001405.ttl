@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--001405> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ENTSOE through the EMFIP project demands that each border between Market Balance Areas has to have an EIC area code." ;
+    cim:IdentifiedObject.mRID "10Y1001C--001405" ;
+    cim:IdentifiedObject.name "Border Area UK-Norway" ;
+    cim:Names.name "Border Area",
+        "GB-NO-AREA" ;
+    dcterms:identifier "urn:eic:10Y1001C--001405" ;
+    skos:altLabel "GB-NO-AREA" ;
+    skos:definition "ENTSOE through the EMFIP project demands that each border between Market Balance Areas has to have an EIC area code."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Border Area UK-Norway" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

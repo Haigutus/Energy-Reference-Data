@@ -1,0 +1,37 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XABESA-12345-4",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XABESA-12345-4",
+    "@skos:prefLabel": "AGUAS DE BARBASTRO ELECTRICIDAD, S.A.",
+    "@skos:altLabel": "ABESA",
+    "@cim:IdentifiedObject.mRID": "18XABESA-12345-4",
+    "@cim:IdentifiedObject.name": "AGUAS DE BARBASTRO ELECTRICIDAD, S.A.",
+    "@cim:Names.name": [
+        "ABESA",
+        "ESA22194856",
+        "Trade Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-08-05",
+    "@schema:vatID": "ESA22194856",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

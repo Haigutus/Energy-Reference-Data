@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XAXPOVERTRIEBG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Vertriebs- Und Verkaufsorganisation Im Nok-Stammgebiet" ;
+    cim:IdentifiedObject.mRID "12XAXPOVERTRIEBG" ;
+    cim:IdentifiedObject.name "AXPO Vertrieb AG" ;
+    cim:Names.name "AXPO-VERTRIEB",
+        "CH479131",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XAXPOVERTRIEBG" ;
+    schema1:vatID "CH479131" ;
+    skos:altLabel "AXPO-VERTRIEB" ;
+    skos:definition "Vertriebs- Und Verkaufsorganisation Im Nok-Stammgebiet"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AXPO Vertrieb AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

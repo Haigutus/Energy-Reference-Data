@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000BLUL8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53XPL000000BLUL8" ;
+    cim:IdentifiedObject.name "Blue LNG Sp. z o.o." ;
+    cim:Names.name "BLUE_LNG",
+        "Distribution System Operator",
+        "PL6722077618",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:53XPL000000BLUL8" ;
+    schema1:vatID "PL6722077618" ;
+    skos:altLabel "BLUE_LNG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Blue LNG Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

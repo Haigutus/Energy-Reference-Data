@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/66X-00000000001T">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:66X-00000000001T</dcterms:identifier>
+    <skos:prefLabel>Lappeenrannan Energia Oy</skos:prefLabel>
+    <skos:altLabel>66LREOY</skos:altLabel>
+    <skos:definition xml:lang="en">Lappeenrannan Energia Oy's market role  in Finnish gas market will be trader. In Finnish gas market Network User role is divided into 2 subcategories: 1) shipper, who trades gas energy in wholesale market and also books capacity 2) trader, who trades gas energy  in wholesale market but doesn't book capacity (doesn't ship gas, only trades it)</skos:definition>
+    <cim:IdentifiedObject.mRID>66X-00000000001T</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Lappeenrannan Energia Oy</cim:IdentifiedObject.name>
+    <cim:Names.name>66LREOY</cim:Names.name>
+    <cim:Names.name>FI17965589</cim:Names.name>
+    <cim:IdentifiedObject.description>Lappeenrannan Energia Oy's market role  in Finnish gas market will be trader. In Finnish gas market Network User role is divided into 2 subcategories: 1) shipper, who trades gas energy in wholesale market and also books capacity 2) trader, who trades gas energy  in wholesale market but doesn't book capacity (doesn't ship gas, only trades it)</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2019-08-09</cim:DateAndOrTime.date>
+    <cim:Names.name>Network User</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>FI17965589</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

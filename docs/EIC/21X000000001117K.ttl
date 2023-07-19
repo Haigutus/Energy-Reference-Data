@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001117K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-10-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "21X000000001117K" ;
+    cim:IdentifiedObject.name "Faroe Petroleum Norge AS" ;
+    cim:Names.name "989399071MVA",
+        "FP-NORGE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:21X000000001117K" ;
+    schema1:vatID "989399071MVA" ;
+    skos:altLabel "FP-NORGE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Faroe Petroleum Norge AS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

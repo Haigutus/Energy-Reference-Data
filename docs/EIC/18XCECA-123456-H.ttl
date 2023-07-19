@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCECA-123456-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-06-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XCECA-123456-H" ;
+    cim:IdentifiedObject.name "COOPERATIVA ELECTRICA DE CASTELLAR, S.C.V." ;
+    cim:Names.name "CECA",
+        "ESF46025136",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XCECA-123456-H" ;
+    schema1:vatID "ESF46025136" ;
+    skos:altLabel "CECA" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COOPERATIVA ELECTRICA DE CASTELLAR, S.C.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

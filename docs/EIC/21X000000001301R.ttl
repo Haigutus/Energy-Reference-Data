@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001301R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-02-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "21X000000001301R" ;
+    cim:IdentifiedObject.name "GRUPA LOTOS S.A." ;
+    cim:Names.name "Consumer",
+        "LOTOS",
+        "PL5830000960" ;
+    dcterms:identifier "urn:eic:21X000000001301R" ;
+    schema1:vatID "PL5830000960" ;
+    skos:altLabel "LOTOS" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GRUPA LOTOS S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

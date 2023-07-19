@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V000000000006J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-03-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Location" ;
+    cim:IdentifiedObject.mRID "10V000000000006J" ;
+    cim:IdentifiedObject.name "ECP Transparency Platform Test Endpoint UAT 2.2" ;
+    cim:Names.name "Location",
+        "TP_TEST_UAT_EP" ;
+    dcterms:identifier "urn:eic:10V000000000006J" ;
+    skos:altLabel "TP_TEST_UAT_EP" ;
+    skos:definition "Location"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ECP Transparency Platform Test Endpoint UAT 2.2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XAXPOP-------E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XAXPOP-------E" ;
+    cim:IdentifiedObject.name "Axpo Energia Portugal" ;
+    cim:Names.name "AXPOP",
+        "PT514286652",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XAXPOP-------E" ;
+    schema1:vatID "PT514286652" ;
+    skos:altLabel "AXPOP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Axpo Energia Portugal" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

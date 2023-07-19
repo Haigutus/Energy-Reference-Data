@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XECAPG-1234-1B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XECAPG-1234-1B" ;
+    cim:IdentifiedObject.name "EOLICA CAPARROSO S.L." ;
+    cim:Names.name "ECAP",
+        "ESB31638331",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XECAPG-1234-1B" ;
+    schema1:vatID "ESB31638331" ;
+    skos:altLabel "ECAP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EOLICA CAPARROSO S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

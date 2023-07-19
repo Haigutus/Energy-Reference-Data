@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/66X-00000000023J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-05-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "66X-00000000023J" ;
+    cim:IdentifiedObject.name "Ignitis Suomi Oy" ;
+    cim:Names.name "66IGNITISSUOMI",
+        "FI32028104",
+        "Network User" ;
+    dcterms:identifier "urn:eic:66X-00000000023J" ;
+    schema1:vatID "FI32028104" ;
+    skos:altLabel "66IGNITISSUOMI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Ignitis Suomi Oy" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

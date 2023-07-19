@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/43T-LV---LN303-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-09-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "43T-LV---LN303-V" ;
+    cim:IdentifiedObject.name "LV.SALASPILS - LV.VISKALI  " ;
+    cim:Names.name "Internal Line",
+        "LN-303" ;
+    dcterms:identifier "urn:eic:43T-LV---LN303-V" ;
+    skos:altLabel "LN-303" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "LV.SALASPILS - LV.VISKALI  " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

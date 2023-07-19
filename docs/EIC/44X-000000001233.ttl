@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44X-000000001233> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "44X-000000001233" ;
+    cim:IdentifiedObject.name "Outokummun Energia Oy " ;
+    cim:Names.name "44OUTOKUMMUNENER",
+        "Distribution System Operator",
+        "FI15714452" ;
+    dcterms:identifier "urn:eic:44X-000000001233" ;
+    schema1:vatID "FI15714452" ;
+    skos:altLabel "44OUTOKUMMUNENER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Outokummun Energia Oy " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

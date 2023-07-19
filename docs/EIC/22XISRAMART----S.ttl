@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XISRAMART----S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-01-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ENERGY AND ENVIRONMENTAL BROKER IN EASTERN EUROPE, PROVIDING FULL-SERVICE AND OVER THE COUNTER BROKING AND ADVISORY CAPABILITIES TO A BROAD SPECTRUM OF BUSINESSES THROUGHOUT EUROPE." ;
+    cim:IdentifiedObject.mRID "22XISRAMART----S" ;
+    cim:IdentifiedObject.name "ISRA MART SRL" ;
+    cim:Names.name "BE_ISRA-MART",
+        "RO25620601",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:22XISRAMART----S" ;
+    schema1:vatID "RO25620601" ;
+    skos:altLabel "BE_ISRA-MART" ;
+    skos:definition "ENERGY AND ENVIRONMENTAL BROKER IN EASTERN EUROPE, PROVIDING FULL-SERVICE AND OVER THE COUNTER BROKING AND ADVISORY CAPABILITIES TO A BROAD SPECTRUM OF BUSINESSES THROUGHOUT EUROPE."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ISRA MART SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

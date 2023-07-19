@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z0000000004847> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-05-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Virtual Interconnection Points (VIP)" ;
+    cim:IdentifiedObject.mRID "21Z0000000004847" ;
+    cim:IdentifiedObject.name "VIRTUALYS" ;
+    cim:Names.name "VIRTUALYS",
+        "Virtual Interconnection Points" ;
+    dcterms:identifier "urn:eic:21Z0000000004847" ;
+    skos:altLabel "VIRTUALYS" ;
+    skos:definition "Virtual Interconnection Points (VIP)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VIRTUALYS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

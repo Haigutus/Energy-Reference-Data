@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14WKWLANGENEGG13> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-03-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "EEX Reporting" ;
+    cim:IdentifiedObject.mRID "14WKWLANGENEGG13" ;
+    cim:IdentifiedObject.name "KW LANGENEGG" ;
+    cim:Names.name "KWL",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:14WKWLANGENEGG13" ;
+    skos:altLabel "KWL" ;
+    skos:definition "EEX Reporting"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KW LANGENEGG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

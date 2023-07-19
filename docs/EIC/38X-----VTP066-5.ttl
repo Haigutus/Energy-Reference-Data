@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/38X-----VTP066-5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-09-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "38X-----VTP066-5" ;
+    cim:IdentifiedObject.name "VV Tuulepargid OU" ;
+    cim:Names.name "EE101178624",
+        "EE_VVTP",
+        "Producer" ;
+    dcterms:identifier "urn:eic:38X-----VTP066-5" ;
+    schema1:vatID "EE101178624" ;
+    skos:altLabel "EE_VVTP" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VV Tuulepargid OU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

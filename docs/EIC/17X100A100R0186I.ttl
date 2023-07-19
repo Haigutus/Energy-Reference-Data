@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X100A100R0186I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-01-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "17X100A100R0186I" ;
+    cim:IdentifiedObject.name "A2A S.p.A." ;
+    cim:Names.name "FR_A2A_SPA",
+        "IT11957540153",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:17X100A100R0186I" ;
+    schema1:vatID "IT11957540153" ;
+    skos:altLabel "FR_A2A_SPA" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "A2A S.p.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XRIPOL-12345-0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XRIPOL-12345-0" ;
+    cim:IdentifiedObject.name "FRANCISCO RIPOLL, S.L." ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESB96818091",
+        "RIPOL" ;
+    dcterms:identifier "urn:eic:18XRIPOL-12345-0" ;
+    schema1:vatID "ESB96818091" ;
+    skos:altLabel "RIPOL" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FRANCISCO RIPOLL, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

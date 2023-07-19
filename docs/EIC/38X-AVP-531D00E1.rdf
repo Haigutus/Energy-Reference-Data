@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/38X-AVP-531D00E1">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:38X-AVP-531D00E1</dcterms:identifier>
+    <skos:prefLabel>AS Sillamae-Veevark</skos:prefLabel>
+    <skos:altLabel>EE_SILLAMAEVV</skos:altLabel>
+    <skos:definition xml:lang="en">Grid Operator</skos:definition>
+    <cim:IdentifiedObject.mRID>38X-AVP-531D00E1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AS Sillamae-Veevark</cim:IdentifiedObject.name>
+    <cim:Names.name>EE_SILLAMAEVV</cim:Names.name>
+    <cim:Names.name>EE100144060</cim:Names.name>
+    <cim:IdentifiedObject.description>Grid Operator</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2016-09-02</cim:DateAndOrTime.date>
+    <cim:Names.name>Grid Operator</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>EE100144060</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

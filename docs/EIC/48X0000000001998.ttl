@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X0000000001998> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48X0000000001998" ;
+    cim:IdentifiedObject.name "Banks Renewables (Moor House Wind Farm) Ltd" ;
+    cim:Names.name "GB254064714",
+        "MOOR_HOUSE",
+        "Party Connected To Grid",
+        "Producer" ;
+    dcterms:identifier "urn:eic:48X0000000001998" ;
+    schema1:vatID "GB254064714" ;
+    skos:altLabel "MOOR_HOUSE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Banks Renewables (Moor House Wind Farm) Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

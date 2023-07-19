@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XBEFEN-------D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XBEFEN-------D" ;
+    cim:IdentifiedObject.name "BE FREE ENERGY - COMERCIALIZACÃO DE ENERGIA, S.A" ;
+    cim:Names.name "BEFREEENERGY",
+        "PT514712120",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XBEFEN-------D" ;
+    schema1:vatID "PT514712120" ;
+    skos:altLabel "BEFREEENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BE FREE ENERGY - COMERCIALIZACÃO DE ENERGIA, S.A" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

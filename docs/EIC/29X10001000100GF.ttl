@@ -1,0 +1,28 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29X10001000100GF> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "The company's main function is RES Aggregator." ;
+    cim:IdentifiedObject.mRID "29X10001000100GF" ;
+    cim:IdentifiedObject.name "EUNICE AGGREGATION ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ" ;
+    cim:Names.name "29XEUAGGREGATION",
+        "A00177239.GR",
+        "Balance Responsible Party",
+        "EL801386868",
+        "Grid Access Provider",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:29X10001000100GF" ;
+    schema1:vatID "EL801386868" ;
+    skos:altLabel "29XEUAGGREGATION" ;
+    skos:definition "The company's main function is RES Aggregator."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EUNICE AGGREGATION ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

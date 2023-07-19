@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/36XHIFAOILTESANG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "36XHIFAOILTESANG" ;
+    cim:IdentifiedObject.name "HIFA-OIL d.o.o. Tesanj" ;
+    cim:Names.name "BA4218015340002",
+        "Balance Responsible Party",
+        "HIFA-OIL-TESANJ" ;
+    dcterms:identifier "urn:eic:36XHIFAOILTESANG" ;
+    schema1:vatID "BA4218015340002" ;
+    skos:altLabel "HIFA-OIL-TESANJ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HIFA-OIL d.o.o. Tesanj" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/37X0000000000038",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:37X0000000000038",
+    "@skos:prefLabel": "BALANCE Erneuerbare Energien GmbH",
+    "@skos:altLabel": "BALANCEGMBH",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Company has merged with another company and the resulting company is again called BALANCE Erneuerbare Energien GmbH, but with a new VAT number! I had already sent Laima the appropriate letter from the company by e-mail.  I now plead for approval of this change. Preis Ticket number 9331481"
+    },
+    "@cim:IdentifiedObject.mRID": "37X0000000000038",
+    "@cim:IdentifiedObject.name": "BALANCE Erneuerbare Energien GmbH",
+    "@cim:Names.name": [
+        "BALANCEGMBH",
+        "DE311955741",
+        "Energy Supplier"
+    ],
+    "@cim:IdentifiedObject.description": "Company has merged with another company and the resulting company is again called BALANCE Erneuerbare Energien GmbH, but with a new VAT number! I had already sent Laima the appropriate letter from the company by e-mail.  I now plead for approval of this change. Preis Ticket number 9331481",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-11-13",
+    "@schema:vatID": "DE311955741",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

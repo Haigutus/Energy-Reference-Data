@@ -1,0 +1,35 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/26T1O6A50GMH9K0F",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:26T1O6A50GMH9K0F",
+    "@skos:prefLabel": "TRF-COLORNO - TR 2 220/015 KV",
+    "@skos:altLabel": "TRF-73000747",
+    "@cim:IdentifiedObject.mRID": "26T1O6A50GMH9K0F",
+    "@cim:IdentifiedObject.name": "TRF-COLORNO - TR 2 220/015 KV",
+    "@cim:Names.name": [
+        "TRF-73000747",
+        "Transformer"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-10-25",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

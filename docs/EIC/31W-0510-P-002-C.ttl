@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31W-0510-P-002-C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "31W-0510-P-002-C" ;
+    cim:IdentifiedObject.name "RHE VELEBIT MG2 138 MW (127 MW pump)" ;
+    cim:Names.name "Generation Unit",
+        "HR-RHE-VEL2-138" ;
+    dcterms:identifier "urn:eic:31W-0510-P-002-C" ;
+    skos:altLabel "HR-RHE-VEL2-138" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RHE VELEBIT MG2 138 MW (127 MW pump)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

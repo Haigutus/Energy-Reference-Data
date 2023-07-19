@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/45X000000000131D",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:45X000000000131D",
+    "@skos:prefLabel": "Current Commodities A/S",
+    "@skos:altLabel": "CURRENTCOM",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Created by JUI 09.01.23."
+    },
+    "@cim:IdentifiedObject.mRID": "45X000000000131D",
+    "@cim:IdentifiedObject.name": "Current Commodities A/S",
+    "@cim:Names.name": [
+        "CURRENTCOM",
+        "DK38617990",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Created by JUI 09.01.23.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-01-09",
+    "@schema:vatID": "DK38617990",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

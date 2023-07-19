@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--150509-EB-Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--150509-EB-Q" ;
+    cim:IdentifiedObject.name "Burbo Extension Limited" ;
+    cim:Names.name "A0008900E.UK",
+        "BURBO_EXTENSION",
+        "GB109141641",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--150509-EB-Q" ;
+    schema1:vatID "GB109141641" ;
+    skos:altLabel "BURBO_EXTENSION" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Burbo Extension Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

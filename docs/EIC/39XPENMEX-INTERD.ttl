@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XPENMEX-INTERD> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XPENMEX-INTERD" ;
+    cim:IdentifiedObject.name "Penmex International Kft." ;
+    cim:Names.name "A00162745.HU",
+        "Balance Responsible Party",
+        "HU26761640",
+        "PENEMX72" ;
+    dcterms:identifier "urn:eic:39XPENMEX-INTERD" ;
+    schema1:vatID "HU26761640" ;
+    skos:altLabel "PENEMX72" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Penmex International Kft." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

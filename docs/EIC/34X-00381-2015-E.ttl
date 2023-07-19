@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34X-00381-2015-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-12-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Operator" ;
+    cim:IdentifiedObject.mRID "34X-00381-2015-E" ;
+    cim:IdentifiedObject.name "SEEPEX a.d. Beograd" ;
+    cim:Names.name "109064704",
+        "Market Operator",
+        "SEPX" ;
+    dcterms:identifier "urn:eic:34X-00381-2015-E" ;
+    schema1:vatID "109064704" ;
+    skos:altLabel "SEPX" ;
+    skos:definition "Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SEEPEX a.d. Beograd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

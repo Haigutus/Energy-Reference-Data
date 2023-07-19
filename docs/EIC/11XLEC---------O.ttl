@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XLEC---------O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-24" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XLEC---------O" ;
+    cim:IdentifiedObject.name "LEC Leipzig EnergieConsult GmbH" ;
+    cim:Names.name "23111307474",
+        "Balance Group",
+        "LEC" ;
+    dcterms:identifier "urn:eic:11XLEC---------O" ;
+    schema1:vatID "23111307474" ;
+    skos:altLabel "LEC" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "LEC Leipzig EnergieConsult GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

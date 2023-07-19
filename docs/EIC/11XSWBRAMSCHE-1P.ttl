@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWBRAMSCHE-1P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSWBRAMSCHE-1P" ;
+    cim:IdentifiedObject.name "Stadtwerke Bramsche GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE117701055",
+        "SWB_EX" ;
+    dcterms:identifier "urn:eic:11XSWBRAMSCHE-1P" ;
+    schema1:vatID "DE117701055" ;
+    skos:altLabel "SWB_EX" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Bramsche GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

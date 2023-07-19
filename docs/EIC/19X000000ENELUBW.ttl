@@ -1,0 +1,32 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19X000000ENELUBW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "kom. 785 805 217 " ;
+    cim:IdentifiedObject.mRID "19X000000ENELUBW" ;
+    cim:IdentifiedObject.name "\"ENERGETYKA SPÓŁKA Z OGRANICZONĄ  ODPOWIEDZIALNOŚCIĄ\"" ;
+    cim:Names.name "A0011400W.PL",
+        "Consumer",
+        "ENERGETYKA_LUBIN",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PL6921010700",
+        "Producer",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:19X000000ENELUBW" ;
+    schema1:vatID "PL6921010700" ;
+    skos:altLabel "ENERGETYKA_LUBIN" ;
+    skos:definition "kom. 785 805 217 "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "\"ENERGETYKA SPÓŁKA Z OGRANICZONĄ  ODPOWIEDZIALNOŚCIĄ\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

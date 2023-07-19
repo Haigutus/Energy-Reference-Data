@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000295C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48X000000000295C" ;
+    cim:IdentifiedObject.name "Twentyshilling Limited" ;
+    cim:Names.name "20SHILLINGWFL",
+        "GB07990781",
+        "Party Connected To Grid",
+        "Producer",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:48X000000000295C" ;
+    schema1:vatID "GB07990781" ;
+    skos:altLabel "20SHILLINGWFL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Twentyshilling Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

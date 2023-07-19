@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XALVO-12345-1Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XALVO-12345-1Y" ;
+    cim:IdentifiedObject.name "PARQUES EÓLICOS ALTOS DE VOLTOYA SA" ;
+    cim:Names.name "ALVO",
+        "ESA82231366",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XALVO-12345-1Y" ;
+    schema1:vatID "ESA82231366" ;
+    skos:altLabel "ALVO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PARQUES EÓLICOS ALTOS DE VOLTOYA SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

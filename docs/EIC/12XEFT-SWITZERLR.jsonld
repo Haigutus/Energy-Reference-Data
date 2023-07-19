@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/12XEFT-SWITZERLR",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:12XEFT-SWITZERLR",
+    "@skos:prefLabel": "Energy Financing Team (Switzerland) AG",
+    "@skos:altLabel": "EFT-SWITZERLAND",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Trade Responsible Party Balance Responsible Party Balance Group"
+    },
+    "@cim:IdentifiedObject.mRID": "12XEFT-SWITZERLR",
+    "@cim:IdentifiedObject.name": "Energy Financing Team (Switzerland) AG",
+    "@cim:Names.name": [
+        "EFT-SWITZERLAND",
+        "CHE110154266",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Trade Responsible Party Balance Responsible Party Balance Group",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-09-26",
+    "@schema:vatID": "CHE110154266",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

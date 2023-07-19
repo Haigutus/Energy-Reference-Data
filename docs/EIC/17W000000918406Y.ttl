@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17W000000918406Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-09-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "code recréé a la place de 17W100P100P00123" ;
+    cim:IdentifiedObject.mRID "17W000000918406Y" ;
+    cim:IdentifiedObject.name "CROIX DE METZ" ;
+    cim:Names.name "FR_GA-TOULMETZ-G",
+        "Generation Unit" ;
+    dcterms:identifier "urn:eic:17W000000918406Y" ;
+    skos:altLabel "FR_GA-TOULMETZ-G" ;
+    skos:definition "code recréé a la place de 17W100P100P00123"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CROIX DE METZ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

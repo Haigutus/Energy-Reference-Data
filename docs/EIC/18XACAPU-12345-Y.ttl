@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XACAPU-12345-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-05-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XACAPU-12345-Y" ;
+    cim:IdentifiedObject.name "RECREATIVOS ACAPULCO SL" ;
+    cim:Names.name "ACAPU",
+        "Consumption Responsible Party",
+        "ES83079392" ;
+    dcterms:identifier "urn:eic:18XACAPU-12345-Y" ;
+    schema1:vatID "ES83079392" ;
+    skos:altLabel "ACAPU" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RECREATIVOS ACAPULCO SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

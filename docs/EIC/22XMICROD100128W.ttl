@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XMICROD100128W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-01-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "TRADER OF COMMODITIES AND CARBON" ;
+    cim:IdentifiedObject.mRID "22XMICROD100128W" ;
+    cim:IdentifiedObject.name "MICRODYNE LTD" ;
+    cim:Names.name "BE_MICRODYNE",
+        "GB938184983",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:22XMICROD100128W" ;
+    schema1:vatID "GB938184983" ;
+    skos:altLabel "BE_MICRODYNE" ;
+    skos:definition "TRADER OF COMMODITIES AND CARBON"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MICRODYNE LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

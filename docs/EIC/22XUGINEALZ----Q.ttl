@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XUGINEALZ----Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Adaptation DU NOM CCPROD + KBO" ;
+    cim:IdentifiedObject.mRID "22XUGINEALZ----Q" ;
+    cim:IdentifiedObject.name "Aperam Stainless Belgium" ;
+    cim:Names.name "BE0401277914",
+        "BE_UGINE_ALZ",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22XUGINEALZ----Q" ;
+    schema1:vatID "BE0401277914" ;
+    skos:altLabel "BE_UGINE_ALZ" ;
+    skos:definition "Adaptation DU NOM CCPROD + KBO"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Aperam Stainless Belgium" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

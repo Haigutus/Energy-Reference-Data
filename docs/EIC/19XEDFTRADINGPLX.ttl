@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XEDFTRADINGPLX> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XEDFTRADINGPLX" ;
+    cim:IdentifiedObject.name "EDF TRADING POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    cim:Names.name "Balance Responsible Party",
+        "EDFT_POLSKA",
+        "PL5272665704" ;
+    dcterms:identifier "urn:eic:19XEDFTRADINGPLX" ;
+    schema1:vatID "PL5272665704" ;
+    skos:altLabel "EDFT_POLSKA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EDF TRADING POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

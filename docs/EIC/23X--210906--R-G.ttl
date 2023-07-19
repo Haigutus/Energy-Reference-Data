@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--210906--R-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company registration number: 116474601000  " ;
+    cim:IdentifiedObject.mRID "23X--210906--R-G" ;
+    cim:IdentifiedObject.name "REVOIL S.A." ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "EL094116870",
+        "Network User",
+        "REVOIL" ;
+    dcterms:identifier "urn:eic:23X--210906--R-G" ;
+    schema1:vatID "EL094116870" ;
+    skos:altLabel "REVOIL" ;
+    skos:definition "Company registration number: 116474601000  "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "REVOIL S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

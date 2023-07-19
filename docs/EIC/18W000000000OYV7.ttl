@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18W000000000OYV7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18W000000000OYV7" ;
+    cim:IdentifiedObject.name "UFI FV LOS YEBENES" ;
+    cim:Names.name "Generation Unit",
+        "YEBENES" ;
+    dcterms:identifier "urn:eic:18W000000000OYV7" ;
+    skos:altLabel "YEBENES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UFI FV LOS YEBENES" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

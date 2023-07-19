@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000AJ6X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000AJ6X" ;
+    cim:IdentifiedObject.name "COMPAÑIA LOGÍSITCA DE HIDROCARBUROS CLH, S.A." ;
+    cim:Names.name "CLHSA",
+        "Consumption Responsible Party",
+        "ESA28018380" ;
+    dcterms:identifier "urn:eic:18X000000000AJ6X" ;
+    schema1:vatID "ESA28018380" ;
+    skos:altLabel "CLHSA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COMPAÑIA LOGÍSITCA DE HIDROCARBUROS CLH, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

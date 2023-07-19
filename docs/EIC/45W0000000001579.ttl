@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45W0000000001579> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45W0000000001579" ;
+    cim:IdentifiedObject.name "Energinet Causer Allocation Point" ;
+    cim:Names.name "DK_GAS-CAUSER",
+        "Resource Object" ;
+    dcterms:identifier "urn:eic:45W0000000001579" ;
+    skos:altLabel "DK_GAS-CAUSER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energinet Causer Allocation Point" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

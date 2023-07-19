@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XBELTA-12345-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-02-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XBELTA-12345-G" ;
+    cim:IdentifiedObject.name "BELTAINE RENOVABLES, S.L." ;
+    cim:Names.name "BELTA",
+        "ESB70152707",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XBELTA-12345-G" ;
+    schema1:vatID "ESB70152707" ;
+    skos:altLabel "BELTA" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BELTAINE RENOVABLES, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001961-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-05-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User, Transmission Capacity Allocator" ;
+    cim:IdentifiedObject.mRID "12X-0000001961-L" ;
+    cim:IdentifiedObject.name "GasDirekt AG" ;
+    cim:Names.name "CHE202342033",
+        "GAS-DIREKT-AG-ST",
+        "Network User",
+        "Transmission Capacity Allocator" ;
+    dcterms:identifier "urn:eic:12X-0000001961-L" ;
+    schema1:vatID "CHE202342033" ;
+    skos:altLabel "GAS-DIREKT-AG-ST" ;
+    skos:definition "Network User, Transmission Capacity Allocator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GasDirekt AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X000000000140C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45X000000000140C" ;
+    cim:IdentifiedObject.name "Copenhagen Green Energy A/S" ;
+    cim:Names.name "40641408",
+        "DK_CGE",
+        "Energy Supplier" ;
+    dcterms:identifier "urn:eic:45X000000000140C" ;
+    schema1:vatID "40641408" ;
+    skos:altLabel "DK_CGE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Copenhagen Green Energy A/S" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

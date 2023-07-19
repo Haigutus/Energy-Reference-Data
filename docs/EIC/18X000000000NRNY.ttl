@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000NRNY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000NRNY" ;
+    cim:IdentifiedObject.name "RENOVABLES EL QUIJOTE S.L.U." ;
+    cim:Names.name "ES-1",
+        "ESB02584035",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18X000000000NRNY" ;
+    schema1:vatID "ESB02584035" ;
+    skos:altLabel "ES-1" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RENOVABLES EL QUIJOTE S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

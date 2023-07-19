@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37Y700476ML0000X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-04-21" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Market Area" ;
+    cim:IdentifiedObject.mRID "37Y700476ML0000X" ;
+    cim:IdentifiedObject.name "Marktgebiet EON LGas" ;
+    cim:Names.name "DVGW-ML0000X",
+        "Market Area" ;
+    dcterms:identifier "urn:eic:37Y700476ML0000X" ;
+    skos:altLabel "DVGW-ML0000X" ;
+    skos:definition "Market Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Marktgebiet EON LGas" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

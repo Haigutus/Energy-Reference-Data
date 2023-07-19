@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/19XELECTRABEL-PB">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:19XELECTRABEL-PB</dcterms:identifier>
+    <skos:prefLabel>ELECTRABEL POLSKA Spolka z ograniczona odpowiedzialnoscia</skos:prefLabel>
+    <skos:altLabel>ELECTRABEL_PL</skos:altLabel>
+    <skos:definition xml:lang="en">- Wholesale Of Electricity And Energy Fuels,- Sale Of Electricity To Eligible Customers,- Energy Related Services,- Industrial Cogoeneration And Energy Outsourcing.</skos:definition>
+    <cim:IdentifiedObject.mRID>19XELECTRABEL-PB</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ELECTRABEL POLSKA Spolka z ograniczona odpowiedzialnoscia</cim:IdentifiedObject.name>
+    <cim:Names.name>ELECTRABEL_PL</cim:Names.name>
+    <cim:Names.name>PL8661532643</cim:Names.name>
+    <cim:IdentifiedObject.description>- Wholesale Of Electricity And Energy Fuels,- Sale Of Electricity To Eligible Customers,- Energy Related Services,- Industrial Cogoeneration And Energy Outsourcing.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A03</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2016-10-31</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>PL8661532643</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

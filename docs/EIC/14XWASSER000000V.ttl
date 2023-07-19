@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14XWASSER000000V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "14XWASSER000000V" ;
+    cim:IdentifiedObject.name "go green energy GmbH & Co KG" ;
+    cim:Names.name "ATU69587146",
+        "Energy Supplier",
+        "GOGREENENERGY" ;
+    dcterms:identifier "urn:eic:14XWASSER000000V" ;
+    schema1:vatID "ATU69587146" ;
+    skos:altLabel "GOGREENENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "go green energy GmbH & Co KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

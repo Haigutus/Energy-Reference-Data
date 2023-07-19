@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27X-D-TR-INT-SAB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-04-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "27X-D-TR-INT-SAB" ;
+    cim:IdentifiedObject.name "D. TRADING INTERNATIONAL SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE192534327",
+        "D_TR_INT_SA" ;
+    dcterms:identifier "urn:eic:27X-D-TR-INT-SAB" ;
+    schema1:vatID "CHE192534327" ;
+    skos:altLabel "D_TR_INT_SA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "D. TRADING INTERNATIONAL SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

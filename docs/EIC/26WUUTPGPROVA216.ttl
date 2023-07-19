@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WUUTPGPROVA216> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26WUUTPGPROVA216" ;
+    cim:IdentifiedObject.name "UP_TPGPROVA2_1" ;
+    cim:Names.name "Generation Unit",
+        "UP-TPGPROVA2-1" ;
+    dcterms:identifier "urn:eic:26WUUTPGPROVA216" ;
+    skos:altLabel "UP-TPGPROVA2-1" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UP_TPGPROVA2_1" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

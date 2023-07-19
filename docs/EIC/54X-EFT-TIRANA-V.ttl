@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-EFT-TIRANA-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-08-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "54X-EFT-TIRANA-V" ;
+    cim:IdentifiedObject.name "Energy Financing TEAM TIRANA sh.p.k" ;
+    cim:Names.name "Balance Responsible Party",
+        "EFT_TRN",
+        "L71801017U",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:54X-EFT-TIRANA-V" ;
+    schema1:vatID "L71801017U" ;
+    skos:altLabel "EFT_TRN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energy Financing TEAM TIRANA sh.p.k" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

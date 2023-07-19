@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X0011001007728> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "32X0011001007728" ;
+    cim:IdentifiedObject.name "TERA CAP EOOD" ;
+    cim:Names.name "A0009985M.BG",
+        "BG202240100",
+        "Balance Responsible Party",
+        "TERA_CAP",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:32X0011001007728" ;
+    schema1:vatID "BG202240100" ;
+    skos:altLabel "TERA_CAP" ;
+    skos:definition "Balance Responsible Party, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TERA CAP EOOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

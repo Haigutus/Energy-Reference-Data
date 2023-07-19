@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-BY-LT-00005U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-10-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-BY-LT-00005U" ;
+    cim:IdentifiedObject.name "IAE-Smorgonys-452" ;
+    cim:Names.name "Accounting Point",
+        "M_IAE-SMORGON" ;
+    dcterms:identifier "urn:eic:10Z-BY-LT-00005U" ;
+    skos:altLabel "M_IAE-SMORGON" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IAE-Smorgonys-452" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

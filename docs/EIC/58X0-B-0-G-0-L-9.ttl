@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58X0-B-0-G-0-L-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58X0-B-0-G-0-L-9" ;
+    cim:IdentifiedObject.name "BALKAN GAS LOGISTICS LTD" ;
+    cim:Names.name "BG207000040",
+        "BLKNLOGISTICS_BG",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:58X0-B-0-G-0-L-9" ;
+    schema1:vatID "BG207000040" ;
+    skos:altLabel "BLKNLOGISTICS_BG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BALKAN GAS LOGISTICS LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

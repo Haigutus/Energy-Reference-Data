@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XSGD01-12345-8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XSGD01-12345-8" ;
+    cim:IdentifiedObject.name "SERVILIANO GARCÍA, S.A." ;
+    cim:Names.name "ESA40029399",
+        "Grid Access Provider",
+        "SGD01" ;
+    dcterms:identifier "urn:eic:18XSGD01-12345-8" ;
+    schema1:vatID "ESA40029399" ;
+    skos:altLabel "SGD01" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SERVILIANO GARCÍA, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41XENEFIT----01P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-04-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Supplier, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "41XENEFIT----01P" ;
+    cim:IdentifiedObject.name "ENEFIT UAB" ;
+    cim:Names.name "ENEFIT----01",
+        "Energy Supplier",
+        "LT100003539118",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:41XENEFIT----01P" ;
+    schema1:vatID "LT100003539118" ;
+    skos:altLabel "ENEFIT----01" ;
+    skos:definition "Balance Supplier, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENEFIT UAB" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

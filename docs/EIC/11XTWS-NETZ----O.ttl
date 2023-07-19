@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XTWS-NETZ----O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-06-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XTWS-NETZ----O" ;
+    cim:IdentifiedObject.name "TWS Netz GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE814803855",
+        "TWS-NETZ" ;
+    dcterms:identifier "urn:eic:11XTWS-NETZ----O" ;
+    schema1:vatID "DE814803855" ;
+    skos:altLabel "TWS-NETZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TWS Netz GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

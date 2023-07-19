@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47W0000000002784> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-03-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "47W0000000002784" ;
+    cim:IdentifiedObject.name "Coomacheo" ;
+    cim:Names.name "Generation Unit",
+        "IE2784" ;
+    dcterms:identifier "urn:eic:47W0000000002784" ;
+    skos:altLabel "IE2784" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Coomacheo" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/65XBRP-OPTIMUMEQ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "65XBRP-OPTIMUMEQ" ;
+    cim:IdentifiedObject.name "OPTIMUM ENERGY GEORGIA LTD" ;
+    cim:Names.name "400027564",
+        "Balance Responsible Party",
+        "OPTIMUM_ENERGY" ;
+    dcterms:identifier "urn:eic:65XBRP-OPTIMUMEQ" ;
+    schema1:vatID "400027564" ;
+    skos:altLabel "OPTIMUM_ENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OPTIMUM ENERGY GEORGIA LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

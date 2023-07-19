@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X00000000046AE> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X00000000046AE" ;
+    cim:IdentifiedObject.name "MOREDA RIVIERE TREFILERIAS, S.A." ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESA59525113",
+        "MORED" ;
+    dcterms:identifier "urn:eic:18X00000000046AE" ;
+    schema1:vatID "ESA59525113" ;
+    skos:altLabel "MORED" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MOREDA RIVIERE TREFILERIAS, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

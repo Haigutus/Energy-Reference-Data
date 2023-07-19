@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/58Z-000000007-KZ",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:58Z-000000007-KZ",
+    "@skos:prefLabel": "Kireevo (BG)/Zaychar (RS)",
+    "@skos:altLabel": "KIREEVO-BG-RS",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Interconnection point between the gas transmission systems of Bulgartransgaz (Bulgaria) and Gastrans (Serbia)."
+    },
+    "@cim:IdentifiedObject.mRID": "58Z-000000007-KZ",
+    "@cim:IdentifiedObject.name": "Kireevo (BG)/Zaychar (RS)",
+    "@cim:Names.name": [
+        "KIREEVO-BG-RS",
+        "Connection Point"
+    ],
+    "@cim:IdentifiedObject.description": "Interconnection point between the gas transmission systems of Bulgartransgaz (Bulgaria) and Gastrans (Serbia).",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-10-02",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

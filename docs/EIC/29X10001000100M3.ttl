@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29X10001000100M3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ΠΑΡΑΓΩΓΗ-ΔΙΑΝΟΜΗ-ΠΩΛΗΣΗ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ" ;
+    cim:IdentifiedObject.mRID "29X10001000100M3" ;
+    cim:IdentifiedObject.name "ΗΛΕΚΤΡΟΠΑΡΑΓΩΓΗ ΑΛΕΞΑΝΔΡΟΥΠΟΛΗΣ ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ" ;
+    cim:Names.name "A00194944.GR",
+        "EL801490101",
+        "Energy Supplier",
+        "ILEKTROP-ALEX",
+        "Producer" ;
+    dcterms:identifier "urn:eic:29X10001000100M3" ;
+    schema1:vatID "EL801490101" ;
+    skos:altLabel "ILEKTROP-ALEX" ;
+    skos:definition "ΠΑΡΑΓΩΓΗ-ΔΙΑΝΟΜΗ-ΠΩΛΗΣΗ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ΗΛΕΚΤΡΟΠΑΡΑΓΩΓΗ ΑΛΕΞΑΝΔΡΟΥΠΟΛΗΣ ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

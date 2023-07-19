@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X00000108541-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Iscrizione al portale Jao" ;
+    cim:IdentifiedObject.mRID "26X00000108541-L" ;
+    cim:IdentifiedObject.name "EVISO S.R.L." ;
+    cim:Names.name "Balance Responsible Party",
+        "IT-EVISOSRLSRL",
+        "IT03468380047" ;
+    dcterms:identifier "urn:eic:26X00000108541-L" ;
+    schema1:vatID "IT03468380047" ;
+    skos:altLabel "IT-EVISOSRLSRL" ;
+    skos:definition "Iscrizione al portale Jao"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EVISO S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

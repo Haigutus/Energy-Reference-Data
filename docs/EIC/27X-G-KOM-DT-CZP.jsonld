@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/27X-G-KOM-DT-CZP",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:27X-G-KOM-DT-CZP",
+    "@skos:prefLabel": "KULICKOVE SROUBY KURIM, a.s.",
+    "@skos:altLabel": "G-KOM-DT2",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Resource Provider"
+    },
+    "@cim:IdentifiedObject.mRID": "27X-G-KOM-DT-CZP",
+    "@cim:IdentifiedObject.name": "KULICKOVE SROUBY KURIM, a.s.",
+    "@cim:Names.name": [
+        "G-KOM-DT2",
+        "CZ45148112",
+        "Resource Provider"
+    ],
+    "@cim:IdentifiedObject.description": "Resource Provider",
+    "@cim:Document.docStatus": "A03",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2011-01-02",
+    "@schema:vatID": "CZ45148112",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

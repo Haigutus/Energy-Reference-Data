@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/46WGU0000000190K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "46WGU0000000190K" ;
+    cim:IdentifiedObject.name "Krångede G3" ;
+    cim:Names.name "Generation Unit",
+        "KRANGEDE_G3" ;
+    dcterms:identifier "urn:eic:46WGU0000000190K" ;
+    skos:altLabel "KRANGEDE_G3" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Krångede G3" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

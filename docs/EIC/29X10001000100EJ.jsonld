@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29X10001000100EJ",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29X10001000100EJ",
+    "@skos:prefLabel": "ΕΛΙΝ ΒΕΡΝΤ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΑΕΙΦΟΡΩΝ ΠΡΟΙΟΝΤΩΝ ΚΑΙ ΥΠΗΡΕΣΙΩΝ",
+    "@skos:altLabel": "VERD",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "ΕΛΙΝ ΒΕΡΝΤ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΑΕΙΦΟΡΩΝ ΠΡΟΙΟΝΤΩΝ ΚΑΙ ΥΠΗΡΕΣΙΩΝ/   Elin Verd S.A. Sustainable Products & Services.   Energy Trader.   RES Aggregator."
+    },
+    "@cim:IdentifiedObject.mRID": "29X10001000100EJ",
+    "@cim:IdentifiedObject.name": "ΕΛΙΝ ΒΕΡΝΤ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΑΕΙΦΟΡΩΝ ΠΡΟΙΟΝΤΩΝ ΚΑΙ ΥΠΗΡΕΣΙΩΝ",
+    "@cim:Names.name": [
+        "VERD",
+        "A0017260L.GR",
+        "EL999081902",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "ΕΛΙΝ ΒΕΡΝΤ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΑΕΙΦΟΡΩΝ ΠΡΟΙΟΝΤΩΝ ΚΑΙ ΥΠΗΡΕΣΙΩΝ/   Elin Verd S.A. Sustainable Products & Services.   Energy Trader.   RES Aggregator.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-11-02",
+    "@schema:vatID": "EL999081902",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

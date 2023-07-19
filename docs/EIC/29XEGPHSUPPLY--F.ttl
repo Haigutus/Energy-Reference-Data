@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XEGPHSUPPLY--F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-12-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Electricity Supplier / Electricity Trader" ;
+    cim:IdentifiedObject.mRID "29XEGPHSUPPLY--F" ;
+    cim:IdentifiedObject.name "ENEL GREEN POWER HELLAS SUPPLY S.A." ;
+    cim:Names.name "A0014168A.GR",
+        "Balance Responsible Party",
+        "EGPH_SUPPLY",
+        "EL998384896",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:29XEGPHSUPPLY--F" ;
+    schema1:vatID "EL998384896" ;
+    skos:altLabel "EGPH_SUPPLY" ;
+    skos:definition "Electricity Supplier / Electricity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENEL GREEN POWER HELLAS SUPPLY S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

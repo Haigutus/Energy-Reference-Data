@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001288U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-01-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Supplier,Resource Provider,Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "21X000000001288U" ;
+    cim:IdentifiedObject.name "Hood River Finland LTD (Hood River Suomi Oy.)" ;
+    cim:Names.name "Energy Supplier",
+        "FI21915015",
+        "HRS",
+        "Resource Provider",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:21X000000001288U" ;
+    schema1:vatID "FI21915015" ;
+    skos:altLabel "HRS" ;
+    skos:definition "Balance Supplier,Resource Provider,Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Hood River Finland LTD (Hood River Suomi Oy.)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

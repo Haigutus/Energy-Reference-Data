@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X920000008340E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X920000008340E" ;
+    cim:IdentifiedObject.name "\"Stryinaftohaz\" LLC." ;
+    cim:Names.name "Producer",
+        "STRYINAFTOHAZ",
+        "UA394546813305" ;
+    dcterms:identifier "urn:eic:56X920000008340E" ;
+    schema1:vatID "UA394546813305" ;
+    skos:altLabel "STRYINAFTOHAZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "\"Stryinaftohaz\" LLC." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

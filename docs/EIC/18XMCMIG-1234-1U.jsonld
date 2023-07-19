@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XMCMIG-1234-1U",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XMCMIG-1234-1U",
+    "@skos:prefLabel": "MIQUEL Y COSTAS MIQUEL, S.A.",
+    "@skos:altLabel": "MCMIG",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Production Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XMCMIG-1234-1U",
+    "@cim:IdentifiedObject.name": "MIQUEL Y COSTAS MIQUEL, S.A.",
+    "@cim:Names.name": [
+        "MCMIG",
+        "ESA08020729",
+        "Production Responsible party"
+    ],
+    "@cim:IdentifiedObject.description": "Production Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2008-11-03",
+    "@schema:vatID": "ESA08020729",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/45X000000000076W">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:45X000000000076W</dcterms:identifier>
+    <skos:prefLabel>Better Energy A/S</skos:prefLabel>
+    <skos:altLabel>BETTER_ENERGY</skos:altLabel>
+    <skos:definition xml:lang="en">The VAT code is approved at the Danish registry  and checked by the danish LIO, https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&amp;id=31865883&amp;soeg=31865883&amp;language=da. </skos:definition>
+    <cim:IdentifiedObject.mRID>45X000000000076W</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Better Energy A/S</cim:IdentifiedObject.name>
+    <cim:Names.name>BETTER_ENERGY</cim:Names.name>
+    <cim:Names.name>DK31865883</cim:Names.name>
+    <cim:IdentifiedObject.description>The VAT code is approved at the Danish registry  and checked by the danish LIO, https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&amp;id=31865883&amp;soeg=31865883&amp;language=da. </cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2020-11-18</cim:DateAndOrTime.date>
+    <cim:Names.name>Producer</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>DK31865883</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

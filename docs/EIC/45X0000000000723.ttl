@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X0000000000723> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-08-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Biomethane Trader" ;
+    cim:IdentifiedObject.mRID "45X0000000000723" ;
+    cim:IdentifiedObject.name "Biogas Express AS" ;
+    cim:Names.name "BIOGASEXPRESS",
+        "DK38636685",
+        "Network User" ;
+    dcterms:identifier "urn:eic:45X0000000000723" ;
+    schema1:vatID "DK38636685" ;
+    skos:altLabel "BIOGASEXPRESS" ;
+    skos:definition "Biomethane Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Biogas Express AS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

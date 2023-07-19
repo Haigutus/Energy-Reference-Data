@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X20140401----4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-08-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "22X20140401----4" ;
+    cim:IdentifiedObject.name "ACT Commodities B.V" ;
+    cim:Names.name "BE_ACT",
+        "NL820413537B01",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:22X20140401----4" ;
+    schema1:vatID "NL820413537B01" ;
+    skos:altLabel "BE_ACT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ACT Commodities B.V" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

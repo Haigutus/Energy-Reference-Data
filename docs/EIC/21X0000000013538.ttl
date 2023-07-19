@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X0000000013538> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-07-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "System Operator" ;
+    cim:IdentifiedObject.mRID "21X0000000013538" ;
+    cim:IdentifiedObject.name "EUROPE MAGHREB PIPELINE LIMITED" ;
+    cim:Names.name "EMPL",
+        "ESG83847772",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:21X0000000013538" ;
+    schema1:vatID "ESG83847772" ;
+    skos:altLabel "EMPL" ;
+    skos:definition "System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EUROPE MAGHREB PIPELINE LIMITED" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

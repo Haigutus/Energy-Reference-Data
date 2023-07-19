@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19XOSDN-PZLS-SA6",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19XOSDN-PZLS-SA6",
+    "@skos:prefLabel": "WYTWÓRNIA SPRZĘTU KOMUNIKACYJNEGO „PZL-ŚWIDNIK„ SPÓŁKA AKCYJNA",
+    "@skos:altLabel": "PZL-SWIDNIK-SA",
+    "@cim:IdentifiedObject.mRID": "19XOSDN-PZLS-SA6",
+    "@cim:IdentifiedObject.name": "WYTWÓRNIA SPRZĘTU KOMUNIKACYJNEGO „PZL-ŚWIDNIK„ SPÓŁKA AKCYJNA",
+    "@cim:Names.name": [
+        "PZL-SWIDNIK-SA",
+        "A00116694.PL",
+        "PL7130005502",
+        "Energy Supplier",
+        "Metered Data Responsible",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "System Operator"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-12-21",
+    "@schema:vatID": "PL7130005502",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

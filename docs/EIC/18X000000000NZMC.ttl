@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000NZMC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000NZMC" ;
+    cim:IdentifiedObject.name "MAGEC ECO ENERGY, S.L." ;
+    cim:Names.name "ES-MAGEC",
+        "ESB67885517",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000NZMC" ;
+    schema1:vatID "ESB67885517" ;
+    skos:altLabel "ES-MAGEC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MAGEC ECO ENERGY, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

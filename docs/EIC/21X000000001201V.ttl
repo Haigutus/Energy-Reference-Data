@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001201V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-03-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "21X000000001201V" ;
+    cim:IdentifiedObject.name "ArcelorMittal Bremen GmbH" ;
+    cim:Names.name "ARCELORMITTALBRE",
+        "Consumption Responsible Party",
+        "DE811119214" ;
+    dcterms:identifier "urn:eic:21X000000001201V" ;
+    schema1:vatID "DE811119214" ;
+    skos:altLabel "ARCELORMITTALBRE" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ArcelorMittal Bremen GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

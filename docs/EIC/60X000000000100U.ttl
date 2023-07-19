@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000100U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000100U" ;
+    cim:IdentifiedObject.name "OILOPROD IMPEX SRL" ;
+    cim:Names.name "OILOPROD",
+        "RO15896821",
+        "Resource Provider" ;
+    dcterms:identifier "urn:eic:60X000000000100U" ;
+    schema1:vatID "RO15896821" ;
+    skos:altLabel "OILOPROD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OILOPROD IMPEX SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

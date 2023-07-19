@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XINEOSENERGY-D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "55XINEOSENERGY-D" ;
+    cim:IdentifiedObject.name "INEOS Energy Trading Limited" ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "GB284368371",
+        "INEOSENERGY" ;
+    dcterms:identifier "urn:eic:55XINEOSENERGY-D" ;
+    schema1:vatID "GB284368371" ;
+    skos:altLabel "INEOSENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "INEOS Energy Trading Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

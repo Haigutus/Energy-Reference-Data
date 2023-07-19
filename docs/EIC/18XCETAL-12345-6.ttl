@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCETAL-12345-6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-10-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XCETAL-12345-6" ;
+    cim:IdentifiedObject.name "COMERCIALIZADORA ELECTRICA TALAYUELAS S.L." ;
+    cim:Names.name "CETAL",
+        "ESB16322042",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XCETAL-12345-6" ;
+    schema1:vatID "ESB16322042" ;
+    skos:altLabel "CETAL" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COMERCIALIZADORA ELECTRICA TALAYUELAS S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

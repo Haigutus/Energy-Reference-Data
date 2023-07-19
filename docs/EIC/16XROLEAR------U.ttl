@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XROLEAR------U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-08-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacity Trader" ;
+    cim:IdentifiedObject.mRID "16XROLEAR------U" ;
+    cim:IdentifiedObject.name "Rolear â€“ Automatizacoes, Estudos e Represantacoes, S.A." ;
+    cim:Names.name "Capacity Trader",
+        "PT500883750",
+        "ROLEAR" ;
+    dcterms:identifier "urn:eic:16XROLEAR------U" ;
+    schema1:vatID "PT500883750" ;
+    skos:altLabel "ROLEAR" ;
+    skos:definition "Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Rolear â€“ Automatizacoes, Estudos e Represantacoes, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

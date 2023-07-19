@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCENAR-12345-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-05-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XCENAR-12345-I" ;
+    cim:IdentifiedObject.name "SISTEMAS ENERGÉTICOS EL CENTENAR, S.A.U" ;
+    cim:Names.name "CENAR",
+        "ESA91553040",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XCENAR-12345-I" ;
+    schema1:vatID "ESA91553040" ;
+    skos:altLabel "CENAR" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SISTEMAS ENERGÉTICOS EL CENTENAR, S.A.U" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

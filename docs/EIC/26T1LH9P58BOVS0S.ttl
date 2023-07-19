@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26T1LH9P58BOVS0S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26T1LH9P58BOVS0S" ;
+    cim:IdentifiedObject.name "ATR-CERIGNOLA SE - ATR 1 150/380 KV" ;
+    cim:Names.name "ATR-73015491",
+        "Transformer" ;
+    dcterms:identifier "urn:eic:26T1LH9P58BOVS0S" ;
+    skos:altLabel "ATR-73015491" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ATR-CERIGNOLA SE - ATR 1 150/380 KV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

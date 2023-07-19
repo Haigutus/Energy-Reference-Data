@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XALTG20090219V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-02-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "PRODUCTION OF AIR GASES (OXYGEN, NITROGEN, ARGON) AND HYDROGEN" ;
+    cim:IdentifiedObject.mRID "22XALTG20090219V" ;
+    cim:IdentifiedObject.name "AIR LIQUIDE TECHNISCHE GASSEN BV" ;
+    cim:Names.name "BE_ALTG",
+        "Consumer",
+        "NL009017987B01" ;
+    dcterms:identifier "urn:eic:22XALTG20090219V" ;
+    schema1:vatID "NL009017987B01" ;
+    skos:altLabel "BE_ALTG" ;
+    skos:definition "PRODUCTION OF AIR GASES (OXYGEN, NITROGEN, ARGON) AND HYDROGEN"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AIR LIQUIDE TECHNISCHE GASSEN BV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

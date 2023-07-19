@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28X000000000062U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "28X000000000062U" ;
+    cim:IdentifiedObject.name "CASTIS D.O.O" ;
+    cim:Names.name "CASTIS",
+        "SI76671372",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:28X000000000062U" ;
+    schema1:vatID "SI76671372" ;
+    skos:altLabel "CASTIS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CASTIS D.O.O" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22V20210701P---8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-07-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Elia ECP End Point for ATOM OPDE network (production)" ;
+    cim:IdentifiedObject.mRID "22V20210701P---8" ;
+    cim:IdentifiedObject.name "Elia ECP ATOM OPDE production " ;
+    cim:Names.name "BE_ECP_ATOMPRO",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:22V20210701P---8" ;
+    skos:altLabel "BE_ECP_ATOMPRO" ;
+    skos:definition "Elia ECP End Point for ATOM OPDE network (production)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Elia ECP ATOM OPDE production " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

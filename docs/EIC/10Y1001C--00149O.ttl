@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--00149O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-03-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "This new border area is required to identify the Technical Profile between Control Area Switzerland and the adjacent Control Areas of Austria, Germany (Amprion, TransnetBW), France and ltaly" ;
+    cim:IdentifiedObject.mRID "10Y1001C--00149O" ;
+    cim:IdentifiedObject.name "Technical Profile between CH and adjacent areas of AT, DE, FR, IT" ;
+    cim:Names.name "Border Area",
+        "CH-2-ADFI-AREA" ;
+    dcterms:identifier "urn:eic:10Y1001C--00149O" ;
+    skos:altLabel "CH-2-ADFI-AREA" ;
+    skos:definition "This new border area is required to identify the Technical Profile between Control Area Switzerland and the adjacent Control Areas of Austria, Germany (Amprion, TransnetBW), France and ltaly"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Technical Profile between CH and adjacent areas of AT, DE, FR, IT" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/27XEUROWATT-COM8",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:27XEUROWATT-COM8",
+    "@skos:prefLabel": "EUROWATT-COMMERCE, s.r.o.",
+    "@skos:altLabel": "EUROWATT-COM",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Electricity Trading"
+    },
+    "@cim:IdentifiedObject.mRID": "27XEUROWATT-COM8",
+    "@cim:IdentifiedObject.name": "EUROWATT-COMMERCE, s.r.o.",
+    "@cim:Names.name": [
+        "EUROWATT-COM",
+        "CZ27397661",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Electricity Trading",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@schema:vatID": "CZ27397661",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

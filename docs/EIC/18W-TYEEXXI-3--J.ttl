@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18W-TYEEXXI-3--J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18W-TYEEXXI-3--J" ;
+    cim:IdentifiedObject.name "END CUR  ( TARIFA, TERMICA NO " ;
+    cim:Names.name "Generation Unit",
+        "TYEEXXIF" ;
+    dcterms:identifier "urn:eic:18W-TYEEXXI-3--J" ;
+    skos:altLabel "TYEEXXIF" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "END CUR  ( TARIFA, TERMICA NO " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

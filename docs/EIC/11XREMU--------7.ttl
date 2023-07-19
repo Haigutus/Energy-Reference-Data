@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XREMU--------7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-15" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Energiehandel Und Lieferung An Kunden" ;
+    cim:IdentifiedObject.mRID "11XREMU--------7" ;
+    cim:IdentifiedObject.name "Remu Energy Trade" ;
+    cim:Names.name "DE218677956",
+        "REMU",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:11XREMU--------7" ;
+    schema1:vatID "DE218677956" ;
+    skos:altLabel "REMU" ;
+    skos:definition "Energiehandel Und Lieferung An Kunden"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Remu Energy Trade" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

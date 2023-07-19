@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58X--DEXIA-----W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-08-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User" ;
+    cim:IdentifiedObject.mRID "58X--DEXIA-----W" ;
+    cim:IdentifiedObject.name "Dexia Bulgaria OOD" ;
+    cim:Names.name "BG200766022",
+        "DEXIA_BULGARIA",
+        "Network User" ;
+    dcterms:identifier "urn:eic:58X--DEXIA-----W" ;
+    schema1:vatID "BG200766022" ;
+    skos:altLabel "DEXIA_BULGARIA" ;
+    skos:definition "Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Dexia Bulgaria OOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

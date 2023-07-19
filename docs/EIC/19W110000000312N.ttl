@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19W110000000312N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "W najbliższym czasie uruchomiona zostanie farma fotowoltaiczna PV Zwartowo, która jest przyłączona do sieci OSP, a jej moc wynosi 145 MW. Rozumiem, że ze względu na moc musi zostać nadany kod EIC w celu publikacji MWE na ENTSO.  " ;
+    cim:IdentifiedObject.mRID "19W110000000312N" ;
+    cim:IdentifiedObject.name "PV Zwartowo" ;
+    cim:Names.name "Production Unit",
+        "ZWA_1P03" ;
+    dcterms:identifier "urn:eic:19W110000000312N" ;
+    skos:altLabel "ZWA_1P03" ;
+    skos:definition "W najbliższym czasie uruchomiona zostanie farma fotowoltaiczna PV Zwartowo, która jest przyłączona do sieci OSP, a jej moc wynosi 145 MW. Rozumiem, że ze względu na moc musi zostać nadany kod EIC w celu publikacji MWE na ENTSO.  "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PV Zwartowo" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

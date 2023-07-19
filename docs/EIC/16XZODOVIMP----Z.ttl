@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XZODOVIMP----Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XZODOVIMP----Z" ;
+    cim:IdentifiedObject.name "Zodivimp LDA" ;
+    cim:Names.name "PT515493848",
+        "Trade Responsible Party",
+        "ZODIVIMP" ;
+    dcterms:identifier "urn:eic:16XZODOVIMP----Z" ;
+    schema1:vatID "PT515493848" ;
+    skos:altLabel "ZODIVIMP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Zodivimp LDA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

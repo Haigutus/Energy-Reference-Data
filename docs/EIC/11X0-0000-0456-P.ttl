@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X0-0000-0456-P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11X0-0000-0456-P" ;
+    cim:IdentifiedObject.name "Stadt- und Überlandwerke GmbH Lübben" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE138859601",
+        "SWLUEBBEN" ;
+    dcterms:identifier "urn:eic:11X0-0000-0456-P" ;
+    schema1:vatID "DE138859601" ;
+    skos:altLabel "SWLUEBBEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadt- und Überlandwerke GmbH Lübben" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

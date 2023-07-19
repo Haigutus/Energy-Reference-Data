@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/36XEPHZHBMOSTARI> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "36XEPHZHBMOSTARI" ;
+    cim:IdentifiedObject.name "JP Elektroprivreda HZHB d.d. Mostar" ;
+    cim:Names.name "4227248350007",
+        "Balance Responsible Party",
+        "EPHZHB" ;
+    dcterms:identifier "urn:eic:36XEPHZHBMOSTARI" ;
+    schema1:vatID "4227248350007" ;
+    skos:altLabel "EPHZHB" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "JP Elektroprivreda HZHB d.d. Mostar" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

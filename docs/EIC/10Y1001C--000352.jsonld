@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10Y1001C--000352",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10Y1001C--000352",
+    "@skos:prefLabel": "Germany-Luxembourg-Sweden 4 Border",
+    "@skos:altLabel": "DE-LU-SE4",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Germany-Luxembourg-Sweden 4 Border"
+    },
+    "@cim:IdentifiedObject.mRID": "10Y1001C--000352",
+    "@cim:IdentifiedObject.name": "Germany-Luxembourg-Sweden 4 Border",
+    "@cim:Names.name": [
+        "DE-LU-SE4",
+        "Border Area"
+    ],
+    "@cim:IdentifiedObject.description": "Germany-Luxembourg-Sweden 4 Border",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-10-01",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

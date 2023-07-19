@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/46X000000000028S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "46X000000000028S" ;
+    cim:IdentifiedObject.name "Primrock AB" ;
+    cim:Names.name "Balancing Service Provider",
+        "PRIMROCK_AB",
+        "SE559172270601" ;
+    dcterms:identifier "urn:eic:46X000000000028S" ;
+    schema1:vatID "SE559172270601" ;
+    skos:altLabel "PRIMROCK_AB" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Primrock AB" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

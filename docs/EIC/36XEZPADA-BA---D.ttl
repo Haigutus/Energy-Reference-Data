@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/36XEZPADA-BA---D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "36XEZPADA-BA---D" ;
+    cim:IdentifiedObject.name "Ezpada d.o.o." ;
+    cim:Names.name "4227480680005",
+        "EZPADA-BA",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:36XEZPADA-BA---D" ;
+    schema1:vatID "4227480680005" ;
+    skos:altLabel "EZPADA-BA" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Ezpada d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

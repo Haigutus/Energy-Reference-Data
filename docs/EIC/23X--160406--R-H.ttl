@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160406--R-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-04-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User" ;
+    cim:IdentifiedObject.mRID "23X--160406--R-H" ;
+    cim:IdentifiedObject.name "UAB ROALSA" ;
+    cim:Names.name "LT357650515",
+        "Network User",
+        "ROALSA" ;
+    dcterms:identifier "urn:eic:23X--160406--R-H" ;
+    schema1:vatID "LT357650515" ;
+    skos:altLabel "ROALSA" ;
+    skos:definition "Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB ROALSA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23XVNGAG-------P",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23XVNGAG-------P",
+    "@skos:prefLabel": "VNG Handel & Vertrieb GmbH",
+    "@skos:altLabel": "VNG_HANDEL_V",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Spin-off of activities from one entity (VNG AG) to the other (VNG Handel & Vertrieb GmbH). Checked and agreed between CIO, LIO and Counterparties in February 2018. "
+    },
+    "@cim:IdentifiedObject.mRID": "23XVNGAG-------P",
+    "@cim:IdentifiedObject.name": "VNG Handel & Vertrieb GmbH",
+    "@cim:Names.name": [
+        "VNG_HANDEL_V",
+        "DE141628049",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Spin-off of activities from one entity (VNG AG) to the other (VNG Handel & Vertrieb GmbH). Checked and agreed between CIO, LIO and Counterparties in February 2018. ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-10-10",
+    "@schema:vatID": "DE141628049",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

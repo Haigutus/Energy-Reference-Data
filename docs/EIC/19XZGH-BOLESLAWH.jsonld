@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19XZGH-BOLESLAWH",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19XZGH-BOLESLAWH",
+    "@skos:prefLabel": "Zaklady Gorniczo-Hutnicze Boleslaw S.A.",
+    "@skos:altLabel": "ZGH_BOLESLAW_SA",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "19XZGH-BOLESLAWH",
+    "@cim:IdentifiedObject.name": "Zaklady Gorniczo-Hutnicze Boleslaw S.A.",
+    "@cim:Names.name": [
+        "ZGH_BOLESLAW_SA",
+        "PL6370102196",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2011-12-07",
+    "@schema:vatID": "PL6370102196",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

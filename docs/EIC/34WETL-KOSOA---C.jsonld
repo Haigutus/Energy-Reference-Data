@@ -1,0 +1,35 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/34WETL-KOSOA---C",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:34WETL-KOSOA---C",
+    "@skos:prefLabel": "TPP Kosovo A",
+    "@skos:altLabel": "RSTPP_KOSOA",
+    "@cim:IdentifiedObject.mRID": "34WETL-KOSOA---C",
+    "@cim:IdentifiedObject.name": "TPP Kosovo A",
+    "@cim:Names.name": [
+        "RSTPP_KOSOA",
+        "Production Plant"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-12-24",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

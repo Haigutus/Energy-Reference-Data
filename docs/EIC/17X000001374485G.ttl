@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000001374485G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Corporate Investment Banking" ;
+    cim:IdentifiedObject.mRID "17X000001374485G" ;
+    cim:IdentifiedObject.name "NATIXIS" ;
+    cim:Names.name "A00055949.FR",
+        "Balance Responsible Party",
+        "Capacity Trader",
+        "FR73542044524",
+        "FR_NATIXIS",
+        "Imbalance Settlement Responsible",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:17X000001374485G" ;
+    schema1:vatID "FR73542044524" ;
+    skos:altLabel "FR_NATIXIS" ;
+    skos:definition "Corporate Investment Banking"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NATIXIS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000004PSW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-04-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000004PSW" ;
+    cim:IdentifiedObject.name "Forum Energia, S.L." ;
+    cim:Names.name "Capacity Trader",
+        "ESB87811493",
+        "FORUM",
+        "Production Responsible party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X0000000004PSW" ;
+    schema1:vatID "ESB87811493" ;
+    skos:altLabel "FORUM" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Forum Energia, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

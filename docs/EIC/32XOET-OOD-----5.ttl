@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32XOET-OOD-----5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2007-08-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32XOET-OOD-----5" ;
+    cim:IdentifiedObject.name "OET - OBEDINENI ENERGIINI TARGOVCI - OOD" ;
+    cim:Names.name "BG123729929",
+        "Balance Responsible Party",
+        "OET_OOD" ;
+    dcterms:identifier "urn:eic:32XOET-OOD-----5" ;
+    schema1:vatID "BG123729929" ;
+    skos:altLabel "OET_OOD" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OET - OBEDINENI ENERGIINI TARGOVCI - OOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58ZC084P02PVDN-S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58ZC084P02PVDN-S" ;
+    cim:IdentifiedObject.name "AGRS Plovdiv Sever C084P02" ;
+    cim:Names.name "Metering Point",
+        "PLVDSEVC084P02" ;
+    dcterms:identifier "urn:eic:58ZC084P02PVDN-S" ;
+    skos:altLabel "PLVDSEVC084P02" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AGRS Plovdiv Sever C084P02" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

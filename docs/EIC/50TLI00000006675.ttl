@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50TLI00000006675> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50TLI00000006675" ;
+    cim:IdentifiedObject.name "S 132 Solbergfoss-F.K.F." ;
+    cim:Names.name "Internal Line",
+        "NO-SOLBERGFOSSF_" ;
+    dcterms:identifier "urn:eic:50TLI00000006675" ;
+    skos:altLabel "NO-SOLBERGFOSSF_" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S 132 Solbergfoss-F.K.F." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

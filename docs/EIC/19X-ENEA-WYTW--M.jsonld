@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19X-ENEA-WYTW--M",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19X-ENEA-WYTW--M",
+    "@skos:prefLabel": "ENEA WYTWARZANIE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "@skos:altLabel": "ENEA_WYTWARZANIE",
+    "@cim:IdentifiedObject.mRID": "19X-ENEA-WYTW--M",
+    "@cim:IdentifiedObject.name": "ENEA WYTWARZANIE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "@cim:Names.name": [
+        "ENEA_WYTWARZANIE",
+        "PL8120005470",
+        "Balance Responsible Party",
+        "Producer"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-10-25",
+    "@schema:vatID": "PL8120005470",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

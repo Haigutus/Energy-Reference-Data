@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/41XINTERRAOLT02Y",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:41XINTERRAOLT02Y",
+    "@skos:prefLabel": "UAB INTER RAO Lietuva",
+    "@skos:altLabel": "INTERRAOLT02",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Supplier, Trade Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "41XINTERRAOLT02Y",
+    "@cim:IdentifiedObject.name": "UAB INTER RAO Lietuva",
+    "@cim:Names.name": [
+        "INTERRAOLT02",
+        "LT261199113",
+        "Trade Responsible Party",
+        "Energy Supplier"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Supplier, Trade Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2011-04-07",
+    "@schema:vatID": "LT261199113",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

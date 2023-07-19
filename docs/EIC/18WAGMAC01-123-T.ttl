@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WAGMAC01-123-T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WAGMAC01-123-T" ;
+    cim:IdentifiedObject.name "AGUAS DE MARQUESADO" ;
+    cim:Names.name "AGMAC01",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18WAGMAC01-123-T" ;
+    skos:altLabel "AGMAC01" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AGUAS DE MARQUESADO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

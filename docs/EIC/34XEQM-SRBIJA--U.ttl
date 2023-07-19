@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34XEQM-SRBIJA--U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-10-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "34XEQM-SRBIJA--U" ;
+    cim:IdentifiedObject.name "EQM d.o.o. Pirot" ;
+    cim:Names.name "104987998",
+        "EQMP",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:34XEQM-SRBIJA--U" ;
+    schema1:vatID "104987998" ;
+    skos:altLabel "EQMP" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EQM d.o.o. Pirot" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

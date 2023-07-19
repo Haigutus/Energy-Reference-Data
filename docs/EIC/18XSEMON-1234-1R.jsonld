@@ -1,0 +1,37 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XSEMON-1234-1R",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XSEMON-1234-1R",
+    "@skos:prefLabel": "SISTEMAS ENERGÉTICOS MONCAYO, S.A.",
+    "@skos:altLabel": "SEM",
+    "@cim:IdentifiedObject.mRID": "18XSEMON-1234-1R",
+    "@cim:IdentifiedObject.name": "SISTEMAS ENERGÉTICOS MONCAYO, S.A.",
+    "@cim:Names.name": [
+        "SEM",
+        "ESA42148254",
+        "Production Responsible party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-10-09",
+    "@schema:vatID": "ESA42148254",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

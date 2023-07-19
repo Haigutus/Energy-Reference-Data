@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XZANDVLIET-P-F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-02-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "22XZANDVLIET-P-F" ;
+    cim:IdentifiedObject.name "ZANDVLIET POWER NV" ;
+    cim:Names.name "BE0477543470",
+        "BE_ZANDVLIET",
+        "Producer" ;
+    dcterms:identifier "urn:eic:22XZANDVLIET-P-F" ;
+    schema1:vatID "BE0477543470" ;
+    skos:altLabel "BE_ZANDVLIET" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZANDVLIET POWER NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

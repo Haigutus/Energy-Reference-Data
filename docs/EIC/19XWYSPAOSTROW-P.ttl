@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XWYSPAOSTROW-P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XWYSPAOSTROW-P" ;
+    cim:IdentifiedObject.name "PSSE MEDIA OPERATOR SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    cim:Names.name "Balance Responsible Party",
+        "PL5832992983",
+        "PSSEMO" ;
+    dcterms:identifier "urn:eic:19XWYSPAOSTROW-P" ;
+    schema1:vatID "PL5832992983" ;
+    skos:altLabel "PSSEMO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PSSE MEDIA OPERATOR SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

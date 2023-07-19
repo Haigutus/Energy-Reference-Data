@@ -1,0 +1,24 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/23X--140120-IPM4">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:23X--140120-IPM4</dcterms:identifier>
+    <skos:prefLabel>ENGIE UK Markets Limited</skos:prefLabel>
+    <skos:altLabel>ENGIE_UK_MARKETS</skos:altLabel>
+    <skos:definition xml:lang="en">The reason for the change in VAT number is that IPM Energy Trading Limited&#8217;s ownership structure changed in December 2017 (IPM Energy Trading Limited&#8217;s parent changed from IPM Holdings (UK) Limited to IP Karugamo Holdings (UK) Limited). Therefore, IPM Energy Trading Limited had to move from the previous VAT group (GB905087039) to the current VAT group (GB 750 0439 60). Since then there have not been any further VAT group changes and it is not something that is changed regularly. The changes to IPM Energy Trading Limited&#8217;s ownership structure at that time can be verified on Companies House, along with the recent name change to ENGIE UK Markets Limited.  All necessary documents has been submi</skos:definition>
+    <cim:IdentifiedObject.mRID>23X--140120-IPM4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ENGIE UK Markets Limited</cim:IdentifiedObject.name>
+    <cim:Names.name>ENGIE_UK_MARKETS</cim:Names.name>
+    <cim:Names.name>A0000133T.UK</cim:Names.name>
+    <cim:Names.name>GB750043960</cim:Names.name>
+    <cim:IdentifiedObject.description>The reason for the change in VAT number is that IPM Energy Trading Limited&#8217;s ownership structure changed in December 2017 (IPM Energy Trading Limited&#8217;s parent changed from IPM Holdings (UK) Limited to IP Karugamo Holdings (UK) Limited). Therefore, IPM Energy Trading Limited had to move from the previous VAT group (GB905087039) to the current VAT group (GB 750 0439 60). Since then there have not been any further VAT group changes and it is not something that is changed regularly. The changes to IPM Energy Trading Limited&#8217;s ownership structure at that time can be verified on Companies House, along with the recent name change to ENGIE UK Markets Limited.  All necessary documents has been submi</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2020-10-26</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <cim:Names.name>Trade Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>GB750043960</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

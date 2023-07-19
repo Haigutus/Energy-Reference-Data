@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001939-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-06-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Balance Supplier" ;
+    cim:IdentifiedObject.mRID "12X-0000001939-9" ;
+    cim:IdentifiedObject.name "E6 SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE292034166",
+        "E6-SA-ST",
+        "Energy Supplier" ;
+    dcterms:identifier "urn:eic:12X-0000001939-9" ;
+    schema1:vatID "CHE292034166" ;
+    skos:altLabel "E6-SA-ST" ;
+    skos:definition "Balance Responsible Party, Balance Supplier"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E6 SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XUSK---------Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer - Steel Making (Sk: Vyroba Ocele)" ;
+    cim:IdentifiedObject.mRID "24XUSK---------Y" ;
+    cim:IdentifiedObject.name "U. S. Steel Kosice, s.r.o." ;
+    cim:Names.name "SK2020052837",
+        "USSKE",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:24XUSK---------Y" ;
+    schema1:vatID "SK2020052837" ;
+    skos:altLabel "USSKE" ;
+    skos:definition "Consumer - Steel Making (Sk: Vyroba Ocele)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "U. S. Steel Kosice, s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

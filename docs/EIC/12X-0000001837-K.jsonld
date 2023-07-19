@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/12X-0000001837-K",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:12X-0000001837-K",
+    "@skos:prefLabel": "RestTel GmbH",
+    "@skos:altLabel": "REST-TEL-GMBH-ST",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Group"
+    },
+    "@cim:IdentifiedObject.mRID": "12X-0000001837-K",
+    "@cim:IdentifiedObject.name": "RestTel GmbH",
+    "@cim:Names.name": [
+        "REST-TEL-GMBH-ST",
+        "CH754747",
+        "Balance Group"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Group",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2011-04-01",
+    "@schema:vatID": "CH754747",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

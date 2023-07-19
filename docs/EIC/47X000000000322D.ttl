@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47X000000000322D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "47X000000000322D" ;
+    cim:IdentifiedObject.name "Glencarbry Windfarm Limited" ;
+    cim:Names.name "IE322D",
+        "IE9518779M",
+        "Production Responsible party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:47X000000000322D" ;
+    schema1:vatID "IE9518779M" ;
+    skos:altLabel "IE322D" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Glencarbry Windfarm Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

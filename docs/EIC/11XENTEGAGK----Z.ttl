@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XENTEGAGK----Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-30" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XENTEGAGK----Z" ;
+    cim:IdentifiedObject.name "ENTEGA Energie GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE813810149",
+        "ENTGK" ;
+    dcterms:identifier "urn:eic:11XENTEGAGK----Z" ;
+    schema1:vatID "DE813810149" ;
+    skos:altLabel "ENTGK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENTEGA Energie GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

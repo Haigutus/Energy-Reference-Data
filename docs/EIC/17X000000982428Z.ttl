@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000000982428Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "17X000000982428Z" ;
+    cim:IdentifiedObject.name "GreenYellow Energy Supply and Services France" ;
+    cim:Names.name "Energy Supplier",
+        "FR67853869840",
+        "FR_GYESSFR" ;
+    dcterms:identifier "urn:eic:17X000000982428Z" ;
+    schema1:vatID "FR67853869840" ;
+    skos:altLabel "FR_GYESSFR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GreenYellow Energy Supply and Services France" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

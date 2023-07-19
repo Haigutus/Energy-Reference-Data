@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10T1001C--00037V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10T1001C--00037V" ;
+    cim:IdentifiedObject.name "Vöhringen-Westtirol-Kempten Au Transformer" ;
+    cim:Names.name "Tieline",
+        "Transformer",
+        "VOER-WEST-KEMP" ;
+    dcterms:identifier "urn:eic:10T1001C--00037V" ;
+    skos:altLabel "VOER-WEST-KEMP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vöhringen-Westtirol-Kempten Au Transformer" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

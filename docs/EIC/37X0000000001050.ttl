@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37X0000000001050> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-13" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "37X0000000001050" ;
+    cim:IdentifiedObject.name "Biogas Barleben-Ebendorf GmbH & Co. KG" ;
+    cim:Names.name "BIOGAS_BARLEBEN",
+        "DE244328901" ;
+    dcterms:identifier "urn:eic:37X0000000001050" ;
+    schema1:vatID "DE244328901" ;
+    skos:altLabel "BIOGAS_BARLEBEN" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Biogas Barleben-Ebendorf GmbH & Co. KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

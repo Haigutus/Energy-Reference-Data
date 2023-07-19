@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18W000000000HGQP> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18W000000000HGQP" ;
+    cim:IdentifiedObject.name "P.E. TIRAPU" ;
+    cim:Names.name "Generation Unit",
+        "TIRAPU" ;
+    dcterms:identifier "urn:eic:18W000000000HGQP" ;
+    skos:altLabel "TIRAPU" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "P.E. TIRAPU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

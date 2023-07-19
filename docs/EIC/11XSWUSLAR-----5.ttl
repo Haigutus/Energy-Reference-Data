@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWUSLAR-----5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-08-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSWUSLAR-----5" ;
+    cim:IdentifiedObject.name "Stadtwerke Uslar GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE225099610",
+        "SWUSLAR" ;
+    dcterms:identifier "urn:eic:11XSWUSLAR-----5" ;
+    schema1:vatID "DE225099610" ;
+    skos:altLabel "SWUSLAR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Uslar GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

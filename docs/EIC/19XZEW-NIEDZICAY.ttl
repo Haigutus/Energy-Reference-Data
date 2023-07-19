@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XZEW-NIEDZICAY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XZEW-NIEDZICAY" ;
+    cim:IdentifiedObject.name "ZESPÓŁ ELEKTROWNI WODNYCH NIEDZICA SPÓŁKA AKCYJNA" ;
+    cim:Names.name "Consumer",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PL7352055446",
+        "Producer",
+        "System Operator",
+        "ZEW_NIEDZICA_SA" ;
+    dcterms:identifier "urn:eic:19XZEW-NIEDZICAY" ;
+    schema1:vatID "PL7352055446" ;
+    skos:altLabel "ZEW_NIEDZICA_SA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZESPÓŁ ELEKTROWNI WODNYCH NIEDZICA SPÓŁKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

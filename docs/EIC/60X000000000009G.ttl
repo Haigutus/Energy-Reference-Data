@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000009G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Distribution System Operator" ;
+    cim:IdentifiedObject.mRID "60X000000000009G" ;
+    cim:IdentifiedObject.name "SC CORDUN GAZ SA" ;
+    cim:Names.name "CORDUNG",
+        "Distribution System Operator",
+        "RO14674746" ;
+    dcterms:identifier "urn:eic:60X000000000009G" ;
+    schema1:vatID "RO14674746" ;
+    skos:altLabel "CORDUNG" ;
+    skos:definition "Distribution System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SC CORDUN GAZ SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

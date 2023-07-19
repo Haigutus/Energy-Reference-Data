@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X100A100R039MC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "17X100A100R039MC" ;
+    cim:IdentifiedObject.name "KEM ONE" ;
+    cim:Names.name "Balance Responsible Party",
+        "FR45538695040",
+        "FR_KEMONE" ;
+    dcterms:identifier "urn:eic:17X100A100R039MC" ;
+    schema1:vatID "FR45538695040" ;
+    skos:altLabel "FR_KEMONE" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KEM ONE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

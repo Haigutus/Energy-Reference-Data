@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10Y1001C--000263",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10Y1001C--000263",
+    "@skos:prefLabel": "Interconnector area IFA2",
+    "@skos:altLabel": "IF2-AREA",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Interconnector area IFA2 between France and the United Kingdom"
+    },
+    "@cim:IdentifiedObject.mRID": "10Y1001C--000263",
+    "@cim:IdentifiedObject.name": "Interconnector area IFA2",
+    "@cim:Names.name": [
+        "IF2-AREA",
+        "Scheduling Area"
+    ],
+    "@cim:IdentifiedObject.description": "Interconnector area IFA2 between France and the United Kingdom",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-04-05",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

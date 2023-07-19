@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XMSIL--------7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2006-04-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Investment Bank" ;
+    cim:IdentifiedObject.mRID "22XMSIL--------7" ;
+    cim:IdentifiedObject.name "MORGAN STANLEY & Co INTERNATIONAL LIMITED" ;
+    cim:Names.name "BE_MSIL",
+        "GB524252668",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:22XMSIL--------7" ;
+    schema1:vatID "GB524252668" ;
+    skos:altLabel "BE_MSIL" ;
+    skos:definition "Investment Bank"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MORGAN STANLEY & Co INTERNATIONAL LIMITED" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

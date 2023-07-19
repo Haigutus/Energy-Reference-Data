@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28X000000000051Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-02-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "28X000000000051Z" ;
+    cim:IdentifiedObject.name "SIJ RAVNE SYSTEMS D.O.O." ;
+    cim:Names.name "Consumer",
+        "SI75949504",
+        "SIJRAVNESYSTEMS" ;
+    dcterms:identifier "urn:eic:28X000000000051Z" ;
+    schema1:vatID "SI75949504" ;
+    skos:altLabel "SIJRAVNESYSTEMS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SIJ RAVNE SYSTEMS D.O.O." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

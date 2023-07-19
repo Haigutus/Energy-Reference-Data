@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X051756702890Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X051756702890Q" ;
+    cim:IdentifiedObject.name "FACILE.ENERGY S.R.L." ;
+    cim:Names.name "A00158430.IT",
+        "IT-FACILEENERGYS",
+        "IT05175670289",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:26X051756702890Q" ;
+    schema1:vatID "IT05175670289" ;
+    skos:altLabel "IT-FACILEENERGYS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FACILE.ENERGY S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

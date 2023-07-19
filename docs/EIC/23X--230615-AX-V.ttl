@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--230615-AX-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "EIN: confirmed by documentation of IRS - Department of the Treasury, Internal Revenue Service, Cincinnati, USA" ;
+    cim:IdentifiedObject.mRID "23X--230615-AX-V" ;
+    cim:IdentifiedObject.name "Alphataraxia Xenon LLC" ;
+    cim:Names.name "931877954",
+        "ALPHATARAXIA_XEN",
+        "Imbalance Settlement Responsible",
+        "Interconnection Trade Responsible" ;
+    dcterms:identifier "urn:eic:23X--230615-AX-V" ;
+    schema1:vatID "931877954" ;
+    skos:altLabel "ALPHATARAXIA_XEN" ;
+    skos:definition "EIN: confirmed by documentation of IRS - Department of the Treasury, Internal Revenue Service, Cincinnati, USA"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Alphataraxia Xenon LLC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

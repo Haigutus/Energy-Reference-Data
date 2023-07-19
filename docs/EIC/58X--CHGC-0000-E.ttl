@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58X--CHGC-0000-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58X--CHGC-0000-E" ;
+    cim:IdentifiedObject.name "Chernomorska Gazova Kompania EOOD" ;
+    cim:Names.name "BG125513232",
+        "CHERNOMORSKA-GK",
+        "Consumer",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:58X--CHGC-0000-E" ;
+    schema1:vatID "BG125513232" ;
+    skos:altLabel "CHERNOMORSKA-GK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Chernomorska Gazova Kompania EOOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

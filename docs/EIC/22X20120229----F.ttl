@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X20120229----F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-02-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Operator" ;
+    cim:IdentifiedObject.mRID "22X20120229----F" ;
+    cim:IdentifiedObject.name "ASSOCIATION INTERCOMMUNALE D'ETUDE ET D'EXPLOITATION D'ELECTRICITE ET" ;
+    cim:Names.name "BE0202555004",
+        "BE_AIEG",
+        "Grid Operator" ;
+    dcterms:identifier "urn:eic:22X20120229----F" ;
+    schema1:vatID "BE0202555004" ;
+    skos:altLabel "BE_AIEG" ;
+    skos:definition "Grid Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ASSOCIATION INTERCOMMUNALE D'ETUDE ET D'EXPLOITATION D'ELECTRICITE ET" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

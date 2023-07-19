@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28XMEGAWAT-----T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-06-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "28XMEGAWAT-----T" ;
+    cim:IdentifiedObject.name "Megawatt d.o.o." ;
+    cim:Names.name "Consumer",
+        "MEGAWATT",
+        "SI20085125" ;
+    dcterms:identifier "urn:eic:28XMEGAWAT-----T" ;
+    schema1:vatID "SI20085125" ;
+    skos:altLabel "MEGAWATT" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Megawatt d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

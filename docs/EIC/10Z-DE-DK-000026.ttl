@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-DE-DK-000026> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-DE-DK-000026" ;
+    cim:IdentifiedObject.name "Jardelund-Kassoe 2" ;
+    cim:Names.name "Accounting Point",
+        "M_JARD-KASO2" ;
+    dcterms:identifier "urn:eic:10Z-DE-DK-000026" ;
+    skos:altLabel "M_JARD-KASO2" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Jardelund-Kassoe 2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

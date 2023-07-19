@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-I-0101A1-EN3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "54X-I-0101A1-EN3" ;
+    cim:IdentifiedObject.name "ALB-ENERGY SHPK" ;
+    cim:Names.name "ALB_ENERGY",
+        "L51503039D",
+        "Producer" ;
+    dcterms:identifier "urn:eic:54X-I-0101A1-EN3" ;
+    schema1:vatID "L51503039D" ;
+    skos:altLabel "ALB_ENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALB-ENERGY SHPK" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

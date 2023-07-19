@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XUTEN4742NAL76> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-09-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Vat number shared with Rutherford " ;
+    cim:IdentifiedObject.mRID "55XUTEN4742NAL76" ;
+    cim:IdentifiedObject.name "UTTILY PLC" ;
+    cim:Names.name "GB221474239",
+        "Information Provider",
+        "Trade Responsible Party",
+        "UTTILY_ENERGY" ;
+    dcterms:identifier "urn:eic:55XUTEN4742NAL76" ;
+    schema1:vatID "GB221474239" ;
+    skos:altLabel "UTTILY_ENERGY" ;
+    skos:definition "Vat number shared with Rutherford "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UTTILY PLC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

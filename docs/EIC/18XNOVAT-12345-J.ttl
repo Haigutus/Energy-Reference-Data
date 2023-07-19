@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XNOVAT-12345-J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-06-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XNOVAT-12345-J" ;
+    cim:IdentifiedObject.name "NOVATEC SOLAR ESPAÑA, S.L." ;
+    cim:Names.name "ESB84535566",
+        "NOVAT",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XNOVAT-12345-J" ;
+    schema1:vatID "ESB84535566" ;
+    skos:altLabel "NOVAT" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NOVATEC SOLAR ESPAÑA, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,28 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000WALEP> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Network User, Party Connected To Grid, Resource Provider, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "53XPL000000WALEP" ;
+    cim:IdentifiedObject.name "Walutaexpress Sp. z o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "PL5213583028",
+        "Party Connected To Grid",
+        "Resource Provider",
+        "Trade Responsible Party",
+        "WALUTAEXPRESS" ;
+    dcterms:identifier "urn:eic:53XPL000000WALEP" ;
+    schema1:vatID "PL5213583028" ;
+    skos:altLabel "WALUTAEXPRESS" ;
+    skos:definition "Balance Responsible Party, Network User, Party Connected To Grid, Resource Provider, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Walutaexpress Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

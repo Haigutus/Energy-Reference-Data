@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X0011001017383> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-10-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "32X0011001017383" ;
+    cim:IdentifiedObject.name "NOVA POWER Ltd." ;
+    cim:Names.name "BG205061272",
+        "NOVA_POWER",
+        "Producer" ;
+    dcterms:identifier "urn:eic:32X0011001017383" ;
+    schema1:vatID "BG205061272" ;
+    skos:altLabel "NOVA_POWER" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NOVA POWER Ltd." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

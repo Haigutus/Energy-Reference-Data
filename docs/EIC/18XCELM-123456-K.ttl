@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCELM-123456-K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-09-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XCELM-123456-K" ;
+    cim:IdentifiedObject.name "CELM & FUNS" ;
+    cim:Names.name "CELM",
+        "ESB85205524",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XCELM-123456-K" ;
+    schema1:vatID "ESB85205524" ;
+    skos:altLabel "CELM" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CELM & FUNS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

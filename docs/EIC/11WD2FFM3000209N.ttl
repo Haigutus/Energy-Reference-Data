@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11WD2FFM3000209N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11WD2FFM3000209N" ;
+    cim:IdentifiedObject.name "HKW Messe Turbine H3" ;
+    cim:Names.name "FRANKFURT_MESSE_",
+        "Generation" ;
+    dcterms:identifier "urn:eic:11WD2FFM3000209N" ;
+    skos:altLabel "FRANKFURT_MESSE_" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HKW Messe Turbine H3" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

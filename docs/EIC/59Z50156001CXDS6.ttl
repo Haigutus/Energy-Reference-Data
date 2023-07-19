@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59Z50156001CXDS6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59Z50156001CXDS6" ;
+    cim:IdentifiedObject.name "CORBETTA MI" ;
+    cim:Names.name "50156001",
+        "Accounting Point" ;
+    dcterms:identifier "urn:eic:59Z50156001CXDS6" ;
+    skos:altLabel "50156001" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CORBETTA MI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

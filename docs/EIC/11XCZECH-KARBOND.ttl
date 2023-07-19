@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XCZECH-KARBOND> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XCZECH-KARBOND" ;
+    cim:IdentifiedObject.name "Veolia Komodity CR, s.r.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ25846159",
+        "CZECH-KARBON" ;
+    dcterms:identifier "urn:eic:11XCZECH-KARBOND" ;
+    schema1:vatID "CZ25846159" ;
+    skos:altLabel "CZECH-KARBON" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Veolia Komodity CR, s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

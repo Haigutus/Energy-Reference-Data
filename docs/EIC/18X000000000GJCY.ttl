@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000GJCY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-05-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000GJCY" ;
+    cim:IdentifiedObject.name "ZERO WASTE COGENERACION EUSKADI, S.L." ;
+    cim:Names.name "CSEUSK",
+        "ESB75200295",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18X000000000GJCY" ;
+    schema1:vatID "ESB75200295" ;
+    skos:altLabel "CSEUSK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZERO WASTE COGENERACION EUSKADI, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

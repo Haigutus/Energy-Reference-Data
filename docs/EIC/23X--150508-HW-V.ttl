@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--150508-HW-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-05-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--150508-HW-V" ;
+    cim:IdentifiedObject.name "Heron Wind Limited" ;
+    cim:Names.name "GB123131667",
+        "HERON_WIND_LTD",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--150508-HW-V" ;
+    schema1:vatID "GB123131667" ;
+    skos:altLabel "HERON_WIND_LTD" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Heron Wind Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

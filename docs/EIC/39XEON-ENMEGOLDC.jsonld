@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/39XEON-ENMEGOLDC",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:39XEON-ENMEGOLDC",
+    "@skos:prefLabel": "E.ON Energiamegoldások Kft",
+    "@skos:altLabel": "EONEEM",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Dear Laima, The reason for requesting the change of VAT No. is that unfortunately the last number of the EU VAT code was mistyped, the real one is HU13322142. I have sent you by e-mail the Print Screen of the Company Database and I highlighted in it the right EU VAT No. I am sorry for the mistake and thank you very much for your understanding. Kind regards, Csaba"
+    },
+    "@cim:IdentifiedObject.mRID": "39XEON-ENMEGOLDC",
+    "@cim:IdentifiedObject.name": "E.ON Energiamegoldások Kft",
+    "@cim:Names.name": [
+        "EONEEM",
+        "A00165541.HU",
+        "HU13322142",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Dear Laima, The reason for requesting the change of VAT No. is that unfortunately the last number of the EU VAT code was mistyped, the real one is HU13322142. I have sent you by e-mail the Print Screen of the Company Database and I highlighted in it the right EU VAT No. I am sorry for the mistake and thank you very much for your understanding. Kind regards, Csaba",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-11-29",
+    "@schema:vatID": "HU13322142",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

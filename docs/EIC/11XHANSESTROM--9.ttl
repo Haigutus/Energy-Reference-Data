@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XHANSESTROM--9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-20" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XHANSESTROM--9" ;
+    cim:IdentifiedObject.name "HH-EL Hansestrom GmbH" ;
+    cim:Names.name "714300342",
+        "Balance Group",
+        "HANSESTROM" ;
+    dcterms:identifier "urn:eic:11XHANSESTROM--9" ;
+    schema1:vatID "714300342" ;
+    skos:altLabel "HANSESTROM" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HH-EL Hansestrom GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

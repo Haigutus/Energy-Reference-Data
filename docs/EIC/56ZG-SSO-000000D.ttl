@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56ZG-SSO-000000D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56ZG-SSO-000000D" ;
+    cim:IdentifiedObject.name "Virtual exit point to UGS of Ukraine " ;
+    cim:Names.name "56ZG-SSO-000000D",
+        "Connection Point" ;
+    dcterms:identifier "urn:eic:56ZG-SSO-000000D" ;
+    skos:altLabel "56ZG-SSO-000000D" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Virtual exit point to UGS of Ukraine " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

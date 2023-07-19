@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000002M6J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-01-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000002M6J" ;
+    cim:IdentifiedObject.name "TESLA MANAGEMENT S.L." ;
+    cim:Names.name "ESB52533106",
+        "TESLACARD",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X0000000002M6J" ;
+    schema1:vatID "ESB52533106" ;
+    skos:altLabel "TESLACARD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TESLA MANAGEMENT S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

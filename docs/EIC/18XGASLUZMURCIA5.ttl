@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XGASLUZMURCIA5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XGASLUZMURCIA5" ;
+    cim:IdentifiedObject.name "GAS Y LUZ MURCIA SLU" ;
+    cim:Names.name "ESB73884942",
+        "GLMUR",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XGASLUZMURCIA5" ;
+    schema1:vatID "ESB73884942" ;
+    skos:altLabel "GLMUR" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GAS Y LUZ MURCIA SLU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/20X-LU016-KGBE-9",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:20X-LU016-KGBE-9",
+    "@skos:prefLabel": "Klinkenberg Energy Luxembourg SARL",
+    "@skos:altLabel": "KLINKENBERG",
+    "@cim:IdentifiedObject.mRID": "20X-LU016-KGBE-9",
+    "@cim:IdentifiedObject.name": "Klinkenberg Energy Luxembourg SARL",
+    "@cim:Names.name": [
+        "KLINKENBERG",
+        "A0014846Q.LU",
+        "LU30121741",
+        "Balance Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-03-29",
+    "@schema:vatID": "LU30121741",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

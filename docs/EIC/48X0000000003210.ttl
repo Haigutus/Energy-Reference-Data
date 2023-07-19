@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X0000000003210> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48X0000000003210" ;
+    cim:IdentifiedObject.name "RWE RENEWABLES UK ROBIN RIGG WEST LIMITED" ;
+    cim:Names.name "GB524921354",
+        "Producer",
+        "ROBINRIGGX" ;
+    dcterms:identifier "urn:eic:48X0000000003210" ;
+    schema1:vatID "GB524921354" ;
+    skos:altLabel "ROBINRIGGX" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RWE RENEWABLES UK ROBIN RIGG WEST LIMITED" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

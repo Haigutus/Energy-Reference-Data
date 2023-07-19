@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/66X-00000000002R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company name and VAT code change in merger" ;
+    cim:IdentifiedObject.mRID "66X-00000000002R" ;
+    cim:IdentifiedObject.name "Loimua Oy" ;
+    cim:Names.name "66LOIMUA",
+        "FI29411356",
+        "Network User" ;
+    dcterms:identifier "urn:eic:66X-00000000002R" ;
+    schema1:vatID "FI29411356" ;
+    skos:altLabel "66LOIMUA" ;
+    skos:definition "Company name and VAT code change in merger"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Loimua Oy" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEONHANSE-RES5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-07-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XEONHANSE-RES5" ;
+    cim:IdentifiedObject.name "Schleswig-Holstein Netz AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE267393355",
+        "EONHANSE-RES" ;
+    dcterms:identifier "urn:eic:11XEONHANSE-RES5" ;
+    schema1:vatID "DE267393355" ;
+    skos:altLabel "EONHANSE-RES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Schleswig-Holstein Netz AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-GAEA11-1501R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-11-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "54X-GAEA11-1501R" ;
+    cim:IdentifiedObject.name "Green Alternative Energy Assets Sh.p.k" ;
+    cim:Names.name "GAEA",
+        "L32311009Q",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:54X-GAEA11-1501R" ;
+    schema1:vatID "L32311009Q" ;
+    skos:altLabel "GAEA" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Green Alternative Energy Assets Sh.p.k" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

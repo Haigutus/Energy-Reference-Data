@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WIMPI-V19MCNLH> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-07-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26WIMPI-V19MCNLH" ;
+    cim:IdentifiedObject.name "IM_V19MCNL" ;
+    cim:Names.name "IM-V19MCNL",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:26WIMPI-V19MCNLH" ;
+    skos:altLabel "IM-V19MCNL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IM_V19MCNL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

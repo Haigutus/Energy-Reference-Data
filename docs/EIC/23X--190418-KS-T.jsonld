@@ -1,0 +1,41 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--190418-KS-T",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--190418-KS-T",
+    "@skos:prefLabel": "KOCH SUPPLY & TRADING, LP",
+    "@skos:altLabel": "KOCHST_LP_USA",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Company registered in US;  Company registration number: 3437877 Company tax identification number: 48-1251073"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--190418-KS-T",
+    "@cim:IdentifiedObject.name": "KOCH SUPPLY & TRADING, LP",
+    "@cim:Names.name": [
+        "KOCHST_LP_USA",
+        "A0015841G.NL",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Company registered in US;  Company registration number: 3437877 Company tax identification number: 48-1251073",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-04-18",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

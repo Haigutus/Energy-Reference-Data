@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XMANTA-ENERGYN> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-10-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "27XMANTA-ENERGYN" ;
+    cim:IdentifiedObject.name "Manta Energy s.r.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ07198205",
+        "MANTA-ENERGY" ;
+    dcterms:identifier "urn:eic:27XMANTA-ENERGYN" ;
+    schema1:vatID "CZ07198205" ;
+    skos:altLabel "MANTA-ENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Manta Energy s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

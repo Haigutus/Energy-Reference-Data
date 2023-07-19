@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X-BOEBIN-DBA-3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-21" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11X-BOEBIN-DBA-3" ;
+    cim:IdentifiedObject.name "Elektrizitätsvereinigung Böbing eG" ;
+    cim:Names.name "Balance Group",
+        "DE269098844",
+        "EV-BOEBING-DBA" ;
+    dcterms:identifier "urn:eic:11X-BOEBIN-DBA-3" ;
+    schema1:vatID "DE269098844" ;
+    skos:altLabel "EV-BOEBING-DBA" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Elektrizitätsvereinigung Böbing eG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

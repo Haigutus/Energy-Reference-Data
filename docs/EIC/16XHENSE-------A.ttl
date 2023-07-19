@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XHENSE-------A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-10-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "16XHENSE-------A" ;
+    cim:IdentifiedObject.name "HEN – Serviços Energeticos, Lda." ;
+    cim:Names.name "HENSE",
+        "PT510287050",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XHENSE-------A" ;
+    schema1:vatID "PT510287050" ;
+    skos:altLabel "HENSE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HEN – Serviços Energeticos, Lda." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

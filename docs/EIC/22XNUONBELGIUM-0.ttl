@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XNUONBELGIUM-0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "22XNUONBELGIUM-0" ;
+    cim:IdentifiedObject.name "NUON BELGIUM NV" ;
+    cim:Names.name "BE0478226232",
+        "BE_NUON-BELGIUM",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22XNUONBELGIUM-0" ;
+    schema1:vatID "BE0478226232" ;
+    skos:altLabel "BE_NUON-BELGIUM" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NUON BELGIUM NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

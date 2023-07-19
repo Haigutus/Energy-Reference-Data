@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XSCO---------N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer - Production Of Aluminium (Sk: Vyroba Primarneho Hlinika)" ;
+    cim:IdentifiedObject.mRID "24XSCO---------N" ;
+    cim:IdentifiedObject.name "Slovalco, a.s." ;
+    cim:Names.name "SK2020479483",
+        "SLOVALCO",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:24XSCO---------N" ;
+    schema1:vatID "SK2020479483" ;
+    skos:altLabel "SLOVALCO" ;
+    skos:definition "Consumer - Production Of Aluminium (Sk: Vyroba Primarneho Hlinika)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Slovalco, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

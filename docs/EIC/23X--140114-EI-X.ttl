@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--140114-EI-X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Information Provider" ;
+    cim:IdentifiedObject.mRID "23X--140114-EI-X" ;
+    cim:IdentifiedObject.name "EDISON INTERNATIONAL SPA" ;
+    cim:Names.name "EDISON_I_SPA",
+        "IT08526690154",
+        "Information Provider" ;
+    dcterms:identifier "urn:eic:23X--140114-EI-X" ;
+    schema1:vatID "IT08526690154" ;
+    skos:altLabel "EDISON_I_SPA" ;
+    skos:definition "Information Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EDISON INTERNATIONAL SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

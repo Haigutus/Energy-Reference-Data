@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23XHSECZ-------F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-09-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23XHSECZ-------F" ;
+    cim:IdentifiedObject.name "Holding Slovenske Elektrarne D.O.O - Organizacni Slozka" ;
+    cim:Names.name "CZ27602451",
+        "HOLDSLOVELEK",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23XHSECZ-------F" ;
+    schema1:vatID "CZ27602451" ;
+    skos:altLabel "HOLDSLOVELEK" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Holding Slovenske Elektrarne D.O.O - Organizacni Slozka" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

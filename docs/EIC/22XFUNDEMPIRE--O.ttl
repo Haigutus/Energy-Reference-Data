@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XFUNDEMPIRE--O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Toutes Activites Liees A La Gestion, La Negociation, L�Echange, La Vente Et L�Achat De Matieres Premieres" ;
+    cim:IdentifiedObject.mRID "22XFUNDEMPIRE--O" ;
+    cim:IdentifiedObject.name "FUND EMPIRE SPRL" ;
+    cim:Names.name "BE466464783",
+        "BE_FUND_EMPIRE",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:22XFUNDEMPIRE--O" ;
+    schema1:vatID "BE466464783" ;
+    skos:altLabel "BE_FUND_EMPIRE" ;
+    skos:definition "Toutes Activites Liees A La Gestion, La Negociation, L�Echange, La Vente Et L�Achat De Matieres Premieres"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FUND EMPIRE SPRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

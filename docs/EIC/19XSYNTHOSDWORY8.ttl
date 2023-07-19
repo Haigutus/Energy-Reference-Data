@@ -1,0 +1,30 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XSYNTHOSDWORY8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XSYNTHOSDWORY8" ;
+    cim:IdentifiedObject.name "SYNTHOS DWORY 7 spółka z ograniczoną odpowiedzialnością" ;
+    cim:Names.name "Balance Responsible Party",
+        "Consumer",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PL9591762828",
+        "Producer",
+        "SYNTHOS_DWORY_7",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:19XSYNTHOSDWORY8" ;
+    schema1:vatID "PL9591762828" ;
+    skos:altLabel "SYNTHOS_DWORY_7" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SYNTHOS DWORY 7 spółka z ograniczoną odpowiedzialnością" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

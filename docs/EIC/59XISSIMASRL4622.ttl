@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XISSIMASRL4622> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XISSIMASRL4622" ;
+    cim:IdentifiedObject.name "ISSIMA S.R.L." ;
+    cim:Names.name "Balance Responsible Party",
+        "ISSIMASRL",
+        "IT03755770546" ;
+    dcterms:identifier "urn:eic:59XISSIMASRL4622" ;
+    schema1:vatID "IT03755770546" ;
+    skos:altLabel "ISSIMASRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ISSIMA S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

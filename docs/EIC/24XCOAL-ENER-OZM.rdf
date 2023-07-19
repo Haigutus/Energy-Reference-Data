@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/24XCOAL-ENER-OZM">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:24XCOAL-ENER-OZM</dcterms:identifier>
+    <skos:prefLabel>Coal Energy, a.s. organizacna zlozka</skos:prefLabel>
+    <skos:altLabel>COAL-ENER-OZ</skos:altLabel>
+    <skos:definition xml:lang="en">Electricity Trader (Sk: Obchodn&#259;&#173;&#194;&#173;K S Elektrickou Energiou)</skos:definition>
+    <cim:IdentifiedObject.mRID>24XCOAL-ENER-OZM</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Coal Energy, a.s. organizacna zlozka</cim:IdentifiedObject.name>
+    <cim:Names.name>COAL-ENER-OZ</cim:Names.name>
+    <cim:Names.name>SK2021900023</cim:Names.name>
+    <cim:IdentifiedObject.description>Electricity Trader (Sk: Obchodn&#259;&#173;&#194;&#173;K S Elektrickou Energiou)</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2016-10-18</cim:DateAndOrTime.date>
+    <cim:Names.name>Valid EIC Function needed</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>SK2021900023</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

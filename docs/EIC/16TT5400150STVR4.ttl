@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16TT5400150STVR4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16TT5400150STVR4" ;
+    cim:IdentifiedObject.name "Auto transformador 5 400/150 Subestação de Tavira" ;
+    cim:Names.name "AT5400/150STVR",
+        "Transformer" ;
+    dcterms:identifier "urn:eic:16TT5400150STVR4" ;
+    skos:altLabel "AT5400/150STVR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Auto transformador 5 400/150 Subestação de Tavira" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/10V1001C--00295I">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:10V1001C--00295I</dcterms:identifier>
+    <skos:prefLabel>Long Term CORE CC tool</skos:prefLabel>
+    <skos:altLabel>CORE_LTCC_TOOL</skos:altLabel>
+    <skos:definition xml:lang="en">In the context of the implementation of the Long Term Core capacity calculation within Core CCR, a new location EIC code is required for the CORE Long Term Capacity Calculation tool. This code will be used for Receiver/Sender identification fields in input/output XMLs. Note : A similar code was created for the CORE Intra-Day Ahead capacity calculation tool (10V1001C--00262X )</skos:definition>
+    <cim:IdentifiedObject.mRID>10V1001C--00295I</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Long Term CORE CC tool</cim:IdentifiedObject.name>
+    <cim:Names.name>CORE_LTCC_TOOL</cim:Names.name>
+    <cim:IdentifiedObject.description>In the context of the implementation of the Long Term Core capacity calculation within Core CCR, a new location EIC code is required for the CORE Long Term Capacity Calculation tool. This code will be used for Receiver/Sender identification fields in input/output XMLs. Note : A similar code was created for the CORE Intra-Day Ahead capacity calculation tool (10V1001C--00262X )</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2023-02-28</cim:DateAndOrTime.date>
+    <cim:Names.name>IT-system</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+  </skos:Concept>
+</rdf:RDF>

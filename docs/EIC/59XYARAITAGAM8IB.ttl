@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XYARAITAGAM8IB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XYARAITAGAM8IB" ;
+    cim:IdentifiedObject.name "YARA SpA" ;
+    cim:Names.name "IT11843280154",
+        "Market Operator",
+        "YARA" ;
+    dcterms:identifier "urn:eic:59XYARAITAGAM8IB" ;
+    schema1:vatID "IT11843280154" ;
+    skos:altLabel "YARA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "YARA SpA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

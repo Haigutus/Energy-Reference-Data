@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/22XENDEXAMSTRDMV",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:22XENDEXAMSTRDMV",
+    "@skos:prefLabel": "ENDEX EUROPEAN ENERGY DERIVATIVES EXCHANGE N.V.",
+    "@skos:altLabel": "BE_ENDEX",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "ENERGY EXCHANGE, PROVIDING A TRADE AND CLEARING PLATFORM FOR ENERGY CONTRACTS"
+    },
+    "@cim:IdentifiedObject.mRID": "22XENDEXAMSTRDMV",
+    "@cim:IdentifiedObject.name": "ENDEX EUROPEAN ENERGY DERIVATIVES EXCHANGE N.V.",
+    "@cim:Names.name": [
+        "BE_ENDEX",
+        "NL807243772B01",
+        "Market Operator"
+    ],
+    "@cim:IdentifiedObject.description": "ENERGY EXCHANGE, PROVIDING A TRADE AND CLEARING PLATFORM FOR ENERGY CONTRACTS",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2005-04-05",
+    "@schema:vatID": "NL807243772B01",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

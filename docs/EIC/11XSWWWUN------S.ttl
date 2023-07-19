@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWWWUN------S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSWWWUN------S" ;
+    cim:IdentifiedObject.name "SWW Wunsiedel GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE218587686",
+        "SWW_WUNSIEDEL" ;
+    dcterms:identifier "urn:eic:11XSWWWUN------S" ;
+    schema1:vatID "DE218587686" ;
+    skos:altLabel "SWW_WUNSIEDEL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SWW Wunsiedel GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

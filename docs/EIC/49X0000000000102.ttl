@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49X0000000000102> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Party Connected To Grid" ;
+    cim:IdentifiedObject.mRID "49X0000000000102" ;
+    cim:IdentifiedObject.name "PVNED B.V." ;
+    cim:Names.name "NL850133749B01",
+        "PVNED",
+        "Party Connected To Grid" ;
+    dcterms:identifier "urn:eic:49X0000000000102" ;
+    schema1:vatID "NL850133749B01" ;
+    skos:altLabel "PVNED" ;
+    skos:definition "Party Connected To Grid"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PVNED B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

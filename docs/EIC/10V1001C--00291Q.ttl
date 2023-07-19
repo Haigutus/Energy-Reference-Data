@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--00291Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "In the context of the implementation of the Core capacity calculation within Core CCR for Intraday process, the ECP4 communication infrastructure will be used. As the production communication channel is being set up, a new code is requested for the EDX toolbox supporting the exchanges within this process." ;
+    cim:IdentifiedObject.mRID "10V1001C--00291Q" ;
+    cim:IdentifiedObject.name "EDX Core IDCC Prod" ;
+    cim:Names.name "ECP_IDCC_PRD_EDX",
+        "IT-system" ;
+    dcterms:identifier "urn:eic:10V1001C--00291Q" ;
+    skos:altLabel "ECP_IDCC_PRD_EDX" ;
+    skos:definition "In the context of the implementation of the Core capacity calculation within Core CCR for Intraday process, the ECP4 communication infrastructure will be used. As the production communication channel is being set up, a new code is requested for the EDX toolbox supporting the exchanges within this process."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EDX Core IDCC Prod" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

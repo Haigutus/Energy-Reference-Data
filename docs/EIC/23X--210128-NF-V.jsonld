@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--210128-NF-V",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--210128-NF-V",
+    "@skos:prefLabel": "NORDGAZ FURNIZARE S.R.L",
+    "@skos:altLabel": "NORDGAZ_FURNIZAR",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Certificate of national VAT number from Moldovian Serviciul Fiscal De Stat submitted. EU VAT ID not available, because Republic of Moldova is not member of EU. Company registration number: (IDNO) 1020602002256"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--210128-NF-V",
+    "@cim:IdentifiedObject.name": "NORDGAZ FURNIZARE S.R.L",
+    "@cim:Names.name": [
+        "NORDGAZ_FURNIZAR",
+        "1203183",
+        "Trade Responsible Party",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "Certificate of national VAT number from Moldovian Serviciul Fiscal De Stat submitted. EU VAT ID not available, because Republic of Moldova is not member of EU. Company registration number: (IDNO) 1020602002256",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-02-01",
+    "@schema:vatID": "1203183",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

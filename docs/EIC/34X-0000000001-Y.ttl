@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34X-0000000001-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-10-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "34X-0000000001-Y" ;
+    cim:IdentifiedObject.name "e&t Energiehandel Serbia d.o.o" ;
+    cim:Names.name "105563268",
+        "EUNDT_SERBIA",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:34X-0000000001-Y" ;
+    schema1:vatID "105563268" ;
+    skos:altLabel "EUNDT_SERBIA" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "e&t Energiehandel Serbia d.o.o" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

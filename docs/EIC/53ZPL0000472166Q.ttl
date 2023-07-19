@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53ZPL0000472166Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53ZPL0000472166Q" ;
+    cim:IdentifiedObject.name "Chałupki Dębiańskie" ;
+    cim:Names.name "472166_CHALUPKI",
+        "Connection Point" ;
+    dcterms:identifier "urn:eic:53ZPL0000472166Q" ;
+    skos:altLabel "472166_CHALUPKI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Chałupki Dębiańskie" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

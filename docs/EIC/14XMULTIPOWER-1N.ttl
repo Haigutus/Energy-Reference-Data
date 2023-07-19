@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14XMULTIPOWER-1N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-05-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "14XMULTIPOWER-1N" ;
+    cim:IdentifiedObject.name "Multipower Energievertriebs- und Dienstleistungsges.m.b.H u. Co KG" ;
+    cim:Names.name "ATU51757709",
+        "Balance Responsible Party",
+        "MULTIPOWER" ;
+    dcterms:identifier "urn:eic:14XMULTIPOWER-1N" ;
+    schema1:vatID "ATU51757709" ;
+    skos:altLabel "MULTIPOWER" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Multipower Energievertriebs- und Dienstleistungsges.m.b.H u. Co KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

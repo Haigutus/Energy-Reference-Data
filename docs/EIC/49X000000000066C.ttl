@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49X000000000066C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "49X000000000066C" ;
+    cim:IdentifiedObject.name "Pure Energie Levering B.V." ;
+    cim:Names.name "Capacity Trader",
+        "NL812304883B01",
+        "PURE_ENERGIE" ;
+    dcterms:identifier "urn:eic:49X000000000066C" ;
+    schema1:vatID "NL812304883B01" ;
+    skos:altLabel "PURE_ENERGIE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Pure Energie Levering B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XPASSUELLO111M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XPASSUELLO111M" ;
+    cim:IdentifiedObject.name "PASSUELLO SRL" ;
+    cim:Names.name "IT00124510215",
+        "Market Operator",
+        "PASSUELLOSRL" ;
+    dcterms:identifier "urn:eic:59XPASSUELLO111M" ;
+    schema1:vatID "IT00124510215" ;
+    skos:altLabel "PASSUELLOSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PASSUELLO SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

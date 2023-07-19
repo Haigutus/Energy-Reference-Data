@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-EN-TO-EN-13F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "54X-EN-TO-EN-13F" ;
+    cim:IdentifiedObject.name "ENERGY TO ENERGY SH.P.K" ;
+    cim:Names.name "Balance Responsible Party",
+        "ENERGY_TO_ENERGY",
+        "L71914007M" ;
+    dcterms:identifier "urn:eic:54X-EN-TO-EN-13F" ;
+    schema1:vatID "L71914007M" ;
+    skos:altLabel "ENERGY_TO_ENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGY TO ENERGY SH.P.K" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

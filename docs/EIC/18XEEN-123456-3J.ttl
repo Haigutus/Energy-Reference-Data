@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XEEN-123456-3J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XEEN-123456-3J" ;
+    cim:IdentifiedObject.name "ELECTRA ENERGÍA, S.A.U." ;
+    cim:Names.name "EEN",
+        "ESA12542296",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XEEN-123456-3J" ;
+    schema1:vatID "ESA12542296" ;
+    skos:altLabel "EEN" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRA ENERGÍA, S.A.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

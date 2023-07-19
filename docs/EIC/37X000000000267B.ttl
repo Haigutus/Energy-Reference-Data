@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37X000000000267B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Energy Supplier" ;
+    cim:IdentifiedObject.mRID "37X000000000267B" ;
+    cim:IdentifiedObject.name "Grünwelt Wärmestrom GmbH" ;
+    cim:Names.name "DE300611532",
+        "Energy Supplier",
+        "GRUENWELT_WAERM" ;
+    dcterms:identifier "urn:eic:37X000000000267B" ;
+    schema1:vatID "DE300611532" ;
+    skos:altLabel "GRUENWELT_WAERM" ;
+    skos:definition "Energy Supplier"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Grünwelt Wärmestrom GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

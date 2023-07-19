@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001404H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "1. The EC VAT verification tool (Vies on-the-Web - European Commission (europa.eu)) doesn't verify the VAT FI23083144.  2. The requester provided a document from Tax Authorities of Finland (PRH) that confirms the VAT code ( Y-tunnus: 2308314-4): Doc. No.2023/41336U issued 03.06.2023 3. The Finnish Business Information System (BIS): A VAT number can be generated from a Finnish Business ID (Y-tunnus) by adding a two-letter country code FI as a prefix and by omitting the dash. 4. It looks that the EU VAT code verification tool is missing the structure of verification of VAT codes in Finland.  " ;
+    cim:IdentifiedObject.mRID "21X000000001404H" ;
+    cim:IdentifiedObject.name "Alborada Oy" ;
+    cim:Names.name "ALBORADA",
+        "FI23083144",
+        "Network User" ;
+    dcterms:identifier "urn:eic:21X000000001404H" ;
+    schema1:vatID "FI23083144" ;
+    skos:altLabel "ALBORADA" ;
+    skos:definition "1. The EC VAT verification tool (Vies on-the-Web - European Commission (europa.eu)) doesn't verify the VAT FI23083144.  2. The requester provided a document from Tax Authorities of Finland (PRH) that confirms the VAT code ( Y-tunnus: 2308314-4): Doc. No.2023/41336U issued 03.06.2023 3. The Finnish Business Information System (BIS): A VAT number can be generated from a Finnish Business ID (Y-tunnus) by adding a two-letter country code FI as a prefix and by omitting the dash. 4. It looks that the EU VAT code verification tool is missing the structure of verification of VAT codes in Finland.  "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Alborada Oy" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

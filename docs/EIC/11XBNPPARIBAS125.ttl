@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XBNPPARIBAS125> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XBNPPARIBAS125" ;
+    cim:IdentifiedObject.name "BNP Paribas" ;
+    cim:Names.name "BNP_PARIBAS",
+        "Balance Responsible Party",
+        "FR76662042449" ;
+    dcterms:identifier "urn:eic:11XBNPPARIBAS125" ;
+    schema1:vatID "FR76662042449" ;
+    skos:altLabel "BNP_PARIBAS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BNP Paribas" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

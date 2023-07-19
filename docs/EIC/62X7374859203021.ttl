@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62X7374859203021> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62X7374859203021" ;
+    cim:IdentifiedObject.name "LLC \"NAP-COMMUNITY\"" ;
+    cim:Names.name "446289623010",
+        "Consumption Responsible Party",
+        "NAP_COMMUNITY" ;
+    dcterms:identifier "urn:eic:62X7374859203021" ;
+    schema1:vatID "446289623010" ;
+    skos:altLabel "NAP_COMMUNITY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "LLC \"NAP-COMMUNITY\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X0-0000-0445-W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-11" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11X0-0000-0445-W" ;
+    cim:IdentifiedObject.name "E.ON Energy Markets GmbH" ;
+    cim:Names.name "DE326239302",
+        "ICM_GMBH" ;
+    dcterms:identifier "urn:eic:11X0-0000-0445-W" ;
+    schema1:vatID "DE326239302" ;
+    skos:altLabel "ICM_GMBH" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E.ON Energy Markets GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

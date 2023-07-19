@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58X-00000055-BGC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-11-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58X-00000055-BGC" ;
+    cim:IdentifiedObject.name "Bulgarian gaz company EOOD" ;
+    cim:Names.name "BG205828150",
+        "GAZBGCOMPANY",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:58X-00000055-BGC" ;
+    schema1:vatID "BG205828150" ;
+    skos:altLabel "GAZBGCOMPANY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Bulgarian gaz company EOOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

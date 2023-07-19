@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001A1001B012> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Area" ;
+    cim:IdentifiedObject.mRID "10Y1001A1001B012" ;
+    cim:IdentifiedObject.name "Georgia" ;
+    cim:Names.name "GEORGIA",
+        "Market Area" ;
+    dcterms:identifier "urn:eic:10Y1001A1001B012" ;
+    skos:altLabel "GEORGIA" ;
+    skos:definition "Market Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Georgia" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

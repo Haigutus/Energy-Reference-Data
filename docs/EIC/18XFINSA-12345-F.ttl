@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XFINSA-12345-F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-10-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XFINSA-12345-F" ;
+    cim:IdentifiedObject.name "FINANCIERA MADERERA, S.A." ;
+    cim:Names.name "ESA15005499",
+        "FINSA",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XFINSA-12345-F" ;
+    schema1:vatID "ESA15005499" ;
+    skos:altLabel "FINSA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FINANCIERA MADERERA, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/18XELPOP-12345-N">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:18XELPOP-12345-N</dcterms:identifier>
+    <skos:prefLabel>EELCTRCIA POPULAR,S.COOP.MAD</skos:prefLabel>
+    <skos:altLabel>ELPOP</skos:altLabel>
+    <skos:definition xml:lang="en">Grid Access Provider</skos:definition>
+    <cim:IdentifiedObject.mRID>18XELPOP-12345-N</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>EELCTRCIA POPULAR,S.COOP.MAD</cim:IdentifiedObject.name>
+    <cim:Names.name>ELPOP</cim:Names.name>
+    <cim:Names.name>ESF28201374</cim:Names.name>
+    <cim:IdentifiedObject.description>Grid Access Provider</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2009-04-28</cim:DateAndOrTime.date>
+    <cim:Names.name>Grid Access Provider</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>ESF28201374</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

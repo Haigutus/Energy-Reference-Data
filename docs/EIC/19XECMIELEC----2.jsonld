@@ -1,0 +1,49 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19XECMIELEC----2",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19XECMIELEC----2",
+    "@skos:prefLabel": "ELEKTROCIEPLOWNIA MIELEC SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
+    "@skos:altLabel": "EC-MIELEC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Responsible Party,Consumer,Producer"
+    },
+    "@cim:IdentifiedObject.mRID": "19XECMIELEC----2",
+    "@cim:IdentifiedObject.name": "ELEKTROCIEPLOWNIA MIELEC SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
+    "@cim:Names.name": [
+        "EC-MIELEC",
+        "PL8170005288",
+        "System Operator",
+        "Meter Administrator",
+        "Producer",
+        "Balance Responsible Party",
+        "Energy Supplier",
+        "Metered Data Responsible",
+        "Grid Access Provider",
+        "Consumer"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Responsible Party,Consumer,Producer",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-12-10",
+    "@schema:vatID": "PL8170005288",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XRO-ENERGON--K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-08-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "30XRO-ENERGON--K" ;
+    cim:IdentifiedObject.name "ENERGON POWER & GAS SRL" ;
+    cim:Names.name "Balance Responsible Party",
+        "RO20492293",
+        "RO_EPG" ;
+    dcterms:identifier "urn:eic:30XRO-ENERGON--K" ;
+    schema1:vatID "RO20492293" ;
+    skos:altLabel "RO_EPG" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGON POWER & GAS SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17W0000014455708> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Nouveau code EIC" ;
+    cim:IdentifiedObject.mRID "17W0000014455708" ;
+    cim:IdentifiedObject.name "Parc des Hautes Falaises 2" ;
+    cim:Names.name "FR_HAUTESFAL_GU2",
+        "Generation Unit" ;
+    dcterms:identifier "urn:eic:17W0000014455708" ;
+    skos:altLabel "FR_HAUTESFAL_GU2" ;
+    skos:definition "Nouveau code EIC"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Parc des Hautes Falaises 2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

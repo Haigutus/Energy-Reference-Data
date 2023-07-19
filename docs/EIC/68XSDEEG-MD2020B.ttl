@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/68XSDEEG-MD2020B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "68XSDEEG-MD2020B" ;
+    cim:IdentifiedObject.name "SD ENERGY ENGINEERING GROUP" ;
+    cim:Names.name "6701615",
+        "Network User",
+        "SDEE_GROUP",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:68XSDEEG-MD2020B" ;
+    schema1:vatID "6701615" ;
+    skos:altLabel "SDEE_GROUP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SD ENERGY ENGINEERING GROUP" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,45 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29X10001000100PY",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29X10001000100PY",
+    "@skos:prefLabel": "ΘΕΡΜΟΗΛΕΚΤΡΙΚΗ ΚΟΜΟΤΗΝΗΣ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ",
+    "@skos:altLabel": "THERMOILEKTRIKI",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Σχεδιασμός, ανάπτυξη, κατασκευή, εγκατάσταση, λειτουργία και εκμετάλλευση θερμικών σταθμών παραγωγής ηλεκτρικής ενέργειας με φυσικό αέριο. Εισαγωγή, εμπορία και προμήθεια φυσικού αερίου για χρήση ως πρώτης ύλης σε σταθμούς παραγωγής ηλεκτρικής ενέργειας. Πώληση και εμπορία της ηλεκτρικής ενέργειας και των διαθέσιμων δικαιωμάτων εκπομπών ρύπων και διενέργεια των σχετικών επιχειρηματικών δραστηριοτήτων και αγορά διαθέσιμων δικαιωμάτων εκπομπών ρύπων από τρίτους για τις ανάγκες λειτουργίας των σταθμών ηλεκτροπαραγωγής. Ανάληψη και εκτέλεση πάσης φύσεως μελετών, επιβλέψεων και ερευνών."
+    },
+    "@cim:IdentifiedObject.mRID": "29X10001000100PY",
+    "@cim:IdentifiedObject.name": "ΘΕΡΜΟΗΛΕΚΤΡΙΚΗ ΚΟΜΟΤΗΝΗΣ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ",
+    "@cim:Names.name": [
+        "THERMOILEKTRIKI",
+        "EL801552795",
+        "Capacity Trader",
+        "Balancing Service Provider",
+        "Energy Supplier",
+        "Producer"
+    ],
+    "@cim:IdentifiedObject.description": "Σχεδιασμός, ανάπτυξη, κατασκευή, εγκατάσταση, λειτουργία και εκμετάλλευση θερμικών σταθμών παραγωγής ηλεκτρικής ενέργειας με φυσικό αέριο. Εισαγωγή, εμπορία και προμήθεια φυσικού αερίου για χρήση ως πρώτης ύλης σε σταθμούς παραγωγής ηλεκτρικής ενέργειας. Πώληση και εμπορία της ηλεκτρικής ενέργειας και των διαθέσιμων δικαιωμάτων εκπομπών ρύπων και διενέργεια των σχετικών επιχειρηματικών δραστηριοτήτων και αγορά διαθέσιμων δικαιωμάτων εκπομπών ρύπων από τρίτους για τις ανάγκες λειτουργίας των σταθμών ηλεκτροπαραγωγής. Ανάληψη και εκτέλεση πάσης φύσεως μελετών, επιβλέψεων και ερευνών.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-02-10",
+    "@schema:vatID": "EL801552795",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

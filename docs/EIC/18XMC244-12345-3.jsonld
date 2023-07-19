@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XMC244-12345-3",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XMC244-12345-3",
+    "@skos:prefLabel": "mc2 Servicios Energéticos, S.L.",
+    "@skos:altLabel": "MC244",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Trade Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XMC244-12345-3",
+    "@cim:IdentifiedObject.name": "mc2 Servicios Energéticos, S.L.",
+    "@cim:Names.name": [
+        "MC244",
+        "ESB30847222",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Trade Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2010-10-06",
+    "@schema:vatID": "ESB30847222",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

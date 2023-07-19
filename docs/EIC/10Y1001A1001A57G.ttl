@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001A1001A57G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-04-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Bidding Zone" ;
+    cim:IdentifiedObject.mRID "10Y1001A1001A57G" ;
+    cim:IdentifiedObject.name "Bidding Zone - Great Britain (N2EX)" ;
+    cim:Names.name "Bidding Zone",
+        "GB_N2EX_PRICZONE" ;
+    dcterms:identifier "urn:eic:10Y1001A1001A57G" ;
+    skos:altLabel "GB_N2EX_PRICZONE" ;
+    skos:definition "Bidding Zone"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Bidding Zone - Great Britain (N2EX)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

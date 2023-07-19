@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000TURGC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53XPL000000TURGC" ;
+    cim:IdentifiedObject.name "Turkus Group Sp. z o.o." ;
+    cim:Names.name "Capacity Trader",
+        "PL8722141174",
+        "TURKUS-GROUP" ;
+    dcterms:identifier "urn:eic:53XPL000000TURGC" ;
+    schema1:vatID "PL8722141174" ;
+    skos:altLabel "TURKUS-GROUP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Turkus Group Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

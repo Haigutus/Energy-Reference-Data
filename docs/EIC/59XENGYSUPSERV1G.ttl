@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XENGYSUPSERV1G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XENGYSUPSERV1G" ;
+    cim:IdentifiedObject.name "ENERGY SUPPLY & SERVIZI SRL" ;
+    cim:Names.name "ENERYSUPLSERVIZI",
+        "IT12295050962",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:59XENGYSUPSERV1G" ;
+    schema1:vatID "IT12295050962" ;
+    skos:altLabel "ENERYSUPLSERVIZI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGY SUPPLY & SERVIZI SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

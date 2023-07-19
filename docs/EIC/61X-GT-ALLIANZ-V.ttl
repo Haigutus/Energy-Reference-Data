@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/61X-GT-ALLIANZ-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "The purpose of the company is the management of international trade in energy carriers (in particular oil and gas in all aggregate states and petrochemical products) as well as the management of all related businesses in their own and foreign names " ;
+    cim:IdentifiedObject.mRID "61X-GT-ALLIANZ-V" ;
+    cim:IdentifiedObject.name "Allianz Energie AG" ;
+    cim:Names.name "ALLIANZENERGIE",
+        "Capacity Trader",
+        "DE307856352",
+        "Energy Supplier" ;
+    dcterms:identifier "urn:eic:61X-GT-ALLIANZ-V" ;
+    schema1:vatID "DE307856352" ;
+    skos:altLabel "ALLIANZENERGIE" ;
+    skos:definition "The purpose of the company is the management of international trade in energy carriers (in particular oil and gas in all aggregate states and petrochemical products) as well as the management of all related businesses in their own and foreign names "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Allianz Energie AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

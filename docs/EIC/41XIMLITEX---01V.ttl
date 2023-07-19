@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41XIMLITEX---01V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-04-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Supplier, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "41XIMLITEX---01V" ;
+    cim:IdentifiedObject.name "UAB Imlitex" ;
+    cim:Names.name "Energy Supplier",
+        "IMLITEX---01",
+        "LT340047413",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:41XIMLITEX---01V" ;
+    schema1:vatID "LT340047413" ;
+    skos:altLabel "IMLITEX---01" ;
+    skos:definition "Balance Supplier, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Imlitex" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XSPE---------7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "22XSPE---------7" ;
+    cim:IdentifiedObject.name "EDF LUMINUS" ;
+    cim:Names.name "BE0471811661",
+        "BE_EDFLUM",
+        "Producer" ;
+    dcterms:identifier "urn:eic:22XSPE---------7" ;
+    schema1:vatID "BE0471811661" ;
+    skos:altLabel "BE_EDFLUM" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EDF LUMINUS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

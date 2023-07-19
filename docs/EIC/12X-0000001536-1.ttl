@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001536-1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-12-17" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Balance Supplier" ;
+    cim:IdentifiedObject.mRID "12X-0000001536-1" ;
+    cim:IdentifiedObject.name "Romande Energie SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "Balance Supplier",
+        "CHE116278949",
+        "ROMANDE_ENERG-GO" ;
+    dcterms:identifier "urn:eic:12X-0000001536-1" ;
+    schema1:vatID "CHE116278949" ;
+    skos:altLabel "ROMANDE_ENERG-GO" ;
+    skos:definition "Balance Responsible Party, Balance Supplier"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Romande Energie SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

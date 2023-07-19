@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XMISTENERGYEC9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33XMISTENERGYEC9" ;
+    cim:IdentifiedObject.name "MIST ENERGY EKO DOOEL" ;
+    cim:Names.name "4080021599229",
+        "MIST_ENERGY_EKO",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XMISTENERGYEC9" ;
+    schema1:vatID "4080021599229" ;
+    skos:altLabel "MIST_ENERGY_EKO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MIST ENERGY EKO DOOEL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29YTITAN-PATRA-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-05-05" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Importer Of Electricity And Industrial Consumer" ;
+    cim:IdentifiedObject.mRID "29YTITAN-PATRA-Z" ;
+    cim:IdentifiedObject.name "TITAN CEMENT COMPANY S.A. - PATRA ACHAIAS" ;
+    cim:Names.name "TITAN-PATRA",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:29YTITAN-PATRA-Z" ;
+    skos:altLabel "TITAN-PATRA" ;
+    skos:definition "Importer Of Electricity And Industrial Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TITAN CEMENT COMPANY S.A. - PATRA ACHAIAS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

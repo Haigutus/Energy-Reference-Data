@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/46WGU0000000151U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-01-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Generation Unit" ;
+    cim:IdentifiedObject.mRID "46WGU0000000151U" ;
+    cim:IdentifiedObject.name "Öresundsverket CHP G2" ;
+    cim:Names.name "Generation Unit",
+        "ORESUNDS_CHP_G2" ;
+    dcterms:identifier "urn:eic:46WGU0000000151U" ;
+    skos:altLabel "ORESUNDS_CHP_G2" ;
+    skos:definition "Generation Unit"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Öresundsverket CHP G2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

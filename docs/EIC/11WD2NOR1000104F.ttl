@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11WD2NOR1000104F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-02-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11WD2NOR1000104F" ;
+    cim:IdentifiedObject.name "SWM HKW Nord Block 1 T10" ;
+    cim:Names.name "Generation",
+        "NORD_1_T10" ;
+    dcterms:identifier "urn:eic:11WD2NOR1000104F" ;
+    skos:altLabel "NORD_1_T10" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SWM HKW Nord Block 1 T10" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

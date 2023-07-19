@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XG-RTN-TSO-CZ9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-12-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "System Operator" ;
+    cim:IdentifiedObject.mRID "27XG-RTN-TSO-CZ9" ;
+    cim:IdentifiedObject.name "Net4Gas, s.r.o." ;
+    cim:Names.name "CZ27260364",
+        "G-RTN-TSO-CZ",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:27XG-RTN-TSO-CZ9" ;
+    schema1:vatID "CZ27260364" ;
+    skos:altLabel "G-RTN-TSO-CZ" ;
+    skos:definition "System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Net4Gas, s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

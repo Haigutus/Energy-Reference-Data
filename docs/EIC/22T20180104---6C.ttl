@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22T20180104---6C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Ligne 380.111 GEZEL-STEVN " ;
+    cim:IdentifiedObject.mRID "22T20180104---6C" ;
+    cim:IdentifiedObject.name "380.111 GEZEL-STEVIN" ;
+    cim:Names.name "BE111_GEZEL_STEV",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:22T20180104---6C" ;
+    skos:altLabel "BE111_GEZEL_STEV" ;
+    skos:definition "Ligne 380.111 GEZEL-STEVN "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "380.111 GEZEL-STEVIN" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

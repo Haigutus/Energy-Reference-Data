@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44W-T-HY-0000005> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-04-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Plant" ;
+    cim:IdentifiedObject.mRID "44W-T-HY-0000005" ;
+    cim:IdentifiedObject.name "Aga Oy HYCO Porvoo" ;
+    cim:Names.name "44AGAHYCOPORVOO",
+        "Production Plant" ;
+    dcterms:identifier "urn:eic:44W-T-HY-0000005" ;
+    skos:altLabel "44AGAHYCOPORVOO" ;
+    skos:definition "Production Plant"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Aga Oy HYCO Porvoo" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

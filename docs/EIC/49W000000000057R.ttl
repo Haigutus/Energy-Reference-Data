@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49W000000000057R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "49W000000000057R" ;
+    cim:IdentifiedObject.name "Rijnmond Energie" ;
+    cim:Names.name "Generation Unit",
+        "RIJNMONDGU" ;
+    dcterms:identifier "urn:eic:49W000000000057R" ;
+    skos:altLabel "RIJNMONDGU" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Rijnmond Energie" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

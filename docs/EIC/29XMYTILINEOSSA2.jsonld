@@ -1,0 +1,46 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29XMYTILINEOSSA2",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29XMYTILINEOSSA2",
+    "@skos:prefLabel": "MYTILINEOS GROUP OF COMPANIES SOCIETE ANONYME",
+    "@skos:altLabel": "MYTILINEOS_SA",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Consumer, electricity production, supply and trading"
+    },
+    "@cim:IdentifiedObject.mRID": "29XMYTILINEOSSA2",
+    "@cim:IdentifiedObject.name": "MYTILINEOS GROUP OF COMPANIES SOCIETE ANONYME",
+    "@cim:Names.name": [
+        "MYTILINEOS_SA",
+        "EL094316669",
+        "Production Responsible party",
+        "Trade Responsible Party",
+        "Balance Responsible Party",
+        "Producer",
+        "Consumer"
+    ],
+    "@cim:IdentifiedObject.description": "Consumer, electricity production, supply and trading",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-10-31",
+    "@schema:vatID": "EL094316669",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

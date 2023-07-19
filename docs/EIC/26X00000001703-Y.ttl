@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X00000001703-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trading Energie Elettrica, Codice Richiesto Per Identificazione Operatore Di Mercato" ;
+    cim:IdentifiedObject.mRID "26X00000001703-Y" ;
+    cim:IdentifiedObject.name "ALPERIA SMART SERVICES S.R.L." ;
+    cim:Names.name "Balance Responsible Party",
+        "IT-ALPERIASMART",
+        "IT01745520211" ;
+    dcterms:identifier "urn:eic:26X00000001703-Y" ;
+    schema1:vatID "IT01745520211" ;
+    skos:altLabel "IT-ALPERIASMART" ;
+    skos:definition "Trading Energie Elettrica, Codice Richiesto Per Identificazione Operatore Di Mercato"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALPERIA SMART SERVICES S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

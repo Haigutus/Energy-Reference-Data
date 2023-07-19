@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--140122V-ASF> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "23X--140122V-ASF" ;
+    cim:IdentifiedObject.name "Vattenfall Energy Trading A/S" ;
+    cim:Names.name "DK31081181",
+        "Trade Responsible Party",
+        "VATTENFALL_AS" ;
+    dcterms:identifier "urn:eic:23X--140122V-ASF" ;
+    schema1:vatID "DK31081181" ;
+    skos:altLabel "VATTENFALL_AS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vattenfall Energy Trading A/S" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

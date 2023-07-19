@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45T000000000184B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45T000000000184B" ;
+    cim:IdentifiedObject.name "132 kV Jersie Spanager " ;
+    cim:Names.name "Internal Line",
+        "JER_132_SPA" ;
+    dcterms:identifier "urn:eic:45T000000000184B" ;
+    skos:altLabel "JER_132_SPA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "132 kV Jersie Spanager " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

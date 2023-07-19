@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--000271> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-04-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Interconnector area Nemo Link between Belgium and the United Kingdom" ;
+    cim:IdentifiedObject.mRID "10Y1001C--000271" ;
+    cim:IdentifiedObject.name "Interconnector area Nemo Link" ;
+    cim:Names.name "NLL-AREA",
+        "Scheduling Area" ;
+    dcterms:identifier "urn:eic:10Y1001C--000271" ;
+    skos:altLabel "NLL-AREA" ;
+    skos:definition "Interconnector area Nemo Link between Belgium and the United Kingdom"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Interconnector area Nemo Link" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

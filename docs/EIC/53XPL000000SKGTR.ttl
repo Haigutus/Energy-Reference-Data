@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000SKGTR> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-11-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53XPL000000SKGTR" ;
+    cim:IdentifiedObject.name "SKG Commodities Trading Services Limited" ;
+    cim:Names.name "MT22711714",
+        "Network User",
+        "SKG_LTD" ;
+    dcterms:identifier "urn:eic:53XPL000000SKGTR" ;
+    schema1:vatID "MT22711714" ;
+    skos:altLabel "SKG_LTD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SKG Commodities Trading Services Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X001100100376G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-05-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32X001100100376G" ;
+    cim:IdentifiedObject.name "WATT AND VOLT EMT AD" ;
+    cim:Names.name "BG201161994",
+        "Balance Responsible Party",
+        "WATT_AND_VOLT_BG" ;
+    dcterms:identifier "urn:eic:32X001100100376G" ;
+    schema1:vatID "BG201161994" ;
+    skos:altLabel "WATT_AND_VOLT_BG" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "WATT AND VOLT EMT AD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

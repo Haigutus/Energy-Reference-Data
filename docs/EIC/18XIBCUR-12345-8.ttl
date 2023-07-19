@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XIBCUR-12345-8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-04-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XIBCUR-12345-8" ;
+    cim:IdentifiedObject.name "IBERDOLA COMERCIALIZACION DE ULTIMO RECURSO SA" ;
+    cim:Names.name "ESA95554630",
+        "IBCUR",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XIBCUR-12345-8" ;
+    schema1:vatID "ESA95554630" ;
+    skos:altLabel "IBCUR" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IBERDOLA COMERCIALIZACION DE ULTIMO RECURSO SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

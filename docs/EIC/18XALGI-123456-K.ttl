@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XALGI-123456-K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-03-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Access Provider" ;
+    cim:IdentifiedObject.mRID "18XALGI-123456-K" ;
+    cim:IdentifiedObject.name "SUMINSTROS ESPECIALES ALGINETENSES, SOCIEDAD COOPERATIVA VALENCIANA" ;
+    cim:Names.name "ALGI",
+        "ESF46004834",
+        "Grid Access Provider" ;
+    dcterms:identifier "urn:eic:18XALGI-123456-K" ;
+    schema1:vatID "ESF46004834" ;
+    skos:altLabel "ALGI" ;
+    skos:definition "Grid Access Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SUMINSTROS ESPECIALES ALGINETENSES, SOCIEDAD COOPERATIVA VALENCIANA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

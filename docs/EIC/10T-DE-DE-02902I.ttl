@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10T-DE-DE-02902I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10T-DE-DE-02902I" ;
+    cim:IdentifiedObject.name "Oberaudorf-Rosenheim_158" ;
+    cim:Names.name "OBER_DORF-R_HEIM",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:10T-DE-DE-02902I" ;
+    skos:altLabel "OBER_DORF-R_HEIM" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Oberaudorf-Rosenheim_158" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

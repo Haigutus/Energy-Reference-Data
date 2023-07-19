@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000314Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-11-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48X000000000314Y" ;
+    cim:IdentifiedObject.name "Viking Energy Wind Farm LLP" ;
+    cim:Names.name "Balance Responsible Party",
+        "GB281316318",
+        "Production Responsible party",
+        "VIKING" ;
+    dcterms:identifier "urn:eic:48X000000000314Y" ;
+    schema1:vatID "GB281316318" ;
+    skos:altLabel "VIKING" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Viking Energy Wind Farm LLP" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

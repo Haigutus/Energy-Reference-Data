@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50TL00000000799J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50TL00000000799J" ;
+    cim:IdentifiedObject.name "N 22 Alta krvT_Dam" ;
+    cim:Names.name "Internal Line",
+        "NO-ALTAKRVTDAM" ;
+    dcterms:identifier "urn:eic:50TL00000000799J" ;
+    skos:altLabel "NO-ALTAKRVTDAM" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "N 22 Alta krvT_Dam" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

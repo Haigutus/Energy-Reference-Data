@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XPOZOF-12345-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-04-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XPOZOF-12345-9" ;
+    cim:IdentifiedObject.name "COMUNIDAD DE AGUAS POZO DE LA FLORIDA" ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESE38053609",
+        "POZOF" ;
+    dcterms:identifier "urn:eic:18XPOZOF-12345-9" ;
+    schema1:vatID "ESE38053609" ;
+    skos:altLabel "POZOF" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COMUNIDAD DE AGUAS POZO DE LA FLORIDA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

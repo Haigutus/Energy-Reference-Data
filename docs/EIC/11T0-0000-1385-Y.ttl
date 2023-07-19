@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11T0-0000-1385-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11T0-0000-1385-Y" ;
+    cim:IdentifiedObject.name "AMP / 220kV / Gohrpunkt - Y-Frimmersdorf 5e / Frimmersdorf 5e" ;
+    cim:Names.name "FRIMM5E-GOHRPUNK",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:11T0-0000-1385-Y" ;
+    skos:altLabel "FRIMM5E-GOHRPUNK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMP / 220kV / Gohrpunkt - Y-Frimmersdorf 5e / Frimmersdorf 5e" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

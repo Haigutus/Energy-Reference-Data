@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XAXPO-HANDEL-6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Die Axpo Ist Die Handels Und Verkaufs Ag Der Kantone Aargau, Zürich, Schaffhausen, Thurgau, St. Gallen, Beider Appenzell Sowie Der Nordostschweizerischen Kraftwerke." ;
+    cim:IdentifiedObject.mRID "12XAXPO-HANDEL-6" ;
+    cim:IdentifiedObject.name "Axpo" ;
+    cim:Names.name "AXPO-HANDEL",
+        "CH479131",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XAXPO-HANDEL-6" ;
+    schema1:vatID "CH479131" ;
+    skos:altLabel "AXPO-HANDEL" ;
+    skos:definition "Die Axpo Ist Die Handels Und Verkaufs Ag Der Kantone Aargau, Zürich, Schaffhausen, Thurgau, St. Gallen, Beider Appenzell Sowie Der Nordostschweizerischen Kraftwerke."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Axpo" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

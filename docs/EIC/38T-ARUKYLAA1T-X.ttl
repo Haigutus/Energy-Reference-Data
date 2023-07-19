@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/38T-ARUKYLAA1T-X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "38T-ARUKYLAA1T-X" ;
+    cim:IdentifiedObject.name "Aruküla A1T" ;
+    cim:Names.name "ARUKYLA_A1T",
+        "Internal Line",
+        "Internal Tie-Line" ;
+    dcterms:identifier "urn:eic:38T-ARUKYLAA1T-X" ;
+    skos:altLabel "ARUKYLA_A1T" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Aruküla A1T" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--220415-E--W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company registration number: 007741201000  " ;
+    cim:IdentifiedObject.mRID "23X--220415-E--W" ;
+    cim:IdentifiedObject.name "ENERGEAN OIL & GAS S.A." ;
+    cim:Names.name "A00193970.GR",
+        "Consumer",
+        "EL998380652",
+        "ENERGEAN_OIL_GAS" ;
+    dcterms:identifier "urn:eic:23X--220415-E--W" ;
+    schema1:vatID "EL998380652" ;
+    skos:altLabel "ENERGEAN_OIL_GAS" ;
+    skos:definition "Company registration number: 007741201000  "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGEAN OIL & GAS S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/39X50SHELL00001Y",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:39X50SHELL00001Y",
+    "@skos:prefLabel": "SHELL Hungary Kereskedelmi Zártkörűen Működő Részvénytársaság",
+    "@skos:altLabel": "SHELL_HUNGARY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Interconnection Trade Responsible"
+    },
+    "@cim:IdentifiedObject.mRID": "39X50SHELL00001Y",
+    "@cim:IdentifiedObject.name": "SHELL Hungary Kereskedelmi Zártkörűen Működő Részvénytársaság",
+    "@cim:Names.name": [
+        "SHELL_HUNGARY",
+        "HU10891810",
+        "Interconnection Trade Responsible"
+    ],
+    "@cim:IdentifiedObject.description": "Interconnection Trade Responsible",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2012-11-27",
+    "@schema:vatID": "HU10891810",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

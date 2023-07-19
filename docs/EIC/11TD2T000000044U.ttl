@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11TD2T000000044U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11TD2T000000044U" ;
+    cim:IdentifiedObject.name "TTG/380-220/Dollern/Trafo 421" ;
+    cim:Names.name "T-D2-D2-11563994",
+        "Transformer" ;
+    dcterms:identifier "urn:eic:11TD2T000000044U" ;
+    skos:altLabel "T-D2-D2-11563994" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TTG/380-220/Dollern/Trafo 421" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

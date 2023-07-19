@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47X000000000132I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-07-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "47X000000000132I" ;
+    cim:IdentifiedObject.name "Brookfield Renewable Supply 2 Limited" ;
+    cim:Names.name "IE132I",
+        "IE3355898QH",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:47X000000000132I" ;
+    schema1:vatID "IE3355898QH" ;
+    skos:altLabel "IE132I" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Brookfield Renewable Supply 2 Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

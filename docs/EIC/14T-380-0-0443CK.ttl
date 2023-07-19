@@ -1,0 +1,20 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14T-380-0-0443CK> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-11-26" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "14T-380-0-0443CK" ;
+    cim:IdentifiedObject.name "380kV line Bisam.-Sarasdorf" ;
+    cim:Names.name "443C" ;
+    dcterms:identifier "urn:eic:14T-380-0-0443CK" ;
+    skos:altLabel "443C" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "380kV line Bisam.-Sarasdorf" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

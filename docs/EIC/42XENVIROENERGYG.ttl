@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/42XENVIROENERGYG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "42XENVIROENERGYG" ;
+    cim:IdentifiedObject.name "ENVIRO ENERGY s.r.o." ;
+    cim:Names.name "ENVIROENERGY",
+        "Energy Supplier",
+        "SK2023001761" ;
+    dcterms:identifier "urn:eic:42XENVIROENERGYG" ;
+    schema1:vatID "SK2023001761" ;
+    skos:altLabel "ENVIROENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENVIRO ENERGY s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

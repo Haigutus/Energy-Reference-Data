@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XHGEDE-------E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-05-26" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XHGEDE-------E" ;
+    cim:IdentifiedObject.name "Handelsgesellschaft für Energie Deutschland mbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE296244921",
+        "HGE" ;
+    dcterms:identifier "urn:eic:11XHGEDE-------E" ;
+    schema1:vatID "DE296244921" ;
+    skos:altLabel "HGE" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Handelsgesellschaft für Energie Deutschland mbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

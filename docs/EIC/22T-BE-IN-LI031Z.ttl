@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22T-BE-IN-LI031Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-02-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "22T-BE-IN-LI031Z" ;
+    cim:IdentifiedObject.name "150.530 ROMSE-SERAING" ;
+    cim:Names.name "BE530_ROMSE_SERA",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:22T-BE-IN-LI031Z" ;
+    skos:altLabel "BE530_ROMSE_SERA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "150.530 ROMSE-SERAING" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

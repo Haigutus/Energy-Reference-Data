@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/20X-STEINFORT--T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Receveur Communal" ;
+    cim:IdentifiedObject.mRID "20X-STEINFORT--T" ;
+    cim:IdentifiedObject.name "Administration Comunale de Steinfort" ;
+    cim:Names.name "AC_DE_STEINFORT",
+        "LU10220028",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:20X-STEINFORT--T" ;
+    schema1:vatID "LU10220028" ;
+    skos:altLabel "AC_DE_STEINFORT" ;
+    skos:definition "Receveur Communal"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Administration Comunale de Steinfort" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

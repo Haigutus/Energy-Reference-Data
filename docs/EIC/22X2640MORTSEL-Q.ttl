@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X2640MORTSEL-Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-02-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "22X2640MORTSEL-Q" ;
+    cim:IdentifiedObject.name "AGFA GEVAERT NV" ;
+    cim:Names.name "BE0404021727",
+        "BE_AGFA_GEVAERT",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22X2640MORTSEL-Q" ;
+    schema1:vatID "BE0404021727" ;
+    skos:altLabel "BE_AGFA_GEVAERT" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AGFA GEVAERT NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WC00000001488W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WC00000001488W" ;
+    cim:IdentifiedObject.name "S Kollsnes 132 VSD6 Industri" ;
+    cim:Names.name "Load",
+        "NO-KOLL132VSD6NC" ;
+    dcterms:identifier "urn:eic:50WC00000001488W" ;
+    skos:altLabel "NO-KOLL132VSD6NC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S Kollsnes 132 VSD6 Industri" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

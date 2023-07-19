@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XAMGA222222228> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-06-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XAMGA222222228" ;
+    cim:IdentifiedObject.name "AMGAS BLU SRL" ;
+    cim:Names.name "AMGA",
+        "IT03788910713",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:59XAMGA222222228" ;
+    schema1:vatID "IT03788910713" ;
+    skos:altLabel "AMGA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMGAS BLU SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

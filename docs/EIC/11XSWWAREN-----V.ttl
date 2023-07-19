@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWWAREN-----V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-06-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSWWAREN-----V" ;
+    cim:IdentifiedObject.name "Stadtwerke Waren GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE137336403",
+        "SWWAREN" ;
+    dcterms:identifier "urn:eic:11XSWWAREN-----V" ;
+    schema1:vatID "DE137336403" ;
+    skos:altLabel "SWWAREN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Waren GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

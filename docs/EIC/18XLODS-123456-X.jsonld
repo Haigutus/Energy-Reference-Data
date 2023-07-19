@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XLODS-123456-X",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XLODS-123456-X",
+    "@skos:prefLabel": "PARQUE EÓLICO LODOSO, S.L.",
+    "@skos:altLabel": "LODS",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Production Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XLODS-123456-X",
+    "@cim:IdentifiedObject.name": "PARQUE EÓLICO LODOSO, S.L.",
+    "@cim:Names.name": [
+        "LODS",
+        "ESB09409129",
+        "Production Responsible party"
+    ],
+    "@cim:IdentifiedObject.description": "Production Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2008-11-03",
+    "@schema:vatID": "ESB09409129",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

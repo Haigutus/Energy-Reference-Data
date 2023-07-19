@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WPVEGA-1234--H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WPVEGA-1234--H" ;
+    cim:IdentifiedObject.name "P.E. Paramo Vega" ;
+    cim:Names.name "Generation Unit",
+        "PVEGA" ;
+    dcterms:identifier "urn:eic:18WPVEGA-1234--H" ;
+    skos:altLabel "PVEGA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "P.E. Paramo Vega" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

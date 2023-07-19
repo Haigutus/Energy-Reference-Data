@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWANETZ-----J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "balance group" ;
+    cim:IdentifiedObject.mRID "11XSWANETZ-----J" ;
+    cim:IdentifiedObject.name "ASCANETZ GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE180670355",
+        "SWANETZ" ;
+    dcterms:identifier "urn:eic:11XSWANETZ-----J" ;
+    schema1:vatID "DE180670355" ;
+    skos:altLabel "SWANETZ" ;
+    skos:definition "balance group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ASCANETZ GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

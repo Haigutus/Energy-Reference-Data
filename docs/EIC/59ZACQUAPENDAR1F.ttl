@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59ZACQUAPENDAR1F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59ZACQUAPENDAR1F" ;
+    cim:IdentifiedObject.name "34702800 ACQUAPENDENTE+ARLENA DI CASTRO" ;
+    cim:Names.name "34702800",
+        "Metering Point" ;
+    dcterms:identifier "urn:eic:59ZACQUAPENDAR1F" ;
+    skos:altLabel "34702800" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "34702800 ACQUAPENDENTE+ARLENA DI CASTRO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

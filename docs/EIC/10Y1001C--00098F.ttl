@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--00098F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Bidding Area for publications of disaggregated data for IFA interconnector in Transparency Platform " ;
+    cim:IdentifiedObject.mRID "10Y1001C--00098F" ;
+    cim:IdentifiedObject.name "IFA Bidding Zone" ;
+    cim:Names.name "Bidding Zone",
+        "FR_UK_IFA_BZN" ;
+    dcterms:identifier "urn:eic:10Y1001C--00098F" ;
+    skos:altLabel "FR_UK_IFA_BZN" ;
+    skos:definition "Bidding Area for publications of disaggregated data for IFA interconnector in Transparency Platform "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IFA Bidding Zone" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

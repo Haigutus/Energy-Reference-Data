@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WP00000000784C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-08-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WP00000000784C" ;
+    cim:IdentifiedObject.name "Usma_Selbu" ;
+    cim:Names.name "NO-USMA_SEL",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:50WP00000000784C" ;
+    skos:altLabel "NO-USMA_SEL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Usma_Selbu" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

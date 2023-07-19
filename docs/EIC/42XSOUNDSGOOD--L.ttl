@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/42XSOUNDSGOOD--L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-01-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "42XSOUNDSGOOD--L" ;
+    cim:IdentifiedObject.name "Sounds good s.r.o" ;
+    cim:Names.name "Capacity Trader",
+        "SK2022553049",
+        "SOUNDSGOOD,S.R.O" ;
+    dcterms:identifier "urn:eic:42XSOUNDSGOOD--L" ;
+    schema1:vatID "SK2022553049" ;
+    skos:altLabel "SOUNDSGOOD,S.R.O" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Sounds good s.r.o" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

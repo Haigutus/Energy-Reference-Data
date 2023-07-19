@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XEUTRADENERGYW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-20" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Electric Energy Supply And Trade" ;
+    cim:IdentifiedObject.mRID "29XEUTRADENERGYW" ;
+    cim:IdentifiedObject.name "EUROPEAN TRADE OFF ENERGY GIOUZELIS A. - CHATZIDIMITRIOU A." ;
+    cim:Names.name "EL999126893",
+        "EUROTRADENERGY",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:29XEUTRADENERGYW" ;
+    schema1:vatID "EL999126893" ;
+    skos:altLabel "EUROTRADENERGY" ;
+    skos:definition "Electric Energy Supply And Trade"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EUROPEAN TRADE OFF ENERGY GIOUZELIS A. - CHATZIDIMITRIOU A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

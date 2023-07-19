@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPAK-62510-459> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Electricity Producer." ;
+    cim:IdentifiedObject.mRID "19XPAK-62510-459" ;
+    cim:IdentifiedObject.name "ZESPOL ELEKTROWNI PATNOW ADAMOW KONIN SPOLKA AKCYJNA" ;
+    cim:Names.name "PL6650001645",
+        "Producer",
+        "ZE_PAK_SA" ;
+    dcterms:identifier "urn:eic:19XPAK-62510-459" ;
+    schema1:vatID "PL6650001645" ;
+    skos:altLabel "ZE_PAK_SA" ;
+    skos:definition "Electricity Producer."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZESPOL ELEKTROWNI PATNOW ADAMOW KONIN SPOLKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

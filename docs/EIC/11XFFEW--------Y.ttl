@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XFFEW--------Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-10-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XFFEW--------Y" ;
+    cim:IdentifiedObject.name "Fürstlich Fugger v. Glött´sche E-Werks GmbH & Co. KG" ;
+    cim:Names.name "14015953900",
+        "Balance Group",
+        "FFEW" ;
+    dcterms:identifier "urn:eic:11XFFEW--------Y" ;
+    schema1:vatID "14015953900" ;
+    skos:altLabel "FFEW" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fürstlich Fugger v. Glött´sche E-Werks GmbH & Co. KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

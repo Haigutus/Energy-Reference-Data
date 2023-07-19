@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-10IRN102618R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-10-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "54X-10IRN102618R" ;
+    cim:IdentifiedObject.name "ReNRGY Trading Group SH.P.K" ;
+    cim:Names.name "Balance Responsible Party",
+        "L81818026N",
+        "RENRGY_AL",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:54X-10IRN102618R" ;
+    schema1:vatID "L81818026N" ;
+    skos:altLabel "RENRGY_AL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ReNRGY Trading Group SH.P.K" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

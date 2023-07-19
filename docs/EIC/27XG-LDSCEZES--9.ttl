@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XG-LDSCEZES--9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Energy Trading, Services" ;
+    cim:IdentifiedObject.mRID "27XG-LDSCEZES--9" ;
+    cim:IdentifiedObject.name "CEZ Energeticke sluzby, s. r. o." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ27804721",
+        "G-LDSCEZES" ;
+    dcterms:identifier "urn:eic:27XG-LDSCEZES--9" ;
+    schema1:vatID "CZ27804721" ;
+    skos:altLabel "G-LDSCEZES" ;
+    skos:definition "Energy Trading, Services"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEZ Energeticke sluzby, s. r. o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

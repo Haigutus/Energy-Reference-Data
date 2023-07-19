@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XASERV-12345-S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-08-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XASERV-12345-S" ;
+    cim:IdentifiedObject.name "ASERVAL ENERGÍA,SL" ;
+    cim:Names.name "ASERV",
+        "ESB98625080",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XASERV-12345-S" ;
+    schema1:vatID "ESB98625080" ;
+    skos:altLabel "ASERV" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ASERVAL ENERGÍA,SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

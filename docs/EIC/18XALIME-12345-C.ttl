@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XALIME-12345-C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-05-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XALIME-12345-C" ;
+    cim:IdentifiedObject.name "2021 ALIMENGOMERA S.A." ;
+    cim:Names.name "ALIME",
+        "Consumption Responsible Party",
+        "ESA38572988" ;
+    dcterms:identifier "urn:eic:18XALIME-12345-C" ;
+    schema1:vatID "ESA38572988" ;
+    skos:altLabel "ALIME" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "2021 ALIMENGOMERA S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

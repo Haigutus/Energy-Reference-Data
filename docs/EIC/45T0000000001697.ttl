@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45T0000000001697> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45T0000000001697" ;
+    cim:IdentifiedObject.name "150kV Karlsgård Lykkegård 3" ;
+    cim:Names.name "Internal Line",
+        "KAE_150_LYK_3" ;
+    dcterms:identifier "urn:eic:45T0000000001697" ;
+    skos:altLabel "KAE_150_LYK_3" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "150kV Karlsgård Lykkegård 3" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

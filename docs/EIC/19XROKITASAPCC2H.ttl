@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XROKITASAPCC2H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-31" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Chemical Production." ;
+    cim:IdentifiedObject.mRID "19XROKITASAPCC2H" ;
+    cim:IdentifiedObject.name "PCC Rokita Spolka Akcyjna" ;
+    cim:Names.name "Balance Responsible Party",
+        "PCC_ROKITA_SA_2",
+        "PL9170000015" ;
+    dcterms:identifier "urn:eic:19XROKITASAPCC2H" ;
+    schema1:vatID "PL9170000015" ;
+    skos:altLabel "PCC_ROKITA_SA_2" ;
+    skos:definition "Chemical Production."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PCC Rokita Spolka Akcyjna" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

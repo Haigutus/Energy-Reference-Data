@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/38X-BALTIC-RSC-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "38X-BALTIC-RSC-H" ;
+    cim:IdentifiedObject.name "Baltic RCC OÜ" ;
+    cim:Names.name "BALTIC_RCC",
+        "Coordination Center Operator",
+        "EE102507906" ;
+    dcterms:identifier "urn:eic:38X-BALTIC-RSC-H" ;
+    schema1:vatID "EE102507906" ;
+    skos:altLabel "BALTIC_RCC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Baltic RCC OÜ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

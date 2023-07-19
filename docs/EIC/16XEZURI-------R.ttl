@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XEZURI-------R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-12-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XEZURI-------R" ;
+    cim:IdentifiedObject.name "Ezurimbol, Comércio de Eletricidade, Lda" ;
+    cim:Names.name "EZURI",
+        "PT513983511",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XEZURI-------R" ;
+    schema1:vatID "PT513983511" ;
+    skos:altLabel "EZURI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Ezurimbol, Comércio de Eletricidade, Lda" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

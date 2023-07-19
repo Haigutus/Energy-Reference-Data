@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000BQIL> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-10-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000BQIL" ;
+    cim:IdentifiedObject.name "01 FUTURA SOLAR LOGISTICA GLOBAL SL" ;
+    cim:Names.name "Balance Responsible Party",
+        "ESB88207287",
+        "FUTSO" ;
+    dcterms:identifier "urn:eic:18X000000000BQIL" ;
+    schema1:vatID "ESB88207287" ;
+    skos:altLabel "FUTSO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "01 FUTURA SOLAR LOGISTICA GLOBAL SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

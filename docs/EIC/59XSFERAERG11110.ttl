@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XSFERAERG11110> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XSFERAERG11110" ;
+    cim:IdentifiedObject.name "SFERA ENERGIA SRL" ;
+    cim:Names.name "IT01917670497",
+        "Market Operator",
+        "SFERAENERGIASRL" ;
+    dcterms:identifier "urn:eic:59XSFERAERG11110" ;
+    schema1:vatID "IT01917670497" ;
+    skos:altLabel "SFERAENERGIASRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SFERA ENERGIA SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

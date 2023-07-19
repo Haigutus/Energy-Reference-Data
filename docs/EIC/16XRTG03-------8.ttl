@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XRTG03-------8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "16XRTG03-------8" ;
+    cim:IdentifiedObject.name "REN Trading, S.A." ;
+    cim:Names.name "PT508193117",
+        "Production Responsible party",
+        "RTG03" ;
+    dcterms:identifier "urn:eic:16XRTG03-------8" ;
+    schema1:vatID "PT508193117" ;
+    skos:altLabel "RTG03" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "REN Trading, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

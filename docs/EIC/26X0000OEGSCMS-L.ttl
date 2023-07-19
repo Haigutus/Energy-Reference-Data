@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0000OEGSCMS-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-03-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacity Trader" ;
+    cim:IdentifiedObject.mRID "26X0000OEGSCMS-L" ;
+    cim:IdentifiedObject.name "GASCOM SPA" ;
+    cim:Names.name "Capacity Trader",
+        "IT-GASCOM_SPASP",
+        "IT08382071002" ;
+    dcterms:identifier "urn:eic:26X0000OEGSCMS-L" ;
+    schema1:vatID "IT08382071002" ;
+    skos:altLabel "IT-GASCOM_SPASP" ;
+    skos:definition "Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GASCOM SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

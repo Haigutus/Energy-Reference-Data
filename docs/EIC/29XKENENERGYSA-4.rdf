@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/29XKENENERGYSA-4">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:29XKENENERGYSA-4</dcterms:identifier>
+    <skos:prefLabel>&#922;&#917;&#925; &#928;&#913;&#929;&#913;&#915;&#937;&#915;&#919; &#922;&#913;&#921; &#917;&#924;&#928;&#927;&#929;&#921;&#913; &#917;&#925;&#917;&#929;&#915;&#917;&#921;&#913;&#922;&#937;&#925; &#928;&#929;&#927;&#921;&#927;&#925;&#932;&#937;&#925; &#913;&#925;&#937;&#925;&#933;&#924;&#927;&#931; &#917;&#932;&#913;&#921;&#929;&#917;&#921;&#913; </skos:prefLabel>
+    <skos:altLabel>KENENERGY</skos:altLabel>
+    <skos:definition xml:lang="en">Import, supply, marketing, sale and distribution of electricity and other energy products such as fuel for power plants, steam and heated water, capacity booking on connections. Purchase, supply, trade, sale of the electricity which is produced in power plants. Development, financing, construction, operation, exploitation, maintenance and acquisition or participation in thermal power plants in Greece. Construction, operation, exploitation, acquisition or participation in power plants for renewable energy sources.</skos:definition>
+    <cim:IdentifiedObject.mRID>29XKENENERGYSA-4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>&#922;&#917;&#925; &#928;&#913;&#929;&#913;&#915;&#937;&#915;&#919; &#922;&#913;&#921; &#917;&#924;&#928;&#927;&#929;&#921;&#913; &#917;&#925;&#917;&#929;&#915;&#917;&#921;&#913;&#922;&#937;&#925; &#928;&#929;&#927;&#921;&#927;&#925;&#932;&#937;&#925; &#913;&#925;&#937;&#925;&#933;&#924;&#927;&#931; &#917;&#932;&#913;&#921;&#929;&#917;&#921;&#913; </cim:IdentifiedObject.name>
+    <cim:Names.name>KENENERGY</cim:Names.name>
+    <cim:Names.name>EL800749766</cim:Names.name>
+    <cim:IdentifiedObject.description>Import, supply, marketing, sale and distribution of electricity and other energy products such as fuel for power plants, steam and heated water, capacity booking on connections. Purchase, supply, trade, sale of the electricity which is produced in power plants. Development, financing, construction, operation, exploitation, maintenance and acquisition or participation in thermal power plants in Greece. Construction, operation, exploitation, acquisition or participation in power plants for renewable energy sources.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2016-12-08</cim:DateAndOrTime.date>
+    <cim:Names.name>Trade Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>EL800749766</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

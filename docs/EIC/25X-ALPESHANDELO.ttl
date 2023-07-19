@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-ALPESHANDELO> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-06-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "25X-ALPESHANDELO" ;
+    cim:IdentifiedObject.name "Alpes Handels GmbH" ;
+    cim:Names.name "ALPESHANDELS",
+        "ATU69613126",
+        "Balance Responsible Party" ;
+    dcterms:identifier "urn:eic:25X-ALPESHANDELO" ;
+    schema1:vatID "ATU69613126" ;
+    skos:altLabel "ALPESHANDELS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Alpes Handels GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

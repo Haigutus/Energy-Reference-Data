@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XOBE-PLYNARNAH> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-07-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "27XOBE-PLYNARNAH" ;
+    cim:IdentifiedObject.name "OBECNI PLYNARNA, s.r.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ28145127",
+        "OBE-PLYNARNA" ;
+    dcterms:identifier "urn:eic:27XOBE-PLYNARNAH" ;
+    schema1:vatID "CZ28145127" ;
+    skos:altLabel "OBE-PLYNARNA" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OBECNI PLYNARNA, s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XEWO---------B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Erzeugung, Handel, Einkauf, Transport Und Verkauf Von Elektrischer Energie" ;
+    cim:IdentifiedObject.mRID "12XEWO---------B" ;
+    cim:IdentifiedObject.name "Elektritzitaetswerk Obwalden" ;
+    cim:Names.name "Balance Responsible Party",
+        "CH164859",
+        "EWOBWALDEN" ;
+    dcterms:identifier "urn:eic:12XEWO---------B" ;
+    schema1:vatID "CH164859" ;
+    skos:altLabel "EWOBWALDEN" ;
+    skos:definition "Erzeugung, Handel, Einkauf, Transport Und Verkauf Von Elektrischer Energie"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Elektritzitaetswerk Obwalden" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

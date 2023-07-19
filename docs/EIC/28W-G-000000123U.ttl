@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28W-G-000000123U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-04-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Generator" ;
+    cim:IdentifiedObject.mRID "28W-G-000000123U" ;
+    cim:IdentifiedObject.name "ČHE Avče elektrarna - generator" ;
+    cim:Names.name "AVCE-GU",
+        "Generation Unit" ;
+    dcterms:identifier "urn:eic:28W-G-000000123U" ;
+    skos:altLabel "AVCE-GU" ;
+    skos:definition "Generator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ČHE Avče elektrarna - generator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

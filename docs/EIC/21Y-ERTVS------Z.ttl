@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Y-ERTVS------Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Identification Of The South E.On Area" ;
+    cim:IdentifiedObject.mRID "21Y-ERTVS------Z" ;
+    cim:IdentifiedObject.name "E.ON Gastransport AG &  Co - sud" ;
+    cim:Names.name "ERTVS",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:21Y-ERTVS------Z" ;
+    skos:altLabel "ERTVS" ;
+    skos:definition "Identification Of The South E.On Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E.ON Gastransport AG &  Co - sud" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

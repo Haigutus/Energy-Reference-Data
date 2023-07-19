@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--00269J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Implementation of common platform for aFRR, as mandated by EB GL." ;
+    cim:IdentifiedObject.mRID "10V1001C--00269J" ;
+    cim:IdentifiedObject.name "aFRR Platform – TST – ECP – Component Directory" ;
+    cim:Names.name "AFRR_TST_ECP_CD",
+        "Location" ;
+    dcterms:identifier "urn:eic:10V1001C--00269J" ;
+    skos:altLabel "AFRR_TST_ECP_CD" ;
+    skos:definition "Implementation of common platform for aFRR, as mandated by EB GL."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "aFRR Platform – TST – ECP – Component Directory" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WGNCOFL-123--H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WGNCOFL-123--H" ;
+    cim:IdentifiedObject.name "GNCOFL" ;
+    cim:Names.name "GNCOFL",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18WGNCOFL-123--H" ;
+    skos:altLabel "GNCOFL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GNCOFL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-AES-TPALE--V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Local Brp" ;
+    cim:IdentifiedObject.mRID "15X-AES-TPALE--V" ;
+    cim:IdentifiedObject.name "AES Borsodi Energetikai Kft., Tiszapalkonyai Hõerõmü" ;
+    cim:Names.name "AES-TPALE-BC",
+        "HU11070447",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:15X-AES-TPALE--V" ;
+    schema1:vatID "HU11070447" ;
+    skos:altLabel "AES-TPALE-BC" ;
+    skos:definition "Local Brp"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AES Borsodi Energetikai Kft., Tiszapalkonyai Hõerõmü" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

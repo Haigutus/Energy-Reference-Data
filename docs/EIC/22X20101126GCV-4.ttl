@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X20101126GCV-4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-02-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "22X20101126GCV-4" ;
+    cim:IdentifiedObject.name "VOLVO CARS GENT" ;
+    cim:Names.name "BE0420383548",
+        "BE_VOLVOCARGENT",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22X20101126GCV-4" ;
+    schema1:vatID "BE0420383548" ;
+    skos:altLabel "BE_VOLVOCARGENT" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VOLVO CARS GENT" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19T1100000068086> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19T1100000068086" ;
+    cim:IdentifiedObject.name "Piła Krzewina-Żydowo Kierzkowo" ;
+    cim:Names.name "219_PL",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:19T1100000068086" ;
+    skos:altLabel "219_PL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Piła Krzewina-Żydowo Kierzkowo" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

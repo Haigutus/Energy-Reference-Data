@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XNVG5TR------9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XNVG5TR------9" ;
+    cim:IdentifiedObject.name "Navigator Tissue Aveiro, SA" ;
+    cim:Names.name "NVG5TR",
+        "PT513485368",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XNVG5TR------9" ;
+    schema1:vatID "PT513485368" ;
+    skos:altLabel "NVG5TR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Navigator Tissue Aveiro, SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

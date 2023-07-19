@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47X000000000152C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "47X000000000152C" ;
+    cim:IdentifiedObject.name "Knocknagashel Wind Farm Limited" ;
+    cim:Names.name "IE152C",
+        "IE6437359M",
+        "Production Responsible party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:47X000000000152C" ;
+    schema1:vatID "IE6437359M" ;
+    skos:altLabel "IE152C" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Knocknagashel Wind Farm Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

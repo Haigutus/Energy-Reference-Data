@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XAPM100317--AE> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Metered Data Collector" ;
+    cim:IdentifiedObject.mRID "22XAPM100317--AE" ;
+    cim:IdentifiedObject.name "APM TERMINALS ZEEBRUGGE NV" ;
+    cim:Names.name "BE0870784836",
+        "BE_APM_TERM_ZEEB",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22XAPM100317--AE" ;
+    schema1:vatID "BE0870784836" ;
+    skos:altLabel "BE_APM_TERM_ZEEB" ;
+    skos:definition "Metered Data Collector"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "APM TERMINALS ZEEBRUGGE NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

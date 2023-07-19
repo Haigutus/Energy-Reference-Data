@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11W0-0000-0110-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11W0-0000-0110-E" ;
+    cim:IdentifiedObject.name "VIW_Obervermunt2_M2" ;
+    cim:Names.name "D4_VIW_OVW2_M2",
+        "Generation" ;
+    dcterms:identifier "urn:eic:11W0-0000-0110-E" ;
+    skos:altLabel "D4_VIW_OVW2_M2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VIW_Obervermunt2_M2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

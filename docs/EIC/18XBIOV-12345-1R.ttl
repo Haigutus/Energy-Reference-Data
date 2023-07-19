@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XBIOV-12345-1R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XBIOV-12345-1R" ;
+    cim:IdentifiedObject.name "BIOVENT ENERGIA S.A." ;
+    cim:Names.name "BIOV",
+        "ESA47497789",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XBIOV-12345-1R" ;
+    schema1:vatID "ESA47497789" ;
+    skos:altLabel "BIOV" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BIOVENT ENERGIA S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

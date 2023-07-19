@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-NO-SE-00005G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-09-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-NO-SE-00005G" ;
+    cim:IdentifiedObject.name "Halden-Loviseholm" ;
+    cim:Names.name "Accounting Point",
+        "M_HALDEN-LOVISEH" ;
+    dcterms:identifier "urn:eic:10Z-NO-SE-00005G" ;
+    skos:altLabel "M_HALDEN-LOVISEH" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Halden-Loviseholm" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

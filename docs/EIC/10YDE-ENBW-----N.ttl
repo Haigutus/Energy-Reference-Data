@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10YDE-ENBW-----N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Control Area, Scheduling Area" ;
+    cim:IdentifiedObject.mRID "10YDE-ENBW-----N" ;
+    cim:IdentifiedObject.name "Germany TransnetBW" ;
+    cim:Names.name "Control Area",
+        "DE-TRANSNETBW",
+        "LFC Area",
+        "Scheduling Area" ;
+    dcterms:identifier "urn:eic:10YDE-ENBW-----N" ;
+    skos:altLabel "DE-TRANSNETBW" ;
+    skos:definition "Control Area, Scheduling Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Germany TransnetBW" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

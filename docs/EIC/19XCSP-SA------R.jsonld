@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19XCSP-SA------R",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19XCSP-SA------R",
+    "@skos:prefLabel": "CIECH SODA POLSKA S.A.",
+    "@skos:altLabel": "CSP",
+    "@cim:IdentifiedObject.mRID": "19XCSP-SA------R",
+    "@cim:IdentifiedObject.name": "CIECH SODA POLSKA S.A.",
+    "@cim:Names.name": [
+        "CSP",
+        "A00099436.PL",
+        "PL5252382127",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "Energy Supplier",
+        "Consumer",
+        "Producer",
+        "System Operator"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-12-21",
+    "@schema:vatID": "PL5252382127",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

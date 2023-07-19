@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XARCPR-12345-7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-08-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XARCPR-12345-7" ;
+    cim:IdentifiedObject.name "Pizarras Arcas Prada, S.A" ;
+    cim:Names.name "ARCPR",
+        "Consumption Responsible Party",
+        "ESA32338840" ;
+    dcterms:identifier "urn:eic:18XARCPR-12345-7" ;
+    schema1:vatID "ESA32338840" ;
+    skos:altLabel "ARCPR" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Pizarras Arcas Prada, S.A" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

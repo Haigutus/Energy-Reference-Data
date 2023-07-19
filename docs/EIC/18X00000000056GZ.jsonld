@@ -1,0 +1,37 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18X00000000056GZ",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18X00000000056GZ",
+    "@skos:prefLabel": "CH CUATRO GAS COMERCIALIZADORA",
+    "@skos:altLabel": "CH-CUATRO",
+    "@cim:IdentifiedObject.mRID": "18X00000000056GZ",
+    "@cim:IdentifiedObject.name": "CH CUATRO GAS COMERCIALIZADORA",
+    "@cim:Names.name": [
+        "CH-CUATRO",
+        "ESB87771119",
+        "Trade Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-06-26",
+    "@schema:vatID": "ESB87771119",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

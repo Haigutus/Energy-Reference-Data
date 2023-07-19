@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XBLACKPEARL--T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-04-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade of Electricity  Transmission of electricity  Distribution of electricity  Retail sale of electrical household appliances " ;
+    cim:IdentifiedObject.mRID "29XBLACKPEARL--T" ;
+    cim:IdentifiedObject.name "WATT AND VOLT EXPLOITATION OF ALTERNATIVE FORMS OF ENERGY SINGLE MEMBE" ;
+    cim:Names.name "A0003997W.GR",
+        "Balance Responsible Party",
+        "EL998283692",
+        "Energy Supplier",
+        "WATT_AND_VOLT" ;
+    dcterms:identifier "urn:eic:29XBLACKPEARL--T" ;
+    schema1:vatID "EL998283692" ;
+    skos:altLabel "WATT_AND_VOLT" ;
+    skos:definition "Trade of Electricity  Transmission of electricity  Distribution of electricity  Retail sale of electrical household appliances "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "WATT AND VOLT EXPLOITATION OF ALTERNATIVE FORMS OF ENERGY SINGLE MEMBE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

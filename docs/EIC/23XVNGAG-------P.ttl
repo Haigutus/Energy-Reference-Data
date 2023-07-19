@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23XVNGAG-------P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Spin-off of activities from one entity (VNG AG) to the other (VNG Handel & Vertrieb GmbH). Checked and agreed between CIO, LIO and Counterparties in February 2018. " ;
+    cim:IdentifiedObject.mRID "23XVNGAG-------P" ;
+    cim:IdentifiedObject.name "VNG Handel & Vertrieb GmbH" ;
+    cim:Names.name "DE141628049",
+        "Trade Responsible Party",
+        "VNG_HANDEL_V" ;
+    dcterms:identifier "urn:eic:23XVNGAG-------P" ;
+    schema1:vatID "DE141628049" ;
+    skos:altLabel "VNG_HANDEL_V" ;
+    skos:definition "Spin-off of activities from one entity (VNG AG) to the other (VNG Handel & Vertrieb GmbH). Checked and agreed between CIO, LIO and Counterparties in February 2018. "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VNG Handel & Vertrieb GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

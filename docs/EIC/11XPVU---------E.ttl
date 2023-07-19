@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XPVU---------E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XPVU---------E" ;
+    cim:IdentifiedObject.name "PVU Prignitzer Energie- und Wasserversorgungsunternehmen Gesellschaft " ;
+    cim:Names.name "Balance Responsible Party",
+        "DE138975004",
+        "PVU" ;
+    dcterms:identifier "urn:eic:11XPVU---------E" ;
+    schema1:vatID "DE138975004" ;
+    skos:altLabel "PVU" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PVU Prignitzer Energie- und Wasserversorgungsunternehmen Gesellschaft " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

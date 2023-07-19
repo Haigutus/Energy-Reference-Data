@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XNUCER-12345-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Function Missing" ;
+    cim:IdentifiedObject.mRID "18XNUCER-12345-N" ;
+    cim:IdentifiedObject.name "NUCLEAR CERAMICS S.L." ;
+    cim:Names.name "ESB12575544",
+        "NUCER",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:18XNUCER-12345-N" ;
+    schema1:vatID "ESB12575544" ;
+    skos:altLabel "NUCER" ;
+    skos:definition "Function Missing"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NUCLEAR CERAMICS S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

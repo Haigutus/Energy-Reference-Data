@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/49W0000000001144",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:49W0000000001144",
+    "@skos:prefLabel": "Rijnmond Power Holding 11B",
+    "@skos:altLabel": "PHH_11B",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Generation Unit"
+    },
+    "@cim:IdentifiedObject.mRID": "49W0000000001144",
+    "@cim:IdentifiedObject.name": "Rijnmond Power Holding 11B",
+    "@cim:Names.name": [
+        "PHH_11B",
+        "Generation Unit"
+    ],
+    "@cim:IdentifiedObject.description": "Generation Unit",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-02-08",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

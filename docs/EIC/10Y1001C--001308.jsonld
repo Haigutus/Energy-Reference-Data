@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10Y1001C--001308",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10Y1001C--001308",
+    "@skos:prefLabel": "Regional Outage Area NIB",
+    "@skos:altLabel": "ROA-NIB",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Resquested by the market participants of this region to be used within OPC PAN European service. Market Participants (TSOs) are: Terna, RTE, APG, ELES, Swissgrid. "
+    },
+    "@cim:IdentifiedObject.mRID": "10Y1001C--001308",
+    "@cim:IdentifiedObject.name": "Regional Outage Area NIB",
+    "@cim:Names.name": [
+        "ROA-NIB",
+        "Regional Outage Area"
+    ],
+    "@cim:IdentifiedObject.description": "Resquested by the market participants of this region to be used within OPC PAN European service. Market Participants (TSOs) are: Terna, RTE, APG, ELES, Swissgrid. ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-03-25",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

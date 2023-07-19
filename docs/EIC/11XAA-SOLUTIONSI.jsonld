@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/11XAA-SOLUTIONSI",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:11XAA-SOLUTIONSI",
+    "@skos:prefLabel": "A& A Stromallianz Solutions GmbH",
+    "@skos:altLabel": "AA-SOLUTIONS",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Group"
+    },
+    "@cim:IdentifiedObject.mRID": "11XAA-SOLUTIONSI",
+    "@cim:IdentifiedObject.name": "A& A Stromallianz Solutions GmbH",
+    "@cim:Names.name": [
+        "AA-SOLUTIONS",
+        "DE814744260",
+        "Balance Group"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Group",
+    "@cim:Document.docStatus": "A03",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-11-29",
+    "@schema:vatID": "DE814744260",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

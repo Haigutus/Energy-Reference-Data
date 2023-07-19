@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001243F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-06-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacity Trader" ;
+    cim:IdentifiedObject.mRID "21X000000001243F" ;
+    cim:IdentifiedObject.name "Maersk Energy Marketing A/S" ;
+    cim:Names.name "Capacity Trader",
+        "DK22757318",
+        "MEMAS" ;
+    dcterms:identifier "urn:eic:21X000000001243F" ;
+    schema1:vatID "DK22757318" ;
+    skos:altLabel "MEMAS" ;
+    skos:definition "Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Maersk Energy Marketing A/S" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

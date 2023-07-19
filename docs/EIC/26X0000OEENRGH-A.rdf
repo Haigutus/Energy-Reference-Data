@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/26X0000OEENRGH-A">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:26X0000OEENRGH-A</dcterms:identifier>
+    <skos:prefLabel>ENERGHE SPA</skos:prefLabel>
+    <skos:altLabel>IT-ENERGHE_SPAS</skos:altLabel>
+    <skos:definition xml:lang="en">Market Operator</skos:definition>
+    <cim:IdentifiedObject.mRID>26X0000OEENRGH-A</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ENERGHE SPA</cim:IdentifiedObject.name>
+    <cim:Names.name>IT-ENERGHE_SPAS</cim:Names.name>
+    <cim:Names.name>IT03145780049</cim:Names.name>
+    <cim:IdentifiedObject.description>Market Operator</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2011-12-13</cim:DateAndOrTime.date>
+    <cim:Names.name>Market Operator</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>IT03145780049</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

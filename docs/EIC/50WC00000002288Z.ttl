@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WC00000002288Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WC00000002288Z" ;
+    cim:IdentifiedObject.name "M Hauglia 2   LARM Last" ;
+    cim:Names.name "Load",
+        "NO-HAUGLIA2" ;
+    dcterms:identifier "urn:eic:50WC00000002288Z" ;
+    skos:altLabel "NO-HAUGLIA2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "M Hauglia 2   LARM Last" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

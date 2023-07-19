@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XROROMELECTROL> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-09-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacity Trader" ;
+    cim:IdentifiedObject.mRID "30XROROMELECTROL" ;
+    cim:IdentifiedObject.name "ROMELECTRO SA" ;
+    cim:Names.name "Capacity Trader",
+        "RO1557850",
+        "RO_ROMELECTRO" ;
+    dcterms:identifier "urn:eic:30XROROMELECTROL" ;
+    schema1:vatID "RO1557850" ;
+    skos:altLabel "RO_ROMELECTRO" ;
+    skos:definition "Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ROMELECTRO SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10V1001C--002406",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10V1001C--002406",
+    "@skos:prefLabel": "ECP Core Test2 Endpoint",
+    "@skos:altLabel": "ECP_CORE_TST_EDP",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "In the context of the implementation of the Core capacity calculation within Core CCR, and its connection to the Market Coupling system, a new test environement (test2) has been set up to validate the market coupling process and the post coupling activities. As a new ECP4 endpoint is being implemented for the files exchanges with this environement an EIC code is requested for this endpoint"
+    },
+    "@cim:IdentifiedObject.mRID": "10V1001C--002406",
+    "@cim:IdentifiedObject.name": "ECP Core Test2 Endpoint",
+    "@cim:Names.name": [
+        "ECP_CORE_TST_EDP",
+        "IT-system"
+    ],
+    "@cim:IdentifiedObject.description": "In the context of the implementation of the Core capacity calculation within Core CCR, and its connection to the Market Coupling system, a new test environement (test2) has been set up to validate the market coupling process and the post coupling activities. As a new ECP4 endpoint is being implemented for the files exchanges with this environement an EIC code is requested for this endpoint",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-01-26",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

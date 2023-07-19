@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XMATBAZ-TR-23N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XMATBAZ-TR-23N" ;
+    cim:IdentifiedObject.name "MATBAZ TRADE Kft" ;
+    cim:Names.name "Capacity Trader",
+        "HU32142774",
+        "MATBAZ" ;
+    dcterms:identifier "urn:eic:39XMATBAZ-TR-23N" ;
+    schema1:vatID "HU32142774" ;
+    skos:altLabel "MATBAZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MATBAZ TRADE Kft" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/36XALUMINIJ-MO-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "36XALUMINIJ-MO-N" ;
+    cim:IdentifiedObject.name "Aluminij d.d. Mostar" ;
+    cim:Names.name "0227207670005",
+        "ALUMINIJ-MOSTAR",
+        "Consumer",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:36XALUMINIJ-MO-N" ;
+    schema1:vatID "0227207670005" ;
+    skos:altLabel "ALUMINIJ-MOSTAR" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Aluminij d.d. Mostar" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

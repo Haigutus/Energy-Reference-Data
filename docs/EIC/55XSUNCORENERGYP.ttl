@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XSUNCORENERGYP> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "55XSUNCORENERGYP" ;
+    cim:IdentifiedObject.name "Suncor Energy UK Limited" ;
+    cim:Names.name "GB241578165",
+        "Producer",
+        "SUNCORENERGYUK" ;
+    dcterms:identifier "urn:eic:55XSUNCORENERGYP" ;
+    schema1:vatID "GB241578165" ;
+    skos:altLabel "SUNCORENERGYUK" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Suncor Energy UK Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

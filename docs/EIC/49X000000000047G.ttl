@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49X000000000047G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "49X000000000047G" ;
+    cim:IdentifiedObject.name "GIGA Storage BV" ;
+    cim:Names.name "Capacity Trader",
+        "GIGA_STORAGE",
+        "NL858773387B01" ;
+    dcterms:identifier "urn:eic:49X000000000047G" ;
+    schema1:vatID "NL858773387B01" ;
+    skos:altLabel "GIGA_STORAGE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GIGA Storage BV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

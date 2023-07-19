@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/12XATEL-REGEL--O",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:12XATEL-REGEL--O",
+    "@skos:prefLabel": "Alpiq AG",
+    "@skos:altLabel": "ATEL-REGEL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Alpiq has historically several Codes under the same VAT. Now they Changed the VAT. This means we have several Codes under the new VAT. Since this vital to be kept that way I hereby confirm that this exception is needed and on purpose. Please Accept that change."
+    },
+    "@cim:IdentifiedObject.mRID": "12XATEL-REGEL--O",
+    "@cim:IdentifiedObject.name": "Alpiq AG",
+    "@cim:Names.name": [
+        "ATEL-REGEL",
+        "CHE282002070",
+        "System Operator",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Alpiq has historically several Codes under the same VAT. Now they Changed the VAT. This means we have several Codes under the new VAT. Since this vital to be kept that way I hereby confirm that this exception is needed and on purpose. Please Accept that change.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-02-11",
+    "@schema:vatID": "CHE282002070",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

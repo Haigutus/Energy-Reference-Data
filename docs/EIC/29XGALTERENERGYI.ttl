@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XGALTERENERGYI> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-03-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "29XGALTERENERGYI" ;
+    cim:IdentifiedObject.name "GREEK ALTERNATIVE ENERGY S.A." ;
+    cim:Names.name "ALTNRG",
+        "Balance Responsible Party",
+        "EL998475710" ;
+    dcterms:identifier "urn:eic:29XGALTERENERGYI" ;
+    schema1:vatID "EL998475710" ;
+    skos:altLabel "ALTNRG" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GREEK ALTERNATIVE ENERGY S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48W00000HLTWW-1U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-12-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "this is an 'update' for us but a 'create' for you as never submitted to you previously as local (now all international). The W BMU code now belongs to a different X code - the one here" ;
+    cim:IdentifiedObject.mRID "48W00000HLTWW-1U" ;
+    cim:IdentifiedObject.name "Hill of Towie Wind Farm" ;
+    cim:Names.name "Generation Unit",
+        "HLTWW-1" ;
+    dcterms:identifier "urn:eic:48W00000HLTWW-1U" ;
+    skos:altLabel "HLTWW-1" ;
+    skos:definition "this is an 'update' for us but a 'create' for you as never submitted to you previously as local (now all international). The W BMU code now belongs to a different X code - the one here"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Hill of Towie Wind Farm" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

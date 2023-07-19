@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XEDF-ENERGIA-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-08-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XEDF-ENERGIA-V" ;
+    cim:IdentifiedObject.name "EDF ENERGIA SPOLKA AKCYJNA" ;
+    cim:Names.name "Balance Responsible Party",
+        "EDF_ENERGIA_SA",
+        "PL5252662128" ;
+    dcterms:identifier "urn:eic:19XEDF-ENERGIA-V" ;
+    schema1:vatID "PL5252662128" ;
+    skos:altLabel "EDF_ENERGIA_SA" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EDF ENERGIA SPOLKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XMEGA-MONHEIMQ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-10-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XMEGA-MONHEIMQ" ;
+    cim:IdentifiedObject.name "MEGA Monheim Elektrizitäts- und Gasversorung GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE811257596",
+        "MEGA" ;
+    dcterms:identifier "urn:eic:11XMEGA-MONHEIMQ" ;
+    schema1:vatID "DE811257596" ;
+    skos:altLabel "MEGA" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MEGA Monheim Elektrizitäts- und Gasversorung GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

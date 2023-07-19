@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23XDISTRIGASNV-1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trader" ;
+    cim:IdentifiedObject.mRID "23XDISTRIGASNV-1" ;
+    cim:IdentifiedObject.name "Distrigas NV" ;
+    cim:Names.name "BE476201605",
+        "DISTRIGASBV",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:23XDISTRIGASNV-1" ;
+    schema1:vatID "BE476201605" ;
+    skos:altLabel "DISTRIGASBV" ;
+    skos:definition "Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Distrigas NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

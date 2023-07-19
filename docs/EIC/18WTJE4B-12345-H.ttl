@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WTJE4B-12345-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WTJE4B-12345-H" ;
+    cim:IdentifiedObject.name "TAJO DE LA ENCANTADA 4 BOMBEO " ;
+    cim:Names.name "Generation Unit",
+        "TJE4B" ;
+    dcterms:identifier "urn:eic:18WTJE4B-12345-H" ;
+    skos:altLabel "TJE4B" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TAJO DE LA ENCANTADA 4 BOMBEO " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X0000000001339> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45X0000000001339" ;
+    cim:IdentifiedObject.name "Fever Energy AB" ;
+    cim:Names.name "5593979650",
+        "Balancing Service Provider",
+        "FEVER" ;
+    dcterms:identifier "urn:eic:45X0000000001339" ;
+    schema1:vatID "5593979650" ;
+    skos:altLabel "FEVER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fever Energy AB" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

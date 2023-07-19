@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XVTSP--------9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-01-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XVTSP--------9" ;
+    cim:IdentifiedObject.name "Vattenfall Trading Services Sp. z o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "PL9691406317",
+        "VETP_1" ;
+    dcterms:identifier "urn:eic:19XVTSP--------9" ;
+    schema1:vatID "PL9691406317" ;
+    skos:altLabel "VETP_1" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vattenfall Trading Services Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

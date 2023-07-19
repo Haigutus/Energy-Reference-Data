@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000144X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Party Connected To Grid" ;
+    cim:IdentifiedObject.mRID "48X000000000144X" ;
+    cim:IdentifiedObject.name "CEEASTON" ;
+    cim:Names.name "CEEASTON",
+        "GB202719437",
+        "Party Connected To Grid" ;
+    dcterms:identifier "urn:eic:48X000000000144X" ;
+    schema1:vatID "GB202719437" ;
+    skos:altLabel "CEEASTON" ;
+    skos:definition "Party Connected To Grid"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEEASTON" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

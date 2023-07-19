@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26V000000000005Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-09-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "For Acceptance Environment" ;
+    cim:IdentifiedObject.mRID "26V000000000005Q" ;
+    cim:IdentifiedObject.name "ECP4-OPDE_COLL" ;
+    cim:Names.name "ECP4-OPDE_COLL",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:26V000000000005Q" ;
+    skos:altLabel "ECP4-OPDE_COLL" ;
+    skos:definition "For Acceptance Environment"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ECP4-OPDE_COLL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

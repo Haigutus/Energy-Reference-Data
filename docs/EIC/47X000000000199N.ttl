@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47X000000000199N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "47X000000000199N" ;
+    cim:IdentifiedObject.name "World Fuel Commodity Services (Ireland) Limited" ;
+    cim:Names.name "IE199N",
+        "IE3228661VH",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:47X000000000199N" ;
+    schema1:vatID "IE3228661VH" ;
+    skos:altLabel "IE199N" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "World Fuel Commodity Services (Ireland) Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XPINA-123456-C",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XPINA-123456-C",
+    "@skos:prefLabel": "INSTALACIONES ELECTRICAS ELECTROPINATAR, C.B.",
+    "@skos:altLabel": "PINA",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Trade Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XPINA-123456-C",
+    "@cim:IdentifiedObject.name": "INSTALACIONES ELECTRICAS ELECTROPINATAR, C.B.",
+    "@cim:Names.name": [
+        "PINA",
+        "ESE73381907",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Trade Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2009-07-02",
+    "@schema:vatID": "ESE73381907",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

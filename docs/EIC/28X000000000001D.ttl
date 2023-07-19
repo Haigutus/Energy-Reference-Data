@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28X000000000001D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-06-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "28X000000000001D" ;
+    cim:IdentifiedObject.name "EKSTRA OLJE NOVA d.o.o." ;
+    cim:Names.name "Consumer",
+        "EKSTRANOVA",
+        "SI50460579" ;
+    dcterms:identifier "urn:eic:28X000000000001D" ;
+    schema1:vatID "SI50460579" ;
+    skos:altLabel "EKSTRANOVA" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EKSTRA OLJE NOVA d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

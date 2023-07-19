@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000000013544M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "LYONDELL CHIMIE FRANCE SAS" ;
+    cim:IdentifiedObject.mRID "17X000000013544M" ;
+    cim:IdentifiedObject.name "LYONDELL CHIMIE FRANCE" ;
+    cim:Names.name "Capacity Trader",
+        "Consumer",
+        "FR38333834562",
+        "FR_LYONDELL",
+        "Party Connected To Grid" ;
+    dcterms:identifier "urn:eic:17X000000013544M" ;
+    schema1:vatID "FR38333834562" ;
+    skos:altLabel "FR_LYONDELL" ;
+    skos:definition "LYONDELL CHIMIE FRANCE SAS"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "LYONDELL CHIMIE FRANCE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

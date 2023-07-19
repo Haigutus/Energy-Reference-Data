@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31W-0532-P-001-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "31W-0532-P-001-E" ;
+    cim:IdentifiedObject.name "HE GOLUBIC AG1 3,27 MW" ;
+    cim:Names.name "Generation Unit",
+        "HR-HE-GOL1-4" ;
+    dcterms:identifier "urn:eic:31W-0532-P-001-E" ;
+    skos:altLabel "HR-HE-GOL1-4" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HE GOLUBIC AG1 3,27 MW" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

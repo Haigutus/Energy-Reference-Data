@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/32X001100101884T",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:32X001100101884T",
+    "@skos:prefLabel": "ACTIVE ENERGY CORPORATION EOOD",
+    "@skos:altLabel": "ACTIVE_ENERGY_CO",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "32X001100101884T",
+    "@cim:IdentifiedObject.name": "ACTIVE ENERGY CORPORATION EOOD",
+    "@cim:Names.name": [
+        "ACTIVE_ENERGY_CO",
+        "A0019998D.BG",
+        "BG206806922",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-12-06",
+    "@schema:vatID": "BG206806922",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

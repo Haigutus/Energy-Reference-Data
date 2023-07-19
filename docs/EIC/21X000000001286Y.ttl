@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001286Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-01-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "21X000000001286Y" ;
+    cim:IdentifiedObject.name "ROUSSELOT ANGOULEME SAS" ;
+    cim:Names.name "Consumer",
+        "FR43484588116",
+        "ROUSSELOT" ;
+    dcterms:identifier "urn:eic:21X000000001286Y" ;
+    schema1:vatID "FR43484588116" ;
+    skos:altLabel "ROUSSELOT" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ROUSSELOT ANGOULEME SAS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

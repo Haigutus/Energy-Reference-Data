@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/51X-0000000018-M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "51X-0000000018-M" ;
+    cim:IdentifiedObject.name "TONDACH SLOVENIJA d.o.o." ;
+    cim:Names.name "Consumer",
+        "SI79618057",
+        "TONDACHSLO" ;
+    dcterms:identifier "urn:eic:51X-0000000018-M" ;
+    schema1:vatID "SI79618057" ;
+    skos:altLabel "TONDACHSLO" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TONDACH SLOVENIJA d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

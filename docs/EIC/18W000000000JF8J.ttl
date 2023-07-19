@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18W000000000JF8J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18W000000000JF8J" ;
+    cim:IdentifiedObject.name "ROFENFL" ;
+    cim:Names.name "Production Unit",
+        "ROFENFL" ;
+    dcterms:identifier "urn:eic:18W000000000JF8J" ;
+    skos:altLabel "ROFENFL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ROFENFL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

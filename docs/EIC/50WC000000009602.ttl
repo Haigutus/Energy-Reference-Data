@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WC000000009602> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WC000000009602" ;
+    cim:IdentifiedObject.name "S Rommen   47  1-28 Forbruk" ;
+    cim:Names.name "Load",
+        "NO-ROMMEN471-28" ;
+    dcterms:identifier "urn:eic:50WC000000009602" ;
+    skos:altLabel "NO-ROMMEN471-28" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S Rommen   47  1-28 Forbruk" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

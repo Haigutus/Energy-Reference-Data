@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XENERGYMORE--J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-03-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XENERGYMORE--J" ;
+    cim:IdentifiedObject.name "Energy & More Energiebroker GmbH und Co.KG" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE201691829",
+        "ENERGYMORE" ;
+    dcterms:identifier "urn:eic:11XENERGYMORE--J" ;
+    schema1:vatID "DE201691829" ;
+    skos:altLabel "ENERGYMORE" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energy & More Energiebroker GmbH und Co.KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XUNKOSRL111114> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-11-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XUNKOSRL111114" ;
+    cim:IdentifiedObject.name "59XUNKOSRL111114" ;
+    cim:Names.name "IT10407020964",
+        "Market Operator",
+        "UNIKOSRL" ;
+    dcterms:identifier "urn:eic:59XUNKOSRL111114" ;
+    schema1:vatID "IT10407020964" ;
+    skos:altLabel "UNIKOSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "59XUNKOSRL111114" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

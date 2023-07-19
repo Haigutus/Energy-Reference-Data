@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Y000000000001U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Identification Of The Peg Nord B Subterminal In France" ;
+    cim:IdentifiedObject.mRID "21Y000000000001U" ;
+    cim:IdentifiedObject.name "Point Exchange Gas - NORD B" ;
+    cim:Names.name "PEGNORDB",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:21Y000000000001U" ;
+    skos:altLabel "PEGNORDB" ;
+    skos:definition "Identification Of The Peg Nord B Subterminal In France"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Point Exchange Gas - NORD B" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

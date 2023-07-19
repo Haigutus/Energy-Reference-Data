@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XMIRAL-12345-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-12-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XMIRAL-12345-Z" ;
+    cim:IdentifiedObject.name "GRUPO ALIMENTARIO ARGAL SA" ;
+    cim:Names.name "ESA28212579",
+        "MIRAL",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XMIRAL-12345-Z" ;
+    schema1:vatID "ESA28212579" ;
+    skos:altLabel "MIRAL" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GRUPO ALIMENTARIO ARGAL SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XENERGY-4-U--Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-07-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XENERGY-4-U--Y" ;
+    cim:IdentifiedObject.name "ENERGIA DLA FIRM Sp. z o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "ENERGIA_DLA_FIRM",
+        "PL7123205358" ;
+    dcterms:identifier "urn:eic:19XENERGY-4-U--Y" ;
+    schema1:vatID "PL7123205358" ;
+    skos:altLabel "ENERGIA_DLA_FIRM" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGIA DLA FIRM Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

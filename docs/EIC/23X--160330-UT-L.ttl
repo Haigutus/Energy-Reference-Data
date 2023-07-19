@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160330-UT-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-09-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "23X--160330-UT-L" ;
+    cim:IdentifiedObject.name "UAB Ignitis" ;
+    cim:Names.name "A00012948.LT",
+        "Balance Responsible Party",
+        "LT100008860617",
+        "Network User",
+        "Trade Responsible Party",
+        "UAB_IGNITIS" ;
+    dcterms:identifier "urn:eic:23X--160330-UT-L" ;
+    schema1:vatID "LT100008860617" ;
+    skos:altLabel "UAB_IGNITIS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Ignitis" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

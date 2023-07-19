@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/38X-AVP-AKOK00E2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "38X-AVP-AKOK00E2" ;
+    cim:IdentifiedObject.name "Elenger Marine OÜ" ;
+    cim:Names.name "EE102192104",
+        "ELENGERMARINEOU",
+        "Network User" ;
+    dcterms:identifier "urn:eic:38X-AVP-AKOK00E2" ;
+    schema1:vatID "EE102192104" ;
+    skos:altLabel "ELENGERMARINEOU" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Elenger Marine OÜ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

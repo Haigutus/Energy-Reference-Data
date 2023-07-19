@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/65XBRP-ENERGYFOD> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "65XBRP-ENERGYFOD" ;
+    cim:IdentifiedObject.name "ENERGY FORCE GEORGIA LLC" ;
+    cim:Names.name "405450532",
+        "Balance Responsible Party",
+        "ENERGY_FORCE_GEO" ;
+    dcterms:identifier "urn:eic:65XBRP-ENERGYFOD" ;
+    schema1:vatID "405450532" ;
+    skos:altLabel "ENERGY_FORCE_GEO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGY FORCE GEORGIA LLC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

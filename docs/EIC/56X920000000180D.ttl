@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X920000000180D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X920000000180D" ;
+    cim:IdentifiedObject.name "\"First Ukrainian Oil and gas company\" LLC." ;
+    cim:Names.name "1UGNC",
+        "Producer",
+        "UA360501626594" ;
+    dcterms:identifier "urn:eic:56X920000000180D" ;
+    schema1:vatID "UA360501626594" ;
+    skos:altLabel "1UGNC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "\"First Ukrainian Oil and gas company\" LLC." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XKEROLEUMBEFKU> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-08-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Update due to address change" ;
+    cim:IdentifiedObject.mRID "39XKEROLEUMBEFKU" ;
+    cim:IdentifiedObject.name "AIK Energy Hungary Kft" ;
+    cim:Names.name "A0015608X.HU",
+        "AIKENERGYHU",
+        "HU26372408",
+        "Interconnection Trade Responsible" ;
+    dcterms:identifier "urn:eic:39XKEROLEUMBEFKU" ;
+    schema1:vatID "HU26372408" ;
+    skos:altLabel "AIKENERGYHU" ;
+    skos:definition "Update due to address change"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AIK Energy Hungary Kft" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

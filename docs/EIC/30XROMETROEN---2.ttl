@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XROMETROEN---2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-02-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Capacity Trader" ;
+    cim:IdentifiedObject.mRID "30XROMETROEN---2" ;
+    cim:IdentifiedObject.name "MET ROMANIA ENERGY TRADE SRL" ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "RO25669192",
+        "RO_MET" ;
+    dcterms:identifier "urn:eic:30XROMETROEN---2" ;
+    schema1:vatID "RO25669192" ;
+    skos:altLabel "RO_MET" ;
+    skos:definition "Balance Responsible Party, Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MET ROMANIA ENERGY TRADE SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

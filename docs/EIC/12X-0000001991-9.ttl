@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001991-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-05-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Oil trading company" ;
+    cim:IdentifiedObject.mRID "12X-0000001991-9" ;
+    cim:IdentifiedObject.name "Verum Plus AG" ;
+    cim:Names.name "CHE114948561",
+        "Trade Responsible Party",
+        "VERUM-PLUS-AG-ST" ;
+    dcterms:identifier "urn:eic:12X-0000001991-9" ;
+    schema1:vatID "CHE114948561" ;
+    skos:altLabel "VERUM-PLUS-AG-ST" ;
+    skos:definition "Oil trading company"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Verum Plus AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

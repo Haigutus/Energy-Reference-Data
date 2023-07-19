@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/42X-WATERSUPPLY4",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:42X-WATERSUPPLY4",
+    "@skos:prefLabel": "VeCom SK, a.s.",
+    "@skos:altLabel": "VECOM",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "The company changed its business name and address. The business register ID is used for VAT code as the company does not have a EU VAT code issued at the moment. Prior to the issuing of the EU VAT code, the company needs to prove some financial turnover which will take period of probably several months and for which the company needs to have e.g. EIC code. The company is registered in Business register of Slovak republic under ID 36 699 624 (https://orsr.sk/hladaj_ico.asp?lan=en&ICO=36+699+624&SID=8) and has also the ACER code: A0018320O.SK"
+    },
+    "@cim:IdentifiedObject.mRID": "42X-WATERSUPPLY4",
+    "@cim:IdentifiedObject.name": "VeCom SK, a.s.",
+    "@cim:Names.name": [
+        "VECOM",
+        "SK2022286453",
+        "Trade Responsible Party",
+        "Energy Supplier"
+    ],
+    "@cim:IdentifiedObject.description": "The company changed its business name and address. The business register ID is used for VAT code as the company does not have a EU VAT code issued at the moment. Prior to the issuing of the EU VAT code, the company needs to prove some financial turnover which will take period of probably several months and for which the company needs to have e.g. EIC code. The company is registered in Business register of Slovak republic under ID 36 699 624 (https://orsr.sk/hladaj_ico.asp?lan=en&ICO=36+699+624&SID=8) and has also the ACER code: A0018320O.SK",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-02-08",
+    "@schema:vatID": "SK2022286453",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/54W-T-KSB1110G1Y",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:54W-T-KSB1110G1Y",
+    "@skos:prefLabel": "Termo-Gjeneratori B1 ",
+    "@skos:altLabel": "KS_TGB1",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Albanain LIO office is applying for EIC codes-  identifying Kosovo Production and Generation Unit since they do not have LIO office, yet."
+    },
+    "@cim:IdentifiedObject.mRID": "54W-T-KSB1110G1Y",
+    "@cim:IdentifiedObject.name": "Termo-Gjeneratori B1 ",
+    "@cim:Names.name": [
+        "KS_TGB1",
+        "Generation Unit"
+    ],
+    "@cim:IdentifiedObject.description": "Albanain LIO office is applying for EIC codes-  identifying Kosovo Production and Generation Unit since they do not have LIO office, yet.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-04-19",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

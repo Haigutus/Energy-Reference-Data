@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/61X-GT-SIA-GPE-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-04-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Energy trading company" ;
+    cim:IdentifiedObject.mRID "61X-GT-SIA-GPE-Z" ;
+    cim:IdentifiedObject.name "SIA \"GPE\"" ;
+    cim:Names.name "Capacity Trader",
+        "Interconnection Trade Responsible",
+        "LV40203136253",
+        "SIAGPE" ;
+    dcterms:identifier "urn:eic:61X-GT-SIA-GPE-Z" ;
+    schema1:vatID "LV40203136253" ;
+    skos:altLabel "SIAGPE" ;
+    skos:definition "Energy trading company"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SIA \"GPE\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

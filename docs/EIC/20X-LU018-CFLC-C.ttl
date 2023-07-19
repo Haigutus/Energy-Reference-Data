@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/20X-LU018-CFLC-C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "20X-LU018-CFLC-C" ;
+    cim:IdentifiedObject.name "CFL Cargo" ;
+    cim:Names.name "CFLCARGO",
+        "Consumer",
+        "LU17233026" ;
+    dcterms:identifier "urn:eic:20X-LU018-CFLC-C" ;
+    schema1:vatID "LU17233026" ;
+    skos:altLabel "CFLCARGO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CFL Cargo" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

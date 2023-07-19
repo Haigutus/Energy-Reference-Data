@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XENIMEDIDRO002> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-03-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XENIMEDIDRO002" ;
+    cim:IdentifiedObject.name "Eni Mediterranea Idrocarburi S.p.A. " ;
+    cim:Names.name "ENIMEDITERIDRO",
+        "IT12300000150",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:59XENIMEDIDRO002" ;
+    schema1:vatID "IT12300000150" ;
+    skos:altLabel "ENIMEDITERIDRO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Eni Mediterranea Idrocarburi S.p.A. " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

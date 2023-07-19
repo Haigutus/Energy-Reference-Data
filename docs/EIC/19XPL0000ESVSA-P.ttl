@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPL0000ESVSA-P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XPL0000ESVSA-P" ;
+    cim:IdentifiedObject.name "ESV S.A." ;
+    cim:Names.name "ESV_SA",
+        "Energy Supplier",
+        "PL8980025644" ;
+    dcterms:identifier "urn:eic:19XPL0000ESVSA-P" ;
+    schema1:vatID "PL8980025644" ;
+    skos:altLabel "ESV_SA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ESV S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XBEWAG-N-----L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-01-29" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XBEWAG-N-----L" ;
+    cim:IdentifiedObject.name "Vattenfall Europe Distribution Berlin GmbH" ;
+    cim:Names.name "BEWAG_N",
+        "Balance Group",
+        "DE136629683" ;
+    dcterms:identifier "urn:eic:11XBEWAG-N-----L" ;
+    schema1:vatID "DE136629683" ;
+    skos:altLabel "BEWAG_N" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vattenfall Europe Distribution Berlin GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

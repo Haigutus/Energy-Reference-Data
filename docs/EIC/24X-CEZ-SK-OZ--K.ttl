@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24X-CEZ-SK-OZ--K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Electric Supply, Electricity Trading." ;
+    cim:IdentifiedObject.mRID "24X-CEZ-SK-OZ--K" ;
+    cim:IdentifiedObject.name "CEZ, a.s. - organizacna zlozka" ;
+    cim:Names.name "CEZ-SK-OZ",
+        "SK2022047060",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:24X-CEZ-SK-OZ--K" ;
+    schema1:vatID "SK2022047060" ;
+    skos:altLabel "CEZ-SK-OZ" ;
+    skos:definition "Electric Supply, Electricity Trading."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEZ, a.s. - organizacna zlozka" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

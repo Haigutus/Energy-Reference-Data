@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--140204GML-H",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--140204GML-H",
+    "@skos:prefLabel": "GDF SUEZ MARKETING LIMITED",
+    "@skos:altLabel": "GDF_SUEZ_ML",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Trade Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--140204GML-H",
+    "@cim:IdentifiedObject.name": "GDF SUEZ MARKETING LIMITED",
+    "@cim:Names.name": [
+        "GDF_SUEZ_ML",
+        "GB741911934",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Trade Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-01-17",
+    "@schema:vatID": "GB741911934",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

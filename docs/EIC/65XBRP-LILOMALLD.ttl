@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/65XBRP-LILOMALLD> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "65XBRP-LILOMALLD" ;
+    cim:IdentifiedObject.name "LILO MALL LTD" ;
+    cim:Names.name "208150506",
+        "Balance Responsible Party",
+        "LILO_MALLL" ;
+    dcterms:identifier "urn:eic:65XBRP-LILOMALLD" ;
+    schema1:vatID "208150506" ;
+    skos:altLabel "LILO_MALLL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "LILO MALL LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

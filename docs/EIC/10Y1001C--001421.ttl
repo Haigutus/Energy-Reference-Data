@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--001421> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "The objective of CMM process is continuous update and provision of CZCL (cross-zonal capacity limit) to balancing platforms (TERRE, MARI, PICASSO) CMM Platform integrates all TSOs participating in all respective balancing platforms. Parties involved in these individual platforms are not the same." ;
+    cim:IdentifiedObject.mRID "10Y1001C--001421" ;
+    cim:IdentifiedObject.name "Balancing Capacity Calculation Region" ;
+    cim:Names.name "CMM",
+        "Capacity Calculation Region" ;
+    dcterms:identifier "urn:eic:10Y1001C--001421" ;
+    skos:altLabel "CMM" ;
+    skos:definition "The objective of CMM process is continuous update and provision of CZCL (cross-zonal capacity limit) to balancing platforms (TERRE, MARI, PICASSO) CMM Platform integrates all TSOs participating in all respective balancing platforms. Parties involved in these individual platforms are not the same."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Balancing Capacity Calculation Region" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

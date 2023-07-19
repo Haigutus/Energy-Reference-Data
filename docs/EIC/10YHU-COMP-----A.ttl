@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10YHU-COMP-----A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Fictitious Area" ;
+    cim:IdentifiedObject.mRID "10YHU-COMP-----A" ;
+    cim:IdentifiedObject.name "Fictitious compensation control area Hungary" ;
+    cim:Names.name "FICT-COMP-HU",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:10YHU-COMP-----A" ;
+    skos:altLabel "FICT-COMP-HU" ;
+    skos:definition "Fictitious Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fictitious compensation control area Hungary" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

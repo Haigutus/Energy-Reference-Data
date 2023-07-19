@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XKVMARKOUSA--O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "PRODUCTION AND TRADE OF GINNED COTTON, COTTON-SEED CAKES, COTTON-SEED OIL, COTTON-SEED" ;
+    cim:IdentifiedObject.mRID "29XKVMARKOUSA--O" ;
+    cim:IdentifiedObject.name "KONSTANTINOS V. MARKOU S.A." ;
+    cim:Names.name "Consumer",
+        "EL094084172",
+        "KVMARKOUSA" ;
+    dcterms:identifier "urn:eic:29XKVMARKOUSA--O" ;
+    schema1:vatID "EL094084172" ;
+    skos:altLabel "KVMARKOUSA" ;
+    skos:definition "PRODUCTION AND TRADE OF GINNED COTTON, COTTON-SEED CAKES, COTTON-SEED OIL, COTTON-SEED"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KONSTANTINOS V. MARKOU S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

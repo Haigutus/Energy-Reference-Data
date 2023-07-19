@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000187F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-12-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Mobile is for Nick Gardner Submitting this now - was previously 'local'. Have some W codes to submit under this X code" ;
+    cim:IdentifiedObject.mRID "48X000000000187F" ;
+    cim:IdentifiedObject.name "Npower Limited" ;
+    cim:Names.name "GB768362492",
+        "Market Operator",
+        "NPOWER-NL" ;
+    dcterms:identifier "urn:eic:48X000000000187F" ;
+    schema1:vatID "GB768362492" ;
+    skos:altLabel "NPOWER-NL" ;
+    skos:definition "Mobile is for Nick Gardner Submitting this now - was previously 'local'. Have some W codes to submit under this X code"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Npower Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

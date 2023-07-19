@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000002031-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "They renamed the company and moved to another office. VAT stays the same" ;
+    cim:IdentifiedObject.mRID "12X-0000002031-Z" ;
+    cim:IdentifiedObject.name "SABEL TRADING SA" ;
+    cim:Names.name "CHE160296738",
+        "Trade Responsible Party",
+        "ZENROCK-EU-SA-ST" ;
+    dcterms:identifier "urn:eic:12X-0000002031-Z" ;
+    schema1:vatID "CHE160296738" ;
+    skos:altLabel "ZENROCK-EU-SA-ST" ;
+    skos:definition "They renamed the company and moved to another office. VAT stays the same"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SABEL TRADING SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

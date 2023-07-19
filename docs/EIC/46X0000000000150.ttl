@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/46X0000000000150> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-05-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "46X0000000000150" ;
+    cim:IdentifiedObject.name "Grönhult Wind AB" ;
+    cim:Names.name "GRONHULT",
+        "Producer",
+        "SE559275484901" ;
+    dcterms:identifier "urn:eic:46X0000000000150" ;
+    schema1:vatID "SE559275484901" ;
+    skos:altLabel "GRONHULT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Grönhult Wind AB" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

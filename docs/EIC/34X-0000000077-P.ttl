@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34X-0000000077-P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "34X-0000000077-P" ;
+    cim:IdentifiedObject.name "Privredno drustvo Green Balancing Group d.o.o Beograd-Zemun" ;
+    cim:Names.name "111233177",
+        "ENHA",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:34X-0000000077-P" ;
+    schema1:vatID "111233177" ;
+    skos:altLabel "ENHA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Privredno drustvo Green Balancing Group d.o.o Beograd-Zemun" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

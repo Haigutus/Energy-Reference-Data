@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XPOWERONDOOMK8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33XPOWERONDOOMK8" ;
+    cim:IdentifiedObject.name "DTU ENERGY ON DOO export-import" ;
+    cim:Names.name "4032020545120",
+        "ENERGY_ON",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XPOWERONDOOMK8" ;
+    schema1:vatID "4032020545120" ;
+    skos:altLabel "ENERGY_ON" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DTU ENERGY ON DOO export-import" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

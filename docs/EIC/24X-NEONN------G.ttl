@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24X-NEONN------G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-02-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Operator" ;
+    cim:IdentifiedObject.mRID "24X-NEONN------G" ;
+    cim:IdentifiedObject.name "NEONN, s.r.o." ;
+    cim:Names.name "Market Operator",
+        "NEONN",
+        "SK2020842109" ;
+    dcterms:identifier "urn:eic:24X-NEONN------G" ;
+    schema1:vatID "SK2020842109" ;
+    skos:altLabel "NEONN" ;
+    skos:definition "Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NEONN, s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

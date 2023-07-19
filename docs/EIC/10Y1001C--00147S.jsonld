@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10Y1001C--00147S",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10Y1001C--00147S",
+    "@skos:prefLabel": "Border Area Ukraine - Moldova",
+    "@skos:altLabel": "UA-MD-AREA",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "For the new ENTSO-E RG CE Schedule Reporting Process, Scheduling Areas are obliged to submit schedules for each of their borders. According to the ENTSO-E RG CE Schedule Reporting Process Implementation Guide, a scheduling area border is identified by a Y EIC. For the requested border area, a required Y EIC is not existing yet."
+    },
+    "@cim:IdentifiedObject.mRID": "10Y1001C--00147S",
+    "@cim:IdentifiedObject.name": "Border Area Ukraine - Moldova",
+    "@cim:Names.name": [
+        "UA-MD-AREA",
+        "Border Area"
+    ],
+    "@cim:IdentifiedObject.description": "For the new ENTSO-E RG CE Schedule Reporting Process, Scheduling Areas are obliged to submit schedules for each of their borders. According to the ENTSO-E RG CE Schedule Reporting Process Implementation Guide, a scheduling area border is identified by a Y EIC. For the requested border area, a required Y EIC is not existing yet.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-06-01",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

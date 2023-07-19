@@ -1,0 +1,45 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/17X0000000139624",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:17X0000000139624",
+    "@skos:prefLabel": "AGREGIO",
+    "@skos:altLabel": "FR_AGREGIO",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Agrégation de production et de flexibilités"
+    },
+    "@cim:IdentifiedObject.mRID": "17X0000000139624",
+    "@cim:IdentifiedObject.name": "AGREGIO",
+    "@cim:Names.name": [
+        "FR_AGREGIO",
+        "FR17824543490",
+        "Market Operator",
+        "Coordination Center Operator",
+        "Production Responsible party",
+        "Metered Data Aggregator"
+    ],
+    "@cim:IdentifiedObject.description": "Agrégation de production et de flexibilités",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-08-23",
+    "@schema:vatID": "FR17824543490",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

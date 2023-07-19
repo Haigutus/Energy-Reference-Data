@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37X000000000118S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-22" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "37X000000000118S" ;
+    cim:IdentifiedObject.name "Stöckli Biochem GmbH" ;
+    cim:Names.name "DE327021571",
+        "STOECKLI_BIOCHEM" ;
+    dcterms:identifier "urn:eic:37X000000000118S" ;
+    schema1:vatID "DE327021571" ;
+    skos:altLabel "STOECKLI_BIOCHEM" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stöckli Biochem GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

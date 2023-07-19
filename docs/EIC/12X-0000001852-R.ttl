@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001852-R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-12-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "12X-0000001852-R" ;
+    cim:IdentifiedObject.name "KTG Swiss SA" ;
+    cim:Names.name "CHE275307417",
+        "KTG-SWISS-SA-ST",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:12X-0000001852-R" ;
+    schema1:vatID "CHE275307417" ;
+    skos:altLabel "KTG-SWISS-SA-ST" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KTG Swiss SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

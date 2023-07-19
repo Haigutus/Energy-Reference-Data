@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000DASZK> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Distribution System Operator" ;
+    cim:IdentifiedObject.mRID "53XPL000000DASZK" ;
+    cim:IdentifiedObject.name "Gmina Daszyna" ;
+    cim:Names.name "7752406085",
+        "Distribution System Operator",
+        "GMINA_DASZYNA" ;
+    dcterms:identifier "urn:eic:53XPL000000DASZK" ;
+    schema1:vatID "7752406085" ;
+    skos:altLabel "GMINA_DASZYNA" ;
+    skos:definition "Distribution System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Gmina Daszyna" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

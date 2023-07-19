@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50TL00000002976D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50TL00000002976D" ;
+    cim:IdentifiedObject.name "N 132 Raudfjell-Tverråsan" ;
+    cim:Names.name "Internal Line",
+        "NO-RAUDFJELLTVER" ;
+    dcterms:identifier "urn:eic:50TL00000002976D" ;
+    skos:altLabel "NO-RAUDFJELLTVER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "N 132 Raudfjell-Tverråsan" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

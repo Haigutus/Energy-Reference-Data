@@ -1,0 +1,41 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/19XENDM-1414011P",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:19XENDM-1414011P",
+    "@skos:prefLabel": "ENERGETYKA NOWY DWÓR MAZOWIECKI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI",
+    "@skos:altLabel": "ENDM",
+    "@cim:IdentifiedObject.mRID": "19XENDM-1414011P",
+    "@cim:IdentifiedObject.name": "ENERGETYKA NOWY DWÓR MAZOWIECKI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI",
+    "@cim:Names.name": [
+        "ENDM",
+        "PL5311688627",
+        "Metered Data Responsible",
+        "System Operator",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Energy Supplier"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-01-25",
+    "@schema:vatID": "PL5311688627",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

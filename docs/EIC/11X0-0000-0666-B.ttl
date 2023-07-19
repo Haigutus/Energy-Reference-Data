@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X0-0000-0666-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11X0-0000-0666-B" ;
+    cim:IdentifiedObject.name "Stadtwerke Schramberg" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE213339125",
+        "SW_SCHRAMBERG" ;
+    dcterms:identifier "urn:eic:11X0-0000-0666-B" ;
+    schema1:vatID "DE213339125" ;
+    skos:altLabel "SW_SCHRAMBERG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Schramberg" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

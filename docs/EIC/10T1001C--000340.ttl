@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10T1001C--000340> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10T1001C--000340" ;
+    cim:IdentifiedObject.name "Westtirol - Silz 274E" ;
+    cim:Names.name "L_WESTT-SILZ274E",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:10T1001C--000340" ;
+    skos:altLabel "L_WESTT-SILZ274E" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Westtirol - Silz 274E" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

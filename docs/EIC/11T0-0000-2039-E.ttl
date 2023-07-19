@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11T0-0000-2039-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-03-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11T0-0000-2039-E" ;
+    cim:IdentifiedObject.name "TTG/220/GODENAU-ERZHAUSEN-GOETTINGEN/3//Y-GODENAU" ;
+    cim:Names.name "Internal Line",
+        "LD2D2-GDERGO-3GD" ;
+    dcterms:identifier "urn:eic:11T0-0000-2039-E" ;
+    skos:altLabel "LD2D2-GDERGO-3GD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TTG/220/GODENAU-ERZHAUSEN-GOETTINGEN/3//Y-GODENAU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

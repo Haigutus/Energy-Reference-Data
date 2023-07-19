@@ -1,0 +1,35 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/11T0-0000-1082-L",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:11T0-0000-1082-L",
+    "@skos:prefLabel": "50H-TTG/380/Remptendorf-Redwitz-Wuergau/413-436//Y-Wuergau",
+    "@skos:altLabel": "LD2D8-RERDWU-4WU",
+    "@cim:IdentifiedObject.mRID": "11T0-0000-1082-L",
+    "@cim:IdentifiedObject.name": "50H-TTG/380/Remptendorf-Redwitz-Wuergau/413-436//Y-Wuergau",
+    "@cim:Names.name": [
+        "LD2D8-RERDWU-4WU",
+        "Internal Tie-Line"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-03-09",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

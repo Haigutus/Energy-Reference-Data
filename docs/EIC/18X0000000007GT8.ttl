@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000007GT8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000007GT8" ;
+    cim:IdentifiedObject.name "EUROGAN INDUSTRIAL SL" ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESB99494296",
+        "EUIND" ;
+    dcterms:identifier "urn:eic:18X0000000007GT8" ;
+    schema1:vatID "ESB99494296" ;
+    skos:altLabel "EUIND" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EUROGAN INDUSTRIAL SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

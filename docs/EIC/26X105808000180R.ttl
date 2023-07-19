@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X105808000180R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X105808000180R" ;
+    cim:IdentifiedObject.name "PIEMONTE ENERGY SPA" ;
+    cim:Names.name "A00090781.IT",
+        "IT-PIEMONTEENERG",
+        "IT10580800018",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:26X105808000180R" ;
+    schema1:vatID "IT10580800018" ;
+    skos:altLabel "IT-PIEMONTEENERG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PIEMONTE ENERGY SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

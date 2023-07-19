@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45T0000000001794> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45T0000000001794" ;
+    cim:IdentifiedObject.name "Kinstrup 400/150kV transfromer KT51" ;
+    cim:Names.name "KIN_KT51",
+        "Transformer" ;
+    dcterms:identifier "urn:eic:45T0000000001794" ;
+    skos:altLabel "KIN_KT51" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kinstrup 400/150kV transfromer KT51" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

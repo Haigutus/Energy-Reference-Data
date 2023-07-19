@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X100A100G0001B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-09-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Supplier" ;
+    cim:IdentifiedObject.mRID "17X100A100G0001B" ;
+    cim:IdentifiedObject.name "ESLC SERVICES" ;
+    cim:Names.name "Energy Supplier",
+        "FR93388301988",
+        "FR_ESLC_SERVICES" ;
+    dcterms:identifier "urn:eic:17X100A100G0001B" ;
+    schema1:vatID "FR93388301988" ;
+    skos:altLabel "FR_ESLC_SERVICES" ;
+    skos:definition "Balance Supplier"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ESLC SERVICES" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

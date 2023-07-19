@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWETTL-EXRZ-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-10-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XSWETTL-EXRZ-N" ;
+    cim:IdentifiedObject.name "Stadtwerke Ettlingen GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE203869511",
+        "SWETTL_EXRZ" ;
+    dcterms:identifier "urn:eic:11XSWETTL-EXRZ-N" ;
+    schema1:vatID "DE203869511" ;
+    skos:altLabel "SWETTL_EXRZ" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Ettlingen GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

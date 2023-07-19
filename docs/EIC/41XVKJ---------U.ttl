@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41XVKJ---------U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-08-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "41XVKJ---------U" ;
+    cim:IdentifiedObject.name "UAB “Vilniaus kogeneracinė jėgainė“" ;
+    cim:Names.name "LT100009225717",
+        "Producer",
+        "VKJ" ;
+    dcterms:identifier "urn:eic:41XVKJ---------U" ;
+    schema1:vatID "LT100009225717" ;
+    skos:altLabel "VKJ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB “Vilniaus kogeneracinė jėgainė“" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

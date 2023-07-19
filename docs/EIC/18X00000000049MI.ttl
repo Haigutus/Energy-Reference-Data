@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X00000000049MI> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X00000000049MI" ;
+    cim:IdentifiedObject.name "SANCHO DE BORJA S.L" ;
+    cim:Names.name "BORJA",
+        "Consumption Responsible Party",
+        "ESB50037563" ;
+    dcterms:identifier "urn:eic:18X00000000049MI" ;
+    schema1:vatID "ESB50037563" ;
+    skos:altLabel "BORJA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SANCHO DE BORJA S.L" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

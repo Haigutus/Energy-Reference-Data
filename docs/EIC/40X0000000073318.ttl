@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/40X0000000073318> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Wholesale Trading Company" ;
+    cim:IdentifiedObject.mRID "40X0000000073318" ;
+    cim:IdentifiedObject.name "Yesilyurt Elektrik Enerjisi Toptan Satış Ith. Ihr. A.Ş." ;
+    cim:Names.name "9500473838",
+        "Network User",
+        "YESILYURTT" ;
+    dcterms:identifier "urn:eic:40X0000000073318" ;
+    schema1:vatID "9500473838" ;
+    skos:altLabel "YESILYURTT" ;
+    skos:definition "Wholesale Trading Company"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Yesilyurt Elektrik Enerjisi Toptan Satış Ith. Ihr. A.Ş." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

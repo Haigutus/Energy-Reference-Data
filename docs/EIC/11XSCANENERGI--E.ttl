@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSCANENERGI--E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSCANENERGI--E" ;
+    cim:IdentifiedObject.name "Scanenergi A/S" ;
+    cim:Names.name "Balance Responsible Party",
+        "DK21191809",
+        "SCANENERGI" ;
+    dcterms:identifier "urn:eic:11XSCANENERGI--E" ;
+    schema1:vatID "DK21191809" ;
+    skos:altLabel "SCANENERGI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Scanenergi A/S" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

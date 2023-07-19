@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XEL-OSTROLEKAY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production And Sale Of Electrical Energy And Heat Energy." ;
+    cim:IdentifiedObject.mRID "19XEL-OSTROLEKAY" ;
+    cim:IdentifiedObject.name "ZESPOL ELEKTROWNI OSTROLEKA Spolka Akcyjna" ;
+    cim:Names.name "Balance Responsible Party",
+        "PL7580000396",
+        "ZEO_SA" ;
+    dcterms:identifier "urn:eic:19XEL-OSTROLEKAY" ;
+    schema1:vatID "PL7580000396" ;
+    skos:altLabel "ZEO_SA" ;
+    skos:definition "Production And Sale Of Electrical Energy And Heat Energy."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZESPOL ELEKTROWNI OSTROLEKA Spolka Akcyjna" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

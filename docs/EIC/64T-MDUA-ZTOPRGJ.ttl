@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64T-MDUA-ZTOPRGJ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-07-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "64T-MDUA-ZTOPRGJ" ;
+    cim:IdentifiedObject.name "OHL ZTO-Poroghi_110 kV" ;
+    cim:Names.name "L_ZTO-POROGHI",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:64T-MDUA-ZTOPRGJ" ;
+    skos:altLabel "L_ZTO-POROGHI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OHL ZTO-Poroghi_110 kV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

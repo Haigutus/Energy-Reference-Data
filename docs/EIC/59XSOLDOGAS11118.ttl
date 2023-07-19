@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XSOLDOGAS11118> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XSOLDOGAS11118" ;
+    cim:IdentifiedObject.name "SOLDO GAS" ;
+    cim:Names.name "IT01073430777",
+        "Market Operator",
+        "SOLDOGAS" ;
+    dcterms:identifier "urn:eic:59XSOLDOGAS11118" ;
+    schema1:vatID "IT01073430777" ;
+    skos:altLabel "SOLDOGAS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SOLDO GAS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

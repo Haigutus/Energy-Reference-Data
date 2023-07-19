@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XMYTAG-1234-1S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XMYTAG-1234-1S" ;
+    cim:IdentifiedObject.name "MINERÍA Y TECNOLOGÍA DE ARCILLA, S.A." ;
+    cim:Names.name "ESA50122480",
+        "MYTAG",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XMYTAG-1234-1S" ;
+    schema1:vatID "ESA50122480" ;
+    skos:altLabel "MYTAG" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MINERÍA Y TECNOLOGÍA DE ARCILLA, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

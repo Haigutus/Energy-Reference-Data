@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XVWKRAFTWERK-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XVWKRAFTWERK-G" ;
+    cim:IdentifiedObject.name "VW KRAFTWERK Gesellschaft mit beschränkter Haftung" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE811115405",
+        "VWK" ;
+    dcterms:identifier "urn:eic:11XVWKRAFTWERK-G" ;
+    schema1:vatID "DE811115405" ;
+    skos:altLabel "VWK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VW KRAFTWERK Gesellschaft mit beschränkter Haftung" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

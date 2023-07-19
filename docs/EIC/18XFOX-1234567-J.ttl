@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XFOX-1234567-J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-05-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XFOX-1234567-J" ;
+    cim:IdentifiedObject.name "FOX ENERGIA S.A." ;
+    cim:Names.name "ESA54855093",
+        "FOX",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XFOX-1234567-J" ;
+    schema1:vatID "ESA54855093" ;
+    skos:altLabel "FOX" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FOX ENERGIA S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

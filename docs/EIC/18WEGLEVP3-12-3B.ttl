@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WEGLEVP3-12-3B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WEGLEVP3-12-3B" ;
+    cim:IdentifiedObject.name "EGLE, S.L., IMP DESDE FRANCIA (CON DERECHOS)" ;
+    cim:Names.name "EGLEVP3",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18WEGLEVP3-12-3B" ;
+    skos:altLabel "EGLEVP3" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EGLE, S.L., IMP DESDE FRANCIA (CON DERECHOS)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

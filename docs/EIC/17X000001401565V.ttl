@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000001401565V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Nous sommes un courtier énergétique sur les parties gaz et électricité et souhaitons évoluer vers le métier d'acteur flexible (acteur d'ajustement et opérateur d'effacement)." ;
+    cim:IdentifiedObject.mRID "17X000001401565V" ;
+    cim:IdentifiedObject.name "ENERGEO" ;
+    cim:Names.name "FR15905031050",
+        "FR_ENERGEO",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:17X000001401565V" ;
+    schema1:vatID "FR15905031050" ;
+    skos:altLabel "FR_ENERGEO" ;
+    skos:definition "Nous sommes un courtier énergétique sur les parties gaz et électricité et souhaitons évoluer vers le métier d'acteur flexible (acteur d'ajustement et opérateur d'effacement)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGEO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

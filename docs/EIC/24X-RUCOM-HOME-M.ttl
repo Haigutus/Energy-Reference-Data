@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24X-RUCOM-HOME-M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "24X-RUCOM-HOME-M" ;
+    cim:IdentifiedObject.name "RUCOM-HOME s.r.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "RUCOM_SK",
+        "SK2023266960" ;
+    dcterms:identifier "urn:eic:24X-RUCOM-HOME-M" ;
+    schema1:vatID "SK2023266960" ;
+    skos:altLabel "RUCOM_SK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RUCOM-HOME s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

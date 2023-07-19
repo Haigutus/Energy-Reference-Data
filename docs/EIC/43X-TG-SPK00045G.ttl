@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/43X-TG-SPK00045G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-05-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "43X-TG-SPK00045G" ;
+    cim:IdentifiedObject.name "Sadzīves pakalpojumu kombināts SIA " ;
+    cim:Names.name "Balance Responsible Party",
+        "LV-TGSP30",
+        "LV41503002428" ;
+    dcterms:identifier "urn:eic:43X-TG-SPK00045G" ;
+    schema1:vatID "LV41503002428" ;
+    skos:altLabel "LV-TGSP30" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Sadzīves pakalpojumu kombināts SIA " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

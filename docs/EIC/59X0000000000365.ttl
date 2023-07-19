@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X0000000000365> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-11-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59X0000000000365" ;
+    cim:IdentifiedObject.name "Convenergy S.r.l." ;
+    cim:Names.name "Balance Responsible Party",
+        "CONVENERGY",
+        "IT07474890964" ;
+    dcterms:identifier "urn:eic:59X0000000000365" ;
+    schema1:vatID "IT07474890964" ;
+    skos:altLabel "CONVENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Convenergy S.r.l." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

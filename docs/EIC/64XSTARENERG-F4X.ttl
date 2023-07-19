@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64XSTARENERG-F4X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-04-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ANRE license AC 001592  /  11.01.2022" ;
+    cim:IdentifiedObject.mRID "64XSTARENERG-F4X" ;
+    cim:IdentifiedObject.name "Star Energy Group SRL" ;
+    cim:Names.name "0611945",
+        "Balance Responsible Party",
+        "STARENERGYGRP_F",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:64XSTARENERG-F4X" ;
+    schema1:vatID "0611945" ;
+    skos:altLabel "STARENERGYGRP_F" ;
+    skos:definition "ANRE license AC 001592  /  11.01.2022"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Star Energy Group SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

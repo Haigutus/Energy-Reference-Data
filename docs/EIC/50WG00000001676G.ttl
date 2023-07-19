@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WG00000001676G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WG00000001676G" ;
+    cim:IdentifiedObject.name "STEINSFOG2      HYDRO" ;
+    cim:Names.name "Generation Unit",
+        "NO-STEINSFOG2___" ;
+    dcterms:identifier "urn:eic:50WG00000001676G" ;
+    skos:altLabel "NO-STEINSFOG2___" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "STEINSFOG2      HYDRO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

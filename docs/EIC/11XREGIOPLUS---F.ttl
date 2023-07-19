@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XREGIOPLUS---F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XREGIOPLUS---F" ;
+    cim:IdentifiedObject.name "Leuendorff Strom und Erdgas GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE286119184",
+        "REGIOPLUS" ;
+    dcterms:identifier "urn:eic:11XREGIOPLUS---F" ;
+    schema1:vatID "DE286119184" ;
+    skos:altLabel "REGIOPLUS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Leuendorff Strom und Erdgas GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

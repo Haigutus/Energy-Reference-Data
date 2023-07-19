@@ -1,0 +1,25 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/19XOSDN-PZLS-SA6">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:19XOSDN-PZLS-SA6</dcterms:identifier>
+    <skos:prefLabel>WYTW&#211;RNIA SPRZ&#280;TU KOMUNIKACYJNEGO &#8222;PZL-&#346;WIDNIK&#8222; SP&#211;&#321;KA AKCYJNA</skos:prefLabel>
+    <skos:altLabel>PZL-SWIDNIK-SA</skos:altLabel>
+    <cim:IdentifiedObject.mRID>19XOSDN-PZLS-SA6</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>WYTW&#211;RNIA SPRZ&#280;TU KOMUNIKACYJNEGO &#8222;PZL-&#346;WIDNIK&#8222; SP&#211;&#321;KA AKCYJNA</cim:IdentifiedObject.name>
+    <cim:Names.name>PZL-SWIDNIK-SA</cim:Names.name>
+    <cim:Names.name>A00116694.PL</cim:Names.name>
+    <cim:Names.name>PL7130005502</cim:Names.name>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2022-12-21</cim:DateAndOrTime.date>
+    <cim:Names.name>Energy Supplier</cim:Names.name>
+    <cim:Names.name>Metered Data Responsible</cim:Names.name>
+    <cim:Names.name>Grid Access Provider</cim:Names.name>
+    <cim:Names.name>Meter Administrator</cim:Names.name>
+    <cim:Names.name>System Operator</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>PL7130005502</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

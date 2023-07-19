@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCLUBNSANTAOLL> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-01-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XCLUBNSANTAOLL" ;
+    cim:IdentifiedObject.name "club natación santa olaya" ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESG33619214",
+        "NSO" ;
+    dcterms:identifier "urn:eic:18XCLUBNSANTAOLL" ;
+    schema1:vatID "ESG33619214" ;
+    skos:altLabel "NSO" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "club natación santa olaya" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

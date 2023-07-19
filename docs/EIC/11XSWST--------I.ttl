@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWST--------I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSWST--------I" ;
+    cim:IdentifiedObject.name "Stadtwerke Steinfurt, Gesellschaft mit beschränkter Haftung" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE124375921",
+        "SWST" ;
+    dcterms:identifier "urn:eic:11XSWST--------I" ;
+    schema1:vatID "DE124375921" ;
+    skos:altLabel "SWST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Steinfurt, Gesellschaft mit beschränkter Haftung" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

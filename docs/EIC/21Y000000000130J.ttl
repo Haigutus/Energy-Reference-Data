@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Y000000000130J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "21Y000000000130J" ;
+    cim:IdentifiedObject.name "NOWEGA AGGREGATION PRODUCTION" ;
+    cim:Names.name "Market Area",
+        "NWG_AGGR_PROD" ;
+    dcterms:identifier "urn:eic:21Y000000000130J" ;
+    skos:altLabel "NWG_AGGR_PROD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NOWEGA AGGREGATION PRODUCTION" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

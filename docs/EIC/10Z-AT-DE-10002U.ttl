@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-AT-DE-10002U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-12-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-AT-DE-10002U" ;
+    cim:IdentifiedObject.name "St Peter-Pirach" ;
+    cim:Names.name "Accounting Point",
+        "M_STPETER-PIRACH" ;
+    dcterms:identifier "urn:eic:10Z-AT-DE-10002U" ;
+    skos:altLabel "M_STPETER-PIRACH" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "St Peter-Pirach" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

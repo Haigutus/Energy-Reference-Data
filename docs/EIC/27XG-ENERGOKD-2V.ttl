@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XG-ENERGOKD-2V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Gas Tso" ;
+    cim:IdentifiedObject.mRID "27XG-ENERGOKD-2V" ;
+    cim:IdentifiedObject.name "ENERGO KD s.r.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ48651412",
+        "ENERGO_KD_2G" ;
+    dcterms:identifier "urn:eic:27XG-ENERGOKD-2V" ;
+    schema1:vatID "CZ48651412" ;
+    skos:altLabel "ENERGO_KD_2G" ;
+    skos:definition "Gas Tso"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGO KD s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

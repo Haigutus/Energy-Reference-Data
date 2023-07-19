@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X0-0000-0584-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-11" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11X0-0000-0584-E" ;
+    cim:IdentifiedObject.name "Borkum Riffgrund 2 Offshore Wind Farm GmbH & Co. oHG" ;
+    cim:Names.name "BORKUMRIFFGRUND2",
+        "DE239499552" ;
+    dcterms:identifier "urn:eic:11X0-0000-0584-E" ;
+    schema1:vatID "DE239499552" ;
+    skos:altLabel "BORKUMRIFFGRUND2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Borkum Riffgrund 2 Offshore Wind Farm GmbH & Co. oHG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

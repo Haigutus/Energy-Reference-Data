@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000L409> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000L409" ;
+    cim:IdentifiedObject.name "AMPERIOS ENERGY TRADE, S.L." ;
+    cim:Names.name "ES-AMPER",
+        "ESB01970060",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000L409" ;
+    schema1:vatID "ESB01970060" ;
+    skos:altLabel "ES-AMPER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMPERIOS ENERGY TRADE, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

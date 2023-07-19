@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000021Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000021Q" ;
+    cim:IdentifiedObject.name "CPL CONCORDIA FILIALA CLUJ ROMANIA" ;
+    cim:Names.name "A00041341.RO",
+        "CPL-CONCORDIA",
+        "Distribution System Operator",
+        "RO14895720",
+        "Resource Provider" ;
+    dcterms:identifier "urn:eic:60X000000000021Q" ;
+    schema1:vatID "RO14895720" ;
+    skos:altLabel "CPL-CONCORDIA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CPL CONCORDIA FILIALA CLUJ ROMANIA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

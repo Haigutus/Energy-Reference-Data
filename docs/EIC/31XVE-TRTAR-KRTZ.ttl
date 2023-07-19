@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31XVE-TRTAR-KRTZ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "31XVE-TRTAR-KRTZ" ;
+    cim:IdentifiedObject.name "VJETROELEKTRANA TRTAR-KRTOLIN D.O.O." ;
+    cim:Names.name "HR44523748256",
+        "Producer",
+        "VE-TRTAR-KRTO-HR" ;
+    dcterms:identifier "urn:eic:31XVE-TRTAR-KRTZ" ;
+    schema1:vatID "HR44523748256" ;
+    skos:altLabel "VE-TRTAR-KRTO-HR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VJETROELEKTRANA TRTAR-KRTOLIN D.O.O." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

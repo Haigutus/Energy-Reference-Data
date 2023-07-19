@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-ELEKT1967--N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-26" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "15X-ELEKT1967--N" ;
+    cim:IdentifiedObject.name "Elektrosever 1967 Kft." ;
+    cim:Names.name "Balance Responsible Party",
+        "ELEKT1967-BC",
+        "HU24950686" ;
+    dcterms:identifier "urn:eic:15X-ELEKT1967--N" ;
+    schema1:vatID "HU24950686" ;
+    skos:altLabel "ELEKT1967-BC" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Elektrosever 1967 Kft." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

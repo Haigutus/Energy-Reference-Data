@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-10-ALPEX-11L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "54X-10-ALPEX-11L" ;
+    cim:IdentifiedObject.name "Bursa Shqiptare e Energjisë Elektrike - ALPEX sh.a" ;
+    cim:Names.name "ALPEX_SHA",
+        "M02223006B",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:54X-10-ALPEX-11L" ;
+    schema1:vatID "M02223006B" ;
+    skos:altLabel "ALPEX_SHA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Bursa Shqiptare e Energjisë Elektrike - ALPEX sh.a" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

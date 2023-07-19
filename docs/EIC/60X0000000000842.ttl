@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X0000000000842> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-11-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X0000000000842" ;
+    cim:IdentifiedObject.name "ENERGY GATE SRL" ;
+    cim:Names.name "39763172",
+        "ENERGYGATE",
+        "Resource Provider" ;
+    dcterms:identifier "urn:eic:60X0000000000842" ;
+    schema1:vatID "39763172" ;
+    skos:altLabel "ENERGYGATE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGY GATE SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

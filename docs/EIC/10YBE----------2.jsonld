@@ -1,0 +1,45 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10YBE----------2",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10YBE----------2",
+    "@skos:prefLabel": "Belgium",
+    "@skos:altLabel": "BE",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Bidding Zone, Control Area, Control Block, Market Balance Area, Member State, Scheduling Area"
+    },
+    "@cim:IdentifiedObject.mRID": "10YBE----------2",
+    "@cim:IdentifiedObject.name": "Belgium",
+    "@cim:Names.name": [
+        "BE",
+        "Member State",
+        "LFC Block",
+        "LFC Area",
+        "Bidding Zone",
+        "Control Area",
+        "Scheduling Area"
+    ],
+    "@cim:IdentifiedObject.description": "Bidding Zone, Control Area, Control Block, Market Balance Area, Member State, Scheduling Area",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-09-28",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

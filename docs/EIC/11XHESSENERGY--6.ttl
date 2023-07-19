@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XHESSENERGY--6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-15" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Stromhandel" ;
+    cim:IdentifiedObject.mRID "11XHESSENERGY--6" ;
+    cim:IdentifiedObject.name "Hess Energy Power & Gas Company (UK) Limited" ;
+    cim:Names.name "DE813369892",
+        "HESSENERGY",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:11XHESSENERGY--6" ;
+    schema1:vatID "DE813369892" ;
+    skos:altLabel "HESSENERGY" ;
+    skos:definition "Stromhandel"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Hess Energy Power & Gas Company (UK) Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

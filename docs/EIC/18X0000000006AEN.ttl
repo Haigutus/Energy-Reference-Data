@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000006AEN> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-09-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000006AEN" ;
+    cim:IdentifiedObject.name "Atilano Villanueva" ;
+    cim:Names.name "AVGA2",
+        "Consumption Responsible Party",
+        "ES53086449B" ;
+    dcterms:identifier "urn:eic:18X0000000006AEN" ;
+    schema1:vatID "ES53086449B" ;
+    skos:altLabel "AVGA2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Atilano Villanueva" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

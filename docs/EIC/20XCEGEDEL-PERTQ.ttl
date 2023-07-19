@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/20XCEGEDEL-PERTQ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Bo Trading" ;
+    cim:IdentifiedObject.mRID "20XCEGEDEL-PERTQ" ;
+    cim:IdentifiedObject.name "CEGEDEL S.A" ;
+    cim:Names.name "CGDL_N-PERTES",
+        "LU10320554",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:20XCEGEDEL-PERTQ" ;
+    schema1:vatID "LU10320554" ;
+    skos:altLabel "CGDL_N-PERTES" ;
+    skos:definition "Bo Trading"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEGEDEL S.A" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50TL000000010150> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50TL000000010150" ;
+    cim:IdentifiedObject.name "M 300 Eidum-Verdal" ;
+    cim:Names.name "Internal Line",
+        "NO-EIDUMVERDAL" ;
+    dcterms:identifier "urn:eic:50TL000000010150" ;
+    skos:altLabel "NO-EIDUMVERDAL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "M 300 Eidum-Verdal" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

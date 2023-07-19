@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-GDFSUEZGASV2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-09-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Update due to a restructuring of the legal entity, the EIC structure shall remain unchanged, update of the VAT number in accordance with the current valid EIC Ref. Manual (3.2.7)" ;
+    cim:IdentifiedObject.mRID "25X-GDFSUEZGASV2" ;
+    cim:IdentifiedObject.name "ENGIE Energie GmbH" ;
+    cim:Names.name "ATU45265804",
+        "Balance Responsible Party",
+        "GDF_SUEZ" ;
+    dcterms:identifier "urn:eic:25X-GDFSUEZGASV2" ;
+    schema1:vatID "ATU45265804" ;
+    skos:altLabel "GDF_SUEZ" ;
+    skos:definition "Update due to a restructuring of the legal entity, the EIC structure shall remain unchanged, update of the VAT number in accordance with the current valid EIC Ref. Manual (3.2.7)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENGIE Energie GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

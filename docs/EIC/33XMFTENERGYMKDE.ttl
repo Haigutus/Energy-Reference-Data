@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XMFTENERGYMKDE> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33XMFTENERGYMKDE" ;
+    cim:IdentifiedObject.name "MFT ENERGY A/S Podruznica Eden" ;
+    cim:Names.name "4080021598028",
+        "MFT_ENERGY_MK",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XMFTENERGYMKDE" ;
+    schema1:vatID "4080021598028" ;
+    skos:altLabel "MFT_ENERGY_MK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MFT ENERGY A/S Podruznica Eden" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

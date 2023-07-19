@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X0000000000761> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-02-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X0000000000761" ;
+    cim:IdentifiedObject.name "ELECTRIC&GAS POWER TRADE SRL" ;
+    cim:Names.name "EGP",
+        "RO35269070",
+        "Resource Provider" ;
+    dcterms:identifier "urn:eic:60X0000000000761" ;
+    schema1:vatID "RO35269070" ;
+    skos:altLabel "EGP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRIC&GAS POWER TRADE SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

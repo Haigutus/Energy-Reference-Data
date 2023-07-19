@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XUFG-123456-0U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XUFG-123456-0U" ;
+    cim:IdentifiedObject.name "UNIÓN FENOSA GENERACIÓN S.A." ;
+    cim:Names.name "ESA82059833",
+        "Production Responsible party",
+        "UFG" ;
+    dcterms:identifier "urn:eic:18XUFG-123456-0U" ;
+    schema1:vatID "ESA82059833" ;
+    skos:altLabel "UFG" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UNIÓN FENOSA GENERACIÓN S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

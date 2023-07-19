@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/64XMOLDELMON-F4M",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:64XMOLDELMON-F4M",
+    "@skos:prefLabel": "Moldelectromontaj SA",
+    "@skos:altLabel": "MOLDELMONT_F",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "ANRE licence  AC 001437 / 31.01.2020"
+    },
+    "@cim:IdentifiedObject.mRID": "64XMOLDELMON-F4M",
+    "@cim:IdentifiedObject.name": "Moldelectromontaj SA",
+    "@cim:Names.name": [
+        "MOLDELMONT_F",
+        "7800008",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "ANRE licence  AC 001437 / 31.01.2020",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-04-22",
+    "@schema:vatID": "7800008",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

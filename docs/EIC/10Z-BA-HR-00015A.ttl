@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-BA-HR-00015A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-05-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-BA-HR-00015A" ;
+    cim:IdentifiedObject.name "Neum - Ston" ;
+    cim:Names.name "Accounting Point",
+        "M_NEUM-STON" ;
+    dcterms:identifier "urn:eic:10Z-BA-HR-00015A" ;
+    skos:altLabel "M_NEUM-STON" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Neum - Ston" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

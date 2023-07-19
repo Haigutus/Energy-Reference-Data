@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14XSALZBURGAG-B8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-09-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "14XSALZBURGAG-B8" ;
+    cim:IdentifiedObject.name "Salzburg AG für Energie, Verkehr und Telekommunikation" ;
+    cim:Names.name "ATU33790403",
+        "Balance Responsible Party",
+        "SALZBURGAG" ;
+    dcterms:identifier "urn:eic:14XSALZBURGAG-B8" ;
+    schema1:vatID "ATU33790403" ;
+    skos:altLabel "SALZBURGAG" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Salzburg AG für Energie, Verkehr und Telekommunikation" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

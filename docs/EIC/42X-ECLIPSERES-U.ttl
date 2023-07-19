@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/42X-ECLIPSERES-U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "42X-ECLIPSERES-U" ;
+    cim:IdentifiedObject.name "Eclipse Resources GmbH" ;
+    cim:Names.name "CHE305600060",
+        "ECLIPSE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:42X-ECLIPSERES-U" ;
+    schema1:vatID "CHE305600060" ;
+    skos:altLabel "ECLIPSE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Eclipse Resources GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

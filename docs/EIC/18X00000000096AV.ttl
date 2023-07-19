@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X00000000096AV> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-04-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X00000000096AV" ;
+    cim:IdentifiedObject.name "SOMISAL SA" ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESA28175990",
+        "SOMIS" ;
+    dcterms:identifier "urn:eic:18X00000000096AV" ;
+    schema1:vatID "ESA28175990" ;
+    skos:altLabel "SOMIS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SOMISAL SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/68XFAST-OIL-GASC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "68XFAST-OIL-GASC" ;
+    cim:IdentifiedObject.name "Fast oil & Gas International" ;
+    cim:Names.name "0309668",
+        "FASTOILGAS",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:68XFAST-OIL-GASC" ;
+    schema1:vatID "0309668" ;
+    skos:altLabel "FASTOILGAS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fast oil & Gas International" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

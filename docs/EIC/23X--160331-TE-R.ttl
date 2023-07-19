@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160331-TE-R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User" ;
+    cim:IdentifiedObject.mRID "23X--160331-TE-R" ;
+    cim:IdentifiedObject.name "UAB Trakų energija" ;
+    cim:Names.name "LT707956716",
+        "Network User",
+        "TRAKU_ENERGIJA" ;
+    dcterms:identifier "urn:eic:23X--160331-TE-R" ;
+    schema1:vatID "LT707956716" ;
+    skos:altLabel "TRAKU_ENERGIJA" ;
+    skos:definition "Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Trakų energija" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

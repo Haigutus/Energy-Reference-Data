@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XPROPE-------S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XPROPE-------S" ;
+    cim:IdentifiedObject.name "PROPENSALTERNATIVA - UNIPESSOAL LDA" ;
+    cim:Names.name "PROPE",
+        "PT513492097",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XPROPE-------S" ;
+    schema1:vatID "PT513492097" ;
+    skos:altLabel "PROPE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PROPENSALTERNATIVA - UNIPESSOAL LDA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

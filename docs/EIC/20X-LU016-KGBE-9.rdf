@@ -1,0 +1,21 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/20X-LU016-KGBE-9">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:20X-LU016-KGBE-9</dcterms:identifier>
+    <skos:prefLabel>Klinkenberg Energy Luxembourg SARL</skos:prefLabel>
+    <skos:altLabel>KLINKENBERG</skos:altLabel>
+    <cim:IdentifiedObject.mRID>20X-LU016-KGBE-9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Klinkenberg Energy Luxembourg SARL</cim:IdentifiedObject.name>
+    <cim:Names.name>KLINKENBERG</cim:Names.name>
+    <cim:Names.name>A0014846Q.LU</cim:Names.name>
+    <cim:Names.name>LU30121741</cim:Names.name>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2018-03-29</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>LU30121741</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

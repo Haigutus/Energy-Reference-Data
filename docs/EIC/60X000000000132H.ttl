@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000132H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000132H" ;
+    cim:IdentifiedObject.name "TERMO PLOIESTI SRL" ;
+    cim:Names.name "Consumer",
+        "Network User",
+        "RO46877331",
+        "TERMOPLOIESTI" ;
+    dcterms:identifier "urn:eic:60X000000000132H" ;
+    schema1:vatID "RO46877331" ;
+    skos:altLabel "TERMOPLOIESTI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TERMO PLOIESTI SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

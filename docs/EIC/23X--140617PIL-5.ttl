@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--140617PIL-5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-06-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party, Consumer" ;
+    cim:IdentifiedObject.mRID "23X--140617PIL-5" ;
+    cim:IdentifiedObject.name "Plaut International Ltd" ;
+    cim:Names.name "Consumer",
+        "GB740079545",
+        "PLAUT_INT",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--140617PIL-5" ;
+    schema1:vatID "GB740079545" ;
+    skos:altLabel "PLAUT_INT" ;
+    skos:definition "Trade Responsible Party, Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Plaut International Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-DKCE-------K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Local Brp" ;
+    cim:IdentifiedObject.mRID "15X-DKCE-------K" ;
+    cim:IdentifiedObject.name "Debreceni Kombinált Ciklusú Eromü Kft." ;
+    cim:Names.name "DKCE_BC",
+        "HU11558590",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:15X-DKCE-------K" ;
+    schema1:vatID "HU11558590" ;
+    skos:altLabel "DKCE_BC" ;
+    skos:definition "Local Brp"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Debreceni Kombinált Ciklusú Eromü Kft." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

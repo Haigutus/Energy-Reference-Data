@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSW-BW-------Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2005-12-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XSW-BW-------Z" ;
+    cim:IdentifiedObject.name "Stadtwerke Bad Windsheim" ;
+    cim:Names.name "Balance Group",
+        "DE131948706",
+        "SW_BW" ;
+    dcterms:identifier "urn:eic:11XSW-BW-------Z" ;
+    schema1:vatID "DE131948706" ;
+    skos:altLabel "SW_BW" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Bad Windsheim" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

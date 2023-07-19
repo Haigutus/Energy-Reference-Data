@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11V0-0000-0041-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11V0-0000-0041-I" ;
+    cim:IdentifiedObject.name "AMICA CS ECP4 Broker" ;
+    cim:Names.name "11VAMICACSBROKER",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:11V0-0000-0041-I" ;
+    skos:altLabel "11VAMICACSBROKER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMICA CS ECP4 Broker" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

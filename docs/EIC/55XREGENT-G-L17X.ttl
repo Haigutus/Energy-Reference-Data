@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XREGENT-G-L17X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-04-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "55XREGENT-G-L17X" ;
+    cim:IdentifiedObject.name "Regent Gas Limited" ;
+    cim:Names.name "Consumption Responsible Party",
+        "GB675121247",
+        "REGENT" ;
+    dcterms:identifier "urn:eic:55XREGENT-G-L17X" ;
+    schema1:vatID "GB675121247" ;
+    skos:altLabel "REGENT" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Regent Gas Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

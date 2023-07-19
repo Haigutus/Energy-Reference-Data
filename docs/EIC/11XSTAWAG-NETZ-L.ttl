@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSTAWAG-NETZ-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-06-05" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XSTAWAG-NETZ-L" ;
+    cim:IdentifiedObject.name "Stadtwerke Wolfsburg AG" ;
+    cim:Names.name "Balance Group",
+        "DE115235690",
+        "STAWAG-NETZ" ;
+    dcterms:identifier "urn:eic:11XSTAWAG-NETZ-L" ;
+    schema1:vatID "DE115235690" ;
+    skos:altLabel "STAWAG-NETZ" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Wolfsburg AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

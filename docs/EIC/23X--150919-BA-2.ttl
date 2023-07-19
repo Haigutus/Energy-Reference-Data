@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--150919-BA-2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-09-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--150919-BA-2" ;
+    cim:IdentifiedObject.name "BTG Pactual Commodities Absolute Return Limited" ;
+    cim:Names.name "BTG_PACTUAL_AR",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--150919-BA-2" ;
+    skos:altLabel "BTG_PACTUAL_AR" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BTG Pactual Commodities Absolute Return Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XSASTA-12345-P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XSASTA-12345-P" ;
+    cim:IdentifiedObject.name "SASTAGO INDUSTRIAL, S.A." ;
+    cim:Names.name "ESA50760560",
+        "Production Responsible party",
+        "SASTA" ;
+    dcterms:identifier "urn:eic:18XSASTA-12345-P" ;
+    schema1:vatID "ESA50760560" ;
+    skos:altLabel "SASTA" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SASTAGO INDUSTRIAL, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

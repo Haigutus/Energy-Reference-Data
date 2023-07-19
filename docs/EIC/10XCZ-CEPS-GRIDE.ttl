@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10XCZ-CEPS-GRIDE> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Transmission System Operator" ;
+    cim:IdentifiedObject.mRID "10XCZ-CEPS-GRIDE" ;
+    cim:IdentifiedObject.name "ČEPS, a.s." ;
+    cim:Names.name "CEPS",
+        "CZ25702556",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:10XCZ-CEPS-GRIDE" ;
+    schema1:vatID "CZ25702556" ;
+    skos:altLabel "CEPS" ;
+    skos:definition "Transmission System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ČEPS, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

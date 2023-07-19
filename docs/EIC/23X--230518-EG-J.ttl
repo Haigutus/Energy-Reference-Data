@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--230518-EG-J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company Registration No.: C87040" ;
+    cim:IdentifiedObject.mRID "23X--230518-EG-J" ;
+    cim:IdentifiedObject.name "EURASIA GRAIN LTD" ;
+    cim:Names.name "EURASIA_GRAIN",
+        "Energy Supplier",
+        "MT26182404" ;
+    dcterms:identifier "urn:eic:23X--230518-EG-J" ;
+    schema1:vatID "MT26182404" ;
+    skos:altLabel "EURASIA_GRAIN" ;
+    skos:definition "Company Registration No.: C87040"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EURASIA GRAIN LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

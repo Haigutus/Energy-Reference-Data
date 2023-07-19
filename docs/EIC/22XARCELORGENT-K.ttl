@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XARCELORGENT-K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Adaptation du nom-meme que celui de cc prod et banque de carrefour des données" ;
+    cim:IdentifiedObject.mRID "22XARCELORGENT-K" ;
+    cim:IdentifiedObject.name "ArcelorMittal Belgium" ;
+    cim:Names.name "BE0400106291",
+        "BE_ARCELOR_GENT",
+        "Producer" ;
+    dcterms:identifier "urn:eic:22XARCELORGENT-K" ;
+    schema1:vatID "BE0400106291" ;
+    skos:altLabel "BE_ARCELOR_GENT" ;
+    skos:definition "Adaptation du nom-meme que celui de cc prod et banque de carrefour des données"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ArcelorMittal Belgium" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

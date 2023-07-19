@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/27X-SG-ENERGY--I",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:27X-SG-ENERGY--I",
+    "@skos:prefLabel": "Solar Global Energy, a.s.",
+    "@skos:altLabel": "SG-ENERGY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "27X-SG-ENERGY--I",
+    "@cim:IdentifiedObject.name": "Solar Global Energy, a.s.",
+    "@cim:Names.name": [
+        "SG-ENERGY",
+        "CZ04715012",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-05-11",
+    "@schema:vatID": "CZ04715012",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

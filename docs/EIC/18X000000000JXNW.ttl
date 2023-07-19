@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000JXNW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000JXNW" ;
+    cim:IdentifiedObject.name "PENINSULA PETROLEUM S.L" ;
+    cim:Names.name "ES-B11905163",
+        "ESB11905163",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000JXNW" ;
+    schema1:vatID "ESB11905163" ;
+    skos:altLabel "ES-B11905163" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PENINSULA PETROLEUM S.L" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

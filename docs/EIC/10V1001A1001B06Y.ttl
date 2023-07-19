@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001A1001B06Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-08" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Location" ;
+    cim:IdentifiedObject.mRID "10V1001A1001B06Y" ;
+    cim:IdentifiedObject.name "CORESO ECP Endpoint for CGMA " ;
+    cim:Names.name "CRS_ECP_CGMA" ;
+    dcterms:identifier "urn:eic:10V1001A1001B06Y" ;
+    skos:altLabel "CRS_ECP_CGMA" ;
+    skos:definition "Location"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CORESO ECP Endpoint for CGMA " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

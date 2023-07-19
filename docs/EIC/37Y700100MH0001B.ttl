@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37Y700100MH0001B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-11-17" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Market Area" ;
+    cim:IdentifiedObject.mRID "37Y700100MH0001B" ;
+    cim:IdentifiedObject.name "Marktgebiet Wingas" ;
+    cim:Names.name "DVGW-MH0001B",
+        "Market Area" ;
+    dcterms:identifier "urn:eic:37Y700100MH0001B" ;
+    skos:altLabel "DVGW-MH0001B" ;
+    skos:definition "Market Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Marktgebiet Wingas" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

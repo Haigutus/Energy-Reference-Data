@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WECOVENT-12-E6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WECOVENT-12-E6" ;
+    cim:IdentifiedObject.name "ECOVENT" ;
+    cim:Names.name "ECOVENT",
+        "Generation Unit" ;
+    dcterms:identifier "urn:eic:18WECOVENT-12-E6" ;
+    skos:altLabel "ECOVENT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ECOVENT" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

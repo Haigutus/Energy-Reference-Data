@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XE-GAS-ELOSZT7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XE-GAS-ELOSZT7" ;
+    cim:IdentifiedObject.name "E.GAS Gázelosztó Kft" ;
+    cim:Names.name "Distribution System Operator",
+        "EGASELOSZT",
+        "HU27069886" ;
+    dcterms:identifier "urn:eic:39XE-GAS-ELOSZT7" ;
+    schema1:vatID "HU27069886" ;
+    skos:altLabel "EGASELOSZT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E.GAS Gázelosztó Kft" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59ZSARM11111111Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59ZSARM11111111Q" ;
+    cim:IdentifiedObject.name "59ZSARM11111111Q" ;
+    cim:Names.name "50152301",
+        "Metering Point" ;
+    dcterms:identifier "urn:eic:59ZSARM11111111Q" ;
+    skos:altLabel "50152301" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "59ZSARM11111111Q" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

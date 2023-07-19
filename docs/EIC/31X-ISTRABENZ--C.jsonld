@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/31X-ISTRABENZ--C",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:31X-ISTRABENZ--C",
+    "@skos:prefLabel": "GEN-I Hrvatska d.o.o. trgovina i prodaja električne energije",
+    "@skos:altLabel": "GEN-I-HRV-HR",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "31X-ISTRABENZ--C",
+    "@cim:IdentifiedObject.name": "GEN-I Hrvatska d.o.o. trgovina i prodaja električne energije",
+    "@cim:Names.name": [
+        "GEN-I-HRV-HR",
+        "HR77604626413",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-02-15",
+    "@schema:vatID": "HR77604626413",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

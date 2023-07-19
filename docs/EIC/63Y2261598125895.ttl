@@ -1,0 +1,20 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/63Y2261598125895> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-04-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "63Y2261598125895" ;
+    cim:IdentifiedObject.name "GRTgaz aggregated end consumers  distribution" ;
+    cim:Names.name "FRG_POOL_DISTRIB" ;
+    dcterms:identifier "urn:eic:63Y2261598125895" ;
+    skos:altLabel "FRG_POOL_DISTRIB" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GRTgaz aggregated end consumers  distribution" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

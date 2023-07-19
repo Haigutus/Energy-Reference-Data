@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XMPM-ALLI-EUTC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-17" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "balance group" ;
+    cim:IdentifiedObject.mRID "11XMPM-ALLI-EUTC" ;
+    cim:IdentifiedObject.name "EEG Energie- Einkaufs- und Service GmbH" ;
+    cim:Names.name "DE194712373",
+        "EEG-MPM-ALLI-EUT",
+        "balance group" ;
+    dcterms:identifier "urn:eic:11XMPM-ALLI-EUTC" ;
+    schema1:vatID "DE194712373" ;
+    skos:altLabel "EEG-MPM-ALLI-EUT" ;
+    skos:definition "balance group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EEG Energie- Einkaufs- und Service GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

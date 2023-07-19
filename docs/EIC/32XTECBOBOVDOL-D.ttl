@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32XTECBOBOVDOL-D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-08-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32XTECBOBOVDOL-D" ;
+    cim:IdentifiedObject.name "TEC BOBOV DOL EAD" ;
+    cim:Names.name "BG109513731",
+        "Balance Responsible Party",
+        "TEC_BOBOVDOL_EAD" ;
+    dcterms:identifier "urn:eic:32XTECBOBOVDOL-D" ;
+    schema1:vatID "BG109513731" ;
+    skos:altLabel "TEC_BOBOVDOL_EAD" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TEC BOBOV DOL EAD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000EY3F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-02-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000EY3F" ;
+    cim:IdentifiedObject.name "SOCIEDAD EÓLICA Y ECOLÓGICA ARAGONESA 53, S.L." ;
+    cim:Names.name "ESB99210791",
+        "PESOTILLO",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18X000000000EY3F" ;
+    schema1:vatID "ESB99210791" ;
+    skos:altLabel "PESOTILLO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SOCIEDAD EÓLICA Y ECOLÓGICA ARAGONESA 53, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

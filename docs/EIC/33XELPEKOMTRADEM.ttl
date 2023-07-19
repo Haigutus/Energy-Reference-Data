@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XELPEKOMTRADEM> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-10-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "33XELPEKOMTRADEM" ;
+    cim:IdentifiedObject.name "ELPEKOM DOOEL SKOPJE" ;
+    cim:Names.name "4043012511731",
+        "ELPEKOM",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XELPEKOMTRADEM" ;
+    schema1:vatID "4043012511731" ;
+    skos:altLabel "ELPEKOM" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELPEKOM DOOEL SKOPJE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

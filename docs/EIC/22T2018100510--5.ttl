@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22T2018100510--5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-02-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "22T2018100510--5" ;
+    cim:IdentifiedObject.name "150.16 BRUGGE-SLYKE" ;
+    cim:Names.name "BE16_BRUGG_SLYKE",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:22T2018100510--5" ;
+    skos:altLabel "BE16_BRUGG_SLYKE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "150.16 BRUGGE-SLYKE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

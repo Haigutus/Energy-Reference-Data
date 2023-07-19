@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000287B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "GB 842 4207 48 is the VAT code supplied by the participant.  " ;
+    cim:IdentifiedObject.mRID "48X000000000287B" ;
+    cim:IdentifiedObject.name "Windy Rig Wind Farm Limited" ;
+    cim:Names.name "GB842420748",
+        "Party Connected To Grid",
+        "Producer",
+        "Production Responsible party",
+        "WINDYRIGWFL" ;
+    dcterms:identifier "urn:eic:48X000000000287B" ;
+    schema1:vatID "GB842420748" ;
+    skos:altLabel "WINDYRIGWFL" ;
+    skos:definition "GB 842 4207 48 is the VAT code supplied by the participant.  "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Windy Rig Wind Farm Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

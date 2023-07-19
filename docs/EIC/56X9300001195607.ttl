@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X9300001195607> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X9300001195607" ;
+    cim:IdentifiedObject.name "ROSH RESOURCES AG" ;
+    cim:Names.name "CHE430396704",
+        "Network User",
+        "ROSH_RESOURCES",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X9300001195607" ;
+    schema1:vatID "CHE430396704" ;
+    skos:altLabel "ROSH_RESOURCES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ROSH RESOURCES AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

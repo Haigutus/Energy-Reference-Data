@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X016571604360D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X016571604360D" ;
+    cim:IdentifiedObject.name "VRG WIND 129 S.P.A." ;
+    cim:Names.name "A0003801C.IT",
+        "IT-VRGWIND129SPA",
+        "IT01657160436",
+        "Producer" ;
+    dcterms:identifier "urn:eic:26X016571604360D" ;
+    schema1:vatID "IT01657160436" ;
+    skos:altLabel "IT-VRGWIND129SPA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VRG WIND 129 S.P.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

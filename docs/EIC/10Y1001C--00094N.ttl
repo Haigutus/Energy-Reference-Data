@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--00094N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10Y1001C--00094N" ;
+    cim:IdentifiedObject.name "DE TenneT Nordlink Virtual HUB 2" ;
+    cim:Names.name "Market Area",
+        "TTG-NL-VH-2-AREA" ;
+    dcterms:identifier "urn:eic:10Y1001C--00094N" ;
+    skos:altLabel "TTG-NL-VH-2-AREA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DE TenneT Nordlink Virtual HUB 2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

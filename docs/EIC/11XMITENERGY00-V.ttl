@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XMITENERGY00-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-07" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XMITENERGY00-V" ;
+    cim:IdentifiedObject.name "Mitsui & Co. Energy Risk Management Ltd" ;
+    cim:Names.name "Balance Responsible Party",
+        "GB799133778",
+        "MITSUI" ;
+    dcterms:identifier "urn:eic:11XMITENERGY00-V" ;
+    schema1:vatID "GB799133778" ;
+    skos:altLabel "MITSUI" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Mitsui & Co. Energy Risk Management Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

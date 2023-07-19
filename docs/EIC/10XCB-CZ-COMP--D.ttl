@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10XCB-CZ-COMP--D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Ucte Accounting Compensation" ;
+    cim:IdentifiedObject.mRID "10XCB-CZ-COMP--D" ;
+    cim:IdentifiedObject.name "CEPS, a. s." ;
+    cim:Names.name "CB-CZECH-REP",
+        "CZ25702556",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:10XCB-CZ-COMP--D" ;
+    schema1:vatID "CZ25702556" ;
+    skos:altLabel "CB-CZECH-REP" ;
+    skos:definition "Ucte Accounting Compensation"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEPS, a. s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

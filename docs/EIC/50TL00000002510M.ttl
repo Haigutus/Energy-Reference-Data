@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50TL00000002510M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50TL00000002510M" ;
+    cim:IdentifiedObject.name "S Sokna 132 S1 X" ;
+    cim:Names.name "Internal Line",
+        "NO-SOKNA132S1X" ;
+    dcterms:identifier "urn:eic:50TL00000002510M" ;
+    skos:altLabel "NO-SOKNA132S1X" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S Sokna 132 S1 X" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

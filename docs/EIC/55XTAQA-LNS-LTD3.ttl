@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XTAQA-LNS-LTD3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "55XTAQA-LNS-LTD3" ;
+    cim:IdentifiedObject.name "TAQA BRATANI LNS LIMITED" ;
+    cim:Names.name "GB918558291",
+        "Producer",
+        "TAQABRATANILNS" ;
+    dcterms:identifier "urn:eic:55XTAQA-LNS-LTD3" ;
+    schema1:vatID "GB918558291" ;
+    skos:altLabel "TAQABRATANILNS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TAQA BRATANI LNS LIMITED" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

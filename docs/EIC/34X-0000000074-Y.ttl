@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34X-0000000074-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-10-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "34X-0000000074-Y" ;
+    cim:IdentifiedObject.name "Watt and Volt doo Beograd" ;
+    cim:Names.name "RS107257121",
+        "Trade Responsible Party",
+        "WAVO" ;
+    dcterms:identifier "urn:eic:34X-0000000074-Y" ;
+    schema1:vatID "RS107257121" ;
+    skos:altLabel "WAVO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Watt and Volt doo Beograd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

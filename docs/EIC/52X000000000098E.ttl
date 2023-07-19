@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/52X000000000098E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-03-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "52X000000000098E" ;
+    cim:IdentifiedObject.name "EBN Capital B.V." ;
+    cim:Names.name "EBN-CAPITALBV",
+        "NL808077806B01",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:52X000000000098E" ;
+    schema1:vatID "NL808077806B01" ;
+    skos:altLabel "EBN-CAPITALBV" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EBN Capital B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

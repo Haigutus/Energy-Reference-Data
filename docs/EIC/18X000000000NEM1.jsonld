@@ -1,0 +1,37 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18X000000000NEM1",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18X000000000NEM1",
+    "@skos:prefLabel": "ENERGÍAS VERDES DE TENERIFE, SL.",
+    "@skos:altLabel": "ES-B76807551",
+    "@cim:IdentifiedObject.mRID": "18X000000000NEM1",
+    "@cim:IdentifiedObject.name": "ENERGÍAS VERDES DE TENERIFE, SL.",
+    "@cim:Names.name": [
+        "ES-B76807551",
+        "ESB76807551",
+        "Production Responsible party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-04-27",
+    "@schema:vatID": "ESB76807551",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

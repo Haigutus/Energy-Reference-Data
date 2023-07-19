@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--130926BNPA6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-09-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--130926BNPA6" ;
+    cim:IdentifiedObject.name "BNP Paribas Arbitrage snc" ;
+    cim:Names.name "BNP_P_ARBITRAGE",
+        "FR30394895833",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--130926BNPA6" ;
+    schema1:vatID "FR30394895833" ;
+    skos:altLabel "BNP_P_ARBITRAGE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BNP Paribas Arbitrage snc" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

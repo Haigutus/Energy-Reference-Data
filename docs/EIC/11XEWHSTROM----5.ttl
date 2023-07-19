@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEWHSTROM----5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-11" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XEWHSTROM----5" ;
+    cim:IdentifiedObject.name "Stadtwerke Gießen AG" ;
+    cim:Names.name "DE149322017",
+        "EWHSTROM" ;
+    dcterms:identifier "urn:eic:11XEWHSTROM----5" ;
+    schema1:vatID "DE149322017" ;
+    skos:altLabel "EWHSTROM" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Gießen AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

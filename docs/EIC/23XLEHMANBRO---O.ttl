@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23XLEHMANBRO---O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trader" ;
+    cim:IdentifiedObject.mRID "23XLEHMANBRO---O" ;
+    cim:IdentifiedObject.name "Lehman Brothers Commodity Services ( Europe)" ;
+    cim:Names.name "LEHMANBROS",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:23XLEHMANBRO---O" ;
+    skos:altLabel "LEHMANBROS" ;
+    skos:definition "Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Lehman Brothers Commodity Services ( Europe)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

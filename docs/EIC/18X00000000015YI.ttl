@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X00000000015YI> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-09-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18X00000000015YI" ;
+    cim:IdentifiedObject.name "ESTACION DE SERVICIO BOO G2 S.L" ;
+    cim:Names.name "BOOG2",
+        "Consumption Responsible Party",
+        "ESB39681846" ;
+    dcterms:identifier "urn:eic:18X00000000015YI" ;
+    schema1:vatID "ESB39681846" ;
+    skos:altLabel "BOOG2" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ESTACION DE SERVICIO BOO G2 S.L" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

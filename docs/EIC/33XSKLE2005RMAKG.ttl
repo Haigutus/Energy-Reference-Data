@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XSKLE2005RMAKG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-03-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Manufactoring Of Ferro-Alloys(27,10)" ;
+    cim:IdentifiedObject.mRID "33XSKLE2005RMAKG" ;
+    cim:IdentifiedObject.name "DOOL SKOPSKI LEGURI" ;
+    cim:Names.name "4030005529159",
+        "Balance Responsible Party",
+        "Consumer",
+        "SKOPSKI_LEGURI" ;
+    dcterms:identifier "urn:eic:33XSKLE2005RMAKG" ;
+    schema1:vatID "4030005529159" ;
+    skos:altLabel "SKOPSKI_LEGURI" ;
+    skos:definition "Manufactoring Of Ferro-Alloys(27,10)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DOOL SKOPSKI LEGURI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

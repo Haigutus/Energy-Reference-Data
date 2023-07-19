@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58XMETENERGY-BGW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58XMETENERGY-BGW" ;
+    cim:IdentifiedObject.name "MET Energy Trading Bulgaria EAD" ;
+    cim:Names.name "A00144362.BG",
+        "BG204656662",
+        "Balance Responsible Party",
+        "MET-BG",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:58XMETENERGY-BGW" ;
+    schema1:vatID "BG204656662" ;
+    skos:altLabel "MET-BG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MET Energy Trading Bulgaria EAD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

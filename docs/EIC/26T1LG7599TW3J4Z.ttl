@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26T1LG7599TW3J4Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26T1LG7599TW3J4Z" ;
+    cim:IdentifiedObject.name "ATR-PADRICIANO - ATR 3 220/220 KV" ;
+    cim:Names.name "ATR-73004615",
+        "Transformer" ;
+    dcterms:identifier "urn:eic:26T1LG7599TW3J4Z" ;
+    skos:altLabel "ATR-73004615" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ATR-PADRICIANO - ATR 3 220/220 KV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

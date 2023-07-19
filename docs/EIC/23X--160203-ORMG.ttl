@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160203-ORMG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-02-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--160203-ORMG" ;
+    cim:IdentifiedObject.name "OMV Refining & Marketing GmbH" ;
+    cim:Names.name "ATU48359903",
+        "OMV_RM",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:23X--160203-ORMG" ;
+    schema1:vatID "ATU48359903" ;
+    skos:altLabel "OMV_RM" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OMV Refining & Marketing GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

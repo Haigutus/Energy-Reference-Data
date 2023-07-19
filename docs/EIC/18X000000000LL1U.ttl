@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000LL1U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000LL1U" ;
+    cim:IdentifiedObject.name "BITLUZ ENERGY S.L." ;
+    cim:Names.name "ES-BITLU",
+        "ESB16720526",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000LL1U" ;
+    schema1:vatID "ESB16720526" ;
+    skos:altLabel "ES-BITLU" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BITLUZ ENERGY S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

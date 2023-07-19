@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X0000000012922> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-01-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacty Trader,Interconnection Trade Responsible" ;
+    cim:IdentifiedObject.mRID "21X0000000012922" ;
+    cim:IdentifiedObject.name "CEPSA GAS COMERCIALIZADORA" ;
+    cim:Names.name "CEPSA_GAS_COMERC",
+        "Capacity Trader",
+        "ESA82485335",
+        "Interconnection Trade Responsible" ;
+    dcterms:identifier "urn:eic:21X0000000012922" ;
+    schema1:vatID "ESA82485335" ;
+    skos:altLabel "CEPSA_GAS_COMERC" ;
+    skos:definition "Capacty Trader,Interconnection Trade Responsible"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEPSA GAS COMERCIALIZADORA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62X6108618483879> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62X6108618483879" ;
+    cim:IdentifiedObject.name "TOVARYSTVO OBMEZHENOIU VIDPOVIDALNISTIU \"KHMELNYTSKENERGOZBUT\"" ;
+    cim:Names.name "420352622256",
+        "Consumption Responsible Party",
+        "Producer",
+        "TOV_KHEZ" ;
+    dcterms:identifier "urn:eic:62X6108618483879" ;
+    schema1:vatID "420352622256" ;
+    skos:altLabel "TOV_KHEZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TOVARYSTVO OBMEZHENOIU VIDPOVIDALNISTIU \"KHMELNYTSKENERGOZBUT\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

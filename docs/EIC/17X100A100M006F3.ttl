@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X100A100M006F3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Operator pas de tva , code si désactivé " ;
+    cim:IdentifiedObject.mRID "17X100A100M006F3" ;
+    cim:IdentifiedObject.name "EPEX Spot (CWE)" ;
+    cim:Names.name "FR10508010501",
+        "FR_EPEX_SPOT_CWE",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:17X100A100M006F3" ;
+    schema1:vatID "FR10508010501" ;
+    skos:altLabel "FR_EPEX_SPOT_CWE" ;
+    skos:definition "Market Operator pas de tva , code si désactivé "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EPEX Spot (CWE)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

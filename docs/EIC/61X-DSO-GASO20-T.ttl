@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/61X-DSO-GASO20-T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-01-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "61X-DSO-GASO20-T" ;
+    cim:IdentifiedObject.name "JSC \"GASO\"" ;
+    cim:Names.name "AS_GASO",
+        "Distribution System Operator",
+        "LV40203108921" ;
+    dcterms:identifier "urn:eic:61X-DSO-GASO20-T" ;
+    schema1:vatID "LV40203108921" ;
+    skos:altLabel "AS_GASO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "JSC \"GASO\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

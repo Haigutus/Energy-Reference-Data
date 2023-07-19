@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XVER-SYN-ETO-8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group For Losses" ;
+    cim:IdentifiedObject.mRID "11XVER-SYN-ETO-8" ;
+    cim:IdentifiedObject.name "Syneco Trading GmbH" ;
+    cim:Names.name "DE219741801",
+        "SYNVER-ETO",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:11XVER-SYN-ETO-8" ;
+    schema1:vatID "DE219741801" ;
+    skos:altLabel "SYNVER-ETO" ;
+    skos:definition "Balance Group For Losses"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Syneco Trading GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

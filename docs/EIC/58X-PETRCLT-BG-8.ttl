@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58X-PETRCLT-BG-8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58X-PETRCLT-BG-8" ;
+    cim:IdentifiedObject.name "PETROCELTIC BULGARIA EOOD" ;
+    cim:Names.name "A0015110L.BG",
+        "BG040183342",
+        "Network User",
+        "PETROCELTIC-BG",
+        "Producer" ;
+    dcterms:identifier "urn:eic:58X-PETRCLT-BG-8" ;
+    schema1:vatID "BG040183342" ;
+    skos:altLabel "PETROCELTIC-BG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PETROCELTIC BULGARIA EOOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

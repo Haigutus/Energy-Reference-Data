@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37X0000000000038> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-11-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company has merged with another company and the resulting company is again called BALANCE Erneuerbare Energien GmbH, but with a new VAT number! I had already sent Laima the appropriate letter from the company by e-mail.  I now plead for approval of this change. Preis Ticket number 9331481" ;
+    cim:IdentifiedObject.mRID "37X0000000000038" ;
+    cim:IdentifiedObject.name "BALANCE Erneuerbare Energien GmbH" ;
+    cim:Names.name "BALANCEGMBH",
+        "DE311955741",
+        "Energy Supplier" ;
+    dcterms:identifier "urn:eic:37X0000000000038" ;
+    schema1:vatID "DE311955741" ;
+    skos:altLabel "BALANCEGMBH" ;
+    skos:definition "Company has merged with another company and the resulting company is again called BALANCE Erneuerbare Energien GmbH, but with a new VAT number! I had already sent Laima the appropriate letter from the company by e-mail.  I now plead for approval of this change. Preis Ticket number 9331481"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BALANCE Erneuerbare Energien GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

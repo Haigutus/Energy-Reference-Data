@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XNCHZ--------R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Chemical Producer (Sk: Vyrobca Chemickej Produkcie)" ;
+    cim:IdentifiedObject.mRID "24XNCHZ--------R" ;
+    cim:IdentifiedObject.name "Novacke chemicke zavody, a.s. Novaky" ;
+    cim:Names.name "NCHZ",
+        "SK2020468417",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:24XNCHZ--------R" ;
+    schema1:vatID "SK2020468417" ;
+    skos:altLabel "NCHZ" ;
+    skos:definition "Chemical Producer (Sk: Vyrobca Chemickej Produkcie)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Novacke chemicke zavody, a.s. Novaky" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

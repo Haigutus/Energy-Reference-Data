@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10XCH-EOST-GRIDF> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Transmission System Operator" ;
+    cim:IdentifiedObject.mRID "10XCH-EOST-GRIDF" ;
+    cim:IdentifiedObject.name "EOS Transport" ;
+    cim:Names.name "EOS_TRANSPORT",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:10XCH-EOST-GRIDF" ;
+    skos:altLabel "EOS_TRANSPORT" ;
+    skos:definition "Transmission System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EOS Transport" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

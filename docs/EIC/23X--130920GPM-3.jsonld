@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--130920GPM-3",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--130920GPM-3",
+    "@skos:prefLabel": "ENGIE Energie Nederland N.V.",
+    "@skos:altLabel": "ENGIE_ENERGIE_NL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Legally merge of two companies: Ref.Manual: the restructuring of a legal entity, leading to the transfer of the EIC codes to another legal entity succeeding to its activities for the EIC codes."
+    },
+    "@cim:IdentifiedObject.mRID": "23X--130920GPM-3",
+    "@cim:IdentifiedObject.name": "ENGIE Energie Nederland N.V.",
+    "@cim:Names.name": [
+        "ENGIE_ENERGIE_NL",
+        "NL008357523B01",
+        "Balance Responsible Party",
+        "Energy Supplier",
+        "Producer"
+    ],
+    "@cim:IdentifiedObject.description": "Legally merge of two companies: Ref.Manual: the restructuring of a legal entity, leading to the transfer of the EIC codes to another legal entity succeeding to its activities for the EIC codes.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-12-23",
+    "@schema:vatID": "NL008357523B01",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

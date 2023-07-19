@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000HNDG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000HNDG" ;
+    cim:IdentifiedObject.name "FREE SUN ENERGY S.L." ;
+    cim:Names.name "AGROF",
+        "ESB67572669",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000HNDG" ;
+    schema1:vatID "ESB67572669" ;
+    skos:altLabel "AGROF" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FREE SUN ENERGY S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

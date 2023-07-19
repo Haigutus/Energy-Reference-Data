@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18T000000000JP0A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18T000000000JP0A" ;
+    cim:IdentifiedObject.name "Cartelle-Silleda 1 400kV" ;
+    cim:Names.name "Internal Line",
+        "L_CRL_SILL_1_400" ;
+    dcterms:identifier "urn:eic:18T000000000JP0A" ;
+    skos:altLabel "L_CRL_SILL_1_400" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Cartelle-Silleda 1 400kV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

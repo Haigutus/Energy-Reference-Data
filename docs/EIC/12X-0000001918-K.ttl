@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001918-K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-07-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Capacity Trader" ;
+    cim:IdentifiedObject.mRID "12X-0000001918-K" ;
+    cim:IdentifiedObject.name "My Smart e Sagl" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE456926526",
+        "Capacity Trader",
+        "MY-SMART-E-ST" ;
+    dcterms:identifier "urn:eic:12X-0000001918-K" ;
+    schema1:vatID "CHE456926526" ;
+    skos:altLabel "MY-SMART-E-ST" ;
+    skos:definition "Balance Responsible Party, Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "My Smart e Sagl" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

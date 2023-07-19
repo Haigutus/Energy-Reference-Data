@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/13Y-MG-T-MG-V--K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "AGGM: aufgrund der Erweiterung der UMMs EIC Code für das MG Tirol und Vorarlberg." ;
+    cim:IdentifiedObject.mRID "13Y-MG-T-MG-V--K" ;
+    cim:IdentifiedObject.name "AGGM Austrian Gas Grid Management AG" ;
+    cim:Names.name "Control Area",
+        "VG-WEST-AT" ;
+    dcterms:identifier "urn:eic:13Y-MG-T-MG-V--K" ;
+    skos:altLabel "VG-WEST-AT" ;
+    skos:definition "AGGM: aufgrund der Erweiterung der UMMs EIC Code für das MG Tirol und Vorarlberg."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AGGM Austrian Gas Grid Management AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

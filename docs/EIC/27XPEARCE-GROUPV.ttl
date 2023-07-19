@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XPEARCE-GROUPV> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-06-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "27XPEARCE-GROUPV" ;
+    cim:IdentifiedObject.name "PEARCE INTERNATIONAL S.R.O." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ03386376",
+        "PEARCE-GROUP" ;
+    dcterms:identifier "urn:eic:27XPEARCE-GROUPV" ;
+    schema1:vatID "CZ03386376" ;
+    skos:altLabel "PEARCE-GROUP" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PEARCE INTERNATIONAL S.R.O." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

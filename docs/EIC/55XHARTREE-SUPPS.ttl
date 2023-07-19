@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XHARTREE-SUPPS> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "55XHARTREE-SUPPS" ;
+    cim:IdentifiedObject.name "HARTREE PARTNERS SUPPLY (UK) LIMITED" ;
+    cim:Names.name "Balance Responsible Party",
+        "GB782826004",
+        "HARTREE-SUPPLY" ;
+    dcterms:identifier "urn:eic:55XHARTREE-SUPPS" ;
+    schema1:vatID "GB782826004" ;
+    skos:altLabel "HARTREE-SUPPLY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HARTREE PARTNERS SUPPLY (UK) LIMITED" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

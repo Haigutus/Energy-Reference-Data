@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12T-0000000328-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Internal Line" ;
+    cim:IdentifiedObject.mRID "12T-0000000328-Y" ;
+    cim:IdentifiedObject.name "150 kV Mendrisio-Y/Pian Scairolo" ;
+    cim:Names.name "Internal Line",
+        "MEND-YPIAX-E-ILS" ;
+    dcterms:identifier "urn:eic:12T-0000000328-Y" ;
+    skos:altLabel "MEND-YPIAX-E-ILS" ;
+    skos:definition "Internal Line"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "150 kV Mendrisio-Y/Pian Scairolo" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/52X0000000000165> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Distribution System Operator" ;
+    cim:IdentifiedObject.mRID "52X0000000000165" ;
+    cim:IdentifiedObject.name "Stedin Netbeheer B.V." ;
+    cim:Names.name "Distribution System Operator",
+        "NL807517410B01",
+        "STEDIN" ;
+    dcterms:identifier "urn:eic:52X0000000000165" ;
+    schema1:vatID "NL807517410B01" ;
+    skos:altLabel "STEDIN" ;
+    skos:definition "Distribution System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stedin Netbeheer B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

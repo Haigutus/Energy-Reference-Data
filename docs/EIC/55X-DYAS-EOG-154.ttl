@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55X-DYAS-EOG-154> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "55X-DYAS-EOG-154" ;
+    cim:IdentifiedObject.name "DYAS EOG LIMITED" ;
+    cim:Names.name "DYASEOG",
+        "GB402744773",
+        "Producer" ;
+    dcterms:identifier "urn:eic:55X-DYAS-EOG-154" ;
+    schema1:vatID "GB402744773" ;
+    skos:altLabel "DYASEOG" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DYAS EOG LIMITED" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001039E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-11-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "21X000000001039E" ;
+    cim:IdentifiedObject.name "RWE Gas verkoopmaatschappij NV" ;
+    cim:Names.name "Balance Responsible Party",
+        "NL810121451B01",
+        "RWEN" ;
+    dcterms:identifier "urn:eic:21X000000001039E" ;
+    schema1:vatID "NL810121451B01" ;
+    skos:altLabel "RWEN" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RWE Gas verkoopmaatschappij NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

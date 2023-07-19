@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/55XINEOSENERGY-D",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:55XINEOSENERGY-D",
+    "@skos:prefLabel": "INEOS Energy Trading Limited",
+    "@skos:altLabel": "INEOSENERGY",
+    "@cim:IdentifiedObject.mRID": "55XINEOSENERGY-D",
+    "@cim:IdentifiedObject.name": "INEOS Energy Trading Limited",
+    "@cim:Names.name": [
+        "INEOSENERGY",
+        "GB284368371",
+        "Capacity Trader",
+        "Balance Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-01-09",
+    "@schema:vatID": "GB284368371",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

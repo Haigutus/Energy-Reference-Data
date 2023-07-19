@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28X-PETROL-LJ--C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-03-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "28X-PETROL-LJ--C" ;
+    cim:IdentifiedObject.name "PETROL D.D., LJUBLJANA" ;
+    cim:Names.name "-PETROL-LJ--",
+        "Balance Responsible Party",
+        "SI80267432" ;
+    dcterms:identifier "urn:eic:28X-PETROL-LJ--C" ;
+    schema1:vatID "SI80267432" ;
+    skos:altLabel "-PETROL-LJ--" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PETROL D.D., LJUBLJANA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

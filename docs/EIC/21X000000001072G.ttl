@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001072G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-10-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "21X000000001072G" ;
+    cim:IdentifiedObject.name "Storengy Deutschland GmbH" ;
+    cim:Names.name "DE256603999",
+        "STORENGY-DE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:21X000000001072G" ;
+    schema1:vatID "DE256603999" ;
+    skos:altLabel "STORENGY-DE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Storengy Deutschland GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

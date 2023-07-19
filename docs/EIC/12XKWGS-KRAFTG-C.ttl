@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XKWGS-KRAFTG-C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Produktionsgesellschaft" ;
+    cim:IdentifiedObject.mRID "12XKWGS-KRAFTG-C" ;
+    cim:IdentifiedObject.name "KWGS Kraftwerk Ganterbach-Saltina AG" ;
+    cim:Names.name "CH248181",
+        "KWGS_KRAFTWERK",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XKWGS-KRAFTG-C" ;
+    schema1:vatID "CH248181" ;
+    skos:altLabel "KWGS_KRAFTWERK" ;
+    skos:definition "Produktionsgesellschaft"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KWGS Kraftwerk Ganterbach-Saltina AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

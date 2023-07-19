@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XGESABVAMBERKJ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Gas Distribution" ;
+    cim:IdentifiedObject.mRID "27XGESABVAMBERKJ" ;
+    cim:IdentifiedObject.name "ESAB VAMBERK, s.r.o." ;
+    cim:Names.name "CZ25268023",
+        "ESAB-VAMBERK",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:27XGESABVAMBERKJ" ;
+    schema1:vatID "CZ25268023" ;
+    skos:altLabel "ESAB-VAMBERK" ;
+    skos:definition "Gas Distribution"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ESAB VAMBERK, s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

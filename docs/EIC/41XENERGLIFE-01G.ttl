@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41XENERGLIFE-01G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-11-10" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Supplier, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "41XENERGLIFE-01G" ;
+    cim:IdentifiedObject.name "UAB Energo life" ;
+    cim:Names.name "Balance Supplier",
+        "ENERGLIFE-01",
+        "LT100006174813",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:41XENERGLIFE-01G" ;
+    schema1:vatID "LT100006174813" ;
+    skos:altLabel "ENERGLIFE-01" ;
+    skos:definition "Balance Supplier, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Energo life" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

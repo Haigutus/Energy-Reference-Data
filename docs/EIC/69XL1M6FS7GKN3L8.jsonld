@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/69XL1M6FS7GKN3L8",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:69XL1M6FS7GKN3L8",
+    "@skos:prefLabel": "METKA POWER INVESTMENTS LTD",
+    "@skos:altLabel": "METKA_POWER",
+    "@cim:IdentifiedObject.mRID": "69XL1M6FS7GKN3L8",
+    "@cim:IdentifiedObject.name": "METKA POWER INVESTMENTS LTD",
+    "@cim:Names.name": [
+        "METKA_POWER",
+        "10362559T",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-05-30",
+    "@schema:vatID": "10362559T",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

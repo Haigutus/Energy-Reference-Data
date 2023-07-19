@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WBESS-TRINO20E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26WBESS-TRINO20E" ;
+    cim:IdentifiedObject.name "BESS_TRINO_2" ;
+    cim:Names.name "IT-BESS-TRINO-2",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:26WBESS-TRINO20E" ;
+    skos:altLabel "IT-BESS-TRINO-2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BESS_TRINO_2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

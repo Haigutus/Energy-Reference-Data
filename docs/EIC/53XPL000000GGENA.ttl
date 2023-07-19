@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000GGENA> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Distribution System Operator" ;
+    cim:IdentifiedObject.mRID "53XPL000000GGENA" ;
+    cim:IdentifiedObject.name "G.EN. Operator Sp. z o.o." ;
+    cim:Names.name "A00019187.PL",
+        "Distribution System Operator",
+        "GGEN",
+        "PL6690502773" ;
+    dcterms:identifier "urn:eic:53XPL000000GGENA" ;
+    schema1:vatID "PL6690502773" ;
+    skos:altLabel "GGEN" ;
+    skos:definition "Distribution System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "G.EN. Operator Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

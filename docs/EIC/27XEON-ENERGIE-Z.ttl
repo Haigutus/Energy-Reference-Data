@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XEON-ENERGIE-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2007-11-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Transmission Capacity Allocator" ;
+    cim:IdentifiedObject.mRID "27XEON-ENERGIE-Z" ;
+    cim:IdentifiedObject.name "E.ON Energie, a.s." ;
+    cim:Names.name "CZ26078201",
+        "EON-EN-CZ",
+        "Transmission Capacity Allocator" ;
+    dcterms:identifier "urn:eic:27XEON-ENERGIE-Z" ;
+    schema1:vatID "CZ26078201" ;
+    skos:altLabel "EON-EN-CZ" ;
+    skos:definition "Transmission Capacity Allocator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E.ON Energie, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

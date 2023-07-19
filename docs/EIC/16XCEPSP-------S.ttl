@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XCEPSP-------S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-03-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XCEPSP-------S" ;
+    cim:IdentifiedObject.name "Cepsa Gas y Electricidad, SA - Sucursal Portugal" ;
+    cim:Names.name "CEPSP",
+        "PT980669030",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XCEPSP-------S" ;
+    schema1:vatID "PT980669030" ;
+    skos:altLabel "CEPSP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Cepsa Gas y Electricidad, SA - Sucursal Portugal" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

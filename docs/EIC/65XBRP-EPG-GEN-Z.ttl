@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/65XBRP-EPG-GEN-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "65XBRP-EPG-GEN-Z" ;
+    cim:IdentifiedObject.name "ENERGO PRO GEORGIA GENERATION JSC" ;
+    cim:Names.name "405182626",
+        "Balance Responsible Party",
+        "ENERGOPRO-GEN" ;
+    dcterms:identifier "urn:eic:65XBRP-EPG-GEN-Z" ;
+    schema1:vatID "405182626" ;
+    skos:altLabel "ENERGOPRO-GEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGO PRO GEORGIA GENERATION JSC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

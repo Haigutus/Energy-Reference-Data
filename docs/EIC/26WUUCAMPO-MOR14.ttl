@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WUUCAMPO-MOR14> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "UP_CAMPO_MOR_1" ;
+    cim:IdentifiedObject.mRID "26WUUCAMPO-MOR14" ;
+    cim:IdentifiedObject.name "UP_CAMPO_MOR_1" ;
+    cim:Names.name "1030",
+        "Generation Unit" ;
+    dcterms:identifier "urn:eic:26WUUCAMPO-MOR14" ;
+    skos:altLabel "1030" ;
+    skos:definition "UP_CAMPO_MOR_1"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UP_CAMPO_MOR_1" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XVANGUARD-COMB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XVANGUARD-COMB" ;
+    cim:IdentifiedObject.name "Vanguard Commodities Kft." ;
+    cim:Names.name "HU27835434",
+        "Trade Responsible Party",
+        "VANGUARD" ;
+    dcterms:identifier "urn:eic:39XVANGUARD-COMB" ;
+    schema1:vatID "HU27835434" ;
+    skos:altLabel "VANGUARD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vanguard Commodities Kft." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

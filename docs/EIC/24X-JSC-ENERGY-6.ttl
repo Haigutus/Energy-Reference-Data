@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24X-JSC-ENERGY-6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-01-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "24X-JSC-ENERGY-6" ;
+    cim:IdentifiedObject.name "JSC Energy s.r.o." ;
+    cim:Names.name "JSC_ENERGY",
+        "SK2023336194",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:24X-JSC-ENERGY-6" ;
+    schema1:vatID "SK2023336194" ;
+    skos:altLabel "JSC_ENERGY" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "JSC Energy s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

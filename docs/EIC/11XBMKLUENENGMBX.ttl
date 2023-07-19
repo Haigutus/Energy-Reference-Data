@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XBMKLUENENGMBX> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XBMKLUENENGMBX" ;
+    cim:IdentifiedObject.name "BMK Biomassekraftwerk Lünen GmbH" ;
+    cim:Names.name "BMK-LUENEN",
+        "Balance Responsible Party",
+        "DE238280999" ;
+    dcterms:identifier "urn:eic:11XBMKLUENENGMBX" ;
+    schema1:vatID "DE238280999" ;
+    skos:altLabel "BMK-LUENEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BMK Biomassekraftwerk Lünen GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

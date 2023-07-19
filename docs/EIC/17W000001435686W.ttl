@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17W000001435686W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Nouveau code EIC" ;
+    cim:IdentifiedObject.mRID "17W000001435686W" ;
+    cim:IdentifiedObject.name "Montezic 2 Pompage" ;
+    cim:Names.name "FR_MTEZIH_2-P",
+        "Storage Plant" ;
+    dcterms:identifier "urn:eic:17W000001435686W" ;
+    skos:altLabel "FR_MTEZIH_2-P" ;
+    skos:definition "Nouveau code EIC"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Montezic 2 Pompage" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

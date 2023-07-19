@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27T-TLI-V452---4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-09-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "27T-TLI-V452---4" ;
+    cim:IdentifiedObject.name "CEPS_V452 Bezděčín-Neznášov" ;
+    cim:Names.name "CBEZ__1*CNEZ__1*",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:27T-TLI-V452---4" ;
+    skos:altLabel "CBEZ__1*CNEZ__1*" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEPS_V452 Bezděčín-Neznášov" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

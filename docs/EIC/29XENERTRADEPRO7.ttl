@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XENERTRADEPRO7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "29XENERTRADEPRO7" ;
+    cim:IdentifiedObject.name "ENER S.A." ;
+    cim:Names.name "Balance Responsible Party",
+        "EL998380210",
+        "ENER" ;
+    dcterms:identifier "urn:eic:29XENERTRADEPRO7" ;
+    schema1:vatID "EL998380210" ;
+    skos:altLabel "ENER" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENER S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34X-0000000068-Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "34X-0000000068-Q" ;
+    cim:IdentifiedObject.name "Centar za koordinaciju sigurnosti SCC d.o.o. Beograd-Voždovac" ;
+    cim:Names.name "Coordination Center Operator",
+        "SCC",
+        "SR109027050" ;
+    dcterms:identifier "urn:eic:34X-0000000068-Q" ;
+    schema1:vatID "SR109027050" ;
+    skos:altLabel "SCC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Centar za koordinaciju sigurnosti SCC d.o.o. Beograd-Voždovac" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

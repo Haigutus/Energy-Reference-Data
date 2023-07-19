@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X-PL-A-A0A0A-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-04-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "System Operator" ;
+    cim:IdentifiedObject.mRID "21X-PL-A-A0A0A-B" ;
+    cim:IdentifiedObject.name "Operator Gazociągów Przesyłowych GAZ-SYSTEM S.A." ;
+    cim:Names.name "GAZ-SYSTEM",
+        "PL5272432041",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:21X-PL-A-A0A0A-B" ;
+    schema1:vatID "PL5272432041" ;
+    skos:altLabel "GAZ-SYSTEM" ;
+    skos:definition "System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Operator Gazociągów Przesyłowych GAZ-SYSTEM S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

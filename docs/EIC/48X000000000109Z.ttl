@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000109Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balancing Responsible Party" ;
+    cim:IdentifiedObject.mRID "48X000000000109Z" ;
+    cim:IdentifiedObject.name "Volantis Energy Ltd" ;
+    cim:Names.name "10160145",
+        "VOE0000000001",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:48X000000000109Z" ;
+    schema1:vatID "10160145" ;
+    skos:altLabel "VOE0000000001" ;
+    skos:definition "Balancing Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Volantis Energy Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

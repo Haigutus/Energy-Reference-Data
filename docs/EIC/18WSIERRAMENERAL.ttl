@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WSIERRAMENERAL> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WSIERRAMENERAL" ;
+    cim:IdentifiedObject.name "IBERDROLA ENERGÍAS RENOVABLES CASTILLA LA MANCHA" ;
+    cim:Names.name "Generation Unit",
+        "SIMENE1" ;
+    dcterms:identifier "urn:eic:18WSIERRAMENERAL" ;
+    skos:altLabel "SIMENE1" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IBERDROLA ENERGÍAS RENOVABLES CASTILLA LA MANCHA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

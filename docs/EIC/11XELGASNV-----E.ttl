@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XELGASNV-----E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-08-03" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XELGASNV-----E" ;
+    cim:IdentifiedObject.name "EL & GAS N.V." ;
+    cim:Names.name "11659590776",
+        "Balance Group",
+        "ELGASNV" ;
+    dcterms:identifier "urn:eic:11XELGASNV-----E" ;
+    schema1:vatID "11659590776" ;
+    skos:altLabel "ELGASNV" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EL & GAS N.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

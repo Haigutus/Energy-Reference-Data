@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/43X-TG-A0000014B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "43X-TG-A0000014B" ;
+    cim:IdentifiedObject.name "SIA \"AKCI\"" ;
+    cim:Names.name "Balance Responsible Party",
+        "LV-TGA",
+        "LV40003256135" ;
+    dcterms:identifier "urn:eic:43X-TG-A0000014B" ;
+    schema1:vatID "LV40003256135" ;
+    skos:altLabel "LV-TGA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SIA \"AKCI\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

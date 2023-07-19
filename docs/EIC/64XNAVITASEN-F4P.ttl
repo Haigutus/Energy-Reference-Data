@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64XNAVITASEN-F4P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-02-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "S.R.L. ''Navitas Energy'' has no EU VAT code. Registration number (IDNO) - 1020600042991 Licence - AC nr. 001504; issued by ANRE on 24/12/2020" ;
+    cim:IdentifiedObject.mRID "64XNAVITASEN-F4P" ;
+    cim:IdentifiedObject.name "S.R.L. \"Navitas Energy\"" ;
+    cim:Names.name "Balance Responsible Party",
+        "NAVITASEN_F",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:64XNAVITASEN-F4P" ;
+    skos:altLabel "NAVITASEN_F" ;
+    skos:definition "S.R.L. ''Navitas Energy'' has no EU VAT code. Registration number (IDNO) - 1020600042991 Licence - AC nr. 001504; issued by ANRE on 24/12/2020"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S.R.L. \"Navitas Energy\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

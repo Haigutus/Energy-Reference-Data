@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XRINOV-12345-6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-03-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XRINOV-12345-6" ;
+    cim:IdentifiedObject.name "RINNOVO ENERGIA SL" ;
+    cim:Names.name "ESB76106905",
+        "RINOV",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XRINOV-12345-6" ;
+    schema1:vatID "ESB76106905" ;
+    skos:altLabel "RINOV" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RINNOVO ENERGIA SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

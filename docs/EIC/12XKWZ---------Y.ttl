@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XKWZ---------Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Stromproduktion Durch Wasserkraftnutzung" ;
+    cim:IdentifiedObject.mRID "12XKWZ---------Y" ;
+    cim:IdentifiedObject.name "Kraftwerke Zervreila AG" ;
+    cim:Names.name "CH247166",
+        "KWZ",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XKWZ---------Y" ;
+    schema1:vatID "CH247166" ;
+    skos:altLabel "KWZ" ;
+    skos:definition "Stromproduktion Durch Wasserkraftnutzung"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kraftwerke Zervreila AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

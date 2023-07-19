@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPLALUM303313M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XPLALUM303313M" ;
+    cim:IdentifiedObject.name "ALUMETAL POLAND SP. Z O.O." ;
+    cim:Names.name "A0012550O.PL",
+        "ALUMETAL_POLAND",
+        "Energy Supplier",
+        "PL5492338255" ;
+    dcterms:identifier "urn:eic:19XPLALUM303313M" ;
+    schema1:vatID "PL5492338255" ;
+    skos:altLabel "ALUMETAL_POLAND" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALUMETAL POLAND SP. Z O.O." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

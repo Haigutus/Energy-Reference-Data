@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/52X0000000000246> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "52X0000000000246" ;
+    cim:IdentifiedObject.name "Tullow Exploration & Production Netherlands BV" ;
+    cim:Names.name "NL806207176B01",
+        "Producer",
+        "TULLOW-EP-NL" ;
+    dcterms:identifier "urn:eic:52X0000000000246" ;
+    schema1:vatID "NL806207176B01" ;
+    skos:altLabel "TULLOW-EP-NL" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Tullow Exploration & Production Netherlands BV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

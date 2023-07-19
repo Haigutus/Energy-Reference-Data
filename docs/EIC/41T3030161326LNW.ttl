@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41T3030161326LNW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-09-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "41T3030161326LNW" ;
+    cim:IdentifiedObject.name "Lietuvos E-Kruonio HAE LN308" ;
+    cim:Names.name "3030161326LN",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:41T3030161326LNW" ;
+    skos:altLabel "3030161326LN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Lietuvos E-Kruonio HAE LN308" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

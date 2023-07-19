@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-110IESA1019G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "54X-110IESA1019G" ;
+    cim:IdentifiedObject.name "ENSCO  Trading Albania  SH.P.K" ;
+    cim:Names.name "Balance Responsible Party",
+        "ENSCO_AL",
+        "L91819025L",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:54X-110IESA1019G" ;
+    schema1:vatID "L91819025L" ;
+    skos:altLabel "ENSCO_AL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENSCO  Trading Albania  SH.P.K" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

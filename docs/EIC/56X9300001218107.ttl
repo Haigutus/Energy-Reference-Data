@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X9300001218107> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Contact Реrsоn - Yurii Viktorovych Kostyul Tel. +380(98) 974-73-15 Email: ekvairing_oil@ukr.net" ;
+    cim:IdentifiedObject.mRID "56X9300001218107" ;
+    cim:IdentifiedObject.name "\"ACQUIRING OIL\" Limited Liability Company" ;
+    cim:Names.name "42926813",
+        "ACQUIRING_OIL",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X9300001218107" ;
+    schema1:vatID "42926813" ;
+    skos:altLabel "ACQUIRING_OIL" ;
+    skos:definition "Contact Реrsоn - Yurii Viktorovych Kostyul Tel. +380(98) 974-73-15 Email: ekvairing_oil@ukr.net"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "\"ACQUIRING OIL\" Limited Liability Company" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

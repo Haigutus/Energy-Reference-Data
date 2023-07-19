@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000K4EM> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000K4EM" ;
+    cim:IdentifiedObject.name "ALQUILER SEGURO ENERGIA SA" ;
+    cim:Names.name "ES-ALSEG",
+        "ESA42785949",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000K4EM" ;
+    schema1:vatID "ESA42785949" ;
+    skos:altLabel "ES-ALSEG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALQUILER SEGURO ENERGIA SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

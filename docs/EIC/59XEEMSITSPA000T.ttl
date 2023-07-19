@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XEEMSITSPA000T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XEEMSITSPA000T" ;
+    cim:IdentifiedObject.name "59XEEMSITSPA000T" ;
+    cim:Names.name "EEMSITALIASPA",
+        "Grid Operator",
+        "IT00822980579" ;
+    dcterms:identifier "urn:eic:59XEEMSITSPA000T" ;
+    schema1:vatID "IT00822980579" ;
+    skos:altLabel "EEMSITALIASPA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "59XEEMSITSPA000T" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X00000005061-R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grossista Di Energia Elettrica" ;
+    cim:IdentifiedObject.mRID "26X00000005061-R" ;
+    cim:IdentifiedObject.name "CONSORZI ENERGETICI INDUSTRIALI RIUNITI S.C.A R.L." ;
+    cim:Names.name "02125990461",
+        "Balance Responsible Party",
+        "CEIR_SCARL" ;
+    dcterms:identifier "urn:eic:26X00000005061-R" ;
+    schema1:vatID "02125990461" ;
+    skos:altLabel "CEIR_SCARL" ;
+    skos:definition "Grossista Di Energia Elettrica"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CONSORZI ENERGETICI INDUSTRIALI RIUNITI S.C.A R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

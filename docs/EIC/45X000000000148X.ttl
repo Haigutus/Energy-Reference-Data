@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X000000000148X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-06-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45X000000000148X" ;
+    cim:IdentifiedObject.name "CGI DANMARK A/S" ;
+    cim:Names.name "CGI_DK",
+        "DK63890812",
+        "Platform Operator" ;
+    dcterms:identifier "urn:eic:45X000000000148X" ;
+    schema1:vatID "DK63890812" ;
+    skos:altLabel "CGI_DK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CGI DANMARK A/S" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

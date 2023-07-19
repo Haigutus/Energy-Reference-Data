@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPRO-INWEST--L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2005-07-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XPRO-INWEST--L" ;
+    cim:IdentifiedObject.name "Pro Inwest Biuro Doradztwa Gospodarczego" ;
+    cim:Names.name "Balance Responsible Party",
+        "PL1181483220",
+        "PRO_INWEST" ;
+    dcterms:identifier "urn:eic:19XPRO-INWEST--L" ;
+    schema1:vatID "PL1181483220" ;
+    skos:altLabel "PRO_INWEST" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Pro Inwest Biuro Doradztwa Gospodarczego" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

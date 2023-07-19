@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X000000000130F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45X000000000130F" ;
+    cim:IdentifiedObject.name "Duferco Danish Steel A/S" ;
+    cim:Names.name "Balance Responsible Party",
+        "DK29600953",
+        "DUFDANSTEEL" ;
+    dcterms:identifier "urn:eic:45X000000000130F" ;
+    schema1:vatID "DK29600953" ;
+    skos:altLabel "DUFDANSTEEL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Duferco Danish Steel A/S" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

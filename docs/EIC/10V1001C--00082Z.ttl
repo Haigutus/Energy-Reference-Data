@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--00082Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-04-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10V1001C--00082Z" ;
+    cim:IdentifiedObject.name "EPEX Spot ECP Test2 end point" ;
+    cim:Names.name "EPEX_ECP_TEST2",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:10V1001C--00082Z" ;
+    skos:altLabel "EPEX_ECP_TEST2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EPEX Spot ECP Test2 end point" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

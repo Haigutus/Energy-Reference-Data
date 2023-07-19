@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16TLAVFA-------T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-08-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16TLAVFA-------T" ;
+    cim:IdentifiedObject.name "Alqueva-Ferreira do Alentejo" ;
+    cim:Names.name "Internal Line",
+        "LAV.FA" ;
+    dcterms:identifier "urn:eic:16TLAVFA-------T" ;
+    skos:altLabel "LAV.FA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Alqueva-Ferreira do Alentejo" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

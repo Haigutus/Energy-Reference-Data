@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000286D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48X000000000286D" ;
+    cim:IdentifiedObject.name "Uncia Energy LP – Series J" ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "Trade Responsible Party",
+        "UNCIA",
+        "US851568203" ;
+    dcterms:identifier "urn:eic:48X000000000286D" ;
+    schema1:vatID "US851568203" ;
+    skos:altLabel "UNCIA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Uncia Energy LP – Series J" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WFYEFG-12345-C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WFYEFG-12345-C" ;
+    cim:IdentifiedObject.name "EFG ( FOTOVOLTAICA,TARIFA,NO EXENTO )" ;
+    cim:Names.name "FYEFG",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18WFYEFG-12345-C" ;
+    skos:altLabel "FYEFG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EFG ( FOTOVOLTAICA,TARIFA,NO EXENTO )" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

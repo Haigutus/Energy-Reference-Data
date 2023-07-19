@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/12X-0000001938-C",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:12X-0000001938-C",
+    "@skos:prefLabel": "HELIOS ENERGY EM AG",
+    "@skos:altLabel": "HELIOS-ENERGY-ST",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Responsible Party, Balance Supplier"
+    },
+    "@cim:IdentifiedObject.mRID": "12X-0000001938-C",
+    "@cim:IdentifiedObject.name": "HELIOS ENERGY EM AG",
+    "@cim:Names.name": [
+        "HELIOS-ENERGY-ST",
+        "CHE114480463",
+        "Energy Supplier",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Responsible Party, Balance Supplier",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2015-06-09",
+    "@schema:vatID": "CHE114480463",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

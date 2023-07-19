@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XPEAS--------5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Electricity Trading" ;
+    cim:IdentifiedObject.mRID "27XPEAS--------5" ;
+    cim:IdentifiedObject.name "Prvni energeticka, a.s." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ61860948",
+        "PEAS" ;
+    dcterms:identifier "urn:eic:27XPEAS--------5" ;
+    schema1:vatID "CZ61860948" ;
+    skos:altLabel "PEAS" ;
+    skos:definition "Electricity Trading"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Prvni energeticka, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

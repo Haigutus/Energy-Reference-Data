@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000L8SF> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-07-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000L8SF" ;
+    cim:IdentifiedObject.name "DILUZ COMERCIALIZADORA DE ELECTRICIDAD S.L." ;
+    cim:Names.name "ES-DILUZ",
+        "ESB05272182",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000L8SF" ;
+    schema1:vatID "ESB05272182" ;
+    skos:altLabel "ES-DILUZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DILUZ COMERCIALIZADORA DE ELECTRICIDAD S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

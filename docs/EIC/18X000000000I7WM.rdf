@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/18X000000000I7WM">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:18X000000000I7WM</dcterms:identifier>
+    <skos:prefLabel>ENERG&#205;A ECOL&#211;GICA ECON&#211;MICA, S.L</skos:prefLabel>
+    <skos:altLabel>EEECO</skos:altLabel>
+    <cim:IdentifiedObject.mRID>18X000000000I7WM</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ENERG&#205;A ECOL&#211;GICA ECON&#211;MICA, S.L</cim:IdentifiedObject.name>
+    <cim:Names.name>EEECO</cim:Names.name>
+    <cim:Names.name>ESB01620160</cim:Names.name>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2023-04-05</cim:DateAndOrTime.date>
+    <cim:Names.name>Trade Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>ESB01620160</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

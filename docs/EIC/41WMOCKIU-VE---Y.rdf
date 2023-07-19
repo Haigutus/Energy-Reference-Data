@@ -1,0 +1,17 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/41WMOCKIU-VE---Y">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:41WMOCKIU-VE---Y</dcterms:identifier>
+    <skos:prefLabel>Mocki&#371; v&#279;jo elektrini&#371; parkas, UAB Enefit Wind</skos:prefLabel>
+    <skos:altLabel>MOCKIU-VE</skos:altLabel>
+    <cim:IdentifiedObject.mRID>41WMOCKIU-VE---Y</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Mocki&#371; v&#279;jo elektrini&#371; parkas, UAB Enefit Wind</cim:IdentifiedObject.name>
+    <cim:Names.name>MOCKIU-VE</cim:Names.name>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2022-10-12</cim:DateAndOrTime.date>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+  </skos:Concept>
+</rdf:RDF>

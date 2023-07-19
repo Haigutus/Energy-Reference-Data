@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XBDPOWERTRADEW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Electricity Trading" ;
+    cim:IdentifiedObject.mRID "24XBDPOWERTRADEW" ;
+    cim:IdentifiedObject.name "BD Power Trade, a.s." ;
+    cim:Names.name "BDPOWERTRADE",
+        "SK2021383540",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:24XBDPOWERTRADEW" ;
+    schema1:vatID "SK2021383540" ;
+    skos:altLabel "BDPOWERTRADE" ;
+    skos:definition "Electricity Trading"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BD Power Trade, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

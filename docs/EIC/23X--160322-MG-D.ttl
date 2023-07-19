@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160322-MG-D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--160322-MG-D" ;
+    cim:IdentifiedObject.name "MET Gas and Energy Marketing AG" ;
+    cim:Names.name "CHE147520253",
+        "MET_GAS_EM",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--160322-MG-D" ;
+    schema1:vatID "CHE147520253" ;
+    skos:altLabel "MET_GAS_EM" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MET Gas and Energy Marketing AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

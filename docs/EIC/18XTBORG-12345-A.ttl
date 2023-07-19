@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XTBORG-12345-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XTBORG-12345-A" ;
+    cim:IdentifiedObject.name "TERMOSOLAR BORGES, S.L." ;
+    cim:Names.name "ESB64957012",
+        "Production Responsible party",
+        "TBORG" ;
+    dcterms:identifier "urn:eic:18XTBORG-12345-A" ;
+    schema1:vatID "ESB64957012" ;
+    skos:altLabel "TBORG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TERMOSOLAR BORGES, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

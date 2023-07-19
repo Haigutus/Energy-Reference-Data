@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000F83F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-05" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "18X000000000F83F" ;
+    cim:IdentifiedObject.name "INTERXION ESPAÑA, SAU" ;
+    cim:Names.name "ESA28229813",
+        "PRU_AC" ;
+    dcterms:identifier "urn:eic:18X000000000F83F" ;
+    schema1:vatID "ESA28229813" ;
+    skos:altLabel "PRU_AC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "INTERXION ESPAÑA, SAU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

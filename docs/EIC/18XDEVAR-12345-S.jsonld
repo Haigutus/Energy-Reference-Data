@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XDEVAR-12345-S",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XDEVAR-12345-S",
+    "@skos:prefLabel": "DEVA RENOVABLES S.L.U.",
+    "@skos:altLabel": "DEVAR",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Production Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XDEVAR-12345-S",
+    "@cim:IdentifiedObject.name": "DEVA RENOVABLES S.L.U.",
+    "@cim:Names.name": [
+        "DEVAR",
+        "ESB39690656",
+        "Production Responsible party"
+    ],
+    "@cim:IdentifiedObject.description": "Production Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2010-11-09",
+    "@schema:vatID": "ESB39690656",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

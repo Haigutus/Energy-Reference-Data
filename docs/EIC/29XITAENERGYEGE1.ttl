@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XITAENERGYEGE1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-20" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Trading Of Electricity, Natural Gas And Emission Allowances" ;
+    cim:IdentifiedObject.mRID "29XITAENERGYEGE1" ;
+    cim:IdentifiedObject.name "ITA ENERGY TRADE" ;
+    cim:Names.name "EL998732902",
+        "ITAENERGY",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:29XITAENERGYEGE1" ;
+    schema1:vatID "EL998732902" ;
+    skos:altLabel "ITAENERGY" ;
+    skos:definition "Trading Of Electricity, Natural Gas And Emission Allowances"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ITA ENERGY TRADE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

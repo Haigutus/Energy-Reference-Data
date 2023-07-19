@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/53XPL000000SPTB4",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:53XPL000000SPTB4",
+    "@skos:prefLabel": "Spotbal sp. z o.o.",
+    "@skos:altLabel": "SPOTBAL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Function changed from Balance Group Responsible Party to Balance Responsible Party  "
+    },
+    "@cim:IdentifiedObject.mRID": "53XPL000000SPTB4",
+    "@cim:IdentifiedObject.name": "Spotbal sp. z o.o.",
+    "@cim:Names.name": [
+        "SPOTBAL",
+        "PL9571091495",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Function changed from Balance Group Responsible Party to Balance Responsible Party  ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-09-28",
+    "@schema:vatID": "PL9571091495",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

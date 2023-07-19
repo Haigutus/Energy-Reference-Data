@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X100A100M007GZ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-19" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Market Operator" ;
+    cim:IdentifiedObject.mRID "17X100A100M007GZ" ;
+    cim:IdentifiedObject.name "EPEX Spot Cross-PX Clearing (CWE)" ;
+    cim:Names.name "FR191220193",
+        "FR_EPEX_CPXCWE",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:17X100A100M007GZ" ;
+    schema1:vatID "FR191220193" ;
+    skos:altLabel "FR_EPEX_CPXCWE" ;
+    skos:definition "Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EPEX Spot Cross-PX Clearing (CWE)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

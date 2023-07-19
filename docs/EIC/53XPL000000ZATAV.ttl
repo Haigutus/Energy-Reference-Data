@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000ZATAV> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-11-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer, Network User, Party Connected To Grid" ;
+    cim:IdentifiedObject.mRID "53XPL000000ZATAV" ;
+    cim:IdentifiedObject.name "Grupa Azoty S.A." ;
+    cim:Names.name "Consumer",
+        "GRUPAAZOTY",
+        "PL8730006829",
+        "Party Connected To Grid" ;
+    dcterms:identifier "urn:eic:53XPL000000ZATAV" ;
+    schema1:vatID "PL8730006829" ;
+    skos:altLabel "GRUPAAZOTY" ;
+    skos:definition "Consumer, Network User, Party Connected To Grid"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Grupa Azoty S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

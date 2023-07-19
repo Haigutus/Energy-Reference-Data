@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45T000000000175C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45T000000000175C" ;
+    cim:IdentifiedObject.name "150kV Fynsværket Graderup" ;
+    cim:Names.name "FVO_150_GRP",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:45T000000000175C" ;
+    skos:altLabel "FVO_150_GRP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "150kV Fynsværket Graderup" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

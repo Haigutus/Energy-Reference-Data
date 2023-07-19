@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--130920GPM-3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Legally merge of two companies: Ref.Manual: the restructuring of a legal entity, leading to the transfer of the EIC codes to another legal entity succeeding to its activities for the EIC codes." ;
+    cim:IdentifiedObject.mRID "23X--130920GPM-3" ;
+    cim:IdentifiedObject.name "ENGIE Energie Nederland N.V." ;
+    cim:Names.name "Balance Responsible Party",
+        "ENGIE_ENERGIE_NL",
+        "Energy Supplier",
+        "NL008357523B01",
+        "Producer" ;
+    dcterms:identifier "urn:eic:23X--130920GPM-3" ;
+    schema1:vatID "NL008357523B01" ;
+    skos:altLabel "ENGIE_ENERGIE_NL" ;
+    skos:definition "Legally merge of two companies: Ref.Manual: the restructuring of a legal entity, leading to the transfer of the EIC codes to another legal entity succeeding to its activities for the EIC codes."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENGIE Energie Nederland N.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

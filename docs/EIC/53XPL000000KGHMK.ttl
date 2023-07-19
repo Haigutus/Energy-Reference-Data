@@ -1,0 +1,33 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000KGHMK> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Distribution System Operator" ;
+    cim:IdentifiedObject.mRID "53XPL000000KGHMK" ;
+    cim:IdentifiedObject.name "KGHM Polska Miedź S.A." ;
+    cim:Names.name "A0002418G.PL",
+        "Consumer",
+        "Distribution System Operator",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "KGHM",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PL6920000013",
+        "Producer",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:53XPL000000KGHMK" ;
+    schema1:vatID "PL6920000013" ;
+    skos:altLabel "KGHM" ;
+    skos:definition "Distribution System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KGHM Polska Miedź S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

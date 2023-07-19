@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X20220715----W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "22X20220715----W" ;
+    cim:IdentifiedObject.name "Unit International SA" ;
+    cim:Names.name "BE0413601268",
+        "BE_UNIT_INTL",
+        "Balance Responsible Party" ;
+    dcterms:identifier "urn:eic:22X20220715----W" ;
+    schema1:vatID "BE0413601268" ;
+    skos:altLabel "BE_UNIT_INTL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Unit International SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

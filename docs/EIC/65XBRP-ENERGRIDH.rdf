@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/65XBRP-ENERGRIDH">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:65XBRP-ENERGRIDH</dcterms:identifier>
+    <skos:prefLabel>ENERGO PRO </skos:prefLabel>
+    <skos:altLabel>ENERGO_PRO_GRID</skos:altLabel>
+    <skos:definition xml:lang="en">Grid Operator</skos:definition>
+    <cim:IdentifiedObject.mRID>65XBRP-ENERGRIDH</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ENERGO PRO </cim:IdentifiedObject.name>
+    <cim:Names.name>ENERGO_PRO_GRID</cim:Names.name>
+    <cim:Names.name>205169066</cim:Names.name>
+    <cim:IdentifiedObject.description>Grid Operator</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2022-08-09</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>205169066</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

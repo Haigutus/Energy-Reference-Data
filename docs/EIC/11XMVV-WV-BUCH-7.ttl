@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XMVV-WV-BUCH-7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-12-14" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XMVV-WV-BUCH-7" ;
+    cim:IdentifiedObject.name "MVV Energie AG" ;
+    cim:Names.name "Balance Group",
+        "DE811244542",
+        "MVV-WV-BUCHEN" ;
+    dcterms:identifier "urn:eic:11XMVV-WV-BUCH-7" ;
+    schema1:vatID "DE811244542" ;
+    skos:altLabel "MVV-WV-BUCHEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MVV Energie AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

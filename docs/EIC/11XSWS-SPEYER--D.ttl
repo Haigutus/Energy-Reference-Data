@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWS-SPEYER--D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-09-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XSWS-SPEYER--D" ;
+    cim:IdentifiedObject.name "Stadtwerke Speyer GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE149689905",
+        "SWS" ;
+    dcterms:identifier "urn:eic:11XSWS-SPEYER--D" ;
+    schema1:vatID "DE149689905" ;
+    skos:altLabel "SWS" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Speyer GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

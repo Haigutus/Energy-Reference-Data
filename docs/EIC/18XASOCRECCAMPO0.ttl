@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XASOCRECCAMPO0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-02-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XASOCRECCAMPO0" ;
+    cim:IdentifiedObject.name "ASOCIACION RECREATIVA CLUB CAMPO" ;
+    cim:Names.name "ARCC",
+        "Consumption Responsible Party",
+        "ES28029650X" ;
+    dcterms:identifier "urn:eic:18XASOCRECCAMPO0" ;
+    schema1:vatID "ES28029650X" ;
+    skos:altLabel "ARCC" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ASOCIACION RECREATIVA CLUB CAMPO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

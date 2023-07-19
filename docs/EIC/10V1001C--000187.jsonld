@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10V1001C--000187",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10V1001C--000187",
+    "@skos:prefLabel": "Nordic Unavailability Collection Service (operated by Unicorn Systems)",
+    "@skos:altLabel": "NUCS",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "NUCS will be operated by Unicorn Systems in Czech on behalf of the Nordic TSO's and communicate with ENTSO-E and all other relevant market participants by ECP/EDX.   NUCS will collect unavailability data from market participants, and submit to ENTSO-E TP + ARIS, ACER. "
+    },
+    "@cim:IdentifiedObject.mRID": "10V1001C--000187",
+    "@cim:IdentifiedObject.name": "Nordic Unavailability Collection Service (operated by Unicorn Systems)",
+    "@cim:Names.name": [
+        "NUCS",
+        "IT-system"
+    ],
+    "@cim:IdentifiedObject.description": "NUCS will be operated by Unicorn Systems in Czech on behalf of the Nordic TSO's and communicate with ENTSO-E and all other relevant market participants by ECP/EDX.   NUCS will collect unavailability data from market participants, and submit to ENTSO-E TP + ARIS, ACER. ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-02-21",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

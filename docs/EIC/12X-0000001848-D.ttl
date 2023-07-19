@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001848-D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-03-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Balance Supplier, Capacity Trader" ;
+    cim:IdentifiedObject.mRID "12X-0000001848-D" ;
+    cim:IdentifiedObject.name "DXT Commodities SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE105222146",
+        "Capacity Trader",
+        "DXT-COMMODITI-ST",
+        "Energy Supplier" ;
+    dcterms:identifier "urn:eic:12X-0000001848-D" ;
+    schema1:vatID "CHE105222146" ;
+    skos:altLabel "DXT-COMMODITI-ST" ;
+    skos:definition "Balance Responsible Party, Balance Supplier, Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DXT Commodities SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

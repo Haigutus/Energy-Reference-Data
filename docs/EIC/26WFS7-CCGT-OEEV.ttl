@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WFS7-CCGT-OEEV> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26WFS7-CCGT-OEEV" ;
+    cim:IdentifiedObject.name "FS7_CCGT_UP_OEEPSNL_31611" ;
+    cim:Names.name "IT-FS7-CCGT-U611",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:26WFS7-CCGT-OEEV" ;
+    skos:altLabel "IT-FS7-CCGT-U611" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FS7_CCGT_UP_OEEPSNL_31611" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

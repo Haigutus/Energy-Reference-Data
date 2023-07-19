@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/11XOEKOTECHNICSN",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:11XOEKOTECHNICSN",
+    "@skos:prefLabel": "Ökotechnics GmbH",
+    "@skos:altLabel": "OEKOTECHNICS",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Group"
+    },
+    "@cim:IdentifiedObject.mRID": "11XOEKOTECHNICSN",
+    "@cim:IdentifiedObject.name": "Ökotechnics GmbH",
+    "@cim:Names.name": [
+        "OEKOTECHNICS",
+        "DE280725458",
+        "Balance Group"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Group",
+    "@cim:Document.docStatus": "A03",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-17",
+    "@schema:vatID": "DE280725458",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

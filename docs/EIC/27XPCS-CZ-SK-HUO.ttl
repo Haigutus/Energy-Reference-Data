@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XPCS-CZ-SK-HUO> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-20" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Market Operator" ;
+    cim:IdentifiedObject.mRID "27XPCS-CZ-SK-HUO" ;
+    cim:IdentifiedObject.name "EPEX SPOT SE" ;
+    cim:Names.name "FR10508010501",
+        "Market Operator",
+        "PCS-CZ-SK-HU" ;
+    dcterms:identifier "urn:eic:27XPCS-CZ-SK-HUO" ;
+    schema1:vatID "FR10508010501" ;
+    skos:altLabel "PCS-CZ-SK-HU" ;
+    skos:definition "Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EPEX SPOT SE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

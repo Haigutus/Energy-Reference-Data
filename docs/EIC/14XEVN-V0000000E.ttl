@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14XEVN-V0000000E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "14XEVN-V0000000E" ;
+    cim:IdentifiedObject.name "EVN Energievertrieb GmbH and Co KG" ;
+    cim:Names.name "ATU54073005",
+        "Balance Responsible Party",
+        "EVN-V" ;
+    dcterms:identifier "urn:eic:14XEVN-V0000000E" ;
+    schema1:vatID "ATU54073005" ;
+    skos:altLabel "EVN-V" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EVN Energievertrieb GmbH and Co KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

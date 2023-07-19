@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XEGEN-123456-0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-06-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XEGEN-123456-0" ;
+    cim:IdentifiedObject.name "ELECTRICA DE GUIXES ENERGIA, SLU" ;
+    cim:Names.name "EGEN",
+        "ESB25780800",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XEGEN-123456-0" ;
+    schema1:vatID "ESB25780800" ;
+    skos:altLabel "EGEN" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRICA DE GUIXES ENERGIA, SLU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

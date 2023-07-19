@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29XSOLARISPOWERC",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29XSOLARISPOWERC",
+    "@skos:prefLabel": "IOANNIS PANAGIOTOPOULOS SOLARIS ENERGEIAKI AE",
+    "@skos:altLabel": "SOLARISPOWER",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Electricity cross border trading, interconnection capacity acquisition and nomination, electricity trading within an electric system"
+    },
+    "@cim:IdentifiedObject.mRID": "29XSOLARISPOWERC",
+    "@cim:IdentifiedObject.name": "IOANNIS PANAGIOTOPOULOS SOLARIS ENERGEIAKI AE",
+    "@cim:Names.name": [
+        "SOLARISPOWER",
+        "EL998413221",
+        "Interconnection Trade Responsible",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Electricity cross border trading, interconnection capacity acquisition and nomination, electricity trading within an electric system",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-06-28",
+    "@schema:vatID": "EL998413221",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

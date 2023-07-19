@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XKOCH-123456-J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-05-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XKOCH-123456-J" ;
+    cim:IdentifiedObject.name "KOCH SUPPLY AND TRADING SARL" ;
+    cim:Names.name "CH112980714",
+        "KOCH",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XKOCH-123456-J" ;
+    schema1:vatID "CH112980714" ;
+    skos:altLabel "KOCH" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KOCH SUPPLY AND TRADING SARL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X---AGRI-GEA-L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-05-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59X---AGRI-GEA-L" ;
+    cim:IdentifiedObject.name "AGRI-GEA S.R.L." ;
+    cim:Names.name "AGRI-GEA",
+        "IT09123851009",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:59X---AGRI-GEA-L" ;
+    schema1:vatID "IT09123851009" ;
+    skos:altLabel "AGRI-GEA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AGRI-GEA S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

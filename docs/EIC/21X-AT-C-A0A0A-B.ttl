@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X-AT-C-A0A0A-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "21X-AT-C-A0A0A-B" ;
+    cim:IdentifiedObject.name "TAG" ;
+    cim:Names.name "ATU52744909",
+        "System Operator",
+        "TAG" ;
+    dcterms:identifier "urn:eic:21X-AT-C-A0A0A-B" ;
+    schema1:vatID "ATU52744909" ;
+    skos:altLabel "TAG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TAG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XROTERMORAD--P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-02-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "30XROTERMORAD--P" ;
+    cim:IdentifiedObject.name "TERMOFICARE ORADEA" ;
+    cim:Names.name "Energy Supplier",
+        "RO31952982",
+        "RO_TERMORADEA" ;
+    dcterms:identifier "urn:eic:30XROTERMORAD--P" ;
+    schema1:vatID "RO31952982" ;
+    skos:altLabel "RO_TERMORADEA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TERMOFICARE ORADEA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

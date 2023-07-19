@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--220120-BG-3",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--220120-BG-3",
+    "@skos:prefLabel": "BLUE GRID GAS AND POWER",
+    "@skos:altLabel": "BLUE_GRID_GP",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Company registration number: 142328401000  "
+    },
+    "@cim:IdentifiedObject.mRID": "23X--220120-BG-3",
+    "@cim:IdentifiedObject.name": "BLUE GRID GAS AND POWER",
+    "@cim:Names.name": [
+        "BLUE_GRID_GP",
+        "A0016729Y.GR",
+        "EL800829207",
+        "Energy Supplier",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "Company registration number: 142328401000  ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-02-07",
+    "@schema:vatID": "EL800829207",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

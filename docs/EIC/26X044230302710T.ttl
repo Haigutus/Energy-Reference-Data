@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X044230302710T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X044230302710T" ;
+    cim:IdentifiedObject.name "BANCO ENERGIA FORNITURE S.R.L." ;
+    cim:Names.name "A0017395Z.IT",
+        "IT-BANCOENERGIAF",
+        "IT04423030271",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:26X044230302710T" ;
+    schema1:vatID "IT04423030271" ;
+    skos:altLabel "IT-BANCOENERGIAF" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BANCO ENERGIA FORNITURE S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

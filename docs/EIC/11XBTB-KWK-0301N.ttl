@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XBTB-KWK-0301N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-05-11" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XBTB-KWK-0301N" ;
+    cim:IdentifiedObject.name "BTB Blockheizkraftwerks- Träger- und Betreibergesellschaft mbH Berlin" ;
+    cim:Names.name "BTB_BERLIN_KWK",
+        "Balance Group",
+        "DE136561825" ;
+    dcterms:identifier "urn:eic:11XBTB-KWK-0301N" ;
+    schema1:vatID "DE136561825" ;
+    skos:altLabel "BTB_BERLIN_KWK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BTB Blockheizkraftwerks- Träger- und Betreibergesellschaft mbH Berlin" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XMONAVIS-0000Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-11-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XMONAVIS-0000Z" ;
+    cim:IdentifiedObject.name "Monavis Energy Zrt." ;
+    cim:Names.name "HU26508003",
+        "Interconnection Trade Responsible",
+        "MONAVIS" ;
+    dcterms:identifier "urn:eic:39XMONAVIS-0000Z" ;
+    schema1:vatID "HU26508003" ;
+    skos:altLabel "MONAVIS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Monavis Energy Zrt." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X0000000000826> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-02-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X0000000000826" ;
+    cim:IdentifiedObject.name "SAFI-STAR SRL" ;
+    cim:Names.name "RO15958444",
+        "Resource Provider",
+        "SAFISTAR" ;
+    dcterms:identifier "urn:eic:60X0000000000826" ;
+    schema1:vatID "RO15958444" ;
+    skos:altLabel "SAFISTAR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SAFI-STAR SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

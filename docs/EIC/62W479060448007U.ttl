@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62W479060448007U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62W479060448007U" ;
+    cim:IdentifiedObject.name "Kremenchutska Combined Heat and Power Plant-V" ;
+    cim:Names.name "Generation Unit",
+        "KREMENCHUKCHPP-V" ;
+    dcterms:identifier "urn:eic:62W479060448007U" ;
+    skos:altLabel "KREMENCHUKCHPP-V" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kremenchutska Combined Heat and Power Plant-V" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

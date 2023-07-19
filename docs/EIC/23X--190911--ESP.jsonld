@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--190911--ESP",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--190911--ESP",
+    "@skos:prefLabel": "Engie Energy Marketing Singapore Pte Ltd",
+    "@skos:altLabel": "ENGIE_SINGAPORE",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Company is incorporated in Singapore. There is no EU VAT available. Company registration number: 201907856R Registration number confirmed through an official document by ACRA."
+    },
+    "@cim:IdentifiedObject.mRID": "23X--190911--ESP",
+    "@cim:IdentifiedObject.name": "Engie Energy Marketing Singapore Pte Ltd",
+    "@cim:Names.name": [
+        "ENGIE_SINGAPORE",
+        "LNG System Operator"
+    ],
+    "@cim:IdentifiedObject.description": "Company is incorporated in Singapore. There is no EU VAT available. Company registration number: 201907856R Registration number confirmed through an official document by ACRA.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-09-11",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

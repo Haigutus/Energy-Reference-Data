@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10X1001C--00004R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-03-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10X1001C--00004R" ;
+    cim:IdentifiedObject.name "Nemo Link Limited" ;
+    cim:Names.name "GB210508459",
+        "Grid Operator",
+        "NEMOLINK_IC" ;
+    dcterms:identifier "urn:eic:10X1001C--00004R" ;
+    schema1:vatID "GB210508459" ;
+    skos:altLabel "NEMOLINK_IC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Nemo Link Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000ITIL> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000ITIL" ;
+    cim:IdentifiedObject.name "ALUMBRA CORPORACION SL" ;
+    cim:Names.name "ESB66436437",
+        "LOWCOST",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X000000000ITIL" ;
+    schema1:vatID "ESB66436437" ;
+    skos:altLabel "LOWCOST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALUMBRA CORPORACION SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

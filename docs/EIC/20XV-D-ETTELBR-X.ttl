@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/20XV-D-ETTELBR-X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Gestionnaire De Reseau" ;
+    cim:IdentifiedObject.mRID "20XV-D-ETTELBR-X" ;
+    cim:IdentifiedObject.name "VILLE D ETTELBRUECK" ;
+    cim:Names.name "LU10918773",
+        "VDE",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:20XV-D-ETTELBR-X" ;
+    schema1:vatID "LU10918773" ;
+    skos:altLabel "VDE" ;
+    skos:definition "Gestionnaire De Reseau"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VILLE D ETTELBRUECK" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

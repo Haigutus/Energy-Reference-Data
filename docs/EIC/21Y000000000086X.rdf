@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/21Y000000000086X">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:21Y000000000086X</dcterms:identifier>
+    <skos:prefLabel>PL - L balancing area</skos:prefLabel>
+    <skos:altLabel>PL_L_BAL_AREA</skos:altLabel>
+    <skos:definition xml:lang="en">Market Balance Area</skos:definition>
+    <cim:IdentifiedObject.mRID>21Y000000000086X</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>PL - L balancing area</cim:IdentifiedObject.name>
+    <cim:Names.name>PL_L_BAL_AREA</cim:Names.name>
+    <cim:IdentifiedObject.description>Market Balance Area</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2022-09-29</cim:DateAndOrTime.date>
+    <cim:Names.name>Scheduling Area</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+  </skos:Concept>
+</rdf:RDF>

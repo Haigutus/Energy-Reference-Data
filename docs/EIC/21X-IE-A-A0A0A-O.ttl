@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X-IE-A-A0A0A-O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Transmission System Operator For Gas" ;
+    cim:IdentifiedObject.mRID "21X-IE-A-A0A0A-O" ;
+    cim:IdentifiedObject.name "Gaslink" ;
+    cim:Names.name "GASLINK",
+        "IE9679156B",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:21X-IE-A-A0A0A-O" ;
+    schema1:vatID "IE9679156B" ;
+    skos:altLabel "GASLINK" ;
+    skos:definition "Transmission System Operator For Gas"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Gaslink" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62X816339179656T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62X816339179656T" ;
+    cim:IdentifiedObject.name "TOV \"Obiednanyi Energoresurs\"" ;
+    cim:Names.name "Consumption Responsible Party",
+        "OER_TOV",
+        "UA443349105068" ;
+    dcterms:identifier "urn:eic:62X816339179656T" ;
+    schema1:vatID "UA443349105068" ;
+    skos:altLabel "OER_TOV" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TOV \"Obiednanyi Energoresurs\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

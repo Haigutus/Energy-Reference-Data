@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X001100100373M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-02-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32X001100100373M" ;
+    cim:IdentifiedObject.name "ENERGO-PRO ENERGY SERVICES EAD" ;
+    cim:Names.name "BG201398872",
+        "Balance Responsible Party",
+        "ENPRO_EU" ;
+    dcterms:identifier "urn:eic:32X001100100373M" ;
+    schema1:vatID "BG201398872" ;
+    skos:altLabel "ENPRO_EU" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGO-PRO ENERGY SERVICES EAD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

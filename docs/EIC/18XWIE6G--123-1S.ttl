@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XWIE6G--123-1S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XWIE6G--123-1S" ;
+    cim:IdentifiedObject.name "WIESA 6,S.L." ;
+    cim:Names.name "ESB11538089",
+        "Production Responsible party",
+        "WIE6G" ;
+    dcterms:identifier "urn:eic:18XWIE6G--123-1S" ;
+    schema1:vatID "ESB11538089" ;
+    skos:altLabel "WIE6G" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "WIESA 6,S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

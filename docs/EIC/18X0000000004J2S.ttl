@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000004J2S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-04-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000004J2S" ;
+    cim:IdentifiedObject.name "SUPERMERCADOS BANDAMA SL" ;
+    cim:Names.name "BANDA",
+        "Consumption Responsible Party",
+        "ESB35105675" ;
+    dcterms:identifier "urn:eic:18X0000000004J2S" ;
+    schema1:vatID "ESB35105675" ;
+    skos:altLabel "BANDA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SUPERMERCADOS BANDAMA SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

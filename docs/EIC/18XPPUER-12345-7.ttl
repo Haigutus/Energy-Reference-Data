@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XPPUER-12345-7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-01-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XPPUER-12345-7" ;
+    cim:IdentifiedObject.name "Explotaciones Eólicas El Puerto, S.A." ;
+    cim:Names.name "ESA44188704",
+        "PPUER",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XPPUER-12345-7" ;
+    schema1:vatID "ESA44188704" ;
+    skos:altLabel "PPUER" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Explotaciones Eólicas El Puerto, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

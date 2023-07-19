@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--211007-R--8",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--211007-R--8",
+    "@skos:prefLabel": "RENRGY TRADING GROUP PRISTINA SH.P.K",
+    "@skos:altLabel": "RENRGY_TRADING",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Certificate of national VAT number from Tax Administration of Kosovo submitted. EU VAT ID not available, because Kosovo is not member of EU. Company registration number: 811480756"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--211007-R--8",
+    "@cim:IdentifiedObject.name": "RENRGY TRADING GROUP PRISTINA SH.P.K",
+    "@cim:Names.name": [
+        "RENRGY_TRADING",
+        "330465163",
+        "Balance Responsible Party",
+        "Trade Responsible Party",
+        "Capacity Trader"
+    ],
+    "@cim:IdentifiedObject.description": "Certificate of national VAT number from Tax Administration of Kosovo submitted. EU VAT ID not available, because Kosovo is not member of EU. Company registration number: 811480756",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-10-07",
+    "@schema:vatID": "330465163",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

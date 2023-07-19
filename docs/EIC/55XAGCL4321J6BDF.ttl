@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XAGCL4321J6BDF> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-10-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "55XAGCL4321J6BDF" ;
+    cim:IdentifiedObject.name "Alexander Growth Capital LTD" ;
+    cim:Names.name "AG-CAPITAL",
+        "Balance Responsible Party",
+        "Capacity Trader",
+        "GB302864321" ;
+    dcterms:identifier "urn:eic:55XAGCL4321J6BDF" ;
+    schema1:vatID "GB302864321" ;
+    skos:altLabel "AG-CAPITAL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Alexander Growth Capital LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

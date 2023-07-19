@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10Y1001A1001A59C",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10Y1001A1001A59C",
+    "@skos:prefLabel": "Ireland and Northern Ireland",
+    "@skos:altLabel": "SEM",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Bidding Zone, Market Balance Area, Synchronous Area added based on CIM EG 15 20.01.2021 decision."
+    },
+    "@cim:IdentifiedObject.mRID": "10Y1001A1001A59C",
+    "@cim:IdentifiedObject.name": "Ireland and Northern Ireland",
+    "@cim:Names.name": [
+        "SEM",
+        "Scheduling Area",
+        "Synchronous Area",
+        "Bidding Zone"
+    ],
+    "@cim:IdentifiedObject.description": "Bidding Zone, Market Balance Area, Synchronous Area added based on CIM EG 15 20.01.2021 decision.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-09-28",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

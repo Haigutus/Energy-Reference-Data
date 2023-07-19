@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29X10001000100AR> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-03-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ENERGY TRADING" ;
+    cim:IdentifiedObject.mRID "29X10001000100AR" ;
+    cim:IdentifiedObject.name "FORENA ENERGY SOCIETE ANONYME" ;
+    cim:Names.name "Balance Responsible Party",
+        "EL801262442",
+        "FORENAENERGYSA",
+        "Production Responsible party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:29X10001000100AR" ;
+    schema1:vatID "EL801262442" ;
+    skos:altLabel "FORENAENERGYSA" ;
+    skos:definition "ENERGY TRADING"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FORENA ENERGY SOCIETE ANONYME" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

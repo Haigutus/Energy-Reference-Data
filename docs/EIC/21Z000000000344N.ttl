@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z000000000344N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "21Z000000000344N" ;
+    cim:IdentifiedObject.name "DINXPERLO NL DE (GTS-RWE)" ;
+    cim:Names.name "Connection Point",
+        "DINXPERLO-NL-DE" ;
+    dcterms:identifier "urn:eic:21Z000000000344N" ;
+    skos:altLabel "DINXPERLO-NL-DE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DINXPERLO NL DE (GTS-RWE)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

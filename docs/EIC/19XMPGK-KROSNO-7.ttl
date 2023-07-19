@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XMPGK-KROSNO-7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XMPGK-KROSNO-7" ;
+    cim:IdentifiedObject.name "KROŚNIEŃSKI HOLDING KOMUNALNY SP. Z O.O." ;
+    cim:Names.name "A00193949.PL",
+        "Energy Supplier",
+        "MPGK-KROSNO",
+        "PL6840001341" ;
+    dcterms:identifier "urn:eic:19XMPGK-KROSNO-7" ;
+    schema1:vatID "PL6840001341" ;
+    skos:altLabel "MPGK-KROSNO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KROŚNIEŃSKI HOLDING KOMUNALNY SP. Z O.O." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

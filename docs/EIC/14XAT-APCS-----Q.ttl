@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14XAT-APCS-----Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-05-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Imbalance Settlement Responsible" ;
+    cim:IdentifiedObject.mRID "14XAT-APCS-----Q" ;
+    cim:IdentifiedObject.name "APCS Power Clearing and Settlement AG" ;
+    cim:Names.name "APCS",
+        "ATU50904909",
+        "Imbalance Settlement Responsible" ;
+    dcterms:identifier "urn:eic:14XAT-APCS-----Q" ;
+    schema1:vatID "ATU50904909" ;
+    skos:altLabel "APCS" ;
+    skos:definition "Imbalance Settlement Responsible"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "APCS Power Clearing and Settlement AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

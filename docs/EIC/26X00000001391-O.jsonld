@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/26X00000001391-O",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:26X00000001391-O",
+    "@skos:prefLabel": "ALPIQ ENERGIA ITALIA SPA",
+    "@skos:altLabel": "ATEL_ENERGIA_IT",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Function Missing"
+    },
+    "@cim:IdentifiedObject.mRID": "26X00000001391-O",
+    "@cim:IdentifiedObject.name": "ALPIQ ENERGIA ITALIA SPA",
+    "@cim:Names.name": [
+        "ATEL_ENERGIA_IT",
+        "IT12930940155",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Function Missing",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@schema:vatID": "IT12930940155",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

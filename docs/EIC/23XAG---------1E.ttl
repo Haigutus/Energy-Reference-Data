@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23XAG---------1E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-03-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23XAG---------1E" ;
+    cim:IdentifiedObject.name "Bayerngas Energy Trading GmbH" ;
+    cim:Names.name "BAYERNGAS_ET",
+        "DE229107288",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23XAG---------1E" ;
+    schema1:vatID "DE229107288" ;
+    skos:altLabel "BAYERNGAS_ET" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Bayerngas Energy Trading GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

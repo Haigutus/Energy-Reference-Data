@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEGEVU-------P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-06-05" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XEGEVU-------P" ;
+    cim:IdentifiedObject.name "Einkaufsgemeinschaft Energieversorgungsunternehmen EGEVU e.G." ;
+    cim:Names.name "Balance Group",
+        "DE193204838",
+        "EGEVU" ;
+    dcterms:identifier "urn:eic:11XEGEVU-------P" ;
+    schema1:vatID "DE193204838" ;
+    skos:altLabel "EGEVU" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Einkaufsgemeinschaft Energieversorgungsunternehmen EGEVU e.G." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

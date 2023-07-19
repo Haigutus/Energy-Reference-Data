@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y--SOUTHCOMP-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Fictitious Area" ;
+    cim:IdentifiedObject.mRID "10Y--SOUTHCOMP-9" ;
+    cim:IdentifiedObject.name "Fictive CA in UCTE South for Mngt of compensation UCTE Noth/South" ;
+    cim:Names.name "FICT_CA_SOUTH",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:10Y--SOUTHCOMP-9" ;
+    skos:altLabel "FICT_CA_SOUTH" ;
+    skos:definition "Fictitious Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fictive CA in UCTE South for Mngt of compensation UCTE Noth/South" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

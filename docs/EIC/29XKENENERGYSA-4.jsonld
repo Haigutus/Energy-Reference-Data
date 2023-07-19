@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29XKENENERGYSA-4",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29XKENENERGYSA-4",
+    "@skos:prefLabel": "ΚΕΝ ΠΑΡΑΓΩΓΗ ΚΑΙ ΕΜΠΟΡΙΑ ΕΝΕΡΓΕΙΑΚΩΝ ΠΡΟΙΟΝΤΩΝ ΑΝΩΝΥΜΟΣ ΕΤΑΙΡΕΙΑ ",
+    "@skos:altLabel": "KENENERGY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Import, supply, marketing, sale and distribution of electricity and other energy products such as fuel for power plants, steam and heated water, capacity booking on connections. Purchase, supply, trade, sale of the electricity which is produced in power plants. Development, financing, construction, operation, exploitation, maintenance and acquisition or participation in thermal power plants in Greece. Construction, operation, exploitation, acquisition or participation in power plants for renewable energy sources."
+    },
+    "@cim:IdentifiedObject.mRID": "29XKENENERGYSA-4",
+    "@cim:IdentifiedObject.name": "ΚΕΝ ΠΑΡΑΓΩΓΗ ΚΑΙ ΕΜΠΟΡΙΑ ΕΝΕΡΓΕΙΑΚΩΝ ΠΡΟΙΟΝΤΩΝ ΑΝΩΝΥΜΟΣ ΕΤΑΙΡΕΙΑ ",
+    "@cim:Names.name": [
+        "KENENERGY",
+        "EL800749766",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Import, supply, marketing, sale and distribution of electricity and other energy products such as fuel for power plants, steam and heated water, capacity booking on connections. Purchase, supply, trade, sale of the electricity which is produced in power plants. Development, financing, construction, operation, exploitation, maintenance and acquisition or participation in thermal power plants in Greece. Construction, operation, exploitation, acquisition or participation in power plants for renewable energy sources.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-12-08",
+    "@schema:vatID": "EL800749766",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

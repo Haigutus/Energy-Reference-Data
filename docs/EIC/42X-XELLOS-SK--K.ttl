@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/42X-XELLOS-SK--K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-10-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "42X-XELLOS-SK--K" ;
+    cim:IdentifiedObject.name "XELLOS INTERNATIONAL SRO" ;
+    cim:Names.name "SK2023289037",
+        "Trade Responsible Party",
+        "XELLOS-INTER" ;
+    dcterms:identifier "urn:eic:42X-XELLOS-SK--K" ;
+    schema1:vatID "SK2023289037" ;
+    skos:altLabel "XELLOS-INTER" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "XELLOS INTERNATIONAL SRO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

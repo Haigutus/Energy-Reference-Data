@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X00000000053OS> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X00000000053OS" ;
+    cim:IdentifiedObject.name "AYUNTAMIENTO DE RIVAS-VACIAMADRID" ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESP2812300H",
+        "RIVAS" ;
+    dcterms:identifier "urn:eic:18X00000000053OS" ;
+    schema1:vatID "ESP2812300H" ;
+    skos:altLabel "RIVAS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AYUNTAMIENTO DE RIVAS-VACIAMADRID" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

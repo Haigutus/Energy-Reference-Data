@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XDOW-STADE---D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-04-20" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XDOW-STADE---D" ;
+    cim:IdentifiedObject.name "Dow Deutschland GmbH & Co. OHG" ;
+    cim:Names.name "Balance Group",
+        "DE811331549",
+        "DOW_STADE" ;
+    dcterms:identifier "urn:eic:11XDOW-STADE---D" ;
+    schema1:vatID "DE811331549" ;
+    skos:altLabel "DOW_STADE" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Dow Deutschland GmbH & Co. OHG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

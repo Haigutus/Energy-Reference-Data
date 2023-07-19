@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X-EWERK-SW---W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-08-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11X-EWERK-SW---W" ;
+    cim:IdentifiedObject.name "e-werk Sachsenwald GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE135095897",
+        "E-WERK-SW" ;
+    dcterms:identifier "urn:eic:11X-EWERK-SW---W" ;
+    schema1:vatID "DE135095897" ;
+    skos:altLabel "E-WERK-SW" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "e-werk Sachsenwald GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

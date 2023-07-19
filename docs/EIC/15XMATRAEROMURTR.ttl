@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15XMATRAEROMURTR> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-09-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "15XMATRAEROMURTR" ;
+    cim:IdentifiedObject.name "Mátrai Erőmű ZRt." ;
+    cim:Names.name "Balance Responsible Party",
+        "HU10729571",
+        "MERT-BC" ;
+    dcterms:identifier "urn:eic:15XMATRAEROMURTR" ;
+    schema1:vatID "HU10729571" ;
+    skos:altLabel "MERT-BC" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Mátrai Erőmű ZRt." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29X10001000100IB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Provision of Aggregation/Representation Services" ;
+    cim:IdentifiedObject.mRID "29X10001000100IB" ;
+    cim:IdentifiedObject.name "GREEN ENERGY AGGREGATOR SERVICES Α Ε" ;
+    cim:Names.name "A0018274B.GR",
+        "Balance Responsible Party",
+        "EL801431008",
+        "GEARS",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:29X10001000100IB" ;
+    schema1:vatID "EL801431008" ;
+    skos:altLabel "GEARS" ;
+    skos:definition "Provision of Aggregation/Representation Services"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GREEN ENERGY AGGREGATOR SERVICES Α Ε" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

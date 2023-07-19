@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54W-T-KSA1110G15> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Albanain LIO office is applying for EIC codes-  identifying Kosovo Production and Generation Unit since they do not have LIO office, yet." ;
+    cim:IdentifiedObject.mRID "54W-T-KSA1110G15" ;
+    cim:IdentifiedObject.name "Termo-Gjeneratori A3 " ;
+    cim:Names.name "Generation Unit",
+        "KS_TGA3" ;
+    dcterms:identifier "urn:eic:54W-T-KSA1110G15" ;
+    skos:altLabel "KS_TGA3" ;
+    skos:definition "Albanain LIO office is applying for EIC codes-  identifying Kosovo Production and Generation Unit since they do not have LIO office, yet."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Termo-Gjeneratori A3 " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

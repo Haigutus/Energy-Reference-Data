@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X9300000092304> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X9300000092304" ;
+    cim:IdentifiedObject.name "Dufenergy Ukraine Ltd." ;
+    cim:Names.name "DUFENERGY_UA",
+        "Network User",
+        "UA413112226597" ;
+    dcterms:identifier "urn:eic:56X9300000092304" ;
+    schema1:vatID "UA413112226597" ;
+    skos:altLabel "DUFENERGY_UA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Dufenergy Ukraine Ltd." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

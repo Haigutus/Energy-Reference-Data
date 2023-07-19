@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XMANOVSOLAR16I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33XMANOVSOLAR16I" ;
+    cim:IdentifiedObject.name "DTPU MANOV SOLAR DOOEL" ;
+    cim:Names.name "4084014500859",
+        "DOOELMANOVSOLAR",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XMANOVSOLAR16I" ;
+    schema1:vatID "4084014500859" ;
+    skos:altLabel "DOOELMANOVSOLAR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DTPU MANOV SOLAR DOOEL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

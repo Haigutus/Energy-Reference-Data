@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/67Z-RS-GSTPAR2-0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-05-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Point Serbia-Paracin means the Interconnection Point where Gas is physically delivered from Gastrans system to Transportgas Srbija system in the Republic of Serbia, located near Paraćin, Paraćin Municipality, Republic of Serbia" ;
+    cim:IdentifiedObject.mRID "67Z-RS-GSTPAR2-0" ;
+    cim:IdentifiedObject.name "SERBIA_GASTRANS_PARACIN" ;
+    cim:Names.name "Connection Point",
+        "SERBIA_GST-PAR2" ;
+    dcterms:identifier "urn:eic:67Z-RS-GSTPAR2-0" ;
+    skos:altLabel "SERBIA_GST-PAR2" ;
+    skos:definition "Point Serbia-Paracin means the Interconnection Point where Gas is physically delivered from Gastrans system to Transportgas Srbija system in the Republic of Serbia, located near Paraćin, Paraćin Municipality, Republic of Serbia"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SERBIA_GASTRANS_PARACIN" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

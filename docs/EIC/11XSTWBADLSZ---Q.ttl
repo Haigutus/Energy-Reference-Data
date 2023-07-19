@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSTWBADLSZ---Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-08-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSTWBADLSZ---Q" ;
+    cim:IdentifiedObject.name "Stadtwerke Bad Langensalza GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE152480915",
+        "STWBADLSZ" ;
+    dcterms:identifier "urn:eic:11XSTWBADLSZ---Q" ;
+    schema1:vatID "DE152480915" ;
+    skos:altLabel "STWBADLSZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Bad Langensalza GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

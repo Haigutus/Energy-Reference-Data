@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XKHR---------6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Stromproduktion Durch Wasserkraftnutzung" ;
+    cim:IdentifiedObject.mRID "12XKHR---------6" ;
+    cim:IdentifiedObject.name "Kraftwerke Hinterrhein AG" ;
+    cim:Names.name "CH151084",
+        "KW_HINTERRHEI-ST",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XKHR---------6" ;
+    schema1:vatID "CH151084" ;
+    skos:altLabel "KW_HINTERRHEI-ST" ;
+    skos:definition "Stromproduktion Durch Wasserkraftnutzung"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kraftwerke Hinterrhein AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

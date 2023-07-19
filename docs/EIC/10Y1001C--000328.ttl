@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--000328> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-09-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Replacement Reserve virtual scheduling area Central and Eastern Europe: HU-RO" ;
+    cim:IdentifiedObject.mRID "10Y1001C--000328" ;
+    cim:IdentifiedObject.name "Eastern Europe" ;
+    cim:Names.name "EAST-EUROPE",
+        "Scheduling Area" ;
+    dcterms:identifier "urn:eic:10Y1001C--000328" ;
+    skos:altLabel "EAST-EUROPE" ;
+    skos:definition "Replacement Reserve virtual scheduling area Central and Eastern Europe: HU-RO"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Eastern Europe" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

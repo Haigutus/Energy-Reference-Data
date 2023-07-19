@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSE-GMBH-----W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSE-GMBH-----W" ;
+    cim:IdentifiedObject.name "SE Scherbeck Energy GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE194163604",
+        "SE-GMBH" ;
+    dcterms:identifier "urn:eic:11XSE-GMBH-----W" ;
+    schema1:vatID "DE194163604" ;
+    skos:altLabel "SE-GMBH" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SE Scherbeck Energy GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

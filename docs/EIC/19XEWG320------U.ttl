@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XEWG320------U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-01-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XEWG320------U" ;
+    cim:IdentifiedObject.name "EWG ELEKTROWNIE WIATROWE SP.  Z O.O.-SP. K." ;
+    cim:Names.name "Balance Responsible Party",
+        "EWG",
+        "PL6942331824" ;
+    dcterms:identifier "urn:eic:19XEWG320------U" ;
+    schema1:vatID "PL6942331824" ;
+    skos:altLabel "EWG" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EWG ELEKTROWNIE WIATROWE SP.  Z O.O.-SP. K." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

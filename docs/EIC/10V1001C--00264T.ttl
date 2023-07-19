@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--00264T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "In the context of the implementation of the Intraday Core capacity calculation within Core CCR, a new location EIC code is required for the CORE Intraday Capacity Calculation tool. This code will be used for Receiver/Sender identification fields in input/output XMLs. Note : A similar code was created for the CORE Day Ahead capacity calculation tool (17XTSO-CS------W) " ;
+    cim:IdentifiedObject.mRID "10V1001C--00264T" ;
+    cim:IdentifiedObject.name "Intraday CORE CC tool" ;
+    cim:Names.name "CORE_IDCC_TOOL",
+        "IT-system" ;
+    dcterms:identifier "urn:eic:10V1001C--00264T" ;
+    skos:altLabel "CORE_IDCC_TOOL" ;
+    skos:definition "In the context of the implementation of the Intraday Core capacity calculation within Core CCR, a new location EIC code is required for the CORE Intraday Capacity Calculation tool. This code will be used for Receiver/Sender identification fields in input/output XMLs. Note : A similar code was created for the CORE Day Ahead capacity calculation tool (17XTSO-CS------W) "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Intraday CORE CC tool" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

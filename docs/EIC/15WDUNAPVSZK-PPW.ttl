@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15WDUNAPVSZK-PPW> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "15WDUNAPVSZK-PPW" ;
+    cim:IdentifiedObject.name "Dunamenti naperőmű szabályozóközpont" ;
+    cim:Names.name "DUNAPVSZK",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:15WDUNAPVSZK-PPW" ;
+    skos:altLabel "DUNAPVSZK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Dunamenti naperőmű szabályozóközpont" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

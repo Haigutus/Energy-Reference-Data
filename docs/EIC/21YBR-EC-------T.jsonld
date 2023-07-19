@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/21YBR-EC-------T",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:21YBR-EC-------T",
+    "@skos:prefLabel": "Terminal Barrow Entry Cap",
+    "@skos:altLabel": "BR-EC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Terminal: Identification Of The Uk Barrow Terminal"
+    },
+    "@cim:IdentifiedObject.mRID": "21YBR-EC-------T",
+    "@cim:IdentifiedObject.name": "Terminal Barrow Entry Cap",
+    "@cim:Names.name": [
+        "BR-EC",
+        "Valid EIC Function needed"
+    ],
+    "@cim:IdentifiedObject.description": "Terminal: Identification Of The Uk Barrow Terminal",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/38ZEEG-0007107-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "38ZEEG-0007107-I" ;
+    cim:IdentifiedObject.name "Izborsk, Estonia" ;
+    cim:Names.name "Connection Point",
+        "EE_IZBORSK" ;
+    dcterms:identifier "urn:eic:38ZEEG-0007107-I" ;
+    skos:altLabel "EE_IZBORSK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Izborsk, Estonia" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

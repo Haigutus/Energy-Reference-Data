@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/52Y000000000008R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Local Market Area" ;
+    cim:IdentifiedObject.mRID "52Y000000000008R" ;
+    cim:IdentifiedObject.name "GTS Power Plants H-gas" ;
+    cim:Names.name "GTS_POWERPL_H",
+        "Local Market Area" ;
+    dcterms:identifier "urn:eic:52Y000000000008R" ;
+    skos:altLabel "GTS_POWERPL_H" ;
+    skos:definition "Local Market Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GTS Power Plants H-gas" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

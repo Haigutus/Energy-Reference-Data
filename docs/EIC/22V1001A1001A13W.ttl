@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22V1001A1001A13W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Elia PICASSO production  ECP EndPoint" ;
+    cim:IdentifiedObject.mRID "22V1001A1001A13W" ;
+    cim:IdentifiedObject.name "Elia PICASSO production  ECP EndPoint" ;
+    cim:Names.name "BE_ECP_PICASEPT",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:22V1001A1001A13W" ;
+    skos:altLabel "BE_ECP_PICASEPT" ;
+    skos:definition "Elia PICASSO production  ECP EndPoint"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Elia PICASSO production  ECP EndPoint" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

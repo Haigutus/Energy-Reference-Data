@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10T1001C--00065Q",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10T1001C--00065Q",
+    "@skos:prefLabel": "Oberbachern – Krün – Silz 270/250 – BRANCH Krün",
+    "@skos:altLabel": "L_OAKRSI-270-KRU",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "EIC for a part of a Internal Line is required. A ACCOUNTING POINT (Z-CODE) IS NOT REQUIRED."
+    },
+    "@cim:IdentifiedObject.mRID": "10T1001C--00065Q",
+    "@cim:IdentifiedObject.name": "Oberbachern – Krün – Silz 270/250 – BRANCH Krün",
+    "@cim:Names.name": [
+        "L_OAKRSI-270-KRU",
+        "Tieline"
+    ],
+    "@cim:IdentifiedObject.description": "EIC for a part of a Internal Line is required. A ACCOUNTING POINT (Z-CODE) IS NOT REQUIRED.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-06-18",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

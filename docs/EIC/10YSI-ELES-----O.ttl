@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10YSI-ELES-----O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Bidding Zone, Control Area, Market Balance Area, Member State" ;
+    cim:IdentifiedObject.mRID "10YSI-ELES-----O" ;
+    cim:IdentifiedObject.name "Slovenia" ;
+    cim:Names.name "Bidding Zone",
+        "Control Area",
+        "LFC Area",
+        "Member State",
+        "SI",
+        "Scheduling Area" ;
+    dcterms:identifier "urn:eic:10YSI-ELES-----O" ;
+    skos:altLabel "SI" ;
+    skos:definition "Bidding Zone, Control Area, Market Balance Area, Member State"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Slovenia" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

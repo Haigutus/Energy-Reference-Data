@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10X1001A1001A39W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-02-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "System Operator" ;
+    cim:IdentifiedObject.mRID "10X1001A1001A39W" ;
+    cim:IdentifiedObject.name "Elering AS" ;
+    cim:Names.name "EE100889639",
+        "ELERING",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:10X1001A1001A39W" ;
+    schema1:vatID "EE100889639" ;
+    skos:altLabel "ELERING" ;
+    skos:definition "System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Elering AS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

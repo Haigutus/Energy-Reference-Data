@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--00289D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10V1001C--00289D" ;
+    cim:IdentifiedObject.name "Lax-ECP-Test-EP" ;
+    cim:Names.name "Endpoint",
+        "LAX-ECP-TEST-EP" ;
+    dcterms:identifier "urn:eic:10V1001C--00289D" ;
+    skos:altLabel "LAX-ECP-TEST-EP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Lax-ECP-Test-EP" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

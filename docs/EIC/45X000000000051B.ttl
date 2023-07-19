@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X000000000051B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-01-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45X000000000051B" ;
+    cim:IdentifiedObject.name "Jyske Bank A/S" ;
+    cim:Names.name "DK17616617",
+        "DK_JYSKEBANK",
+        "Profile Maintenance Party" ;
+    dcterms:identifier "urn:eic:45X000000000051B" ;
+    schema1:vatID "DK17616617" ;
+    skos:altLabel "DK_JYSKEBANK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Jyske Bank A/S" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

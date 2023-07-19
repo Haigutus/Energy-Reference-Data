@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000002060-Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "12X-0000002060-Q" ;
+    cim:IdentifiedObject.name "enSwiss Energy Trading AG" ;
+    cim:Names.name "CHE150941371",
+        "ENSWISS-ET-AG-ST",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:12X-0000002060-Q" ;
+    schema1:vatID "CHE150941371" ;
+    skos:altLabel "ENSWISS-ET-AG-ST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "enSwiss Energy Trading AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

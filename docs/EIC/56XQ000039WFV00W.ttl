@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56XQ000039WFV00W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-12-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56XQ000039WFV00W" ;
+    cim:IdentifiedObject.name "City Utility Enterprise \"Khmelnytsteplocomunenergo\"" ;
+    cim:Names.name "Network User",
+        "Production Responsible party",
+        "Trade Responsible Party",
+        "UA033565722257",
+        "XTE" ;
+    dcterms:identifier "urn:eic:56XQ000039WFV00W" ;
+    schema1:vatID "UA033565722257" ;
+    skos:altLabel "XTE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "City Utility Enterprise \"Khmelnytsteplocomunenergo\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

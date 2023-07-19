@@ -1,0 +1,45 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/48X000000000001I",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:48X000000000001I",
+    "@skos:prefLabel": "Drax Power Ltd",
+    "@skos:altLabel": "DRX_POWER",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "never submitted to you previously as local, but now all international. Need to submit this to you as have some W codes need to assign this X code as the EIC responsible party for"
+    },
+    "@cim:IdentifiedObject.mRID": "48X000000000001I",
+    "@cim:IdentifiedObject.name": "Drax Power Ltd",
+    "@cim:Names.name": [
+        "DRX_POWER",
+        "GB744326437",
+        "Balance Responsible Party",
+        "Producer",
+        "Production Responsible party",
+        "Party Connected To Grid"
+    ],
+    "@cim:IdentifiedObject.description": "never submitted to you previously as local, but now all international. Need to submit this to you as have some W codes need to assign this X code as the EIC responsible party for",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-12-18",
+    "@schema:vatID": "GB744326437",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

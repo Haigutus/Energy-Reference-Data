@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64XGOLDENERG-F49> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "License nr.AC001555 dated 25.08.2021 issued by ANRE" ;
+    cim:IdentifiedObject.mRID "64XGOLDENERG-F49" ;
+    cim:IdentifiedObject.name "S.R.L. \"Gold Energy\"" ;
+    cim:Names.name "0508782",
+        "Balance Responsible Party",
+        "GOLDENERGY_F",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:64XGOLDENERG-F49" ;
+    schema1:vatID "0508782" ;
+    skos:altLabel "GOLDENERGY_F" ;
+    skos:definition "License nr.AC001555 dated 25.08.2021 issued by ANRE"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S.R.L. \"Gold Energy\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

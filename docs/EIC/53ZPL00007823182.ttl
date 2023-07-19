@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53ZPL00007823182> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53ZPL00007823182" ;
+    cim:IdentifiedObject.name "PMG Wierzchowice - pobór własny " ;
+    cim:Names.name "782318_PMG-WIERZ",
+        "Connection Point" ;
+    dcterms:identifier "urn:eic:53ZPL00007823182" ;
+    skos:altLabel "782318_PMG-WIERZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PMG Wierzchowice - pobór własny " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

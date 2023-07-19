@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XSATHN-12345-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-09-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XSATHN-12345-H" ;
+    cim:IdentifiedObject.name "S.A.T. 3539 HONDON DE LAS NIEVES" ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESF03155942",
+        "SATHN" ;
+    dcterms:identifier "urn:eic:18XSATHN-12345-H" ;
+    schema1:vatID "ESF03155942" ;
+    skos:altLabel "SATHN" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S.A.T. 3539 HONDON DE LAS NIEVES" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

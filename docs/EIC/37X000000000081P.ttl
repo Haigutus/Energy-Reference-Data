@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37X000000000081P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-12-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Supplier" ;
+    cim:IdentifiedObject.mRID "37X000000000081P" ;
+    cim:IdentifiedObject.name "Energie- und Wasserversorgung Bruchsal GmbH" ;
+    cim:Names.name "DE143082826",
+        "EW_BRUCHSAL",
+        "Energy Supplier" ;
+    dcterms:identifier "urn:eic:37X000000000081P" ;
+    schema1:vatID "DE143082826" ;
+    skos:altLabel "EW_BRUCHSAL" ;
+    skos:definition "Balance Supplier"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energie- und Wasserversorgung Bruchsal GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

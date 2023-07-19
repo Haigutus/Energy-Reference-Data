@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X0000000001064> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-05-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Information Provider" ;
+    cim:IdentifiedObject.mRID "48X0000000001064" ;
+    cim:IdentifiedObject.name "ICE Trade Vault Europe Ltd" ;
+    cim:Names.name "GB577597274",
+        "ICE-TRADE-VAULT",
+        "Information Provider" ;
+    dcterms:identifier "urn:eic:48X0000000001064" ;
+    schema1:vatID "GB577597274" ;
+    skos:altLabel "ICE-TRADE-VAULT" ;
+    skos:definition "Information Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ICE Trade Vault Europe Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

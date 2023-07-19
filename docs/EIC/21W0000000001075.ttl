@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21W0000000001075> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-02-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Resource Object" ;
+    cim:IdentifiedObject.mRID "21W0000000001075" ;
+    cim:IdentifiedObject.name "UGS EWE-Zone L" ;
+    cim:Names.name "Resource Object",
+        "UGS-EWE-ZONE-L" ;
+    dcterms:identifier "urn:eic:21W0000000001075" ;
+    skos:altLabel "UGS-EWE-ZONE-L" ;
+    skos:definition "Resource Object"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UGS EWE-Zone L" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XLUBALOO12345L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XLUBALOO12345L" ;
+    cim:IdentifiedObject.name "ENERGÍA NÓRDICA GAS Y ELECTRICIDAD S.L.U." ;
+    cim:Names.name "ESB90038886",
+        "LUBAL",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XLUBALOO12345L" ;
+    schema1:vatID "ESB90038886" ;
+    skos:altLabel "LUBAL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGÍA NÓRDICA GAS Y ELECTRICIDAD S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

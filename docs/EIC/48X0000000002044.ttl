@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X0000000002044> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-03-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48X0000000002044" ;
+    cim:IdentifiedObject.name "e2m energy trading ltd" ;
+    cim:Names.name "Balance Responsible Party",
+        "E2M_ENERG_TRAD",
+        "GB286545464" ;
+    dcterms:identifier "urn:eic:48X0000000002044" ;
+    schema1:vatID "GB286545464" ;
+    skos:altLabel "E2M_ENERG_TRAD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "e2m energy trading ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

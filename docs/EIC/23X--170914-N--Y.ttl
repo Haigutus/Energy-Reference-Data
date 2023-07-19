@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--170914-N--Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-09-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "EU VAT not available for Singapure. Company and Tax Registration Number: 201332913W" ;
+    cim:IdentifiedObject.mRID "23X--170914-N--Y" ;
+    cim:IdentifiedObject.name "Novatek Gas & Power Asia PTE LTD" ;
+    cim:Names.name "A0013909S.DE",
+        "NOVATEK_GP_ASIA",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--170914-N--Y" ;
+    skos:altLabel "NOVATEK_GP_ASIA" ;
+    skos:definition "EU VAT not available for Singapure. Company and Tax Registration Number: 201332913W"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Novatek Gas & Power Asia PTE LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001878-1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-20" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Trade Responsible Party Market Operator" ;
+    cim:IdentifiedObject.mRID "12X-0000001878-1" ;
+    cim:IdentifiedObject.name "Lagora SA" ;
+    cim:Names.name "CHE242425599",
+        "LAGORA-SA-ST",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12X-0000001878-1" ;
+    schema1:vatID "CHE242425599" ;
+    skos:altLabel "LAGORA-SA-ST" ;
+    skos:definition "Trade Responsible Party Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Lagora SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

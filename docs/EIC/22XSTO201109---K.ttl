@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XSTO201109---K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-02-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "22XSTO201109---K" ;
+    cim:IdentifiedObject.name "STORA ENSO LANGERBRUGGE NV" ;
+    cim:Names.name "BE0417331909",
+        "BE_STORA_ENSO",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22XSTO201109---K" ;
+    schema1:vatID "BE0417331909" ;
+    skos:altLabel "BE_STORA_ENSO" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "STORA ENSO LANGERBRUGGE NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

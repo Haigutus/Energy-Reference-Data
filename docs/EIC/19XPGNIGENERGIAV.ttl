@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPGNIGENERGIAV> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-11-05" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XPGNIGENERGIAV" ;
+    cim:IdentifiedObject.name "PGNIG ENERGIA S.A." ;
+    cim:Names.name "Balance Responsible Party",
+        "PGNIG_ENERGIA",
+        "PL5272618716" ;
+    dcterms:identifier "urn:eic:19XPGNIGENERGIAV" ;
+    schema1:vatID "PL5272618716" ;
+    skos:altLabel "PGNIG_ENERGIA" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PGNIG ENERGIA S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

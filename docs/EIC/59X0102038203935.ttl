@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X0102038203935> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59X0102038203935" ;
+    cim:IdentifiedObject.name "ACEA PRODUZIONE SPA" ;
+    cim:Names.name "ACEAPRODUZIONE",
+        "Balance Responsible Party",
+        "IT05394801004" ;
+    dcterms:identifier "urn:eic:59X0102038203935" ;
+    schema1:vatID "IT05394801004" ;
+    skos:altLabel "ACEAPRODUZIONE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ACEA PRODUZIONE SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

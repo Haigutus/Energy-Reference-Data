@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XRRPEHENERGIEV> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XRRPEHENERGIEV" ;
+    cim:IdentifiedObject.name "Stadtwerke Duisburg Energiehandel GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE813164153",
+        "RRPEH" ;
+    dcterms:identifier "urn:eic:11XRRPEHENERGIEV" ;
+    schema1:vatID "DE813164153" ;
+    skos:altLabel "RRPEH" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Duisburg Energiehandel GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

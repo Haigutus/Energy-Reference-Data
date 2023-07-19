@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000DSGB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-01-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000DSGB" ;
+    cim:IdentifiedObject.name "VALVERDE AIRESANO 1929 S.L.U." ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESB44191252",
+        "VALAI" ;
+    dcterms:identifier "urn:eic:18X000000000DSGB" ;
+    schema1:vatID "ESB44191252" ;
+    skos:altLabel "VALAI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VALVERDE AIRESANO 1929 S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

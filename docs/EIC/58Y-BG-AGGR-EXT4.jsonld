@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/58Y-BG-AGGR-EXT4",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:58Y-BG-AGGR-EXT4",
+    "@skos:prefLabel": "Aggregated exits Bulgaria",
+    "@skos:altLabel": "AGGREX_BG",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Aggregated exit point defined for publication of information in aggregated format for all exit points from Bulgartransgaz' balancing zone, excluded from the definition of relevant points as described under 3.2(1)(a) of Annex I of Regulation (EC)715/2009."
+    },
+    "@cim:IdentifiedObject.mRID": "58Y-BG-AGGR-EXT4",
+    "@cim:IdentifiedObject.name": "Aggregated exits Bulgaria",
+    "@cim:Names.name": [
+        "AGGREX_BG",
+        "Market Area"
+    ],
+    "@cim:IdentifiedObject.description": "Aggregated exit point defined for publication of information in aggregated format for all exit points from Bulgartransgaz' balancing zone, excluded from the definition of relevant points as described under 3.2(1)(a) of Annex I of Regulation (EC)715/2009.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-07-20",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

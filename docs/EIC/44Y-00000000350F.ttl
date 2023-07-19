@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44Y-00000000350F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "44Y-00000000350F" ;
+    cim:IdentifiedObject.name "Kansallistuuli Oy, Hilskansaari wind farm" ;
+    cim:Names.name "FI_KANTU0",
+        "Metering Grid Area" ;
+    dcterms:identifier "urn:eic:44Y-00000000350F" ;
+    skos:altLabel "FI_KANTU0" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kansallistuuli Oy, Hilskansaari wind farm" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

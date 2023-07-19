@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPRO-NATURA--C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XPRO-NATURA--C" ;
+    cim:IdentifiedObject.name "MIĘDZYGMINNY KOMPLEKS UNIESZKODLIWIANIA ODPADÓW PRO-NATURA SPZOO" ;
+    cim:Names.name "Energy Supplier",
+        "MKUO_PRO-NATURA",
+        "PL9532559741" ;
+    dcterms:identifier "urn:eic:19XPRO-NATURA--C" ;
+    schema1:vatID "PL9532559741" ;
+    skos:altLabel "MKUO_PRO-NATURA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MIĘDZYGMINNY KOMPLEKS UNIESZKODLIWIANIA ODPADÓW PRO-NATURA SPZOO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XBAGLASSGRAE-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "GLASS INDUSTRY, producing containers" ;
+    cim:IdentifiedObject.mRID "29XBAGLASSGRAE-A" ;
+    cim:IdentifiedObject.name "ΒΑ GLASS GREECE AE " ;
+    cim:Names.name "Consumer",
+        "EL800784142",
+        "GR-BAGLASS",
+        "Network User" ;
+    dcterms:identifier "urn:eic:29XBAGLASSGRAE-A" ;
+    schema1:vatID "EL800784142" ;
+    skos:altLabel "GR-BAGLASS" ;
+    skos:definition "GLASS INDUSTRY, producing containers"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ΒΑ GLASS GREECE AE " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

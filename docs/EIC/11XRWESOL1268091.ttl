@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XRWESOL1268091> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-07-04" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XRWESOL1268091" ;
+    cim:IdentifiedObject.name "RWE Supply & Trading GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE813022070",
+        "RWESOL126809" ;
+    dcterms:identifier "urn:eic:11XRWESOL1268091" ;
+    schema1:vatID "DE813022070" ;
+    skos:altLabel "RWESOL126809" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RWE Supply & Trading GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

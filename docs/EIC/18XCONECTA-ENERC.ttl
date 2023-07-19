@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCONECTA-ENERC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-12-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XCONECTA-ENERC" ;
+    cim:IdentifiedObject.name "CONECTA ENERGIA CONSULTORIA Y TRADING SL" ;
+    cim:Names.name "20170",
+        "ESB75114280",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XCONECTA-ENERC" ;
+    schema1:vatID "ESB75114280" ;
+    skos:altLabel "20170" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CONECTA ENERGIA CONSULTORIA Y TRADING SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

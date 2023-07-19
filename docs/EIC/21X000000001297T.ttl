@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001297T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-02-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Resource Provider,System Operator" ;
+    cim:IdentifiedObject.mRID "21X000000001297T" ;
+    cim:IdentifiedObject.name "Erdgasspeicher Peissen GmbH" ;
+    cim:Names.name "DE267679787",
+        "Resource Provider",
+        "System Operator",
+        "UGS-KATHARINA" ;
+    dcterms:identifier "urn:eic:21X000000001297T" ;
+    schema1:vatID "DE267679787" ;
+    skos:altLabel "UGS-KATHARINA" ;
+    skos:definition "Resource Provider,System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Erdgasspeicher Peissen GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XELING-SKP-MKD> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-11-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "33XELING-SKP-MKD" ;
+    cim:IdentifiedObject.name "Company for manufacturing, Trading and engineering ELING doo Skopje" ;
+    cim:Names.name "4030991190105",
+        "DPTI_ELING_DOO",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:33XELING-SKP-MKD" ;
+    schema1:vatID "4030991190105" ;
+    skos:altLabel "DPTI_ELING_DOO" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Company for manufacturing, Trading and engineering ELING doo Skopje" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

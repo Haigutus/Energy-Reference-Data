@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XVENTURESGOALL> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XVENTURESGOALL" ;
+    cim:IdentifiedObject.name "VENTURES GOALS LTD " ;
+    cim:Names.name "Balance Responsible Party",
+        "GB14009739",
+        "VENTURESGOALSLTD" ;
+    dcterms:identifier "urn:eic:59XVENTURESGOALL" ;
+    schema1:vatID "GB14009739" ;
+    skos:altLabel "VENTURESGOALSLTD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VENTURES GOALS LTD " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XEL-BELCHATOWX> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-06-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XEL-BELCHATOWX" ;
+    cim:IdentifiedObject.name "PGE GÓRNICTWO I ENERGETYKA KONWENCJONALNA SPÓŁKA AKCYJNA" ;
+    cim:Names.name "Balance Responsible Party",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PGE_GIEK_SA",
+        "PL7690502495",
+        "Producer",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:19XEL-BELCHATOWX" ;
+    schema1:vatID "PL7690502495" ;
+    skos:altLabel "PGE_GIEK_SA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PGE GÓRNICTWO I ENERGETYKA KONWENCJONALNA SPÓŁKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

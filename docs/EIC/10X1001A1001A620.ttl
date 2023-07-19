@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10X1001A1001A620> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Operator" ;
+    cim:IdentifiedObject.mRID "10X1001A1001A620" ;
+    cim:IdentifiedObject.name "State Company 'Energorynok'" ;
+    cim:Names.name "200131518",
+        "ENERGORYNOK",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:10X1001A1001A620" ;
+    schema1:vatID "200131518" ;
+    skos:altLabel "ENERGORYNOK" ;
+    skos:definition "Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "State Company 'Energorynok'" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

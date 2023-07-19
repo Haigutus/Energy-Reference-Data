@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/20X-LU005-ECCINI> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-11-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "20X-LU005-ECCINI" ;
+    cim:IdentifiedObject.name "European Comodity Clearing Luxembourg SÃ rl" ;
+    cim:Names.name "Balance Responsible Party",
+        "ECCLUXINTRA",
+        "LU23418829" ;
+    dcterms:identifier "urn:eic:20X-LU005-ECCINI" ;
+    schema1:vatID "LU23418829" ;
+    skos:altLabel "ECCLUXINTRA" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "European Comodity Clearing Luxembourg SÃ rl" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

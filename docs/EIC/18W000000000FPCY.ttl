@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18W000000000FPCY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18W000000000FPCY" ;
+    cim:IdentifiedObject.name "PE SOTILLO-VM" ;
+    cim:Names.name "PESOTIL",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18W000000000FPCY" ;
+    skos:altLabel "PESOTIL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PE SOTILLO-VM" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

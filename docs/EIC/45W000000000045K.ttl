@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45W000000000045K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45W000000000045K" ;
+    cim:IdentifiedObject.name "Rødsand 2_GU" ;
+    cim:Names.name "Generation Unit",
+        "ROEDSAND_2" ;
+    dcterms:identifier "urn:eic:45W000000000045K" ;
+    skos:altLabel "ROEDSAND_2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Rødsand 2_GU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

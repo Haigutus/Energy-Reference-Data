@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XF10CM-12345-6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-09-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XF10CM-12345-6" ;
+    cim:IdentifiedObject.name "FOTOVOLTAICA 10 CM, S.A." ;
+    cim:Names.name "ESB45605482",
+        "F10CM",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XF10CM-12345-6" ;
+    schema1:vatID "ESB45605482" ;
+    skos:altLabel "F10CM" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FOTOVOLTAICA 10 CM, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

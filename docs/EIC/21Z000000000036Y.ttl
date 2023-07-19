@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z000000000036Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-08-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Connection Point" ;
+    cim:IdentifiedObject.mRID "21Z000000000036Y" ;
+    cim:IdentifiedObject.name "Col-de-Larrau - FR / Col-de-Larrau - ES" ;
+    cim:Names.name "COLLAR-FR-ES",
+        "Connection Point" ;
+    dcterms:identifier "urn:eic:21Z000000000036Y" ;
+    skos:altLabel "COLLAR-FR-ES" ;
+    skos:definition "Connection Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Col-de-Larrau - FR / Col-de-Larrau - ES" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

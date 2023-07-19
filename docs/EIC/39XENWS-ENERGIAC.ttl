@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39XENWS-ENERGIAC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39XENWS-ENERGIAC" ;
+    cim:IdentifiedObject.name "ENWS Energia Kereskedő Kft" ;
+    cim:Names.name "Balance Responsible Party",
+        "ENWS",
+        "HU25548271" ;
+    dcterms:identifier "urn:eic:39XENWS-ENERGIAC" ;
+    schema1:vatID "HU25548271" ;
+    skos:altLabel "ENWS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENWS Energia Kereskedő Kft" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

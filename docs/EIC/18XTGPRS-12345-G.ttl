@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XTGPRS-12345-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-10-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Access Provider" ;
+    cim:IdentifiedObject.mRID "18XTGPRS-12345-G" ;
+    cim:IdentifiedObject.name "Planta de Regasificación de Sagunto, S.A." ;
+    cim:Names.name "ESA83150060",
+        "Grid Access Provider",
+        "TGPRS" ;
+    dcterms:identifier "urn:eic:18XTGPRS-12345-G" ;
+    schema1:vatID "ESA83150060" ;
+    skos:altLabel "TGPRS" ;
+    skos:definition "Grid Access Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Planta de Regasificación de Sagunto, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

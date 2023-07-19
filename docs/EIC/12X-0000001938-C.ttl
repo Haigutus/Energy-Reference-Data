@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001938-C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-06-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Balance Supplier" ;
+    cim:IdentifiedObject.mRID "12X-0000001938-C" ;
+    cim:IdentifiedObject.name "HELIOS ENERGY EM AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE114480463",
+        "Energy Supplier",
+        "HELIOS-ENERGY-ST" ;
+    dcterms:identifier "urn:eic:12X-0000001938-C" ;
+    schema1:vatID "CHE114480463" ;
+    skos:altLabel "HELIOS-ENERGY-ST" ;
+    skos:definition "Balance Responsible Party, Balance Supplier"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HELIOS ENERGY EM AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

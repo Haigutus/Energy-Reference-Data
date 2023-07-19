@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X0011001003141> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-05-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32X0011001003141" ;
+    cim:IdentifiedObject.name "Group Trans Energy EOOD" ;
+    cim:Names.name "BG201195719",
+        "Balance Responsible Party",
+        "GT_ENERGY" ;
+    dcterms:identifier "urn:eic:32X0011001003141" ;
+    schema1:vatID "BG201195719" ;
+    skos:altLabel "GT_ENERGY" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Group Trans Energy EOOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

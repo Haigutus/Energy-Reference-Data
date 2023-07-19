@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/46ASU0000000215Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Substation" ;
+    cim:IdentifiedObject.mRID "46ASU0000000215Y" ;
+    cim:IdentifiedObject.name "Forsmark 1" ;
+    cim:Names.name "FORSMARK_1",
+        "Substation" ;
+    dcterms:identifier "urn:eic:46ASU0000000215Y" ;
+    skos:altLabel "FORSMARK_1" ;
+    skos:definition "Substation"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Forsmark 1" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

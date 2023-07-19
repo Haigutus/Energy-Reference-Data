@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XSBBKRAFTWERKU> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Schweizerische Bundesbahnen Sbb" ;
+    cim:IdentifiedObject.mRID "12XSBBKRAFTWERKU" ;
+    cim:IdentifiedObject.name "Schweizerische Bundesbahnen SBB" ;
+    cim:Names.name "CH120951",
+        "SBB",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XSBBKRAFTWERKU" ;
+    schema1:vatID "CH120951" ;
+    skos:altLabel "SBB" ;
+    skos:definition "Schweizerische Bundesbahnen Sbb"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Schweizerische Bundesbahnen SBB" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

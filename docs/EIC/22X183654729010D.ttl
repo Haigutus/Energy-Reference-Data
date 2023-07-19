@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22X183654729010D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Brokers/Market Maker In Fx, Cfd'S, In Early Steps Of Entering The Energy Market" ;
+    cim:IdentifiedObject.mRID "22X183654729010D" ;
+    cim:IdentifiedObject.name "FINOTEC TRADING UK LTD" ;
+    cim:Names.name "BE_FINOTEC_TRADI",
+        "GB978699911",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:22X183654729010D" ;
+    schema1:vatID "GB978699911" ;
+    skos:altLabel "BE_FINOTEC_TRADI" ;
+    skos:definition "Brokers/Market Maker In Fx, Cfd'S, In Early Steps Of Entering The Energy Market"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FINOTEC TRADING UK LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

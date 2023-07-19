@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XPOLESINE-X126> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-10-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XPOLESINE-X126" ;
+    cim:IdentifiedObject.name "Cartiere del Polesine S.p.A." ;
+    cim:Names.name "CARTIERE_POLESIN",
+        "Consumer",
+        "IT01148340290" ;
+    dcterms:identifier "urn:eic:59XPOLESINE-X126" ;
+    schema1:vatID "IT01148340290" ;
+    skos:altLabel "CARTIERE_POLESIN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Cartiere del Polesine S.p.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

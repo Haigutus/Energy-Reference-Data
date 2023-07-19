@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11T0-0000-0962-R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11T0-0000-0962-R" ;
+    cim:IdentifiedObject.name "AMP-APG-TNG/220/ Tiengen - Y-Herbertingen / ge-403-Bludenz W" ;
+    cim:Names.name "BLUDNZW-TIENGEN",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:11T0-0000-0962-R" ;
+    skos:altLabel "BLUDNZW-TIENGEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMP-APG-TNG/220/ Tiengen - Y-Herbertingen / ge-403-Bludenz W" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

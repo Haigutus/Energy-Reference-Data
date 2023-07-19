@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XCPG000000000N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XCPG000000000N" ;
+    cim:IdentifiedObject.name "CPG COSTRUZIONI DI CIAMPALINI PAOLO & C." ;
+    cim:Names.name "05373370484",
+        "CPGCOSTR",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:59XCPG000000000N" ;
+    schema1:vatID "05373370484" ;
+    skos:altLabel "CPGCOSTR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CPG COSTRUZIONI DI CIAMPALINI PAOLO & C." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

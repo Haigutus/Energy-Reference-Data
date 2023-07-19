@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XSOPAG-12345-Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-06-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XSOPAG-12345-Q" ;
+    cim:IdentifiedObject.name "SDAD PARA EL DESARROLLO DE ENERGIAS LIM" ;
+    cim:Names.name "ESB06473904",
+        "Production Responsible party",
+        "SOPAG" ;
+    dcterms:identifier "urn:eic:18XSOPAG-12345-Q" ;
+    schema1:vatID "ESB06473904" ;
+    skos:altLabel "SOPAG" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SDAD PARA EL DESARROLLO DE ENERGIAS LIM" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

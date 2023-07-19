@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12T-0000000034-K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-04-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Internal Line" ;
+    cim:IdentifiedObject.mRID "12T-0000000034-K" ;
+    cim:IdentifiedObject.name "220 kV Auwiesen-Regensdorf" ;
+    cim:Names.name "2AUWI-REDO-IL",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:12T-0000000034-K" ;
+    skos:altLabel "2AUWI-REDO-IL" ;
+    skos:definition "Internal Line"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "220 kV Auwiesen-Regensdorf" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

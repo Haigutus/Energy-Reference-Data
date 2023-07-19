@@ -1,0 +1,23 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/39XKEROLEUMBEFKU">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:39XKEROLEUMBEFKU</dcterms:identifier>
+    <skos:prefLabel>AIK Energy Hungary Kft</skos:prefLabel>
+    <skos:altLabel>AIKENERGYHU</skos:altLabel>
+    <skos:definition xml:lang="en">Update due to address change</skos:definition>
+    <cim:IdentifiedObject.mRID>39XKEROLEUMBEFKU</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AIK Energy Hungary Kft</cim:IdentifiedObject.name>
+    <cim:Names.name>AIKENERGYHU</cim:Names.name>
+    <cim:Names.name>A0015608X.HU</cim:Names.name>
+    <cim:Names.name>HU26372408</cim:Names.name>
+    <cim:IdentifiedObject.description>Update due to address change</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2018-08-13</cim:DateAndOrTime.date>
+    <cim:Names.name>Interconnection Trade Responsible</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>HU26372408</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

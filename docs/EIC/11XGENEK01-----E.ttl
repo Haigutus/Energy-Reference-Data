@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XGENEK01-----E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-11-29" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XGENEK01-----E" ;
+    cim:IdentifiedObject.name "Genek Gesellschaft für Energieeinkauf mbH & Co. KG" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE279513386",
+        "GENEK" ;
+    dcterms:identifier "urn:eic:11XGENEK01-----E" ;
+    schema1:vatID "DE279513386" ;
+    skos:altLabel "GENEK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Genek Gesellschaft für Energieeinkauf mbH & Co. KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

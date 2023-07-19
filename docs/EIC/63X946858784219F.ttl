@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/63X946858784219F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "We are requesting an EIC code for our French entity, Griffin Markets Europe SAS, so that we can REMIT report gas capacity trades correctly to ACER under table 4 requirements. Note that we will only need to use this EIC code in the event that Brexit happens on 31 Oct and we are then operating our OTF using Griffin Markets Europe SAS." ;
+    cim:IdentifiedObject.mRID "63X946858784219F" ;
+    cim:IdentifiedObject.name "Griffin Markets Europe SAS" ;
+    cim:Names.name "FR33843904954",
+        "FRG_GME",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:63X946858784219F" ;
+    schema1:vatID "FR33843904954" ;
+    skos:altLabel "FRG_GME" ;
+    skos:definition "We are requesting an EIC code for our French entity, Griffin Markets Europe SAS, so that we can REMIT report gas capacity trades correctly to ACER under table 4 requirements. Note that we will only need to use this EIC code in the event that Brexit happens on 31 Oct and we are then operating our OTF using Griffin Markets Europe SAS."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Griffin Markets Europe SAS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

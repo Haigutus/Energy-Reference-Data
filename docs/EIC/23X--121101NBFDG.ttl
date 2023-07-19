@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--121101NBFDG> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-11-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--121101NBFDG" ;
+    cim:IdentifiedObject.name "Nordea Bank Finland PLC, Niederlassung Deutschland" ;
+    cim:Names.name "16802358",
+        "NORDEA_BF_DE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--121101NBFDG" ;
+    schema1:vatID "16802358" ;
+    skos:altLabel "NORDEA_BF_DE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Nordea Bank Finland PLC, Niederlassung Deutschland" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

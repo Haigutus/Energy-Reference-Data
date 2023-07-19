@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XGSA---------N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-04-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "TRADE RESPONSIBLE PARTY" ;
+    cim:IdentifiedObject.mRID "22XGSA---------N" ;
+    cim:IdentifiedObject.name "GSA" ;
+    cim:Names.name "ALJ61820031J",
+        "BE_GSA",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:22XGSA---------N" ;
+    schema1:vatID "ALJ61820031J" ;
+    skos:altLabel "BE_GSA" ;
+    skos:definition "TRADE RESPONSIBLE PARTY"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GSA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

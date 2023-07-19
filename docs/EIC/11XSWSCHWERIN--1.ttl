@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWSCHWERIN--1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-02-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Wrong VAT -- corrected" ;
+    cim:IdentifiedObject.mRID "11XSWSCHWERIN--1" ;
+    cim:IdentifiedObject.name "Energieversorgung Schwerin GmbH & Co. Erzeugung KG" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE274125904",
+        "SWSCHWERIN" ;
+    dcterms:identifier "urn:eic:11XSWSCHWERIN--1" ;
+    schema1:vatID "DE274125904" ;
+    skos:altLabel "SWSCHWERIN" ;
+    skos:definition "Wrong VAT -- corrected"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energieversorgung Schwerin GmbH & Co. Erzeugung KG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WPGACER-123-DM> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WPGACER-123-DM" ;
+    cim:IdentifiedObject.name "SIDER" ;
+    cim:Names.name "Generation Unit",
+        "PGACER" ;
+    dcterms:identifier "urn:eic:18WPGACER-123-DM" ;
+    skos:altLabel "PGACER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SIDER" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XGNSE-12345-3O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XGNSE-12345-3O" ;
+    cim:IdentifiedObject.name "NATURGY IBERIA,  S.A." ;
+    cim:Names.name "ESA08431090",
+        "GNSE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XGNSE-12345-3O" ;
+    schema1:vatID "ESA08431090" ;
+    skos:altLabel "GNSE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NATURGY IBERIA,  S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

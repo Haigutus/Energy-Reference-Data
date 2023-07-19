@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-EHESZ------E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-05-31" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "15X-EHESZ------E" ;
+    cim:IdentifiedObject.name "MVM Trade Villamosenergia Kereskedelmi ZRt." ;
+    cim:Names.name "Balance Responsible Party",
+        "HU13649100",
+        "MVM-EHESZ-BC" ;
+    dcterms:identifier "urn:eic:15X-EHESZ------E" ;
+    schema1:vatID "HU13649100" ;
+    skos:altLabel "MVM-EHESZ-BC" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MVM Trade Villamosenergia Kereskedelmi ZRt." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

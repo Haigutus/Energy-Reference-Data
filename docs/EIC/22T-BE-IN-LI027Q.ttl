@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22T-BE-IN-LI027Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-02-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "22T-BE-IN-LI027Q" ;
+    cim:IdentifiedObject.name "150.538 JUPILLE-RIMIERE" ;
+    cim:Names.name "BE538_JUPIL_RIMI",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:22T-BE-IN-LI027Q" ;
+    skos:altLabel "BE538_JUPIL_RIMI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "150.538 JUPILLE-RIMIERE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

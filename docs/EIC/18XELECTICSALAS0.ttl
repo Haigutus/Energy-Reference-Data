@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XELECTICSALAS0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-05-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Access Provider" ;
+    cim:IdentifiedObject.mRID "18XELECTICSALAS0" ;
+    cim:IdentifiedObject.name "ELECTRICA SALAS DE PALLARS SLU" ;
+    cim:Names.name "ESB25672692",
+        "Grid Access Provider",
+        "SALAS" ;
+    dcterms:identifier "urn:eic:18XELECTICSALAS0" ;
+    schema1:vatID "ESB25672692" ;
+    skos:altLabel "SALAS" ;
+    skos:definition "Grid Access Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRICA SALAS DE PALLARS SLU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

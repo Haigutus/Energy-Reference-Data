@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22V1001A1001A04X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-03-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ECP test network 1 (Nemolink)" ;
+    cim:IdentifiedObject.mRID "22V1001A1001A04X" ;
+    cim:IdentifiedObject.name "ELIA ECP NEMO Link test network " ;
+    cim:Names.name "BE_ELIA_ECPNEMO1",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:22V1001A1001A04X" ;
+    skos:altLabel "BE_ELIA_ECPNEMO1" ;
+    skos:definition "ECP test network 1 (Nemolink)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELIA ECP NEMO Link test network " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

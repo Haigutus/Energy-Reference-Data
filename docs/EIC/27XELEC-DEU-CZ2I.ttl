@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XELEC-DEU-CZ2I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Electricity Trading" ;
+    cim:IdentifiedObject.mRID "27XELEC-DEU-CZ2I" ;
+    cim:IdentifiedObject.name "ELECTRA Deutschland GmbH, org. slozka" ;
+    cim:Names.name "CZ28210352",
+        "ELEC-DEU-CZ2",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:27XELEC-DEU-CZ2I" ;
+    schema1:vatID "CZ28210352" ;
+    skos:altLabel "ELEC-DEU-CZ2" ;
+    skos:definition "Electricity Trading"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRA Deutschland GmbH, org. slozka" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

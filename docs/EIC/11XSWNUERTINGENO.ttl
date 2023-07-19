@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWNUERTINGENO> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XSWNUERTINGENO" ;
+    cim:IdentifiedObject.name "Stadtwerke Nürtingen GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE146275301",
+        "SWNUERTINGEN" ;
+    dcterms:identifier "urn:eic:11XSWNUERTINGENO" ;
+    schema1:vatID "DE146275301" ;
+    skos:altLabel "SWNUERTINGEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Nürtingen GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

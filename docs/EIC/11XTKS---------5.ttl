@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XTKS---------5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-08-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XTKS---------5" ;
+    cim:IdentifiedObject.name "ThyssenKrupp Steel Europe AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE812178585",
+        "TK-STEEL" ;
+    dcterms:identifier "urn:eic:11XTKS---------5" ;
+    schema1:vatID "DE812178585" ;
+    skos:altLabel "TK-STEEL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ThyssenKrupp Steel Europe AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

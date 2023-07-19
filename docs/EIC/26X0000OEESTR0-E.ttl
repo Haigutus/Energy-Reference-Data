@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0000OEESTR0-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-02-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X0000OEESTR0-E" ;
+    cim:IdentifiedObject.name "ENERGIA & TERRITORIO S.R.L." ;
+    cim:Names.name "Balance Responsible Party",
+        "IT-ENERGIA___TER",
+        "IT01954420467",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:26X0000OEESTR0-E" ;
+    schema1:vatID "IT01954420467" ;
+    skos:altLabel "IT-ENERGIA___TER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGIA & TERRITORIO S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29X1000100010034",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29X1000100010034",
+    "@skos:prefLabel": "ΘΩΜΑΣ ΣΟΥΜΠΑΣΗΣ ΜΕΠΕ",
+    "@skos:altLabel": "SOLARENERGY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Η SOLAR ENERGY ΘΩΜΑΣ ΣΟΥΜΠΑΣΗΣ Μ.Ε.Π.Ε ιδρύθηκε τον Απρίλιο του 2008, στην Φλώρινα, απο τον κ. Θωμά Σουμπάση ο οποίος είναι και ο μοναδικός μέτοχος της εταιρείας. Η εταιρεία, δραστηριοποιείται στον κλάδο της παραγωγής ηλεκτρικής ενέργειας μέσω φωτοβολταικών συστημάτων και πρόσφατα απέκτησε άδεια προμήθειας ηλεκτρικής ενεργείας."
+    },
+    "@cim:IdentifiedObject.mRID": "29X1000100010034",
+    "@cim:IdentifiedObject.name": "ΘΩΜΑΣ ΣΟΥΜΠΑΣΗΣ ΜΕΠΕ",
+    "@cim:Names.name": [
+        "SOLARENERGY",
+        "EL998564072",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Η SOLAR ENERGY ΘΩΜΑΣ ΣΟΥΜΠΑΣΗΣ Μ.Ε.Π.Ε ιδρύθηκε τον Απρίλιο του 2008, στην Φλώρινα, απο τον κ. Θωμά Σουμπάση ο οποίος είναι και ο μοναδικός μέτοχος της εταιρείας. Η εταιρεία, δραστηριοποιείται στον κλάδο της παραγωγής ηλεκτρικής ενέργειας μέσω φωτοβολταικών συστημάτων και πρόσφατα απέκτησε άδεια προμήθειας ηλεκτρικής ενεργείας.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-08-09",
+    "@schema:vatID": "EL998564072",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

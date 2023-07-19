@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/61X-GT-SIAKNAUF2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "61X-GT-SIAKNAUF2" ;
+    cim:IdentifiedObject.name "SIA Knauf" ;
+    cim:Names.name "Consumer",
+        "LV40003219730",
+        "Network User",
+        "SIA_KNAUF" ;
+    dcterms:identifier "urn:eic:61X-GT-SIAKNAUF2" ;
+    schema1:vatID "LV40003219730" ;
+    skos:altLabel "SIA_KNAUF" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SIA Knauf" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

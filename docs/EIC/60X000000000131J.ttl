@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000131J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-10" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "60X000000000131J" ;
+    cim:IdentifiedObject.name "ENERGOCOM SA - CHISINAU - SUCURSALA OTOPENI" ;
+    cim:Names.name "ENERGOCOMSUCURSA",
+        "RO46871606" ;
+    dcterms:identifier "urn:eic:60X000000000131J" ;
+    schema1:vatID "RO46871606" ;
+    skos:altLabel "ENERGOCOMSUCURSA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGOCOM SA - CHISINAU - SUCURSALA OTOPENI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55XAURELBGC-SASM> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "55XAURELBGC-SASM" ;
+    cim:IdentifiedObject.name "Aurel GBS SAS (London Branch)" ;
+    cim:Names.name "AURELBGC",
+        "GB867249670",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:55XAURELBGC-SASM" ;
+    schema1:vatID "GB867249670" ;
+    skos:altLabel "AURELBGC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Aurel GBS SAS (London Branch)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47X0000000003168> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "47X0000000003168" ;
+    cim:IdentifiedObject.name "Derrysallagh Supply Limited" ;
+    cim:Names.name "Balance Responsible Party",
+        "IE3168",
+        "IE3241029BH" ;
+    dcterms:identifier "urn:eic:47X0000000003168" ;
+    schema1:vatID "IE3241029BH" ;
+    skos:altLabel "IE3168" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Derrysallagh Supply Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

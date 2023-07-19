@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/52X000000000079I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "52X000000000079I" ;
+    cim:IdentifiedObject.name "WELKOM ENERGIE B.V." ;
+    cim:Names.name "NL859373988B01",
+        "Trade Responsible Party",
+        "WELKOM_ENERGIE" ;
+    dcterms:identifier "urn:eic:52X000000000079I" ;
+    schema1:vatID "NL859373988B01" ;
+    skos:altLabel "WELKOM_ENERGIE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "WELKOM ENERGIE B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

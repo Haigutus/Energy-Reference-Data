@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14XWBG-STROM0004> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "14XWBG-STROM0004" ;
+    cim:IdentifiedObject.name "KELAG Energie & Wärme GmbH" ;
+    cim:Names.name "ATU36832406",
+        "Balance Group Responsible Party",
+        "KWGSTROM" ;
+    dcterms:identifier "urn:eic:14XWBG-STROM0004" ;
+    schema1:vatID "ATU36832406" ;
+    skos:altLabel "KWGSTROM" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KELAG Energie & Wärme GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

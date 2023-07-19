@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/12X-0000001946-E",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:12X-0000001946-E",
+    "@skos:prefLabel": "Misurio AG",
+    "@skos:altLabel": "MISURIO-AG-ST",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Company got renamed to Misurio"
+    },
+    "@cim:IdentifiedObject.mRID": "12X-0000001946-E",
+    "@cim:IdentifiedObject.name": "Misurio AG",
+    "@cim:Names.name": [
+        "MISURIO-AG-ST",
+        "CHE463567651",
+        "Balance Responsible Party",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Company got renamed to Misurio",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-11-05",
+    "@schema:vatID": "CHE463567651",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

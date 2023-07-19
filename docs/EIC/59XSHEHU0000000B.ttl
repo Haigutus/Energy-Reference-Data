@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XSHEHU0000000B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-04-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XSHEHU0000000B" ;
+    cim:IdentifiedObject.name "Trading & Trading Shehu Doo Beograd-Savski Venac" ;
+    cim:Names.name "11071190968",
+        "Capacity Trader",
+        "TRADING&TRADING" ;
+    dcterms:identifier "urn:eic:59XSHEHU0000000B" ;
+    schema1:vatID "11071190968" ;
+    skos:altLabel "TRADING&TRADING" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Trading & Trading Shehu Doo Beograd-Savski Venac" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

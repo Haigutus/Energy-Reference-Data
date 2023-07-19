@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000006BIC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000006BIC" ;
+    cim:IdentifiedObject.name "Anima Energia, S.L." ;
+    cim:Names.name "ANIMA",
+        "ESB19318401",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18X0000000006BIC" ;
+    schema1:vatID "ESB19318401" ;
+    skos:altLabel "ANIMA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Anima Energia, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

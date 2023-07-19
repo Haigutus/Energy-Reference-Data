@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XFUXX-SPAREN-U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-12-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XFUXX-SPAREN-U" ;
+    cim:IdentifiedObject.name "Fuxx - Die Sparenergie GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE292091738",
+        "FUXX" ;
+    dcterms:identifier "urn:eic:11XFUXX-SPAREN-U" ;
+    schema1:vatID "DE292091738" ;
+    skos:altLabel "FUXX" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fuxx - Die Sparenergie GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

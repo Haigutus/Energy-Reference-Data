@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--190218EF--3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-02-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "- No VAT available - Sub-fund of a Audentia Capital Sicav II Plc. - Tax Identification Number: 997650821" ;
+    cim:IdentifiedObject.mRID "23X--190218EF--3" ;
+    cim:IdentifiedObject.name "Eurener Fund of Audentia Capital Sicav II Plc." ;
+    cim:Names.name "EURENER_FUND",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--190218EF--3" ;
+    skos:altLabel "EURENER_FUND" ;
+    skos:definition "- No VAT available - Sub-fund of a Audentia Capital Sicav II Plc. - Tax Identification Number: 997650821"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Eurener Fund of Audentia Capital Sicav II Plc." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

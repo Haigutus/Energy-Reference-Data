@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XENEXION-03--A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-05-13" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XENEXION-03--A" ;
+    cim:IdentifiedObject.name "Enexion GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE260459436",
+        "ENEXION-03" ;
+    dcterms:identifier "urn:eic:11XENEXION-03--A" ;
+    schema1:vatID "DE260459436" ;
+    skos:altLabel "ENEXION-03" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Enexion GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

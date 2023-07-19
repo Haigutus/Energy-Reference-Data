@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000002015-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-10-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "12X-0000002015-V" ;
+    cim:IdentifiedObject.name "Virtual Global Trading" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE213443299",
+        "Trade Responsible Party",
+        "VIRT-GLOB-TRA-ST" ;
+    dcterms:identifier "urn:eic:12X-0000002015-V" ;
+    schema1:vatID "CHE213443299" ;
+    skos:altLabel "VIRT-GLOB-TRA-ST" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Virtual Global Trading" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X100A100F0088G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacity Trader" ;
+    cim:IdentifiedObject.mRID "17X100A100F0088G" ;
+    cim:IdentifiedObject.name "LAVERA ENERGIES" ;
+    cim:Names.name "Capacity Trader",
+        "FR20428668255",
+        "FR_LVE" ;
+    dcterms:identifier "urn:eic:17X100A100F0088G" ;
+    schema1:vatID "FR20428668255" ;
+    skos:altLabel "FR_LVE" ;
+    skos:definition "Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "LAVERA ENERGIES" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WHSFER-12345-W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WHSFER-12345-W" ;
+    cim:IdentifiedObject.name "CLIDOM ENERGY" ;
+    cim:Names.name "Generation Unit",
+        "HSFERF" ;
+    dcterms:identifier "urn:eic:18WHSFER-12345-W" ;
+    skos:altLabel "HSFERF" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CLIDOM ENERGY" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

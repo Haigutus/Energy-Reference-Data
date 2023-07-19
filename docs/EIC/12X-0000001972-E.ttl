@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001972-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group Responsible Party, Market Operator" ;
+    cim:IdentifiedObject.mRID "12X-0000001972-E" ;
+    cim:IdentifiedObject.name "Athina Energie AG" ;
+    cim:Names.name "ATHINAENERGIE-ST",
+        "Balance Responsible Party",
+        "FL00025240054",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:12X-0000001972-E" ;
+    schema1:vatID "FL00025240054" ;
+    skos:altLabel "ATHINAENERGIE-ST" ;
+    skos:definition "Balance Group Responsible Party, Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Athina Energie AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

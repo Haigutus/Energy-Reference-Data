@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/17W000000918406Y">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:17W000000918406Y</dcterms:identifier>
+    <skos:prefLabel>CROIX DE METZ</skos:prefLabel>
+    <skos:altLabel>FR_GA-TOULMETZ-G</skos:altLabel>
+    <skos:definition xml:lang="en">code recr&#233;&#233; a la place de 17W100P100P00123</skos:definition>
+    <cim:IdentifiedObject.mRID>17W000000918406Y</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CROIX DE METZ</cim:IdentifiedObject.name>
+    <cim:Names.name>FR_GA-TOULMETZ-G</cim:Names.name>
+    <cim:IdentifiedObject.description>code recr&#233;&#233; a la place de 17W100P100P00123</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2019-09-06</cim:DateAndOrTime.date>
+    <cim:Names.name>Generation Unit</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+  </skos:Concept>
+</rdf:RDF>

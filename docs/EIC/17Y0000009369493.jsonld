@@ -1,0 +1,41 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/17Y0000009369493",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:17Y0000009369493",
+    "@skos:prefLabel": "IFA2_virtual_BZN",
+    "@skos:altLabel": "FR_UK_IFA2_V_BZN",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "IFA2 virtual bidding zone for ETP and Transparency purposes"
+    },
+    "@cim:IdentifiedObject.mRID": "17Y0000009369493",
+    "@cim:IdentifiedObject.name": "IFA2_virtual_BZN",
+    "@cim:Names.name": [
+        "FR_UK_IFA2_V_BZN",
+        "Bidding Zone",
+        "Border Area"
+    ],
+    "@cim:IdentifiedObject.description": "IFA2 virtual bidding zone for ETP and Transparency purposes",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2020-06-05",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

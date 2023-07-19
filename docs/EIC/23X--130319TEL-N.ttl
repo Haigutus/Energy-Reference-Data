@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--130319TEL-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-03-08" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--130319TEL-N" ;
+    cim:IdentifiedObject.name "Trailstone Energy Limited" ;
+    cim:Names.name "157808675",
+        "Balance Responsible Party",
+        "TRAILSTONE_E" ;
+    dcterms:identifier "urn:eic:23X--130319TEL-N" ;
+    schema1:vatID "157808675" ;
+    skos:altLabel "TRAILSTONE_E" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Trailstone Energy Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

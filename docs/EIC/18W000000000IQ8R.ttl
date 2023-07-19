@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18W000000000IQ8R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18W000000000IQ8R" ;
+    cim:IdentifiedObject.name "SIERRA DEL TRIGO" ;
+    cim:Names.name "Generation Unit",
+        "R002395" ;
+    dcterms:identifier "urn:eic:18W000000000IQ8R" ;
+    skos:altLabel "R002395" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SIERRA DEL TRIGO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

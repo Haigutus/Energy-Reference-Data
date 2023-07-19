@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31W-0515-P-003-1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-02-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "31W-0515-P-003-1" ;
+    cim:IdentifiedObject.name "HE ZAKUCAC AG3 151 MW" ;
+    cim:Names.name "Generation Unit",
+        "HR-HE-ZAK3-151" ;
+    dcterms:identifier "urn:eic:31W-0515-P-003-1" ;
+    skos:altLabel "HR-HE-ZAK3-151" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HE ZAKUCAC AG3 151 MW" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

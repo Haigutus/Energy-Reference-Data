@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XBUMARGLIWICEP> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XBUMARGLIWICEP" ;
+    cim:IdentifiedObject.name "ZAKŁADY MECHANICZNE 'BUMAR-ŁABĘDY' SPÓŁKA AKCYJNA" ;
+    cim:Names.name "A0012102X.PL",
+        "Consumer",
+        "Energy Supplier",
+        "PL6310102011",
+        "System Operator",
+        "ZM_BUMAR_LABEDY" ;
+    dcterms:identifier "urn:eic:19XBUMARGLIWICEP" ;
+    schema1:vatID "PL6310102011" ;
+    skos:altLabel "ZM_BUMAR_LABEDY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ZAKŁADY MECHANICZNE 'BUMAR-ŁABĘDY' SPÓŁKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

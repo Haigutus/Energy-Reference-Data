@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000P1DD> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000P1DD" ;
+    cim:IdentifiedObject.name "HERA POWER SL" ;
+    cim:Names.name "ES-4CAMINOS2",
+        "ESB71383863",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18X000000000P1DD" ;
+    schema1:vatID "ESB71383863" ;
+    skos:altLabel "ES-4CAMINOS2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HERA POWER SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

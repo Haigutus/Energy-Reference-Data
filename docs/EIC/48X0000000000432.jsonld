@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/48X0000000000432",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:48X0000000000432",
+    "@skos:prefLabel": "COBBLESTONE ENERGY DMCC",
+    "@skos:altLabel": "COBBLESTONEDMCC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "UK VAT Code not available.  Value in above field is the registered company number.  "
+    },
+    "@cim:IdentifiedObject.mRID": "48X0000000000432",
+    "@cim:IdentifiedObject.name": "COBBLESTONE ENERGY DMCC",
+    "@cim:Names.name": [
+        "COBBLESTONEDMCC",
+        "AE100491567200003",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "UK VAT Code not available.  Value in above field is the registered company number.  ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-03-17",
+    "@schema:vatID": "AE100491567200003",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

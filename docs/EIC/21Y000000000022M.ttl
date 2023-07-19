@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Y000000000022M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Virtual Market Area" ;
+    cim:IdentifiedObject.mRID "21Y000000000022M" ;
+    cim:IdentifiedObject.name "Virtual area for yearly flexable contract transfers" ;
+    cim:Names.name "NOMFLXYR",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:21Y000000000022M" ;
+    skos:altLabel "NOMFLXYR" ;
+    skos:definition "Virtual Market Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Virtual area for yearly flexable contract transfers" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPOLPX1------D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-10-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party,Market Operator" ;
+    cim:IdentifiedObject.mRID "19XPOLPX1------D" ;
+    cim:IdentifiedObject.name "TOWAROWA GIELDA ENERGII SPOLKA AKCYJNA" ;
+    cim:Names.name "Balance Responsible Party",
+        "Market Operator",
+        "PL5272266714",
+        "TGESA" ;
+    dcterms:identifier "urn:eic:19XPOLPX1------D" ;
+    schema1:vatID "PL5272266714" ;
+    skos:altLabel "TGESA" ;
+    skos:definition "Balance Responsible Party,Market Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TOWAROWA GIELDA ENERGII SPOLKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

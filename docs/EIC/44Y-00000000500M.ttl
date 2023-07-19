@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44Y-00000000500M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "44Y-00000000500M" ;
+    cim:IdentifiedObject.name "Portimokosken voimalaitos" ;
+    cim:Names.name "FI_TLV003",
+        "Metering Grid Area" ;
+    dcterms:identifier "urn:eic:44Y-00000000500M" ;
+    skos:altLabel "FI_TLV003" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Portimokosken voimalaitos" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

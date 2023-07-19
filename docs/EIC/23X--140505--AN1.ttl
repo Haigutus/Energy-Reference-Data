@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--140505--AN1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-10-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "23X--140505--AN1" ;
+    cim:IdentifiedObject.name "Nobian Industrial Chemicals B.V." ;
+    cim:Names.name "A0004911K.NL",
+        "Consumer",
+        "NL807912062B01",
+        "NOBIAN_IC",
+        "Producer" ;
+    dcterms:identifier "urn:eic:23X--140505--AN1" ;
+    schema1:vatID "NL807912062B01" ;
+    skos:altLabel "NOBIAN_IC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Nobian Industrial Chemicals B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

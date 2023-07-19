@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XORGAG-1234-17> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XORGAG-1234-17" ;
+    cim:IdentifiedObject.name "CLP ORGANOGAS, S.L." ;
+    cim:Names.name "ESB91014803",
+        "ORGAG",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XORGAG-1234-17" ;
+    schema1:vatID "ESB91014803" ;
+    skos:altLabel "ORGAG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CLP ORGANOGAS, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

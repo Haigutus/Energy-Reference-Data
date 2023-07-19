@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59Z50193801FSDV2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59Z50193801FSDV2" ;
+    cim:IdentifiedObject.name "PIVBM Calimera Bio S.r.l." ;
+    cim:Names.name "59Z50193801FSDV2",
+        "Accounting Point" ;
+    dcterms:identifier "urn:eic:59Z50193801FSDV2" ;
+    skos:altLabel "59Z50193801FSDV2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PIVBM Calimera Bio S.r.l." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XBUERGSPEENERQ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-07" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XBUERGSPEENERQ" ;
+    cim:IdentifiedObject.name "Bürger speichern Energie eG" ;
+    cim:Names.name "BUERGSPEICHENERG",
+        "Balance Responsible Party",
+        "DE279554587" ;
+    dcterms:identifier "urn:eic:11XBUERGSPEENERQ" ;
+    schema1:vatID "DE279554587" ;
+    skos:altLabel "BUERGSPEICHENERG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Bürger speichern Energie eG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

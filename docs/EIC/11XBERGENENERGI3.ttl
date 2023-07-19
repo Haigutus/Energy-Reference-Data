@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XBERGENENERGI3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-11-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XBERGENENERGI3" ;
+    cim:IdentifiedObject.name "Bergen Energi AS" ;
+    cim:Names.name "BERGENENERGI",
+        "Balance Group",
+        "NO961743982" ;
+    dcterms:identifier "urn:eic:11XBERGENENERGI3" ;
+    schema1:vatID "NO961743982" ;
+    skos:altLabel "BERGENENERGI" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Bergen Energi AS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

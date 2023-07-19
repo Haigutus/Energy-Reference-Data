@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32X001100100382L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-03-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32X001100100382L" ;
+    cim:IdentifiedObject.name "RITAM-4-TB LTD" ;
+    cim:Names.name "BG123655865",
+        "Balance Responsible Party",
+        "RITAM-4-TB_LTD" ;
+    dcterms:identifier "urn:eic:32X001100100382L" ;
+    schema1:vatID "BG123655865" ;
+    skos:altLabel "RITAM-4-TB_LTD" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "RITAM-4-TB LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

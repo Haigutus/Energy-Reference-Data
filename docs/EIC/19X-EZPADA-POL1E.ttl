@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19X-EZPADA-POL1E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-31" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Trading In Electrical Energy, Including Export And Import." ;
+    cim:IdentifiedObject.mRID "19X-EZPADA-POL1E" ;
+    cim:IdentifiedObject.name "Ezpada S.R.O. SP. z o.o. Oddzial w Polsce" ;
+    cim:Names.name "Balance Responsible Party",
+        "EZPADA_POLSKA_1",
+        "PL1070002648" ;
+    dcterms:identifier "urn:eic:19X-EZPADA-POL1E" ;
+    schema1:vatID "PL1070002648" ;
+    skos:altLabel "EZPADA_POLSKA_1" ;
+    skos:definition "Trading In Electrical Energy, Including Export And Import."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Ezpada S.R.O. SP. z o.o. Oddzial w Polsce" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

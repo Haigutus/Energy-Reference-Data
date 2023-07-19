@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59Z000000000267W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-04-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Metering Point" ;
+    cim:IdentifiedObject.mRID "59Z000000000267W" ;
+    cim:IdentifiedObject.name "PIAZZA ARMERINA" ;
+    cim:Names.name "IT_34943302",
+        "Metering Point" ;
+    dcterms:identifier "urn:eic:59Z000000000267W" ;
+    skos:altLabel "IT_34943302" ;
+    skos:definition "Metering Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PIAZZA ARMERINA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-FR-IT-00002I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-05-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-FR-IT-00002I" ;
+    cim:IdentifiedObject.name "Albertville-Rondissone 2" ;
+    cim:Names.name "Accounting Point",
+        "M_ALBERT-RONDIS2" ;
+    dcterms:identifier "urn:eic:10Z-FR-IT-00002I" ;
+    skos:altLabel "M_ALBERT-RONDIS2" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Albertville-Rondissone 2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

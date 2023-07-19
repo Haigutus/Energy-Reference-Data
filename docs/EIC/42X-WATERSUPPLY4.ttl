@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/42X-WATERSUPPLY4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "The company changed its business name and address. The business register ID is used for VAT code as the company does not have a EU VAT code issued at the moment. Prior to the issuing of the EU VAT code, the company needs to prove some financial turnover which will take period of probably several months and for which the company needs to have e.g. EIC code. The company is registered in Business register of Slovak republic under ID 36 699 624 (https://orsr.sk/hladaj_ico.asp?lan=en&ICO=36+699+624&SID=8) and has also the ACER code: A0018320O.SK" ;
+    cim:IdentifiedObject.mRID "42X-WATERSUPPLY4" ;
+    cim:IdentifiedObject.name "VeCom SK, a.s." ;
+    cim:Names.name "Energy Supplier",
+        "SK2022286453",
+        "Trade Responsible Party",
+        "VECOM" ;
+    dcterms:identifier "urn:eic:42X-WATERSUPPLY4" ;
+    schema1:vatID "SK2022286453" ;
+    skos:altLabel "VECOM" ;
+    skos:definition "The company changed its business name and address. The business register ID is used for VAT code as the company does not have a EU VAT code issued at the moment. Prior to the issuing of the EU VAT code, the company needs to prove some financial turnover which will take period of probably several months and for which the company needs to have e.g. EIC code. The company is registered in Business register of Slovak republic under ID 36 699 624 (https://orsr.sk/hladaj_ico.asp?lan=en&ICO=36+699+624&SID=8) and has also the ACER code: A0018320O.SK"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VeCom SK, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

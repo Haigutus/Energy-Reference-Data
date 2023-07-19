@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000024K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000024K" ;
+    cim:IdentifiedObject.name "APOPI&BLUMEN SRL" ;
+    cim:Names.name "A00047552.RO",
+        "APOPIANDBLUMEN",
+        "RO5386728",
+        "Resource Provider" ;
+    dcterms:identifier "urn:eic:60X000000000024K" ;
+    schema1:vatID "RO5386728" ;
+    skos:altLabel "APOPIANDBLUMEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "APOPI&BLUMEN SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

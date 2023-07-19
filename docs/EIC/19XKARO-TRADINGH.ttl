@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XKARO-TRADINGH> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-31" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Transmission, Distribution And Electricity Trading." ;
+    cim:IdentifiedObject.mRID "19XKARO-TRADINGH" ;
+    cim:IdentifiedObject.name "KARBONIA PL Spolka z o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "KARO",
+        "PL6422630761" ;
+    dcterms:identifier "urn:eic:19XKARO-TRADINGH" ;
+    schema1:vatID "PL6422630761" ;
+    skos:altLabel "KARO" ;
+    skos:definition "Transmission, Distribution And Electricity Trading."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KARBONIA PL Spolka z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

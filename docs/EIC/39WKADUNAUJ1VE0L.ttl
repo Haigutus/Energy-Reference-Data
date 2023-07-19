@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/39WKADUNAUJ1VE0L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "39WKADUNAUJ1VE0L" ;
+    cim:IdentifiedObject.name "Dunaföldvár (Biogáz) virtuális" ;
+    cim:Names.name "DUNABIO-IN",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:39WKADUNAUJ1VE0L" ;
+    skos:altLabel "DUNABIO-IN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Dunaföldvár (Biogáz) virtuális" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

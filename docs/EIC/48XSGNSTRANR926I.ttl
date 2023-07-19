@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48XSGNSTRANR926I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-05-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Operator, System Operator" ;
+    cim:IdentifiedObject.mRID "48XSGNSTRANR926I" ;
+    cim:IdentifiedObject.name "SGN" ;
+    cim:Names.name "GB864416218",
+        "Grid Operator",
+        "SGNSTRANRAER",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:48XSGNSTRANR926I" ;
+    schema1:vatID "GB864416218" ;
+    skos:altLabel "SGNSTRANRAER" ;
+    skos:definition "Grid Operator, System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SGN" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

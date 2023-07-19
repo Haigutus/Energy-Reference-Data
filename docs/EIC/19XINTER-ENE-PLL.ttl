@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XINTER-ENE-PLL> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-31" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Trading Of Electricity On The Polish Market, Export And Import Of Electricity, Supplies Of Power And Electrical Engineering Equipment." ;
+    cim:IdentifiedObject.mRID "19XINTER-ENE-PLL" ;
+    cim:IdentifiedObject.name "Inter Energia Spolka Akcyjna" ;
+    cim:Names.name "Balance Responsible Party",
+        "INTER_ENERGIA_PL",
+        "PL9521811869" ;
+    dcterms:identifier "urn:eic:19XINTER-ENE-PLL" ;
+    schema1:vatID "PL9521811869" ;
+    skos:altLabel "INTER_ENERGIA_PL" ;
+    skos:definition "Trading Of Electricity On The Polish Market, Export And Import Of Electricity, Supplies Of Power And Electrical Engineering Equipment."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Inter Energia Spolka Akcyjna" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

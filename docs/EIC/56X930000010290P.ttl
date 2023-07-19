@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X930000010290P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X930000010290P" ;
+    cim:IdentifiedObject.name "Limited Lability Company \"PROMGAZ UA\"" ;
+    cim:Names.name "417295626595",
+        "Network User",
+        "PROMGAZ_UA_LLC",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X930000010290P" ;
+    schema1:vatID "417295626595" ;
+    skos:altLabel "PROMGAZ_UA_LLC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Limited Lability Company \"PROMGAZ UA\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

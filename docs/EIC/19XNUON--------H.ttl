@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XNUON--------H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-31" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Buying And Selling Power In Europe. Export And Import." ;
+    cim:IdentifiedObject.mRID "19XNUON--------H" ;
+    cim:IdentifiedObject.name "N.V. Nuon Energy Trade & Wholesale" ;
+    cim:Names.name "Balance Responsible Party",
+        "NL806197481B01",
+        "NUON_PL" ;
+    dcterms:identifier "urn:eic:19XNUON--------H" ;
+    schema1:vatID "NL806197481B01" ;
+    skos:altLabel "NUON_PL" ;
+    skos:definition "Buying And Selling Power In Europe. Export And Import."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "N.V. Nuon Energy Trade & Wholesale" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

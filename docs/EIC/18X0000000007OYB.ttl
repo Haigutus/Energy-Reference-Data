@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000007OYB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000007OYB" ;
+    cim:IdentifiedObject.name "eCommerce Business Development SL" ;
+    cim:Names.name "ECBD",
+        "ESB87818662",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:18X0000000007OYB" ;
+    schema1:vatID "ESB87818662" ;
+    skos:altLabel "ECBD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "eCommerce Business Development SL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

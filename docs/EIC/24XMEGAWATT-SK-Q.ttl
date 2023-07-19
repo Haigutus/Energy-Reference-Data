@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XMEGAWATT-SK-Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "24XMEGAWATT-SK-Q" ;
+    cim:IdentifiedObject.name "Megawatt Energie s. r. o." ;
+    cim:Names.name "MEGAWATT-SK",
+        "SK2121323314",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:24XMEGAWATT-SK-Q" ;
+    schema1:vatID "SK2121323314" ;
+    skos:altLabel "MEGAWATT-SK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Megawatt Energie s. r. o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

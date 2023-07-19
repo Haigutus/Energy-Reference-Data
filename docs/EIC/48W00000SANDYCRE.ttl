@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48W00000SANDYCRE> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "48W00000SANDYCRE" ;
+    cim:IdentifiedObject.name "Sandycroft" ;
+    cim:Names.name "Generation Unit",
+        "N_CDSNDY" ;
+    dcterms:identifier "urn:eic:48W00000SANDYCRE" ;
+    skos:altLabel "N_CDSNDY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Sandycroft" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

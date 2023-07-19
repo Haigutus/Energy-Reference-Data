@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPL0000ALCHBTN> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XPL0000ALCHBTN" ;
+    cim:IdentifiedObject.name "'ALCHEMIA' SPÓŁKA AKCYJNA" ;
+    cim:Names.name "ALCHEMIA-OSDN",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PL7470006096",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:19XPL0000ALCHBTN" ;
+    schema1:vatID "PL7470006096" ;
+    skos:altLabel "ALCHEMIA-OSDN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "'ALCHEMIA' SPÓŁKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

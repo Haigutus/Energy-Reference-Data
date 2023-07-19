@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50WG000000016109> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-06-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50WG000000016109" ;
+    cim:IdentifiedObject.name "MOSKOG  G156 HYDRO" ;
+    cim:Names.name "Generation Unit",
+        "NO-MOSKOG__G156_" ;
+    dcterms:identifier "urn:eic:50WG000000016109" ;
+    skos:altLabel "NO-MOSKOG__G156_" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MOSKOG  G156 HYDRO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

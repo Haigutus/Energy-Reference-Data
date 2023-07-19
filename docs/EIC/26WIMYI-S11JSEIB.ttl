@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26WIMYI-S11JSEIB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26WIMYI-S11JSEIB" ;
+    cim:IdentifiedObject.name "IM_S11JSEI" ;
+    cim:Names.name "IM-S11JSEI",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:26WIMYI-S11JSEIB" ;
+    skos:altLabel "IM-S11JSEI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IM_S11JSEI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

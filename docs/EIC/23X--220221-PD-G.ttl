@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--220221-PD-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company registered in Dubai and therefore no VAT ID. The company registration number is used in the VAT field, which is: DMCC184825  Confirmed by the documentation from the Government of Dubai" ;
+    cim:IdentifiedObject.mRID "23X--220221-PD-G" ;
+    cim:IdentifiedObject.name "PRIDEX DMCC" ;
+    cim:Names.name "DMCC184825",
+        "PRIDEX_DMCC",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--220221-PD-G" ;
+    schema1:vatID "DMCC184825" ;
+    skos:altLabel "PRIDEX_DMCC" ;
+    skos:definition "Company registered in Dubai and therefore no VAT ID. The company registration number is used in the VAT field, which is: DMCC184825  Confirmed by the documentation from the Government of Dubai"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PRIDEX DMCC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

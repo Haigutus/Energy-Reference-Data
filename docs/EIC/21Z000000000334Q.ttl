@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z000000000334Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-06-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "21Z000000000334Q" ;
+    cim:IdentifiedObject.name "Sum End-consumers H gas GUD" ;
+    cim:Names.name "Connection Point",
+        "SUM-CON-H-GUD-DE" ;
+    dcterms:identifier "urn:eic:21Z000000000334Q" ;
+    skos:altLabel "SUM-CON-H-GUD-DE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Sum End-consumers H gas GUD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

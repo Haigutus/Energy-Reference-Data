@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XPOLFUELSRL49A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XPOLFUELSRL49A" ;
+    cim:IdentifiedObject.name "POLFUEL SRL " ;
+    cim:Names.name "IT14600441001",
+        "Market Operator",
+        "POLFUELSRL" ;
+    dcterms:identifier "urn:eic:59XPOLFUELSRL49A" ;
+    schema1:vatID "IT14600441001" ;
+    skos:altLabel "POLFUELSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "POLFUEL SRL " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

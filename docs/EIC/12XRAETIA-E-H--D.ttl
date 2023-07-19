@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XRAETIA-E-H--D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-06-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Supplier, Capacity Trader, Producer, Production Responsible Party 2018-06-18 BRP requested" ;
+    cim:IdentifiedObject.mRID "12XRAETIA-E-H--D" ;
+    cim:IdentifiedObject.name "Repower AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE116273260",
+        "Capacity Trader",
+        "Energy Supplier",
+        "Producer",
+        "Production Responsible party",
+        "RE-HANDEL" ;
+    dcterms:identifier "urn:eic:12XRAETIA-E-H--D" ;
+    schema1:vatID "CHE116273260" ;
+    skos:altLabel "RE-HANDEL" ;
+    skos:definition "Balance Supplier, Capacity Trader, Producer, Production Responsible Party 2018-06-18 BRP requested"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Repower AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

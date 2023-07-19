@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/29X10001000100J9",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:29X10001000100J9",
+    "@skos:prefLabel": "KIEFER ENERGY CONSTRUCTIONS INVESTMENTS ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ",
+    "@skos:altLabel": "KIEFERENERGY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "The Company has a valid License as RES Aggregator from the competent authority. The company is also active in the field of development, construction, operation and maintenance of RES projects"
+    },
+    "@cim:IdentifiedObject.mRID": "29X10001000100J9",
+    "@cim:IdentifiedObject.name": "KIEFER ENERGY CONSTRUCTIONS INVESTMENTS ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ",
+    "@cim:Names.name": [
+        "KIEFERENERGY",
+        "EL800953427",
+        "Production Responsible party",
+        "Trade Responsible Party",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "The Company has a valid License as RES Aggregator from the competent authority. The company is also active in the field of development, construction, operation and maintenance of RES projects",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-10-06",
+    "@schema:vatID": "EL800953427",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

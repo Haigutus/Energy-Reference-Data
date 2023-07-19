@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XAGENEL002233T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XAGENEL002233T" ;
+    cim:IdentifiedObject.name "AGENZIA PER L'ENERGIA DELLA PROVINCIA DI CUNEO" ;
+    cim:Names.name "AGENZIAPERLENERG",
+        "Balance Responsible Party",
+        "IT02693930048" ;
+    dcterms:identifier "urn:eic:59XAGENEL002233T" ;
+    schema1:vatID "IT02693930048" ;
+    skos:altLabel "AGENZIAPERLENERG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AGENZIA PER L'ENERGIA DELLA PROVINCIA DI CUNEO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

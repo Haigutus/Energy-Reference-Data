@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WYAN2-12345-AA> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WYAN2-12345-AA" ;
+    cim:IdentifiedObject.name "IBEG" ;
+    cim:Names.name "Generation Unit",
+        "YAN2" ;
+    dcterms:identifier "urn:eic:18WYAN2-12345-AA" ;
+    skos:altLabel "YAN2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IBEG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

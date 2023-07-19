@@ -1,0 +1,41 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--170914-N--Y",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--170914-N--Y",
+    "@skos:prefLabel": "Novatek Gas & Power Asia PTE LTD",
+    "@skos:altLabel": "NOVATEK_GP_ASIA",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "EU VAT not available for Singapure. Company and Tax Registration Number: 201332913W"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--170914-N--Y",
+    "@cim:IdentifiedObject.name": "Novatek Gas & Power Asia PTE LTD",
+    "@cim:Names.name": [
+        "NOVATEK_GP_ASIA",
+        "A0013909S.DE",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "EU VAT not available for Singapure. Company and Tax Registration Number: 201332913W",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-09-14",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

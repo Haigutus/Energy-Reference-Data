@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XALLTRANSSPEE1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-04-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XALLTRANSSPEE1" ;
+    cim:IdentifiedObject.name "ALL TRANS SPEED SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    cim:Names.name "ALLTRANSSPEED",
+        "Balance Responsible Party",
+        "PL7262649018" ;
+    dcterms:identifier "urn:eic:19XALLTRANSSPEE1" ;
+    schema1:vatID "PL7262649018" ;
+    skos:altLabel "ALLTRANSSPEED" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ALL TRANS SPEED SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

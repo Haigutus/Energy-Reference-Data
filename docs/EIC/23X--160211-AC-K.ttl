@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160211-AC-K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-02-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--160211-AC-K" ;
+    cim:IdentifiedObject.name "ARAX Commodities Ltd" ;
+    cim:Names.name "ARAX_COMMODITIES",
+        "GB232281241",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--160211-AC-K" ;
+    schema1:vatID "GB232281241" ;
+    skos:altLabel "ARAX_COMMODITIES" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ARAX Commodities Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

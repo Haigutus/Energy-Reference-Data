@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24X-AMYLUM--SK-D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-07-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Resource Provider" ;
+    cim:IdentifiedObject.mRID "24X-AMYLUM--SK-D" ;
+    cim:IdentifiedObject.name "Amylum Slovakia spol. s.r.o. Boleraz" ;
+    cim:Names.name "AMYLUM-SK",
+        "Resource Provider",
+        "SK2020391461" ;
+    dcterms:identifier "urn:eic:24X-AMYLUM--SK-D" ;
+    schema1:vatID "SK2020391461" ;
+    skos:altLabel "AMYLUM-SK" ;
+    skos:definition "Resource Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Amylum Slovakia spol. s.r.o. Boleraz" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

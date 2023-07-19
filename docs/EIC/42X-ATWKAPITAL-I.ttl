@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/42X-ATWKAPITAL-I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-05-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "42X-ATWKAPITAL-I" ;
+    cim:IdentifiedObject.name "ATW Kapital GmbH" ;
+    cim:Names.name "4120075311",
+        "ATW-KAPITAL-GMBH",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:42X-ATWKAPITAL-I" ;
+    schema1:vatID "4120075311" ;
+    skos:altLabel "ATW-KAPITAL-GMBH" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ATW Kapital GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

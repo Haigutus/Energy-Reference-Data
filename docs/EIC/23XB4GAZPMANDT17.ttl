@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23XB4GAZPMANDT17> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company registration number in UK: 3768267  " ;
+    cim:IdentifiedObject.mRID "23XB4GAZPMANDT17" ;
+    cim:IdentifiedObject.name "SEFE Marketing & Trading Limited" ;
+    cim:Names.name "GB743874502",
+        "SEFE_MT",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23XB4GAZPMANDT17" ;
+    schema1:vatID "GB743874502" ;
+    skos:altLabel "SEFE_MT" ;
+    skos:definition "Company registration number in UK: 3768267  "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SEFE Marketing & Trading Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

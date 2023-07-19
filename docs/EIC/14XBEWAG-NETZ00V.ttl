@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14XBEWAG-NETZ00V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "14XBEWAG-NETZ00V" ;
+    cim:IdentifiedObject.name "Netz Burgenland GmbH" ;
+    cim:Names.name "ATU52319405",
+        "Grid Operator",
+        "NETZBGLDSTROM" ;
+    dcterms:identifier "urn:eic:14XBEWAG-NETZ00V" ;
+    schema1:vatID "ATU52319405" ;
+    skos:altLabel "NETZBGLDSTROM" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Netz Burgenland GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

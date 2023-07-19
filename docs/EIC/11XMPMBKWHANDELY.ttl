@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XMPMBKWHANDELY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-06-03" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XMPMBKWHANDELY" ;
+    cim:IdentifiedObject.name "BKW FMB Energie AG" ;
+    cim:Names.name "BKW-MPM",
+        "Balance Group",
+        "CH120839" ;
+    dcterms:identifier "urn:eic:11XMPMBKWHANDELY" ;
+    schema1:vatID "CH120839" ;
+    skos:altLabel "BKW-MPM" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BKW FMB Energie AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

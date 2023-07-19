@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--190418-KS-T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-04-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company registered in US;  Company registration number: 3437877 Company tax identification number: 48-1251073" ;
+    cim:IdentifiedObject.mRID "23X--190418-KS-T" ;
+    cim:IdentifiedObject.name "KOCH SUPPLY & TRADING, LP" ;
+    cim:Names.name "A0015841G.NL",
+        "KOCHST_LP_USA",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--190418-KS-T" ;
+    skos:altLabel "KOCHST_LP_USA" ;
+    skos:definition "Company registered in US;  Company registration number: 3437877 Company tax identification number: 48-1251073"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KOCH SUPPLY & TRADING, LP" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

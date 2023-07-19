@@ -1,0 +1,18 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/10T1001C--00072T">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:10T1001C--00072T</dcterms:identifier>
+    <skos:prefLabel>Altheim &#8211; Simbach &#8211; Hausruck 234/230/204A BRANCH Hausruck</skos:prefLabel>
+    <skos:altLabel>ASH234230204A-HA</skos:altLabel>
+    <cim:IdentifiedObject.mRID>10T1001C--00072T</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Altheim &#8211; Simbach &#8211; Hausruck 234/230/204A BRANCH Hausruck</cim:IdentifiedObject.name>
+    <cim:Names.name>ASH234230204A-HA</cim:Names.name>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2020-07-14</cim:DateAndOrTime.date>
+    <cim:Names.name>Internal Line</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+  </skos:Concept>
+</rdf:RDF>

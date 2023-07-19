@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/52X000000000045Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "52X000000000045Z" ;
+    cim:IdentifiedObject.name "BP Raffinaderij Rotterdam BV" ;
+    cim:Names.name "BPRAFROT",
+        "Consumer",
+        "NL009755615B01" ;
+    dcterms:identifier "urn:eic:52X000000000045Z" ;
+    schema1:vatID "NL009755615B01" ;
+    skos:altLabel "BPRAFROT" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BP Raffinaderij Rotterdam BV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

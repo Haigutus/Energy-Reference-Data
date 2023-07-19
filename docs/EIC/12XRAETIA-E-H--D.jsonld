@@ -1,0 +1,46 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/12XRAETIA-E-H--D",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:12XRAETIA-E-H--D",
+    "@skos:prefLabel": "Repower AG",
+    "@skos:altLabel": "RE-HANDEL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Balance Supplier, Capacity Trader, Producer, Production Responsible Party 2018-06-18 BRP requested"
+    },
+    "@cim:IdentifiedObject.mRID": "12XRAETIA-E-H--D",
+    "@cim:IdentifiedObject.name": "Repower AG",
+    "@cim:Names.name": [
+        "RE-HANDEL",
+        "CHE116273260",
+        "Producer",
+        "Balance Responsible Party",
+        "Energy Supplier",
+        "Production Responsible party",
+        "Capacity Trader"
+    ],
+    "@cim:IdentifiedObject.description": "Balance Supplier, Capacity Trader, Producer, Production Responsible Party 2018-06-18 BRP requested",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-06-18",
+    "@schema:vatID": "CHE116273260",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

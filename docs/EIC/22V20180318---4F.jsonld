@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/22V20180318---4F",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:22V20180318---4F",
+    "@skos:prefLabel": "Nemo Link ECP Endpoint NDS TST",
+    "@skos:altLabel": "BE_NEMO_LINK_04",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "ECP Endpoint NDS TST"
+    },
+    "@cim:IdentifiedObject.mRID": "22V20180318---4F",
+    "@cim:IdentifiedObject.name": "Nemo Link ECP Endpoint NDS TST",
+    "@cim:Names.name": [
+        "BE_NEMO_LINK_04",
+        "Endpoint"
+    ],
+    "@cim:IdentifiedObject.description": "ECP Endpoint NDS TST",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-03-26",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

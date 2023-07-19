@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z0000000002050> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-04-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Connection Point" ;
+    cim:IdentifiedObject.mRID "21Z0000000002050" ;
+    cim:IdentifiedObject.name "Smolensk (RU) / Belarus (BY)" ;
+    cim:Names.name "Connection Point",
+        "SMOL-RU-BY" ;
+    dcterms:identifier "urn:eic:21Z0000000002050" ;
+    skos:altLabel "SMOL-RU-BY" ;
+    skos:definition "Connection Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Smolensk (RU) / Belarus (BY)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

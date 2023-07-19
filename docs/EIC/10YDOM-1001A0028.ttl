@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10YDOM-1001A0028> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-04-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Border Area" ;
+    cim:IdentifiedObject.mRID "10YDOM-1001A0028" ;
+    cim:IdentifiedObject.name "Market domain Great Britain – the Netherlands" ;
+    cim:Names.name "Border Area",
+        "GB-NL_MARKET" ;
+    dcterms:identifier "urn:eic:10YDOM-1001A0028" ;
+    skos:altLabel "GB-NL_MARKET" ;
+    skos:definition "Border Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Market domain Great Britain – the Netherlands" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

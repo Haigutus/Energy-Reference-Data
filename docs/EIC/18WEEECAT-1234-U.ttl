@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WEEECAT-1234-U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WEEECAT-1234-U" ;
+    cim:IdentifiedObject.name "ENERGÍAS EÓLICAS DE CATALUNYA ( E )" ;
+    cim:Names.name "Production Unit",
+        "VILOBI" ;
+    dcterms:identifier "urn:eic:18WEEECAT-1234-U" ;
+    skos:altLabel "VILOBI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGÍAS EÓLICAS DE CATALUNYA ( E )" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

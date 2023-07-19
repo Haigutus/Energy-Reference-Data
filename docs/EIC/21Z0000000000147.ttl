@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z0000000000147> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2005-09-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Connection Point" ;
+    cim:IdentifiedObject.mRID "21Z0000000000147" ;
+    cim:IdentifiedObject.name "Petange - BE / Athus - LU" ;
+    cim:Names.name "Connection Point",
+        "PETAN-BE-LU" ;
+    dcterms:identifier "urn:eic:21Z0000000000147" ;
+    skos:altLabel "PETAN-BE-LU" ;
+    skos:definition "Connection Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Petange - BE / Athus - LU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XEON-H-SK----P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-13" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "24XEON-H-SK----P" ;
+    cim:IdentifiedObject.name "E.ON Energy Trading AG, organizacna zlozka" ;
+    cim:Names.name "EON-OZ",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:24XEON-H-SK----P" ;
+    skos:altLabel "EON-OZ" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E.ON Energy Trading AG, organizacna zlozka" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

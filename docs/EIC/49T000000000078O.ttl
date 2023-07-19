@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49T000000000078O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "System Operator" ;
+    cim:IdentifiedObject.mRID "49T000000000078O" ;
+    cim:IdentifiedObject.name "Eemshaven-Meeden 380kV Dwarsregeltrafo wit" ;
+    cim:Names.name "DRT-W-MEEDEN",
+        "Flow Control Station" ;
+    dcterms:identifier "urn:eic:49T000000000078O" ;
+    skos:altLabel "DRT-W-MEEDEN" ;
+    skos:definition "System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Eemshaven-Meeden 380kV Dwarsregeltrafo wit" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

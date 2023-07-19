@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XHIGUE-12345-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-02-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XHIGUE-12345-A" ;
+    cim:IdentifiedObject.name "SISTEMAS ENERGÉTICOS LA HIGUERA S.A." ;
+    cim:Names.name "ESA91197152",
+        "HIGUE",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XHIGUE-12345-A" ;
+    schema1:vatID "ESA91197152" ;
+    skos:altLabel "HIGUE" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SISTEMAS ENERGÉTICOS LA HIGUERA S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

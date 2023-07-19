@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XFMM---------T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Centrale Hydraulique De Production Électrique" ;
+    cim:IdentifiedObject.mRID "12XFMM---------T" ;
+    cim:IdentifiedObject.name "Forces Motrices de Mauvoisin S.A." ;
+    cim:Names.name "CH247324",
+        "FMM",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XFMM---------T" ;
+    schema1:vatID "CH247324" ;
+    skos:altLabel "FMM" ;
+    skos:definition "Centrale Hydraulique De Production Électrique"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Forces Motrices de Mauvoisin S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

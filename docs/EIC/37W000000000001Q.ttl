@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37W000000000001Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Resource Object" ;
+    cim:IdentifiedObject.mRID "37W000000000001Q" ;
+    cim:IdentifiedObject.name "UGS Eschenfelden" ;
+    cim:Names.name "ESCHENFELDEN-NAG",
+        "Resource Object" ;
+    dcterms:identifier "urn:eic:37W000000000001Q" ;
+    skos:altLabel "ESCHENFELDEN-NAG" ;
+    skos:definition "Resource Object"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UGS Eschenfelden" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

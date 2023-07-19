@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-E-OS-HUN---5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-26" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "15X-E-OS-HUN---5" ;
+    cim:IdentifiedObject.name "E-OS Energiakereskedő és Szolgáltató Zrt." ;
+    cim:Names.name "Balance Responsible Party",
+        "E-OS-HUN-BC",
+        "HU13857424" ;
+    dcterms:identifier "urn:eic:15X-E-OS-HUN---5" ;
+    schema1:vatID "HU13857424" ;
+    skos:altLabel "E-OS-HUN-BC" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E-OS Energiakereskedő és Szolgáltató Zrt." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

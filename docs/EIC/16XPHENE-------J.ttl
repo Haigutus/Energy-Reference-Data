@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XPHENE-------J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-12-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "16XPHENE-------J" ;
+    cim:IdentifiedObject.name "PH Energia, Lda" ;
+    cim:Names.name "PHENE",
+        "PT513239731",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XPHENE-------J" ;
+    schema1:vatID "PT513239731" ;
+    skos:altLabel "PHENE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PH Energia, Lda" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

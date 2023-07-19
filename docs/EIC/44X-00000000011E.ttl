@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44X-00000000011E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer, Producer" ;
+    cim:IdentifiedObject.mRID "44X-00000000011E" ;
+    cim:IdentifiedObject.name "UPM Paper ENA Oy" ;
+    cim:Names.name "44UPMPAPERENA",
+        "Consumer",
+        "FI27606416",
+        "Producer" ;
+    dcterms:identifier "urn:eic:44X-00000000011E" ;
+    schema1:vatID "FI27606416" ;
+    skos:altLabel "44UPMPAPERENA" ;
+    skos:definition "Consumer, Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UPM Paper ENA Oy" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

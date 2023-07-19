@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/14XAPG-ENGPASS-B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-09-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "14XAPG-ENGPASS-B" ;
+    cim:IdentifiedObject.name "Austrian Power Grid AG" ;
+    cim:Names.name "APG-ENGPASS",
+        "ATU46061602",
+        "Balance Group" ;
+    dcterms:identifier "urn:eic:14XAPG-ENGPASS-B" ;
+    schema1:vatID "ATU46061602" ;
+    skos:altLabel "APG-ENGPASS" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Austrian Power Grid AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

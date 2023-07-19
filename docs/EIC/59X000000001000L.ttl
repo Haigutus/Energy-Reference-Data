@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X000000001000L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-11-23" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "59X000000001000L" ;
+    cim:IdentifiedObject.name "EGEA COMMERCIALE S.R.L." ;
+    cim:Names.name "EGEACOMMERCIALE",
+        "IT02439760162" ;
+    dcterms:identifier "urn:eic:59X000000001000L" ;
+    schema1:vatID "IT02439760162" ;
+    skos:altLabel "EGEACOMMERCIALE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EGEA COMMERCIALE S.R.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

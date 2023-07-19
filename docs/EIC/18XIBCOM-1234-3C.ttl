@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XIBCOM-1234-3C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XIBCOM-1234-3C" ;
+    cim:IdentifiedObject.name "IBERDROLA, S.A. (ACTIVIDAD: COMERCIALIZACIÓN)" ;
+    cim:Names.name "ESA48010615",
+        "IBCOM",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XIBCOM-1234-3C" ;
+    schema1:vatID "ESA48010615" ;
+    skos:altLabel "IBCOM" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IBERDROLA, S.A. (ACTIVIDAD: COMERCIALIZACIÓN)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

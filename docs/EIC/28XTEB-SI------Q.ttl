@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28XTEB-SI------Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-06-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "28XTEB-SI------Q" ;
+    cim:IdentifiedObject.name "TERMOELEKTRARNA BRESTANICA d.o.o." ;
+    cim:Names.name "Producer",
+        "SI49407783",
+        "TEB" ;
+    dcterms:identifier "urn:eic:28XTEB-SI------Q" ;
+    schema1:vatID "SI49407783" ;
+    skos:altLabel "TEB" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TERMOELEKTRARNA BRESTANICA d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

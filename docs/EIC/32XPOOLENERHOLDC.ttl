@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/32XPOOLENERHOLDC> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2007-04-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "32XPOOLENERHOLDC" ;
+    cim:IdentifiedObject.name "POOL ENER HOLD Ltd." ;
+    cim:Names.name "Balance Responsible Party",
+        "CY10173572M",
+        "POOL_ENER_HOLD" ;
+    dcterms:identifier "urn:eic:32XPOOLENERHOLDC" ;
+    schema1:vatID "CY10173572M" ;
+    skos:altLabel "POOL_ENER_HOLD" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "POOL ENER HOLD Ltd." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

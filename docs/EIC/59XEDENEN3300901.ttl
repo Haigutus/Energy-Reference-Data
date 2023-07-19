@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XEDENEN3300901> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XEDENEN3300901" ;
+    cim:IdentifiedObject.name "59XEDENEN3300901" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE488468692",
+        "EDENENERGY" ;
+    dcterms:identifier "urn:eic:59XEDENEN3300901" ;
+    schema1:vatID "CHE488468692" ;
+    skos:altLabel "EDENENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "59XEDENEN3300901" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

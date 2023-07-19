@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33W-VECBOGDANCII> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-07-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33W-VECBOGDANCII" ;
+    cim:IdentifiedObject.name "AD ESM VEC BOGDANCI" ;
+    cim:Names.name "Generation Unit",
+        "VEC_BOGDANCI_GEN" ;
+    dcterms:identifier "urn:eic:33W-VECBOGDANCII" ;
+    skos:altLabel "VEC_BOGDANCI_GEN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AD ESM VEC BOGDANCI" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

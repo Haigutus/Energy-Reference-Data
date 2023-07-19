@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/25X-ENGASOILTRAN> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-10-29" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Deactivation because organisation does not exist anymore - IO" ;
+    cim:IdentifiedObject.mRID "25X-ENGASOILTRAN" ;
+    cim:IdentifiedObject.name "EN Gas & Oil Trading SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE432500510",
+        "ENGASOILTRADING" ;
+    dcterms:identifier "urn:eic:25X-ENGASOILTRAN" ;
+    schema1:vatID "CHE432500510" ;
+    skos:altLabel "ENGASOILTRADING" ;
+    skos:definition "Deactivation because organisation does not exist anymore - IO"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EN Gas & Oil Trading SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/10Y1001C--00146U">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:10Y1001C--00146U</dcterms:identifier>
+    <skos:prefLabel>Nordic Synchronous Area</skos:prefLabel>
+    <skos:altLabel>NORDIC_SYNC_AREA</skos:altLabel>
+    <skos:definition xml:lang="en">The Nordic Market Area contains areas in two different synchronous areas. With the introduction of the Nordic aFRR market there is a need for a new are for only the Nordic synchronous area. This new area consists of the bidding zones NO1,NO2,NO3,NO4,NO5,SE1,SE2,SE3,SE4,FI and DK2.</skos:definition>
+    <cim:IdentifiedObject.mRID>10Y1001C--00146U</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Nordic Synchronous Area</cim:IdentifiedObject.name>
+    <cim:Names.name>NORDIC_SYNC_AREA</cim:Names.name>
+    <cim:IdentifiedObject.description>The Nordic Market Area contains areas in two different synchronous areas. With the introduction of the Nordic aFRR market there is a need for a new are for only the Nordic synchronous area. This new area consists of the bidding zones NO1,NO2,NO3,NO4,NO5,SE1,SE2,SE3,SE4,FI and DK2.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2022-05-12</cim:DateAndOrTime.date>
+    <cim:Names.name>Synchronous Area</cim:Names.name>
+    <cim:Names.name>Bidding Zone</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+  </skos:Concept>
+</rdf:RDF>

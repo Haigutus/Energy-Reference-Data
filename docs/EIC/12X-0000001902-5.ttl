@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001902-5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party Balance Supplier Balance Group" ;
+    cim:IdentifiedObject.mRID "12X-0000001902-5" ;
+    cim:IdentifiedObject.name "Energy Trading International Suisse SA" ;
+    cim:Names.name "CHE444869850",
+        "ETIS-SA-ST",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12X-0000001902-5" ;
+    schema1:vatID "CHE444869850" ;
+    skos:altLabel "ETIS-SA-ST" ;
+    skos:definition "Balance Responsible Party Balance Supplier Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energy Trading International Suisse SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

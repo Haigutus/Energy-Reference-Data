@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000JNUB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000JNUB" ;
+    cim:IdentifiedObject.name "ICTIO SOLAR, S.L.U. " ;
+    cim:Names.name "ES-ICTIB",
+        "ESB87744504",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18X000000000JNUB" ;
+    schema1:vatID "ESB87744504" ;
+    skos:altLabel "ES-ICTIB" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ICTIO SOLAR, S.L.U. " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

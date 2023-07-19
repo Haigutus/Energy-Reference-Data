@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37Z000000007480M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-08-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Connection Point" ;
+    cim:IdentifiedObject.mRID "37Z000000007480M" ;
+    cim:IdentifiedObject.name "OSW 1_AG 916A" ;
+    cim:Names.name "37Z000000007480M",
+        "Connection Point" ;
+    dcterms:identifier "urn:eic:37Z000000007480M" ;
+    skos:altLabel "37Z000000007480M" ;
+    skos:definition "Connection Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OSW 1_AG 916A" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

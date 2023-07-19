@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000000013744E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Fournisseur d'électricité intelligente" ;
+    cim:IdentifiedObject.mRID "17X000000013744E" ;
+    cim:IdentifiedObject.name "INTEGRATED SOLUTIONS" ;
+    cim:Names.name "Balance Responsible Party",
+        "Distribution System Operator",
+        "FR88809190192",
+        "FR_INHOME_LEANRG",
+        "Market Operator",
+        "Metered Data Aggregator",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:17X000000013744E" ;
+    schema1:vatID "FR88809190192" ;
+    skos:altLabel "FR_INHOME_LEANRG" ;
+    skos:definition "Fournisseur d'électricité intelligente"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "INTEGRATED SOLUTIONS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

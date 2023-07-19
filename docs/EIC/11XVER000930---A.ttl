@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XVER000930---A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-02-10" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XVER000930---A" ;
+    cim:IdentifiedObject.name "Stadtwerke Suhl/ Zella-Mehlis Netz GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE255520665",
+        "SWSZNETZVER" ;
+    dcterms:identifier "urn:eic:11XVER000930---A" ;
+    schema1:vatID "DE255520665" ;
+    skos:altLabel "SWSZNETZVER" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Suhl/ Zella-Mehlis Netz GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

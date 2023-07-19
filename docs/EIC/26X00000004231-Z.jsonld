@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/26X00000004231-Z",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:26X00000004231-Z",
+    "@skos:prefLabel": "C. E. R.  Consorzio Energie Rinnovabili S. c. a r. l.",
+    "@skos:altLabel": "CER_SCARL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Grossista, Richiesta Per Assegnazione Capacita Di Trasporto Transfrontaliera, Partecipazione Import/Export, Importazione Per Clienti Finali"
+    },
+    "@cim:IdentifiedObject.mRID": "26X00000004231-Z",
+    "@cim:IdentifiedObject.name": "C. E. R.  Consorzio Energie Rinnovabili S. c. a r. l.",
+    "@cim:Names.name": [
+        "CER_SCARL",
+        "02118330428",
+        "Balance Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Grossista, Richiesta Per Assegnazione Capacita Di Trasporto Transfrontaliera, Partecipazione Import/Export, Importazione Per Clienti Finali",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@schema:vatID": "02118330428",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

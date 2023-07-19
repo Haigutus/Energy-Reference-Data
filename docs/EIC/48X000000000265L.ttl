@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48X000000000265L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "No post code provided" ;
+    cim:IdentifiedObject.mRID "48X000000000265L" ;
+    cim:IdentifiedObject.name "Citadel Energy Investments Ltd" ;
+    cim:Names.name "CITADELENERGY",
+        "CR182799",
+        "Capacity Trader",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:48X000000000265L" ;
+    schema1:vatID "CR182799" ;
+    skos:altLabel "CITADELENERGY" ;
+    skos:definition "No post code provided"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Citadel Energy Investments Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

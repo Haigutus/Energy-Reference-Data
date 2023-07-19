@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X-UTILITY1---Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11X-UTILITY1---Y" ;
+    cim:IdentifiedObject.name "Shell Energy Retail GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE815563371",
+        "UTILTIY" ;
+    dcterms:identifier "urn:eic:11X-UTILITY1---Y" ;
+    schema1:vatID "DE815563371" ;
+    skos:altLabel "UTILTIY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Shell Energy Retail GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

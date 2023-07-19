@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62X112392689751K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62X112392689751K" ;
+    cim:IdentifiedObject.name "TOV UkrTranslit" ;
+    cim:Names.name "Consumption Responsible Party",
+        "UA385301104644",
+        "UKRTRANSLIT" ;
+    dcterms:identifier "urn:eic:62X112392689751K" ;
+    schema1:vatID "UA385301104644" ;
+    skos:altLabel "UKRTRANSLIT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TOV UkrTranslit" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

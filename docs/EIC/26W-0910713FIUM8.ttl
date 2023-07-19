@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26W-0910713FIUM8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "IM_0910713UP_FIUMESANTO_7" ;
+    cim:IdentifiedObject.mRID "26W-0910713FIUM8" ;
+    cim:IdentifiedObject.name "IM_0910713UP_FIUMESANTO_7" ;
+    cim:Names.name "910713_39822",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:26W-0910713FIUM8" ;
+    skos:altLabel "910713_39822" ;
+    skos:definition "IM_0910713UP_FIUMESANTO_7"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "IM_0910713UP_FIUMESANTO_7" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10XMK-MEPSO----M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Transmission System Operator" ;
+    cim:IdentifiedObject.mRID "10XMK-MEPSO----M" ;
+    cim:IdentifiedObject.name "MEPSO - Operator na elektroprenosniot sistem na Makedonija. AD. vo dr" ;
+    cim:Names.name "AD_MEPSO",
+        "MK403000452960",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:10XMK-MEPSO----M" ;
+    schema1:vatID "MK403000452960" ;
+    skos:altLabel "AD_MEPSO" ;
+    skos:definition "Transmission System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MEPSO - Operator na elektroprenosniot sistem na Makedonija. AD. vo dr" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

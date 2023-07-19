@@ -1,0 +1,23 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/29X10001000100EJ">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:29X10001000100EJ</dcterms:identifier>
+    <skos:prefLabel>&#917;&#923;&#921;&#925; &#914;&#917;&#929;&#925;&#932; &#913;&#925;&#937;&#925;&#933;&#924;&#919; &#917;&#932;&#913;&#921;&#929;&#917;&#921;&#913; &#913;&#917;&#921;&#934;&#927;&#929;&#937;&#925; &#928;&#929;&#927;&#921;&#927;&#925;&#932;&#937;&#925; &#922;&#913;&#921; &#933;&#928;&#919;&#929;&#917;&#931;&#921;&#937;&#925;</skos:prefLabel>
+    <skos:altLabel>VERD</skos:altLabel>
+    <skos:definition xml:lang="en">&#917;&#923;&#921;&#925; &#914;&#917;&#929;&#925;&#932; &#913;&#925;&#937;&#925;&#933;&#924;&#919; &#917;&#932;&#913;&#921;&#929;&#917;&#921;&#913; &#913;&#917;&#921;&#934;&#927;&#929;&#937;&#925; &#928;&#929;&#927;&#921;&#927;&#925;&#932;&#937;&#925; &#922;&#913;&#921; &#933;&#928;&#919;&#929;&#917;&#931;&#921;&#937;&#925;/   Elin Verd S.A. Sustainable Products &amp; Services.   Energy Trader.   RES Aggregator.</skos:definition>
+    <cim:IdentifiedObject.mRID>29X10001000100EJ</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>&#917;&#923;&#921;&#925; &#914;&#917;&#929;&#925;&#932; &#913;&#925;&#937;&#925;&#933;&#924;&#919; &#917;&#932;&#913;&#921;&#929;&#917;&#921;&#913; &#913;&#917;&#921;&#934;&#927;&#929;&#937;&#925; &#928;&#929;&#927;&#921;&#927;&#925;&#932;&#937;&#925; &#922;&#913;&#921; &#933;&#928;&#919;&#929;&#917;&#931;&#921;&#937;&#925;</cim:IdentifiedObject.name>
+    <cim:Names.name>VERD</cim:Names.name>
+    <cim:Names.name>A0017260L.GR</cim:Names.name>
+    <cim:Names.name>EL999081902</cim:Names.name>
+    <cim:IdentifiedObject.description>&#917;&#923;&#921;&#925; &#914;&#917;&#929;&#925;&#932; &#913;&#925;&#937;&#925;&#933;&#924;&#919; &#917;&#932;&#913;&#921;&#929;&#917;&#921;&#913; &#913;&#917;&#921;&#934;&#927;&#929;&#937;&#925; &#928;&#929;&#927;&#921;&#927;&#925;&#932;&#937;&#925; &#922;&#913;&#921; &#933;&#928;&#919;&#929;&#917;&#931;&#921;&#937;&#925;/   Elin Verd S.A. Sustainable Products &amp; Services.   Energy Trader.   RES Aggregator.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2020-11-02</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>EL999081902</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

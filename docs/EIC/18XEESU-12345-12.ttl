@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XEESU-12345-12> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XEESU-12345-12" ;
+    cim:IdentifiedObject.name "EXPLOTACIONES EOLICAS SIERRA DE UTRERA" ;
+    cim:Names.name "EESU",
+        "ESB81652935",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XEESU-12345-12" ;
+    schema1:vatID "ESB81652935" ;
+    skos:altLabel "EESU" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EXPLOTACIONES EOLICAS SIERRA DE UTRERA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

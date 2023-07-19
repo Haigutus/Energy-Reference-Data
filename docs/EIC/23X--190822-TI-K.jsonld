@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--190822-TI-K",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--190822-TI-K",
+    "@skos:prefLabel": "TRANSPACIFIC INVESTMENT GROUP PTE LTD",
+    "@skos:altLabel": "TRANSPACIFIC_IG",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "The company is registered in Singapore where VAT is not applicable, only registration number. Company Registration Number: 200917747M Confirmed by an official excerpt from Accounting and Corporate Regulatory Authority (ACRA)"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--190822-TI-K",
+    "@cim:IdentifiedObject.name": "TRANSPACIFIC INVESTMENT GROUP PTE LTD",
+    "@cim:Names.name": [
+        "TRANSPACIFIC_IG",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "The company is registered in Singapore where VAT is not applicable, only registration number. Company Registration Number: 200917747M Confirmed by an official excerpt from Accounting and Corporate Regulatory Authority (ACRA)",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-08-22",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

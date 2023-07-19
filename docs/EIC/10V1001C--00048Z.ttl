@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--00048Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Code required for common Baltic RSC" ;
+    cim:IdentifiedObject.mRID "10V1001C--00048Z" ;
+    cim:IdentifiedObject.name "Baltic RCC OPDM Client [Production ENV]" ;
+    cim:Names.name "BALTIC_OPDM_PRO",
+        "Endpoint" ;
+    dcterms:identifier "urn:eic:10V1001C--00048Z" ;
+    skos:altLabel "BALTIC_OPDM_PRO" ;
+    skos:definition "Code required for common Baltic RSC"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Baltic RCC OPDM Client [Production ENV]" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

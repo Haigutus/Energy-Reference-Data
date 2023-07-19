@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XHGC-GRETNA--V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XHGC-GRETNA--V" ;
+    cim:IdentifiedObject.name "HGC GRETNA INVESTMENTS SP ZOO SJ" ;
+    cim:Names.name "Energy Supplier",
+        "HGC",
+        "PL5272374935" ;
+    dcterms:identifier "urn:eic:19XHGC-GRETNA--V" ;
+    schema1:vatID "PL5272374935" ;
+    skos:altLabel "HGC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HGC GRETNA INVESTMENTS SP ZOO SJ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

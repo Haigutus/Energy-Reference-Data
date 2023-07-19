@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCNTS--1234-30> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-02-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XCNTS--1234-30" ;
+    cim:IdentifiedObject.name "ELECTRADISTRIBUCIÓ CENTELLES S.L.U." ;
+    cim:Names.name "CNTS",
+        "ESB62418983",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XCNTS--1234-30" ;
+    schema1:vatID "ESB62418983" ;
+    skos:altLabel "CNTS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRADISTRIBUCIÓ CENTELLES S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

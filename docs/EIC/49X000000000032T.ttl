@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49X000000000032T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-07-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "49X000000000032T" ;
+    cim:IdentifiedObject.name "AZN Power BV" ;
+    cim:Names.name "AZN_POWER_BV",
+        "Capacity Trader",
+        "NL855038573B01" ;
+    dcterms:identifier "urn:eic:49X000000000032T" ;
+    schema1:vatID "NL855038573B01" ;
+    skos:altLabel "AZN_POWER_BV" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AZN Power BV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

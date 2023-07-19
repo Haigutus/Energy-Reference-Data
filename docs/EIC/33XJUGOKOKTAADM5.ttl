@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XJUGOKOKTAADM5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-09-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33XJUGOKOKTAADM5" ;
+    cim:IdentifiedObject.name "DTGM Jugokokta DOO Shtip" ;
+    cim:Names.name "4029992102740",
+        "JUGOKOKTA",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:33XJUGOKOKTAADM5" ;
+    schema1:vatID "4029992102740" ;
+    skos:altLabel "JUGOKOKTA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DTGM Jugokokta DOO Shtip" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XONE-123456-6M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-11-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XONE-123456-6M" ;
+    cim:IdentifiedObject.name "OFFICE NATIONAL DE L'ELECTRICITÉ" ;
+    cim:Names.name "MA1085135",
+        "ONE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XONE-123456-6M" ;
+    schema1:vatID "MA1085135" ;
+    skos:altLabel "ONE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OFFICE NATIONAL DE L'ELECTRICITÉ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

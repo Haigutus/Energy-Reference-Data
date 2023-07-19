@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XRWB---------M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Regionales Energieversorgungsunternehmen (Elektrizitã¤T, Erdgas, Fernwã¤Rme Und Trinkwasser Mit Umfassendem Dienstleisstungsangebot)" ;
+    cim:IdentifiedObject.mRID "12XRWB---------M" ;
+    cim:IdentifiedObject.name "Regionalwerke AG Baden" ;
+    cim:Names.name "CH472312",
+        "RWB",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XRWB---------M" ;
+    schema1:vatID "CH472312" ;
+    skos:altLabel "RWB" ;
+    skos:definition "Regionales Energieversorgungsunternehmen (Elektrizitã¤T, Erdgas, Fernwã¤Rme Und Trinkwasser Mit Umfassendem Dienstleisstungsangebot)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Regionalwerke AG Baden" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

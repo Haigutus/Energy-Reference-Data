@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/38X-AVP-5R5300E7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-09-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "38X-AVP-5R5300E7" ;
+    cim:IdentifiedObject.name "Utilitas Tallinn AS" ;
+    cim:Names.name "A0009888J.EE",
+        "Consumer",
+        "EE101605728",
+        "EE_UTILITASTLN" ;
+    dcterms:identifier "urn:eic:38X-AVP-5R5300E7" ;
+    schema1:vatID "EE101605728" ;
+    skos:altLabel "EE_UTILITASTLN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Utilitas Tallinn AS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

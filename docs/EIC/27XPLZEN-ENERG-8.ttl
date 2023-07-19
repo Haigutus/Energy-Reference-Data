@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XPLZEN-ENERG-8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-11-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "27XPLZEN-ENERG-8" ;
+    cim:IdentifiedObject.name "Plzenska energetika, a.s." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ27411991",
+        "PLZEN-ENERG" ;
+    dcterms:identifier "urn:eic:27XPLZEN-ENERG-8" ;
+    schema1:vatID "CZ27411991" ;
+    skos:altLabel "PLZEN-ENERG" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Plzenska energetika, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

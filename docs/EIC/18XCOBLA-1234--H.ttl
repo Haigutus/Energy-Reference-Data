@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCOBLA-1234--H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-05-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Access Provider" ;
+    cim:IdentifiedObject.mRID "18XCOBLA-1234--H" ;
+    cim:IdentifiedObject.name "ELECTRICAS COLLADO BLANCO, S.L." ;
+    cim:Names.name "COBLA",
+        "ESF12571360",
+        "Grid Access Provider" ;
+    dcterms:identifier "urn:eic:18XCOBLA-1234--H" ;
+    schema1:vatID "ESF12571360" ;
+    skos:altLabel "COBLA" ;
+    skos:definition "Grid Access Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRICAS COLLADO BLANCO, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

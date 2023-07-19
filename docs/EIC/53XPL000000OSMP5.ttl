@@ -1,0 +1,35 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000OSMP5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-05-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer, Metered Point Operator, Network User, Party Connected To Grid, Storage System Operator" ;
+    cim:IdentifiedObject.mRID "53XPL000000OSMP5" ;
+    cim:IdentifiedObject.name "Gas Storage Poland sp. z o.o." ;
+    cim:Names.name "Consumer",
+        "GSP",
+        "Information Provider",
+        "Meter Administrator",
+        "Metered Data Aggregator",
+        "Metered Data Responsible",
+        "Metering Point Administrator",
+        "Metering Point Operator",
+        "Network User",
+        "Nomination Validator",
+        "PL5272643619",
+        "Party Connected To Grid",
+        "Storage System Operator" ;
+    dcterms:identifier "urn:eic:53XPL000000OSMP5" ;
+    schema1:vatID "PL5272643619" ;
+    skos:altLabel "GSP" ;
+    skos:definition "Consumer, Metered Point Operator, Network User, Party Connected To Grid, Storage System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Gas Storage Poland sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

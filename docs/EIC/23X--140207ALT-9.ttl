@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--140207ALT-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-02-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--140207ALT-9" ;
+    cim:IdentifiedObject.name "Airtricity Limited" ;
+    cim:Names.name "AIRTRICITY_LTD",
+        "IE6337386I",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--140207ALT-9" ;
+    schema1:vatID "IE6337386I" ;
+    skos:altLabel "AIRTRICITY_LTD" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Airtricity Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

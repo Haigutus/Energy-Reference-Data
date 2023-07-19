@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XNORDHORNVBV7V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-06-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XNORDHORNVBV7V" ;
+    cim:IdentifiedObject.name "nvb Nordhorner Versorgungsbetriebe GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE117036559",
+        "NVB-3" ;
+    dcterms:identifier "urn:eic:11XNORDHORNVBV7V" ;
+    schema1:vatID "DE117036559" ;
+    skos:altLabel "NVB-3" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "nvb Nordhorner Versorgungsbetriebe GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

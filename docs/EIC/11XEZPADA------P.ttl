@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEZPADA------P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XEZPADA------P" ;
+    cim:IdentifiedObject.name "Ezpada AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE110624390",
+        "EZPADA_AG" ;
+    dcterms:identifier "urn:eic:11XEZPADA------P" ;
+    schema1:vatID "CHE110624390" ;
+    skos:altLabel "EZPADA_AG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Ezpada AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XROELSID-----I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-09-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "30XROELSID-----I" ;
+    cim:IdentifiedObject.name "ELSID SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "RO943038",
+        "RO_ELSID" ;
+    dcterms:identifier "urn:eic:30XROELSID-----I" ;
+    schema1:vatID "RO943038" ;
+    skos:altLabel "RO_ELSID" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELSID SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

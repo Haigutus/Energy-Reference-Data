@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XITLYGRNPWR111> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XITLYGRNPWR111" ;
+    cim:IdentifiedObject.name "ITALY GREEN POWER SRL" ;
+    cim:Names.name "Grid Operator",
+        "IT14106681001",
+        "ITLYGRNPWR" ;
+    dcterms:identifier "urn:eic:59XITLYGRNPWR111" ;
+    schema1:vatID "IT14106681001" ;
+    skos:altLabel "ITLYGRNPWR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ITALY GREEN POWER SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

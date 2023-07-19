@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45W0000000001676> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45W0000000001676" ;
+    cim:IdentifiedObject.name "Dansk Salt elkedel" ;
+    cim:Names.name "DK_DANSKSALT",
+        "Load" ;
+    dcterms:identifier "urn:eic:45W0000000001676" ;
+    skos:altLabel "DK_DANSKSALT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Dansk Salt elkedel" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

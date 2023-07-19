@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64XSDENERGY--F4X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-10-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "In accordance with ANRE licence nr.001446 from 17/03/2020" ;
+    cim:IdentifiedObject.mRID "64XSDENERGY--F4X" ;
+    cim:IdentifiedObject.name "S.R.L. \"SD Energy Engineering Group\"" ;
+    cim:Names.name "6701615",
+        "Balance Responsible Party",
+        "SDENERGY_F",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:64XSDENERGY--F4X" ;
+    schema1:vatID "6701615" ;
+    skos:altLabel "SDENERGY_F" ;
+    skos:definition "In accordance with ANRE licence nr.001446 from 17/03/2020"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "S.R.L. \"SD Energy Engineering Group\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

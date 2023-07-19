@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XMSM-1234567-1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XMSM-1234567-1" ;
+    cim:IdentifiedObject.name "MINERA DE SANTA MARTA, S.A." ;
+    cim:Names.name "ESA28936441",
+        "MSM",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XMSM-1234567-1" ;
+    schema1:vatID "ESA28936441" ;
+    skos:altLabel "MSM" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MINERA DE SANTA MARTA, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

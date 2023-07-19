@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34X-0000000097-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "34X-0000000097-H" ;
+    cim:IdentifiedObject.name "HIFAOIL ENERGY TEAM DOO" ;
+    cim:Names.name "113486692",
+        "HIFA",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:34X-0000000097-H" ;
+    schema1:vatID "113486692" ;
+    skos:altLabel "HIFA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HIFAOIL ENERGY TEAM DOO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

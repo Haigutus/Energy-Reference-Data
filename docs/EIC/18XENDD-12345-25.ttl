@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XENDD-12345-25> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XENDD-12345-25" ;
+    cim:IdentifiedObject.name "E-DISTRIBUCIÓN REDES DIGITALES, S.L.U." ;
+    cim:Names.name "END_D",
+        "ESB82846817",
+        "Grid Access Provider" ;
+    dcterms:identifier "urn:eic:18XENDD-12345-25" ;
+    schema1:vatID "ESB82846817" ;
+    skos:altLabel "END_D" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "E-DISTRIBUCIÓN REDES DIGITALES, S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

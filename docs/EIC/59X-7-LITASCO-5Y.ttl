@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X-7-LITASCO-5Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-04-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "VAT Code NON-EU (Swiss VAT): CHE100738922" ;
+    cim:IdentifiedObject.mRID "59X-7-LITASCO-5Y" ;
+    cim:IdentifiedObject.name "Litasco SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "CHE10073892",
+        "LITASCO" ;
+    dcterms:identifier "urn:eic:59X-7-LITASCO-5Y" ;
+    schema1:vatID "CHE10073892" ;
+    skos:altLabel "LITASCO" ;
+    skos:definition "VAT Code NON-EU (Swiss VAT): CHE100738922"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Litasco SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

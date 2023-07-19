@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/21Z0000000004774",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:21Z0000000004774",
+    "@skos:prefLabel": "Drohne NOWAL ",
+    "@skos:altLabel": "DROHNE",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Interconnection point between GASCADE and OGE with the name “Drohne-NOWAL”. Per definition it will be a relevant point as it is a connection between two market areas"
+    },
+    "@cim:IdentifiedObject.mRID": "21Z0000000004774",
+    "@cim:IdentifiedObject.name": "Drohne NOWAL ",
+    "@cim:Names.name": [
+        "DROHNE",
+        "Connection Point"
+    ],
+    "@cim:IdentifiedObject.description": "Interconnection point between GASCADE and OGE with the name “Drohne-NOWAL”. Per definition it will be a relevant point as it is a connection between two market areas",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-12-14",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

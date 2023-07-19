@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10YCB-SI-HR-BA-3> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Control Block" ;
+    cim:IdentifiedObject.mRID "10YCB-SI-HR-BA-3" ;
+    cim:IdentifiedObject.name "CB Slovenia_Croatia_Bosnia and Hercegovina" ;
+    cim:Names.name "CB-SI_HR_BA",
+        "LFC Block" ;
+    dcterms:identifier "urn:eic:10YCB-SI-HR-BA-3" ;
+    skos:altLabel "CB-SI_HR_BA" ;
+    skos:definition "Control Block"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CB Slovenia_Croatia_Bosnia and Hercegovina" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/45X0000000000707">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:45X0000000000707</dcterms:identifier>
+    <skos:prefLabel>Green Power Trading Aps</skos:prefLabel>
+    <skos:altLabel>DK_GPTRADING</skos:altLabel>
+    <skos:definition xml:lang="en">Dear CIO-Office, as discussed please note that Green Power Trading Aps is a registered company in Denmark according to our authorities web-page since 9th July 2020 (https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&amp;id=41507462&amp;soeg=41507462&amp;language=da) Therefore, I kindly ask you to approve the registration of the EIC code asap.  Kind regards Markus </skos:definition>
+    <cim:IdentifiedObject.mRID>45X0000000000707</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Green Power Trading Aps</cim:IdentifiedObject.name>
+    <cim:Names.name>DK_GPTRADING</cim:Names.name>
+    <cim:Names.name>DK41507462</cim:Names.name>
+    <cim:IdentifiedObject.description>Dear CIO-Office, as discussed please note that Green Power Trading Aps is a registered company in Denmark according to our authorities web-page since 9th July 2020 (https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&amp;id=41507462&amp;soeg=41507462&amp;language=da) Therefore, I kindly ask you to approve the registration of the EIC code asap.  Kind regards Markus </cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2020-08-03</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <cim:Names.name>Trade Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>DK41507462</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

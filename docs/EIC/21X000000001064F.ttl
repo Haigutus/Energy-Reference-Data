@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X000000001064F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-08-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "21X000000001064F" ;
+    cim:IdentifiedObject.name "Fair Ease Ltd" ;
+    cim:Names.name "Balance Responsible Party",
+        "FAIR-EASE",
+        "GB849282391" ;
+    dcterms:identifier "urn:eic:21X000000001064F" ;
+    schema1:vatID "GB849282391" ;
+    skos:altLabel "FAIR-EASE" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Fair Ease Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

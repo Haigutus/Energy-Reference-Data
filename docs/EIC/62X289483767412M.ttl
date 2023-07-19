@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62X289483767412M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62X289483767412M" ;
+    cim:IdentifiedObject.name "TOV SMART ENERGY UKREIN" ;
+    cim:Names.name "429811426581",
+        "Consumption Responsible Party",
+        "SMARTENERGY" ;
+    dcterms:identifier "urn:eic:62X289483767412M" ;
+    schema1:vatID "429811426581" ;
+    skos:altLabel "SMARTENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TOV SMART ENERGY UKREIN" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

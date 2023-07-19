@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XGKU-OE------T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2007-06-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XGKU-OE------T" ;
+    cim:IdentifiedObject.name "gemeinsames Kommunalunternehmen Oberes Egertal" ;
+    cim:Names.name "22311420317",
+        "Balance Group",
+        "GKU-OE" ;
+    dcterms:identifier "urn:eic:11XGKU-OE------T" ;
+    schema1:vatID "22311420317" ;
+    skos:altLabel "GKU-OE" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "gemeinsames Kommunalunternehmen Oberes Egertal" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

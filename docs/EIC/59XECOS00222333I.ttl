@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XECOS00222333I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XECOS00222333I" ;
+    cim:IdentifiedObject.name "ECO SVILUPPO SRL" ;
+    cim:Names.name "Balance Responsible Party",
+        "ECOSVILUPPO",
+        "IT03715150540" ;
+    dcterms:identifier "urn:eic:59XECOS00222333I" ;
+    schema1:vatID "IT03715150540" ;
+    skos:altLabel "ECOSVILUPPO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ECO SVILUPPO SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XKORDSERVICE-X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-03-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "24XKORDSERVICE-X" ;
+    cim:IdentifiedObject.name "KORDSERVICE SK PLUS, s. r. o." ;
+    cim:Names.name "KORDSERVICE",
+        "SK2023007888",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:24XKORDSERVICE-X" ;
+    schema1:vatID "SK2023007888" ;
+    skos:altLabel "KORDSERVICE" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KORDSERVICE SK PLUS, s. r. o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

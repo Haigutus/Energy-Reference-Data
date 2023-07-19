@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--131120VEH-5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-11-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--131120VEH-5" ;
+    cim:IdentifiedObject.name "Vayu Energy (Holland) B.V." ;
+    cim:Names.name "NL851364561",
+        "Trade Responsible Party",
+        "VAYU_ENERGY_BV" ;
+    dcterms:identifier "urn:eic:23X--131120VEH-5" ;
+    schema1:vatID "NL851364561" ;
+    skos:altLabel "VAYU_ENERGY_BV" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vayu Energy (Holland) B.V." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

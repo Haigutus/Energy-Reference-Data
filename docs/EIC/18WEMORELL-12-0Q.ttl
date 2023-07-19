@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WEMORELL-12-0Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WEMORELL-12-0Q" ;
+    cim:IdentifiedObject.name "REPSOL QUIMICA EL MORELL" ;
+    cim:Names.name "EMORELL",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18WEMORELL-12-0Q" ;
+    skos:altLabel "EMORELL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "REPSOL QUIMICA EL MORELL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

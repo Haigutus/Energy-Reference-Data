@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19X-PL-GGL-GLH-T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19X-PL-GGL-GLH-T" ;
+    cim:IdentifiedObject.name "Green-Lights Holding spółka z ograniczoną odpowiedzialnością" ;
+    cim:Names.name "Energy Supplier",
+        "GREEN-LIGHTS-HOL",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PL5213202368",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:19X-PL-GGL-GLH-T" ;
+    schema1:vatID "PL5213202368" ;
+    skos:altLabel "GREEN-LIGHTS-HOL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Green-Lights Holding spółka z ograniczoną odpowiedzialnością" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

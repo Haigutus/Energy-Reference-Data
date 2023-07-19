@@ -1,0 +1,28 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPGNIG-TEP-SA9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XPGNIG-TEP-SA9" ;
+    cim:IdentifiedObject.name "PGNIG TERMIKA ENERGETYKA PRZEMYSŁOWA SPÓŁKA AKCYJNA" ;
+    cim:Names.name "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "PGNIG_TEP",
+        "PL6331005997",
+        "Producer",
+        "System Operator" ;
+    dcterms:identifier "urn:eic:19XPGNIG-TEP-SA9" ;
+    schema1:vatID "PL6331005997" ;
+    skos:altLabel "PGNIG_TEP" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PGNIG TERMIKA ENERGETYKA PRZEMYSŁOWA SPÓŁKA AKCYJNA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

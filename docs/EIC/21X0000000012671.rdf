@@ -1,0 +1,26 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/21X0000000012671">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:21X0000000012671</dcterms:identifier>
+    <skos:prefLabel>Universal Capital Markets Ltd</skos:prefLabel>
+    <skos:altLabel>UCMARKETS</skos:altLabel>
+    <skos:definition xml:lang="en">Balance Responsible Party, Balance Supplier, Capacty Trader, Coordinating Scheduler, Interconnection Trade Responsible, Trade Responsible Party</skos:definition>
+    <cim:IdentifiedObject.mRID>21X0000000012671</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Universal Capital Markets Ltd</cim:IdentifiedObject.name>
+    <cim:Names.name>UCMARKETS</cim:Names.name>
+    <cim:Names.name>GB174083017</cim:Names.name>
+    <cim:IdentifiedObject.description>Balance Responsible Party, Balance Supplier, Capacty Trader, Coordinating Scheduler, Interconnection Trade Responsible, Trade Responsible Party</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2016-10-18</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <cim:Names.name>Energy Supplier</cim:Names.name>
+    <cim:Names.name>Interconnection Trade Responsible</cim:Names.name>
+    <cim:Names.name>Trade Responsible Party</cim:Names.name>
+    <cim:Names.name>Capacity Trader</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>GB174083017</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

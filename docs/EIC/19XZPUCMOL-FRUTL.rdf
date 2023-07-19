@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/19XZPUCMOL-FRUTL">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:19XZPUCMOL-FRUTL</dcterms:identifier>
+    <skos:prefLabel>Zak&#322;ad Produkcyjno-Us&#322;ugowy "CMOL-FRUT" Stefan Wrzask</skos:prefLabel>
+    <skos:altLabel>CMOL-FRUT</skos:altLabel>
+    <cim:IdentifiedObject.mRID>19XZPUCMOL-FRUTL</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Zak&#322;ad Produkcyjno-Us&#322;ugowy "CMOL-FRUT" Stefan Wrzask</cim:IdentifiedObject.name>
+    <cim:Names.name>CMOL-FRUT</cim:Names.name>
+    <cim:Names.name>PL8140000346</cim:Names.name>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2023-06-29</cim:DateAndOrTime.date>
+    <cim:Names.name>Energy Supplier</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>PL8140000346</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/49X000000000034P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-03-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "49X000000000034P" ;
+    cim:IdentifiedObject.name "Attero Holding NV" ;
+    cim:Names.name "ATTEROHOLDING_NV",
+        "NL820558266B01",
+        "Party Connected To Grid" ;
+    dcterms:identifier "urn:eic:49X000000000034P" ;
+    schema1:vatID "NL820558266B01" ;
+    skos:altLabel "ATTEROHOLDING_NV" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Attero Holding NV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

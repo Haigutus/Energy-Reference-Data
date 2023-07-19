@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X0000000107044> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-12-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "17X0000000107044" ;
+    cim:IdentifiedObject.name "VSB Energies Nouvelles" ;
+    cim:Names.name "FR89439697178",
+        "FR_VSB-ENERGIES",
+        "Producer" ;
+    dcterms:identifier "urn:eic:17X0000000107044" ;
+    schema1:vatID "FR89439697178" ;
+    skos:altLabel "FR_VSB-ENERGIES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VSB Energies Nouvelles" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/11XCME-CZ------P",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:11XCME-CZ------P",
+    "@skos:prefLabel": "CM ENERGETIKA a.s.",
+    "@skos:altLabel": "CME_CZ",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "balance group"
+    },
+    "@cim:IdentifiedObject.mRID": "11XCME-CZ------P",
+    "@cim:IdentifiedObject.name": "CM ENERGETIKA a.s.",
+    "@cim:Names.name": [
+        "CME_CZ",
+        "CZ42644273",
+        "balance group"
+    ],
+    "@cim:IdentifiedObject.description": "balance group",
+    "@cim:Document.docStatus": "A03",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-08-03",
+    "@schema:vatID": "CZ42644273",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

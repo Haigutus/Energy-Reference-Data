@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-HU-SHIP1---F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "It is a technical code for MAVIR's shipper balance group. We use it for the purpose of 4M MC process and we would like to use it for DE-AT-PL-4MMC (interim coupling) project. We would publish it on the CIO Repository in order to have a valid code for authentication between the relevant systems." ;
+    cim:IdentifiedObject.mRID "15X-HU-SHIP1---F" ;
+    cim:IdentifiedObject.name "MAVIR Shipper BC" ;
+    cim:Names.name "Balance Responsible Party",
+        "HU-SHIP1",
+        "HU12550753" ;
+    dcterms:identifier "urn:eic:15X-HU-SHIP1---F" ;
+    schema1:vatID "HU12550753" ;
+    skos:altLabel "HU-SHIP1" ;
+    skos:definition "It is a technical code for MAVIR's shipper balance group. We use it for the purpose of 4M MC process and we would like to use it for DE-AT-PL-4MMC (interim coupling) project. We would publish it on the CIO Repository in order to have a valid code for authentication between the relevant systems."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MAVIR Shipper BC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

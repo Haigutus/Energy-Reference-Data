@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31X-DANSKECROATF> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-10-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "31X-DANSKECROATF" ;
+    cim:IdentifiedObject.name "Danske Commodities d.o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "DANSKE-COMM-HR",
+        "HR58953379944" ;
+    dcterms:identifier "urn:eic:31X-DANSKECROATF" ;
+    schema1:vatID "HR58953379944" ;
+    skos:altLabel "DANSKE-COMM-HR" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Danske Commodities d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

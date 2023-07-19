@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XPROR2-12345-X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-09-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XPROR2-12345-X" ;
+    cim:IdentifiedObject.name "PRODUCTOR REGIONAL DE ENERGIAS RENOVABLES II, S.A." ;
+    cim:Names.name "ESA47633581",
+        "PROR2",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XPROR2-12345-X" ;
+    schema1:vatID "ESA47633581" ;
+    skos:altLabel "PROR2" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PRODUCTOR REGIONAL DE ENERGIAS RENOVABLES II, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

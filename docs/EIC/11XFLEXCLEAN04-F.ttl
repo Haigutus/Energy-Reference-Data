@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XFLEXCLEAN04-F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-01-27" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XFLEXCLEAN04-F" ;
+    cim:IdentifiedObject.name "Innowatio GmbH" ;
+    cim:Names.name "CE-FLEX",
+        "DE292212910",
+        "balance responsible party" ;
+    dcterms:identifier "urn:eic:11XFLEXCLEAN04-F" ;
+    schema1:vatID "DE292212910" ;
+    skos:altLabel "CE-FLEX" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Innowatio GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

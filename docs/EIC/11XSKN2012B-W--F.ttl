@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSKN2012B-W--F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-09" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XSKN2012B-W--F" ;
+    cim:IdentifiedObject.name "Stromkontor Netzgesellschaft mbH" ;
+    cim:Names.name "Balance Group",
+        "DE266325057",
+        "SKN2012B-W" ;
+    dcterms:identifier "urn:eic:11XSKN2012B-W--F" ;
+    schema1:vatID "DE266325057" ;
+    skos:altLabel "SKN2012B-W" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stromkontor Netzgesellschaft mbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

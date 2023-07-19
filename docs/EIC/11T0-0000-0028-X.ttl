@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11T0-0000-0028-X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11T0-0000-0028-X" ;
+    cim:IdentifiedObject.name "Vierraden 380/220-kV Tr. 404" ;
+    cim:Names.name "T-D8-D8-VIE404",
+        "Transformer" ;
+    dcterms:identifier "urn:eic:11T0-0000-0028-X" ;
+    skos:altLabel "T-D8-D8-VIE404" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Vierraden 380/220-kV Tr. 404" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

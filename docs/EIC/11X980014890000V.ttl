@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X980014890000V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-21" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11X980014890000V" ;
+    cim:IdentifiedObject.name "Universal Management UK Ltd" ;
+    cim:Names.name "Balance Responsible Party",
+        "GB905903920",
+        "UM-UK-LTD" ;
+    dcterms:identifier "urn:eic:11X980014890000V" ;
+    schema1:vatID "GB905903920" ;
+    skos:altLabel "UM-UK-LTD" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Universal Management UK Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

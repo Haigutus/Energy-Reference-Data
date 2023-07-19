@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XLER-123456-3W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-12-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XLER-123456-3W" ;
+    cim:IdentifiedObject.name "COMERCIALIZADORA LERSA, S.L." ;
+    cim:Names.name "ESB17650995",
+        "LER",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XLER-123456-3W" ;
+    schema1:vatID "ESB17650995" ;
+    skos:altLabel "LER" ;
+    skos:definition "Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "COMERCIALIZADORA LERSA, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

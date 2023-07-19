@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X930000000730T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X930000000730T" ;
+    cim:IdentifiedObject.name "Production and commercial firm Teplobud Llc." ;
+    cim:Names.name "Network User",
+        "TEPLOBUD",
+        "UA349597005663" ;
+    dcterms:identifier "urn:eic:56X930000000730T" ;
+    schema1:vatID "UA349597005663" ;
+    skos:altLabel "TEPLOBUD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Production and commercial firm Teplobud Llc." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

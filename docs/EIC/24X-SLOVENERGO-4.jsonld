@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/24X-SLOVENERGO-4",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:24X-SLOVENERGO-4",
+    "@skos:prefLabel": "SLOVENERGO spol. s.r.o.",
+    "@skos:altLabel": "SLOVENERGO",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Energy, Fuel And Metal Trader (Sk: Predaj Pevnych, Tekutych A Plynnych Pală­V,El. Energie, Kovov, Hutnă­Ckych Materiylov A Ferozliatin.)"
+    },
+    "@cim:IdentifiedObject.mRID": "24X-SLOVENERGO-4",
+    "@cim:IdentifiedObject.name": "SLOVENERGO spol. s.r.o.",
+    "@cim:Names.name": [
+        "SLOVENERGO",
+        "SK2020314912",
+        "Valid EIC Function needed"
+    ],
+    "@cim:IdentifiedObject.description": "Energy, Fuel And Metal Trader (Sk: Predaj Pevnych, Tekutych A Plynnych Pală­V,El. Energie, Kovov, Hutnă­Ckych Materiylov A Ferozliatin.)",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@schema:vatID": "SK2020314912",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

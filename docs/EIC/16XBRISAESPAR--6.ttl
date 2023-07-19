@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XBRISAESPAR--6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XBRISAESPAR--6" ;
+    cim:IdentifiedObject.name "Brisa Esparsa – Energias Renováveis, Lda" ;
+    cim:Names.name "BRISAES",
+        "PT515509302",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XBRISAESPAR--6" ;
+    schema1:vatID "PT515509302" ;
+    skos:altLabel "BRISAES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Brisa Esparsa – Energias Renováveis, Lda" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

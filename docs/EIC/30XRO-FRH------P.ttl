@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XRO-FRH------P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "30XRO-FRH------P" ;
+    cim:IdentifiedObject.name "FELIX RENEWABLE HOLDING" ;
+    cim:Names.name "Capacity Trader",
+        "RO43036180",
+        "RO_FELIX" ;
+    dcterms:identifier "urn:eic:30XRO-FRH------P" ;
+    schema1:vatID "RO43036180" ;
+    skos:altLabel "RO_FELIX" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FELIX RENEWABLE HOLDING" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

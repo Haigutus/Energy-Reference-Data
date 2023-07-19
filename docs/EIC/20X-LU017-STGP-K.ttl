@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/20X-LU017-STGP-K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "20X-LU017-STGP-K" ;
+    cim:IdentifiedObject.name "SOCAR Trading Gas & Power sarl" ;
+    cim:Names.name "Balance Responsible Party",
+        "LU33157853",
+        "SOCAR",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:20X-LU017-STGP-K" ;
+    schema1:vatID "LU33157853" ;
+    skos:altLabel "SOCAR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SOCAR Trading Gas & Power sarl" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

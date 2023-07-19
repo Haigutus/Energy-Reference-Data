@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27X-BONETT-RE--8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-05-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "27X-BONETT-RE--8" ;
+    cim:IdentifiedObject.name "Bonett Renewable Energy a.s." ;
+    cim:Names.name "BONETT-RE",
+        "Balance Responsible Party",
+        "CZ02069121" ;
+    dcterms:identifier "urn:eic:27X-BONETT-RE--8" ;
+    schema1:vatID "CZ02069121" ;
+    skos:altLabel "BONETT-RE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Bonett Renewable Energy a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

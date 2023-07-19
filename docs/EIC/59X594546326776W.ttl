@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X594546326776W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-11-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59X594546326776W" ;
+    cim:IdentifiedObject.name "EUROTHERMO S.P.A." ;
+    cim:Names.name "3823380153",
+        "Balance Responsible Party",
+        "EUROTHERMOSPA" ;
+    dcterms:identifier "urn:eic:59X594546326776W" ;
+    schema1:vatID "3823380153" ;
+    skos:altLabel "EUROTHERMOSPA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EUROTHERMO S.P.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,39 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/48X0000000002117",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:48X0000000002117",
+    "@skos:prefLabel": "Investment Resource Company Ltd",
+    "@skos:altLabel": "IRCLTD083007030",
+    "@cim:IdentifiedObject.mRID": "48X0000000002117",
+    "@cim:IdentifiedObject.name": "Investment Resource Company Ltd",
+    "@cim:Names.name": [
+        "IRCLTD083007030",
+        "GB5504318179",
+        "Trade Responsible Party",
+        "Capacity Trader",
+        "Resource Provider"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2018-06-06",
+    "@schema:vatID": "GB5504318179",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/69X1B0B14X8B7511> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-06-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Natural Gas Trading Purchase and sale of natural gas" ;
+    cim:IdentifiedObject.mRID "69X1B0B14X8B7511" ;
+    cim:IdentifiedObject.name "SK GAS MED LIMITED" ;
+    cim:Names.name "CY10407079A",
+        "Network User",
+        "SK-GAS-MED" ;
+    dcterms:identifier "urn:eic:69X1B0B14X8B7511" ;
+    schema1:vatID "CY10407079A" ;
+    skos:altLabel "SK-GAS-MED" ;
+    skos:definition "Natural Gas Trading Purchase and sale of natural gas"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SK GAS MED LIMITED" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

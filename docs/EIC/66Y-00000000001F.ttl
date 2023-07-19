@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/66Y-00000000001F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Area code for the Finnish Gas Market Balance Area operated by TSO Gasgrid Finland Oy" ;
+    cim:IdentifiedObject.mRID "66Y-00000000001F" ;
+    cim:IdentifiedObject.name "Finland Gas Market Balance Area" ;
+    cim:Names.name "FINLAND_GAS_BALZ",
+        "Scheduling Area" ;
+    dcterms:identifier "urn:eic:66Y-00000000001F" ;
+    skos:altLabel "FINLAND_GAS_BALZ" ;
+    skos:definition "Area code for the Finnish Gas Market Balance Area operated by TSO Gasgrid Finland Oy"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Finland Gas Market Balance Area" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XHEW-V-------C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2005-12-06" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XHEW-V-------C" ;
+    cim:IdentifiedObject.name "Hamburgische Elektricitäts-Werke AG - Vertrieb" ;
+    cim:Names.name "Balance Group",
+        "DE813152937",
+        "HEW_V" ;
+    dcterms:identifier "urn:eic:11XHEW-V-------C" ;
+    schema1:vatID "DE813152937" ;
+    skos:altLabel "HEW_V" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Hamburgische Elektricitäts-Werke AG - Vertrieb" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

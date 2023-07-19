@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16XNVG3TR------T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16XNVG3TR------T" ;
+    cim:IdentifiedObject.name "Navigator Pulp Setubal, S.A." ;
+    cim:Names.name "NVG3TR",
+        "PT508933560",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:16XNVG3TR------T" ;
+    schema1:vatID "PT508933560" ;
+    skos:altLabel "NVG3TR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Navigator Pulp Setubal, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45T000000000130Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45T000000000130Y" ;
+    cim:IdentifiedObject.name "220 kV Endrup Horns Rev C" ;
+    cim:Names.name "EDR_220_HRC",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:45T000000000130Y" ;
+    skos:altLabel "EDR_220_HRC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "220 kV Endrup Horns Rev C" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

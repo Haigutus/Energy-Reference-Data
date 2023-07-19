@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XSNTEC-1234-14",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XSNTEC-1234-14",
+    "@skos:prefLabel": "UTE SMURFIT NAVARRA S.A. TEC 94 S.A.",
+    "@skos:altLabel": "SNTEC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Production Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XSNTEC-1234-14",
+    "@cim:IdentifiedObject.name": "UTE SMURFIT NAVARRA S.A. TEC 94 S.A.",
+    "@cim:Names.name": [
+        "SNTEC",
+        "ESU50933423",
+        "Production Responsible party"
+    ],
+    "@cim:IdentifiedObject.description": "Production Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2011-01-14",
+    "@schema:vatID": "ESU50933423",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

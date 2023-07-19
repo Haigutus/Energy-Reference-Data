@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XNGSUR-1234-0J",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XNGSUR-1234-0J",
+    "@skos:prefLabel": "NUEVA GENERADORA DEL SUR, S.A.",
+    "@skos:altLabel": "NGSUR",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Production Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XNGSUR-1234-0J",
+    "@cim:IdentifiedObject.name": "NUEVA GENERADORA DEL SUR, S.A.",
+    "@cim:Names.name": [
+        "NGSUR",
+        "ESA82307117",
+        "Production Responsible party"
+    ],
+    "@cim:IdentifiedObject.description": "Production Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2008-11-03",
+    "@schema:vatID": "ESA82307117",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

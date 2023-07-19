@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--160125-L--T",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--160125-L--T",
+    "@skos:prefLabel": "Liander N.V.",
+    "@skos:altLabel": "LIANDER_NV",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Distribution System Operator"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--160125-L--T",
+    "@cim:IdentifiedObject.name": "Liander N.V.",
+    "@cim:Names.name": [
+        "LIANDER_NV",
+        "NL807562166B01",
+        "Distribution System Operator"
+    ],
+    "@cim:IdentifiedObject.description": "Distribution System Operator",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-01-22",
+    "@schema:vatID": "NL807562166B01",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

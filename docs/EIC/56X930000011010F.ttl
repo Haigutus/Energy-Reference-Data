@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X930000011010F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "56X930000011010F" ;
+    cim:IdentifiedObject.name "Limited Lability Company U.COMMODITIES" ;
+    cim:Names.name "426015026552",
+        "Network User",
+        "Trade Responsible Party",
+        "U_COMMODITIES" ;
+    dcterms:identifier "urn:eic:56X930000011010F" ;
+    schema1:vatID "426015026552" ;
+    skos:altLabel "U_COMMODITIES" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Limited Lability Company U.COMMODITIES" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X7327873486899> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-11-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59X7327873486899" ;
+    cim:IdentifiedObject.name "NORD GAS & POWER" ;
+    cim:Names.name "11613630018",
+        "Balance Responsible Party",
+        "NORDGASPOWER" ;
+    dcterms:identifier "urn:eic:59X7327873486899" ;
+    schema1:vatID "11613630018" ;
+    skos:altLabel "NORDGASPOWER" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NORD GAS & POWER" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

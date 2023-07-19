@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10T-NL-GB-00001E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-07-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "TieLine" ;
+    cim:IdentifiedObject.mRID "10T-NL-GB-00001E" ;
+    cim:IdentifiedObject.name "Maasvlakte-Isle of Grain" ;
+    cim:Names.name "L_MAAS_ISLEGRAIN",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:10T-NL-GB-00001E" ;
+    skos:altLabel "L_MAAS_ISLEGRAIN" ;
+    skos:definition "TieLine"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Maasvlakte-Isle of Grain" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29VSELRSC-OPDEB8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "29VSELRSC-OPDEB8" ;
+    cim:IdentifiedObject.name "SELENE CC RSC OPDE endpoint client B - TEST" ;
+    cim:Names.name "Endpoint",
+        "SELRSC_OPDE_B" ;
+    dcterms:identifier "urn:eic:29VSELRSC-OPDEB8" ;
+    skos:altLabel "SELRSC_OPDE_B" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SELENE CC RSC OPDE endpoint client B - TEST" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

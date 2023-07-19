@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10V1001C--00238U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-12-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "In the context of the implementation of the Core capacity calculation within Core CCR, files will be exchanged with the Central Interface Point (CIP) of NEMOs for market coupling process. As the ECP4 production communication channel is being set up, a new code is requested for the CIP ECP4 endpoint supporting the exchanges within this process. " ;
+    cim:IdentifiedObject.mRID "10V1001C--00238U" ;
+    cim:IdentifiedObject.name "ECP CIP Prod Endpoint" ;
+    cim:Names.name "ECP_CIP_PRD_EDP",
+        "IT-system" ;
+    dcterms:identifier "urn:eic:10V1001C--00238U" ;
+    skos:altLabel "ECP_CIP_PRD_EDP" ;
+    skos:definition "In the context of the implementation of the Core capacity calculation within Core CCR, files will be exchanged with the Central Interface Point (CIP) of NEMOs for market coupling process. As the ECP4 production communication channel is being set up, a new code is requested for the CIP ECP4 endpoint supporting the exchanges within this process. "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ECP CIP Prod Endpoint" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

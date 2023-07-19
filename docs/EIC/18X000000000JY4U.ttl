@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000JY4U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000JY4U" ;
+    cim:IdentifiedObject.name "Starke Energy S.l." ;
+    cim:Names.name "Capacity Trader",
+        "Consumption Responsible Party",
+        "ES-STARKE_ENERGY",
+        "ESB67541193",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18X000000000JY4U" ;
+    schema1:vatID "ESB67541193" ;
+    skos:altLabel "ES-STARKE_ENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Starke Energy S.l." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XEDF-123456-62> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Function Missing" ;
+    cim:IdentifiedObject.mRID "18XEDF-123456-62" ;
+    cim:IdentifiedObject.name "ELECTRICITÉ DE FRANCE" ;
+    cim:Names.name "EDF",
+        "FR03552081317",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:18XEDF-123456-62" ;
+    schema1:vatID "FR03552081317" ;
+    skos:altLabel "EDF" ;
+    skos:definition "Function Missing"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELECTRICITÉ DE FRANCE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

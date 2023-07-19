@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XSRVGS-12345-F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XSRVGS-12345-F" ;
+    cim:IdentifiedObject.name "SERVIGAS S.XXI S.A." ;
+    cim:Names.name "ESA99262610",
+        "SRVGS",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:18XSRVGS-12345-F" ;
+    schema1:vatID "ESA99262610" ;
+    skos:altLabel "SRVGS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SERVIGAS S.XXI S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

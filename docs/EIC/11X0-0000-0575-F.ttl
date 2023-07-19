@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11X0-0000-0575-F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11X0-0000-0575-F" ;
+    cim:IdentifiedObject.name "11XBESTORAGED--Y" ;
+    cim:Names.name "11XBESTORAGED--Y",
+        "Balance Responsible Party",
+        "DE315475566" ;
+    dcterms:identifier "urn:eic:11X0-0000-0575-F" ;
+    schema1:vatID "DE315475566" ;
+    skos:altLabel "11XBESTORAGED--Y" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "11XBESTORAGED--Y" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/51X-0000000064-E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "51X-0000000064-E" ;
+    cim:IdentifiedObject.name "VECTAR trgovanje d.o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "SI47329254",
+        "VECTAR" ;
+    dcterms:identifier "urn:eic:51X-0000000064-E" ;
+    schema1:vatID "SI47329254" ;
+    skos:altLabel "VECTAR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VECTAR trgovanje d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/68X3NATURAL-GAZN> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-04" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "68X3NATURAL-GAZN" ;
+    cim:IdentifiedObject.name "Natural gaz D.C." ;
+    cim:Names.name "0611008",
+        "NATURALGAZ_D.C.",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:68X3NATURAL-GAZN" ;
+    schema1:vatID "0611008" ;
+    skos:altLabel "NATURALGAZ_D.C." ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Natural gaz D.C." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

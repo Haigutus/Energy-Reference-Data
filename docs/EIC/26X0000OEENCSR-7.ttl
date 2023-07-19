@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0000OEENCSR-7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-05-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "26X0000OEENCSR-7" ;
+    cim:IdentifiedObject.name "ERG POWER GENERATION S.P.A." ;
+    cim:Names.name "IT-ERG_POWER_GEN",
+        "IT01440590899",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:26X0000OEENCSR-7" ;
+    schema1:vatID "IT01440590899" ;
+    skos:altLabel "IT-ERG_POWER_GEN" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ERG POWER GENERATION S.P.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

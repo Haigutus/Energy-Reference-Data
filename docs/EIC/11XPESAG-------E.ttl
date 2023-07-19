@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XPESAG-------E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-06" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XPESAG-------E" ;
+    cim:IdentifiedObject.name "PESAG Aktiengesellschaft" ;
+    cim:Names.name "Balance Group",
+        "DE126229505",
+        "PESAG" ;
+    dcterms:identifier "urn:eic:11XPESAG-------E" ;
+    schema1:vatID "DE126229505" ;
+    skos:altLabel "PESAG" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PESAG Aktiengesellschaft" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

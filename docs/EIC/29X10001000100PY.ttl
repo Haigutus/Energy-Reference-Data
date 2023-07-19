@@ -1,0 +1,28 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29X10001000100PY> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Σχεδιασμός, ανάπτυξη, κατασκευή, εγκατάσταση, λειτουργία και εκμετάλλευση θερμικών σταθμών παραγωγής ηλεκτρικής ενέργειας με φυσικό αέριο. Εισαγωγή, εμπορία και προμήθεια φυσικού αερίου για χρήση ως πρώτης ύλης σε σταθμούς παραγωγής ηλεκτρικής ενέργειας. Πώληση και εμπορία της ηλεκτρικής ενέργειας και των διαθέσιμων δικαιωμάτων εκπομπών ρύπων και διενέργεια των σχετικών επιχειρηματικών δραστηριοτήτων και αγορά διαθέσιμων δικαιωμάτων εκπομπών ρύπων από τρίτους για τις ανάγκες λειτουργίας των σταθμών ηλεκτροπαραγωγής. Ανάληψη και εκτέλεση πάσης φύσεως μελετών, επιβλέψεων και ερευνών." ;
+    cim:IdentifiedObject.mRID "29X10001000100PY" ;
+    cim:IdentifiedObject.name "ΘΕΡΜΟΗΛΕΚΤΡΙΚΗ ΚΟΜΟΤΗΝΗΣ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ" ;
+    cim:Names.name "Balancing Service Provider",
+        "Capacity Trader",
+        "EL801552795",
+        "Energy Supplier",
+        "Producer",
+        "THERMOILEKTRIKI" ;
+    dcterms:identifier "urn:eic:29X10001000100PY" ;
+    schema1:vatID "EL801552795" ;
+    skos:altLabel "THERMOILEKTRIKI" ;
+    skos:definition "Σχεδιασμός, ανάπτυξη, κατασκευή, εγκατάσταση, λειτουργία και εκμετάλλευση θερμικών σταθμών παραγωγής ηλεκτρικής ενέργειας με φυσικό αέριο. Εισαγωγή, εμπορία και προμήθεια φυσικού αερίου για χρήση ως πρώτης ύλης σε σταθμούς παραγωγής ηλεκτρικής ενέργειας. Πώληση και εμπορία της ηλεκτρικής ενέργειας και των διαθέσιμων δικαιωμάτων εκπομπών ρύπων και διενέργεια των σχετικών επιχειρηματικών δραστηριοτήτων και αγορά διαθέσιμων δικαιωμάτων εκπομπών ρύπων από τρίτους για τις ανάγκες λειτουργίας των σταθμών ηλεκτροπαραγωγής. Ανάληψη και εκτέλεση πάσης φύσεως μελετών, επιβλέψεων και ερευνών."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ΘΕΡΜΟΗΛΕΚΤΡΙΚΗ ΚΟΜΟΤΗΝΗΣ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

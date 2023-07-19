@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/65XBRP-ENERGRIDH> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-09" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Operator" ;
+    cim:IdentifiedObject.mRID "65XBRP-ENERGRIDH" ;
+    cim:IdentifiedObject.name "ENERGO PRO " ;
+    cim:Names.name "205169066",
+        "Balance Responsible Party",
+        "ENERGO_PRO_GRID" ;
+    dcterms:identifier "urn:eic:65XBRP-ENERGRIDH" ;
+    schema1:vatID "205169066" ;
+    skos:altLabel "ENERGO_PRO_GRID" ;
+    skos:definition "Grid Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGO PRO " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

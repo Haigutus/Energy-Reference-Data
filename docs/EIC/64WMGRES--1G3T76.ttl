@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64WMGRES--1G3T76> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "64WMGRES--1G3T76" ;
+    cim:IdentifiedObject.name "TPP Moldavskaya MGRES - Unit 3" ;
+    cim:Names.name "Generation Unit",
+        "MGRES_GU3" ;
+    dcterms:identifier "urn:eic:64WMGRES--1G3T76" ;
+    skos:altLabel "MGRES_GU3" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TPP Moldavskaya MGRES - Unit 3" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

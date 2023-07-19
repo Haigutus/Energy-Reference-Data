@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XBVCOR-12345-U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-02-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XBVCOR-12345-U" ;
+    cim:IdentifiedObject.name "BON VENT CORBERA S.L.U." ;
+    cim:Names.name "BVCOR",
+        "ESB63595482",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XBVCOR-12345-U" ;
+    schema1:vatID "ESB63595482" ;
+    skos:altLabel "BVCOR" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BON VENT CORBERA S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

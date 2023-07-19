@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45X0000000000731> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Please note that Right now under the VAT Number is Nitor Holding Aps. It will be changed to Nitor Energy A/S on the 15.09. This is ok from Energinet LIO and the EIC can be registered.  " ;
+    cim:IdentifiedObject.mRID "45X0000000000731" ;
+    cim:IdentifiedObject.name "Nitor Energy A/S" ;
+    cim:Names.name "Balance Responsible Party",
+        "DK38680781",
+        "NITOR_ENERGY_AS" ;
+    dcterms:identifier "urn:eic:45X0000000000731" ;
+    schema1:vatID "DK38680781" ;
+    skos:altLabel "NITOR_ENERGY_AS" ;
+    skos:definition "Please note that Right now under the VAT Number is Nitor Holding Aps. It will be changed to Nitor Energy A/S on the 15.09. This is ok from Energinet LIO and the EIC can be registered.  "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Nitor Energy A/S" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

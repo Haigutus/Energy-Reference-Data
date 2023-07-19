@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XMTAS--------K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Produce Of Heat And Elektricity (Sk: Vyroba Tepla A Elektriny)" ;
+    cim:IdentifiedObject.mRID "24XMTAS--------K" ;
+    cim:IdentifiedObject.name "Martinska teplarenska, a.s." ;
+    cim:Names.name "MTAS",
+        "SK2020122555",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:24XMTAS--------K" ;
+    schema1:vatID "SK2020122555" ;
+    skos:altLabel "MTAS" ;
+    skos:definition "Produce Of Heat And Elektricity (Sk: Vyroba Tepla A Elektriny)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Martinska teplarenska, a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

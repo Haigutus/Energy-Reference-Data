@@ -1,0 +1,32 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000NIDAX> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-04-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Trade Responsible Party, Energy Supplier, Grid Access Provider,Meter Administration, Meter Data Responsible, System Operator" ;
+    cim:IdentifiedObject.mRID "53XPL000000NIDAX" ;
+    cim:IdentifiedObject.name "Nida Media Sp. z o.o." ;
+    cim:Names.name "A0001576D.PL",
+        "Balance Responsible Party",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "NIDA_MEDIA",
+        "PL7262464282",
+        "System Operator",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:53XPL000000NIDAX" ;
+    schema1:vatID "PL7262464282" ;
+    skos:altLabel "NIDA_MEDIA" ;
+    skos:definition "Balance Responsible Party, Trade Responsible Party, Energy Supplier, Grid Access Provider,Meter Administration, Meter Data Responsible, System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Nida Media Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

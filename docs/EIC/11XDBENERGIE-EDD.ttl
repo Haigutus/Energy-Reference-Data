@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XDBENERGIE-EDD> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-12-10" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XDBENERGIE-EDD" ;
+    cim:IdentifiedObject.name "DB Energie GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DBENERGIE_EDL",
+        "DE192729381" ;
+    dcterms:identifier "urn:eic:11XDBENERGIE-EDD" ;
+    schema1:vatID "DE192729381" ;
+    skos:altLabel "DBENERGIE_EDL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DB Energie GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

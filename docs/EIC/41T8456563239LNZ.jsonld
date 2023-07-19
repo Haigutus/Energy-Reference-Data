@@ -1,0 +1,35 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/41T8456563239LNZ",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:41T8456563239LNZ",
+    "@skos:prefLabel": "Postavy-Utena LN452",
+    "@skos:altLabel": "8456563239LN",
+    "@cim:IdentifiedObject.mRID": "41T8456563239LNZ",
+    "@cim:IdentifiedObject.name": "Postavy-Utena LN452",
+    "@cim:Names.name": [
+        "8456563239LN",
+        "Tieline"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2021-01-15",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

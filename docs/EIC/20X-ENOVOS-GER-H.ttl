@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/20X-ENOVOS-GER-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-05-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Energy Supplier" ;
+    cim:IdentifiedObject.mRID "20X-ENOVOS-GER-H" ;
+    cim:IdentifiedObject.name "Enovos Deutschland A.G." ;
+    cim:Names.name "Balance Responsible Party",
+        "DE138116856",
+        "ENOVOS_DE" ;
+    dcterms:identifier "urn:eic:20X-ENOVOS-GER-H" ;
+    schema1:vatID "DE138116856" ;
+    skos:altLabel "ENOVOS_DE" ;
+    skos:definition "Energy Supplier"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Enovos Deutschland A.G." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

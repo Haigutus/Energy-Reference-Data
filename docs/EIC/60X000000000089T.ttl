@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000089T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000089T" ;
+    cim:IdentifiedObject.name "NITROFER SRL VIENA SUCURSALA SATU MARE" ;
+    cim:Names.name "34505970",
+        "NITROFERSRL",
+        "Network User" ;
+    dcterms:identifier "urn:eic:60X000000000089T" ;
+    schema1:vatID "34505970" ;
+    skos:altLabel "NITROFERSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "NITROFER SRL VIENA SUCURSALA SATU MARE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

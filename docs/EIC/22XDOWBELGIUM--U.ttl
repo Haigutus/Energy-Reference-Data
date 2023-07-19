@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XDOWBELGIUM--U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-02-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Metered Data Responsible" ;
+    cim:IdentifiedObject.mRID "22XDOWBELGIUM--U" ;
+    cim:IdentifiedObject.name "DOW BELGIUM BVBA" ;
+    cim:Names.name "BE0403060140",
+        "BE_DOW_BELGIUM",
+        "Metered Data Responsible" ;
+    dcterms:identifier "urn:eic:22XDOWBELGIUM--U" ;
+    schema1:vatID "BE0403060140" ;
+    skos:altLabel "BE_DOW_BELGIUM" ;
+    skos:definition "Metered Data Responsible"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DOW BELGIUM BVBA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

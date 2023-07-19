@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--160630-MP-4> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-10-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "LEI Number: 54930051OSXSQ2GOSR88" ;
+    cim:IdentifiedObject.mRID "23X--160630-MP-4" ;
+    cim:IdentifiedObject.name "Marubeni Petroleum Co., Ltd." ;
+    cim:Names.name "54930051OSXSQ2GOSR88",
+        "MARUBENI_P_LTD",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--160630-MP-4" ;
+    schema1:vatID "54930051OSXSQ2GOSR88" ;
+    skos:altLabel "MARUBENI_P_LTD" ;
+    skos:definition "LEI Number: 54930051OSXSQ2GOSR88"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Marubeni Petroleum Co., Ltd." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

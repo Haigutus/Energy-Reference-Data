@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--180124--Z-W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "23X--180124--Z-W" ;
+    cim:IdentifiedObject.name "UAB Žiežmarių gėlės" ;
+    cim:Names.name "A00145814.LT",
+        "Consumer",
+        "LT100002648317",
+        "UAB_ZIEZMARIU_G" ;
+    dcterms:identifier "urn:eic:23X--180124--Z-W" ;
+    schema1:vatID "LT100002648317" ;
+    skos:altLabel "UAB_ZIEZMARIU_G" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UAB Žiežmarių gėlės" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

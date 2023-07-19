@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XGUELFOSRL111Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XGUELFOSRL111Y" ;
+    cim:IdentifiedObject.name "GUELFO SRL" ;
+    cim:Names.name "GUELFOSRL",
+        "IT06519230483",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:59XGUELFOSRL111Y" ;
+    schema1:vatID "IT06519230483" ;
+    skos:altLabel "GUELFOSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GUELFO SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

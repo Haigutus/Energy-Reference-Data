@@ -1,0 +1,28 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24X-EIP--------Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-12-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "24X-EIP--------Y" ;
+    cim:IdentifiedObject.name "ENERGYINVESTPROJECT LTD" ;
+    cim:Names.name "346337820301",
+        "Balance Responsible Party",
+        "Consumption Responsible Party",
+        "EIP",
+        "Production Responsible party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:24X-EIP--------Y" ;
+    schema1:vatID "346337820301" ;
+    skos:altLabel "EIP" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGYINVESTPROJECT LTD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

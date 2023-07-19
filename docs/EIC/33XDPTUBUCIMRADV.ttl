@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XDPTUBUCIMRADV> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-03-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Extraction Of Ore, Production Of Copper Concentrates Etc." ;
+    cim:IdentifiedObject.mRID "33XDPTUBUCIMRADV" ;
+    cim:IdentifiedObject.name "CPTS BUCIM Ltd., Radovis" ;
+    cim:Names.name "4023005115323",
+        "BUCIM",
+        "Balance Responsible Party",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:33XDPTUBUCIMRADV" ;
+    schema1:vatID "4023005115323" ;
+    skos:altLabel "BUCIM" ;
+    skos:definition "Extraction Of Ore, Production Of Copper Concentrates Etc."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CPTS BUCIM Ltd., Radovis" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

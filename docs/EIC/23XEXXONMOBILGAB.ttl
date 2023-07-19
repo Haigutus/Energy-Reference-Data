@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23XEXXONMOBILGAB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trader" ;
+    cim:IdentifiedObject.mRID "23XEXXONMOBILGAB" ;
+    cim:IdentifiedObject.name "Exxon Mobil Gas Marketing Europe Limited" ;
+    cim:Names.name "EXXONMOBILGAS",
+        "GB239088635",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:23XEXXONMOBILGAB" ;
+    schema1:vatID "GB239088635" ;
+    skos:altLabel "EXXONMOBILGAS" ;
+    skos:definition "Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Exxon Mobil Gas Marketing Europe Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

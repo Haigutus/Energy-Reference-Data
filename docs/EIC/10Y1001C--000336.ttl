@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--000336> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "When submitting CGMA results containing all optimisation areas to an interested party there is the need to define the domain of concern in the CIM message. The same applies to Status Request Messages where an interested party asks for the CGMA results for the entire CGMA area. (Optinal e-mail:  cgma@entsoe.eu)" ;
+    cim:IdentifiedObject.mRID "10Y1001C--000336" ;
+    cim:IdentifiedObject.name "Common Grid Model Alignment Area" ;
+    cim:Names.name "CGMA_AREA",
+        "Scheduling Area" ;
+    dcterms:identifier "urn:eic:10Y1001C--000336" ;
+    skos:altLabel "CGMA_AREA" ;
+    skos:definition "When submitting CGMA results containing all optimisation areas to an interested party there is the need to define the domain of concern in the CIM message. The same applies to Status Request Messages where an interested party asks for the CGMA results for the entire CGMA area. (Optinal e-mail:  cgma@entsoe.eu)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Common Grid Model Alignment Area" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

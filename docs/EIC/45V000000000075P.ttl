@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45V000000000075P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-01-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Nordic RSC FB CCC NorCap" ;
+    cim:IdentifiedObject.mRID "45V000000000075P" ;
+    cim:IdentifiedObject.name "Nordic-RSC CCC NorCap (Production)" ;
+    cim:Names.name "Endpoint",
+        "NRSC-NORCAP-PROD" ;
+    dcterms:identifier "urn:eic:45V000000000075P" ;
+    skos:altLabel "NRSC-NORCAP-PROD" ;
+    skos:definition "Nordic RSC FB CCC NorCap"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Nordic-RSC CCC NorCap (Production)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

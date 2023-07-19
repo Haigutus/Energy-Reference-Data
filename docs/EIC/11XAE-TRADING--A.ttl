@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XAE-TRADING--A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-08-13" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XAE-TRADING--A" ;
+    cim:IdentifiedObject.name "advanced energy trading GmbH" ;
+    cim:Names.name "AE-TRADING",
+        "Balance Group",
+        "DE257885055" ;
+    dcterms:identifier "urn:eic:11XAE-TRADING--A" ;
+    schema1:vatID "DE257885055" ;
+    skos:altLabel "AE-TRADING" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "advanced energy trading GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

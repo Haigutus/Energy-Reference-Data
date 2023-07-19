@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/45T000000000182F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "45T000000000182F" ;
+    cim:IdentifiedObject.name "Trige 400/150kV transfromer KT51" ;
+    cim:Names.name "TRI_KT51",
+        "Transformer" ;
+    dcterms:identifier "urn:eic:45T000000000182F" ;
+    skos:altLabel "TRI_KT51" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Trige 400/150kV transfromer KT51" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

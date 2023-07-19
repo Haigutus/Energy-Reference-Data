@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/35X-HIFA-OIL-M-I",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:35X-HIFA-OIL-M-I",
+    "@skos:prefLabel": "HIFA OIL DOO PODGORICA",
+    "@skos:altLabel": "HIFAOIL",
+    "@cim:IdentifiedObject.mRID": "35X-HIFA-OIL-M-I",
+    "@cim:IdentifiedObject.name": "HIFA OIL DOO PODGORICA",
+    "@cim:Names.name": [
+        "HIFAOIL",
+        "03136981",
+        "Production Responsible party",
+        "Energy Supplier",
+        "Imbalance Settlement Responsible",
+        "Producer",
+        "Balancing Service Provider",
+        "Trade Responsible Party",
+        "Balance Responsible Party",
+        "Capacity Trader"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-06-30",
+    "@schema:vatID": "03136981",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

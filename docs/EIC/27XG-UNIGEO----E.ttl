@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XG-UNIGEO----E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Gas Production" ;
+    cim:IdentifiedObject.mRID "27XG-UNIGEO----E" ;
+    cim:IdentifiedObject.name "UNIGEO a.s." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ45192260",
+        "UNIGEO" ;
+    dcterms:identifier "urn:eic:27XG-UNIGEO----E" ;
+    schema1:vatID "CZ45192260" ;
+    skos:altLabel "UNIGEO" ;
+    skos:definition "Gas Production"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "UNIGEO a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--130624--EE1> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-06-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Market Area" ;
+    cim:IdentifiedObject.mRID "23X--130624--EE1" ;
+    cim:IdentifiedObject.name "ENDESA ENERGÍA S.A.U. Succursale France" ;
+    cim:Names.name "ENDESA_E_SF",
+        "FR30499590552",
+        "Market Area" ;
+    dcterms:identifier "urn:eic:23X--130624--EE1" ;
+    schema1:vatID "FR30499590552" ;
+    skos:altLabel "ENDESA_E_SF" ;
+    skos:definition "Market Area"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENDESA ENERGÍA S.A.U. Succursale France" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

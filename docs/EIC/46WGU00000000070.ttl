@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/46WGU00000000070> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-01-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Generation Unit" ;
+    cim:IdentifiedObject.mRID "46WGU00000000070" ;
+    cim:IdentifiedObject.name "Oskarshamn G1Ö+G1V" ;
+    cim:Names.name "Generation Unit",
+        "OSKARSH_G1O_G1V" ;
+    dcterms:identifier "urn:eic:46WGU00000000070" ;
+    skos:altLabel "OSKARSH_G1O_G1V" ;
+    skos:definition "Generation Unit"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Oskarshamn G1Ö+G1V" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

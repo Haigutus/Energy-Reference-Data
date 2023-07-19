@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XAUEW--------U> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2011-10-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "11XAUEW--------U" ;
+    cim:IdentifiedObject.name "Allgäuer Überlandwerk GmbH" ;
+    cim:Names.name "AUEW",
+        "Balance Responsible Party",
+        "DE128785492" ;
+    dcterms:identifier "urn:eic:11XAUEW--------U" ;
+    schema1:vatID "DE128785492" ;
+    skos:altLabel "AUEW" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Allgäuer Überlandwerk GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19X191919191919Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-06-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Dodatkowy tel.: 601714181" ;
+    cim:IdentifiedObject.mRID "19X191919191919Y" ;
+    cim:IdentifiedObject.name "GREENVOLT POWER TRADING SP.Z O.O." ;
+    cim:Names.name "Energy Supplier",
+        "GVPT",
+        "PL5213983839" ;
+    dcterms:identifier "urn:eic:19X191919191919Y" ;
+    schema1:vatID "PL5213983839" ;
+    skos:altLabel "GVPT" ;
+    skos:definition "Dodatkowy tel.: 601714181"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GREENVOLT POWER TRADING SP.Z O.O." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

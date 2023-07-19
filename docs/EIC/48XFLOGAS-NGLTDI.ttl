@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48XFLOGAS-NGLTDI> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-12-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Supplier, Capacity Trader" ;
+    cim:IdentifiedObject.mRID "48XFLOGAS-NGLTDI" ;
+    cim:IdentifiedObject.name "Flogas Natural Gas Ltd" ;
+    cim:Names.name "Capacity Trader",
+        "Energy Supplier",
+        "FLOGAS-NAT-GAS",
+        "NI192797061" ;
+    dcterms:identifier "urn:eic:48XFLOGAS-NGLTDI" ;
+    schema1:vatID "NI192797061" ;
+    skos:altLabel "FLOGAS-NAT-GAS" ;
+    skos:definition "Balance Supplier, Capacity Trader"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Flogas Natural Gas Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

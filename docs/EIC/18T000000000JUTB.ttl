@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18T000000000JUTB> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-01-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18T000000000JUTB" ;
+    cim:IdentifiedObject.name "Canyet-Codonyers 1 220kV" ;
+    cim:Names.name "Internal Line",
+        "L_CNY_CODO_1_220" ;
+    dcterms:identifier "urn:eic:18T000000000JUTB" ;
+    skos:altLabel "L_CNY_CODO_1_220" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Canyet-Codonyers 1 220kV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

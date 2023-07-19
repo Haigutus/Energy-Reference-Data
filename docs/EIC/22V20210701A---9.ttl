@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22V20210701A---9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-07-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Adress of the Elia ECP EndPoint for the TEST/ACC ATOM OPDE network" ;
+    cim:IdentifiedObject.mRID "22V20210701A---9" ;
+    cim:IdentifiedObject.name "ELIA ATOM OPDE ECP Test/Acc network" ;
+    cim:Names.name "BE_ECP_ATOMACC",
+        "Location" ;
+    dcterms:identifier "urn:eic:22V20210701A---9" ;
+    skos:altLabel "BE_ECP_ATOMACC" ;
+    skos:definition "Adress of the Elia ECP EndPoint for the TEST/ACC ATOM OPDE network"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELIA ATOM OPDE ECP Test/Acc network" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

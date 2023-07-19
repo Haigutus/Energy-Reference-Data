@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0000OEAOESS-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-02-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "EIC Code Type X" ;
+    cim:IdentifiedObject.mRID "26X0000OEAOESS-G" ;
+    cim:IdentifiedObject.name "OTTANA ENERGIA SPA" ;
+    cim:Names.name "Balance Responsible Party",
+        "IT-OTTANAENERGIA",
+        "IT13356620156" ;
+    dcterms:identifier "urn:eic:26X0000OEAOESS-G" ;
+    schema1:vatID "IT13356620156" ;
+    skos:altLabel "IT-OTTANAENERGIA" ;
+    skos:definition "EIC Code Type X"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OTTANA ENERGIA SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

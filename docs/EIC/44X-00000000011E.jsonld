@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/44X-00000000011E",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:44X-00000000011E",
+    "@skos:prefLabel": "UPM Paper ENA Oy",
+    "@skos:altLabel": "44UPMPAPERENA",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Consumer, Producer"
+    },
+    "@cim:IdentifiedObject.mRID": "44X-00000000011E",
+    "@cim:IdentifiedObject.name": "UPM Paper ENA Oy",
+    "@cim:Names.name": [
+        "44UPMPAPERENA",
+        "FI27606416",
+        "Consumer",
+        "Producer"
+    ],
+    "@cim:IdentifiedObject.description": "Consumer, Producer",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2016-06-02",
+    "@schema:vatID": "FI27606416",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

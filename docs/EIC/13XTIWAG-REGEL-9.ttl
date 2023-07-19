@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/13XTIWAG-REGEL-9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2008-11-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "13XTIWAG-REGEL-9" ;
+    cim:IdentifiedObject.name "TIWAG-Tiroler Wasserkraft AG" ;
+    cim:Names.name "ATU31727904",
+        "Balance Group",
+        "TIWAG" ;
+    dcterms:identifier "urn:eic:13XTIWAG-REGEL-9" ;
+    schema1:vatID "ATU31727904" ;
+    skos:altLabel "TIWAG" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TIWAG-Tiroler Wasserkraft AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

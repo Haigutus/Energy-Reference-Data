@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58X-0-M-0-P-0-LA> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58X-0-M-0-P-0-LA" ;
+    cim:IdentifiedObject.name "MAKPETROL AD SKOPJE" ;
+    cim:Names.name "MAKPETROL-SKOPJE",
+        "MK4030954258093",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:58X-0-M-0-P-0-LA" ;
+    schema1:vatID "MK4030954258093" ;
+    skos:altLabel "MAKPETROL-SKOPJE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MAKPETROL AD SKOPJE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

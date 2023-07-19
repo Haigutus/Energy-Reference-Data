@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/51X-0000000017-P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-08-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Distribution System Operator" ;
+    cim:IdentifiedObject.mRID "51X-0000000017-P" ;
+    cim:IdentifiedObject.name "JEKO-IN, d.o.o." ;
+    cim:Names.name "Distribution System Operator",
+        "JEKO-IN",
+        "SI67496717" ;
+    dcterms:identifier "urn:eic:51X-0000000017-P" ;
+    schema1:vatID "SI67496717" ;
+    skos:altLabel "JEKO-IN" ;
+    skos:definition "Distribution System Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "JEKO-IN, d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

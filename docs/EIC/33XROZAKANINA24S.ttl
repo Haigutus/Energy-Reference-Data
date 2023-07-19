@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/33XROZAKANINA24S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "33XROZAKANINA24S" ;
+    cim:IdentifiedObject.name "DPT na golemo i malo ROZA KANINA DOOEL Petkovski Tome uvoz-izvoz Resen" ;
+    cim:Names.name "4024003106021",
+        "Production Responsible party",
+        "ROZA_KANINA" ;
+    dcterms:identifier "urn:eic:33XROZAKANINA24S" ;
+    schema1:vatID "4024003106021" ;
+    skos:altLabel "ROZA_KANINA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DPT na golemo i malo ROZA KANINA DOOEL Petkovski Tome uvoz-izvoz Resen" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

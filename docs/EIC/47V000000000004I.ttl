@@ -1,0 +1,22 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47V000000000004I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-01-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "47V000000000004I" ;
+    cim:IdentifiedObject.name "EirGrid ECP4 upgrade (prod)" ;
+    cim:Names.name "IE004I",
+        "IT-system",
+        "Location" ;
+    dcterms:identifier "urn:eic:47V000000000004I" ;
+    skos:altLabel "IE004I" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EirGrid ECP4 upgrade (prod)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

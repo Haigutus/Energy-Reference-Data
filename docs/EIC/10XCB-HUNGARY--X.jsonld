@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10XCB-HUNGARY--X",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10XCB-HUNGARY--X",
+    "@skos:prefLabel": "MAVIR - Control Block Operator Hungary",
+    "@skos:altLabel": "CB-HUNGARY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Control Block"
+    },
+    "@cim:IdentifiedObject.mRID": "10XCB-HUNGARY--X",
+    "@cim:IdentifiedObject.name": "MAVIR - Control Block Operator Hungary",
+    "@cim:Names.name": [
+        "CB-HUNGARY",
+        "HU12550753",
+        "Control Block"
+    ],
+    "@cim:IdentifiedObject.description": "Control Block",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2011-02-14",
+    "@schema:vatID": "HU12550753",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

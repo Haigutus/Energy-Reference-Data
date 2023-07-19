@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000002052-O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "SORRY, Complete Mess! This Code shall stay published!" ;
+    cim:IdentifiedObject.mRID "12X-0000002052-O" ;
+    cim:IdentifiedObject.name "Centurion Group SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "CENTURION-GRP-ST",
+        "CHE250395492",
+        "Capacity Trader",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:12X-0000002052-O" ;
+    schema1:vatID "CHE250395492" ;
+    skos:altLabel "CENTURION-GRP-ST" ;
+    skos:definition "SORRY, Complete Mess! This Code shall stay published!"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Centurion Group SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

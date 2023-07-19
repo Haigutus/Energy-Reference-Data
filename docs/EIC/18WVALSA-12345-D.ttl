@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18WVALSA-12345-D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-07-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18WVALSA-12345-D" ;
+    cim:IdentifiedObject.name "DESARROLLOS EÓLICOS DUMBRÍA, SAU" ;
+    cim:Names.name "Generation Unit",
+        "VALSA" ;
+    dcterms:identifier "urn:eic:18WVALSA-12345-D" ;
+    skos:altLabel "VALSA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DESARROLLOS EÓLICOS DUMBRÍA, SAU" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27X-GENERAL-EN-W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "27X-GENERAL-EN-W" ;
+    cim:IdentifiedObject.name "General Energy a.s." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ06935427",
+        "GENERAL-EN" ;
+    dcterms:identifier "urn:eic:27X-GENERAL-EN-W" ;
+    schema1:vatID "CZ06935427" ;
+    skos:altLabel "GENERAL-EN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "General Energy a.s." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

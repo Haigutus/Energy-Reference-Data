@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/63X339594388485B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "63X339594388485B" ;
+    cim:IdentifiedObject.name "GLOBAL LNG SAS" ;
+    cim:Names.name "A0014769X.FR",
+        "FR27833285877",
+        "FRG_GLNG",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:63X339594388485B" ;
+    schema1:vatID "FR27833285877" ;
+    skos:altLabel "FRG_GLNG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GLOBAL LNG SAS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

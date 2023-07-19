@@ -1,0 +1,41 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/10Y1001C--00138T",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:10Y1001C--00138T",
+    "@skos:prefLabel": "Capacity Calculation Region Greece Italy",
+    "@skos:altLabel": "CCR-GRIT",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Resquested by the market participants of this region to be used within OPC PAN European service. Market Participants (TSOs) are: Terna, IPTO "
+    },
+    "@cim:IdentifiedObject.mRID": "10Y1001C--00138T",
+    "@cim:IdentifiedObject.name": "Capacity Calculation Region Greece Italy",
+    "@cim:Names.name": [
+        "CCR-GRIT",
+        "Capacity Calculation Region",
+        "Outage Coordination Region"
+    ],
+    "@cim:IdentifiedObject.description": "Resquested by the market participants of this region to be used within OPC PAN European service. Market Participants (TSOs) are: Terna, IPTO ",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-05-12",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

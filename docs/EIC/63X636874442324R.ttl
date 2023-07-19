@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/63X636874442324R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-08-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "63X636874442324R" ;
+    cim:IdentifiedObject.name "SEFE Energy " ;
+    cim:Names.name "A0015912B.FR",
+        "FR39491388",
+        "FRG_SEFE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:63X636874442324R" ;
+    schema1:vatID "FR39491388" ;
+    skos:altLabel "FRG_SEFE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SEFE Energy " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

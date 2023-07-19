@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47X000000000130M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-07-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "47X000000000130M" ;
+    cim:IdentifiedObject.name "Statoil Gas Hibernia Limited" ;
+    cim:Names.name "IE130M",
+        "IE6367651T",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:47X000000000130M" ;
+    schema1:vatID "IE6367651T" ;
+    skos:altLabel "IE130M" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Statoil Gas Hibernia Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

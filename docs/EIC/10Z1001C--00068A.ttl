@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z1001C--00068A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-04-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10Z1001C--00068A" ;
+    cim:IdentifiedObject.name "Virtual MARI Amprion – 50Hertz" ;
+    cim:Names.name "Accounting Point",
+        "MARI_AMP_50HERTZ" ;
+    dcterms:identifier "urn:eic:10Z1001C--00068A" ;
+    skos:altLabel "MARI_AMP_50HERTZ" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Virtual MARI Amprion – 50Hertz" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

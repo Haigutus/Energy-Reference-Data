@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XAZSA-123456-M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-11-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XAZSA-123456-M" ;
+    cim:IdentifiedObject.name "ASTURIANA DE ZINC, S.A." ;
+    cim:Names.name "AZSA",
+        "Consumption Responsible Party",
+        "ESA82689753" ;
+    dcterms:identifier "urn:eic:18XAZSA-123456-M" ;
+    schema1:vatID "ESA82689753" ;
+    skos:altLabel "AZSA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ASTURIANA DE ZINC, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

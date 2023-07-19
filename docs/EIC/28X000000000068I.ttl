@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/28X000000000068I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-04-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "28X000000000068I" ;
+    cim:IdentifiedObject.name "AMIBIT d.o.o." ;
+    cim:Names.name "AMIBIT-REDUXI",
+        "Balance Responsible Party",
+        "SI51315831" ;
+    dcterms:identifier "urn:eic:28X000000000068I" ;
+    schema1:vatID "SI51315831" ;
+    skos:altLabel "AMIBIT-REDUXI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMIBIT d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

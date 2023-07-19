@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12T-0000000304-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-08-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Transformer" ;
+    cim:IdentifiedObject.mRID "12T-0000000304-H" ;
+    cim:IdentifiedObject.name "380/220/50 kV Bickigen Trafo T08.TA1 (ex. T32)" ;
+    cim:Names.name "Transformer",
+        "_BICK_TT8_TA1-TF" ;
+    dcterms:identifier "urn:eic:12T-0000000304-H" ;
+    skos:altLabel "_BICK_TT8_TA1-TF" ;
+    skos:definition "Transformer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "380/220/50 kV Bickigen Trafo T08.TA1 (ex. T32)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

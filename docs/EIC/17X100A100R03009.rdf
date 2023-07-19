@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/17X100A100R03009">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:17X100A100R03009</dcterms:identifier>
+    <skos:prefLabel>Lehman Brothers Commodity Services Europe</skos:prefLabel>
+    <skos:altLabel>FR_LEHMANBROTHER</skos:altLabel>
+    <skos:definition xml:lang="en">Balance Responsible Party, Trade Responsible Party, contrat RE ferm&#233;, code d&#233;sactiv&#233;</skos:definition>
+    <cim:IdentifiedObject.mRID>17X100A100R03009</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Lehman Brothers Commodity Services Europe</cim:IdentifiedObject.name>
+    <cim:Names.name>FR_LEHMANBROTHER</cim:Names.name>
+    <cim:Names.name>GB446931528</cim:Names.name>
+    <cim:IdentifiedObject.description>Balance Responsible Party, Trade Responsible Party, contrat RE ferm&#233;, code d&#233;sactiv&#233;</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A03</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2019-12-18</cim:DateAndOrTime.date>
+    <cim:Names.name>Valid EIC Function needed</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>GB446931528</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

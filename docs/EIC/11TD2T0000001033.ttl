@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11TD2T0000001033> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-11-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11TD2T0000001033" ;
+    cim:IdentifiedObject.name "TTG/380-110/Klein Ilsede/Trafo410" ;
+    cim:Names.name "T-D2-D2-11560909",
+        "Transformer" ;
+    dcterms:identifier "urn:eic:11TD2T0000001033" ;
+    skos:altLabel "T-D2-D2-11560909" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TTG/380-110/Klein Ilsede/Trafo410" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

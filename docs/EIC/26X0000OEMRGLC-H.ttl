@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0000OEMRGLC-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-12-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "26X0000OEMRGLC-H" ;
+    cim:IdentifiedObject.name "MURGEOLICA SRL" ;
+    cim:Names.name "IT-MURGEOLICASRL",
+        "IT05702610725",
+        "Producer" ;
+    dcterms:identifier "urn:eic:26X0000OEMRGLC-H" ;
+    schema1:vatID "IT05702610725" ;
+    skos:altLabel "IT-MURGEOLICASRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MURGEOLICA SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

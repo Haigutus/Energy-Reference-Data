@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31W-0046-C-020-Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "31W-0046-C-020-Z" ;
+    cim:IdentifiedObject.name "KOG INA CPS MOLVE POTROSNJA 10,48 MW" ;
+    cim:Names.name "HR-KOG-MOLVE-C",
+        "Load" ;
+    dcterms:identifier "urn:eic:31W-0046-C-020-Z" ;
+    skos:altLabel "HR-KOG-MOLVE-C" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "KOG INA CPS MOLVE POTROSNJA 10,48 MW" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58XTRANSVAL-BG-W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-02-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58XTRANSVAL-BG-W" ;
+    cim:IdentifiedObject.name "Transval EOOD" ;
+    cim:Names.name "BG175372332",
+        "Network User",
+        "TRANSVAL_EOOD" ;
+    dcterms:identifier "urn:eic:58XTRANSVAL-BG-W" ;
+    schema1:vatID "BG175372332" ;
+    skos:altLabel "TRANSVAL_EOOD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Transval EOOD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

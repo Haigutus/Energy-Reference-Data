@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X0000OEADCRP-V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-09-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "26X0000OEADCRP-V" ;
+    cim:IdentifiedObject.name "ADICORP S.P.A." ;
+    cim:Names.name "IT-ADICORP_SPA",
+        "IT03857850659",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:26X0000OEADCRP-V" ;
+    schema1:vatID "IT03857850659" ;
+    skos:altLabel "IT-ADICORP_SPA" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ADICORP S.P.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

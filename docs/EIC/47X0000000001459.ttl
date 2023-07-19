@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/47X0000000001459> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-08-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Capacity Trader, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "47X0000000001459" ;
+    cim:IdentifiedObject.name "Wire-Lite Sensors Ltd t/a Endeco Technologies" ;
+    cim:Names.name "Capacity Trader",
+        "IE1459",
+        "IE9666472N",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:47X0000000001459" ;
+    schema1:vatID "IE9666472N" ;
+    skos:altLabel "IE1459" ;
+    skos:definition "Capacity Trader, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Wire-Lite Sensors Ltd t/a Endeco Technologies" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

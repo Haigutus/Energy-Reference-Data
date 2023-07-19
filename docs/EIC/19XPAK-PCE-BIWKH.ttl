@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XPAK-PCE-BIWKH> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XPAK-PCE-BIWKH" ;
+    cim:IdentifiedObject.name "PAK-PCE BIOPALIWA I WODÓR SPÓŁKA Z OGRNICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    cim:Names.name "A0019631F.PL",
+        "PAK-BIOPALIWA",
+        "PL6653033976",
+        "Producer" ;
+    dcterms:identifier "urn:eic:19XPAK-PCE-BIWKH" ;
+    schema1:vatID "PL6653033976" ;
+    skos:altLabel "PAK-BIOPALIWA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PAK-PCE BIOPALIWA I WODÓR SPÓŁKA Z OGRNICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

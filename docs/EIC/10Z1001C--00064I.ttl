@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z1001C--00064I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "10Z1001C--00064I" ;
+    cim:IdentifiedObject.name "VTL MARI Amprion - SGD" ;
+    cim:Names.name "Accounting Point",
+        "MARIAMP-SGD" ;
+    dcterms:identifier "urn:eic:10Z1001C--00064I" ;
+    skos:altLabel "MARIAMP-SGD" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VTL MARI Amprion - SGD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000FLES> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-07-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000FLES" ;
+    cim:IdentifiedObject.name "ÁQUONA GESTION DE AGUAS DE CASTILLA" ;
+    cim:Names.name "AQUON",
+        "Consumption Responsible Party",
+        "ESA66141169" ;
+    dcterms:identifier "urn:eic:18X000000000FLES" ;
+    schema1:vatID "ESA66141169" ;
+    skos:altLabel "AQUON" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ÁQUONA GESTION DE AGUAS DE CASTILLA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

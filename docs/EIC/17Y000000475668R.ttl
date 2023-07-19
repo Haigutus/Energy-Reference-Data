@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17Y000000475668R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-05-16" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "second périmètre " ;
+    cim:IdentifiedObject.mRID "17Y000000475668R" ;
+    cim:IdentifiedObject.name "VATTENFALL ENERGIES SA" ;
+    cim:Names.name "FR_VATTENFALL_SA",
+        "Market Area" ;
+    dcterms:identifier "urn:eic:17Y000000475668R" ;
+    skos:altLabel "FR_VATTENFALL_SA" ;
+    skos:definition "second périmètre "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "VATTENFALL ENERGIES SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

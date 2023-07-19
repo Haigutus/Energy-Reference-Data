@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XVIEG-12345-0T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-06-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XVIEG-12345-0T" ;
+    cim:IdentifiedObject.name "REPSOL GENERACIÓN ELÉCTRICA, S.A." ;
+    cim:Names.name "ESA62733126",
+        "Production Responsible party",
+        "VIEG" ;
+    dcterms:identifier "urn:eic:18XVIEG-12345-0T" ;
+    schema1:vatID "ESA62733126" ;
+    skos:altLabel "VIEG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "REPSOL GENERACIÓN ELÉCTRICA, S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

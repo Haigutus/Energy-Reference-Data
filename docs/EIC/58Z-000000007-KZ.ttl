@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58Z-000000007-KZ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-10-02" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Interconnection point between the gas transmission systems of Bulgartransgaz (Bulgaria) and Gastrans (Serbia)." ;
+    cim:IdentifiedObject.mRID "58Z-000000007-KZ" ;
+    cim:IdentifiedObject.name "Kireevo (BG)/Zaychar (RS)" ;
+    cim:Names.name "Connection Point",
+        "KIREEVO-BG-RS" ;
+    dcterms:identifier "urn:eic:58Z-000000007-KZ" ;
+    skos:altLabel "KIREEVO-BG-RS" ;
+    skos:definition "Interconnection point between the gas transmission systems of Bulgartransgaz (Bulgaria) and Gastrans (Serbia)."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kireevo (BG)/Zaychar (RS)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

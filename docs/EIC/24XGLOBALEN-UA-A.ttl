@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24XGLOBALEN-UA-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-11-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "24XGLOBALEN-UA-A" ;
+    cim:IdentifiedObject.name "GLOBAL ENERGY" ;
+    cim:Names.name "377010526553",
+        "GLOBALEN",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:24XGLOBALEN-UA-A" ;
+    schema1:vatID "377010526553" ;
+    skos:altLabel "GLOBALEN" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GLOBAL ENERGY" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

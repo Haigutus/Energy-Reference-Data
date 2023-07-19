@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/31X-EFT-HR-----C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-12-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "31X-EFT-HR-----C" ;
+    cim:IdentifiedObject.name "EFT HRVATSKA d.o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "EFT-HR",
+        "HR88894916785" ;
+    dcterms:identifier "urn:eic:31X-EFT-HR-----C" ;
+    schema1:vatID "HR88894916785" ;
+    skos:altLabel "EFT-HR" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EFT HRVATSKA d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

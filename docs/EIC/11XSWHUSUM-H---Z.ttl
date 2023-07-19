@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XSWHUSUM-H---Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2006-03-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XSWHUSUM-H---Z" ;
+    cim:IdentifiedObject.name "Stadtwerke Husum GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE203291323",
+        "SWHUSUM-H" ;
+    dcterms:identifier "urn:eic:11XSWHUSUM-H---Z" ;
+    schema1:vatID "DE203291323" ;
+    skos:altLabel "SWHUSUM-H" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Stadtwerke Husum GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

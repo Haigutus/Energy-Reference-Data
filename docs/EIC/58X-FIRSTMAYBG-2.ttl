@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/58X-FIRSTMAYBG-2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-10-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "58X-FIRSTMAYBG-2" ;
+    cim:IdentifiedObject.name "FIRST MAY JSC" ;
+    cim:Names.name "BG118006467",
+        "FIRSTMAY_BG",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:58X-FIRSTMAYBG-2" ;
+    schema1:vatID "BG118006467" ;
+    skos:altLabel "FIRSTMAY_BG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FIRST MAY JSC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

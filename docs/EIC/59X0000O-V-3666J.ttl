@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X0000O-V-3666J> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-06-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59X0000O-V-3666J" ;
+    cim:IdentifiedObject.name "OV ENERGY SPA" ;
+    cim:Names.name "12952081003",
+        "Capacity Trader",
+        "OVENERGY" ;
+    dcterms:identifier "urn:eic:59X0000O-V-3666J" ;
+    schema1:vatID "12952081003" ;
+    skos:altLabel "OVENERGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OV ENERGY SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

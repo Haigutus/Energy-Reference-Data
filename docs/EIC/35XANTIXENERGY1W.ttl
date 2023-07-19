@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/35XANTIXENERGY1W> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-02-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Balance Supplier, Capacity Trader, Consumer, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "35XANTIXENERGY1W" ;
+    cim:IdentifiedObject.name "ANTIX D.O.O. Podgorica" ;
+    cim:Names.name "03028364",
+        "ANTIX_ME",
+        "Balance Responsible Party",
+        "Capacity Trader",
+        "Consumer",
+        "Energy Supplier",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:35XANTIXENERGY1W" ;
+    schema1:vatID "03028364" ;
+    skos:altLabel "ANTIX_ME" ;
+    skos:definition "Balance Responsible Party, Balance Supplier, Capacity Trader, Consumer, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ANTIX D.O.O. Podgorica" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

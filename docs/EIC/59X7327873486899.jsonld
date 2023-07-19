@@ -1,0 +1,37 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/59X7327873486899",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:59X7327873486899",
+    "@skos:prefLabel": "NORD GAS & POWER",
+    "@skos:altLabel": "NORDGASPOWER",
+    "@cim:IdentifiedObject.mRID": "59X7327873486899",
+    "@cim:IdentifiedObject.name": "NORD GAS & POWER",
+    "@cim:Names.name": [
+        "NORDGASPOWER",
+        "11613630018",
+        "Balance Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2017-11-19",
+    "@schema:vatID": "11613630018",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

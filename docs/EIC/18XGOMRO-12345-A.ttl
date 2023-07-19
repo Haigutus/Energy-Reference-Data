@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XGOMRO-12345-A> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-04-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumption Responsible Party" ;
+    cim:IdentifiedObject.mRID "18XGOMRO-12345-A" ;
+    cim:IdentifiedObject.name "GRANITOS GOMEZ ROCHA, S.L." ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESB06159735",
+        "GOMRO" ;
+    dcterms:identifier "urn:eic:18XGOMRO-12345-A" ;
+    schema1:vatID "ESB06159735" ;
+    skos:altLabel "GOMRO" ;
+    skos:definition "Consumption Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GRANITOS GOMEZ ROCHA, S.L." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

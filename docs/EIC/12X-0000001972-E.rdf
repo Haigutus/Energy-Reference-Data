@@ -1,0 +1,23 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/12X-0000001972-E">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:12X-0000001972-E</dcterms:identifier>
+    <skos:prefLabel>Athina Energie AG</skos:prefLabel>
+    <skos:altLabel>ATHINAENERGIE-ST</skos:altLabel>
+    <skos:definition xml:lang="en">Balance Group Responsible Party, Market Operator</skos:definition>
+    <cim:IdentifiedObject.mRID>12X-0000001972-E</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Athina Energie AG</cim:IdentifiedObject.name>
+    <cim:Names.name>ATHINAENERGIE-ST</cim:Names.name>
+    <cim:Names.name>FL00025240054</cim:Names.name>
+    <cim:IdentifiedObject.description>Balance Group Responsible Party, Market Operator</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2022-09-26</cim:DateAndOrTime.date>
+    <cim:Names.name>Market Operator</cim:Names.name>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>FL00025240054</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

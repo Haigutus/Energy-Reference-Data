@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21Z000000000470I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Virtual Interconnection Point" ;
+    cim:IdentifiedObject.mRID "21Z000000000470I" ;
+    cim:IdentifiedObject.name "Isaccea 2_3 UA-RO border" ;
+    cim:Names.name "VPM06",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:21Z000000000470I" ;
+    skos:altLabel "VPM06" ;
+    skos:definition "Virtual Interconnection Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Isaccea 2_3 UA-RO border" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/37X0000000000402> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-01-07" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Grid Operator" ;
+    cim:IdentifiedObject.mRID "37X0000000000402" ;
+    cim:IdentifiedObject.name "Ferngas Netzgesellschaft mbH" ;
+    cim:Names.name "DE811239405",
+        "FERNGASTHUERINGE",
+        "Grid Operator" ;
+    dcterms:identifier "urn:eic:37X0000000000402" ;
+    schema1:vatID "DE811239405" ;
+    skos:altLabel "FERNGASTHUERINGE" ;
+    skos:definition "Grid Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Ferngas Netzgesellschaft mbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X0000000007EE7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-01-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X0000000007EE7" ;
+    cim:IdentifiedObject.name "HARINAS POLO S.A" ;
+    cim:Names.name "Consumption Responsible Party",
+        "ESA50022698",
+        "HAPO" ;
+    dcterms:identifier "urn:eic:18X0000000007EE7" ;
+    schema1:vatID "ESA50022698" ;
+    skos:altLabel "HAPO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HARINAS POLO S.A" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XPYCE-12345-1T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-09-30" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XPYCE-12345-1T" ;
+    cim:IdentifiedObject.name "DS SMITH SPAIN S.A." ;
+    cim:Names.name "ESA34158824",
+        "PYCE",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:18XPYCE-12345-1T" ;
+    schema1:vatID "ESA34158824" ;
+    skos:altLabel "PYCE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DS SMITH SPAIN S.A." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

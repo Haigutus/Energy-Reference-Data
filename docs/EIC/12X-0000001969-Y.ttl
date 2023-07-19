@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12X-0000001969-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-09-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group Responsible Party, Network User" ;
+    cim:IdentifiedObject.mRID "12X-0000001969-Y" ;
+    cim:IdentifiedObject.name "Atlantic Cobalt AG" ;
+    cim:Names.name "ATLANTIC-COBA-ST",
+        "Balance Responsible Party",
+        "CHE361108591" ;
+    dcterms:identifier "urn:eic:12X-0000001969-Y" ;
+    schema1:vatID "CHE361108591" ;
+    skos:altLabel "ATLANTIC-COBA-ST" ;
+    skos:definition "Balance Group Responsible Party, Network User"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Atlantic Cobalt AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

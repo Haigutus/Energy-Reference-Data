@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XCEZTRADEPL--H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Electricity Trading On The Domestic And International Market." ;
+    cim:IdentifiedObject.mRID "19XCEZTRADEPL--H" ;
+    cim:IdentifiedObject.name "CEZ Trade Polska Sp. z o.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "CEZ_TRADE_POLSKA",
+        "PL5252395288" ;
+    dcterms:identifier "urn:eic:19XCEZTRADEPL--H" ;
+    schema1:vatID "PL5252395288" ;
+    skos:altLabel "CEZ_TRADE_POLSKA" ;
+    skos:definition "Electricity Trading On The Domestic And International Market."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CEZ Trade Polska Sp. z o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

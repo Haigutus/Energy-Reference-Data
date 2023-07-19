@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/26X00000001481-N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Societa Di Trading" ;
+    cim:IdentifiedObject.mRID "26X00000001481-N" ;
+    cim:IdentifiedObject.name "ELETTROGREEN S.r.l." ;
+    cim:Names.name "Balance Responsible Party",
+        "ELETTROGREEN",
+        "IT01461920991" ;
+    dcterms:identifier "urn:eic:26X00000001481-N" ;
+    schema1:vatID "IT01461920991" ;
+    skos:altLabel "ELETTROGREEN" ;
+    skos:definition "Societa Di Trading"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ELETTROGREEN S.r.l." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

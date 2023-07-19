@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Z-AT-DE-00011Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2018-07-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Accounting Point" ;
+    cim:IdentifiedObject.mRID "10Z-AT-DE-00011Z" ;
+    cim:IdentifiedObject.name "Westtirol-Silz 1" ;
+    cim:Names.name "Accounting Point",
+        "M_WESTTIRO-SILZ1" ;
+    dcterms:identifier "urn:eic:10Z-AT-DE-00011Z" ;
+    skos:altLabel "M_WESTTIRO-SILZ1" ;
+    skos:definition "Accounting Point"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Westtirol-Silz 1" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

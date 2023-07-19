@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/24X-FVE-MNG-SK-M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "24X-FVE-MNG-SK-M" ;
+    cim:IdentifiedObject.name "FVE Management s.r.o." ;
+    cim:Names.name "FVE-MANAGEMENT",
+        "SK2120309224",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:24X-FVE-MNG-SK-M" ;
+    schema1:vatID "SK2120309224" ;
+    skos:altLabel "FVE-MANAGEMENT" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "FVE Management s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

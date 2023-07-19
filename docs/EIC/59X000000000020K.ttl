@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X000000000020K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-11-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "59X000000000020K" ;
+    cim:IdentifiedObject.name "GRUPPO SOCIETA GAS RIMINI SPA" ;
+    cim:Names.name "Balance Responsible Party",
+        "GRUPPO_SOC_GAS_R",
+        "IT00126550409" ;
+    dcterms:identifier "urn:eic:59X000000000020K" ;
+    schema1:vatID "IT00126550409" ;
+    skos:altLabel "GRUPPO_SOC_GAS_R" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GRUPPO SOCIETA GAS RIMINI SPA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

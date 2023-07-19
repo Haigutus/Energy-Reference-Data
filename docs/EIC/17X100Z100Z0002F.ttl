@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X100Z100Z0002F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Transmission Capacity Allocator pas de tva , code SI à refaire" ;
+    cim:IdentifiedObject.mRID "17X100Z100Z0002F" ;
+    cim:IdentifiedObject.name "Allocateur de la capacité de l'interconnexion France-Angleterre" ;
+    cim:Names.name "FR66666",
+        "FR_IFA_TCA",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:17X100Z100Z0002F" ;
+    schema1:vatID "FR66666" ;
+    skos:altLabel "FR_IFA_TCA" ;
+    skos:definition "Transmission Capacity Allocator pas de tva , code SI à refaire"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Allocateur de la capacité de l'interconnexion France-Angleterre" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55YCOUL1-ENERGY0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-03-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "55YCOUL1-ENERGY0" ;
+    cim:IdentifiedObject.name "Coulomb Energy" ;
+    cim:Names.name "Balance Group",
+        "COULOMBENERGY" ;
+    dcterms:identifier "urn:eic:55YCOUL1-ENERGY0" ;
+    skos:altLabel "COULOMBENERGY" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Coulomb Energy" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

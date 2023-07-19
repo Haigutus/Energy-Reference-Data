@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29XGRENVENERNET8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2010-11-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Trade Responsible Party, Production Responsible Party" ;
+    cim:IdentifiedObject.mRID "29XGRENVENERNET8" ;
+    cim:IdentifiedObject.name "GREEK ENVIROMENTAL & ENERGY NETWORK SA" ;
+    cim:Names.name "Balance Responsible Party",
+        "EL998206312",
+        "GREENENV",
+        "Production Responsible party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:29XGRENVENERNET8" ;
+    schema1:vatID "EL998206312" ;
+    skos:altLabel "GREENENV" ;
+    skos:definition "Balance Responsible Party, Trade Responsible Party, Production Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GREEK ENVIROMENTAL & ENERGY NETWORK SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000CH6V> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-06-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000CH6V" ;
+    cim:IdentifiedObject.name "BACAICOA INDUSTRIAS PLASTICAS S.A" ;
+    cim:Names.name "BACA",
+        "Consumption Responsible Party",
+        "ESA31038912" ;
+    dcterms:identifier "urn:eic:18X000000000CH6V" ;
+    schema1:vatID "ESA31038912" ;
+    skos:altLabel "BACA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BACAICOA INDUSTRIAS PLASTICAS S.A" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

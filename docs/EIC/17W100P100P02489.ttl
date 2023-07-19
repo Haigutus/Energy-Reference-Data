@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17W100P100P02489> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-08-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Production Unit" ;
+    cim:IdentifiedObject.mRID "17W100P100P02489" ;
+    cim:IdentifiedObject.name "Aramon 2" ;
+    cim:Names.name "FR_FU-ARAMOT_2-P",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:17W100P100P02489" ;
+    skos:altLabel "FR_FU-ARAMOT_2-P" ;
+    skos:definition "Production Unit"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Aramon 2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

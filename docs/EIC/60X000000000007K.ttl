@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000007K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-06-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Network User (aka shipper)" ;
+    cim:IdentifiedObject.mRID "60X000000000007K" ;
+    cim:IdentifiedObject.name "SC TERMO CALOR CONFORT SA" ;
+    cim:Names.name "Network User",
+        "RO27374805",
+        "TERMOPITESTI" ;
+    dcterms:identifier "urn:eic:60X000000000007K" ;
+    schema1:vatID "RO27374805" ;
+    skos:altLabel "TERMOPITESTI" ;
+    skos:definition "Network User (aka shipper)"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SC TERMO CALOR CONFORT SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

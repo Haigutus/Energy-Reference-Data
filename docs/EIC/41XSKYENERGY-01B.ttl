@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/41XSKYENERGY-01B> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2014-11-10" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "41XSKYENERGY-01B" ;
+    cim:IdentifiedObject.name "SKY ENERGY GROUP, UAB" ;
+    cim:Names.name "LT100005217119",
+        "SKYENERGY-01",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:41XSKYENERGY-01B" ;
+    schema1:vatID "LT100005217119" ;
+    skos:altLabel "SKYENERGY-01" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SKY ENERGY GROUP, UAB" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

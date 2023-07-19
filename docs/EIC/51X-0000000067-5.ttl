@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/51X-0000000067-5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Energy supplier" ;
+    cim:IdentifiedObject.mRID "51X-0000000067-5" ;
+    cim:IdentifiedObject.name "GHG Energy d.o.o." ;
+    cim:Names.name "Energy Supplier",
+        "GHGNRG",
+        "SI38109794" ;
+    dcterms:identifier "urn:eic:51X-0000000067-5" ;
+    schema1:vatID "SI38109794" ;
+    skos:altLabel "GHGNRG" ;
+    skos:definition "Energy supplier"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GHG Energy d.o.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XTCE---------X> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-05-30" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "balance responsible party" ;
+    cim:IdentifiedObject.mRID "11XTCE---------X" ;
+    cim:IdentifiedObject.name "TCHIBO direct GmbH" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE177993920",
+        "TCE" ;
+    dcterms:identifier "urn:eic:11XTCE---------X" ;
+    schema1:vatID "DE177993920" ;
+    skos:altLabel "TCE" ;
+    skos:definition "balance responsible party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TCHIBO direct GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

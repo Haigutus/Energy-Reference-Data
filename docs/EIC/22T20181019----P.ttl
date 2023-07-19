@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22T20181019----P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-03-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "LIGNE CI 380 114 GEZELNEMO" ;
+    cim:IdentifiedObject.mRID "22T20181019----P" ;
+    cim:IdentifiedObject.name "380.114 GEZELLE-NEMO" ;
+    cim:Names.name "BE114_GEZEL_NEMO",
+        "Internal Line" ;
+    dcterms:identifier "urn:eic:22T20181019----P" ;
+    skos:altLabel "BE114_GEZEL_NEMO" ;
+    skos:definition "LIGNE CI 380 114 GEZELNEMO"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "380.114 GEZELLE-NEMO" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/23X--191121--E-K",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:23X--191121--E-K",
+    "@skos:prefLabel": "Enerco L.L.C.",
+    "@skos:altLabel": "ENERCO",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Certificate from Tax Administration of Kosovo VAT filer Tax number: 330059883 Company registration Number / Fiskal Number:  810801119"
+    },
+    "@cim:IdentifiedObject.mRID": "23X--191121--E-K",
+    "@cim:IdentifiedObject.name": "Enerco L.L.C.",
+    "@cim:Names.name": [
+        "ENERCO",
+        "330059883",
+        "Trade Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Certificate from Tax Administration of Kosovo VAT filer Tax number: 330059883 Company registration Number / Fiskal Number:  810801119",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2019-11-21",
+    "@schema:vatID": "330059883",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

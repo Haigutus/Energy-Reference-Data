@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/18XJUEGO-12345-N",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:18XJUEGO-12345-N",
+    "@skos:prefLabel": "JUEGOMATIC SA",
+    "@skos:altLabel": "JUEGO",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Consumption Responsible Party"
+    },
+    "@cim:IdentifiedObject.mRID": "18XJUEGO-12345-N",
+    "@cim:IdentifiedObject.name": "JUEGOMATIC SA",
+    "@cim:Names.name": [
+        "JUEGO",
+        "ESA29039799",
+        "Consumption Responsible Party"
+    ],
+    "@cim:IdentifiedObject.description": "Consumption Responsible Party",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2015-10-08",
+    "@schema:vatID": "ESA29039799",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

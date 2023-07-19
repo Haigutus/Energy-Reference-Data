@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/34X-0000000027-8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2013-07-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "34X-0000000027-8" ;
+    cim:IdentifiedObject.name "Nova Commodities DOO BEOGRAD" ;
+    cim:Names.name "108127773",
+        "NOVA",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:34X-0000000027-8" ;
+    schema1:vatID "108127773" ;
+    skos:altLabel "NOVA" ;
+    skos:definition "Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Nova Commodities DOO BEOGRAD" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

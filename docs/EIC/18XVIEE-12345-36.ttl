@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XVIEE-12345-36> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-05-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18XVIEE-12345-36" ;
+    cim:IdentifiedObject.name "REPSOL COMERCIALIZADORA DE ELECTRICIDAD Y GAS, S.L.U." ;
+    cim:Names.name "ESB39540760",
+        "Trade Responsible Party",
+        "VIEE" ;
+    dcterms:identifier "urn:eic:18XVIEE-12345-36" ;
+    schema1:vatID "ESB39540760" ;
+    skos:altLabel "VIEE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "REPSOL COMERCIALIZADORA DE ELECTRICIDAD Y GAS, S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

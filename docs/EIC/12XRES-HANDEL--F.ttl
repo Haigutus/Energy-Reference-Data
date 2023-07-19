@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/12XRES-HANDEL--F> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Regionalversorger Strom, Gas, Wasser Und Weitere Dienstleistungen" ;
+    cim:IdentifiedObject.mRID "12XRES-HANDEL--F" ;
+    cim:IdentifiedObject.name "Regio Energie Solothurn" ;
+    cim:Names.name "CH183912",
+        "RES_HANDEL",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:12XRES-HANDEL--F" ;
+    schema1:vatID "CH183912" ;
+    skos:altLabel "RES_HANDEL" ;
+    skos:definition "Regionalversorger Strom, Gas, Wasser Und Weitere Dienstleistungen"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Regio Energie Solothurn" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

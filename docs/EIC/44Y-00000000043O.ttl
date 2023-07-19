@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44Y-00000000043O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-04-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "44Y-00000000043O" ;
+    cim:IdentifiedObject.name "Nurmijärven Sähköverkko Oy" ;
+    cim:Names.name "FI_NUR000",
+        "Metering Grid Area" ;
+    dcterms:identifier "urn:eic:44Y-00000000043O" ;
+    skos:altLabel "FI_NUR000" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Nurmijärven Sähköverkko Oy" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/48XTEPUKLTD53976> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-07-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "48XTEPUKLTD53976" ;
+    cim:IdentifiedObject.name "Total Exploration and Production UK Ltd" ;
+    cim:Names.name "GB384540637",
+        "Producer",
+        "TOTALEPUK" ;
+    dcterms:identifier "urn:eic:48XTEPUKLTD53976" ;
+    schema1:vatID "GB384540637" ;
+    skos:altLabel "TOTALEPUK" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Total Exploration and Production UK Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

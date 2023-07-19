@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/42X-HZENERGYTR-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "42X-HZENERGYTR-G" ;
+    cim:IdentifiedObject.name "HZ Energy Trading s.r.o." ;
+    cim:Names.name "HZENERGYTRADING",
+        "SK2121112554",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:42X-HZENERGYTR-G" ;
+    schema1:vatID "SK2121112554" ;
+    skos:altLabel "HZENERGYTRADING" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "HZ Energy Trading s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

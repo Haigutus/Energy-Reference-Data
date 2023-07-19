@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11T0-0000-1431-O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-09-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11T0-0000-1431-O" ;
+    cim:IdentifiedObject.name "AMP / 220kV / Rommerskirchen - Y-Niederaussem C / Niederaussem 3c" ;
+    cim:Names.name "Internal Line",
+        "NAUSSM3C-ROMMERS" ;
+    dcterms:identifier "urn:eic:11T0-0000-1431-O" ;
+    skos:altLabel "NAUSSM3C-ROMMERS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMP / 220kV / Rommerskirchen - Y-Niederaussem C / Niederaussem 3c" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

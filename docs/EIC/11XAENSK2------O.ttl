@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XAENSK2------O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-07" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XAENSK2------O" ;
+    cim:IdentifiedObject.name "A.En. Slovensko, s.r.o." ;
+    cim:Names.name "AENSK2",
+        "Balance Group",
+        "SK2020117561" ;
+    dcterms:identifier "urn:eic:11XAENSK2------O" ;
+    schema1:vatID "SK2020117561" ;
+    skos:altLabel "AENSK2" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "A.En. Slovensko, s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

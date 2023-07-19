@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XBNPUK100010LJ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-12-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XBNPUK100010LJ" ;
+    cim:IdentifiedObject.name "BNP PARIBAS SA" ;
+    cim:Names.name "BNPPARISAUK",
+        "GB417734642",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:59XBNPUK100010LJ" ;
+    schema1:vatID "GB417734642" ;
+    skos:altLabel "BNPPARISAUK" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "BNP PARIBAS SA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

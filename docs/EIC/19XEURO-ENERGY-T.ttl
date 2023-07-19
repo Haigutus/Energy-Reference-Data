@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XEURO-ENERGY-T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-31" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Energy Trading On International Markets." ;
+    cim:IdentifiedObject.mRID "19XEURO-ENERGY-T" ;
+    cim:IdentifiedObject.name "EURO ENERGY TRADING AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "CH0940732884",
+        "EET_AG" ;
+    dcterms:identifier "urn:eic:19XEURO-ENERGY-T" ;
+    schema1:vatID "CH0940732884" ;
+    skos:altLabel "EET_AG" ;
+    skos:definition "Energy Trading On International Markets."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EURO ENERGY TRADING AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

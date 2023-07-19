@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59XATENATRADINGK> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-10-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59XATENATRADINGK" ;
+    cim:IdentifiedObject.name "Atena Trading S.r.l." ;
+    cim:Names.name "ATENATRADINGSRL",
+        "Balance Responsible Party",
+        "IT2064090026" ;
+    dcterms:identifier "urn:eic:59XATENATRADINGK" ;
+    schema1:vatID "IT2064090026" ;
+    skos:altLabel "ATENATRADINGSRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Atena Trading S.r.l." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

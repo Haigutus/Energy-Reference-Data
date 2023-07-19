@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X0012753101991> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-05-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59X0012753101991" ;
+    cim:IdentifiedObject.name "A.S.P.M. COMMERCIALE SRL" ;
+    cim:Names.name "ASPM_COMM_SRL",
+        "Consumer",
+        "IT1275310199" ;
+    dcterms:identifier "urn:eic:59X0012753101991" ;
+    schema1:vatID "IT1275310199" ;
+    skos:altLabel "ASPM_COMM_SRL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "A.S.P.M. COMMERCIALE SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

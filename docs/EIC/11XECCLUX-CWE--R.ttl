@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XECCLUX-CWE--R> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-11-15" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group" ;
+    cim:IdentifiedObject.mRID "11XECCLUX-CWE--R" ;
+    cim:IdentifiedObject.name "European Commodity Clearing AG" ;
+    cim:Names.name "Balance Group",
+        "DE248156757",
+        "ECC-CWE" ;
+    dcterms:identifier "urn:eic:11XECCLUX-CWE--R" ;
+    schema1:vatID "DE248156757" ;
+    skos:altLabel "ECC-CWE" ;
+    skos:definition "Balance Group"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "European Commodity Clearing AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

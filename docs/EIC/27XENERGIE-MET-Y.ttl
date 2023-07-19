@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/27XENERGIE-MET-Y> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-05-13" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "27XENERGIE-MET-Y" ;
+    cim:IdentifiedObject.name "Energie MET s.r.o." ;
+    cim:Names.name "Balance Responsible Party",
+        "CZ07512376",
+        "ENERGIE_MET" ;
+    dcterms:identifier "urn:eic:27XENERGIE-MET-Y" ;
+    schema1:vatID "CZ07512376" ;
+    skos:altLabel "ENERGIE_MET" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energie MET s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

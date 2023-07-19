@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--150416-A--N> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2015-04-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "23X--150416-A--N" ;
+    cim:IdentifiedObject.name "AYEN AS ENERGJI sha" ;
+    cim:Names.name "ALL11731504A",
+        "AYEN_ENERGJI",
+        "Producer",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--150416-A--N" ;
+    schema1:vatID "ALL11731504A" ;
+    skos:altLabel "AYEN_ENERGJI" ;
+    skos:definition "Producer, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AYEN AS ENERGJI sha" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

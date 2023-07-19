@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEEG-GRU-ENERJ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.description "Balance Group For Renewable Energy" ;
+    cim:IdentifiedObject.mRID "11XEEG-GRU-ENERJ" ;
+    cim:IdentifiedObject.name "energis GmbH" ;
+    cim:Names.name "DE186969908",
+        "ENERGIS-EEG-GRU",
+        "Valid EIC Function needed" ;
+    dcterms:identifier "urn:eic:11XEEG-GRU-ENERJ" ;
+    schema1:vatID "DE186969908" ;
+    skos:altLabel "ENERGIS-EEG-GRU" ;
+    skos:definition "Balance Group For Renewable Energy"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "energis GmbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

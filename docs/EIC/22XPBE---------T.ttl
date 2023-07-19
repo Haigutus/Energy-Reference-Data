@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XPBE---------T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Operator" ;
+    cim:IdentifiedObject.mRID "22XPBE---------T" ;
+    cim:IdentifiedObject.name "PROVINCIALE BRABANTSE ENERGIEMAATSCHAPPIJ" ;
+    cim:Names.name "BE0203563111",
+        "BE_PBE",
+        "Grid Operator" ;
+    dcterms:identifier "urn:eic:22XPBE---------T" ;
+    schema1:vatID "BE0203563111" ;
+    skos:altLabel "BE_PBE" ;
+    skos:definition "Grid Operator"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PROVINCIALE BRABANTSE ENERGIEMAATSCHAPPIJ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

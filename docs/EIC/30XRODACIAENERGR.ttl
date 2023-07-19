@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30XRODACIAENERGR> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-03-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "30XRODACIAENERGR" ;
+    cim:IdentifiedObject.name "DACIA ENERGY SOLUTIONS" ;
+    cim:Names.name "Capacity Trader",
+        "RO41435690",
+        "RO_DACIA" ;
+    dcterms:identifier "urn:eic:30XRODACIAENERGR" ;
+    schema1:vatID "RO41435690" ;
+    skos:altLabel "RO_DACIA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DACIA ENERGY SOLUTIONS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

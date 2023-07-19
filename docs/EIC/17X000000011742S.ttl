@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000000011742S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-04-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "17X000000011742S" ;
+    cim:IdentifiedObject.name "TORAY CARBON FIBERS EUROPE" ;
+    cim:Names.name "Consumer",
+        "FR45326262227",
+        "FR_TORAY" ;
+    dcterms:identifier "urn:eic:17X000000011742S" ;
+    schema1:vatID "FR45326262227" ;
+    skos:altLabel "FR_TORAY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TORAY CARBON FIBERS EUROPE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18XCAMPO-12345-S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2009-05-22" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Grid Access Provider" ;
+    cim:IdentifiedObject.mRID "18XCAMPO-12345-S" ;
+    cim:IdentifiedObject.name "ENERGIAS DE LA VILLA DE CAMPO, S.L.U." ;
+    cim:Names.name "CAMPO",
+        "ESB22280259",
+        "Grid Access Provider" ;
+    dcterms:identifier "urn:eic:18XCAMPO-12345-S" ;
+    schema1:vatID "ESB22280259" ;
+    skos:altLabel "CAMPO" ;
+    skos:definition "Grid Access Provider"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENERGIAS DE LA VILLA DE CAMPO, S.L.U." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

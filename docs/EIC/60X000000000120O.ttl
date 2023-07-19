@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/60X000000000120O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-03-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "60X000000000120O" ;
+    cim:IdentifiedObject.name "MANDARAX TRADE SRL" ;
+    cim:Names.name "MANDARAX97",
+        "RO45397394",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:60X000000000120O" ;
+    schema1:vatID "RO45397394" ;
+    skos:altLabel "MANDARAX97" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MANDARAX TRADE SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

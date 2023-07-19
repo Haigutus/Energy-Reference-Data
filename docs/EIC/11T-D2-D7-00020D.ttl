@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11T-D2-D7-00020D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-01-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11T-D2-D7-00020D" ;
+    cim:IdentifiedObject.name "AMP-TTG/380/Dauersberg-Dillenburg/Westerwald O-2" ;
+    cim:Names.name "Internal Tie-Line",
+        "L-D2-D7-DILDAU-1" ;
+    dcterms:identifier "urn:eic:11T-D2-D7-00020D" ;
+    skos:altLabel "L-D2-D7-DILDAU-1" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMP-TTG/380/Dauersberg-Dillenburg/Westerwald O-2" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

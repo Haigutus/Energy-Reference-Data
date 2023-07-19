@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/44X-00000000246O">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:44X-00000000246O</dcterms:identifier>
+    <skos:prefLabel>Nokia Solutions and Networks Oy</skos:prefLabel>
+    <skos:altLabel>44NOKIASN</skos:altLabel>
+    <cim:IdentifiedObject.mRID>44X-00000000246O</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Nokia Solutions and Networks Oy</cim:IdentifiedObject.name>
+    <cim:Names.name>44NOKIASN</cim:Names.name>
+    <cim:Names.name>FI20584306</cim:Names.name>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2023-06-02</cim:DateAndOrTime.date>
+    <cim:Names.name>Information Provider</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>FI20584306</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

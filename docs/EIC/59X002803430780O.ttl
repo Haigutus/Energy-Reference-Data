@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/59X002803430780O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2017-03-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "59X002803430780O" ;
+    cim:IdentifiedObject.name "CCR ENERGIA SRL" ;
+    cim:Names.name "02803430780",
+        "CCR_ENE_RGY",
+        "Market Operator" ;
+    dcterms:identifier "urn:eic:59X002803430780O" ;
+    schema1:vatID "02803430780" ;
+    skos:altLabel "CCR_ENE_RGY" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CCR ENERGIA SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/55X-TNSL-202219K> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-05-12" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producer" ;
+    cim:IdentifiedObject.mRID "55X-TNSL-202219K" ;
+    cim:IdentifiedObject.name "Talisman Sinopec North Sea Limited" ;
+    cim:Names.name "GB394805910",
+        "Producer",
+        "TNSL" ;
+    dcterms:identifier "urn:eic:55X-TNSL-202219K" ;
+    schema1:vatID "GB394805910" ;
+    skos:altLabel "TNSL" ;
+    skos:definition "Producer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Talisman Sinopec North Sea Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

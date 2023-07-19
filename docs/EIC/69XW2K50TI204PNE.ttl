@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/69XW2K50TI204PNE> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-02-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "69XW2K50TI204PNE" ;
+    cim:IdentifiedObject.name "TGC Gas Limited" ;
+    cim:Names.name "Balance Responsible Party",
+        "CY10415311B",
+        "TGC-GAS-LIMITED",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:69XW2K50TI204PNE" ;
+    schema1:vatID "CY10415311B" ;
+    skos:altLabel "TGC-GAS-LIMITED" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "TGC Gas Limited" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

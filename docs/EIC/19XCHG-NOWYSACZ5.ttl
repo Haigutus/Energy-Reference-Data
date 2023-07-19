@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XCHG-NOWYSACZ5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-12-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XCHG-NOWYSACZ5" ;
+    cim:IdentifiedObject.name "CH GOŁĄBKOWICE SP Z OO SP KOM" ;
+    cim:Names.name "CH_GOLABKOWICE",
+        "Energy Supplier",
+        "PL7343414638" ;
+    dcterms:identifier "urn:eic:19XCHG-NOWYSACZ5" ;
+    schema1:vatID "PL7343414638" ;
+    skos:altLabel "CH_GOLABKOWICE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CH GOŁĄBKOWICE SP Z OO SP KOM" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

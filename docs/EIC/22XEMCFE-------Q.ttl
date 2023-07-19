@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/22XEMCFE-------Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-02-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Consumer" ;
+    cim:IdentifiedObject.mRID "22XEMCFE-------Q" ;
+    cim:IdentifiedObject.name "EXXONMOBIL CHEMICAL FILMS EUROPE" ;
+    cim:Names.name "BE0419040790",
+        "BE_EMCFE",
+        "Consumer" ;
+    dcterms:identifier "urn:eic:22XEMCFE-------Q" ;
+    schema1:vatID "BE0419040790" ;
+    skos:altLabel "BE_EMCFE" ;
+    skos:definition "Consumer"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "EXXONMOBIL CHEMICAL FILMS EUROPE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

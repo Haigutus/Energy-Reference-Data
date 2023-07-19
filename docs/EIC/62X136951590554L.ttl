@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/62X136951590554L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-07-15" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "62X136951590554L" ;
+    cim:IdentifiedObject.name "JOINT STOCK COMPANY ENERGY COMPANY OF UKRAINE" ;
+    cim:Names.name "329842726597",
+        "Consumption Responsible Party",
+        "ECU_JSC" ;
+    dcterms:identifier "urn:eic:62X136951590554L" ;
+    schema1:vatID "329842726597" ;
+    skos:altLabel "ECU_JSC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "JOINT STOCK COMPANY ENERGY COMPANY OF UKRAINE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

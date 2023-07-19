@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEUROKOM-EN--8> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2022-11-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11XEUROKOM-EN--8" ;
+    cim:IdentifiedObject.name "MVE Eurokom Gesellschaft für Energie und Kommunikationsleistungen mbH" ;
+    cim:Names.name "Balance Group",
+        "DE202103400",
+        "EUROKOM-EN" ;
+    dcterms:identifier "urn:eic:11XEUROKOM-EN--8" ;
+    schema1:vatID "DE202103400" ;
+    skos:altLabel "EUROKOM-EN" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "MVE Eurokom Gesellschaft für Energie und Kommunikationsleistungen mbH" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

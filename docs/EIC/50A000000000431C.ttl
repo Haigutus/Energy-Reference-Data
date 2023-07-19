@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/50A000000000431C> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2021-02-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "50A000000000431C" ;
+    cim:IdentifiedObject.name "Grønsdal" ;
+    cim:Names.name "NO-GRONSDAL",
+        "Substation" ;
+    dcterms:identifier "urn:eic:50A000000000431C" ;
+    skos:altLabel "NO-GRONSDAL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Grønsdal" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

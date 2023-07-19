@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18X000000000HVO7> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2020-05-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18X000000000HVO7" ;
+    cim:IdentifiedObject.name "URANOSCOPIDAE III ENERGÍA, SOCIEDAD LIMITADA" ;
+    cim:Names.name "ESB88630504",
+        "Trade Responsible Party",
+        "URAII" ;
+    dcterms:identifier "urn:eic:18X000000000HVO7" ;
+    schema1:vatID "ESB88630504" ;
+    skos:altLabel "URAII" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "URANOSCOPIDAE III ENERGÍA, SOCIEDAD LIMITADA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

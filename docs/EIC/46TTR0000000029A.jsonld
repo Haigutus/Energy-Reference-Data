@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/46TTR0000000029A",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:46TTR0000000029A",
+    "@skos:prefLabel": "Stadsforsen T2, T13",
+    "@skos:altLabel": "STADSFORS_T2_T13",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Transformer"
+    },
+    "@cim:IdentifiedObject.mRID": "46TTR0000000029A",
+    "@cim:IdentifiedObject.name": "Stadsforsen T2, T13",
+    "@cim:Names.name": [
+        "STADSFORS_T2_T13",
+        "Transformer"
+    ],
+    "@cim:IdentifiedObject.description": "Transformer",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2022-11-16",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

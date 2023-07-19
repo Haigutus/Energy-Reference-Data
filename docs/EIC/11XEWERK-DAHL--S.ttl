@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11XEWERK-DAHL--S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2019-03-25" ;
+    cim:Document.docStatus "A03" ;
+    cim:IdentifiedObject.mRID "11XEWERK-DAHL--S" ;
+    cim:IdentifiedObject.name "Energieversorgung Dahlenburg-Bleckede AG" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE116078336",
+        "EW_DAHLENBURG" ;
+    dcterms:identifier "urn:eic:11XEWERK-DAHL--S" ;
+    schema1:vatID "DE116078336" ;
+    skos:altLabel "EW_DAHLENBURG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Energieversorgung Dahlenburg-Bleckede AG" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

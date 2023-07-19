@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XAMBITIO-----Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2012-12-03" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party" ;
+    cim:IdentifiedObject.mRID "19XAMBITIO-----Q" ;
+    cim:IdentifiedObject.name "AMBITIO SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    cim:Names.name "AMBITIO",
+        "Balance Responsible Party",
+        "PL7010351288" ;
+    dcterms:identifier "urn:eic:19XAMBITIO-----Q" ;
+    schema1:vatID "PL7010351288" ;
+    skos:altLabel "AMBITIO" ;
+    skos:definition "Balance Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMBITIO SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

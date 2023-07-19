@@ -1,0 +1,29 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/21X0000000012671> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Balance Responsible Party, Balance Supplier, Capacty Trader, Coordinating Scheduler, Interconnection Trade Responsible, Trade Responsible Party" ;
+    cim:IdentifiedObject.mRID "21X0000000012671" ;
+    cim:IdentifiedObject.name "Universal Capital Markets Ltd" ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "Energy Supplier",
+        "GB174083017",
+        "Interconnection Trade Responsible",
+        "Trade Responsible Party",
+        "UCMARKETS" ;
+    dcterms:identifier "urn:eic:21X0000000012671" ;
+    schema1:vatID "GB174083017" ;
+    skos:altLabel "UCMARKETS" ;
+    skos:definition "Balance Responsible Party, Balance Supplier, Capacty Trader, Coordinating Scheduler, Interconnection Trade Responsible, Trade Responsible Party"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Universal Capital Markets Ltd" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+
