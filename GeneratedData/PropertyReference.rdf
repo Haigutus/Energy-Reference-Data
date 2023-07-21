@@ -7,11 +7,11 @@
     xmlns:dcterms="http://purl.org/dc/terms/#" > 
   <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/PropertyReference">
     <skos:definition>Reference data for the property reference.</skos:definition>
-    <skos:prefLabel>Property Reference</skos:prefLabel>
-    <dcterms:title>Property Reference</dcterms:title>
+    <skos:prefLabel>PropertyReference</skos:prefLabel>
+    <dcterms:title>PropertyReference</dcterms:title>
     <dcat:version>2.0</dcat:version>
-    <dcat:startDate>2023-07-20T09:00:00Z</dcat:startDate>
-    <dcterms:identifier>urn:uuid:5458eba2-38d7-4e7e-a597-a35e5309c5ab</dcterms:identifier>
+    <dcat:startDate>2023-02-15T09:00:00Z</dcat:startDate>
+    <dcterms:identifier>urn:uuid:8cba2cf3-b227-458d-81c2-b312749e1a36</dcterms:identifier>
     <dcterms:modified>2023-07-20T09:00:00Z</dcterms:modified>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.operatingMode">
