@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb">
     <cim:IdentifiedObject.mRID>bda46d8e-9515-4678-a6c9-dd62be9c5deb</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.temperature</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault causes due to high/low ambient temperatures or (wild) fires due to environmental causes (not human). Use the subcategory fires, high ambient temperature or low ambient temperature if possible.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.temperature</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault causes due to high/low ambient temperatures or (wild) fires due to environmental causes (not human). Use the subcategory fires, high ambient temperature or low ambient temperature if possible.</skos:definition>
     <dcterms:identifier>urn:uuid:bda46d8e-9515-4678-a6c9-dd62be9c5deb</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

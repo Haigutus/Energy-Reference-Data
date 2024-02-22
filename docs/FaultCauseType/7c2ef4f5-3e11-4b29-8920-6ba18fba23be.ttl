@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/7c2ef4f5-3e11-4b29-8920-6ba18fba23be> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults during operation or maintenance due to incorrect installation of network element or equipment." ;
     cim:IdentifiedObject.mRID "7c2ef4f5-3e11-4b29-8920-6ba18fba23be" ;
     cim:IdentifiedObject.name "operationAndMaintenance.personnel.installationError" ;
     dcterms:identifier "urn:uuid:7c2ef4f5-3e11-4b29-8920-6ba18fba23be" ;
+    skos:definition "Faults during operation or maintenance due to incorrect installation of network element or equipment."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "operationAndMaintenance.personnel.installationError" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

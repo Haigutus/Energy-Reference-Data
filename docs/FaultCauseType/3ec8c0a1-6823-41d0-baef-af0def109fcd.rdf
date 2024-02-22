@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/3ec8c0a1-6823-41d0-baef-af0def109fcd">
     <cim:IdentifiedObject.mRID>3ec8c0a1-6823-41d0-baef-af0def109fcd</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.pollution</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault caused by pollution. Use the subcategory air pollution, salt or ash particles if possible.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.pollution</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault caused by pollution. Use the subcategory air pollution, salt or ash particles if possible.</skos:definition>
     <dcterms:identifier>urn:uuid:3ec8c0a1-6823-41d0-baef-af0def109fcd</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

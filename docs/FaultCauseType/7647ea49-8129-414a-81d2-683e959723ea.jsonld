@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "7647ea49-8129-414a-81d2-683e959723ea",
     "@cim:IdentifiedObject.name": "technical.equipment",
+    "@cim:IdentifiedObject.description": "Causes that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans. Use the subcategories of this cause if possible.",
     "@skos:prefLabel": "technical.equipment",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Causes that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans. Use the subcategories of this cause if possible."
+    },
     "@dcterms:identifier": "urn:uuid:7647ea49-8129-414a-81d2-683e959723ea",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

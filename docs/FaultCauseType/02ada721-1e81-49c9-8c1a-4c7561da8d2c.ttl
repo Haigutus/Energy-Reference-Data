@@ -6,12 +6,10 @@
         skos:Concept ;
     cim:IdentifiedObject.description "Any kind of third party construction work such as rock blasting, building construction, infrastructure building." ;
     cim:IdentifiedObject.mRID "02ada721-1e81-49c9-8c1a-4c7561da8d2c" ;
-    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.constructionWork",
-        "operationAndMaintenance.personnel.constructionWork" ;
+    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.constructionWork" ;
     dcterms:identifier "urn:uuid:02ada721-1e81-49c9-8c1a-4c7561da8d2c" ;
     skos:definition "Any kind of third party construction work such as rock blasting, building construction, infrastructure building."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
-    skos:prefLabel "externalInfluences.humanThirdParty.constructionWork",
-        "operationAndMaintenance.personnel.constructionWork" ;
+    skos:prefLabel "externalInfluences.humanThirdParty.constructionWork" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
 

@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/ac03c3d2-5d34-46a8-84c2-133fd6dbe45d">
     <cim:IdentifiedObject.mRID>ac03c3d2-5d34-46a8-84c2-133fd6dbe45d</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>operationAndMaintenance.personnel</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>operationAndMaintenance.personnel</skos:prefLabel>
+    <skos:definition xml:lang="en">Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance.</skos:definition>
     <dcterms:identifier>urn:uuid:ac03c3d2-5d34-46a8-84c2-133fd6dbe45d</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

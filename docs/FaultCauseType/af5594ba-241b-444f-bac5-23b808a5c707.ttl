@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/af5594ba-241b-444f-bac5-23b808a5c707> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Foreign objects not related to human activity or animals." ;
     cim:IdentifiedObject.mRID "af5594ba-241b-444f-bac5-23b808a5c707" ;
     cim:IdentifiedObject.name "externalInfluences.foreignObjects" ;
     dcterms:identifier "urn:uuid:af5594ba-241b-444f-bac5-23b808a5c707" ;
+    skos:definition "Foreign objects not related to human activity or animals."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "externalInfluences.foreignObjects" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

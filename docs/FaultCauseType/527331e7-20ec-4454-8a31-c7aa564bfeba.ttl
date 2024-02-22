@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/527331e7-20ec-4454-8a31-c7aa564bfeba> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults due to animals. Use the subcategory birds or other animals if possible." ;
     cim:IdentifiedObject.mRID "527331e7-20ec-4454-8a31-c7aa564bfeba" ;
     cim:IdentifiedObject.name "externalInfluences.animals" ;
     dcterms:identifier "urn:uuid:527331e7-20ec-4454-8a31-c7aa564bfeba" ;
+    skos:definition "Faults due to animals. Use the subcategory birds or other animals if possible."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "externalInfluences.animals" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

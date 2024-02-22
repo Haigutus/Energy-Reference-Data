@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/7c2ef4f5-3e11-4b29-8920-6ba18fba23be">
     <cim:IdentifiedObject.mRID>7c2ef4f5-3e11-4b29-8920-6ba18fba23be</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>operationAndMaintenance.personnel.installationError</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Faults during operation or maintenance due to incorrect installation of network element or equipment.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>operationAndMaintenance.personnel.installationError</skos:prefLabel>
+    <skos:definition xml:lang="en">Faults during operation or maintenance due to incorrect installation of network element or equipment.</skos:definition>
     <dcterms:identifier>urn:uuid:7c2ef4f5-3e11-4b29-8920-6ba18fba23be</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

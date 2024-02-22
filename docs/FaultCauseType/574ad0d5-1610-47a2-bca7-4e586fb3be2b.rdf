@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/574ad0d5-1610-47a2-bca7-4e586fb3be2b">
     <cim:IdentifiedObject.mRID>574ad0d5-1610-47a2-bca7-4e586fb3be2b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.lightning</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Environmental causes due to lightning.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.lightning</skos:prefLabel>
+    <skos:definition xml:lang="en">Environmental causes due to lightning.</skos:definition>
     <dcterms:identifier>urn:uuid:574ad0d5-1610-47a2-bca7-4e586fb3be2b</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

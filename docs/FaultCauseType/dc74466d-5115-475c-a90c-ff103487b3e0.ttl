@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/dc74466d-5115-475c-a90c-ff103487b3e0> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Environmental causes due to ash particles from, for example, volcanoes." ;
     cim:IdentifiedObject.mRID "dc74466d-5115-475c-a90c-ff103487b3e0" ;
     cim:IdentifiedObject.name "environmental.pollution.ashParticles" ;
     dcterms:identifier "urn:uuid:dc74466d-5115-475c-a90c-ff103487b3e0" ;
+    skos:definition "Environmental causes due to ash particles from, for example, volcanoes."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "environmental.pollution.ashParticles" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

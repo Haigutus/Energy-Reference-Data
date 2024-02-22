@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/3ec8c0a1-6823-41d0-baef-af0def109fcd> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault caused by pollution. Use the subcategory air pollution, salt or ash particles if possible." ;
     cim:IdentifiedObject.mRID "3ec8c0a1-6823-41d0-baef-af0def109fcd" ;
     cim:IdentifiedObject.name "environmental.pollution" ;
     dcterms:identifier "urn:uuid:3ec8c0a1-6823-41d0-baef-af0def109fcd" ;
+    skos:definition "Fault caused by pollution. Use the subcategory air pollution, salt or ash particles if possible."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "environmental.pollution" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

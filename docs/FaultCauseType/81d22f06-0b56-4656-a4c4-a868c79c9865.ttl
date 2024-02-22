@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/81d22f06-0b56-4656-a4c4-a868c79c9865> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults due to birds." ;
     cim:IdentifiedObject.mRID "81d22f06-0b56-4656-a4c4-a868c79c9865" ;
     cim:IdentifiedObject.name "externalInfluences.animals.birds" ;
     dcterms:identifier "urn:uuid:81d22f06-0b56-4656-a4c4-a868c79c9865" ;
+    skos:definition "Faults due to birds."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "externalInfluences.animals.birds" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

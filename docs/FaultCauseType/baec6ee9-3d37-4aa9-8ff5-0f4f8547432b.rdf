@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/baec6ee9-3d37-4aa9-8ff5-0f4f8547432b">
     <cim:IdentifiedObject.mRID>baec6ee9-3d37-4aa9-8ff5-0f4f8547432b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>externalInfluences.humanThirdParty.cyberAttack</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Faults due to cyberattacks.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>externalInfluences.humanThirdParty.cyberAttack</skos:prefLabel>
+    <skos:definition xml:lang="en">Faults due to cyberattacks.</skos:definition>
     <dcterms:identifier>urn:uuid:baec6ee9-3d37-4aa9-8ff5-0f4f8547432b</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

@@ -1,9 +1,11 @@
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/04991d18-8994-43cb-88e1-8d2af5a61577">
     <cim:IdentifiedObject.mRID>04991d18-8994-43cb-88e1-8d2af5a61577</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>technical.equipment.aging</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>technical.equipment.ageing</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault in an equipment due to its ageing.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
-    <skos:prefLabel>technical.equipment.aging</skos:prefLabel>
+    <skos:prefLabel>technical.equipment.ageing</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault in an equipment due to its ageing.</skos:definition>
     <dcterms:identifier>urn:uuid:04991d18-8994-43cb-88e1-8d2af5a61577</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "dc74466d-5115-475c-a90c-ff103487b3e0",
     "@cim:IdentifiedObject.name": "environmental.pollution.ashParticles",
+    "@cim:IdentifiedObject.description": "Environmental causes due to ash particles from, for example, volcanoes.",
     "@skos:prefLabel": "environmental.pollution.ashParticles",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Environmental causes due to ash particles from, for example, volcanoes."
+    },
     "@dcterms:identifier": "urn:uuid:dc74466d-5115-475c-a90c-ff103487b3e0",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

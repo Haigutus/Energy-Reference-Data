@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/94bd2c45-29e7-4a34-99db-9ec1e18a26c5">
     <cim:IdentifiedObject.mRID>94bd2c45-29e7-4a34-99db-9ec1e18a26c5</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical.equipment.loosePart</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault in an equipment due one or several loose parts.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical.equipment.loosePart</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault in an equipment due one or several loose parts.</skos:definition>
     <dcterms:identifier>urn:uuid:94bd2c45-29e7-4a34-99db-9ec1e18a26c5</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

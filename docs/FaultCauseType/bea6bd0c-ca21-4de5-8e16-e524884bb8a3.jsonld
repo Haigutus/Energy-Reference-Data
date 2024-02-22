@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "bea6bd0c-ca21-4de5-8e16-e524884bb8a3",
     "@cim:IdentifiedObject.name": "unknown",
+    "@cim:IdentifiedObject.description": "Unknown is registered as the cause if the cause of the fault cannot be determined at any certainty.",
     "@skos:prefLabel": "unknown",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Unknown is registered as the cause if the cause of the fault cannot be determined at any certainty."
+    },
     "@dcterms:identifier": "urn:uuid:bea6bd0c-ca21-4de5-8e16-e524884bb8a3",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

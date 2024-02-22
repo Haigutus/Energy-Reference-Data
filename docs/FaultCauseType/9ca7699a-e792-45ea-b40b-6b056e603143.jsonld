@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "9ca7699a-e792-45ea-b40b-6b056e603143",
     "@cim:IdentifiedObject.name": "environmental.wind",
+    "@cim:IdentifiedObject.description": "Environmental causes due to wind. Use the subcategory high wind speed and/or unfavourable wind direction if possible.",
     "@skos:prefLabel": "environmental.wind",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Environmental causes due to wind. Use the subcategory high wind speed and/or unfavourable wind direction if possible."
+    },
     "@dcterms:identifier": "urn:uuid:9ca7699a-e792-45ea-b40b-6b056e603143",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

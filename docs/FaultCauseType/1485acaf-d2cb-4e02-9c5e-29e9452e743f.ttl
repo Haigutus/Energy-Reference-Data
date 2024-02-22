@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/1485acaf-d2cb-4e02-9c5e-29e9452e743f> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault in an equipment due to rot damage." ;
     cim:IdentifiedObject.mRID "1485acaf-d2cb-4e02-9c5e-29e9452e743f" ;
     cim:IdentifiedObject.name "technical.equipment.rotDamage" ;
     dcterms:identifier "urn:uuid:1485acaf-d2cb-4e02-9c5e-29e9452e743f" ;
+    skos:definition "Fault in an equipment due to rot damage."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.equipment.rotDamage" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Environmental causes due to salt." ;
     cim:IdentifiedObject.mRID "6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595" ;
     cim:IdentifiedObject.name "environmental.pollution.salt" ;
     dcterms:identifier "urn:uuid:6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595" ;
+    skos:definition "Environmental causes due to salt."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "environmental.pollution.salt" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

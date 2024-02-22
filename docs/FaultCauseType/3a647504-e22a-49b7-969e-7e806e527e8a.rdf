@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/3a647504-e22a-49b7-969e-7e806e527e8a">
     <cim:IdentifiedObject.mRID>3a647504-e22a-49b7-969e-7e806e527e8a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical.equipment.contamination</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault in an equipment due to contamination.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical.equipment.contamination</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault in an equipment due to contamination.</skos:definition>
     <dcterms:identifier>urn:uuid:3a647504-e22a-49b7-969e-7e806e527e8a</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

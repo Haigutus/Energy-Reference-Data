@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/a6a8ee4a-d696-4382-886c-3226c613912b> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Environmental causes due to high wind speed." ;
     cim:IdentifiedObject.mRID "a6a8ee4a-d696-4382-886c-3226c613912b" ;
     cim:IdentifiedObject.name "environmental.wind.highSpeed" ;
     dcterms:identifier "urn:uuid:a6a8ee4a-d696-4382-886c-3226c613912b" ;
+    skos:definition "Environmental causes due to high wind speed."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "environmental.wind.highSpeed" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "9eb57f55-c6b2-4df1-a411-128aeac5aa6d",
     "@cim:IdentifiedObject.name": "technical.faultOnOtherComponent.other",
+    "@cim:IdentifiedObject.description": "Other causes due to faults on other components.",
     "@skos:prefLabel": "technical.faultOnOtherComponent.other",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Other causes due to faults on other components."
+    },
     "@dcterms:identifier": "urn:uuid:9eb57f55-c6b2-4df1-a411-128aeac5aa6d",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

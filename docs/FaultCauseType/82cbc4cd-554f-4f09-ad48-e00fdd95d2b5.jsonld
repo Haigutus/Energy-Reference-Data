@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "82cbc4cd-554f-4f09-ad48-e00fdd95d2b5",
     "@cim:IdentifiedObject.name": "operationAndMaintenance.operations",
+    "@cim:IdentifiedObject.description": "Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance.",
     "@skos:prefLabel": "operationAndMaintenance.operations",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance."
+    },
     "@dcterms:identifier": "urn:uuid:82cbc4cd-554f-4f09-ad48-e00fdd95d2b5",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

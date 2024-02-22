@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "94bd2c45-29e7-4a34-99db-9ec1e18a26c5",
     "@cim:IdentifiedObject.name": "technical.equipment.loosePart",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due one or several loose parts.",
     "@skos:prefLabel": "technical.equipment.loosePart",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due one or several loose parts."
+    },
     "@dcterms:identifier": "urn:uuid:94bd2c45-29e7-4a34-99db-9ec1e18a26c5",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

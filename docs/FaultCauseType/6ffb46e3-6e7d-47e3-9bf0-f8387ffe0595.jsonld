@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595",
     "@cim:IdentifiedObject.name": "environmental.pollution.salt",
+    "@cim:IdentifiedObject.description": "Environmental causes due to salt.",
     "@skos:prefLabel": "environmental.pollution.salt",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Environmental causes due to salt."
+    },
     "@dcterms:identifier": "urn:uuid:6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

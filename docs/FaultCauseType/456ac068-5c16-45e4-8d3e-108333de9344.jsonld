@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "456ac068-5c16-45e4-8d3e-108333de9344",
     "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.fireExplosion",
+    "@cim:IdentifiedObject.description": "Unintentional fires or explosions due to third-party human activity.",
     "@skos:prefLabel": "externalInfluences.humanThirdParty.fireExplosion",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Unintentional fires or explosions due to third-party human activity."
+    },
     "@dcterms:identifier": "urn:uuid:456ac068-5c16-45e4-8d3e-108333de9344",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

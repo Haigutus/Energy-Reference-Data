@@ -2,12 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/6e52d582-7d16-49f9-8f85-e6e8225434ba">
     <cim:IdentifiedObject.mRID>6e52d582-7d16-49f9-8f85-e6e8225434ba</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.physicalSurroundings.vegetation</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.description>Includes, for example, tree toppling and other vegetation growth.
-			</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Includes, for example, tree toppling and other vegetation growth.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.physicalSurroundings.vegetation</skos:prefLabel>
-    <skos:definition xml:lang="en">Includes, for example, tree toppling and other vegetation growth.
-			</skos:definition>
+    <skos:definition xml:lang="en">Includes, for example, tree toppling and other vegetation growth.</skos:definition>
     <dcterms:identifier>urn:uuid:6e52d582-7d16-49f9-8f85-e6e8225434ba</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

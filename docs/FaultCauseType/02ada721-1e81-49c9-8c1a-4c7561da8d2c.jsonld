@@ -5,15 +5,9 @@
         "@cim:FaultCauseType"
     ],
     "@cim:IdentifiedObject.mRID": "02ada721-1e81-49c9-8c1a-4c7561da8d2c",
-    "@cim:IdentifiedObject.name": [
-        "externalInfluences.humanThirdParty.constructionWork",
-        "operationAndMaintenance.personnel.constructionWork"
-    ],
+    "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.constructionWork",
     "@cim:IdentifiedObject.description": "Any kind of third party construction work such as rock blasting, building construction, infrastructure building.",
-    "@skos:prefLabel": [
-        "externalInfluences.humanThirdParty.constructionWork",
-        "operationAndMaintenance.personnel.constructionWork"
-    ],
+    "@skos:prefLabel": "externalInfluences.humanThirdParty.constructionWork",
     "@skos:definition": {
         "@language": "en",
         "@value": "Any kind of third party construction work such as rock blasting, building construction, infrastructure building."

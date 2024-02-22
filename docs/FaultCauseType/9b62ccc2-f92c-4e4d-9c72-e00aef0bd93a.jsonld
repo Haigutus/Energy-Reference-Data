@@ -5,28 +5,13 @@
         "@cim:FaultCauseType"
     ],
     "@cim:IdentifiedObject.mRID": "9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a",
-    "@cim:IdentifiedObject.name": [
-        "externalInfluences.humanThirdParty.trafficDamage",
-        "operationAndMaintenance.personnel.trafficDamage"
-    ],
-    "@cim:IdentifiedObject.description": [
-        "Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects.",
-        "Includes land, sea and air traffic and off-road."
-    ],
-    "@skos:prefLabel": [
-        "externalInfluences.humanThirdParty.trafficDamage",
-        "operationAndMaintenance.personnel.trafficDamage"
-    ],
-    "@skos:definition": [
-        {
-            "@language": "en",
-            "@value": "Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects."
-        },
-        {
-            "@language": "en",
-            "@value": "Includes land, sea and air traffic and off-road."
-        }
-    ],
+    "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.trafficDamage",
+    "@cim:IdentifiedObject.description": "Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects.",
+    "@skos:prefLabel": "externalInfluences.humanThirdParty.trafficDamage",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects."
+    },
     "@dcterms:identifier": "urn:uuid:9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

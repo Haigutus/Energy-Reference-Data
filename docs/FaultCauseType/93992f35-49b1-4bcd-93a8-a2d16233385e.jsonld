@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "93992f35-49b1-4bcd-93a8-a2d16233385e",
     "@cim:IdentifiedObject.name": "operationAndMaintenance",
+    "@cim:IdentifiedObject.description": "Operation and maintenance focus on faults that occur during operation and maintenance by internal and external personnel and operational errors that lead to unplanned and sudden changes in the electric power system operating conditions.",
     "@skos:prefLabel": "operationAndMaintenance",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Operation and maintenance focus on faults that occur during operation and maintenance by internal and external personnel and operational errors that lead to unplanned and sudden changes in the electric power system operating conditions."
+    },
     "@dcterms:identifier": "urn:uuid:93992f35-49b1-4bcd-93a8-a2d16233385e",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

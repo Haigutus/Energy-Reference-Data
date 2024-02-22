@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "81d22f06-0b56-4656-a4c4-a868c79c9865",
     "@cim:IdentifiedObject.name": "externalInfluences.animals.birds",
+    "@cim:IdentifiedObject.description": "Faults due to birds.",
     "@skos:prefLabel": "externalInfluences.animals.birds",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults due to birds."
+    },
     "@dcterms:identifier": "urn:uuid:81d22f06-0b56-4656-a4c4-a868c79c9865",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

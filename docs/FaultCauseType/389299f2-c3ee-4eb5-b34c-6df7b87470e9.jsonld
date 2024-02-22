@@ -5,15 +5,9 @@
         "@cim:FaultCauseType"
     ],
     "@cim:IdentifiedObject.mRID": "389299f2-c3ee-4eb5-b34c-6df7b87470e9",
-    "@cim:IdentifiedObject.name": [
-        "externalInfluences.humanThirdParty.logging",
-        "operationAndMaintenance.personnel.logging"
-    ],
+    "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.logging",
     "@cim:IdentifiedObject.description": "Any kind of third party logging and tree felling.",
-    "@skos:prefLabel": [
-        "externalInfluences.humanThirdParty.logging",
-        "operationAndMaintenance.personnel.logging"
-    ],
+    "@skos:prefLabel": "externalInfluences.humanThirdParty.logging",
     "@skos:definition": {
         "@language": "en",
         "@value": "Any kind of third party logging and tree felling."

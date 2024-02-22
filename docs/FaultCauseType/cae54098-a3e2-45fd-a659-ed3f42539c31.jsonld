@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "cae54098-a3e2-45fd-a659-ed3f42539c31",
     "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.insufficientProtectionRelayInstalled",
+    "@cim:IdentifiedObject.description": "Faults during operation or maintenance due to installed protection relay that is insufficient or not capable of performing the required operation.",
     "@skos:prefLabel": "operationAndMaintenance.personnel.insufficientProtectionRelayInstalled",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults during operation or maintenance due to installed protection relay that is insufficient or not capable of performing the required operation."
+    },
     "@dcterms:identifier": "urn:uuid:cae54098-a3e2-45fd-a659-ed3f42539c31",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

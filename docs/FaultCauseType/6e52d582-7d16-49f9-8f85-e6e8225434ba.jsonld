@@ -6,11 +6,11 @@
     ],
     "@cim:IdentifiedObject.mRID": "6e52d582-7d16-49f9-8f85-e6e8225434ba",
     "@cim:IdentifiedObject.name": "environmental.physicalSurroundings.vegetation",
-    "@cim:IdentifiedObject.description": "Includes, for example, tree toppling and other vegetation growth.\n\t\t\t",
+    "@cim:IdentifiedObject.description": "Includes, for example, tree toppling and other vegetation growth.",
     "@skos:prefLabel": "environmental.physicalSurroundings.vegetation",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Includes, for example, tree toppling and other vegetation growth.\n\t\t\t"
+        "@value": "Includes, for example, tree toppling and other vegetation growth."
     },
     "@dcterms:identifier": "urn:uuid:6e52d582-7d16-49f9-8f85-e6e8225434ba",
     "@skos:inScheme": {

@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/f0678796-efba-4252-a16b-1a4094b90917">
     <cim:IdentifiedObject.mRID>f0678796-efba-4252-a16b-1a4094b90917</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>operationAndMaintenance.personnel.deficientMaintenance</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Faults during operation or maintenance due to deficient maintenance.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>operationAndMaintenance.personnel.deficientMaintenance</skos:prefLabel>
+    <skos:definition xml:lang="en">Faults during operation or maintenance due to deficient maintenance.</skos:definition>
     <dcterms:identifier>urn:uuid:f0678796-efba-4252-a16b-1a4094b90917</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

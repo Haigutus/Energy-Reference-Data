@@ -5,18 +5,12 @@
         "@cim:FaultCauseType"
     ],
     "@cim:IdentifiedObject.mRID": "59ee68fb-28e8-4ac6-9c29-69a02c892742",
-    "@cim:IdentifiedObject.name": [
-        "externalInfluences.humanThirdParty.diggingExcavation",
-        "operationAndMaintenance.personnel.diggingExcavation"
-    ],
-    "@cim:IdentifiedObject.description": "Any kind of third party digging or excavation.",
-    "@skos:prefLabel": [
-        "externalInfluences.humanThirdParty.diggingExcavation",
-        "operationAndMaintenance.personnel.diggingExcavation"
-    ],
+    "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.diggingExcavation",
+    "@cim:IdentifiedObject.description": "Any kind of digging or excavation by internal or external personnel.",
+    "@skos:prefLabel": "operationAndMaintenance.personnel.diggingExcavation",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Any kind of third party digging or excavation."
+        "@value": "Any kind of digging or excavation by internal or external personnel."
     },
     "@dcterms:identifier": "urn:uuid:59ee68fb-28e8-4ac6-9c29-69a02c892742",
     "@skos:inScheme": {

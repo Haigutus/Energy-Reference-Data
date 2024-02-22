@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/ce8c4614-d014-4419-9f2c-99925ba93328">
     <cim:IdentifiedObject.mRID>ce8c4614-d014-4419-9f2c-99925ba93328</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>The cause category technical equipment focuses on faults that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical</skos:prefLabel>
+    <skos:definition xml:lang="en">The cause category technical equipment focuses on faults that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans.</skos:definition>
     <dcterms:identifier>urn:uuid:ce8c4614-d014-4419-9f2c-99925ba93328</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/7647ea49-8129-414a-81d2-683e959723ea> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Causes that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans. Use the subcategories of this cause if possible." ;
     cim:IdentifiedObject.mRID "7647ea49-8129-414a-81d2-683e959723ea" ;
     cim:IdentifiedObject.name "technical.equipment" ;
     dcterms:identifier "urn:uuid:7647ea49-8129-414a-81d2-683e959723ea" ;
+    skos:definition "Causes that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans. Use the subcategories of this cause if possible."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.equipment" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

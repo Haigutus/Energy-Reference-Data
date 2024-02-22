@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/e0ad1933-1448-48cf-aa91-c53a5960c39b">
     <cim:IdentifiedObject.mRID>e0ad1933-1448-48cf-aa91-c53a5960c39b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical.equipment.wearTear</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault in an equipment due to wear and tear in ordinary operation.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical.equipment.wearTear</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault in an equipment due to wear and tear in ordinary operation.</skos:definition>
     <dcterms:identifier>urn:uuid:e0ad1933-1448-48cf-aa91-c53a5960c39b</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

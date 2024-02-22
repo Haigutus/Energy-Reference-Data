@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/873155bb-7675-4fc3-8391-609461c3d174">
     <cim:IdentifiedObject.mRID>873155bb-7675-4fc3-8391-609461c3d174</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>externalInfluences.animals.other</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Faults due to other animals than birds.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>externalInfluences.animals.other</skos:prefLabel>
+    <skos:definition xml:lang="en">Faults due to other animals than birds.</skos:definition>
     <dcterms:identifier>urn:uuid:873155bb-7675-4fc3-8391-609461c3d174</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

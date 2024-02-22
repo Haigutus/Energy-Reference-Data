@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/af5594ba-241b-444f-bac5-23b808a5c707">
     <cim:IdentifiedObject.mRID>af5594ba-241b-444f-bac5-23b808a5c707</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>externalInfluences.foreignObjects</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Foreign objects not related to human activity or animals.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>externalInfluences.foreignObjects</skos:prefLabel>
+    <skos:definition xml:lang="en">Foreign objects not related to human activity or animals.</skos:definition>
     <dcterms:identifier>urn:uuid:af5594ba-241b-444f-bac5-23b808a5c707</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

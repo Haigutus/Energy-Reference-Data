@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f",
     "@cim:IdentifiedObject.name": "technical.equipment.looseElectricalContactPoint",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due one or several loose electrical contact points.",
     "@skos:prefLabel": "technical.equipment.looseElectricalContactPoint",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due one or several loose electrical contact points."
+    },
     "@dcterms:identifier": "urn:uuid:f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

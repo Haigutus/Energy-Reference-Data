@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "527331e7-20ec-4454-8a31-c7aa564bfeba",
     "@cim:IdentifiedObject.name": "externalInfluences.animals",
+    "@cim:IdentifiedObject.description": "Faults due to animals. Use the subcategory birds or other animals if possible.",
     "@skos:prefLabel": "externalInfluences.animals",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults due to animals. Use the subcategory birds or other animals if possible."
+    },
     "@dcterms:identifier": "urn:uuid:527331e7-20ec-4454-8a31-c7aa564bfeba",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

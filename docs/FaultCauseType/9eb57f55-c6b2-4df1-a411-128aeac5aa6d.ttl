@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/9eb57f55-c6b2-4df1-a411-128aeac5aa6d> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Other causes due to faults on other components." ;
     cim:IdentifiedObject.mRID "9eb57f55-c6b2-4df1-a411-128aeac5aa6d" ;
     cim:IdentifiedObject.name "technical.faultOnOtherComponent.other" ;
     dcterms:identifier "urn:uuid:9eb57f55-c6b2-4df1-a411-128aeac5aa6d" ;
+    skos:definition "Other causes due to faults on other components."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.faultOnOtherComponent.other" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

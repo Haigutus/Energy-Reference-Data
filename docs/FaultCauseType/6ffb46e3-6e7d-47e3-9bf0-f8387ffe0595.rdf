@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595">
     <cim:IdentifiedObject.mRID>6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.pollution.salt</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Environmental causes due to salt.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.pollution.salt</skos:prefLabel>
+    <skos:definition xml:lang="en">Environmental causes due to salt.</skos:definition>
     <dcterms:identifier>urn:uuid:6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

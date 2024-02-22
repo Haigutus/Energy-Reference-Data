@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "ddad843a-7da8-405c-9baf-dca66921f828",
     "@cim:IdentifiedObject.name": "environmental.wind.unfavourableDirection",
+    "@cim:IdentifiedObject.description": "Environmental causes due to unfavourable wind direction.",
     "@skos:prefLabel": "environmental.wind.unfavourableDirection",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Environmental causes due to unfavourable wind direction."
+    },
     "@dcterms:identifier": "urn:uuid:ddad843a-7da8-405c-9baf-dca66921f828",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

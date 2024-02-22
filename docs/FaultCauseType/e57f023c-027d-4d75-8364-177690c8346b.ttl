@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/e57f023c-027d-4d75-8364-177690c8346b> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault in an equipment due to discharge(s)." ;
     cim:IdentifiedObject.mRID "e57f023c-027d-4d75-8364-177690c8346b" ;
     cim:IdentifiedObject.name "technical.equipment.discharges" ;
     dcterms:identifier "urn:uuid:e57f023c-027d-4d75-8364-177690c8346b" ;
+    skos:definition "Fault in an equipment due to discharge(s)."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.equipment.discharges" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

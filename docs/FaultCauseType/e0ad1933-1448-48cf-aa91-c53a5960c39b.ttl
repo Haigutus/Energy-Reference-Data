@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/e0ad1933-1448-48cf-aa91-c53a5960c39b> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault in an equipment due to wear and tear in ordinary operation." ;
     cim:IdentifiedObject.mRID "e0ad1933-1448-48cf-aa91-c53a5960c39b" ;
     cim:IdentifiedObject.name "technical.equipment.wearTear" ;
     dcterms:identifier "urn:uuid:e0ad1933-1448-48cf-aa91-c53a5960c39b" ;
+    skos:definition "Fault in an equipment due to wear and tear in ordinary operation."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.equipment.wearTear" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

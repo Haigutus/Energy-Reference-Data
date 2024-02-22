@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/f0678796-efba-4252-a16b-1a4094b90917> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults during operation or maintenance due to deficient maintenance." ;
     cim:IdentifiedObject.mRID "f0678796-efba-4252-a16b-1a4094b90917" ;
     cim:IdentifiedObject.name "operationAndMaintenance.personnel.deficientMaintenance" ;
     dcterms:identifier "urn:uuid:f0678796-efba-4252-a16b-1a4094b90917" ;
+    skos:definition "Faults during operation or maintenance due to deficient maintenance."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "operationAndMaintenance.personnel.deficientMaintenance" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "3a647504-e22a-49b7-969e-7e806e527e8a",
     "@cim:IdentifiedObject.name": "technical.equipment.contamination",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due to contamination.",
     "@skos:prefLabel": "technical.equipment.contamination",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due to contamination."
+    },
     "@dcterms:identifier": "urn:uuid:3a647504-e22a-49b7-969e-7e806e527e8a",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

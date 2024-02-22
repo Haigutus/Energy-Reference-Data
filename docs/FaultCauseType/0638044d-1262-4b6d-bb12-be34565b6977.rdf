@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/0638044d-1262-4b6d-bb12-be34565b6977">
     <cim:IdentifiedObject.mRID>0638044d-1262-4b6d-bb12-be34565b6977</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical.equipment.crackBreakage</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault in an equipment due to a crack or breakage.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical.equipment.crackBreakage</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault in an equipment due to a crack or breakage.</skos:definition>
     <dcterms:identifier>urn:uuid:0638044d-1262-4b6d-bb12-be34565b6977</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
