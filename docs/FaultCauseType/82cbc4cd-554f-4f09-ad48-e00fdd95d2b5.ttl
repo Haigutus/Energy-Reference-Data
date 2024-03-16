@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/82cbc4cd-554f-4f09-ad48-e00fdd95d2b5> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance." ;
     cim:IdentifiedObject.mRID "82cbc4cd-554f-4f09-ad48-e00fdd95d2b5" ;
     cim:IdentifiedObject.name "operationAndMaintenance.operations" ;
     dcterms:identifier "urn:uuid:82cbc4cd-554f-4f09-ad48-e00fdd95d2b5" ;
+    skos:definition "Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "operationAndMaintenance.operations" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

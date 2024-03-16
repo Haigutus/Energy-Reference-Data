@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/c847878d-1899-493a-9bed-7b1fc85df672> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Any kind of logging and tree felling by internal or external personnel." ;
+    cim:IdentifiedObject.mRID "c847878d-1899-493a-9bed-7b1fc85df672" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.logging" ;
+    dcterms:identifier "urn:uuid:c847878d-1899-493a-9bed-7b1fc85df672" ;
+    skos:definition "Any kind of logging and tree felling by internal or external personnel."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.logging" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

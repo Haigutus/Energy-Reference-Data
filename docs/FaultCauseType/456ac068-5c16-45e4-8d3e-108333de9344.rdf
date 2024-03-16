@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/456ac068-5c16-45e4-8d3e-108333de9344">
     <cim:IdentifiedObject.mRID>456ac068-5c16-45e4-8d3e-108333de9344</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>externalInfluences.humanThirdParty.fireExplosion</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Unintentional fires or explosions due to third-party human activity.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>externalInfluences.humanThirdParty.fireExplosion</skos:prefLabel>
+    <skos:definition xml:lang="en">Unintentional fires or explosions due to third-party human activity.</skos:definition>
     <dcterms:identifier>urn:uuid:456ac068-5c16-45e4-8d3e-108333de9344</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

@@ -1,7 +1,11 @@
 
 <!DOCTYPE html>
-<html>
+<html xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
+    <link rel="alternate" type="application/rdf+xml" href="../FaultCauseType.rdf" title="RDF/XML" />
+    <link rel="alternate" type="application/ld+json" href="../FaultCauseType.jsonld" title="JSON-LD" />
+    <link rel="alternate" type="text/turtle" href="../FaultCauseType.ttl" title="Turtle" />
+  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
     <script>
@@ -14,7 +18,7 @@
 
     <!-- Metadata Section -->
     <meta charset="UTF-8">
-    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <title>FaultCauseType SKOS Concept Scheme</title>
     <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
     <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
     <meta name="robots" content="index,follow">
@@ -100,19 +104,19 @@
     <main>
       <table>
         <thead>
-          <tr>
-            <th>Label</th>
-            <th>Definition</th>           
-            <th>Identifier</th>
+          <tr typeof="skos:Concept">
+            <th property="skos:prefLabel">Label</th>
+            <th property="skos:definition" lang="en">Definition</th>           
+            <th property="dcterms:identifier">Identifier</th>
             <th>Serialisation</th>
           </tr>
         </thead>
         <tbody>
           
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/89b98b08-ed03-4964-bf32-72c0cad8ad69.rdf">environmental</a></td>
-    <td>Environmental causes are external causes due to environmental effects.</td>
-    <td>urn:uuid:89b98b08-ed03-4964-bf32-72c0cad8ad69</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/89b98b08-ed03-4964-bf32-72c0cad8ad69.rdf">environmental</a></td>
+    <td property="skos:definition" lang="en">Environmental causes are external causes due to environmental effects.</td>
+    <td property="dcterms:identifier">urn:uuid:89b98b08-ed03-4964-bf32-72c0cad8ad69</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/89b98b08-ed03-4964-bf32-72c0cad8ad69.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/89b98b08-ed03-4964-bf32-72c0cad8ad69.jsonld">JSON-LD</a><br>
@@ -120,10 +124,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/94786680-24ad-41b4-bf00-cfae463dc504.rdf">externalInfluences</a></td>
-    <td>External influences are causes caused by third parties, that is, parties that are not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system, foreign objects, and animals.</td>
-    <td>urn:uuid:94786680-24ad-41b4-bf00-cfae463dc504</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/94786680-24ad-41b4-bf00-cfae463dc504.rdf">externalInfluences</a></td>
+    <td property="skos:definition" lang="en">External influences are causes caused by third parties, that is, parties that are not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system, foreign objects, and animals.</td>
+    <td property="dcterms:identifier">urn:uuid:94786680-24ad-41b4-bf00-cfae463dc504</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/94786680-24ad-41b4-bf00-cfae463dc504.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/94786680-24ad-41b4-bf00-cfae463dc504.jsonld">JSON-LD</a><br>
@@ -131,10 +135,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/93992f35-49b1-4bcd-93a8-a2d16233385e.rdf">operationAndMaintenance</a></td>
-    <td></td>
-    <td>urn:uuid:93992f35-49b1-4bcd-93a8-a2d16233385e</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/93992f35-49b1-4bcd-93a8-a2d16233385e.rdf">operationAndMaintenance</a></td>
+    <td property="skos:definition" lang="en">Operation and maintenance focus on faults that occur during operation and maintenance by internal and external personnel and operational errors that lead to unplanned and sudden changes in the electric power system operating conditions.</td>
+    <td property="dcterms:identifier">urn:uuid:93992f35-49b1-4bcd-93a8-a2d16233385e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/93992f35-49b1-4bcd-93a8-a2d16233385e.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/93992f35-49b1-4bcd-93a8-a2d16233385e.jsonld">JSON-LD</a><br>
@@ -142,10 +146,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/ce8c4614-d014-4419-9f2c-99925ba93328.rdf">technical</a></td>
-    <td></td>
-    <td>urn:uuid:ce8c4614-d014-4419-9f2c-99925ba93328</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/ce8c4614-d014-4419-9f2c-99925ba93328.rdf">technical</a></td>
+    <td property="skos:definition" lang="en">The cause category technical equipment focuses on faults that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans.</td>
+    <td property="dcterms:identifier">urn:uuid:ce8c4614-d014-4419-9f2c-99925ba93328</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/ce8c4614-d014-4419-9f2c-99925ba93328.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/ce8c4614-d014-4419-9f2c-99925ba93328.jsonld">JSON-LD</a><br>
@@ -153,10 +157,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/bea6bd0c-ca21-4de5-8e16-e524884bb8a3.rdf">unknown</a></td>
-    <td></td>
-    <td>urn:uuid:bea6bd0c-ca21-4de5-8e16-e524884bb8a3</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/bea6bd0c-ca21-4de5-8e16-e524884bb8a3.rdf">unknown</a></td>
+    <td property="skos:definition" lang="en">Unknown is registered as the cause if the cause of the fault cannot be determined at any certainty.</td>
+    <td property="dcterms:identifier">urn:uuid:bea6bd0c-ca21-4de5-8e16-e524884bb8a3</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/bea6bd0c-ca21-4de5-8e16-e524884bb8a3.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/bea6bd0c-ca21-4de5-8e16-e524884bb8a3.jsonld">JSON-LD</a><br>
@@ -164,10 +168,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/574ad0d5-1610-47a2-bca7-4e586fb3be2b.rdf">environmental.lightning</a></td>
-    <td></td>
-    <td>urn:uuid:574ad0d5-1610-47a2-bca7-4e586fb3be2b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/574ad0d5-1610-47a2-bca7-4e586fb3be2b.rdf">environmental.lightning</a></td>
+    <td property="skos:definition" lang="en">Environmental causes due to lightning.</td>
+    <td property="dcterms:identifier">urn:uuid:574ad0d5-1610-47a2-bca7-4e586fb3be2b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/574ad0d5-1610-47a2-bca7-4e586fb3be2b.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/574ad0d5-1610-47a2-bca7-4e586fb3be2b.jsonld">JSON-LD</a><br>
@@ -175,10 +179,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/9ca7699a-e792-45ea-b40b-6b056e603143.rdf">environmental.wind</a></td>
-    <td></td>
-    <td>urn:uuid:9ca7699a-e792-45ea-b40b-6b056e603143</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/9ca7699a-e792-45ea-b40b-6b056e603143.rdf">environmental.wind</a></td>
+    <td property="skos:definition" lang="en">Environmental causes due to wind. Use the subcategory high wind speed and/or unfavourable wind direction if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:9ca7699a-e792-45ea-b40b-6b056e603143</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/9ca7699a-e792-45ea-b40b-6b056e603143.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/9ca7699a-e792-45ea-b40b-6b056e603143.jsonld">JSON-LD</a><br>
@@ -186,10 +190,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/d1304c3d-0d07-4379-841d-d2ce47025498.rdf">environmental.waterIce</a></td>
-    <td></td>
-    <td>urn:uuid:d1304c3d-0d07-4379-841d-d2ce47025498</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/d1304c3d-0d07-4379-841d-d2ce47025498.rdf">environmental.waterIce</a></td>
+    <td property="skos:definition" lang="en">Fault caused due to water elements. Use the subcategory moisture/rain/hail or snow/ice if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:d1304c3d-0d07-4379-841d-d2ce47025498</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/d1304c3d-0d07-4379-841d-d2ce47025498.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/d1304c3d-0d07-4379-841d-d2ce47025498.jsonld">JSON-LD</a><br>
@@ -197,10 +201,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/3ec8c0a1-6823-41d0-baef-af0def109fcd.rdf">environmental.pollution</a></td>
-    <td></td>
-    <td>urn:uuid:3ec8c0a1-6823-41d0-baef-af0def109fcd</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/3ec8c0a1-6823-41d0-baef-af0def109fcd.rdf">environmental.pollution</a></td>
+    <td property="skos:definition" lang="en">Fault caused by pollution. Use the subcategory air pollution, salt or ash particles if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:3ec8c0a1-6823-41d0-baef-af0def109fcd</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/3ec8c0a1-6823-41d0-baef-af0def109fcd.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/3ec8c0a1-6823-41d0-baef-af0def109fcd.jsonld">JSON-LD</a><br>
@@ -208,10 +212,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb.rdf">environmental.temperature</a></td>
-    <td></td>
-    <td>urn:uuid:bda46d8e-9515-4678-a6c9-dd62be9c5deb</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb.rdf">environmental.temperature</a></td>
+    <td property="skos:definition" lang="en">Fault causes due to high/low ambient temperatures or (wild) fires due to environmental causes (not human). Use the subcategory fires, high ambient temperature or low ambient temperature if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:bda46d8e-9515-4678-a6c9-dd62be9c5deb</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb.jsonld">JSON-LD</a><br>
@@ -219,10 +223,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9.rdf">environmental.physicalSurroundings</a></td>
-    <td></td>
-    <td>urn:uuid:9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9.rdf">environmental.physicalSurroundings</a></td>
+    <td property="skos:definition" lang="en">Fault causes due to physical surroundings without human intervention. Use the subcategory vegetation, landslide/avalanche or flood if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9.jsonld">JSON-LD</a><br>
@@ -230,10 +234,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/60d37377-437d-4418-87c8-dcf3945b079f.rdf">environmental.other</a></td>
-    <td>Includes, for example, natural disasters, solar flares and other rare environmental causes.</td>
-    <td>urn:uuid:60d37377-437d-4418-87c8-dcf3945b079f</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/60d37377-437d-4418-87c8-dcf3945b079f.rdf">environmental.other</a></td>
+    <td property="skos:definition" lang="en">Includes, for example, natural disasters, solar flares and other rare environmental causes.</td>
+    <td property="dcterms:identifier">urn:uuid:60d37377-437d-4418-87c8-dcf3945b079f</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/60d37377-437d-4418-87c8-dcf3945b079f.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/60d37377-437d-4418-87c8-dcf3945b079f.jsonld">JSON-LD</a><br>
@@ -241,10 +245,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/540f6a96-338f-480d-8cdd-a9746545dba2.rdf">externalInfluences.humanThirdParty</a></td>
-    <td></td>
-    <td>urn:uuid:540f6a96-338f-480d-8cdd-a9746545dba2</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/540f6a96-338f-480d-8cdd-a9746545dba2.rdf">externalInfluences.humanThirdParty</a></td>
+    <td property="skos:definition" lang="en">Faults caused by third parties not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system. Use the subcategories under external.humanThirdParty if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:540f6a96-338f-480d-8cdd-a9746545dba2</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/540f6a96-338f-480d-8cdd-a9746545dba2.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/540f6a96-338f-480d-8cdd-a9746545dba2.jsonld">JSON-LD</a><br>
@@ -252,10 +256,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/af5594ba-241b-444f-bac5-23b808a5c707.rdf">externalInfluences.foreignObjects</a></td>
-    <td></td>
-    <td>urn:uuid:af5594ba-241b-444f-bac5-23b808a5c707</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/af5594ba-241b-444f-bac5-23b808a5c707.rdf">externalInfluences.foreignObjects</a></td>
+    <td property="skos:definition" lang="en">Foreign objects not related to human activity or animals.</td>
+    <td property="dcterms:identifier">urn:uuid:af5594ba-241b-444f-bac5-23b808a5c707</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/af5594ba-241b-444f-bac5-23b808a5c707.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/af5594ba-241b-444f-bac5-23b808a5c707.jsonld">JSON-LD</a><br>
@@ -263,10 +267,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/527331e7-20ec-4454-8a31-c7aa564bfeba.rdf">externalInfluences.animals</a></td>
-    <td></td>
-    <td>urn:uuid:527331e7-20ec-4454-8a31-c7aa564bfeba</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/527331e7-20ec-4454-8a31-c7aa564bfeba.rdf">externalInfluences.animals</a></td>
+    <td property="skos:definition" lang="en">Faults due to animals. Use the subcategory birds or other animals if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:527331e7-20ec-4454-8a31-c7aa564bfeba</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/527331e7-20ec-4454-8a31-c7aa564bfeba.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/527331e7-20ec-4454-8a31-c7aa564bfeba.jsonld">JSON-LD</a><br>
@@ -274,10 +278,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/d9df5598-9383-4ea7-9063-6ffeea874b41.rdf">externalInfluences.other</a></td>
-    <td>Other causes due to external influences that do not fit under the other subcategories.</td>
-    <td>urn:uuid:d9df5598-9383-4ea7-9063-6ffeea874b41</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/d9df5598-9383-4ea7-9063-6ffeea874b41.rdf">externalInfluences.other</a></td>
+    <td property="skos:definition" lang="en">Other causes due to external influences that do not fit under the other subcategories.</td>
+    <td property="dcterms:identifier">urn:uuid:d9df5598-9383-4ea7-9063-6ffeea874b41</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/d9df5598-9383-4ea7-9063-6ffeea874b41.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/d9df5598-9383-4ea7-9063-6ffeea874b41.jsonld">JSON-LD</a><br>
@@ -285,10 +289,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/ac03c3d2-5d34-46a8-84c2-133fd6dbe45d.rdf">operationAndMaintenance.personnel</a></td>
-    <td></td>
-    <td>urn:uuid:ac03c3d2-5d34-46a8-84c2-133fd6dbe45d</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/ac03c3d2-5d34-46a8-84c2-133fd6dbe45d.rdf">operationAndMaintenance.personnel</a></td>
+    <td property="skos:definition" lang="en">Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance.</td>
+    <td property="dcterms:identifier">urn:uuid:ac03c3d2-5d34-46a8-84c2-133fd6dbe45d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/ac03c3d2-5d34-46a8-84c2-133fd6dbe45d.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/ac03c3d2-5d34-46a8-84c2-133fd6dbe45d.jsonld">JSON-LD</a><br>
@@ -296,10 +300,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/82cbc4cd-554f-4f09-ad48-e00fdd95d2b5.rdf">operationAndMaintenance.operations</a></td>
-    <td></td>
-    <td>urn:uuid:82cbc4cd-554f-4f09-ad48-e00fdd95d2b5</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/82cbc4cd-554f-4f09-ad48-e00fdd95d2b5.rdf">operationAndMaintenance.operations</a></td>
+    <td property="skos:definition" lang="en">Faults caused by internal and external personnel that lead to unplanned and sudden changes in the electric power system operating conditions during operation or maintenance.</td>
+    <td property="dcterms:identifier">urn:uuid:82cbc4cd-554f-4f09-ad48-e00fdd95d2b5</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/82cbc4cd-554f-4f09-ad48-e00fdd95d2b5.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/82cbc4cd-554f-4f09-ad48-e00fdd95d2b5.jsonld">JSON-LD</a><br>
@@ -307,10 +311,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/650891dc-1f0f-410a-95d9-7ba5b56f59da.rdf">operationAndMaintenance.other</a></td>
-    <td>Other operation and maintenance causes that do not fit under the other subcategories.</td>
-    <td>urn:uuid:650891dc-1f0f-410a-95d9-7ba5b56f59da</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/650891dc-1f0f-410a-95d9-7ba5b56f59da.rdf">operationAndMaintenance.other</a></td>
+    <td property="skos:definition" lang="en">Other operation and maintenance causes that do not fit under the other subcategories.</td>
+    <td property="dcterms:identifier">urn:uuid:650891dc-1f0f-410a-95d9-7ba5b56f59da</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/650891dc-1f0f-410a-95d9-7ba5b56f59da.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/650891dc-1f0f-410a-95d9-7ba5b56f59da.jsonld">JSON-LD</a><br>
@@ -318,10 +322,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/7647ea49-8129-414a-81d2-683e959723ea.rdf">technical.equipment</a></td>
-    <td></td>
-    <td>urn:uuid:7647ea49-8129-414a-81d2-683e959723ea</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/7647ea49-8129-414a-81d2-683e959723ea.rdf">technical.equipment</a></td>
+    <td property="skos:definition" lang="en">Causes that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans. Use the subcategories of this cause if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:7647ea49-8129-414a-81d2-683e959723ea</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/7647ea49-8129-414a-81d2-683e959723ea.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/7647ea49-8129-414a-81d2-683e959723ea.jsonld">JSON-LD</a><br>
@@ -329,10 +333,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/0f90e893-5d5f-4a4e-9298-fd003ff67f5d.rdf">technical.faultOnOtherComponent</a></td>
-    <td>Causes not due to faults in the component itself</td>
-    <td>urn:uuid:0f90e893-5d5f-4a4e-9298-fd003ff67f5d</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/0f90e893-5d5f-4a4e-9298-fd003ff67f5d.rdf">technical.faultOnOtherComponent</a></td>
+    <td property="skos:definition" lang="en">Causes not due to faults in the component itself</td>
+    <td property="dcterms:identifier">urn:uuid:0f90e893-5d5f-4a4e-9298-fd003ff67f5d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/0f90e893-5d5f-4a4e-9298-fd003ff67f5d.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/0f90e893-5d5f-4a4e-9298-fd003ff67f5d.jsonld">JSON-LD</a><br>
@@ -340,10 +344,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/307de251-d9b6-4c10-8a98-9b16a7d8e0cb.rdf">technical.adjoiningGrid</a></td>
-    <td></td>
-    <td>urn:uuid:307de251-d9b6-4c10-8a98-9b16a7d8e0cb</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/307de251-d9b6-4c10-8a98-9b16a7d8e0cb.rdf">technical.adjoiningGrid</a></td>
+    <td property="skos:definition" lang="en">Causes not due to faults in the component itself and originating from the adjoining grid. Use the subcategory below 100 kV or at 100 kV or above if possible.</td>
+    <td property="dcterms:identifier">urn:uuid:307de251-d9b6-4c10-8a98-9b16a7d8e0cb</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/307de251-d9b6-4c10-8a98-9b16a7d8e0cb.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/307de251-d9b6-4c10-8a98-9b16a7d8e0cb.jsonld">JSON-LD</a><br>
@@ -351,10 +355,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/7e1b22f6-fd21-4e12-937f-6cb17c1a9940.rdf">technical.other</a></td>
-    <td>Other technical causes that do not fit under the other subcategories.</td>
-    <td>urn:uuid:7e1b22f6-fd21-4e12-937f-6cb17c1a9940</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/7e1b22f6-fd21-4e12-937f-6cb17c1a9940.rdf">technical.other</a></td>
+    <td property="skos:definition" lang="en">Other technical causes that do not fit under the other subcategories.</td>
+    <td property="dcterms:identifier">urn:uuid:7e1b22f6-fd21-4e12-937f-6cb17c1a9940</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/7e1b22f6-fd21-4e12-937f-6cb17c1a9940.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/7e1b22f6-fd21-4e12-937f-6cb17c1a9940.jsonld">JSON-LD</a><br>
@@ -362,10 +366,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/a6a8ee4a-d696-4382-886c-3226c613912b.rdf">environmental.wind.highSpeed</a></td>
-    <td></td>
-    <td>urn:uuid:a6a8ee4a-d696-4382-886c-3226c613912b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/a6a8ee4a-d696-4382-886c-3226c613912b.rdf">environmental.wind.highSpeed</a></td>
+    <td property="skos:definition" lang="en">Environmental causes due to high wind speed.</td>
+    <td property="dcterms:identifier">urn:uuid:a6a8ee4a-d696-4382-886c-3226c613912b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/a6a8ee4a-d696-4382-886c-3226c613912b.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/a6a8ee4a-d696-4382-886c-3226c613912b.jsonld">JSON-LD</a><br>
@@ -373,10 +377,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/ddad843a-7da8-405c-9baf-dca66921f828.rdf">environmental.wind.unfavourableDirection</a></td>
-    <td></td>
-    <td>urn:uuid:ddad843a-7da8-405c-9baf-dca66921f828</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/ddad843a-7da8-405c-9baf-dca66921f828.rdf">environmental.wind.unfavourableDirection</a></td>
+    <td property="skos:definition" lang="en">Environmental causes due to unfavourable wind direction.</td>
+    <td property="dcterms:identifier">urn:uuid:ddad843a-7da8-405c-9baf-dca66921f828</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/ddad843a-7da8-405c-9baf-dca66921f828.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/ddad843a-7da8-405c-9baf-dca66921f828.jsonld">JSON-LD</a><br>
@@ -384,10 +388,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/04d1eded-d2d2-4ae9-8951-7be375b49e89.rdf">environmental.waterIce.moistureRainHail</a></td>
-    <td>Fault causes due to water elements with a temperature above the freezing point. Includes, for example, moisture ingress, fog.</td>
-    <td>urn:uuid:04d1eded-d2d2-4ae9-8951-7be375b49e89</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/04d1eded-d2d2-4ae9-8951-7be375b49e89.rdf">environmental.waterIce.moistureRainHail</a></td>
+    <td property="skos:definition" lang="en">Fault causes due to water elements with a temperature above the freezing point. Includes, for example, moisture ingress, fog.</td>
+    <td property="dcterms:identifier">urn:uuid:04d1eded-d2d2-4ae9-8951-7be375b49e89</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/04d1eded-d2d2-4ae9-8951-7be375b49e89.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/04d1eded-d2d2-4ae9-8951-7be375b49e89.jsonld">JSON-LD</a><br>
@@ -395,10 +399,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/84687704-3b79-4f17-ae3c-26339a6bba6b.rdf">environmental.waterIce.snowIce</a></td>
-    <td>Includes, for example, frost heave.</td>
-    <td>urn:uuid:84687704-3b79-4f17-ae3c-26339a6bba6b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/84687704-3b79-4f17-ae3c-26339a6bba6b.rdf">environmental.waterIce.snowIce</a></td>
+    <td property="skos:definition" lang="en">Includes, for example, frost heave.</td>
+    <td property="dcterms:identifier">urn:uuid:84687704-3b79-4f17-ae3c-26339a6bba6b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/84687704-3b79-4f17-ae3c-26339a6bba6b.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/84687704-3b79-4f17-ae3c-26339a6bba6b.jsonld">JSON-LD</a><br>
@@ -406,10 +410,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11.rdf">environmental.pollution.air</a></td>
-    <td></td>
-    <td>urn:uuid:8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11.rdf">environmental.pollution.air</a></td>
+    <td property="skos:definition" lang="en">Environmental causes due to air pollution.</td>
+    <td property="dcterms:identifier">urn:uuid:8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11.jsonld">JSON-LD</a><br>
@@ -417,10 +421,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595.rdf">environmental.pollution.salt</a></td>
-    <td></td>
-    <td>urn:uuid:6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595.rdf">environmental.pollution.salt</a></td>
+    <td property="skos:definition" lang="en">Environmental causes due to salt.</td>
+    <td property="dcterms:identifier">urn:uuid:6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/6ffb46e3-6e7d-47e3-9bf0-f8387ffe0595.jsonld">JSON-LD</a><br>
@@ -428,10 +432,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/dc74466d-5115-475c-a90c-ff103487b3e0.rdf">environmental.pollution.ashParticles</a></td>
-    <td></td>
-    <td>urn:uuid:dc74466d-5115-475c-a90c-ff103487b3e0</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/dc74466d-5115-475c-a90c-ff103487b3e0.rdf">environmental.pollution.ashParticles</a></td>
+    <td property="skos:definition" lang="en">Environmental causes due to ash particles from, for example, volcanoes.</td>
+    <td property="dcterms:identifier">urn:uuid:dc74466d-5115-475c-a90c-ff103487b3e0</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/dc74466d-5115-475c-a90c-ff103487b3e0.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/dc74466d-5115-475c-a90c-ff103487b3e0.jsonld">JSON-LD</a><br>
@@ -439,10 +443,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/b750fc43-6329-4c9d-9513-f236b37e1e87.rdf">environmental.temperature.fires</a></td>
-    <td>Wildfires and other fire due to environmental causes (not human).</td>
-    <td>urn:uuid:b750fc43-6329-4c9d-9513-f236b37e1e87</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/b750fc43-6329-4c9d-9513-f236b37e1e87.rdf">environmental.temperature.fires</a></td>
+    <td property="skos:definition" lang="en">Wildfires and other fire due to environmental causes (not human).</td>
+    <td property="dcterms:identifier">urn:uuid:b750fc43-6329-4c9d-9513-f236b37e1e87</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/b750fc43-6329-4c9d-9513-f236b37e1e87.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/b750fc43-6329-4c9d-9513-f236b37e1e87.jsonld">JSON-LD</a><br>
@@ -450,10 +454,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/ad8c5b33-10b4-40ab-bda7-43ce6c4889ab.rdf">environmental.temperature.highAmbient</a></td>
-    <td>High ambient temperature due to external temperature.</td>
-    <td>urn:uuid:ad8c5b33-10b4-40ab-bda7-43ce6c4889ab</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/ad8c5b33-10b4-40ab-bda7-43ce6c4889ab.rdf">environmental.temperature.highAmbient</a></td>
+    <td property="skos:definition" lang="en">High ambient temperature due to external temperature.</td>
+    <td property="dcterms:identifier">urn:uuid:ad8c5b33-10b4-40ab-bda7-43ce6c4889ab</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/ad8c5b33-10b4-40ab-bda7-43ce6c4889ab.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/ad8c5b33-10b4-40ab-bda7-43ce6c4889ab.jsonld">JSON-LD</a><br>
@@ -461,10 +465,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/15b33d52-9e7f-4f11-bee8-8a481761837c.rdf">environmental.temperature.lowAmbient</a></td>
-    <td>Low ambient temperature due to external temperature.</td>
-    <td>urn:uuid:15b33d52-9e7f-4f11-bee8-8a481761837c</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/15b33d52-9e7f-4f11-bee8-8a481761837c.rdf">environmental.temperature.lowAmbient</a></td>
+    <td property="skos:definition" lang="en">Low ambient temperature due to external temperature.</td>
+    <td property="dcterms:identifier">urn:uuid:15b33d52-9e7f-4f11-bee8-8a481761837c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/15b33d52-9e7f-4f11-bee8-8a481761837c.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/15b33d52-9e7f-4f11-bee8-8a481761837c.jsonld">JSON-LD</a><br>
@@ -472,11 +476,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/6e52d582-7d16-49f9-8f85-e6e8225434ba.rdf">environmental.physicalSurroundings.vegetation</a></td>
-    <td>Includes, for example, tree toppling and other vegetation growth.
-			</td>
-    <td>urn:uuid:6e52d582-7d16-49f9-8f85-e6e8225434ba</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/6e52d582-7d16-49f9-8f85-e6e8225434ba.rdf">environmental.physicalSurroundings.vegetation</a></td>
+    <td property="skos:definition" lang="en">Includes, for example, tree toppling and other vegetation growth.</td>
+    <td property="dcterms:identifier">urn:uuid:6e52d582-7d16-49f9-8f85-e6e8225434ba</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/6e52d582-7d16-49f9-8f85-e6e8225434ba.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/6e52d582-7d16-49f9-8f85-e6e8225434ba.jsonld">JSON-LD</a><br>
@@ -484,10 +487,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/6ab2d89c-5911-486b-8049-88264a1092fc.rdf">environmental.physicalSurroundings.landslidesAvalanche</a></td>
-    <td>Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snowslides (avalanches). Submarine landslides are also included.</td>
-    <td>urn:uuid:6ab2d89c-5911-486b-8049-88264a1092fc</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/6ab2d89c-5911-486b-8049-88264a1092fc.rdf">environmental.physicalSurroundings.landslidesAvalanche</a></td>
+    <td property="skos:definition" lang="en">Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snow slides (avalanches). Submarine landslides are also included.</td>
+    <td property="dcterms:identifier">urn:uuid:6ab2d89c-5911-486b-8049-88264a1092fc</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/6ab2d89c-5911-486b-8049-88264a1092fc.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/6ab2d89c-5911-486b-8049-88264a1092fc.jsonld">JSON-LD</a><br>
@@ -495,10 +498,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/c2083d59-b5c8-43b0-a334-3d83a8c338aa.rdf">environmental.physicalSurroundings.flood</a></td>
-    <td>Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party.</td>
-    <td>urn:uuid:c2083d59-b5c8-43b0-a334-3d83a8c338aa</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/c2083d59-b5c8-43b0-a334-3d83a8c338aa.rdf">environmental.physicalSurroundings.flood</a></td>
+    <td property="skos:definition" lang="en">Flooding of water that submerges equipment or other infrastructure that causes a fault. Includes only flooding due to environmental causes. If the flooding is caused by human changes to the environment, the cause should be one of the causes below external influences > Human - third party.</td>
+    <td property="dcterms:identifier">urn:uuid:c2083d59-b5c8-43b0-a334-3d83a8c338aa</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/c2083d59-b5c8-43b0-a334-3d83a8c338aa.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/c2083d59-b5c8-43b0-a334-3d83a8c338aa.jsonld">JSON-LD</a><br>
@@ -506,10 +509,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf"></a></td>
-    <td></td>
-    <td></td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf">externalInfluences.humanThirdParty.logging</a></td>
+    <td property="skos:definition" lang="en">Any kind of third party logging and tree felling.</td>
+    <td property="dcterms:identifier">urn:uuid:389299f2-c3ee-4eb5-b34c-6df7b87470e9</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.jsonld">JSON-LD</a><br>
@@ -517,87 +520,21 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf"></a></td>
-    <td></td>
-    <td></td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/1bf53ad3-fc44-4a33-aee4-13f9ded2dd75.rdf">externalInfluences.humanThirdParty.diggingExcavation</a></td>
+    <td property="skos:definition" lang="en">Any kind of third party digging or excavation.</td>
+    <td property="dcterms:identifier">urn:uuid:1bf53ad3-fc44-4a33-aee4-13f9ded2dd75</td> 
     <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.ttl">Turtle</a>
+        <a href="http://energy.referencedata.eu/FaultCauseType/1bf53ad3-fc44-4a33-aee4-13f9ded2dd75.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/1bf53ad3-fc44-4a33-aee4-13f9ded2dd75.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/1bf53ad3-fc44-4a33-aee4-13f9ded2dd75.ttl">Turtle</a>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf"></a></td>
-    <td></td>
-    <td></td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf">operationAndMaintenance.personnel.logging</a></td>
-    <td>Any kind of third party logging and tree felling.</td>
-    <td>urn:uuid:389299f2-c3ee-4eb5-b34c-6df7b87470e9</td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf"></a></td>
-    <td></td>
-    <td></td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf"></a></td>
-    <td></td>
-    <td></td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf"></a></td>
-    <td></td>
-    <td></td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf">operationAndMaintenance.personnel.diggingExcavation</a></td>
-    <td>Any kind of third party digging or excavation.</td>
-    <td>urn:uuid:59ee68fb-28e8-4ac6-9c29-69a02c892742</td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf"></a></td>
-    <td></td>
-    <td></td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf">externalInfluences.humanThirdParty.constructionWork</a></td>
+    <td property="skos:definition" lang="en">Any kind of third party construction work such as rock blasting, building construction, infrastructure building.</td>
+    <td property="dcterms:identifier">urn:uuid:02ada721-1e81-49c9-8c1a-4c7561da8d2c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.jsonld">JSON-LD</a><br>
@@ -605,43 +542,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf"></a></td>
-    <td></td>
-    <td></td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf"></a></td>
-    <td></td>
-    <td></td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf">operationAndMaintenance.personnel.constructionWork</a></td>
-    <td>Any kind of third party construction work such as rock blasting, building construction, infrastructure building.</td>
-    <td>urn:uuid:02ada721-1e81-49c9-8c1a-4c7561da8d2c</td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/02ada721-1e81-49c9-8c1a-4c7561da8d2c.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf"></a></td>
-    <td></td>
-    <td></td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf">externalInfluences.humanThirdParty.trafficDamage</a></td>
+    <td property="skos:definition" lang="en">Includes land, sea and air traffic and off-road, i.e., all human operated vehicles and objects.</td>
+    <td property="dcterms:identifier">urn:uuid:9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.jsonld">JSON-LD</a><br>
@@ -649,43 +553,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf"></a></td>
-    <td></td>
-    <td></td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf"></a></td>
-    <td></td>
-    <td></td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf">operationAndMaintenance.personnel.trafficDamage</a></td>
-    <td>Includes land, sea and air traffic and off-road.</td>
-    <td>urn:uuid:9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a</td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/FaultCauseType/9b62ccc2-f92c-4e4d-9c72-e00aef0bd93a.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/456ac068-5c16-45e4-8d3e-108333de9344.rdf">externalInfluences.humanThirdParty.fireExplosion</a></td>
-    <td></td>
-    <td>urn:uuid:456ac068-5c16-45e4-8d3e-108333de9344</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/456ac068-5c16-45e4-8d3e-108333de9344.rdf">externalInfluences.humanThirdParty.fireExplosion</a></td>
+    <td property="skos:definition" lang="en">Unintentional fires or explosions due to third-party human activity.</td>
+    <td property="dcterms:identifier">urn:uuid:456ac068-5c16-45e4-8d3e-108333de9344</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/456ac068-5c16-45e4-8d3e-108333de9344.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/456ac068-5c16-45e4-8d3e-108333de9344.jsonld">JSON-LD</a><br>
@@ -693,10 +564,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/4487e4ca-ccab-4460-9b89-28bd2cb6aa21.rdf">externalInfluences.humanThirdParty.vandalismSabotage</a></td>
-    <td>Also includes theft.</td>
-    <td>urn:uuid:4487e4ca-ccab-4460-9b89-28bd2cb6aa21</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/4487e4ca-ccab-4460-9b89-28bd2cb6aa21.rdf">externalInfluences.humanThirdParty.vandalismSabotage</a></td>
+    <td property="skos:definition" lang="en">Also includes theft.</td>
+    <td property="dcterms:identifier">urn:uuid:4487e4ca-ccab-4460-9b89-28bd2cb6aa21</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/4487e4ca-ccab-4460-9b89-28bd2cb6aa21.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/4487e4ca-ccab-4460-9b89-28bd2cb6aa21.jsonld">JSON-LD</a><br>
@@ -704,10 +575,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/baec6ee9-3d37-4aa9-8ff5-0f4f8547432b.rdf">externalInfluences.humanThirdParty.cyberAttack</a></td>
-    <td></td>
-    <td>urn:uuid:baec6ee9-3d37-4aa9-8ff5-0f4f8547432b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/baec6ee9-3d37-4aa9-8ff5-0f4f8547432b.rdf">externalInfluences.humanThirdParty.cyberAttack</a></td>
+    <td property="skos:definition" lang="en">Faults due to cyberattacks.</td>
+    <td property="dcterms:identifier">urn:uuid:baec6ee9-3d37-4aa9-8ff5-0f4f8547432b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/baec6ee9-3d37-4aa9-8ff5-0f4f8547432b.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/baec6ee9-3d37-4aa9-8ff5-0f4f8547432b.jsonld">JSON-LD</a><br>
@@ -715,10 +586,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c.rdf">externalInfluences.humanThirdParty.other</a></td>
-    <td>Includes other faults due to third party humans, for example, flashover or emergency disconnection due to humans climbing up power pylons.</td>
-    <td>urn:uuid:78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c.rdf">externalInfluences.humanThirdParty.other</a></td>
+    <td property="skos:definition" lang="en">Includes other faults due to third party humans, for example, flashover or emergency disconnection due to humans climbing up power pylons.</td>
+    <td property="dcterms:identifier">urn:uuid:78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/78a9ead6-d1d1-4ea4-8caa-1c9be40b8b2c.jsonld">JSON-LD</a><br>
@@ -726,10 +597,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/81d22f06-0b56-4656-a4c4-a868c79c9865.rdf">externalInfluences.animals.birds</a></td>
-    <td></td>
-    <td>urn:uuid:81d22f06-0b56-4656-a4c4-a868c79c9865</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/81d22f06-0b56-4656-a4c4-a868c79c9865.rdf">externalInfluences.animals.birds</a></td>
+    <td property="skos:definition" lang="en">Faults due to birds.</td>
+    <td property="dcterms:identifier">urn:uuid:81d22f06-0b56-4656-a4c4-a868c79c9865</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/81d22f06-0b56-4656-a4c4-a868c79c9865.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/81d22f06-0b56-4656-a4c4-a868c79c9865.jsonld">JSON-LD</a><br>
@@ -737,10 +608,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/873155bb-7675-4fc3-8391-609461c3d174.rdf">externalInfluences.animals.other</a></td>
-    <td></td>
-    <td>urn:uuid:873155bb-7675-4fc3-8391-609461c3d174</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/873155bb-7675-4fc3-8391-609461c3d174.rdf">externalInfluences.animals.other</a></td>
+    <td property="skos:definition" lang="en">Faults due to other animals than birds.</td>
+    <td property="dcterms:identifier">urn:uuid:873155bb-7675-4fc3-8391-609461c3d174</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/873155bb-7675-4fc3-8391-609461c3d174.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/873155bb-7675-4fc3-8391-609461c3d174.jsonld">JSON-LD</a><br>
@@ -748,10 +619,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/5be5b488-2bca-4876-bde5-65881df424b0.rdf">operationAndMaintenance.personnel.documentationError</a></td>
-    <td></td>
-    <td>urn:uuid:5be5b488-2bca-4876-bde5-65881df424b0</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/5be5b488-2bca-4876-bde5-65881df424b0.rdf">operationAndMaintenance.personnel.documentationError</a></td>
+    <td property="skos:definition" lang="en">Faults during operation or maintenance due to erroneous documentation.</td>
+    <td property="dcterms:identifier">urn:uuid:5be5b488-2bca-4876-bde5-65881df424b0</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/5be5b488-2bca-4876-bde5-65881df424b0.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/5be5b488-2bca-4876-bde5-65881df424b0.jsonld">JSON-LD</a><br>
@@ -759,10 +630,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/7c2ef4f5-3e11-4b29-8920-6ba18fba23be.rdf">operationAndMaintenance.personnel.installationError</a></td>
-    <td></td>
-    <td>urn:uuid:7c2ef4f5-3e11-4b29-8920-6ba18fba23be</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/7c2ef4f5-3e11-4b29-8920-6ba18fba23be.rdf">operationAndMaintenance.personnel.installationError</a></td>
+    <td property="skos:definition" lang="en">Faults during operation or maintenance due to incorrect installation of network element or equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:7c2ef4f5-3e11-4b29-8920-6ba18fba23be</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/7c2ef4f5-3e11-4b29-8920-6ba18fba23be.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/7c2ef4f5-3e11-4b29-8920-6ba18fba23be.jsonld">JSON-LD</a><br>
@@ -770,10 +641,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/3d48ff25-3c44-4ee2-abc6-4809f3e43ca0.rdf">operationAndMaintenance.personnel.faultySettingsOrAdjustments</a></td>
-    <td>Includes, for example, relay settings that were wrongfully input or adjusted.</td>
-    <td>urn:uuid:3d48ff25-3c44-4ee2-abc6-4809f3e43ca0</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/3d48ff25-3c44-4ee2-abc6-4809f3e43ca0.rdf">operationAndMaintenance.personnel.faultySettingsOrAdjustments</a></td>
+    <td property="skos:definition" lang="en">Includes, for example, relay settings that were wrongfully input or adjusted.</td>
+    <td property="dcterms:identifier">urn:uuid:3d48ff25-3c44-4ee2-abc6-4809f3e43ca0</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/3d48ff25-3c44-4ee2-abc6-4809f3e43ca0.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/3d48ff25-3c44-4ee2-abc6-4809f3e43ca0.jsonld">JSON-LD</a><br>
@@ -781,10 +652,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/e1943fa9-6dab-4633-bc03-23b45109b2b3.rdf">operationAndMaintenance.personnel.deficientRoutinesOrInstructions</a></td>
-    <td>Deficient routines, instructions, procedures etc. that cause a fault. If the cause is insufficient monitoring, and monitoring is not included in the routines or instructions, it should be reported as deficient routines or instructions.</td>
-    <td>urn:uuid:e1943fa9-6dab-4633-bc03-23b45109b2b3</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/e1943fa9-6dab-4633-bc03-23b45109b2b3.rdf">operationAndMaintenance.personnel.deficientRoutinesOrInstructions</a></td>
+    <td property="skos:definition" lang="en">Deficient routines, instructions, procedures etc. that cause a fault. If the cause is insufficient monitoring, and monitoring is not included in the routines or instructions, it should be reported as deficient routines or instructions.</td>
+    <td property="dcterms:identifier">urn:uuid:e1943fa9-6dab-4633-bc03-23b45109b2b3</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/e1943fa9-6dab-4633-bc03-23b45109b2b3.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/e1943fa9-6dab-4633-bc03-23b45109b2b3.jsonld">JSON-LD</a><br>
@@ -792,10 +663,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/2a540119-044d-4096-b6af-fa2bbf6c629e.rdf">operationAndMaintenance.personnel.instructionsNotFollowed</a></td>
-    <td>Also includes components installed in places against manufacturer recommendations and insufficient monitoring. If the cause is insufficient monitoring, and monitoring is included in the routines or instructions, it should be reported as instructions not followed.</td>
-    <td>urn:uuid:2a540119-044d-4096-b6af-fa2bbf6c629e</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/2a540119-044d-4096-b6af-fa2bbf6c629e.rdf">operationAndMaintenance.personnel.instructionsNotFollowed</a></td>
+    <td property="skos:definition" lang="en">Also includes components installed in places against manufacturer recommendations and insufficient monitoring. If the cause is insufficient monitoring, and monitoring is included in the routines or instructions, it should be reported as instructions not followed.</td>
+    <td property="dcterms:identifier">urn:uuid:2a540119-044d-4096-b6af-fa2bbf6c629e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/2a540119-044d-4096-b6af-fa2bbf6c629e.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/2a540119-044d-4096-b6af-fa2bbf6c629e.jsonld">JSON-LD</a><br>
@@ -803,10 +674,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/f0678796-efba-4252-a16b-1a4094b90917.rdf">operationAndMaintenance.personnel.deficientMaintenance</a></td>
-    <td></td>
-    <td>urn:uuid:f0678796-efba-4252-a16b-1a4094b90917</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/f0678796-efba-4252-a16b-1a4094b90917.rdf">operationAndMaintenance.personnel.deficientMaintenance</a></td>
+    <td property="skos:definition" lang="en">Faults during operation or maintenance due to deficient maintenance.</td>
+    <td property="dcterms:identifier">urn:uuid:f0678796-efba-4252-a16b-1a4094b90917</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/f0678796-efba-4252-a16b-1a4094b90917.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/f0678796-efba-4252-a16b-1a4094b90917.jsonld">JSON-LD</a><br>
@@ -814,10 +685,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/cae54098-a3e2-45fd-a659-ed3f42539c31.rdf">operationAndMaintenance.personnel.insufficientProtectionRelayInstalled</a></td>
-    <td></td>
-    <td>urn:uuid:cae54098-a3e2-45fd-a659-ed3f42539c31</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/cae54098-a3e2-45fd-a659-ed3f42539c31.rdf">operationAndMaintenance.personnel.insufficientProtectionRelayInstalled</a></td>
+    <td property="skos:definition" lang="en">Faults during operation or maintenance due to installed protection relay that is insufficient or not capable of performing the required operation.</td>
+    <td property="dcterms:identifier">urn:uuid:cae54098-a3e2-45fd-a659-ed3f42539c31</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/cae54098-a3e2-45fd-a659-ed3f42539c31.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/cae54098-a3e2-45fd-a659-ed3f42539c31.jsonld">JSON-LD</a><br>
@@ -825,10 +696,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/865cfac4-9b26-4026-8e12-8d63175603ac.rdf">operationAndMaintenance.personnel.faultyProtectionRelayScheme</a></td>
-    <td>Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme.</td>
-    <td>urn:uuid:865cfac4-9b26-4026-8e12-8d63175603ac</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/865cfac4-9b26-4026-8e12-8d63175603ac.rdf">operationAndMaintenance.personnel.faultyProtectionRelayScheme</a></td>
+    <td property="skos:definition" lang="en">Faults in the scheme or planned scheme. Does not include wrongful implementation or commission of the scheme.</td>
+    <td property="dcterms:identifier">urn:uuid:865cfac4-9b26-4026-8e12-8d63175603ac</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/865cfac4-9b26-4026-8e12-8d63175603ac.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/865cfac4-9b26-4026-8e12-8d63175603ac.jsonld">JSON-LD</a><br>
@@ -836,10 +707,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/c36e2936-9788-4297-89c1-c0bbbdb0596f.rdf">operationAndMaintenance.personnel.incorrectManualOperation</a></td>
-    <td>Includes, for example, wrongful dispatching.</td>
-    <td>urn:uuid:c36e2936-9788-4297-89c1-c0bbbdb0596f</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/c36e2936-9788-4297-89c1-c0bbbdb0596f.rdf">operationAndMaintenance.personnel.incorrectManualOperation</a></td>
+    <td property="skos:definition" lang="en">Includes, for example, wrongful dispatching.</td>
+    <td property="dcterms:identifier">urn:uuid:c36e2936-9788-4297-89c1-c0bbbdb0596f</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/c36e2936-9788-4297-89c1-c0bbbdb0596f.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/c36e2936-9788-4297-89c1-c0bbbdb0596f.jsonld">JSON-LD</a><br>
@@ -847,10 +718,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/fd7bce20-cd68-4366-9db7-2815156ed3b2.rdf">operationAndMaintenance.personnel.commissioningTesting</a></td>
-    <td></td>
-    <td>urn:uuid:fd7bce20-cd68-4366-9db7-2815156ed3b2</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/fd7bce20-cd68-4366-9db7-2815156ed3b2.rdf">operationAndMaintenance.personnel.commissioningTesting</a></td>
+    <td property="skos:definition" lang="en">Faults caused during commission or testing of (new) equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:fd7bce20-cd68-4366-9db7-2815156ed3b2</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/fd7bce20-cd68-4366-9db7-2815156ed3b2.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/fd7bce20-cd68-4366-9db7-2815156ed3b2.jsonld">JSON-LD</a><br>
@@ -858,10 +729,54 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/f287b5cb-af83-4dfc-a0bf-15c3a6adb403.rdf">operationAndMaintenance.operations.overvoltage</a></td>
-    <td>This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:f287b5cb-af83-4dfc-a0bf-15c3a6adb403</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/c847878d-1899-493a-9bed-7b1fc85df672.rdf">operationAndMaintenance.personnel.logging</a></td>
+    <td property="skos:definition" lang="en">Any kind of logging and tree felling by internal or external personnel.</td>
+    <td property="dcterms:identifier">urn:uuid:c847878d-1899-493a-9bed-7b1fc85df672</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/FaultCauseType/c847878d-1899-493a-9bed-7b1fc85df672.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/c847878d-1899-493a-9bed-7b1fc85df672.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/c847878d-1899-493a-9bed-7b1fc85df672.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf">operationAndMaintenance.personnel.diggingExcavation</a></td>
+    <td property="skos:definition" lang="en">Any kind of digging or excavation by internal or external personnel.</td>
+    <td property="dcterms:identifier">urn:uuid:59ee68fb-28e8-4ac6-9c29-69a02c892742</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/59ee68fb-28e8-4ac6-9c29-69a02c892742.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/85c4d05a-0459-4b8e-90e7-cc0ef2173d91.rdf">operationAndMaintenance.personnel.constructionWork</a></td>
+    <td property="skos:definition" lang="en">Any kind of construction work such as rock blasting, building construction, infrastructure building performed by internal or external personnel.</td>
+    <td property="dcterms:identifier">urn:uuid:85c4d05a-0459-4b8e-90e7-cc0ef2173d91</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/FaultCauseType/85c4d05a-0459-4b8e-90e7-cc0ef2173d91.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/85c4d05a-0459-4b8e-90e7-cc0ef2173d91.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/85c4d05a-0459-4b8e-90e7-cc0ef2173d91.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/1a9e6d88-4679-46b0-9f98-deab2638f644.rdf">operationAndMaintenance.personnel.trafficDamage</a></td>
+    <td property="skos:definition" lang="en">Includes land, sea and air traffic and off-road.</td>
+    <td property="dcterms:identifier">urn:uuid:1a9e6d88-4679-46b0-9f98-deab2638f644</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/FaultCauseType/1a9e6d88-4679-46b0-9f98-deab2638f644.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/1a9e6d88-4679-46b0-9f98-deab2638f644.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/FaultCauseType/1a9e6d88-4679-46b0-9f98-deab2638f644.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/f287b5cb-af83-4dfc-a0bf-15c3a6adb403.rdf">operationAndMaintenance.operations.overvoltage</a></td>
+    <td property="skos:definition" lang="en">This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:f287b5cb-af83-4dfc-a0bf-15c3a6adb403</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/f287b5cb-af83-4dfc-a0bf-15c3a6adb403.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/f287b5cb-af83-4dfc-a0bf-15c3a6adb403.jsonld">JSON-LD</a><br>
@@ -869,10 +784,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/51e4c6f2-1f41-4885-8d8f-44e3f6438e19.rdf">operationAndMaintenance.operations.undervoltageVoltageCollapse</a></td>
-    <td>This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:51e4c6f2-1f41-4885-8d8f-44e3f6438e19</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/51e4c6f2-1f41-4885-8d8f-44e3f6438e19.rdf">operationAndMaintenance.operations.undervoltageVoltageCollapse</a></td>
+    <td property="skos:definition" lang="en">This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:51e4c6f2-1f41-4885-8d8f-44e3f6438e19</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/51e4c6f2-1f41-4885-8d8f-44e3f6438e19.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/51e4c6f2-1f41-4885-8d8f-44e3f6438e19.jsonld">JSON-LD</a><br>
@@ -880,10 +795,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/d1b907e4-a210-419f-a64a-f1601e0dde09.rdf">operationAndMaintenance.operations.overload</a></td>
-    <td>Also overheating due to overload. This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:d1b907e4-a210-419f-a64a-f1601e0dde09</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/d1b907e4-a210-419f-a64a-f1601e0dde09.rdf">operationAndMaintenance.operations.overload</a></td>
+    <td property="skos:definition" lang="en">Also overheating due to overload. This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:d1b907e4-a210-419f-a64a-f1601e0dde09</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/d1b907e4-a210-419f-a64a-f1601e0dde09.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/d1b907e4-a210-419f-a64a-f1601e0dde09.jsonld">JSON-LD</a><br>
@@ -891,10 +806,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/f3bdc787-57e9-47f7-b421-e375150bf753.rdf">operationAndMaintenance.operations.changeOfLoad</a></td>
-    <td>This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:f3bdc787-57e9-47f7-b421-e375150bf753</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/f3bdc787-57e9-47f7-b421-e375150bf753.rdf">operationAndMaintenance.operations.changeOfLoad</a></td>
+    <td property="skos:definition" lang="en">This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:f3bdc787-57e9-47f7-b421-e375150bf753</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/f3bdc787-57e9-47f7-b421-e375150bf753.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/f3bdc787-57e9-47f7-b421-e375150bf753.jsonld">JSON-LD</a><br>
@@ -902,10 +817,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/a2c170ac-5d5a-4673-a102-a548ab35c5e2.rdf">operationAndMaintenance.operations.changeOfGeneration</a></td>
-    <td>This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:a2c170ac-5d5a-4673-a102-a548ab35c5e2</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/a2c170ac-5d5a-4673-a102-a548ab35c5e2.rdf">operationAndMaintenance.operations.changeOfGeneration</a></td>
+    <td property="skos:definition" lang="en">This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:a2c170ac-5d5a-4673-a102-a548ab35c5e2</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/a2c170ac-5d5a-4673-a102-a548ab35c5e2.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/a2c170ac-5d5a-4673-a102-a548ab35c5e2.jsonld">JSON-LD</a><br>
@@ -913,10 +828,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/71245205-9ed1-4962-93ab-a9e226b92863.rdf">operationAndMaintenance.operations.harmonics</a></td>
-    <td>This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:71245205-9ed1-4962-93ab-a9e226b92863</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/71245205-9ed1-4962-93ab-a9e226b92863.rdf">operationAndMaintenance.operations.harmonics</a></td>
+    <td property="skos:definition" lang="en">This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:71245205-9ed1-4962-93ab-a9e226b92863</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/71245205-9ed1-4962-93ab-a9e226b92863.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/71245205-9ed1-4962-93ab-a9e226b92863.jsonld">JSON-LD</a><br>
@@ -924,10 +839,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/06308d42-b5ed-46fc-bcda-d4d01028effd.rdf">operationAndMaintenance.operations.oscillations</a></td>
-    <td>This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:06308d42-b5ed-46fc-bcda-d4d01028effd</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/06308d42-b5ed-46fc-bcda-d4d01028effd.rdf">operationAndMaintenance.operations.oscillations</a></td>
+    <td property="skos:definition" lang="en">This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:06308d42-b5ed-46fc-bcda-d4d01028effd</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/06308d42-b5ed-46fc-bcda-d4d01028effd.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/06308d42-b5ed-46fc-bcda-d4d01028effd.jsonld">JSON-LD</a><br>
@@ -935,10 +850,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4.rdf">operationAndMaintenance.operations.islanding</a></td>
-    <td>Even if islanding is not a fault by itself, it may be a cause and consequence that leads to other faults in the power system. It is therefore included under Operation and maintenance > Operations.</td>
-    <td>urn:uuid:ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4.rdf">operationAndMaintenance.operations.islanding</a></td>
+    <td property="skos:definition" lang="en">Even if islanding is not a fault by itself, it may be a cause and consequence that leads to other faults in the power system. It is therefore included under Operation and maintenance > Operations.</td>
+    <td property="dcterms:identifier">urn:uuid:ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/ebae660c-6b7f-4b8c-9c95-a37f2cfb7cd4.jsonld">JSON-LD</a><br>
@@ -946,10 +861,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/c1a6e942-9ed0-422d-97a7-0afbdaffa610.rdf">operationAndMaintenance.operations.vibrationElectromechanical</a></td>
-    <td>Electromechanical vibration. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:c1a6e942-9ed0-422d-97a7-0afbdaffa610</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/c1a6e942-9ed0-422d-97a7-0afbdaffa610.rdf">operationAndMaintenance.operations.vibrationElectromechanical</a></td>
+    <td property="skos:definition" lang="en">Electromechanical vibration. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:c1a6e942-9ed0-422d-97a7-0afbdaffa610</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/c1a6e942-9ed0-422d-97a7-0afbdaffa610.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/c1a6e942-9ed0-422d-97a7-0afbdaffa610.jsonld">JSON-LD</a><br>
@@ -957,10 +872,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/9208d5a8-558c-4878-9183-aed6becbd40a.rdf">operationAndMaintenance.operations.gallopingMechanical</a></td>
-    <td>Mechanical galloping. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault.</td>
-    <td>urn:uuid:9208d5a8-558c-4878-9183-aed6becbd40a</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/9208d5a8-558c-4878-9183-aed6becbd40a.rdf">operationAndMaintenance.operations.gallopingMechanical</a></td>
+    <td property="skos:definition" lang="en">Mechanical galloping. Only if it is not due to environmental causes (such as high wind speeds). This cause is considered as a cause for a system fault.</td>
+    <td property="dcterms:identifier">urn:uuid:9208d5a8-558c-4878-9183-aed6becbd40a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/9208d5a8-558c-4878-9183-aed6becbd40a.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/9208d5a8-558c-4878-9183-aed6becbd40a.jsonld">JSON-LD</a><br>
@@ -968,10 +883,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/22a35799-b398-478c-9fda-b6e800dc5ff1.rdf">technical.equipment.designDimensioningError</a></td>
-    <td>Includes, for example, design and dimensioning errors, errors made during the investment project calculations.</td>
-    <td>urn:uuid:22a35799-b398-478c-9fda-b6e800dc5ff1</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/22a35799-b398-478c-9fda-b6e800dc5ff1.rdf">technical.equipment.designDimensioningError</a></td>
+    <td property="skos:definition" lang="en">Includes, for example, design and dimensioning errors, errors made during the investment project calculations.</td>
+    <td property="dcterms:identifier">urn:uuid:22a35799-b398-478c-9fda-b6e800dc5ff1</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/22a35799-b398-478c-9fda-b6e800dc5ff1.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/22a35799-b398-478c-9fda-b6e800dc5ff1.jsonld">JSON-LD</a><br>
@@ -979,10 +894,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/40bb349a-e86b-46b2-8b3c-cdbac0b5bb61.rdf">technical.equipment.manufacturingError</a></td>
-    <td>For example, errors during the production of a component or during the construction phase of a power pylon.</td>
-    <td>urn:uuid:40bb349a-e86b-46b2-8b3c-cdbac0b5bb61</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/40bb349a-e86b-46b2-8b3c-cdbac0b5bb61.rdf">technical.equipment.manufacturingError</a></td>
+    <td property="skos:definition" lang="en">For example, errors during the production of a component or during the construction phase of a power pylon.</td>
+    <td property="dcterms:identifier">urn:uuid:40bb349a-e86b-46b2-8b3c-cdbac0b5bb61</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/40bb349a-e86b-46b2-8b3c-cdbac0b5bb61.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/40bb349a-e86b-46b2-8b3c-cdbac0b5bb61.jsonld">JSON-LD</a><br>
@@ -990,10 +905,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/04991d18-8994-43cb-88e1-8d2af5a61577.rdf">technical.equipment.aging</a></td>
-    <td></td>
-    <td>urn:uuid:04991d18-8994-43cb-88e1-8d2af5a61577</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/04991d18-8994-43cb-88e1-8d2af5a61577.rdf">technical.equipment.ageing</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to its ageing.</td>
+    <td property="dcterms:identifier">urn:uuid:04991d18-8994-43cb-88e1-8d2af5a61577</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/04991d18-8994-43cb-88e1-8d2af5a61577.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/04991d18-8994-43cb-88e1-8d2af5a61577.jsonld">JSON-LD</a><br>
@@ -1001,10 +916,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/e0ad1933-1448-48cf-aa91-c53a5960c39b.rdf">technical.equipment.wearTear</a></td>
-    <td></td>
-    <td>urn:uuid:e0ad1933-1448-48cf-aa91-c53a5960c39b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/e0ad1933-1448-48cf-aa91-c53a5960c39b.rdf">technical.equipment.wearTear</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to wear and tear in ordinary operation.</td>
+    <td property="dcterms:identifier">urn:uuid:e0ad1933-1448-48cf-aa91-c53a5960c39b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/e0ad1933-1448-48cf-aa91-c53a5960c39b.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/e0ad1933-1448-48cf-aa91-c53a5960c39b.jsonld">JSON-LD</a><br>
@@ -1012,10 +927,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/77be6f95-d7f8-4f14-aeee-1a8bab3d2916.rdf">technical.equipment.corrosion</a></td>
-    <td></td>
-    <td>urn:uuid:77be6f95-d7f8-4f14-aeee-1a8bab3d2916</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/77be6f95-d7f8-4f14-aeee-1a8bab3d2916.rdf">technical.equipment.corrosion</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to corrosion.</td>
+    <td property="dcterms:identifier">urn:uuid:77be6f95-d7f8-4f14-aeee-1a8bab3d2916</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/77be6f95-d7f8-4f14-aeee-1a8bab3d2916.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/77be6f95-d7f8-4f14-aeee-1a8bab3d2916.jsonld">JSON-LD</a><br>
@@ -1023,10 +938,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/94bd2c45-29e7-4a34-99db-9ec1e18a26c5.rdf">technical.equipment.loosePart</a></td>
-    <td></td>
-    <td>urn:uuid:94bd2c45-29e7-4a34-99db-9ec1e18a26c5</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/94bd2c45-29e7-4a34-99db-9ec1e18a26c5.rdf">technical.equipment.loosePart</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due one or several loose parts.</td>
+    <td property="dcterms:identifier">urn:uuid:94bd2c45-29e7-4a34-99db-9ec1e18a26c5</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/94bd2c45-29e7-4a34-99db-9ec1e18a26c5.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/94bd2c45-29e7-4a34-99db-9ec1e18a26c5.jsonld">JSON-LD</a><br>
@@ -1034,10 +949,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/506f89b7-f061-443f-b05a-8c22fa33127a.rdf">technical.equipment.damagedPart</a></td>
-    <td></td>
-    <td>urn:uuid:506f89b7-f061-443f-b05a-8c22fa33127a</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/506f89b7-f061-443f-b05a-8c22fa33127a.rdf">technical.equipment.damagedPart</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due one or several damaged parts.</td>
+    <td property="dcterms:identifier">urn:uuid:506f89b7-f061-443f-b05a-8c22fa33127a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/506f89b7-f061-443f-b05a-8c22fa33127a.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/506f89b7-f061-443f-b05a-8c22fa33127a.jsonld">JSON-LD</a><br>
@@ -1045,10 +960,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f.rdf">technical.equipment.looseElectricalContactPoint</a></td>
-    <td></td>
-    <td>urn:uuid:f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f.rdf">technical.equipment.looseElectricalContactPoint</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due one or several loose electrical contact points.</td>
+    <td property="dcterms:identifier">urn:uuid:f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/f91f7cd0-c9cf-4f4f-9862-6a04bb70a53f.jsonld">JSON-LD</a><br>
@@ -1056,10 +971,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/e57f023c-027d-4d75-8364-177690c8346b.rdf">technical.equipment.discharges</a></td>
-    <td></td>
-    <td>urn:uuid:e57f023c-027d-4d75-8364-177690c8346b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/e57f023c-027d-4d75-8364-177690c8346b.rdf">technical.equipment.discharges</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to discharge(s).</td>
+    <td property="dcterms:identifier">urn:uuid:e57f023c-027d-4d75-8364-177690c8346b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/e57f023c-027d-4d75-8364-177690c8346b.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/e57f023c-027d-4d75-8364-177690c8346b.jsonld">JSON-LD</a><br>
@@ -1067,10 +982,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/fccda3ac-6e0c-47fc-9591-d1297f46c0c5.rdf">technical.equipment.leakage</a></td>
-    <td></td>
-    <td>urn:uuid:fccda3ac-6e0c-47fc-9591-d1297f46c0c5</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/fccda3ac-6e0c-47fc-9591-d1297f46c0c5.rdf">technical.equipment.leakage</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to leakage(s).</td>
+    <td property="dcterms:identifier">urn:uuid:fccda3ac-6e0c-47fc-9591-d1297f46c0c5</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/fccda3ac-6e0c-47fc-9591-d1297f46c0c5.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/fccda3ac-6e0c-47fc-9591-d1297f46c0c5.jsonld">JSON-LD</a><br>
@@ -1078,10 +993,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/0638044d-1262-4b6d-bb12-be34565b6977.rdf">technical.equipment.crackBreakage</a></td>
-    <td></td>
-    <td>urn:uuid:0638044d-1262-4b6d-bb12-be34565b6977</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/0638044d-1262-4b6d-bb12-be34565b6977.rdf">technical.equipment.crackBreakage</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to a crack or breakage.</td>
+    <td property="dcterms:identifier">urn:uuid:0638044d-1262-4b6d-bb12-be34565b6977</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/0638044d-1262-4b6d-bb12-be34565b6977.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/0638044d-1262-4b6d-bb12-be34565b6977.jsonld">JSON-LD</a><br>
@@ -1089,10 +1004,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/f39e9c18-e979-4c9a-b551-3070fec7f9b4.rdf">technical.equipment.cavitation</a></td>
-    <td>Faults due to cavitation in, for example, water turbines at hydro plants.</td>
-    <td>urn:uuid:f39e9c18-e979-4c9a-b551-3070fec7f9b4</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/f39e9c18-e979-4c9a-b551-3070fec7f9b4.rdf">technical.equipment.cavitation</a></td>
+    <td property="skos:definition" lang="en">Faults due to cavitation in, for example, water turbines at hydro plants.</td>
+    <td property="dcterms:identifier">urn:uuid:f39e9c18-e979-4c9a-b551-3070fec7f9b4</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/f39e9c18-e979-4c9a-b551-3070fec7f9b4.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/f39e9c18-e979-4c9a-b551-3070fec7f9b4.jsonld">JSON-LD</a><br>
@@ -1100,10 +1015,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/75b740f4-9080-461c-ac9a-e6318cffc5e3.rdf">technical.equipment.erosion</a></td>
-    <td></td>
-    <td>urn:uuid:75b740f4-9080-461c-ac9a-e6318cffc5e3</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/75b740f4-9080-461c-ac9a-e6318cffc5e3.rdf">technical.equipment.erosion</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to erosion.</td>
+    <td property="dcterms:identifier">urn:uuid:75b740f4-9080-461c-ac9a-e6318cffc5e3</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/75b740f4-9080-461c-ac9a-e6318cffc5e3.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/75b740f4-9080-461c-ac9a-e6318cffc5e3.jsonld">JSON-LD</a><br>
@@ -1111,10 +1026,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/1485acaf-d2cb-4e02-9c5e-29e9452e743f.rdf">technical.equipment.rotDamage</a></td>
-    <td></td>
-    <td>urn:uuid:1485acaf-d2cb-4e02-9c5e-29e9452e743f</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/1485acaf-d2cb-4e02-9c5e-29e9452e743f.rdf">technical.equipment.rotDamage</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to rot damage.</td>
+    <td property="dcterms:identifier">urn:uuid:1485acaf-d2cb-4e02-9c5e-29e9452e743f</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/1485acaf-d2cb-4e02-9c5e-29e9452e743f.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/1485acaf-d2cb-4e02-9c5e-29e9452e743f.jsonld">JSON-LD</a><br>
@@ -1122,10 +1037,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/3a647504-e22a-49b7-969e-7e806e527e8a.rdf">technical.equipment.contamination</a></td>
-    <td></td>
-    <td>urn:uuid:3a647504-e22a-49b7-969e-7e806e527e8a</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/3a647504-e22a-49b7-969e-7e806e527e8a.rdf">technical.equipment.contamination</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to contamination.</td>
+    <td property="dcterms:identifier">urn:uuid:3a647504-e22a-49b7-969e-7e806e527e8a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/3a647504-e22a-49b7-969e-7e806e527e8a.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/3a647504-e22a-49b7-969e-7e806e527e8a.jsonld">JSON-LD</a><br>
@@ -1133,10 +1048,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/041e2fb7-dd49-4609-9bc5-fe6df04b96cf.rdf">technical.equipment.blockage</a></td>
-    <td></td>
-    <td>urn:uuid:041e2fb7-dd49-4609-9bc5-fe6df04b96cf</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/041e2fb7-dd49-4609-9bc5-fe6df04b96cf.rdf">technical.equipment.blockage</a></td>
+    <td property="skos:definition" lang="en">Fault in an equipment due to blockage.</td>
+    <td property="dcterms:identifier">urn:uuid:041e2fb7-dd49-4609-9bc5-fe6df04b96cf</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/041e2fb7-dd49-4609-9bc5-fe6df04b96cf.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/041e2fb7-dd49-4609-9bc5-fe6df04b96cf.jsonld">JSON-LD</a><br>
@@ -1144,10 +1059,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/6bf83d88-aa17-4999-9b6f-f3adf9a4e976.rdf">technical.equipment.communication</a></td>
-    <td>Telecommunication errors. Faults on, for example, SCADA or RTU should be reported as a fault with the fault location SCADA or RTU.</td>
-    <td>urn:uuid:6bf83d88-aa17-4999-9b6f-f3adf9a4e976</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/6bf83d88-aa17-4999-9b6f-f3adf9a4e976.rdf">technical.equipment.communication</a></td>
+    <td property="skos:definition" lang="en">Telecommunication errors. Faults on, for example, SCADA or RTU should be reported as a fault with the fault location SCADA or RTU.</td>
+    <td property="dcterms:identifier">urn:uuid:6bf83d88-aa17-4999-9b6f-f3adf9a4e976</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/6bf83d88-aa17-4999-9b6f-f3adf9a4e976.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/6bf83d88-aa17-4999-9b6f-f3adf9a4e976.jsonld">JSON-LD</a><br>
@@ -1155,10 +1070,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0.rdf">technical.equipment.softwareHardwareError</a></td>
-    <td>Software and hardware errors that do not involve operational errors.</td>
-    <td>urn:uuid:ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0.rdf">technical.equipment.softwareHardwareError</a></td>
+    <td property="skos:definition" lang="en">Software and hardware errors that do not involve operational errors.</td>
+    <td property="dcterms:identifier">urn:uuid:ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/ef67fa8f-e9e1-4096-a0ea-96c8bd2a38f0.jsonld">JSON-LD</a><br>
@@ -1166,10 +1081,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/f433182d-7606-478f-b074-832bda795353.rdf">technical.faultOnOtherComponent.damageFromNearbyFailure</a></td>
-    <td>Faults due to other nearby equipment, for example, equipment that (physically) fall on other equipment.</td>
-    <td>urn:uuid:f433182d-7606-478f-b074-832bda795353</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/f433182d-7606-478f-b074-832bda795353.rdf">technical.faultOnOtherComponent.damageFromNearbyFailure</a></td>
+    <td property="skos:definition" lang="en">Faults due to other nearby equipment, for example, equipment that (physically) fall on other equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:f433182d-7606-478f-b074-832bda795353</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/f433182d-7606-478f-b074-832bda795353.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/f433182d-7606-478f-b074-832bda795353.jsonld">JSON-LD</a><br>
@@ -1177,10 +1092,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/9eb57f55-c6b2-4df1-a411-128aeac5aa6d.rdf">technical.faultOnOtherComponent.other</a></td>
-    <td></td>
-    <td>urn:uuid:9eb57f55-c6b2-4df1-a411-128aeac5aa6d</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/9eb57f55-c6b2-4df1-a411-128aeac5aa6d.rdf">technical.faultOnOtherComponent.other</a></td>
+    <td property="skos:definition" lang="en">Other causes due to faults on other components.</td>
+    <td property="dcterms:identifier">urn:uuid:9eb57f55-c6b2-4df1-a411-128aeac5aa6d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/9eb57f55-c6b2-4df1-a411-128aeac5aa6d.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/9eb57f55-c6b2-4df1-a411-128aeac5aa6d.jsonld">JSON-LD</a><br>
@@ -1188,10 +1103,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/cdb59078-ee7e-40f6-a915-7e314c617f32.rdf">technical.adjoiningGrid.below_100KV</a></td>
-    <td>Fault due to other component in the grid below 100 kV.</td>
-    <td>urn:uuid:cdb59078-ee7e-40f6-a915-7e314c617f32</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/cdb59078-ee7e-40f6-a915-7e314c617f32.rdf">technical.adjoiningGrid.below_100KV</a></td>
+    <td property="skos:definition" lang="en">Fault due to other component in the grid below 100 kV.</td>
+    <td property="dcterms:identifier">urn:uuid:cdb59078-ee7e-40f6-a915-7e314c617f32</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/cdb59078-ee7e-40f6-a915-7e314c617f32.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/cdb59078-ee7e-40f6-a915-7e314c617f32.jsonld">JSON-LD</a><br>
@@ -1199,10 +1114,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/FaultCauseType/5f8933b2-70c0-48cf-8cbf-55b2f36ba475.rdf">technical.adjoiningGrid.atOrAbove_100KV</a></td>
-    <td>Fault due to other component in the grid at 100 kV or above.</td>
-    <td>urn:uuid:5f8933b2-70c0-48cf-8cbf-55b2f36ba475</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/FaultCauseType/5f8933b2-70c0-48cf-8cbf-55b2f36ba475.rdf">technical.adjoiningGrid.atOrAbove_100KV</a></td>
+    <td property="skos:definition" lang="en">Fault due to other component in the grid at 100 kV or above.</td>
+    <td property="dcterms:identifier">urn:uuid:5f8933b2-70c0-48cf-8cbf-55b2f36ba475</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/FaultCauseType/5f8933b2-70c0-48cf-8cbf-55b2f36ba475.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/FaultCauseType/5f8933b2-70c0-48cf-8cbf-55b2f36ba475.jsonld">JSON-LD</a><br>
@@ -1210,7 +1125,7 @@
     </td>      
 </tr>
 
-          <!-- Add more rows for each concept scheme -->
+          <!-- Add more rows for each concept -->
         </tbody>
       </table>
     </main>

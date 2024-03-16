@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "a6a8ee4a-d696-4382-886c-3226c613912b",
     "@cim:IdentifiedObject.name": "environmental.wind.highSpeed",
+    "@cim:IdentifiedObject.description": "Environmental causes due to high wind speed.",
     "@skos:prefLabel": "environmental.wind.highSpeed",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Environmental causes due to high wind speed."
+    },
     "@dcterms:identifier": "urn:uuid:a6a8ee4a-d696-4382-886c-3226c613912b",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

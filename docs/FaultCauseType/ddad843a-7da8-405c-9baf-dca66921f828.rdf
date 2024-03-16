@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/ddad843a-7da8-405c-9baf-dca66921f828">
     <cim:IdentifiedObject.mRID>ddad843a-7da8-405c-9baf-dca66921f828</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.wind.unfavourableDirection</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Environmental causes due to unfavourable wind direction.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.wind.unfavourableDirection</skos:prefLabel>
+    <skos:definition xml:lang="en">Environmental causes due to unfavourable wind direction.</skos:definition>
     <dcterms:identifier>urn:uuid:ddad843a-7da8-405c-9baf-dca66921f828</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

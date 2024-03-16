@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/bea6bd0c-ca21-4de5-8e16-e524884bb8a3> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Unknown is registered as the cause if the cause of the fault cannot be determined at any certainty." ;
     cim:IdentifiedObject.mRID "bea6bd0c-ca21-4de5-8e16-e524884bb8a3" ;
     cim:IdentifiedObject.name "unknown" ;
     dcterms:identifier "urn:uuid:bea6bd0c-ca21-4de5-8e16-e524884bb8a3" ;
+    skos:definition "Unknown is registered as the cause if the cause of the fault cannot be determined at any certainty."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "unknown" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

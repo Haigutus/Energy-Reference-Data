@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11",
     "@cim:IdentifiedObject.name": "environmental.pollution.air",
+    "@cim:IdentifiedObject.description": "Environmental causes due to air pollution.",
     "@skos:prefLabel": "environmental.pollution.air",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Environmental causes due to air pollution."
+    },
     "@dcterms:identifier": "urn:uuid:8fcbe2aa-fcf1-4c25-9d3c-9db818f35a11",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

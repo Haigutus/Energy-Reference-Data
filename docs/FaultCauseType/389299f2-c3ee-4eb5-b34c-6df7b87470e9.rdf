@@ -1,36 +1,13 @@
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:at="http://publications.europa.eu/ontology/authority/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eumd="http://entsoe.eu/ns/Metadata-European#">
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/389299f2-c3ee-4eb5-b34c-6df7b87470e9">
     <cim:IdentifiedObject.mRID>389299f2-c3ee-4eb5-b34c-6df7b87470e9</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.mRID>389299f2-c3ee-4eb5-b34c-6df7b87470e9</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>externalInfluences.humanThirdParty.logging</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.name>externalInfluences.humanThirdParty.logging</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Any kind of third party logging and tree felling.</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.description>Any kind of third party logging and tree felling.</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>389299f2-c3ee-4eb5-b34c-6df7b87470e9</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.mRID>389299f2-c3ee-4eb5-b34c-6df7b87470e9</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>operationAndMaintenance.personnel.logging</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.name>operationAndMaintenance.personnel.logging</cim:IdentifiedObject.name>
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
-    <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>externalInfluences.humanThirdParty.logging</skos:prefLabel>
-    <skos:prefLabel>externalInfluences.humanThirdParty.logging</skos:prefLabel>
-    <skos:prefLabel>operationAndMaintenance.personnel.logging</skos:prefLabel>
-    <skos:prefLabel>operationAndMaintenance.personnel.logging</skos:prefLabel>
-    <skos:definition xml:lang="en">Any kind of third party logging and tree felling.</skos:definition>
     <skos:definition xml:lang="en">Any kind of third party logging and tree felling.</skos:definition>
     <dcterms:identifier>urn:uuid:389299f2-c3ee-4eb5-b34c-6df7b87470e9</dcterms:identifier>
-    <dcterms:identifier>urn:uuid:389299f2-c3ee-4eb5-b34c-6df7b87470e9</dcterms:identifier>
-    <dcterms:identifier>urn:uuid:389299f2-c3ee-4eb5-b34c-6df7b87470e9</dcterms:identifier>
-    <dcterms:identifier>urn:uuid:389299f2-c3ee-4eb5-b34c-6df7b87470e9</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
-    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
-    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
-    <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
-    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
-    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
-    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
   </skos:Concept>
 </rdf:RDF>

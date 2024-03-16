@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/bda46d8e-9515-4678-a6c9-dd62be9c5deb> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault causes due to high/low ambient temperatures or (wild) fires due to environmental causes (not human). Use the subcategory fires, high ambient temperature or low ambient temperature if possible." ;
     cim:IdentifiedObject.mRID "bda46d8e-9515-4678-a6c9-dd62be9c5deb" ;
     cim:IdentifiedObject.name "environmental.temperature" ;
     dcterms:identifier "urn:uuid:bda46d8e-9515-4678-a6c9-dd62be9c5deb" ;
+    skos:definition "Fault causes due to high/low ambient temperatures or (wild) fires due to environmental causes (not human). Use the subcategory fires, high ambient temperature or low ambient temperature if possible."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "environmental.temperature" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

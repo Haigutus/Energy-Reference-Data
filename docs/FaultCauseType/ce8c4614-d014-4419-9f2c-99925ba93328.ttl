@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/ce8c4614-d014-4419-9f2c-99925ba93328> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "The cause category technical equipment focuses on faults that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans." ;
     cim:IdentifiedObject.mRID "ce8c4614-d014-4419-9f2c-99925ba93328" ;
     cim:IdentifiedObject.name "technical" ;
     dcterms:identifier "urn:uuid:ce8c4614-d014-4419-9f2c-99925ba93328" ;
+    skos:definition "The cause category technical equipment focuses on faults that relate to faults on power system components. Also faults related to design, dimensioning and the construction of the components are included here even if they have been made by humans."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

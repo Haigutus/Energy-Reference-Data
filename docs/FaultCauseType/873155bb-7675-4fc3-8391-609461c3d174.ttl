@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/873155bb-7675-4fc3-8391-609461c3d174> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults due to other animals than birds." ;
     cim:IdentifiedObject.mRID "873155bb-7675-4fc3-8391-609461c3d174" ;
     cim:IdentifiedObject.name "externalInfluences.animals.other" ;
     dcterms:identifier "urn:uuid:873155bb-7675-4fc3-8391-609461c3d174" ;
+    skos:definition "Faults due to other animals than birds."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "externalInfluences.animals.other" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

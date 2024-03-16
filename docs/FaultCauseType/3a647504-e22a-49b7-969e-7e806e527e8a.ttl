@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/3a647504-e22a-49b7-969e-7e806e527e8a> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault in an equipment due to contamination." ;
     cim:IdentifiedObject.mRID "3a647504-e22a-49b7-969e-7e806e527e8a" ;
     cim:IdentifiedObject.name "technical.equipment.contamination" ;
     dcterms:identifier "urn:uuid:3a647504-e22a-49b7-969e-7e806e527e8a" ;
+    skos:definition "Fault in an equipment due to contamination."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.equipment.contamination" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

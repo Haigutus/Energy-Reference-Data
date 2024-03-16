@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "fd7bce20-cd68-4366-9db7-2815156ed3b2",
     "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.commissioningTesting",
+    "@cim:IdentifiedObject.description": "Faults caused during commission or testing of (new) equipment.",
     "@skos:prefLabel": "operationAndMaintenance.personnel.commissioningTesting",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults caused during commission or testing of (new) equipment."
+    },
     "@dcterms:identifier": "urn:uuid:fd7bce20-cd68-4366-9db7-2815156ed3b2",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

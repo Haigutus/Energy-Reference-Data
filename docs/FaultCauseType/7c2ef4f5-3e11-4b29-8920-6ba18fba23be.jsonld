@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "7c2ef4f5-3e11-4b29-8920-6ba18fba23be",
     "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.installationError",
+    "@cim:IdentifiedObject.description": "Faults during operation or maintenance due to incorrect installation of network element or equipment.",
     "@skos:prefLabel": "operationAndMaintenance.personnel.installationError",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults during operation or maintenance due to incorrect installation of network element or equipment."
+    },
     "@dcterms:identifier": "urn:uuid:7c2ef4f5-3e11-4b29-8920-6ba18fba23be",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

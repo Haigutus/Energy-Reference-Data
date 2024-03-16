@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/307de251-d9b6-4c10-8a98-9b16a7d8e0cb> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Causes not due to faults in the component itself and originating from the adjoining grid. Use the subcategory below 100 kV or at 100 kV or above if possible." ;
     cim:IdentifiedObject.mRID "307de251-d9b6-4c10-8a98-9b16a7d8e0cb" ;
     cim:IdentifiedObject.name "technical.adjoiningGrid" ;
     dcterms:identifier "urn:uuid:307de251-d9b6-4c10-8a98-9b16a7d8e0cb" ;
+    skos:definition "Causes not due to faults in the component itself and originating from the adjoining grid. Use the subcategory below 100 kV or at 100 kV or above if possible."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.adjoiningGrid" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

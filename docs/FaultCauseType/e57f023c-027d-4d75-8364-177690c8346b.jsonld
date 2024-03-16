@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "e57f023c-027d-4d75-8364-177690c8346b",
     "@cim:IdentifiedObject.name": "technical.equipment.discharges",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due to discharge(s).",
     "@skos:prefLabel": "technical.equipment.discharges",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due to discharge(s)."
+    },
     "@dcterms:identifier": "urn:uuid:e57f023c-027d-4d75-8364-177690c8346b",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

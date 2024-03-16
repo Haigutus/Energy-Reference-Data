@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "d1304c3d-0d07-4379-841d-d2ce47025498",
     "@cim:IdentifiedObject.name": "environmental.waterIce",
+    "@cim:IdentifiedObject.description": "Fault caused due to water elements. Use the subcategory moisture/rain/hail or snow/ice if possible.",
     "@skos:prefLabel": "environmental.waterIce",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault caused due to water elements. Use the subcategory moisture/rain/hail or snow/ice if possible."
+    },
     "@dcterms:identifier": "urn:uuid:d1304c3d-0d07-4379-841d-d2ce47025498",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

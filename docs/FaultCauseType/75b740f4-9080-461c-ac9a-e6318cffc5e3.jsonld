@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "75b740f4-9080-461c-ac9a-e6318cffc5e3",
     "@cim:IdentifiedObject.name": "technical.equipment.erosion",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due to erosion.",
     "@skos:prefLabel": "technical.equipment.erosion",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due to erosion."
+    },
     "@dcterms:identifier": "urn:uuid:75b740f4-9080-461c-ac9a-e6318cffc5e3",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

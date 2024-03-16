@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/fd7bce20-cd68-4366-9db7-2815156ed3b2> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults caused during commission or testing of (new) equipment." ;
     cim:IdentifiedObject.mRID "fd7bce20-cd68-4366-9db7-2815156ed3b2" ;
     cim:IdentifiedObject.name "operationAndMaintenance.personnel.commissioningTesting" ;
     dcterms:identifier "urn:uuid:fd7bce20-cd68-4366-9db7-2815156ed3b2" ;
+    skos:definition "Faults caused during commission or testing of (new) equipment."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "operationAndMaintenance.personnel.commissioningTesting" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

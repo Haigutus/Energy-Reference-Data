@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "574ad0d5-1610-47a2-bca7-4e586fb3be2b",
     "@cim:IdentifiedObject.name": "environmental.lightning",
+    "@cim:IdentifiedObject.description": "Environmental causes due to lightning.",
     "@skos:prefLabel": "environmental.lightning",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Environmental causes due to lightning."
+    },
     "@dcterms:identifier": "urn:uuid:574ad0d5-1610-47a2-bca7-4e586fb3be2b",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

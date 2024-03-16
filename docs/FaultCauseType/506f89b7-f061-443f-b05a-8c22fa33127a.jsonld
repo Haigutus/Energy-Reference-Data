@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "506f89b7-f061-443f-b05a-8c22fa33127a",
     "@cim:IdentifiedObject.name": "technical.equipment.damagedPart",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due one or several damaged parts.",
     "@skos:prefLabel": "technical.equipment.damagedPart",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due one or several damaged parts."
+    },
     "@dcterms:identifier": "urn:uuid:506f89b7-f061-443f-b05a-8c22fa33127a",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

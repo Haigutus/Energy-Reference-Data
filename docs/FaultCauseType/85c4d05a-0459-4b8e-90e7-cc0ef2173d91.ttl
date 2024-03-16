@@ -1,0 +1,15 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/FaultCauseType/85c4d05a-0459-4b8e-90e7-cc0ef2173d91> a cim:FaultCauseType,
+        skos:Concept ;
+    cim:IdentifiedObject.description "Any kind of construction work such as rock blasting, building construction, infrastructure building performed by internal or external personnel." ;
+    cim:IdentifiedObject.mRID "85c4d05a-0459-4b8e-90e7-cc0ef2173d91" ;
+    cim:IdentifiedObject.name "operationAndMaintenance.personnel.constructionWork" ;
+    dcterms:identifier "urn:uuid:85c4d05a-0459-4b8e-90e7-cc0ef2173d91" ;
+    skos:definition "Any kind of construction work such as rock blasting, building construction, infrastructure building performed by internal or external personnel."@en ;
+    skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
+    skos:prefLabel "operationAndMaintenance.personnel.constructionWork" ;
+    skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
+

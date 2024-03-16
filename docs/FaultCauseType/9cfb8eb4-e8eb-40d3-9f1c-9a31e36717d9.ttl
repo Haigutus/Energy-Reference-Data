@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault causes due to physical surroundings without human intervention. Use the subcategory vegetation, landslide/avalanche or flood if possible." ;
     cim:IdentifiedObject.mRID "9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9" ;
     cim:IdentifiedObject.name "environmental.physicalSurroundings" ;
     dcterms:identifier "urn:uuid:9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9" ;
+    skos:definition "Fault causes due to physical surroundings without human intervention. Use the subcategory vegetation, landslide/avalanche or flood if possible."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "environmental.physicalSurroundings" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

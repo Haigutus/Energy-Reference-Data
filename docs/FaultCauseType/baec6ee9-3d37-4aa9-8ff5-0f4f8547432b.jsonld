@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "baec6ee9-3d37-4aa9-8ff5-0f4f8547432b",
     "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty.cyberAttack",
+    "@cim:IdentifiedObject.description": "Faults due to cyberattacks.",
     "@skos:prefLabel": "externalInfluences.humanThirdParty.cyberAttack",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults due to cyberattacks."
+    },
     "@dcterms:identifier": "urn:uuid:baec6ee9-3d37-4aa9-8ff5-0f4f8547432b",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

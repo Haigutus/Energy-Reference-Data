@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/baec6ee9-3d37-4aa9-8ff5-0f4f8547432b> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults due to cyberattacks." ;
     cim:IdentifiedObject.mRID "baec6ee9-3d37-4aa9-8ff5-0f4f8547432b" ;
     cim:IdentifiedObject.name "externalInfluences.humanThirdParty.cyberAttack" ;
     dcterms:identifier "urn:uuid:baec6ee9-3d37-4aa9-8ff5-0f4f8547432b" ;
+    skos:definition "Faults due to cyberattacks."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "externalInfluences.humanThirdParty.cyberAttack" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

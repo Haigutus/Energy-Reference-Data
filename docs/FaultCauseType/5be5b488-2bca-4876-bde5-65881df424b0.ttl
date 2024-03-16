@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/5be5b488-2bca-4876-bde5-65881df424b0> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults during operation or maintenance due to erroneous documentation." ;
     cim:IdentifiedObject.mRID "5be5b488-2bca-4876-bde5-65881df424b0" ;
     cim:IdentifiedObject.name "operationAndMaintenance.personnel.documentationError" ;
     dcterms:identifier "urn:uuid:5be5b488-2bca-4876-bde5-65881df424b0" ;
+    skos:definition "Faults during operation or maintenance due to erroneous documentation."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "operationAndMaintenance.personnel.documentationError" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

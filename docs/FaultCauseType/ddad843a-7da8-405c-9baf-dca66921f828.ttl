@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/ddad843a-7da8-405c-9baf-dca66921f828> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Environmental causes due to unfavourable wind direction." ;
     cim:IdentifiedObject.mRID "ddad843a-7da8-405c-9baf-dca66921f828" ;
     cim:IdentifiedObject.name "environmental.wind.unfavourableDirection" ;
     dcterms:identifier "urn:uuid:ddad843a-7da8-405c-9baf-dca66921f828" ;
+    skos:definition "Environmental causes due to unfavourable wind direction."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "environmental.wind.unfavourableDirection" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/93992f35-49b1-4bcd-93a8-a2d16233385e> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Operation and maintenance focus on faults that occur during operation and maintenance by internal and external personnel and operational errors that lead to unplanned and sudden changes in the electric power system operating conditions." ;
     cim:IdentifiedObject.mRID "93992f35-49b1-4bcd-93a8-a2d16233385e" ;
     cim:IdentifiedObject.name "operationAndMaintenance" ;
     dcterms:identifier "urn:uuid:93992f35-49b1-4bcd-93a8-a2d16233385e" ;
+    skos:definition "Operation and maintenance focus on faults that occur during operation and maintenance by internal and external personnel and operational errors that lead to unplanned and sudden changes in the electric power system operating conditions."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "operationAndMaintenance" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

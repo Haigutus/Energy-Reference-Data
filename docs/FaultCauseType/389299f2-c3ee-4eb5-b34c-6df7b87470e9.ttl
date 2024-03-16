@@ -6,12 +6,10 @@
         skos:Concept ;
     cim:IdentifiedObject.description "Any kind of third party logging and tree felling." ;
     cim:IdentifiedObject.mRID "389299f2-c3ee-4eb5-b34c-6df7b87470e9" ;
-    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.logging",
-        "operationAndMaintenance.personnel.logging" ;
+    cim:IdentifiedObject.name "externalInfluences.humanThirdParty.logging" ;
     dcterms:identifier "urn:uuid:389299f2-c3ee-4eb5-b34c-6df7b87470e9" ;
     skos:definition "Any kind of third party logging and tree felling."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
-    skos:prefLabel "externalInfluences.humanThirdParty.logging",
-        "operationAndMaintenance.personnel.logging" ;
+    skos:prefLabel "externalInfluences.humanThirdParty.logging" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
 

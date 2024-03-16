@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/e57f023c-027d-4d75-8364-177690c8346b">
     <cim:IdentifiedObject.mRID>e57f023c-027d-4d75-8364-177690c8346b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical.equipment.discharges</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault in an equipment due to discharge(s).</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical.equipment.discharges</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault in an equipment due to discharge(s).</skos:definition>
     <dcterms:identifier>urn:uuid:e57f023c-027d-4d75-8364-177690c8346b</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

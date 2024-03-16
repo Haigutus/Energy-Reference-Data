@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "af5594ba-241b-444f-bac5-23b808a5c707",
     "@cim:IdentifiedObject.name": "externalInfluences.foreignObjects",
+    "@cim:IdentifiedObject.description": "Foreign objects not related to human activity or animals.",
     "@skos:prefLabel": "externalInfluences.foreignObjects",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Foreign objects not related to human activity or animals."
+    },
     "@dcterms:identifier": "urn:uuid:af5594ba-241b-444f-bac5-23b808a5c707",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

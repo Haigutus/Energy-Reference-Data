@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "1485acaf-d2cb-4e02-9c5e-29e9452e743f",
     "@cim:IdentifiedObject.name": "technical.equipment.rotDamage",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due to rot damage.",
     "@skos:prefLabel": "technical.equipment.rotDamage",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due to rot damage."
+    },
     "@dcterms:identifier": "urn:uuid:1485acaf-d2cb-4e02-9c5e-29e9452e743f",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

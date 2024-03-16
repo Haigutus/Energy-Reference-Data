@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "5be5b488-2bca-4876-bde5-65881df424b0",
     "@cim:IdentifiedObject.name": "operationAndMaintenance.personnel.documentationError",
+    "@cim:IdentifiedObject.description": "Faults during operation or maintenance due to erroneous documentation.",
     "@skos:prefLabel": "operationAndMaintenance.personnel.documentationError",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults during operation or maintenance due to erroneous documentation."
+    },
     "@dcterms:identifier": "urn:uuid:5be5b488-2bca-4876-bde5-65881df424b0",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

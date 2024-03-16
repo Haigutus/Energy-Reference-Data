@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/a6a8ee4a-d696-4382-886c-3226c613912b">
     <cim:IdentifiedObject.mRID>a6a8ee4a-d696-4382-886c-3226c613912b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.wind.highSpeed</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Environmental causes due to high wind speed.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.wind.highSpeed</skos:prefLabel>
+    <skos:definition xml:lang="en">Environmental causes due to high wind speed.</skos:definition>
     <dcterms:identifier>urn:uuid:a6a8ee4a-d696-4382-886c-3226c613912b</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

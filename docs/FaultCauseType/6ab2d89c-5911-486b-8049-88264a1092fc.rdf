@@ -2,10 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/6ab2d89c-5911-486b-8049-88264a1092fc">
     <cim:IdentifiedObject.mRID>6ab2d89c-5911-486b-8049-88264a1092fc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.physicalSurroundings.landslidesAvalanche</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.description>Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snowslides (avalanches). Submarine landslides are also included.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snow slides (avalanches). Submarine landslides are also included.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.physicalSurroundings.landslidesAvalanche</skos:prefLabel>
-    <skos:definition xml:lang="en">Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snowslides (avalanches). Submarine landslides are also included.</skos:definition>
+    <skos:definition xml:lang="en">Includes all events characterised by mass movement, such as rockfalls, mudflows, debris flows and snow slides (avalanches). Submarine landslides are also included.</skos:definition>
     <dcterms:identifier>urn:uuid:6ab2d89c-5911-486b-8049-88264a1092fc</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

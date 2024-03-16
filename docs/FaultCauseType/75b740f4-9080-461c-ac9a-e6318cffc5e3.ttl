@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/75b740f4-9080-461c-ac9a-e6318cffc5e3> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault in an equipment due to erosion." ;
     cim:IdentifiedObject.mRID "75b740f4-9080-461c-ac9a-e6318cffc5e3" ;
     cim:IdentifiedObject.name "technical.equipment.erosion" ;
     dcterms:identifier "urn:uuid:75b740f4-9080-461c-ac9a-e6318cffc5e3" ;
+    skos:definition "Fault in an equipment due to erosion."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.equipment.erosion" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

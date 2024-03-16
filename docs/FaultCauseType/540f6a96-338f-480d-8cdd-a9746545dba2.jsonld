@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "540f6a96-338f-480d-8cdd-a9746545dba2",
     "@cim:IdentifiedObject.name": "externalInfluences.humanThirdParty",
+    "@cim:IdentifiedObject.description": "Faults caused by third parties not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system. Use the subcategories under external.humanThirdParty if possible.",
     "@skos:prefLabel": "externalInfluences.humanThirdParty",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Faults caused by third parties not involved in the operation of the power system. Third parties include humans not hired by the TSO to do work related to the power system. Use the subcategories under external.humanThirdParty if possible."
+    },
     "@dcterms:identifier": "urn:uuid:540f6a96-338f-480d-8cdd-a9746545dba2",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

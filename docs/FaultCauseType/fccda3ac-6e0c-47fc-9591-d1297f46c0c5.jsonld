@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "fccda3ac-6e0c-47fc-9591-d1297f46c0c5",
     "@cim:IdentifiedObject.name": "technical.equipment.leakage",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due to leakage(s).",
     "@skos:prefLabel": "technical.equipment.leakage",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due to leakage(s)."
+    },
     "@dcterms:identifier": "urn:uuid:fccda3ac-6e0c-47fc-9591-d1297f46c0c5",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

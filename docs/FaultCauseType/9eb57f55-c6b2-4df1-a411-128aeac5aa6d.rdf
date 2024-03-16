@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/9eb57f55-c6b2-4df1-a411-128aeac5aa6d">
     <cim:IdentifiedObject.mRID>9eb57f55-c6b2-4df1-a411-128aeac5aa6d</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical.faultOnOtherComponent.other</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Other causes due to faults on other components.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical.faultOnOtherComponent.other</skos:prefLabel>
+    <skos:definition xml:lang="en">Other causes due to faults on other components.</skos:definition>
     <dcterms:identifier>urn:uuid:9eb57f55-c6b2-4df1-a411-128aeac5aa6d</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

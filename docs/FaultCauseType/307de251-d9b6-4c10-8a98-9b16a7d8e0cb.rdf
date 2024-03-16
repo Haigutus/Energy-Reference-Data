@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/307de251-d9b6-4c10-8a98-9b16a7d8e0cb">
     <cim:IdentifiedObject.mRID>307de251-d9b6-4c10-8a98-9b16a7d8e0cb</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical.adjoiningGrid</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Causes not due to faults in the component itself and originating from the adjoining grid. Use the subcategory below 100 kV or at 100 kV or above if possible.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical.adjoiningGrid</skos:prefLabel>
+    <skos:definition xml:lang="en">Causes not due to faults in the component itself and originating from the adjoining grid. Use the subcategory below 100 kV or at 100 kV or above if possible.</skos:definition>
     <dcterms:identifier>urn:uuid:307de251-d9b6-4c10-8a98-9b16a7d8e0cb</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

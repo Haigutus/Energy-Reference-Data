@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/cae54098-a3e2-45fd-a659-ed3f42539c31">
     <cim:IdentifiedObject.mRID>cae54098-a3e2-45fd-a659-ed3f42539c31</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>operationAndMaintenance.personnel.insufficientProtectionRelayInstalled</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Faults during operation or maintenance due to installed protection relay that is insufficient or not capable of performing the required operation.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>operationAndMaintenance.personnel.insufficientProtectionRelayInstalled</skos:prefLabel>
+    <skos:definition xml:lang="en">Faults during operation or maintenance due to installed protection relay that is insufficient or not capable of performing the required operation.</skos:definition>
     <dcterms:identifier>urn:uuid:cae54098-a3e2-45fd-a659-ed3f42539c31</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

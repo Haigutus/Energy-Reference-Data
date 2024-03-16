@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "041e2fb7-dd49-4609-9bc5-fe6df04b96cf",
     "@cim:IdentifiedObject.name": "technical.equipment.blockage",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due to blockage.",
     "@skos:prefLabel": "technical.equipment.blockage",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due to blockage."
+    },
     "@dcterms:identifier": "urn:uuid:041e2fb7-dd49-4609-9bc5-fe6df04b96cf",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

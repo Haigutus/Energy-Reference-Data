@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/041e2fb7-dd49-4609-9bc5-fe6df04b96cf">
     <cim:IdentifiedObject.mRID>041e2fb7-dd49-4609-9bc5-fe6df04b96cf</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>technical.equipment.blockage</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault in an equipment due to blockage.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>technical.equipment.blockage</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault in an equipment due to blockage.</skos:definition>
     <dcterms:identifier>urn:uuid:041e2fb7-dd49-4609-9bc5-fe6df04b96cf</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

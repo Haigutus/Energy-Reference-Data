@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/0638044d-1262-4b6d-bb12-be34565b6977> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault in an equipment due to a crack or breakage." ;
     cim:IdentifiedObject.mRID "0638044d-1262-4b6d-bb12-be34565b6977" ;
     cim:IdentifiedObject.name "technical.equipment.crackBreakage" ;
     dcterms:identifier "urn:uuid:0638044d-1262-4b6d-bb12-be34565b6977" ;
+    skos:definition "Fault in an equipment due to a crack or breakage."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "technical.equipment.crackBreakage" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

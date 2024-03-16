@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/d1304c3d-0d07-4379-841d-d2ce47025498">
     <cim:IdentifiedObject.mRID>d1304c3d-0d07-4379-841d-d2ce47025498</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.waterIce</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault caused due to water elements. Use the subcategory moisture/rain/hail or snow/ice if possible.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.waterIce</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault caused due to water elements. Use the subcategory moisture/rain/hail or snow/ice if possible.</skos:definition>
     <dcterms:identifier>urn:uuid:d1304c3d-0d07-4379-841d-d2ce47025498</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

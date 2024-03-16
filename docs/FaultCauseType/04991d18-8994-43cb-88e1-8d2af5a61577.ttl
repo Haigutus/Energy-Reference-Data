@@ -4,10 +4,12 @@
 
 <http://energy.referencedata.eu/FaultCauseType/04991d18-8994-43cb-88e1-8d2af5a61577> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Fault in an equipment due to its ageing." ;
     cim:IdentifiedObject.mRID "04991d18-8994-43cb-88e1-8d2af5a61577" ;
-    cim:IdentifiedObject.name "technical.equipment.aging" ;
+    cim:IdentifiedObject.name "technical.equipment.ageing" ;
     dcterms:identifier "urn:uuid:04991d18-8994-43cb-88e1-8d2af5a61577" ;
+    skos:definition "Fault in an equipment due to its ageing."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
-    skos:prefLabel "technical.equipment.aging" ;
+    skos:prefLabel "technical.equipment.ageing" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .
 

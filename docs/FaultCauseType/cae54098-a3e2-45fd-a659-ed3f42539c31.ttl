@@ -4,9 +4,11 @@
 
 <http://energy.referencedata.eu/FaultCauseType/cae54098-a3e2-45fd-a659-ed3f42539c31> a cim:FaultCauseType,
         skos:Concept ;
+    cim:IdentifiedObject.description "Faults during operation or maintenance due to installed protection relay that is insufficient or not capable of performing the required operation." ;
     cim:IdentifiedObject.mRID "cae54098-a3e2-45fd-a659-ed3f42539c31" ;
     cim:IdentifiedObject.name "operationAndMaintenance.personnel.insufficientProtectionRelayInstalled" ;
     dcterms:identifier "urn:uuid:cae54098-a3e2-45fd-a659-ed3f42539c31" ;
+    skos:definition "Faults during operation or maintenance due to installed protection relay that is insufficient or not capable of performing the required operation."@en ;
     skos:inScheme <http://energy.referencedata.eu/FaultCauseType> ;
     skos:prefLabel "operationAndMaintenance.personnel.insufficientProtectionRelayInstalled" ;
     skos:topConceptOf <http://energy.referencedata.eu/FaultCauseType> .

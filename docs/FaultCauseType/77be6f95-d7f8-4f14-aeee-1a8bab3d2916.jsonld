@@ -6,7 +6,12 @@
     ],
     "@cim:IdentifiedObject.mRID": "77be6f95-d7f8-4f14-aeee-1a8bab3d2916",
     "@cim:IdentifiedObject.name": "technical.equipment.corrosion",
+    "@cim:IdentifiedObject.description": "Fault in an equipment due to corrosion.",
     "@skos:prefLabel": "technical.equipment.corrosion",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Fault in an equipment due to corrosion."
+    },
     "@dcterms:identifier": "urn:uuid:77be6f95-d7f8-4f14-aeee-1a8bab3d2916",
     "@skos:inScheme": {
         "@id": "http://energy.referencedata.eu/FaultCauseType"

@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9">
     <cim:IdentifiedObject.mRID>9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>environmental.physicalSurroundings</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Fault causes due to physical surroundings without human intervention. Use the subcategory vegetation, landslide/avalanche or flood if possible.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>environmental.physicalSurroundings</skos:prefLabel>
+    <skos:definition xml:lang="en">Fault causes due to physical surroundings without human intervention. Use the subcategory vegetation, landslide/avalanche or flood if possible.</skos:definition>
     <dcterms:identifier>urn:uuid:9cfb8eb4-e8eb-40d3-9f1c-9a31e36717d9</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>

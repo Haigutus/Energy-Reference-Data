@@ -2,8 +2,10 @@
   <skos:Concept rdf:about="http://energy.referencedata.eu/FaultCauseType/93992f35-49b1-4bcd-93a8-a2d16233385e">
     <cim:IdentifiedObject.mRID>93992f35-49b1-4bcd-93a8-a2d16233385e</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>operationAndMaintenance</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Operation and maintenance focus on faults that occur during operation and maintenance by internal and external personnel and operational errors that lead to unplanned and sudden changes in the electric power system operating conditions.</cim:IdentifiedObject.description>
     <rdf:type rdf:resource="http://iec.ch/TC57/CIM100#FaultCauseType"/>
     <skos:prefLabel>operationAndMaintenance</skos:prefLabel>
+    <skos:definition xml:lang="en">Operation and maintenance focus on faults that occur during operation and maintenance by internal and external personnel and operational errors that lead to unplanned and sudden changes in the electric power system operating conditions.</skos:definition>
     <dcterms:identifier>urn:uuid:93992f35-49b1-4bcd-93a8-a2d16233385e</dcterms:identifier>
     <skos:inScheme rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/FaultCauseType"/>
