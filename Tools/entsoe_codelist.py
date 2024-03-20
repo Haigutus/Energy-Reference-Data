@@ -10,6 +10,7 @@
 # -------------------------------------------------------------------------------
 
 # TODO - add language tag
+# TODO - load base xsd from ENTSO-E web: https://www.entsoe.eu/Documents/EDI/Library/CodelistV91.zip - ask to remove the verison number from the latest zip
 
 import pandas
 import uuid

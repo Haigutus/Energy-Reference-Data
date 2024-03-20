@@ -3,10 +3,10 @@
   <xsd:include schemaLocation="urn-entsoe-eu-local-extension-types.xsd" />
   <xsd:annotation>
     <xsd:documentation>
-      <Version>83</Version>
+      <Version>91</Version>
       <Title>Complete compilation of ENTSO-E Code Lists used by ENTSO-E XML electronic documents and CIM XML electronic documents.</Title>
       <Release>0</Release>
-      <ReleaseDate>2022-08-26</ReleaseDate>
+      <ReleaseDate>2023-12-14</ReleaseDate>
     </xsd:documentation>
   </xsd:annotation>
   <xsd:simpleType name="StandardAllocationModeTypeList">
@@ -297,6 +297,137 @@
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="A24">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Maximum admissible current (Imax)</Title>
+              <Definition>The maximum admissible current of a critical network element or a critical network element and contingency.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A25">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Individual value adjustment (IVA)</Title>
+              <Definition>Individual value adjustment resulting from TSO validation process.
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A26">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Linear flow approximation (F0)</Title>
+              <Definition>The linear approximation of a flow in the reference net position in a situation without any cross-zonal exchanges.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A27">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Flow without commercial exchanges (F0_Wce)</Title>
+              <Definition>Flow per critical network element and contingency without commercial exchanges within a capacity calculation region.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A28">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Flow without commercial exchanges between areas (F0_all)</Title>
+              <Definition>Flow per critical network element and contingency without commercial exchanges between bidding zones within the same or different synchronous areas.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A29">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Flow due to non-costly remedial actions (F_nrao)</Title>
+              <Definition>Expected flow change due to non-costly remedial actions.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A30">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Flow after long-term nominations (F_LTN)</Title>
+              <Definition>Flow after consideration of long-term nominations.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A31">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Coordinated value adjustment (CVA)</Title>
+              <Definition>Coordinated value adjustment resulting from coordinated validation process.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A32">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Minimum remaining available margin as ratio of maximum allowable power flow (Ramr)</Title>
+              <Definition>Percentage of the maximum allowable power flow that needs to be available as minimum Remaining Available Margin. </Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A33">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Flows from already allocated cross-zonal capacities (Faac)</Title>
+              <Definition>Flows resulting from previously allocated cross-zonal capacities.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A34">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Flow from remedial action (FRA)</Title>
+              <Definition>Flow for increasing the Remaining Available Margin due to remedial action.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A35">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Assumed external exchanges</Title>
+              <Definition>Flow resulting from assumed commercial exchanges outside the region (F_uaf).</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A36">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Minimum remaining available margin target</Title>
+              <Definition>Target capacity for exchanges by deducing the exchanges not related to the region.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardAssetTypeList">
@@ -311,7 +442,7 @@
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Tieline</Title>
+              <Title>Tie line</Title>
               <Definition>A high voltage line used for cross border energy interconnections.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -433,6 +564,16 @@
             <CodeDescription>
               <Title>Production unit</Title>
               <Definition>A production unit is a composition of one or several generation units.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A14">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Internal tie line</Title>
+              <Definition>An internal tie line is a line between two scheduling areas within the same bidding zone.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -957,6 +1098,226 @@
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="B53">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Temporary energy storage</Title>
+              <Definition>A resource that is temporarily connected to the grid and that may store energy when connected, such as an electric vehicle.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B54">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Permanent energy storage</Title>
+              <Definition>A resource that is permanently connected to the grid and that may store energy when connected, such as a pumped hydro.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B55">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Electric vehicle battery</Title>
+              <Definition>A resource using electric vehicle batteries, commercial and private. The reason for separating vehicle batteries and non-vehicle batteries is that the vehicle batteries not necessarily is connected to the charger.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B56">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Heat pump specified</Title>
+              <Definition>A heat pump is a device that uses work to transfer heat from a cool space to a warm space by transferring thermal energy using a refrigeration cycle</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B57">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Heat pump electrical</Title>
+              <Definition>A heat pump is a device that uses electricity to transfer heat from a cool space to a warm space by transferring thermal energy using a refrigeration cycle.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B58">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Heat pump absorption</Title>
+              <Definition>A heat pump is a device that uses absorption technology to transfer heat from a cool space to a warm space by transferring thermal energy using a refrigeration cycle.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B59">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Auxiliary power unit</Title>
+              <Definition>A technology that provides energy as a backup.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B60">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Water electrolysis unspecified</Title>
+              <Definition>Unspecified water electrolysis. </Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B61">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Water electrolysis low temperature unspecified</Title>
+              <Definition>Unspecified water electrolysis at low temperature as in an Alkaline or Proto-Exchange Membrane (PEM) fuel cell.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B62">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Water electrolysis low temperature main product</Title>
+              <Definition>Main product water electrolysis at low temperature as in an Alkaline or Proto-Exchange Membrane (PEM) fuel cell.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B63">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Water electrolysis high temperature unspecified</Title>
+              <Definition>Unspecified water electrolysis at high temperature as in a Solid Oxide Electrolysis Cell (SOEC) fuel cell.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B64">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Steam methane reforming unspecified</Title>
+              <Definition>Unspecified methane reforming.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B65">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Steam methane reforming without CCS/CCU  unspecified</Title>
+              <Definition>Main product methane reforming without Carbon Capture and Sequestration (CCS)/Carbon Capture and Use (CCU).  </Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B66">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Steam methane reforming with CCS/CCU  unspecified</Title>
+              <Definition>Unspecified methane reforming with Carbon Capture and Sequestration (CCS)/Carbon Capture and Use (CCU).    </Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B67">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Steam methane reforming with CCS/CCU  main product</Title>
+              <Definition>Main product methane reforming with Carbon Capture and Sequestration (CCS)/Carbon Capture and Use (CCU).    </Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B68">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Partial oxidation unspecified</Title>
+              <Definition>Unspecified partial oxidation.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B69">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Autothermal reforming unspecified</Title>
+              <Definition>Unspecified autothermal reforming.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B70">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Methanol reforming unspecified</Title>
+              <Definition>Unspecified methanol reforming.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B71">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Ammonia reforming unspecified</Title>
+              <Definition>Unspecified ammonia reforming.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B72">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Ammonia gasification</Title>
+              <Definition>Unspecified gasification.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B73">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Chlor-alkali electrolysis unspecified</Title>
+              <Definition>Unspecified alkali electrolysis.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B74">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Chlor-alkali electrolysis by-product</Title>
+              <Definition>Alkali electrolysis product.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardAuctionTypeList">
@@ -1122,7 +1483,7 @@
           <xsd:documentation>
             <CodeDescription>
               <Title>Net Production / Consumption</Title>
-              <Definition>Net production/consumption - where signed values will be used.
+              <Definition>Net production/consumption - where signed values will be used. 
 With the following rules: In area=Out area, In party=Out party, + means production and - means consumption.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -1333,7 +1694,7 @@ With the following rules: In area=Out area, In party=Out party, + means producti
           <xsd:documentation>
             <CodeDescription>
               <Title>Control Area Program</Title>
-              <Definition>A time series providing the total exchanges between two TSOs (including the commercial transactions, the compensation program and the losses compensation program).
+              <Definition>A time series providing the total exchanges between two TSOs (including the commercial transactions, the compensation program and the losses compensation program). 
 Note this definition might change when UCTE brings forward its coding requirements.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -2405,8 +2766,8 @@ Note this definition might change when UCTE brings forward its coding requiremen
             <CodeDescription>
               <Title>Constraint situation</Title>
               <Definition>The timeseries describes the constraint situation for a given TimeInterval.
-A constraint situation can be:
-- composed of a list of network elements in outage associated for each outage to a list of network elements on which remedial actions have been carried out accordingly to contingency process
+A constraint situation can be: 
+- composed of a list of network elements in outage associated for each outage to a list of network elements on which remedial actions have been carried out accordingly to contingency process 
 - or it can be an external constraint.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -2417,7 +2778,7 @@ A constraint situation can be:
           <xsd:documentation>
             <CodeDescription>
               <Title>Initial domain</Title>
-              <Definition>The timeseries describe the full flow based domain for a given TimeInterval.
+              <Definition>The timeseries describe the full flow based domain for a given TimeInterval. 
 Critical network elements are displayed in details and their impact on the market is quantified.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -2428,7 +2789,7 @@ Critical network elements are displayed in details and their impact on the marke
           <xsd:documentation>
             <CodeDescription>
               <Title>Flow based domain adjusted to long term schedules</Title>
-              <Definition>The timeseries describe the full flow based domain for a given TimeInterval adjusted to the latest update of the schedules.
+              <Definition>The timeseries describe the full flow based domain for a given TimeInterval adjusted to the latest update of the schedules. 
 Critical network elements are displayed in details and their impact on the market is quantified.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -3926,6 +4287,46 @@ Critical network elements are displayed in details and their impact on the marke
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="C90">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Combined dynamic constraint</Title>
+              <Definition>The time series describes a combined dynamic constraint, being defined as a limit on the sum of power flows on a set of network elements or partial flows on a set of network elements for the purpose to respect dynamic stability limits.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C91">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Anonymised constraint</Title>
+              <Definition>The time series describes an anonymised constraint.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C92">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Synchronous condenser activation</Title>
+              <Definition>Activates a number of generators or other units in synchronous condenser mode.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="C93">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Permission administration details</Title>
+              <Definition>A timeseries describing permission details such as authorisations, licenses or related regulatory requirements.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardCategoryTypeList">
@@ -4572,7 +4973,7 @@ Critical network elements are displayed in details and their impact on the marke
     <xsd:annotation>
       <xsd:documentation>
         <Uid>ET0010</Uid>
-        <Definition>The contract type defines the conditions under which the capacity is allocated and handled, e.g. daily auction, weekly auction, monthly auction, yearly auction, etc.
+        <Definition>The contract type defines the conditions under which the capacity is allocated and handled, e.g. daily auction, weekly auction, monthly auction, yearly auction, etc. 
 The significance of this type is dependent on area specific coded working methods.</Definition>
       </xsd:documentation>
     </xsd:annotation>
@@ -4581,7 +4982,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Daily</Title>
+              <Title>Daily contract</Title>
               <Definition>The condition under which capacity is allocated and handled is by daily auction or a daily transmission allocation procedure.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4591,7 +4992,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Weekly</Title>
+              <Title>Weekly contract</Title>
               <Definition>The condition under which capacity is allocated and handled is by weekly auction or a weekly transmission allocation procedure.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4601,7 +5002,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Monthly</Title>
+              <Title>Monthly contract</Title>
               <Definition>The condition under which capacity is allocated and handled is by monthly auction or a monthly transmission allocation procedure.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4611,7 +5012,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Yearly</Title>
+              <Title>Yearly contract</Title>
               <Definition>The condition under which capacity is allocated and handled is by yearly auction or a yearly transmission allocation procedure.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4621,7 +5022,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Total</Title>
+              <Title>Total contract</Title>
               <Definition>This is the sum of all capacity contract types for the period covered.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4651,7 +5052,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Quarter yearly</Title>
+              <Title>Quarter yearly contract</Title>
               <Definition>The condition under which capacity is allocated and handled is by quarter yearly auction or a quarter yearly transmission allocation procedure.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4661,7 +5062,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Semestrial</Title>
+              <Title>Semestrial contract</Title>
               <Definition>The condition under which capacity is allocated and handled is by half yearly auction or a half yearly transmission allocation procedure.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4671,7 +5072,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Multiple year</Title>
+              <Title>Multiple year contract</Title>
               <Definition>The condition under which capacity is allocated and handled is by multiple year auctions.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4681,7 +5082,7 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Intraday balancing mechanism</Title>
+              <Title>Intraday balancing mechanism contract</Title>
               <Definition>The condition under which the capacity is allocated and handled is through intraday energy balancing services.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -4701,8 +5102,38 @@ The significance of this type is dependent on area specific coded working method
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Hourly</Title>
+              <Title>Hourly contract</Title>
               <Definition>The condition under which capacity is allocated and handled is by hourly auctions.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A14">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>First intraday auction contract</Title>
+              <Definition>The first intraday auction contract (IDA1).</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A15">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Second intraday auction contract</Title>
+              <Definition>The second intraday auction contract (IDA2).</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A16">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Third intraday auction contract</Title>
+              <Definition>The third intraday auction contract (IDA3).</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -5784,6 +6215,16 @@ Methane , Hydrogen (fossil sourced) ,Phosphor gas ,Oxy gas and other types.</Def
             <CodeDescription>
               <Title>Waste heat and cold By-product in tertiary sector</Title>
               <Definition>Waste heat and cold from by-product in tertiary sector energy  source.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A55">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hydrogen</Title>
+              <Definition>Hydrogen energy source.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -7323,8 +7764,30 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Message partially accepted</Title>
-              <Definition>The detailed transactions of the received document are partially accepted. It is necessary to look at the detailed (transaction) level to determine if the transaction is accepted, rejected etc.</Definition>
+              <Title>Permission document</Title>
+              <Definition>A document that contains detailed information about permissions.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B49">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Requested capacity</Title>
+              <Definition>A document providing requested capacity (e.g. ATC, CZCL) value.
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B50">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Voltage control activation document</Title>
+              <Definition>A document providing the number of generating units to activate for voltage control, by means of their operation in synchronous condenser mode.
+</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -7435,6 +7898,16 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
             <CodeDescription>
               <Title>Other resource capacity mechanism</Title>
               <Definition>This is any other kind of market resource capacity mechanism.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A11">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Fast activation product</Title>
+              <Definition>The fast activation product shall be considered as a fall-back solution for situations where coordination with all parties is no longer possible due to insufficient time and the regular product could not be properly applied.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -8353,8 +8826,8 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Coordinated operational security analysis</Title>
-              <Definition>The process to perform an operational security analysis in a coordinated manner.</Definition>
+              <Title>Coordinated security analysis</Title>
+              <Definition>The process being described is used for coordinated security analysis.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -8393,7 +8866,7 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Reserve option market</Title>
+              <Title>mFRR capacity market</Title>
               <Definition>Processes related to the Reserve option market to assure that there are enough available reserves for the manual FRR market.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -8515,6 +8988,46 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
             <CodeDescription>
               <Title>Pan-European verification function</Title>
               <Definition>The process for verifying bidding zone net positions.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A71">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Outage planning coordination</Title>
+              <Definition>The process being described is used for outage planning coordination.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A72">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Short term adequacy</Title>
+              <Definition>The process being described is used for short term adequacy calculations.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A73">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Coordinated capacity calculation</Title>
+              <Definition>The process being described is used for coordinated capacity calculation.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A74">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Access to metered data</Title>
+              <Definition>Access to meter readings of electricity consumption from or electricity feed into the grid.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -8794,8 +9307,8 @@ This enumeration is used in the XML instances based on IEC 62325.</Definition>
           <xsd:documentation>
             <CodeDescription>
               <Title>Counterpart time series missing </Title>
-              <Definition>This provides an indication that the time series has not got a counterpart time series.
-In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received.
+              <Definition>This provides an indication that the time series has not got a counterpart time series. 
+In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received. 
 In the case of a Final Confirmation Report this is informing the recipient that the time series has been rejected because the counterpart time series has not been forthcoming. </Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10081,6 +10594,36 @@ In the case of a Final Confirmation Report this is informing the recipient that 
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="B68">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Optimization in progress</Title>
+              <Definition>The activation optimisation framework is being executed.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B69">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Wrong energy market timeframe</Title>
+              <Definition>The given energy market timeframe is invalid or wrong.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="B70">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Message partially accepted</Title>
+              <Definition>The detailed transactions of the received document are partially accepted. It is necessary to look at the detailed (transaction) level to determine if the transaction is accepted, rejected etc.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="StandardRightsTypeList">
@@ -10476,7 +11019,7 @@ In the case of a Final Confirmation Report this is informing the recipient that 
           <xsd:documentation>
             <CodeDescription>
               <Title>Market information aggregator</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that collects information from different sources and assembles  it to provide a summary of the market.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10487,7 +11030,7 @@ A party that collects information from different sources and assembles  it to pr
           <xsd:documentation>
             <CodeDescription>
               <Title>Information receiver</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party, not necessarily a market participant, which receives information about the market.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10498,7 +11041,7 @@ A party, not necessarily a market participant, which receives information about 
           <xsd:documentation>
             <CodeDescription>
               <Title>Reserve Allocator</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10509,7 +11052,7 @@ A party that informs the market of reserve requirements, receives tenders agains
           <xsd:documentation>
             <CodeDescription>
               <Title>MOL Responsible</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that Informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10530,7 +11073,7 @@ A party that Informs the market of reserve requirements, receives tenders agains
           <xsd:documentation>
             <CodeDescription>
               <Title>Reconciliation Accountable</Title>
-              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+              <Definition>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that is financially accountable for the reconciled volume of energy products for a profiled local metering point.</Definition>
             </CodeDescription>
           </xsd:documentation>
@@ -10702,6 +11245,56 @@ A party that is financially accountable for the reconciled volume of energy prod
             <CodeDescription>
               <Title>Settlement responsible</Title>
               <Definition>A party responsible for settling the costs.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A55">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Coordinated Capacity Calculator</Title>
+              <Definition>Coordinated Capacity Calculator is the entity or entities with the task of calculating transmission capacity, at regional level or above.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A56">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Flexibility service provider</Title>
+              <Definition>A party that offers flexibility services based on acquired (aggregated) resources. </Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A57">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Data access provider</Title>
+              <Definition>A party responsible for facilitating access to data.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A58">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Metered data administrator</Title>
+              <Definition>A party responsible for storing and distributing validated measured data.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A59">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Permission administrator</Title>
+              <Definition>A party responsible for administrating a register of data access permissions for a set of metering points, making this information available to final customers and eligible parties in the sector, on request.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -11541,8 +12134,469 @@ In this case the resources are no longer available to all Acquiring System Opera
         <xsd:annotation>
           <xsd:documentation>
             <CodeDescription>
-              <Title>Test</Title>
-              <Definition>Test. Do not use</Definition>
+              <Title>Real time</Title>
+              <Definition>The information provided concerns real time timeframe.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A02">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Intraday</Title>
+              <Definition>The information provided concerns an intra day timeframe. </Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A03">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-1</Title>
+              <Definition>The information provided concerns 1 hour ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A04">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-2</Title>
+              <Definition>The information provided concerns 2 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A05">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-3</Title>
+              <Definition>The information provided concerns 3 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A06">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-4</Title>
+              <Definition>The information provided concerns 4 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A07">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-5</Title>
+              <Definition>The information provided concerns 5 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A08">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-6</Title>
+              <Definition>The information provided concerns 6 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A09">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-7</Title>
+              <Definition>The information provided concerns 7 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A10">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-8</Title>
+              <Definition>The information provided concerns 8 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A11">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-9</Title>
+              <Definition>The information provided concerns 9 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A12">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-10</Title>
+              <Definition>The information provided concerns 10 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A13">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-11</Title>
+              <Definition>The information provided concerns 11 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A14">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-12</Title>
+              <Definition>The information provided concerns 12 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A15">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-13</Title>
+              <Definition>The information provided concerns 13 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A16">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-14</Title>
+              <Definition>The information provided concerns 14 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A17">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-15</Title>
+              <Definition>The information provided concerns 15 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A18">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-16</Title>
+              <Definition>The information provided concerns 16 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A19">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-17</Title>
+              <Definition>The information provided concerns 17 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A20">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-18</Title>
+              <Definition>The information provided concerns 18 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A21">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-19</Title>
+              <Definition>The information provided concerns 19 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A22">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-20</Title>
+              <Definition>The information provided concerns 20 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A23">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-21</Title>
+              <Definition>The information provided concerns 21 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A24">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-22</Title>
+              <Definition>The information provided concerns 22 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A25">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-23</Title>
+              <Definition>The information provided concerns 23 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A26">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-24</Title>
+              <Definition>The information provided concerns 24 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A27">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-25</Title>
+              <Definition>The information provided concerns 25 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A28">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-26</Title>
+              <Definition>The information provided concerns 26 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A29">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-27</Title>
+              <Definition>The information provided concerns 27 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A30">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-28</Title>
+              <Definition>The information provided concerns 28 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A31">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-29</Title>
+              <Definition>The information provided concerns 29 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A32">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-30</Title>
+              <Definition>The information provided concerns 30 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A33">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Hour-31</Title>
+              <Definition>The information provided concerns 31 hours ahead for given delivery hour.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A34">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Day ahead</Title>
+              <Definition>The information provided concerns day ahead timeframe.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A35">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Day-2</Title>
+              <Definition>The information provided concerns two days ahead timeframe.
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A36">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Day-3</Title>
+              <Definition>The information provided concerns three days ahead timeframe.
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A37">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Day-4</Title>
+              <Definition>The information provided concerns four days ahead timeframe.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A38">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Day-5</Title>
+              <Definition>The information provided concerns five days ahead timeframe.
+
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A39">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Day-6</Title>
+              <Definition>The information provided concerns six days ahead timeframe.
+
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A40">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Day-7</Title>
+              <Definition>The information provided concerns seven days ahead timeframe.
+
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A41">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Week ahead</Title>
+              <Definition>The information provided concerns next week ahead timeframe.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A42">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Week-0</Title>
+              <Definition>The information provided concerns current week timeframe.
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A43">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Week+1</Title>
+              <Definition>The information provided concerns previous week timeframe.
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A44">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Month ahead</Title>
+              <Definition>The information provided concerns month ahead timeframe.
+</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A45">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Year ahead</Title>
+              <Definition>The information provided concerns year ahead timeframe.</Definition>
+            </CodeDescription>
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="A46">
+        <xsd:annotation>
+          <xsd:documentation>
+            <CodeDescription>
+              <Title>Year-10</Title>
+              <Definition>The information provided concerns 10 years ahead timeframe.</Definition>
             </CodeDescription>
           </xsd:documentation>
         </xsd:annotation>
@@ -12033,7 +13087,7 @@ In this case the resources are no longer available to all Acquiring System Opera
     <xsd:annotation>
       <xsd:documentation>
         <Uid>ET0003</Uid>
-        <Definition>The DocumentTypeList is only used in XML instances using deprecated ENTSO-E schema; otherwise for XML instances based CIM, the codelist is MessageTypeList.
+        <Definition>The DocumentTypeList is only used in XML instances using deprecated ENTSO-E schema; otherwise for XML instances based CIM, the codelist is MessageTypeList. 
 Therefore, you are kindly advised to refer to the MessageType enumeration, which includes the same enumeration codes.</Definition>
       </xsd:documentation>
     </xsd:annotation>
