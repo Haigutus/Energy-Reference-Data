@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLBAPI2------F" ;
     cim:IdentifiedObject.name "Bodiosa-Paraimo 2" ;
     cim:Names.name "Internal Line",
-        "LBA.PI2" ;
+        "LBA_PI2" ;
     dcterms:identifier "urn:eic:16TLBAPI2------F" ;
-    skos:altLabel "LBA.PI2" ;
+    skos:altLabel "LBA_PI2" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Bodiosa-Paraimo 2" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

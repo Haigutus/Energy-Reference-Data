@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "MOLDELMONT_F",
         "7800008",
-        "Balance Responsible Party",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "ANRE licence  AC 001437 / 31.01.2020",
     "@cim:Document.docStatus": "A05",

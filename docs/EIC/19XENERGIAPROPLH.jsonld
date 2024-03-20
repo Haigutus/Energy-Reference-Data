@@ -12,23 +12,27 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:19XENERGIAPROPLH",
-    "@skos:prefLabel": "EnergiaPro Koncern Energetyczny SA",
+    "@skos:prefLabel": "TAURON DYSTRYBUCJA SPÓŁKA AKCYJNA",
     "@skos:altLabel": "ENERGIAPRO",
     "@skos:definition": {
         "@language": "en",
         "@value": "Balance Responsible Party"
     },
     "@cim:IdentifiedObject.mRID": "19XENERGIAPROPLH",
-    "@cim:IdentifiedObject.name": "EnergiaPro Koncern Energetyczny SA",
+    "@cim:IdentifiedObject.name": "TAURON DYSTRYBUCJA SPÓŁKA AKCYJNA",
     "@cim:Names.name": [
         "ENERGIAPRO",
         "PL6110202860",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Metered Data Responsible",
+        "Meter Administrator",
+        "Grid Access Provider",
+        "System Operator"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2006-03-28",
+    "@cim:DateAndOrTime.date": "2023-10-17",
     "@schema:vatID": "PL6110202860",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

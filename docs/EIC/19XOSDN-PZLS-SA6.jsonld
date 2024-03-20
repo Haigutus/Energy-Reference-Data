@@ -20,11 +20,11 @@
         "PZL-SWIDNIK-SA",
         "A00116694.PL",
         "PL7130005502",
-        "Energy Supplier",
-        "Metered Data Responsible",
         "Grid Access Provider",
-        "Meter Administrator",
-        "System Operator"
+        "Energy Supplier",
+        "System Operator",
+        "Metered Data Responsible",
+        "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

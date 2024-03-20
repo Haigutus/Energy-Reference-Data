@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "VGS TEREGA",
     "@cim:Names.name": [
         "TEREGA-VIRT-STOR",
-        "Storage Plant",
-        "Resource Object"
+        "Resource Object",
+        "Storage Plant"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

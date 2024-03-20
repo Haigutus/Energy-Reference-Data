@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLCGRM1------0",
     "@skos:prefLabel": "Carregado-Rio Maior 1",
-    "@skos:altLabel": "LCG.RM1",
+    "@skos:altLabel": "LCG_RM1",
     "@cim:IdentifiedObject.mRID": "16TLCGRM1------0",
     "@cim:IdentifiedObject.name": "Carregado-Rio Maior 1",
     "@cim:Names.name": [
-        "LCG.RM1",
+        "LCG_RM1",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

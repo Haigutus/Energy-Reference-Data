@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "STIN",
         "ESA02022366",
+        "Trade Responsible Party",
         "Production Responsible party",
-        "Producer",
-        "Trade Responsible Party"
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -20,8 +20,8 @@
         "SESBG_BG",
         "A0016951Y.BG",
         "BG206077863",
-        "Trade Responsible Party",
-        "Network User"
+        "Network User",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

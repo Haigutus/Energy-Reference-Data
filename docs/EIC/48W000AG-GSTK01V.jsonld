@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Statkraft Markets GmBH",
     "@cim:Names.name": [
         "AG-GSTK01",
-        "Production Unit",
-        "Generation Unit"
+        "Generation Unit",
+        "Production Unit"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

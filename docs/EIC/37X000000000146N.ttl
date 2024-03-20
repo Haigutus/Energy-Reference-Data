@@ -7,14 +7,13 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2023-03-06" ;
-    cim:Document.docStatus "A05" ;
+    cim:DateAndOrTime.date "2023-08-23" ;
+    cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.description "Market Operator" ;
     cim:IdentifiedObject.mRID "37X000000000146N" ;
     cim:IdentifiedObject.name "Amos Finance AG" ;
     cim:Names.name "AMOS_FINANCE_AG",
-        "DE319526105",
-        "Market Operator" ;
+        "DE319526105" ;
     dcterms:identifier "urn:eic:37X000000000146N" ;
     schema1:vatID "DE319526105" ;
     skos:altLabel "AMOS_FINANCE_AG" ;

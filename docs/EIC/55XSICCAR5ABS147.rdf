@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:55XSICCAR5ABS147</dcterms:identifier>
     <skos:prefLabel>Siccar Point Energy E&amp;P Limited</skos:prefLabel>
-    <skos:altLabel>SICCARPOINTE&amp;P</skos:altLabel>
+    <skos:altLabel>SICCARPOINTE_P</skos:altLabel>
     <cim:IdentifiedObject.mRID>55XSICCAR5ABS147</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Siccar Point Energy E&amp;P Limited</cim:IdentifiedObject.name>
-    <cim:Names.name>SICCARPOINTE&amp;P</cim:Names.name>
+    <cim:Names.name>SICCARPOINTE_P</cim:Names.name>
     <cim:Names.name>GB394898962</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

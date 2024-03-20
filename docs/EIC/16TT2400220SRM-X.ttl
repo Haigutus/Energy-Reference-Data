@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TT2400220SRM-X" ;
     cim:IdentifiedObject.name "AT 2 400/220 SRM" ;
-    cim:Names.name "AT2400/220SRM",
+    cim:Names.name "AT2400_220SRM",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TT2400220SRM-X" ;
-    skos:altLabel "AT2400/220SRM" ;
+    skos:altLabel "AT2400_220SRM" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "AT 2 400/220 SRM" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -20,8 +20,8 @@
         "UP_ENERGY",
         "PL9671357395",
         "Trade Responsible Party",
-        "Balance Responsible Party",
-        "Network User"
+        "Network User",
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

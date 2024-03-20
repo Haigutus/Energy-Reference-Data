@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/11T0-0000-2116-Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-11-23" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "11T0-0000-2116-Q" ;
+    cim:IdentifiedObject.name "AMP-TTG/380/Doerpen W-Meppen/Emsland W-bl" ;
+    cim:Names.name "Internal Tie-Line",
+        "L-DOEW-MEPP-EWBL" ;
+    dcterms:identifier "urn:eic:11T0-0000-2116-Q" ;
+    skos:altLabel "L-DOEW-MEPP-EWBL" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMP-TTG/380/Doerpen W-Meppen/Emsland W-bl" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

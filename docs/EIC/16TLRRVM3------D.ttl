@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLRRVM3------D" ;
     cim:IdentifiedObject.name "Recarei - Vermoim 3 400" ;
     cim:Names.name "Internal Line",
-        "LRR.VM3" ;
+        "LRR_VM3" ;
     dcterms:identifier "urn:eic:16TLRRVM3------D" ;
-    skos:altLabel "LRR.VM3" ;
+    skos:altLabel "LRR_VM3" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Recarei - Vermoim 3 400" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

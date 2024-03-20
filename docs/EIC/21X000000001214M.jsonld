@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "NAWARO",
         "DE255628475",
-        "Production Responsible party",
-        "Producer"
+        "Producer",
+        "Production Responsible party"
     ],
     "@cim:IdentifiedObject.description": "Producer",
     "@cim:Document.docStatus": "A05",

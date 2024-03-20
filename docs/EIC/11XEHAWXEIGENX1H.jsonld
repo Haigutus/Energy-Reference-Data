@@ -12,23 +12,18 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11XEHAWXEIGENX1H",
-    "@skos:prefLabel": "Hansewerk Natur GmbH",
+    "@skos:prefLabel": "HanseWerk Natur GmbH",
     "@skos:altLabel": "EHAW",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XEHAWXEIGENX1H",
-    "@cim:IdentifiedObject.name": "Hansewerk Natur GmbH",
+    "@cim:IdentifiedObject.name": "HanseWerk Natur GmbH",
     "@cim:Names.name": [
         "EHAW",
         "DE118509805",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2014-10-13",
+    "@cim:DateAndOrTime.date": "2023-08-30",
     "@schema:vatID": "DE118509805",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

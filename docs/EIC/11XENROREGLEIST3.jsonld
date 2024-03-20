@@ -12,19 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11XENROREGLEIST3",
-    "@skos:prefLabel": "ENRO Ludwigsfelde Energie GmbH",
+    "@skos:prefLabel": "e.distherm Energielösungen GmbH",
     "@skos:altLabel": "ENRO-ENERGIE",
     "@cim:IdentifiedObject.mRID": "11XENROREGLEIST3",
-    "@cim:IdentifiedObject.name": "ENRO Ludwigsfelde Energie GmbH",
+    "@cim:IdentifiedObject.name": "e.distherm Energielösungen GmbH",
     "@cim:Names.name": [
         "ENRO-ENERGIE",
-        "DE161088920",
+        "DE138459033",
         "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-06-24",
-    "@schema:vatID": "DE161088920",
+    "@cim:DateAndOrTime.date": "2023-08-30",
+    "@schema:vatID": "DE138459033",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

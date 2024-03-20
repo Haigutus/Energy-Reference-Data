@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPNLTBA2----X",
     "@skos:prefLabel": "Penela-Tábua 2",
-    "@skos:altLabel": "LPNL.TBA2",
+    "@skos:altLabel": "LPNL_TBA2",
     "@cim:IdentifiedObject.mRID": "16TLPNLTBA2----X",
     "@cim:IdentifiedObject.name": "Penela-Tábua 2",
     "@cim:Names.name": [
-        "LPNL.TBA2",
+        "LPNL_TBA2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

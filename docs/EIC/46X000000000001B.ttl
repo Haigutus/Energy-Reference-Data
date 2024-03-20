@@ -13,12 +13,12 @@
     cim:IdentifiedObject.name "E.ON Sverige AB" ;
     cim:Names.name "Balance Responsible Party",
         "Capacity Trader",
-        "E.ON_SVERIGE_AB",
+        "E_ON_SVERIGE_AB",
         "SE556006842001",
         "Trade Responsible Party" ;
     dcterms:identifier "urn:eic:46X000000000001B" ;
     schema1:vatID "SE556006842001" ;
-    skos:altLabel "E.ON_SVERIGE_AB" ;
+    skos:altLabel "E_ON_SVERIGE_AB" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "E.ON Sverige AB" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

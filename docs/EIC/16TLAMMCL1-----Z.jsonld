@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLAMMCL1-----Z",
     "@skos:prefLabel": "Armamar - Carrapatelo 1 220",
-    "@skos:altLabel": "LAMM.CL1",
+    "@skos:altLabel": "LAMM_CL1",
     "@cim:IdentifiedObject.mRID": "16TLAMMCL1-----Z",
     "@cim:IdentifiedObject.name": "Armamar - Carrapatelo 1 220",
     "@cim:Names.name": [
-        "LAMM.CL1",
+        "LAMM_CL1",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

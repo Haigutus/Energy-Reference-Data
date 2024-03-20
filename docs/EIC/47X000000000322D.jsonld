@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "IE322D",
         "IE9518779M",
-        "Trade Responsible Party",
-        "Production Responsible party"
+        "Production Responsible party",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

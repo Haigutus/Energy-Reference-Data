@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "NOVATEK",
         "PL9452133282",
-        "Trade Responsible Party",
         "Consumer",
-        "Resource Provider"
+        "Resource Provider",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Consumer, LNG System Operator, Resource Provider, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

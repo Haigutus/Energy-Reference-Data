@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "LV-AOXT45",
         "40203343967",
-        "Balance Group Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Balance Group Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

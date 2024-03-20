@@ -12,17 +12,17 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11WD4MUST5O-GT-R",
-    "@skos:prefLabel": "Muenster_GT_16-18",
+    "@skos:prefLabel": "Muenster_GTX",
     "@skos:altLabel": "D4_STG_MUEN_GT",
     "@cim:IdentifiedObject.mRID": "11WD4MUST5O-GT-R",
-    "@cim:IdentifiedObject.name": "Muenster_GT_16-18",
+    "@cim:IdentifiedObject.name": "Muenster_GTX",
     "@cim:Names.name": [
         "D4_STG_MUEN_GT",
         "Generation"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2021-03-02",
+    "@cim:DateAndOrTime.date": "2023-11-15",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

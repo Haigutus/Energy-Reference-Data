@@ -7,19 +7,18 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2019-01-25" ;
+    cim:DateAndOrTime.date "2023-10-10" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Supplier" ;
+    cim:IdentifiedObject.description "Balance Group Responsible Party" ;
     cim:IdentifiedObject.mRID "37X000000000049L" ;
     cim:IdentifiedObject.name "Enovos Storage GmbH" ;
-    cim:Names.name "DE289809542",
-        "ENOVOS_STOR",
-        "Energy Supplier",
-        "Storage System Operator" ;
+    cim:Names.name "Balance Group Responsible Party",
+        "DE289809542",
+        "ENOVOS_STOR" ;
     dcterms:identifier "urn:eic:37X000000000049L" ;
     schema1:vatID "DE289809542" ;
     skos:altLabel "ENOVOS_STOR" ;
-    skos:definition "Balance Supplier"@en ;
+    skos:definition "Balance Group Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Enovos Storage GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

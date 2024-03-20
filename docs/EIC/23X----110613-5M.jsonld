@@ -12,23 +12,23 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:23X----110613-5M",
-    "@skos:prefLabel": "Vayu Limited",
-    "@skos:altLabel": "VAYU_IE",
+    "@skos:prefLabel": "Flogas Enterprise Solutions Limited",
+    "@skos:altLabel": "FLOGAS_ENT_SOL",
     "@skos:definition": {
         "@language": "en",
         "@value": "Trade Responsible Party"
     },
     "@cim:IdentifiedObject.mRID": "23X----110613-5M",
-    "@cim:IdentifiedObject.name": "Vayu Limited",
+    "@cim:IdentifiedObject.name": "Flogas Enterprise Solutions Limited",
     "@cim:Names.name": [
-        "VAYU_IE",
+        "FLOGAS_ENT_SOL",
         "IE6396223L",
         "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Trade Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2011-06-27",
+    "@cim:DateAndOrTime.date": "2023-11-08",
     "@schema:vatID": "IE6396223L",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

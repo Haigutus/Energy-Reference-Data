@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TAT4400150SFRA",
     "@skos:prefLabel": "ATD 4 400/150 SFR",
-    "@skos:altLabel": "AT4400/150SFR",
+    "@skos:altLabel": "AT4400_150SFR",
     "@cim:IdentifiedObject.mRID": "16TAT4400150SFRA",
     "@cim:IdentifiedObject.name": "ATD 4 400/150 SFR",
     "@cim:Names.name": [
-        "AT4400/150SFR",
+        "AT4400_150SFR",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

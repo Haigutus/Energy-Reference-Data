@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "BLUE_COLD",
         "PL6722077162",
-        "Trade Responsible Party",
-        "System Operator"
+        "System Operator",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

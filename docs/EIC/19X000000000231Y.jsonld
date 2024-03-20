@@ -20,10 +20,10 @@
         "ZGR22-03",
         "PL9290006902",
         "Energy Supplier",
-        "Metered Data Responsible",
-        "Grid Access Provider",
         "Meter Administrator",
-        "System Operator"
+        "Grid Access Provider",
+        "System Operator",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

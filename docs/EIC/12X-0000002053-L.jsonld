@@ -22,13 +22,14 @@
     "@cim:IdentifiedObject.name": "Avalon Electricity Fund c/o JTC Fund Services (Cayman) Ltd.",
     "@cim:Names.name": [
         "AVALON-ELFUND-ST",
-        "A0013581F.UK",
+        "2138003P5ER1797GWW87",
         "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "In the meantime we got an ACER Number which I added now since we have no VAT",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2020-03-20",
+    "@cim:DateAndOrTime.date": "2023-10-31",
+    "@schema:vatID": "2138003P5ER1797GWW87",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

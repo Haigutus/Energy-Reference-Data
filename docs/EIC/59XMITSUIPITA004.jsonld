@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59XMITSUIPITA004",
     "@skos:prefLabel": "Mitsui E&P Italia A S.r.l",
-    "@skos:altLabel": "MITSUIE&PITALIA",
+    "@skos:altLabel": "MITSUIE_PITALIA",
     "@cim:IdentifiedObject.mRID": "59XMITSUIPITA004",
     "@cim:IdentifiedObject.name": "Mitsui E&P Italia A S.r.l",
     "@cim:Names.name": [
-        "MITSUIE&PITALIA",
+        "MITSUIE_PITALIA",
         "00887700151",
         "Producer"
     ],

@@ -12,18 +12,23 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:62X1310227738394",
-    "@skos:prefLabel": "LIMITED LIABILITY COMPANY LE TRADING UKRAINE",
-    "@skos:altLabel": "LETRADINGUKRAINE",
+    "@skos:prefLabel": "LLC UNIMEX TRADING",
+    "@skos:altLabel": "UNIMEXTRADING",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Trade Responsible Party"
+    },
     "@cim:IdentifiedObject.mRID": "62X1310227738394",
-    "@cim:IdentifiedObject.name": "LIMITED LIABILITY COMPANY LE TRADING UKRAINE",
+    "@cim:IdentifiedObject.name": "LLC UNIMEX TRADING",
     "@cim:Names.name": [
-        "LETRADINGUKRAINE",
+        "UNIMEXTRADING",
         "UA432659926556",
         "Trade Responsible Party"
     ],
+    "@cim:IdentifiedObject.description": "Trade Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2020-01-28",
+    "@cim:DateAndOrTime.date": "2023-07-20",
     "@schema:vatID": "UA432659926556",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

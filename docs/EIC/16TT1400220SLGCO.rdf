@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TT1400220SLGCO</dcterms:identifier>
     <skos:prefLabel>AT 1 400/220 SLGC</skos:prefLabel>
-    <skos:altLabel>AT1400/220SLGC</skos:altLabel>
+    <skos:altLabel>AT1400_220SLGC</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TT1400220SLGCO</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>AT 1 400/220 SLGC</cim:IdentifiedObject.name>
-    <cim:Names.name>AT1400/220SLGC</cim:Names.name>
+    <cim:Names.name>AT1400_220SLGC</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-07-29</cim:DateAndOrTime.date>

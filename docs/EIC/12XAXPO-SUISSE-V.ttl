@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Function Missing" ;
     cim:IdentifiedObject.mRID "12XAXPO-SUISSE-V" ;
     cim:IdentifiedObject.name "Axpo Suisse AG" ;
     cim:Names.name "AXPO-SUISSE",
         "CH466203",
-        "Valid EIC Function needed" ;
+        "Capacity Trader" ;
     dcterms:identifier "urn:eic:12XAXPO-SUISSE-V" ;
     schema1:vatID "CH466203" ;
     skos:altLabel "AXPO-SUISSE" ;

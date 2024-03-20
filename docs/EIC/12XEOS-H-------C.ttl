@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-25" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Stromerzeugungsunternehmen" ;
     cim:IdentifiedObject.mRID "12XEOS-H-------C" ;
     cim:IdentifiedObject.name "L'Énergie de l'Ouest Suisse S.A" ;
     cim:Names.name "CH198274",
-        "EOS",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "EOS" ;
     dcterms:identifier "urn:eic:12XEOS-H-------C" ;
     schema1:vatID "CH198274" ;
     skos:altLabel "EOS" ;

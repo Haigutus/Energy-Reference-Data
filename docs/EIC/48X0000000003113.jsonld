@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "DOGGERBANK1",
         "GB290726978",
-        "Production Responsible party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Production Responsible party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

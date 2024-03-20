@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V411---X" ;
     cim:IdentifiedObject.name "CEPS_V411 Hradec Západ-Výškov" ;
-    cim:Names.name "CVYSH_1*CHRA__1*",
+    cim:Names.name "CVYSH_1_CHRA__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V411---X" ;
-    skos:altLabel "CVYSH_1*CHRA__1*" ;
+    skos:altLabel "CVYSH_1_CHRA__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V411 Hradec Západ-Výškov" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

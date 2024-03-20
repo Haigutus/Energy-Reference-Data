@@ -16,19 +16,20 @@
     "@skos:altLabel": "BEEBE",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Trade Responsible Party"
+        "@value": "Trade Responsible Party, Balance Responsible Party"
     },
     "@cim:IdentifiedObject.mRID": "21X000000001153G",
     "@cim:IdentifiedObject.name": "Bee nv",
     "@cim:Names.name": [
         "BEEBE",
         "BE0829482335",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Trade Responsible Party",
+    "@cim:IdentifiedObject.description": "Trade Responsible Party, Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2012-11-22",
+    "@cim:DateAndOrTime.date": "2023-11-15",
     "@schema:vatID": "BE0829482335",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

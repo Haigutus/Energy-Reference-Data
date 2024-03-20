@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPRTBA2-----5" ;
     cim:IdentifiedObject.name "Pereiros-Tábua 2" ;
     cim:Names.name "Internal Line",
-        "LPR.TBA2" ;
+        "LPR_TBA2" ;
     dcterms:identifier "urn:eic:16TLPRTBA2-----5" ;
-    skos:altLabel "LPR.TBA2" ;
+    skos:altLabel "LPR_TBA2" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Pereiros-Tábua 2" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

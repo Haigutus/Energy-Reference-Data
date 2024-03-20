@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59X0000000010069",
     "@skos:prefLabel": "CI & ES ENERGY SRL",
-    "@skos:altLabel": "CI&ESENERGYSRL",
+    "@skos:altLabel": "CI_ESENERGYSRL",
     "@cim:IdentifiedObject.mRID": "59X0000000010069",
     "@cim:IdentifiedObject.name": "CI & ES ENERGY SRL",
     "@cim:Names.name": [
-        "CI&ESENERGYSRL",
+        "CI_ESENERGYSRL",
         "IT05003821211",
         "Market Operator"
     ],

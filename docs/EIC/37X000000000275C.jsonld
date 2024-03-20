@@ -12,24 +12,24 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:37X000000000275C",
-    "@skos:prefLabel": "SVS-Versorgungsbetriebe GmbH",
-    "@skos:altLabel": "SVSVERSORGUNGSBE",
+    "@skos:prefLabel": "LokalWerke GmbH (alt SVS-Versorgungsbetriebe GmbH)",
+    "@skos:altLabel": "LOKALWERKE_GMBH_",
     "@skos:definition": {
         "@language": "en",
         "@value": "Capacity Trader"
     },
     "@cim:IdentifiedObject.mRID": "37X000000000275C",
-    "@cim:IdentifiedObject.name": "SVS-Versorgungsbetriebe GmbH",
+    "@cim:IdentifiedObject.name": "LokalWerke GmbH (alt SVS-Versorgungsbetriebe GmbH)",
     "@cim:Names.name": [
-        "SVSVERSORGUNGSBE",
-        "DE175552752",
+        "LOKALWERKE_GMBH_",
+        "DE123770545",
         "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Capacity Trader",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-05-31",
-    "@schema:vatID": "DE175552752",
+    "@cim:DateAndOrTime.date": "2023-12-06",
+    "@schema:vatID": "DE123770545",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

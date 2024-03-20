@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLRRFRA------Z" ;
     cim:IdentifiedObject.name "Recarei-Feira" ;
     cim:Names.name "Internal Line",
-        "LRR.FRA" ;
+        "LRR_FRA" ;
     dcterms:identifier "urn:eic:16TLRRFRA------Z" ;
-    skos:altLabel "LRR.FRA" ;
+    skos:altLabel "LRR_FRA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Recarei-Feira" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

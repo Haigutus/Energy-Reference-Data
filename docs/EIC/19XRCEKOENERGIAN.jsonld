@@ -20,13 +20,13 @@
         "RCEKOENERGIA",
         "A00112969.PL",
         "PL6521599741",
-        "Meter Administrator",
-        "Energy Supplier",
-        "Metered Data Responsible",
         "Producer",
-        "Grid Access Provider",
+        "Energy Supplier",
         "Consumer",
-        "System Operator"
+        "Meter Administrator",
+        "System Operator",
+        "Grid Access Provider",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

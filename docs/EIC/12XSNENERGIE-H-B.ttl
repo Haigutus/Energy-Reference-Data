@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Leiter Produktion, Handel Und Netze Mitglied Der Geschäftsleitung" ;
     cim:IdentifiedObject.mRID "12XSNENERGIE-H-B" ;
     cim:IdentifiedObject.name "SN Energie" ;
     cim:Names.name "CH250370",
-        "SN_ENERGIE",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "SN_ENERGIE" ;
     dcterms:identifier "urn:eic:12XSNENERGIE-H-B" ;
     schema1:vatID "CH250370" ;
     skos:altLabel "SN_ENERGIE" ;

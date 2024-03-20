@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--230913-PE-G> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-09-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Certificate issued by the Dubai Silicon Oasis at Dubai Integrated Economic Zones Authority to confirm the company registration number: DSO-FZCO-20124  Trade License Number: 21377" ;
+    cim:IdentifiedObject.mRID "23X--230913-PE-G" ;
+    cim:IdentifiedObject.name "PLANCK ENERGY FZCO " ;
+    cim:Names.name "Balance Responsible Party",
+        "Capacity Trader",
+        "DSOFZCO20124",
+        "PLANCK_ENERGY",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--230913-PE-G" ;
+    schema1:vatID "DSOFZCO20124" ;
+    skos:altLabel "PLANCK_ENERGY" ;
+    skos:definition "Certificate issued by the Dubai Silicon Oasis at Dubai Integrated Economic Zones Authority to confirm the company registration number: DSO-FZCO-20124  Trade License Number: 21377"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PLANCK ENERGY FZCO " ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

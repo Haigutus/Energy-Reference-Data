@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:59Z357271100000K</dcterms:identifier>
     <skos:prefLabel>Reggente (SGI)</skos:prefLabel>
-    <skos:altLabel>REGGENTE(SGI)</skos:altLabel>
+    <skos:altLabel>REGGENTE_SGI_</skos:altLabel>
     <cim:IdentifiedObject.mRID>59Z357271100000K</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Reggente (SGI)</cim:IdentifiedObject.name>
-    <cim:Names.name>REGGENTE(SGI)</cim:Names.name>
+    <cim:Names.name>REGGENTE_SGI_</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2017-05-16</cim:DateAndOrTime.date>

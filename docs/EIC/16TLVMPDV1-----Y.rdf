@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLVMPDV1-----Y</dcterms:identifier>
     <skos:prefLabel>Vieira do Minho-Pedralva 1</skos:prefLabel>
-    <skos:altLabel>LVM.PDV1</skos:altLabel>
+    <skos:altLabel>LVM_PDV1</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLVMPDV1-----Y</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Vieira do Minho-Pedralva 1</cim:IdentifiedObject.name>
-    <cim:Names.name>LVM.PDV1</cim:Names.name>
+    <cim:Names.name>LVM_PDV1</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

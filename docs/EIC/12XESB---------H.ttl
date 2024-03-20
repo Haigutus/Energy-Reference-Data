@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-25" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Stadtwerk/Endverteiler" ;
     cim:IdentifiedObject.mRID "12XESB---------H" ;
     cim:IdentifiedObject.name "Energie Service Biel/Bienne" ;
     cim:Names.name "CH124759",
-        "ESB",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "ESB" ;
     dcterms:identifier "urn:eic:12XESB---------H" ;
     schema1:vatID "CH124759" ;
     skos:altLabel "ESB" ;

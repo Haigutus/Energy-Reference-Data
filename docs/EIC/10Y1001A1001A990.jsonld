@@ -24,9 +24,9 @@
         "MOLDOVA",
         "Market Area",
         "Control Area",
-        "Member State",
         "Scheduling Area",
-        "Bidding Zone"
+        "Bidding Zone",
+        "Member State"
     ],
     "@cim:IdentifiedObject.description": "Market Area",
     "@cim:Document.docStatus": "A05",

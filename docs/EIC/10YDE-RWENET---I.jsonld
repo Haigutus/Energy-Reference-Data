@@ -22,9 +22,9 @@
     "@cim:IdentifiedObject.name": "Amprion GmbH",
     "@cim:Names.name": [
         "DE-AMPRION-SCHED",
-        "Scheduling Area",
+        "Control Area",
         "LFC Area",
-        "Control Area"
+        "Scheduling Area"
     ],
     "@cim:IdentifiedObject.description": "Control Area, Scheduling Area",
     "@cim:Document.docStatus": "A05",

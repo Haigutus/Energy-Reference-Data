@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "EGLNORDIC-01",
         "986198113",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

@@ -13,10 +13,10 @@
     cim:IdentifiedObject.name "\"Vesta\" LLC." ;
     cim:Names.name "Network User",
         "UA302883120337",
-        "VESTA.UA" ;
+        "VESTA_UA" ;
     dcterms:identifier "urn:eic:56X930000000621Y" ;
     schema1:vatID "UA302883120337" ;
-    skos:altLabel "VESTA.UA" ;
+    skos:altLabel "VESTA_UA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "\"Vesta\" LLC." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

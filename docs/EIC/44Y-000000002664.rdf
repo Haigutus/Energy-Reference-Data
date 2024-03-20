@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:44Y-000000002664</dcterms:identifier>
     <skos:prefLabel>&#197;rvas Wind Ab</skos:prefLabel>
-    <skos:altLabel>FI_&#197;RVA01</skos:altLabel>
+    <skos:altLabel>FI_ARVA01</skos:altLabel>
     <cim:IdentifiedObject.mRID>44Y-000000002664</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>&#197;rvas Wind Ab</cim:IdentifiedObject.name>
-    <cim:Names.name>FI_&#197;RVA01</cim:Names.name>
+    <cim:Names.name>FI_ARVA01</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-11-02</cim:DateAndOrTime.date>

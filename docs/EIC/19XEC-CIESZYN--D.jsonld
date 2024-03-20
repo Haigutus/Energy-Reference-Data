@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "EC_CIESZYN",
         "PL5480075293",
-        "Metered Data Responsible",
-        "Meter Administrator",
-        "Grid Access Provider",
         "System Operator",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Metered Data Responsible",
+        "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

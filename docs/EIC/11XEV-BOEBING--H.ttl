@@ -7,19 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2005-12-06" ;
+    cim:DateAndOrTime.date "2023-09-26" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Group" ;
     cim:IdentifiedObject.mRID "11XEV-BOEBING--H" ;
-    cim:IdentifiedObject.name "Elektrizitätsvereinigung Böbing" ;
-    cim:Names.name "Balance Group",
-        "DE128375617",
+    cim:IdentifiedObject.name "Elektrizitätsvereinigung Böbing eingetragene Genossenschaft (EVB eG)" ;
+    cim:Names.name "Balance Responsible Party",
+        "DE269098844",
         "EV-BOEBING" ;
     dcterms:identifier "urn:eic:11XEV-BOEBING--H" ;
-    schema1:vatID "DE128375617" ;
+    schema1:vatID "DE269098844" ;
     skos:altLabel "EV-BOEBING" ;
-    skos:definition "Balance Group"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Elektrizitätsvereinigung Böbing" ;
+    skos:prefLabel "Elektrizitätsvereinigung Böbing eingetragene Genossenschaft (EVB eG)" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

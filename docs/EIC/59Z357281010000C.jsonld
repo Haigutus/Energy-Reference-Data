@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59Z357281010000C",
     "@skos:prefLabel": "S. Giorgio M.",
-    "@skos:altLabel": "S.GIORGIOM.",
+    "@skos:altLabel": "S_GIORGIOM_",
     "@cim:IdentifiedObject.mRID": "59Z357281010000C",
     "@cim:IdentifiedObject.name": "S. Giorgio M.",
     "@cim:Names.name": [
-        "S.GIORGIOM.",
+        "S_GIORGIOM_",
         "Metering Point"
     ],
     "@cim:Document.docStatus": "A05",

@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "NADRA_ENERGY_LLC",
         "409360926576",
-        "Trade Responsible Party",
-        "Network User"
+        "Network User",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

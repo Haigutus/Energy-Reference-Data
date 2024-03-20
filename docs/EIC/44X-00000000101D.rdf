@@ -4,17 +4,17 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:44X-00000000101D</dcterms:identifier>
-    <skos:prefLabel>Enerim Oy</skos:prefLabel>
-    <skos:altLabel>44EMPOWERIM</skos:altLabel>
+    <skos:prefLabel>Volue Oy</skos:prefLabel>
+    <skos:altLabel>44VOLUE</skos:altLabel>
     <cim:IdentifiedObject.mRID>44X-00000000101D</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Enerim Oy</cim:IdentifiedObject.name>
-    <cim:Names.name>44EMPOWERIM</cim:Names.name>
-    <cim:Names.name>FI24021383</cim:Names.name>
+    <cim:IdentifiedObject.name>Volue Oy</cim:IdentifiedObject.name>
+    <cim:Names.name>44VOLUE</cim:Names.name>
+    <cim:Names.name>FI33459942</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2021-06-17</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-30</cim:DateAndOrTime.date>
     <cim:Names.name>Information Provider</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>FI24021383</schema:vatID>
+    <schema:vatID>FI33459942</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

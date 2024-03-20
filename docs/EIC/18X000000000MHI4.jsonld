@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "-ASEDIRECTMKT",
         "ESB67633941",
-        "Consumption Responsible Party",
         "Production Responsible party",
-        "Market Operator"
+        "Market Operator",
+        "Consumption Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPGRM-------8" ;
     cim:IdentifiedObject.name "Pego-Rio Maior" ;
     cim:Names.name "Internal Line",
-        "LPG.RM" ;
+        "LPG_RM" ;
     dcterms:identifier "urn:eic:16TLPGRM-------8" ;
-    skos:altLabel "LPG.RM" ;
+    skos:altLabel "LPG_RM" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Pego-Rio Maior" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

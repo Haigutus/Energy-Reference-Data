@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "ALPIQ-TRADING-ST",
         "CHE115925686",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Market Operator Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-19",
     "@schema:vatID": "CHE115925686",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

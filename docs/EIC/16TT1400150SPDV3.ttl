@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TT1400150SPDV3" ;
     cim:IdentifiedObject.name "ATD 1 400/150 SPDV" ;
-    cim:Names.name "AT1400/150SPDV",
+    cim:Names.name "AT1400_150SPDV",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TT1400150SPDV3" ;
-    skos:altLabel "AT1400/150SPDV" ;
+    skos:altLabel "AT1400_150SPDV" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "ATD 1 400/150 SPDV" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

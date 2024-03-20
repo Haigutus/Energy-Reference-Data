@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "KWO",
         "CH134008",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Kraftwerke/Erzeuger",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-25",
     "@schema:vatID": "CH134008",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

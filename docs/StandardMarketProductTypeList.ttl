@@ -72,11 +72,18 @@
     skos:prefLabel "Other resource capacity mechanism" ;
     skos:topConceptOf <http://energy.referencedata.eu/StandardMarketProductTypeList> .
 
+<http://energy.referencedata.eu/StandardMarketProductTypeList/A11> a skos:Concept ;
+    dcterms:identifier "A11" ;
+    skos:definition "The fast activation product shall be considered as a fall-back solution for situations where coordination with all parties is no longer possible due to insufficient time and the regular product could not be properly applied."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardMarketProductTypeList> ;
+    skos:prefLabel "Fast activation product" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardMarketProductTypeList> .
+
 <http://energy.referencedata.eu/StandardMarketProductTypeList> a skos:ConceptScheme,
         dcat:Dataset ;
     dcterms:identifier "ET0008" ;
-    dcterms:modified "2022-08-26" ;
+    dcterms:modified "2023-12-14" ;
     skos:definition "The identification of the type of a product on a market view"@en ;
     skos:prefLabel "StandardMarketProductTypeList" ;
-    dcat:version "83" .
+    dcat:version "91" .
 

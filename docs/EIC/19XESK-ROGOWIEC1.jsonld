@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ESK-ROGOWIEC",
         "PL7691919493",
-        "Grid Access Provider",
+        "Energy Supplier",
         "Meter Administrator",
         "System Operator",
-        "Metered Data Responsible",
-        "Energy Supplier"
+        "Grid Access Provider",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

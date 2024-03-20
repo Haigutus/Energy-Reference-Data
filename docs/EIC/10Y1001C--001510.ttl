@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/10Y1001C--001510> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "With the introduction of advanced hybrid coupling (AHC), there is a need to establish a virtual bidding zone (VBZ) on both sides of an NTC-coupled border. In this case, it is the border between DK2 (DKE) and 50Hz. Energinet has already established the “DKE-50Hz Virtual Bidding Zone Border” with EIC 45Y0000000000070, located in DKE. This request serves to establish the VBZ counterpart in the 50Hz control area." ;
+    cim:IdentifiedObject.mRID "10Y1001C--001510" ;
+    cim:IdentifiedObject.name "50Hz-DKE virtual bidding zone on 50Hz side (advanced hybrid coupling)" ;
+    cim:Names.name "50HZ-DKEVBZ",
+        "Border Area" ;
+    dcterms:identifier "urn:eic:10Y1001C--001510" ;
+    skos:altLabel "50HZ-DKEVBZ" ;
+    skos:definition "With the introduction of advanced hybrid coupling (AHC), there is a need to establish a virtual bidding zone (VBZ) on both sides of an NTC-coupled border. In this case, it is the border between DK2 (DKE) and 50Hz. Energinet has already established the “DKE-50Hz Virtual Bidding Zone Border” with EIC 45Y0000000000070, located in DKE. This request serves to establish the VBZ counterpart in the 50Hz control area."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "50Hz-DKE virtual bidding zone on 50Hz side (advanced hybrid coupling)" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

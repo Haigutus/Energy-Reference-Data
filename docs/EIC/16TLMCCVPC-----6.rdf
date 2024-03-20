@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLMCCVPC-----6</dcterms:identifier>
     <skos:prefLabel>Macedo De Cavaleiros - Valpacos 220</skos:prefLabel>
-    <skos:altLabel>LMCC.VPC</skos:altLabel>
+    <skos:altLabel>LMCC_VPC</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLMCCVPC-----6</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Macedo De Cavaleiros - Valpacos 220</cim:IdentifiedObject.name>
-    <cim:Names.name>LMCC.VPC</cim:Names.name>
+    <cim:Names.name>LMCC_VPC</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

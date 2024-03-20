@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "PATA_ENERGY",
         "LV40203213586",
-        "Network User",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Network User"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

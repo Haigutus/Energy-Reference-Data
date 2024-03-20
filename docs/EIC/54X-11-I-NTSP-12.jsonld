@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "N_T_S_P",
         "L86326601H",
-        "Producer",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

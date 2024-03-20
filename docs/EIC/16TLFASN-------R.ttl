@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLFASN-------R" ;
     cim:IdentifiedObject.name "Ferreira do Alentejo-Sines" ;
     cim:Names.name "Internal Line",
-        "LFA.SN" ;
+        "LFA_SN" ;
     dcterms:identifier "urn:eic:16TLFASN-------R" ;
-    skos:altLabel "LFA.SN" ;
+    skos:altLabel "LFA_SN" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Ferreira do Alentejo-Sines" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

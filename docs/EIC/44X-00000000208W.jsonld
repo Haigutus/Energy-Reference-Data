@@ -12,19 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:44X-00000000208W",
-    "@skos:prefLabel": "Ilmatar Energy Oy",
+    "@skos:prefLabel": "Ilmatar Energy HoldCo Oy",
     "@skos:altLabel": "44ILMATAR",
     "@cim:IdentifiedObject.mRID": "44X-00000000208W",
-    "@cim:IdentifiedObject.name": "Ilmatar Energy Oy",
+    "@cim:IdentifiedObject.name": "Ilmatar Energy HoldCo Oy",
     "@cim:Names.name": [
         "44ILMATAR",
-        "FI29187331",
+        "FI33724005",
         "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2021-07-15",
-    "@schema:vatID": "FI29187331",
+    "@cim:DateAndOrTime.date": "2023-12-01",
+    "@schema:vatID": "FI33724005",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V254---8",
     "@skos:prefLabel": "CEPS_V254 Lískovec-Prosenice",
-    "@skos:altLabel": "CLIS__2*CPRN__2",
+    "@skos:altLabel": "CLIS__2_CPRN__2",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V254---8",
     "@cim:IdentifiedObject.name": "CEPS_V254 Lískovec-Prosenice",
     "@cim:Names.name": [
-        "CLIS__2*CPRN__2",
+        "CLIS__2_CPRN__2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

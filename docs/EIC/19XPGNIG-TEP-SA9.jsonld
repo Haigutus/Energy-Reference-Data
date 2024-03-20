@@ -19,12 +19,12 @@
     "@cim:Names.name": [
         "PGNIG_TEP",
         "PL6331005997",
-        "Grid Access Provider",
         "Meter Administrator",
-        "Metered Data Responsible",
-        "Energy Supplier",
+        "Grid Access Provider",
+        "System Operator",
         "Producer",
-        "System Operator"
+        "Metered Data Responsible",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

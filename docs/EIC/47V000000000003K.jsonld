@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "EirGrid ECP4 upgrade (test)",
     "@cim:Names.name": [
         "IE003K",
-        "Location",
-        "IT-system"
+        "IT-system",
+        "Location"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

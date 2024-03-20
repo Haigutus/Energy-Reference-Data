@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "DE-TRANSNETBW",
         "LFC Area",
-        "Scheduling Area",
-        "Control Area"
+        "Control Area",
+        "Scheduling Area"
     ],
     "@cim:IdentifiedObject.description": "Control Area, Scheduling Area",
     "@cim:Document.docStatus": "A05",

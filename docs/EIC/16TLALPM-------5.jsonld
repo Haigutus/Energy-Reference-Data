@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLALPM-------5",
     "@skos:prefLabel": "Alcochete-Palmela 400 ",
-    "@skos:altLabel": "LAL.PM",
+    "@skos:altLabel": "LAL_PM",
     "@cim:IdentifiedObject.mRID": "16TLALPM-------5",
     "@cim:IdentifiedObject.name": "Alcochete-Palmela 400 ",
     "@cim:Names.name": [
-        "LAL.PM",
+        "LAL_PM",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

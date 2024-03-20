@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "VERVIS",
         "PL8880000739",
-        "Consumer",
         "Trade Responsible Party",
+        "Consumer",
         "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Capacity Trader, Consumer, Trade Responsible Party",

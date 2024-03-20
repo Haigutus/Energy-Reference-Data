@@ -7,19 +7,20 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2015-11-14" ;
+    cim:DateAndOrTime.date "2023-11-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "19XEGL-POLSKA--Y" ;
-    cim:IdentifiedObject.name "AXPO POLSKA SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    cim:IdentifiedObject.name "AXPO POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
     cim:Names.name "AXPO_POLSKA",
         "Balance Responsible Party",
+        "Energy Supplier",
         "PL5262483798" ;
     dcterms:identifier "urn:eic:19XEGL-POLSKA--Y" ;
     schema1:vatID "PL5262483798" ;
     skos:altLabel "AXPO_POLSKA" ;
     skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "AXPO POLSKA SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA" ;
+    skos:prefLabel "AXPO POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

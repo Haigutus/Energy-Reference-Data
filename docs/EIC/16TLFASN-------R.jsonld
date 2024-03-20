@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLFASN-------R",
     "@skos:prefLabel": "Ferreira do Alentejo-Sines",
-    "@skos:altLabel": "LFA.SN",
+    "@skos:altLabel": "LFA_SN",
     "@cim:IdentifiedObject.mRID": "16TLFASN-------R",
     "@cim:IdentifiedObject.name": "Ferreira do Alentejo-Sines",
     "@cim:Names.name": [
-        "LFA.SN",
+        "LFA_SN",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

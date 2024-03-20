@@ -20,8 +20,8 @@
         "CHEMO-ENERGOCHEM",
         "SK2020015635",
         "Distribution System Operator",
-        "Producer",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/18W000000000Q8ML> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-08-29" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "18W000000000Q8ML" ;
+    cim:IdentifiedObject.name "ENEDGC" ;
+    cim:Names.name "ES-ENEDGC",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:18W000000000Q8ML" ;
+    skos:altLabel "ES-ENEDGC" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "ENEDGC" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLVPCVPAVG---A",
     "@skos:prefLabel": "Valpacos - Vila Pouca De Aguiar - Valdigem 220",
-    "@skos:altLabel": "LVPC.VPA/VG",
+    "@skos:altLabel": "LVPC_VPA_VG",
     "@cim:IdentifiedObject.mRID": "16TLVPCVPAVG---A",
     "@cim:IdentifiedObject.name": "Valpacos - Vila Pouca De Aguiar - Valdigem 220",
     "@cim:Names.name": [
-        "LVPC.VPA/VG",
+        "LVPC_VPA_VG",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

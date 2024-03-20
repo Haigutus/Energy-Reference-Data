@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPNLZR1-----6" ;
     cim:IdentifiedObject.name "Penela - Zezere 1 220" ;
     cim:Names.name "Internal Line",
-        "LPNL.ZR1" ;
+        "LPNL_ZR1" ;
     dcterms:identifier "urn:eic:16TLPNLZR1-----6" ;
-    skos:altLabel "LPNL.ZR1" ;
+    skos:altLabel "LPNL_ZR1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Penela - Zezere 1 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLVRMLVNF----K" ;
     cim:IdentifiedObject.name "Vermoim-Vila Nova Famalicão" ;
     cim:Names.name "Internal Line",
-        "LVRM.LVNF" ;
+        "LVRM_LVNF" ;
     dcterms:identifier "urn:eic:16TLVRMLVNF----K" ;
-    skos:altLabel "LVRM.LVNF" ;
+    skos:altLabel "LVRM_LVNF" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Vermoim-Vila Nova Famalicão" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -12,24 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:18XOUTES-1234-1D",
-    "@skos:prefLabel": "ENERGIAS AMBIENTALES DE OUTES, S.A.",
+    "@skos:prefLabel": "ENERGÍAS AMBIENTALES DE OUTES S.L.",
     "@skos:altLabel": "OUTE",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Production Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "18XOUTES-1234-1D",
-    "@cim:IdentifiedObject.name": "ENERGIAS AMBIENTALES DE OUTES, S.A.",
+    "@cim:IdentifiedObject.name": "ENERGÍAS AMBIENTALES DE OUTES S.L.",
     "@cim:Names.name": [
         "OUTE",
-        "ESA15862725",
+        "ESB15862725",
         "Production Responsible party"
     ],
-    "@cim:IdentifiedObject.description": "Production Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2010-01-20",
-    "@schema:vatID": "ESA15862725",
+    "@cim:DateAndOrTime.date": "2023-12-05",
+    "@schema:vatID": "ESB15862725",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

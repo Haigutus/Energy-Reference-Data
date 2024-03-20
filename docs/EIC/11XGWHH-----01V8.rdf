@@ -6,15 +6,13 @@
     <dcterms:identifier>urn:eic:11XGWHH-----01V8</dcterms:identifier>
     <skos:prefLabel>Gemeindewerke H&#252;tschenhausen</skos:prefLabel>
     <skos:altLabel>GW-HUETSCHENH</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11XGWHH-----01V8</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Gemeindewerke H&#252;tschenhausen</cim:IdentifiedObject.name>
     <cim:Names.name>GW-HUETSCHENH</cim:Names.name>
     <cim:Names.name>DE148641153</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2011-01-18</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-08</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE148641153</schema:vatID>

@@ -4,16 +4,16 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:59XERGPWR202299U</dcterms:identifier>
-    <skos:prefLabel>ERG POWER SRL</skos:prefLabel>
-    <skos:altLabel>ERGPOWERSRL</skos:altLabel>
+    <skos:prefLabel>B2G SICILY SRL</skos:prefLabel>
+    <skos:altLabel>B2GSICILYSRL</skos:altLabel>
     <cim:IdentifiedObject.mRID>59XERGPWR202299U</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>ERG POWER SRL</cim:IdentifiedObject.name>
-    <cim:Names.name>ERGPOWERSRL</cim:Names.name>
+    <cim:IdentifiedObject.name>B2G SICILY SRL</cim:IdentifiedObject.name>
+    <cim:Names.name>B2GSICILYSRL</cim:Names.name>
     <cim:Names.name>IT01669090894</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-07-21</cim:DateAndOrTime.date>
-    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-10-30</cim:DateAndOrTime.date>
+    <cim:Names.name>Market Operator</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>IT01669090894</schema:vatID>
   </skos:Concept>

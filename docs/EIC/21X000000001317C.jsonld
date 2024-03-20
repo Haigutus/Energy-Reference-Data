@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "ARGOS01",
         "IT11586531003",
+        "Capacity Trader",
         "Consumer",
-        "Market Operator",
-        "Capacity Trader"
+        "Market Operator"
     ],
     "@cim:IdentifiedObject.description": "Capacty Trader,Consumer,Market Operator",
     "@cim:Document.docStatus": "A05",

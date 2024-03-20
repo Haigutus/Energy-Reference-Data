@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "COGEALAC",
         "Generation Unit",
-        "Resource Object",
-        "Resource Capacity Market Unit"
+        "Resource Capacity Market Unit",
+        "Resource Object"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

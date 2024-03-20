@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "SWKIELSPEICHER",
         "DE297197853",
-        "Storage System Operator",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Storage System Operator"
     ],
     "@cim:IdentifiedObject.description": "Balance Supplier",
     "@cim:Document.docStatus": "A05",

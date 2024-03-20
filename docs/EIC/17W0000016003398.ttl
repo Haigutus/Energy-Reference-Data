@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17W0000016003398> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-08-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "lié aux GU de nom affiché FR_CONSTV" ;
+    cim:IdentifiedObject.mRID "17W0000016003398" ;
+    cim:IdentifiedObject.name "CENTRALE SOLAIRE PHOTOVOLTAIQUE DE CONSTANTIN" ;
+    cim:Names.name "FR_CONSTV",
+        "Production Unit" ;
+    dcterms:identifier "urn:eic:17W0000016003398" ;
+    skos:altLabel "FR_CONSTV" ;
+    skos:definition "lié aux GU de nom affiché FR_CONSTV"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "CENTRALE SOLAIRE PHOTOVOLTAIQUE DE CONSTANTIN" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

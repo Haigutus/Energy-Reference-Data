@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "CHPSOFIA",
         "BG831609046",
-        "Consumer",
+        "Producer",
         "Trade Responsible Party",
-        "Balance Responsible Party",
+        "Consumer",
         "Grid Access Provider",
         "Production Responsible party",
-        "Producer"
+        "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Consumer, Grid Access Provider, Metered Point Operator, Network User, Producer, Production Responsible Party, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

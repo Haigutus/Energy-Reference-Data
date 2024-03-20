@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V433---B",
     "@skos:prefLabel": "CEPS_V433 Dasný-Slavetice",
-    "@skos:altLabel": "CDAS__1*CSLV__1*",
+    "@skos:altLabel": "CDAS__1_CSLV__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V433---B",
     "@cim:IdentifiedObject.name": "CEPS_V433 Dasný-Slavetice",
     "@cim:Names.name": [
-        "CDAS__1*CSLV__1*",
+        "CDAS__1_CSLV__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -14,6 +14,10 @@
     "@dcterms:identifier": "urn:eic:48X000000000296A",
     "@skos:prefLabel": "Conrad Energy Limited",
     "@skos:altLabel": "CONRADENERGYLTD",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Nicole Griese Nicole.griese@conradenergy.co.uk replaces Graz Macdonald and Jorgia Flaherty as the contact for Conrad Energy Limited. "
+    },
     "@cim:IdentifiedObject.mRID": "48X000000000296A",
     "@cim:IdentifiedObject.name": "Conrad Energy Limited",
     "@cim:Names.name": [
@@ -21,9 +25,10 @@
         "GB281421814",
         "Producer"
     ],
+    "@cim:IdentifiedObject.description": "Nicole Griese Nicole.griese@conradenergy.co.uk replaces Graz Macdonald and Jorgia Flaherty as the contact for Conrad Energy Limited. ",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2020-12-01",
+    "@cim:DateAndOrTime.date": "2023-12-04",
     "@schema:vatID": "GB281421814",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V415---D",
     "@skos:prefLabel": "CEPS_V415 Cechy Stred-Chodov",
-    "@skos:altLabel": "CCST__1*CCHD__1*",
+    "@skos:altLabel": "CCST__1_CCHD__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V415---D",
     "@cim:IdentifiedObject.name": "CEPS_V415 Cechy Stred-Chodov",
     "@cim:Names.name": [
-        "CCST__1*CCHD__1*",
+        "CCST__1_CCHD__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

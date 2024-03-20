@@ -23,10 +23,10 @@
     "@cim:Names.name": [
         "WALUTAEXPRESS",
         "PL5213583028",
-        "Party Connected To Grid",
         "Balance Responsible Party",
-        "Trade Responsible Party",
-        "Resource Provider"
+        "Party Connected To Grid",
+        "Resource Provider",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Network User, Party Connected To Grid, Resource Provider, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

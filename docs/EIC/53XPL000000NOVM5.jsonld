@@ -20,8 +20,8 @@
         "NOVUM",
         "A0003472L.PL",
         "PL9491924705",
-        "Trade Responsible Party",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

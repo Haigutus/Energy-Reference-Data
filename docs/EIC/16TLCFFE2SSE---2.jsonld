@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLCFFE2SSE---2",
     "@skos:prefLabel": "Chafariz - Ferro 2 - Sobral 220",
-    "@skos:altLabel": "LCF.FE2/SSE",
+    "@skos:altLabel": "LCF_FE2_SSE",
     "@cim:IdentifiedObject.mRID": "16TLCFFE2SSE---2",
     "@cim:IdentifiedObject.name": "Chafariz - Ferro 2 - Sobral 220",
     "@cim:Names.name": [
-        "LCF.FE2/SSE",
+        "LCF_FE2_SSE",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

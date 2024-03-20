@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "RO_RENOVATIO",
         "RO15638008",
-        "Capacity Trader",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Capacity Trader"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

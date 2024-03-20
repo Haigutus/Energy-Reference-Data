@@ -23,11 +23,11 @@
     "@cim:Names.name": [
         "TITAN",
         "EL094014004",
+        "Balance Responsible Party",
         "Interconnection Trade Responsible",
-        "Trade Responsible Party",
-        "Capacity Trader",
         "Consumer",
-        "Balance Responsible Party"
+        "Capacity Trader",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Importer Of Electricity - Industrial Consumer",
     "@cim:Document.docStatus": "A05",

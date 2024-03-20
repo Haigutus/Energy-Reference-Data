@@ -7,18 +7,16 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2014-04-17" ;
+    cim:DateAndOrTime.date "2023-08-30" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "11XSWAUGSBURG--9" ;
     cim:IdentifiedObject.name "Stadtwerke Augsburg Energie GmbH" ;
     cim:Names.name "Balance Responsible Party",
-        "DE813286878",
+        "DE813286894",
         "SWAUGSBURG" ;
     dcterms:identifier "urn:eic:11XSWAUGSBURG--9" ;
-    schema1:vatID "DE813286878" ;
+    schema1:vatID "DE813286894" ;
     skos:altLabel "SWAUGSBURG" ;
-    skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Stadtwerke Augsburg Energie GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Paksi Atomerőmű",
     "@cim:Names.name": [
         "PAKS",
-        "Production Unit",
-        "Production Plant"
+        "Production Plant",
+        "Production Unit"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "REVOIL",
         "EL094116870",
+        "Capacity Trader",
         "Balance Responsible Party",
-        "Network User",
-        "Capacity Trader"
+        "Network User"
     ],
     "@cim:IdentifiedObject.description": "Company registration number: 116474601000  ",
     "@cim:Document.docStatus": "A05",

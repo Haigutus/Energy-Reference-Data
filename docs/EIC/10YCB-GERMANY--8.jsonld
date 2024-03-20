@@ -22,8 +22,8 @@
     "@cim:IdentifiedObject.name": "CB Germany_Denmark_Luxemburg",
     "@cim:Names.name": [
         "DE_DK1_LU",
-        "Control Block",
-        "LFC Block"
+        "LFC Block",
+        "Control Block"
     ],
     "@cim:IdentifiedObject.description": "Control Block",
     "@cim:Document.docStatus": "A05",

@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLMGVR-------X</dcterms:identifier>
     <skos:prefLabel>Mogadouro-Valeira</skos:prefLabel>
-    <skos:altLabel>LMG.VR</skos:altLabel>
+    <skos:altLabel>LMG_VR</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLMGVR-------X</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Mogadouro-Valeira</cim:IdentifiedObject.name>
-    <cim:Names.name>LMG.VR</cim:Names.name>
+    <cim:Names.name>LMG_VR</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

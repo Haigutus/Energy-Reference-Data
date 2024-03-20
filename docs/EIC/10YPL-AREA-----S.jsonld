@@ -23,11 +23,11 @@
     "@cim:Names.name": [
         "PL",
         "Bidding Zone",
-        "Control Area",
+        "Member State",
         "LFC Block",
+        "Control Area",
         "Scheduling Area",
-        "LFC Area",
-        "Member State"
+        "LFC Area"
     ],
     "@cim:IdentifiedObject.description": "Bidding Zone, Control Area, Market Balance Area, Member State, Scheduling Area",
     "@cim:Document.docStatus": "A05",

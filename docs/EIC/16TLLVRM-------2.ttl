@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLLVRM-------2" ;
     cim:IdentifiedObject.name "Lavos-Rio Maior" ;
     cim:Names.name "Internal Line",
-        "LLV.RM" ;
+        "LLV_RM" ;
     dcterms:identifier "urn:eic:16TLLVRM-------2" ;
-    skos:altLabel "LLV.RM" ;
+    skos:altLabel "LLV_RM" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Lavos-Rio Maior" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

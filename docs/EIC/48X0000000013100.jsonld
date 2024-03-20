@@ -19,11 +19,12 @@
     "@cim:Names.name": [
         "OUTLOOKENERGY",
         "GB392390772",
+        "Balance Responsible Party",
         "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-01-19",
+    "@cim:DateAndOrTime.date": "2023-09-21",
     "@schema:vatID": "GB392390772",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

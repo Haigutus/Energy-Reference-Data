@@ -7,17 +7,19 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2020-01-28" ;
+    cim:DateAndOrTime.date "2023-07-20" ;
     cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Trade Responsible Party" ;
     cim:IdentifiedObject.mRID "62X1310227738394" ;
-    cim:IdentifiedObject.name "LIMITED LIABILITY COMPANY LE TRADING UKRAINE" ;
-    cim:Names.name "LETRADINGUKRAINE",
-        "Trade Responsible Party",
-        "UA432659926556" ;
+    cim:IdentifiedObject.name "LLC UNIMEX TRADING" ;
+    cim:Names.name "Trade Responsible Party",
+        "UA432659926556",
+        "UNIMEXTRADING" ;
     dcterms:identifier "urn:eic:62X1310227738394" ;
     schema1:vatID "UA432659926556" ;
-    skos:altLabel "LETRADINGUKRAINE" ;
+    skos:altLabel "UNIMEXTRADING" ;
+    skos:definition "Trade Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "LIMITED LIABILITY COMPANY LE TRADING UKRAINE" ;
+    skos:prefLabel "LLC UNIMEX TRADING" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

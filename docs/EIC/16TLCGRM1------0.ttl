@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCGRM1------0" ;
     cim:IdentifiedObject.name "Carregado-Rio Maior 1" ;
     cim:Names.name "Internal Line",
-        "LCG.RM1" ;
+        "LCG_RM1" ;
     dcterms:identifier "urn:eic:16TLCGRM1------0" ;
-    skos:altLabel "LCG.RM1" ;
+    skos:altLabel "LCG_RM1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Carregado-Rio Maior 1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

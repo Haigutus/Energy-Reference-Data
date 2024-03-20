@@ -12,24 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11XEV-BOEBING--H",
-    "@skos:prefLabel": "Elektrizitätsvereinigung Böbing",
+    "@skos:prefLabel": "Elektrizitätsvereinigung Böbing eingetragene Genossenschaft (EVB eG)",
     "@skos:altLabel": "EV-BOEBING",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Group"
-    },
     "@cim:IdentifiedObject.mRID": "11XEV-BOEBING--H",
-    "@cim:IdentifiedObject.name": "Elektrizitätsvereinigung Böbing",
+    "@cim:IdentifiedObject.name": "Elektrizitätsvereinigung Böbing eingetragene Genossenschaft (EVB eG)",
     "@cim:Names.name": [
         "EV-BOEBING",
-        "DE128375617",
-        "Balance Group"
+        "DE269098844",
+        "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Group",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2005-12-06",
-    "@schema:vatID": "DE128375617",
+    "@cim:DateAndOrTime.date": "2023-09-26",
+    "@schema:vatID": "DE269098844",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

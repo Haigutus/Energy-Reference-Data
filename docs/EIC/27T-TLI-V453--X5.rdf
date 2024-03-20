@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:27T-TLI-V453--X5</dcterms:identifier>
     <skos:prefLabel>CEPS_V453 Kras&#237;kov-Nezn&#225;&#353;ov</skos:prefLabel>
-    <skos:altLabel>CKRA__1*CNEZ__1*</skos:altLabel>
+    <skos:altLabel>CKRA__1_CNEZ__1_</skos:altLabel>
     <cim:IdentifiedObject.mRID>27T-TLI-V453--X5</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CEPS_V453 Kras&#237;kov-Nezn&#225;&#353;ov</cim:IdentifiedObject.name>
-    <cim:Names.name>CKRA__1*CNEZ__1*</cim:Names.name>
+    <cim:Names.name>CKRA__1_CNEZ__1_</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2019-09-23</cim:DateAndOrTime.date>

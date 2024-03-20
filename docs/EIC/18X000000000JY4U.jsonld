@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ES-STARKE_ENERGY",
         "ESB67541193",
-        "Capacity Trader",
         "Production Responsible party",
+        "Capacity Trader",
         "Consumption Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",

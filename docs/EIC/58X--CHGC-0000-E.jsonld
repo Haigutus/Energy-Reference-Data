@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "CHERNOMORSKA-GK",
         "BG125513232",
-        "Trade Responsible Party",
-        "Consumer"
+        "Consumer",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

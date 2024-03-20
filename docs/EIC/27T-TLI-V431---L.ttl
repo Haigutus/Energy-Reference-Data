@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V431---L" ;
     cim:IdentifiedObject.name "CEPS_V431 Chrást-Preštice" ;
-    cim:Names.name "CCHR__1*CPRE__1*",
+    cim:Names.name "CCHR__1_CPRE__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V431---L" ;
-    skos:altLabel "CCHR__1*CPRE__1*" ;
+    skos:altLabel "CCHR__1_CPRE__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V431 Chrást-Preštice" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

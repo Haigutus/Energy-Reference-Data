@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLCGSR1------J</dcterms:identifier>
     <skos:prefLabel>Carregado - Santarem 1 220</skos:prefLabel>
-    <skos:altLabel>LCG.SR1</skos:altLabel>
+    <skos:altLabel>LCG_SR1</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLCGSR1------J</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Carregado - Santarem 1 220</cim:IdentifiedObject.name>
-    <cim:Names.name>LCG.SR1</cim:Names.name>
+    <cim:Names.name>LCG_SR1</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

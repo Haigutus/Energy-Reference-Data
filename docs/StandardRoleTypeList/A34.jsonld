@@ -11,7 +11,7 @@
     "@skos:prefLabel": "Reserve Allocator",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.\nA party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders."
+        "@value": "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. \nA party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders."
     },
     "@context": {
         "@cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",

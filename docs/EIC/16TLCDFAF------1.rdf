@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLCDFAF------1</dcterms:identifier>
     <skos:prefLabel>Canicada - Fafe 150</skos:prefLabel>
-    <skos:altLabel>LCD.FAF</skos:altLabel>
+    <skos:altLabel>LCD_FAF</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLCDFAF------1</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Canicada - Fafe 150</cim:IdentifiedObject.name>
-    <cim:Names.name>LCD.FAF</cim:Names.name>
+    <cim:Names.name>LCD_FAF</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

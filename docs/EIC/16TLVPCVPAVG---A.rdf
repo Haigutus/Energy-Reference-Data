@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLVPCVPAVG---A</dcterms:identifier>
     <skos:prefLabel>Valpacos - Vila Pouca De Aguiar - Valdigem 220</skos:prefLabel>
-    <skos:altLabel>LVPC.VPA/VG</skos:altLabel>
+    <skos:altLabel>LVPC_VPA_VG</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLVPCVPAVG---A</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Valpacos - Vila Pouca De Aguiar - Valdigem 220</cim:IdentifiedObject.name>
-    <cim:Names.name>LVPC.VPA/VG</cim:Names.name>
+    <cim:Names.name>LVPC_VPA_VG</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

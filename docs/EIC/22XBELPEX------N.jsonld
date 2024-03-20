@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "BE_EPEXBE",
         "BE0874978602",
-        "Market Operator",
+        "System Operator",
         "Balance Responsible Party",
-        "System Operator"
+        "Market Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

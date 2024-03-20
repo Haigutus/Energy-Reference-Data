@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-25" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Kraftwerk" ;
     cim:IdentifiedObject.mRID "12XKKL-AG------N" ;
     cim:IdentifiedObject.name "Kernkraftwerk Leibstadt AG" ;
     cim:Names.name "CH109959",
-        "KKL",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "KKL" ;
     dcterms:identifier "urn:eic:12XKKL-AG------N" ;
     schema1:vatID "CH109959" ;
     skos:altLabel "KKL" ;

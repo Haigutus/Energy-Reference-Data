@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCDFAF------1" ;
     cim:IdentifiedObject.name "Canicada - Fafe 150" ;
     cim:Names.name "Internal Line",
-        "LCD.FAF" ;
+        "LCD_FAF" ;
     dcterms:identifier "urn:eic:16TLCDFAF------1" ;
-    skos:altLabel "LCD.FAF" ;
+    skos:altLabel "LCD_FAF" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Canicada - Fafe 150" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

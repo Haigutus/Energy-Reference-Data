@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "AIKENERGYAUSTRIA",
         "ATU74552815",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Change of address (street)",
     "@cim:Document.docStatus": "A05",

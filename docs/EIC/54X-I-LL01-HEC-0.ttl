@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-I-LL01-HEC-0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-09-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "54X-I-LL01-HEC-0" ;
+    cim:IdentifiedObject.name "Hec Llenge Sh.p.k" ;
+    cim:Names.name "HEC-LLENGE",
+        "L22125012H",
+        "Producer",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:54X-I-LL01-HEC-0" ;
+    schema1:vatID "L22125012H" ;
+    skos:altLabel "HEC-LLENGE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Hec Llenge Sh.p.k" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

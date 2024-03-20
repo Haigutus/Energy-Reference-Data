@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ASRIGASGAZE",
         "LV40203054582",
-        "Network User",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Network User"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "EPUKI",
         "GB974981458",
-        "Capacity Trader",
         "Balance Responsible Party",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Capacity Trader"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

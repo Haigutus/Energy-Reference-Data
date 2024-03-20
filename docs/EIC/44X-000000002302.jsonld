@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "44KINECTENERGYF",
         "FI15182679",
-        "Distribution System Operator",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Distribution System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

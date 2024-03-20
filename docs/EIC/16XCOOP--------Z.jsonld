@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16XCOOP--------Z",
     "@skos:prefLabel": "COOPÉRNICO - COOPERATIVA DE DESENVOLVIMENTO SUSTENTÁVEL CRL",
-    "@skos:altLabel": "COOPÉRNICO",
+    "@skos:altLabel": "COOPERNICO",
     "@cim:IdentifiedObject.mRID": "16XCOOP--------Z",
     "@cim:IdentifiedObject.name": "COOPÉRNICO - COOPERATIVA DE DESENVOLVIMENTO SUSTENTÁVEL CRL",
     "@cim:Names.name": [
-        "COOPÉRNICO",
+        "COOPERNICO",
         "PT510852270",
         "Trade Responsible Party"
     ],

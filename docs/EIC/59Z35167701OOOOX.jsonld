@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59Z35167701OOOOX",
     "@skos:prefLabel": "Larino (SGI)",
-    "@skos:altLabel": "LARINO(SGI)",
+    "@skos:altLabel": "LARINO_SGI_",
     "@cim:IdentifiedObject.mRID": "59Z35167701OOOOX",
     "@cim:IdentifiedObject.name": "Larino (SGI)",
     "@cim:Names.name": [
-        "LARINO(SGI)",
+        "LARINO_SGI_",
         "Metering Point"
     ],
     "@cim:Document.docStatus": "A05",

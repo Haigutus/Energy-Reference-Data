@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLRMAM-------E" ;
     cim:IdentifiedObject.name "Rio Maior-Alto Mira" ;
     cim:Names.name "Internal Line",
-        "LRM.AM" ;
+        "LRM_AM" ;
     dcterms:identifier "urn:eic:16TLRMAM-------E" ;
-    skos:altLabel "LRM.AM" ;
+    skos:altLabel "LRM_AM" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Rio Maior-Alto Mira" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

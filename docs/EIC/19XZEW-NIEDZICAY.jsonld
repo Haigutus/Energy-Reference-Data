@@ -19,13 +19,13 @@
     "@cim:Names.name": [
         "ZEW_NIEDZICA_SA",
         "PL7352055446",
+        "Producer",
         "Metered Data Responsible",
+        "Consumer",
+        "Energy Supplier",
         "Grid Access Provider",
         "Meter Administrator",
-        "Consumer",
-        "System Operator",
-        "Energy Supplier",
-        "Producer"
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

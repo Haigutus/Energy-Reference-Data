@@ -7,10 +7,10 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-12-07" ;
+    cim:DateAndOrTime.date "2023-09-18" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "69X6R09LR9Y9XBUJ" ;
-    cim:IdentifiedObject.name "RESXSTONE ENERGY INTERNATIONAL DMCC" ;
+    cim:IdentifiedObject.name "REXSTONE ENERGY INTERNATIONAL DMCC" ;
     cim:Names.name "18009154W",
         "Balance Responsible Party",
         "Capacity Trader",
@@ -23,6 +23,6 @@
     schema1:vatID "18009154W" ;
     skos:altLabel "REXSTONE-ENERGY" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "RESXSTONE ENERGY INTERNATIONAL DMCC" ;
+    skos:prefLabel "REXSTONE ENERGY INTERNATIONAL DMCC" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

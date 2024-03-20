@@ -7,19 +7,20 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-07-19" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "32X0011001012043" ;
-    cim:IdentifiedObject.name "TINMAR SUPPLY EOOD" ;
-    cim:Names.name "BG203888476",
+    cim:IdentifiedObject.name "SKY ENERGY SUPPLY EOOD" ;
+    cim:Names.name "A0013171F.BG",
+        "BG203888476",
         "Balance Responsible Party",
-        "TINMAR_SUPPLY" ;
+        "SKY_ENERGY" ;
     dcterms:identifier "urn:eic:32X0011001012043" ;
     schema1:vatID "BG203888476" ;
-    skos:altLabel "TINMAR_SUPPLY" ;
+    skos:altLabel "SKY_ENERGY" ;
     skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "TINMAR SUPPLY EOOD" ;
+    skos:prefLabel "SKY ENERGY SUPPLY EOOD" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

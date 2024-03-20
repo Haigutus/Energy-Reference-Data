@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000001600765E> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-09-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Dokles est une entreprise experte dans les technologies IoT et domotiques liées à l'efficacité énergétique, s'adressant aux résidences individuelles et collectives. Grace à son réseau de pompes à chaleur connectées, Dokles entreprend de réaliser des effacements énergétiques auprès de ses consommateurs afin de contribuer à l'équilibre du réseau électrique." ;
+    cim:IdentifiedObject.mRID "17X000001600765E" ;
+    cim:IdentifiedObject.name "DOKLES" ;
+    cim:Names.name "Balancing Service Provider",
+        "FR90892384215",
+        "FR_DOKLES",
+        "Meter Administrator",
+        "Resource Aggregator" ;
+    dcterms:identifier "urn:eic:17X000001600765E" ;
+    schema1:vatID "FR90892384215" ;
+    skos:altLabel "FR_DOKLES" ;
+    skos:definition "Dokles est une entreprise experte dans les technologies IoT et domotiques liées à l'efficacité énergétique, s'adressant aux résidences individuelles et collectives. Grace à son réseau de pompes à chaleur connectées, Dokles entreprend de réaliser des effacements énergétiques auprès de ses consommateurs afin de contribuer à l'équilibre du réseau électrique."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "DOKLES" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

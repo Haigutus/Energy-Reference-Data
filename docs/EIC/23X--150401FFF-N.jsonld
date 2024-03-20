@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "FJERNVARME_FYN",
         "DK36474718",
-        "Trade Responsible Party",
-        "Producer"
+        "Producer",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Producer, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

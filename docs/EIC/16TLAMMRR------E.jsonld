@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLAMMRR------E",
     "@skos:prefLabel": "Armamar-Recarei",
-    "@skos:altLabel": "LAMM.RR",
+    "@skos:altLabel": "LAMM_RR",
     "@cim:IdentifiedObject.mRID": "16TLAMMRR------E",
     "@cim:IdentifiedObject.name": "Armamar-Recarei",
     "@cim:Names.name": [
-        "LAMM.RR",
+        "LAMM_RR",
         "Tieline"
     ],
     "@cim:Document.docStatus": "A05",

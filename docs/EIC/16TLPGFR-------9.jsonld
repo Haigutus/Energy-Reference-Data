@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPGFR-------9",
     "@skos:prefLabel": "Pego-Falagueira",
-    "@skos:altLabel": "LPG.FR",
+    "@skos:altLabel": "LPG_FR",
     "@cim:IdentifiedObject.mRID": "16TLPGFR-------9",
     "@cim:IdentifiedObject.name": "Pego-Falagueira",
     "@cim:Names.name": [
-        "LPG.FR",
+        "LPG_FR",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

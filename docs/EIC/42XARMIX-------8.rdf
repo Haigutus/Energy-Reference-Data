@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:42XARMIX-------8</dcterms:identifier>
     <skos:prefLabel>Armix sp z.o.o.</skos:prefLabel>
-    <skos:altLabel>ARMIX-SP-Z.O.O.</skos:altLabel>
+    <skos:altLabel>ARMIX-SP-Z_O_O_</skos:altLabel>
     <cim:IdentifiedObject.mRID>42XARMIX-------8</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Armix sp z.o.o.</cim:IdentifiedObject.name>
-    <cim:Names.name>ARMIX-SP-Z.O.O.</cim:Names.name>
+    <cim:Names.name>ARMIX-SP-Z_O_O_</cim:Names.name>
     <cim:Names.name>PL5272897136</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

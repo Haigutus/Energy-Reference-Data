@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:56X930000009530T</dcterms:identifier>
     <skos:prefLabel>LLC "INVESTMENT AND ENERGY COMPANY "M2"</skos:prefLabel>
-    <skos:altLabel>LLC''IEC''M2''</skos:altLabel>
+    <skos:altLabel>LLC_IEC_M2_</skos:altLabel>
     <cim:IdentifiedObject.mRID>56X930000009530T</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>LLC "INVESTMENT AND ENERGY COMPANY "M2"</cim:IdentifiedObject.name>
-    <cim:Names.name>LLC''IEC''M2''</cim:Names.name>
+    <cim:Names.name>LLC_IEC_M2_</cim:Names.name>
     <cim:Names.name>408888122565</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "ES-GRUPOINGENIAT",
         "ESB42622514",
-        "Consumption Responsible Party",
         "Balance Responsible Party",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Consumption Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V435---1",
     "@skos:prefLabel": "CEPS_PRN.T401 Prosenice_400/220",
-    "@skos:altLabel": "CSLV__1*CSOK__1*",
+    "@skos:altLabel": "CSLV__1_CSOK__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V435---1",
     "@cim:IdentifiedObject.name": "CEPS_PRN.T401 Prosenice_400/220",
     "@cim:Names.name": [
-        "CSLV__1*CSOK__1*",
+        "CSLV__1_CSOK__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

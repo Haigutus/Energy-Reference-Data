@@ -14,7 +14,7 @@
     <cim:IdentifiedObject.description>UK VAT Code not available.  Value in above field is the registered company number.  </cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2023-03-17</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-11-16</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>AE100491567200003</schema:vatID>

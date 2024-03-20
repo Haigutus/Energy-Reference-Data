@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30TCERN400MEDG-O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-09-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "30TCERN400MEDG-O" ;
+    cim:IdentifiedObject.name "Cernavoda - Medgidia Sud" ;
+    cim:Names.name "Internal Line",
+        "RO_L_CERN-MEDG" ;
+    dcterms:identifier "urn:eic:30TCERN400MEDG-O" ;
+    skos:altLabel "RO_L_CERN-MEDG" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Cernavoda - Medgidia Sud" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

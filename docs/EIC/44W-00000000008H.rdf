@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:44W-00000000008H</dcterms:identifier>
     <skos:prefLabel>Kemira Oyj</skos:prefLabel>
-    <skos:altLabel>KC_&#196;ETS&#196;</skos:altLabel>
+    <skos:altLabel>KC_ETSA</skos:altLabel>
     <cim:IdentifiedObject.mRID>44W-00000000008H</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Kemira Oyj</cim:IdentifiedObject.name>
-    <cim:Names.name>KC_&#196;ETS&#196;</cim:Names.name>
+    <cim:Names.name>KC_ETSA</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2017-02-23</cim:DateAndOrTime.date>

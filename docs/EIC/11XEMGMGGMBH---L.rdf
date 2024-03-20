@@ -4,19 +4,17 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:11XEMGMGGMBH---L</dcterms:identifier>
-    <skos:prefLabel>ExxonMobil Gas Marketing Deutschland GmbH</skos:prefLabel>
+    <skos:prefLabel>Mobil Erdgas-Erd&#246;l GmbH</skos:prefLabel>
     <skos:altLabel>EMGMGGMBH</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11XEMGMGGMBH---L</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>ExxonMobil Gas Marketing Deutschland GmbH</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>Mobil Erdgas-Erd&#246;l GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>EMGMGGMBH</cim:Names.name>
-    <cim:Names.name>DE813912379</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
+    <cim:Names.name>DE811140133</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2011-08-03</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-10</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>DE813912379</schema:vatID>
+    <schema:vatID>DE811140133</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

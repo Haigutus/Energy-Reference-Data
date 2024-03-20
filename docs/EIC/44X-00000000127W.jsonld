@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "44PKSOY",
         "FI02147321",
-        "Producer",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLBLPG-------A",
     "@skos:prefLabel": "Batalha-Pego",
-    "@skos:altLabel": "LBL.PG",
+    "@skos:altLabel": "LBL_PG",
     "@cim:IdentifiedObject.mRID": "16TLBLPG-------A",
     "@cim:IdentifiedObject.name": "Batalha-Pego",
     "@cim:Names.name": [
-        "LBL.PG",
+        "LBL_PG",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

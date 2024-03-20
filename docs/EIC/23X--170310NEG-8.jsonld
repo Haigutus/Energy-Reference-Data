@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "New Europe Gaz d.o.o.",
     "@cim:Names.name": [
         "NEW_EUROPE_GAZ",
-        "Trade Responsible Party",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

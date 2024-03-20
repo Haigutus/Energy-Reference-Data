@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "RO_TENGAZ",
         "RO18680651",
-        "Energy Supplier",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

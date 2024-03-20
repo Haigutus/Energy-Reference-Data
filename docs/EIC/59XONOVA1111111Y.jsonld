@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ONOVA",
         "IT02053850448",
-        "Market Operator",
-        "Grid Operator"
+        "Grid Operator",
+        "Market Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

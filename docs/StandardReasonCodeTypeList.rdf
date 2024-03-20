@@ -1,8 +1,8 @@
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardReasonCodeTypeList">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:modified>2022-08-26</dcterms:modified>
-    <dcat:version>83</dcat:version>
+    <dcterms:modified>2023-12-14</dcterms:modified>
+    <dcat:version>91</dcat:version>
     <skos:prefLabel>StandardReasonCodeTypeList</skos:prefLabel>
     <dcterms:identifier>ET0015</dcterms:identifier>
     <skos:definition xml:lang="en">The coded motivation of an act.</skos:definition>
@@ -145,8 +145,8 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
     <dcterms:identifier>A28</dcterms:identifier>
     <skos:prefLabel>Counterpart time series missing </skos:prefLabel>
-    <skos:definition xml:lang="en">This provides an indication that the time series has not got a counterpart time series.
-In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received.
+    <skos:definition xml:lang="en">This provides an indication that the time series has not got a counterpart time series. 
+In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received. 
 In the case of a Final Confirmation Report this is informing the recipient that the time series has been rejected because the counterpart time series has not been forthcoming. </skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="http://energy.referencedata.eu/StandardReasonCodeTypeList/A29">
@@ -1044,5 +1044,26 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     <dcterms:identifier>B67</dcterms:identifier>
     <skos:prefLabel>Bid activated in same direction</skos:prefLabel>
     <skos:definition xml:lang="en">One or several bids were activated in the same direction within the same uncongested area as the demand.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardReasonCodeTypeList/B68">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
+    <dcterms:identifier>B68</dcterms:identifier>
+    <skos:prefLabel>Optimization in progress</skos:prefLabel>
+    <skos:definition xml:lang="en">The activation optimisation framework is being executed.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardReasonCodeTypeList/B69">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
+    <dcterms:identifier>B69</dcterms:identifier>
+    <skos:prefLabel>Wrong energy market timeframe</skos:prefLabel>
+    <skos:definition xml:lang="en">The given energy market timeframe is invalid or wrong.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardReasonCodeTypeList/B70">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardReasonCodeTypeList"/>
+    <dcterms:identifier>B70</dcterms:identifier>
+    <skos:prefLabel>Message partially accepted</skos:prefLabel>
+    <skos:definition xml:lang="en">The detailed transactions of the received document are partially accepted. It is necessary to look at the detailed (transaction) level to determine if the transaction is accepted, rejected etc.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

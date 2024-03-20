@@ -12,17 +12,17 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11TD2T000000053T",
-    "@skos:prefLabel": "TTG/380-110/Flensburg/Trafo 412",
+    "@skos:prefLabel": "TTG/380-110/HANDEWITT/TRAFO 411",
     "@skos:altLabel": "T-D2-D2-14033077",
     "@cim:IdentifiedObject.mRID": "11TD2T000000053T",
-    "@cim:IdentifiedObject.name": "TTG/380-110/Flensburg/Trafo 412",
+    "@cim:IdentifiedObject.name": "TTG/380-110/HANDEWITT/TRAFO 411",
     "@cim:Names.name": [
         "T-D2-D2-14033077",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-04-22",
+    "@cim:DateAndOrTime.date": "2023-09-05",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

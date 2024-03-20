@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPT-BT------4",
     "@skos:prefLabel": "Picote-Bemposta",
-    "@skos:altLabel": "LPT.BT",
+    "@skos:altLabel": "LPT_BT",
     "@cim:IdentifiedObject.mRID": "16TLPT-BT------4",
     "@cim:IdentifiedObject.name": "Picote-Bemposta",
     "@cim:Names.name": [
-        "LPT.BT",
+        "LPT_BT",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

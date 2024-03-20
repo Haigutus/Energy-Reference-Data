@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCFVC2-GVA--6" ;
     cim:IdentifiedObject.name "Chafariz-Vila Chã 2/Ramal Gouveia" ;
     cim:Names.name "Internal Line",
-        "LCF.VC2/GVA" ;
+        "LCF_VC2_GVA" ;
     dcterms:identifier "urn:eic:16TLCFVC2-GVA--6" ;
-    skos:altLabel "LCF.VC2/GVA" ;
+    skos:altLabel "LCF_VC2_GVA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Chafariz-Vila Chã 2/Ramal Gouveia" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

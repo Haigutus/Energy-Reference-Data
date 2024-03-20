@@ -12,19 +12,25 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:56X930000008440Z",
-    "@skos:prefLabel": "Artleks-Energy LLC.",
-    "@skos:altLabel": "ARTLEKS-ENERGY",
+    "@skos:prefLabel": "ARTLEX-ENERGY Limited Liability Company",
+    "@skos:altLabel": "ARTLEX_ENERGY",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Contact persone: Yuriy Anosov +380442794480 contact@artlex.energy"
+    },
     "@cim:IdentifiedObject.mRID": "56X930000008440Z",
-    "@cim:IdentifiedObject.name": "Artleks-Energy LLC.",
+    "@cim:IdentifiedObject.name": "ARTLEX-ENERGY Limited Liability Company",
     "@cim:Names.name": [
-        "ARTLEKS-ENERGY",
-        "UA401130026597",
-        "Network User"
+        "ARTLEX_ENERGY",
+        "401130026597",
+        "Network User",
+        "Trade Responsible Party"
     ],
+    "@cim:IdentifiedObject.description": "Contact persone: Yuriy Anosov +380442794480 contact@artlex.energy",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2017-07-07",
-    "@schema:vatID": "UA401130026597",
+    "@cim:DateAndOrTime.date": "2023-10-05",
+    "@schema:vatID": "401130026597",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

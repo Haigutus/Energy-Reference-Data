@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/63X918231468886Q">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:63X918231468886Q</dcterms:identifier>
+    <skos:prefLabel>SPECIALTY OPERATIONS France</skos:prefLabel>
+    <skos:altLabel>FRG_SOF</skos:altLabel>
+    <skos:definition xml:lang="en">Specialty Operations France a fait les demarches necessaires aupres du ministere pour obtenir l'autorisation au quatrieme trimestre 2023. Cette autorisation permettra a la societe: de fournir ses sites industriels, de proceder a&#160; des achats sur le PEG (notamment en vue du programme Aggregate EU), d'enlever le biomethane produit par ses partenaires methaniseurs.</skos:definition>
+    <cim:IdentifiedObject.mRID>63X918231468886Q</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>SPECIALTY OPERATIONS France</cim:IdentifiedObject.name>
+    <cim:Names.name>FRG_SOF</cim:Names.name>
+    <cim:Names.name>FR41922031505</cim:Names.name>
+    <cim:IdentifiedObject.description>Specialty Operations France a fait les demarches necessaires aupres du ministere pour obtenir l'autorisation au quatrieme trimestre 2023. Cette autorisation permettra a la societe: de fournir ses sites industriels, de proceder a&#160; des achats sur le PEG (notamment en vue du programme Aggregate EU), d'enlever le biomethane produit par ses partenaires methaniseurs.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2023-10-19</cim:DateAndOrTime.date>
+    <cim:Names.name>Consumer</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>FR41922031505</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

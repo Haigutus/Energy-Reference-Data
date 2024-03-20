@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X0000016005061> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-10-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Parc éolien en mer de Saint-Nazaire" ;
+    cim:IdentifiedObject.mRID "17X0000016005061" ;
+    cim:IdentifiedObject.name "Parc du Banc de Guerande" ;
+    cim:Names.name "A00195159.FR",
+        "FR40519081509",
+        "FR_PBG",
+        "Production Responsible party" ;
+    dcterms:identifier "urn:eic:17X0000016005061" ;
+    schema1:vatID "FR40519081509" ;
+    skos:altLabel "FR_PBG" ;
+    skos:definition "Parc éolien en mer de Saint-Nazaire"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Parc du Banc de Guerande" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

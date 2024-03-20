@@ -22,11 +22,10 @@
     "@cim:IdentifiedObject.name": "Emsland Stärke GmbH",
     "@cim:Names.name": [
         "EMSLANDSTAERKE",
-        "DE117039665",
-        "Consumer"
+        "DE117039665"
     ],
     "@cim:IdentifiedObject.description": "Consumer",
-    "@cim:Document.docStatus": "A05",
+    "@cim:Document.docStatus": "A03",
     "@cim:AttributeInstanceComponent.attribute": "International",
     "@cim:DateAndOrTime.date": "2023-06-23",
     "@schema:vatID": "DE117039665",

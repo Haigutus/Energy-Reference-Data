@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "IRCLTD083007030",
         "GB5504318179",
-        "Trade Responsible Party",
         "Capacity Trader",
+        "Trade Responsible Party",
         "Resource Provider"
     ],
     "@cim:Document.docStatus": "A05",

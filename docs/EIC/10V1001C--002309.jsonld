@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "ECP TTN EndPoint 3",
     "@cim:Names.name": [
         "ECP_TTN_P3",
-        "Location",
-        "Endpoint"
+        "Endpoint",
+        "Location"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

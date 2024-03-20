@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "MARTIN_TRADE",
         "UA400420824102",
-        "Trade Responsible Party",
         "Network User",
+        "Trade Responsible Party",
         "Producer"
     ],
     "@cim:Document.docStatus": "A05",

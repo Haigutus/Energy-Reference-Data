@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V410---1",
     "@skos:prefLabel": "CEPS_V410 Čechy Střed-Výškov",
-    "@skos:altLabel": "CCST__1*CVYSH_1*",
+    "@skos:altLabel": "CCST__1_CVYSH_1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V410---1",
     "@cim:IdentifiedObject.name": "CEPS_V410 Čechy Střed-Výškov",
     "@cim:Names.name": [
-        "CCST__1*CVYSH_1*",
+        "CCST__1_CVYSH_1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TT2400150SPDVS</dcterms:identifier>
     <skos:prefLabel>ATD 2 400/150 SPDV</skos:prefLabel>
-    <skos:altLabel>AT2400/150SPDV</skos:altLabel>
+    <skos:altLabel>AT2400_150SPDV</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TT2400150SPDVS</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ATD 2 400/150 SPDV</cim:IdentifiedObject.name>
-    <cim:Names.name>AT2400/150SPDV</cim:Names.name>
+    <cim:Names.name>AT2400_150SPDV</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

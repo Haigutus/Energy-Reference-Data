@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCDRA1FRD---D" ;
     cim:IdentifiedObject.name "Canicada - Riba De Ave 1 - Frades 150" ;
     cim:Names.name "Internal Line",
-        "LCD.RA1/FRD" ;
+        "LCD_RA1_FRD" ;
     dcterms:identifier "urn:eic:16TLCDRA1FRD---D" ;
-    skos:altLabel "LCD.RA1/FRD" ;
+    skos:altLabel "LCD_RA1_FRD" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Canicada - Riba De Ave 1 - Frades 150" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPTLGC2-----2",
     "@skos:prefLabel": "Picote-Lagoaça 2",
-    "@skos:altLabel": "LPT.LGC2",
+    "@skos:altLabel": "LPT_LGC2",
     "@cim:IdentifiedObject.mRID": "16TLPTLGC2-----2",
     "@cim:IdentifiedObject.name": "Picote-Lagoaça 2",
     "@cim:Names.name": [
-        "LPT.LGC2",
+        "LPT_LGC2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

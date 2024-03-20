@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "RUTH_ENERGY",
         "GB221474239",
-        "Trade Responsible Party",
-        "Information Provider"
+        "Information Provider",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

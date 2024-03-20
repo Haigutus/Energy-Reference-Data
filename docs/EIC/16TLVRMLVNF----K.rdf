@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLVRMLVNF----K</dcterms:identifier>
     <skos:prefLabel>Vermoim-Vila Nova Famalic&#227;o</skos:prefLabel>
-    <skos:altLabel>LVRM.LVNF</skos:altLabel>
+    <skos:altLabel>LVRM_LVNF</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLVRMLVNF----K</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Vermoim-Vila Nova Famalic&#227;o</cim:IdentifiedObject.name>
-    <cim:Names.name>LVRM.LVNF</cim:Names.name>
+    <cim:Names.name>LVRM_LVNF</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

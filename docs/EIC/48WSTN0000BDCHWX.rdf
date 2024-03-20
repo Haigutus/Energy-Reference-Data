@@ -5,13 +5,13 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:48WSTN0000BDCHWX</dcterms:identifier>
     <skos:prefLabel>Bad &#225; Che&#242;  BDCHW-1</skos:prefLabel>
-    <skos:altLabel>BAD&#193;CHE&#210;</skos:altLabel>
+    <skos:altLabel>BADACHEO</skos:altLabel>
     <cim:IdentifiedObject.mRID>48WSTN0000BDCHWX</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Bad &#225; Che&#242;  BDCHW-1</cim:IdentifiedObject.name>
-    <cim:Names.name>BAD&#193;CHE&#210;</cim:Names.name>
+    <cim:Names.name>BADACHEO</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2020-11-09</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-27</cim:DateAndOrTime.date>
     <cim:Names.name>Production Plant</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>

@@ -7,16 +7,16 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2020-04-08" ;
+    cim:DateAndOrTime.date "2023-07-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "VAT Code NON-EU (Swiss VAT): CHE100738922" ;
     cim:IdentifiedObject.mRID "59X-7-LITASCO-5Y" ;
     cim:IdentifiedObject.name "Litasco SA" ;
     cim:Names.name "Balance Responsible Party",
-        "CHE10073892",
+        "CHE100738922",
         "LITASCO" ;
     dcterms:identifier "urn:eic:59X-7-LITASCO-5Y" ;
-    schema1:vatID "CHE10073892" ;
+    schema1:vatID "CHE100738922" ;
     skos:altLabel "LITASCO" ;
     skos:definition "VAT Code NON-EU (Swiss VAT): CHE100738922"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;

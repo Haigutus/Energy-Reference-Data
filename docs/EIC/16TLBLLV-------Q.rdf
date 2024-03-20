@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLBLLV-------Q</dcterms:identifier>
     <skos:prefLabel>Batalha-Lavos</skos:prefLabel>
-    <skos:altLabel>LBL.LV</skos:altLabel>
+    <skos:altLabel>LBL_LV</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLBLLV-------Q</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Batalha-Lavos</cim:IdentifiedObject.name>
-    <cim:Names.name>LBL.LV</cim:Names.name>
+    <cim:Names.name>LBL_LV</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

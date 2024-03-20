@@ -7,15 +7,15 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2023-06-09" ;
+    cim:DateAndOrTime.date "2023-07-17" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "59XPOLARGASSRL7Z" ;
     cim:IdentifiedObject.name "POLARGAS SRL" ;
-    cim:Names.name "03283940041",
+    cim:Names.name "IT03283940041",
         "Market Operator",
         "POLARGASSRL" ;
     dcterms:identifier "urn:eic:59XPOLARGASSRL7Z" ;
-    schema1:vatID "03283940041" ;
+    schema1:vatID "IT03283940041" ;
     skos:altLabel "POLARGASSRL" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "POLARGAS SRL" ;

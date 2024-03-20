@@ -18,10 +18,10 @@
     "@cim:IdentifiedObject.name": "Luxembourg",
     "@cim:Names.name": [
         "LU",
-        "Scheduling Area",
         "Member State",
+        "Control Area",
         "LFC Area",
-        "Control Area"
+        "Scheduling Area"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

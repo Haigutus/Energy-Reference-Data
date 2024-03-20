@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "CITADELENERGY",
         "CR182799",
-        "Trade Responsible Party",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "No post code provided",
     "@cim:Document.docStatus": "A05",

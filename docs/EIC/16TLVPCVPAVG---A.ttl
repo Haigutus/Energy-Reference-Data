@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLVPCVPAVG---A" ;
     cim:IdentifiedObject.name "Valpacos - Vila Pouca De Aguiar - Valdigem 220" ;
     cim:Names.name "Internal Line",
-        "LVPC.VPA/VG" ;
+        "LVPC_VPA_VG" ;
     dcterms:identifier "urn:eic:16TLVPCVPAVG---A" ;
-    skos:altLabel "LVPC.VPA/VG" ;
+    skos:altLabel "LVPC_VPA_VG" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Valpacos - Vila Pouca De Aguiar - Valdigem 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

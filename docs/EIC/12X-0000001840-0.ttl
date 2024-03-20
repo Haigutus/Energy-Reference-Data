@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-19" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Market Operator Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "12X-0000001840-0" ;
     cim:IdentifiedObject.name "Alpiq Trading AG" ;
     cim:Names.name "ALPIQ-TRADING-ST",
         "CHE115925686",
-        "Valid EIC Function needed" ;
+        "Capacity Trader" ;
     dcterms:identifier "urn:eic:12X-0000001840-0" ;
     schema1:vatID "CHE115925686" ;
     skos:altLabel "ALPIQ-TRADING-ST" ;

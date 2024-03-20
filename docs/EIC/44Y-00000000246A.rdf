@@ -4,10 +4,10 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:44Y-00000000246A</dcterms:identifier>
-    <skos:prefLabel>Enson tutkimustehdas; Imatra</skos:prefLabel>
+    <skos:prefLabel>Enson tutkimustehdas Imatra</skos:prefLabel>
     <skos:altLabel>FI_EGTU00</skos:altLabel>
     <cim:IdentifiedObject.mRID>44Y-00000000246A</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Enson tutkimustehdas; Imatra</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>Enson tutkimustehdas Imatra</cim:IdentifiedObject.name>
     <cim:Names.name>FI_EGTU00</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

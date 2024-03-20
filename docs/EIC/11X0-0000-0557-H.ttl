@@ -7,10 +7,10 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-08-23" ;
+    cim:DateAndOrTime.date "2023-11-01" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11X0-0000-0557-H" ;
-    cim:IdentifiedObject.name "Tibber Deutschland" ;
+    cim:IdentifiedObject.name "Tibber Deutschland GmbH" ;
     cim:Names.name "Balance Responsible Party",
         "DE326970067",
         "TIBBER_GER" ;
@@ -18,6 +18,6 @@
     schema1:vatID "DE326970067" ;
     skos:altLabel "TIBBER_GER" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Tibber Deutschland" ;
+    skos:prefLabel "Tibber Deutschland GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

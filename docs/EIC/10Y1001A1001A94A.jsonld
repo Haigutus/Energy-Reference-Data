@@ -22,9 +22,9 @@
     "@cim:IdentifiedObject.name": "Synchronous area of Baltic states",
     "@cim:Names.name": [
         "SYN_BALTICS",
-        "Synchronous Area",
         "LFC Area",
-        "LFC Block"
+        "LFC Block",
+        "Synchronous Area"
     ],
     "@cim:IdentifiedObject.description": "Synchronous Area",
     "@cim:Document.docStatus": "A05",

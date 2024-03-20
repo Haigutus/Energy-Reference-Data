@@ -24,8 +24,8 @@
         "PROTERGIA-ENERGY",
         "A00167256.GR",
         "EL998384130",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Supply and trading of electricity",
     "@cim:Document.docStatus": "A05",

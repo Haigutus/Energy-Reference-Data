@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "NETRA",
         "DK41419849",
-        "Trade Responsible Party",
         "Capacity Trader",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

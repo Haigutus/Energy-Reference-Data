@@ -7,19 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2012-10-05" ;
+    cim:DateAndOrTime.date "2023-10-23" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Production Responsible Party" ;
     cim:IdentifiedObject.mRID "18XAFRIC-12345-6" ;
-    cim:IdentifiedObject.name "AFRICANA ENERGIA .S.L." ;
+    cim:IdentifiedObject.name "AFRICANA ENERGÍA, S.A." ;
     cim:Names.name "AFRIC",
-        "ESB14814487",
+        "ESA14814487",
         "Production Responsible party" ;
     dcterms:identifier "urn:eic:18XAFRIC-12345-6" ;
-    schema1:vatID "ESB14814487" ;
+    schema1:vatID "ESA14814487" ;
     skos:altLabel "AFRIC" ;
-    skos:definition "Production Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "AFRICANA ENERGIA .S.L." ;
+    skos:prefLabel "AFRICANA ENERGÍA, S.A." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

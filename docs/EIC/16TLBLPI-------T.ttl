@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLBLPI-------T" ;
     cim:IdentifiedObject.name "Batalha-Paraimo" ;
     cim:Names.name "Internal Line",
-        "LBL.PI" ;
+        "LBL_PI" ;
     dcterms:identifier "urn:eic:16TLBLPI-------T" ;
-    skos:altLabel "LBL.PI" ;
+    skos:altLabel "LBL_PI" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Batalha-Paraimo" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

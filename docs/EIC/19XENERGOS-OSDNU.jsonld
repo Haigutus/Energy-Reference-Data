@@ -19,12 +19,12 @@
     "@cim:Names.name": [
         "ENERGOSTREFAOSDN",
         "PL6262955246",
-        "Energy Supplier",
-        "Meter Administrator",
-        "Grid Access Provider",
-        "Metered Data Responsible",
         "Consumer",
-        "System Operator"
+        "Energy Supplier",
+        "System Operator",
+        "Metered Data Responsible",
+        "Grid Access Provider",
+        "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

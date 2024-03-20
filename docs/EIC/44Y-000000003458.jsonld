@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:44Y-000000003458",
     "@skos:prefLabel": "Ahvenanmaan verkko",
-    "@skos:altLabel": "FI_ÅL0000",
+    "@skos:altLabel": "FI_AL0000",
     "@cim:IdentifiedObject.mRID": "44Y-000000003458",
     "@cim:IdentifiedObject.name": "Ahvenanmaan verkko",
     "@cim:Names.name": [
-        "FI_ÅL0000",
+        "FI_AL0000",
         "Metering Grid Area"
     ],
     "@cim:Document.docStatus": "A05",

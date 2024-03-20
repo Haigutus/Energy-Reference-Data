@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLPGRM-------8</dcterms:identifier>
     <skos:prefLabel>Pego-Rio Maior</skos:prefLabel>
-    <skos:altLabel>LPG.RM</skos:altLabel>
+    <skos:altLabel>LPG_RM</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLPGRM-------8</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Pego-Rio Maior</cim:IdentifiedObject.name>
-    <cim:Names.name>LPG.RM</cim:Names.name>
+    <cim:Names.name>LPG_RM</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

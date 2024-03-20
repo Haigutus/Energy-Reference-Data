@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ESV8",
         "PL8961539709",
-        "Metered Data Responsible",
-        "Meter Administrator",
-        "Energy Supplier",
         "Grid Access Provider",
-        "System Operator"
+        "Energy Supplier",
+        "System Operator",
+        "Meter Administrator",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

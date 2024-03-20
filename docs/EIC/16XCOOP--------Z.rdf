@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16XCOOP--------Z</dcterms:identifier>
     <skos:prefLabel>COOP&#201;RNICO - COOPERATIVA DE DESENVOLVIMENTO SUSTENT&#193;VEL CRL</skos:prefLabel>
-    <skos:altLabel>COOP&#201;RNICO</skos:altLabel>
+    <skos:altLabel>COOPERNICO</skos:altLabel>
     <cim:IdentifiedObject.mRID>16XCOOP--------Z</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>COOP&#201;RNICO - COOPERATIVA DE DESENVOLVIMENTO SUSTENT&#193;VEL CRL</cim:IdentifiedObject.name>
-    <cim:Names.name>COOP&#201;RNICO</cim:Names.name>
+    <cim:Names.name>COOPERNICO</cim:Names.name>
     <cim:Names.name>PT510852270</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

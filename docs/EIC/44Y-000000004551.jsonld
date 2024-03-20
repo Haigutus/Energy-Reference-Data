@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:44Y-000000004551",
     "@skos:prefLabel": "Ämmässuo",
-    "@skos:altLabel": "FI_ÄMS000",
+    "@skos:altLabel": "FI_AMS000",
     "@cim:IdentifiedObject.mRID": "44Y-000000004551",
     "@cim:IdentifiedObject.name": "Ämmässuo",
     "@cim:Names.name": [
-        "FI_ÄMS000",
+        "FI_AMS000",
         "Metering Grid Area"
     ],
     "@cim:Document.docStatus": "A05",

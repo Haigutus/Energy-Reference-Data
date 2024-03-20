@@ -25,8 +25,8 @@
         "CHE105779348",
         "Trade Responsible Party",
         "System Operator",
-        "Energy Supplier",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "System Operator Balance Supplier",
     "@cim:Document.docStatus": "A05",

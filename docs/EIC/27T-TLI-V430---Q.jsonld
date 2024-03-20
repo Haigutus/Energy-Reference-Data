@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V430---Q",
     "@skos:prefLabel": "CEPS_V430 Chrást-Hradec Východ",
-    "@skos:altLabel": "CCHR__1*CHRD__1*",
+    "@skos:altLabel": "CCHR__1_CHRD__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V430---Q",
     "@cim:IdentifiedObject.name": "CEPS_V430 Chrást-Hradec Východ",
     "@cim:Names.name": [
-        "CCHR__1*CHRD__1*",
+        "CCHR__1_CHRD__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

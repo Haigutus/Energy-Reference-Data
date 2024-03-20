@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "VECOM",
         "SK2022286453",
-        "Trade Responsible Party",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "The company changed its business name and address. The business register ID is used for VAT code as the company does not have a EU VAT code issued at the moment. Prior to the issuing of the EU VAT code, the company needs to prove some financial turnover which will take period of probably several months and for which the company needs to have e.g. EIC code. The company is registered in Business register of Slovak republic under ID 36 699 624 (https://orsr.sk/hladaj_ico.asp?lan=en&ICO=36+699+624&SID=8) and has also the ACER code: A0018320O.SK",
     "@cim:Document.docStatus": "A05",

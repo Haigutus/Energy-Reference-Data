@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Balance Supplier Balance Group" ;
     cim:IdentifiedObject.mRID "12X-0000001907-R" ;
     cim:IdentifiedObject.name "Valmer Trading Sàrl" ;
     cim:Names.name "CHE191614797",
-        "VALMERTRADING-ST",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "VALMERTRADING-ST" ;
     dcterms:identifier "urn:eic:12X-0000001907-R" ;
     schema1:vatID "CHE191614797" ;
     skos:altLabel "VALMERTRADING-ST" ;

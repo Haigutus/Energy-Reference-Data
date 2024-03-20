@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPGRM-------8",
     "@skos:prefLabel": "Pego-Rio Maior",
-    "@skos:altLabel": "LPG.RM",
+    "@skos:altLabel": "LPG_RM",
     "@cim:IdentifiedObject.mRID": "16TLPGRM-------8",
     "@cim:IdentifiedObject.name": "Pego-Rio Maior",
     "@cim:Names.name": [
-        "LPG.RM",
+        "LPG_RM",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "ESV-WISLOSAN",
         "PL8671871281",
-        "Consumer",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Consumer"
     ],
     "@cim:IdentifiedObject.description": "Capacity Trader, Consumer, Network User",
     "@cim:Document.docStatus": "A05",

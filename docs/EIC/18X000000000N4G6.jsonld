@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "ES-MASNORTE",
         "ESB74466004",
-        "Market Operator",
+        "Balance Responsible Party",
         "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Market Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V422---M" ;
     cim:IdentifiedObject.name "CEPS_V422 Cebín-Mírovka" ;
-    cim:Names.name "CCEB__1*CHBM__1*",
+    cim:Names.name "CCEB__1_CHBM__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V422---M" ;
-    skos:altLabel "CCEB__1*CHBM__1*" ;
+    skos:altLabel "CCEB__1_CHBM__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V422 Cebín-Mírovka" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

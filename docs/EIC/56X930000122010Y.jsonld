@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/56X930000122010Y",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:56X930000122010Y",
+    "@skos:prefLabel": "UAB LIUKOSTA",
+    "@skos:altLabel": "LIUKOSTA_UAB",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Contact persone: Volodymyr Iegorov +37064742608 liukosta@onet.eu"
+    },
+    "@cim:IdentifiedObject.mRID": "56X930000122010Y",
+    "@cim:IdentifiedObject.name": "UAB LIUKOSTA",
+    "@cim:Names.name": [
+        "LIUKOSTA_UAB",
+        "LT100015115716",
+        "Trade Responsible Party",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "Contact persone: Volodymyr Iegorov +37064742608 liukosta@onet.eu",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-08-05",
+    "@schema:vatID": "LT100015115716",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

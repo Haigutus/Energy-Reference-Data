@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ES-SUNBONERO",
         "ESB88638457",
+        "Trade Responsible Party",
+        "Production Responsible party",
         "Market Operator",
         "Balance Responsible Party",
-        "Production Responsible party",
-        "Grid Access Provider",
-        "Trade Responsible Party"
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

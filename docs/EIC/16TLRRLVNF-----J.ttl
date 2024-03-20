@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLRRLVNF-----J" ;
     cim:IdentifiedObject.name "Recarei-Vila Nova Famalicão" ;
     cim:Names.name "Internal Line",
-        "LRR.LVNF" ;
+        "LRR_LVNF" ;
     dcterms:identifier "urn:eic:16TLRRLVNF-----J" ;
-    skos:altLabel "LRR.LVNF" ;
+    skos:altLabel "LRR_LVNF" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Recarei-Vila Nova Famalicão" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

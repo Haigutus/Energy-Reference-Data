@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "45T000000000051U" ;
     cim:IdentifiedObject.name "400 Hovegård Gørløsegård" ;
-    cim:Names.name "HVE_400_GØR",
+    cim:Names.name "HVE_400_GOR",
         "Internal Line" ;
     dcterms:identifier "urn:eic:45T000000000051U" ;
-    skos:altLabel "HVE_400_GØR" ;
+    skos:altLabel "HVE_400_GOR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "400 Hovegård Gørløsegård" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

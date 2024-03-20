@@ -4,14 +4,14 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:11T0-0000-0540-O</dcterms:identifier>
-    <skos:prefLabel>AMP / 220kV / Wengerohr - Wei&#223;enthurm / Kondelwald Ost</skos:prefLabel>
+    <skos:prefLabel>AMP / 220kV / Wengerohr - Weissenthurm / Kondelwald</skos:prefLabel>
     <skos:altLabel>KONDLW</skos:altLabel>
     <cim:IdentifiedObject.mRID>11T0-0000-0540-O</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>AMP / 220kV / Wengerohr - Wei&#223;enthurm / Kondelwald Ost</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>AMP / 220kV / Wengerohr - Weissenthurm / Kondelwald</cim:IdentifiedObject.name>
     <cim:Names.name>KONDLW</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2020-09-03</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-11-01</cim:DateAndOrTime.date>
     <cim:Names.name>Internal Line</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>

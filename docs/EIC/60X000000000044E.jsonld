@@ -20,8 +20,8 @@
         "DISTRIGAZ-VEST",
         "A00055745.RO",
         "RO14370054",
-        "Resource Provider",
         "Distribution System Operator",
+        "Resource Provider",
         "Network User"
     ],
     "@cim:Document.docStatus": "A05",

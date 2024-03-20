@@ -7,17 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-11-30" ;
+    cim:DateAndOrTime.date "2023-10-05" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Nouveau code EIC" ;
+    cim:IdentifiedObject.description "Changement de nom + modification du responsible party" ;
     cim:IdentifiedObject.mRID "17W000001445568W" ;
-    cim:IdentifiedObject.name "Parc éolien en mer de Fécamp \"Hautes Falaises\"" ;
+    cim:IdentifiedObject.name "Eoliennes Offshore des Hautes Falaises" ;
     cim:Names.name "FR_HAUTESFALAISE",
         "Production Unit" ;
     dcterms:identifier "urn:eic:17W000001445568W" ;
     skos:altLabel "FR_HAUTESFALAISE" ;
-    skos:definition "Nouveau code EIC"@en ;
+    skos:definition "Changement de nom + modification du responsible party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Parc éolien en mer de Fécamp \"Hautes Falaises\"" ;
+    skos:prefLabel "Eoliennes Offshore des Hautes Falaises" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

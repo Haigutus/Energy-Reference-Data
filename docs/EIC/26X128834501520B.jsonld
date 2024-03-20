@@ -13,17 +13,17 @@
     },
     "@dcterms:identifier": "urn:eic:26X128834501520B",
     "@skos:prefLabel": "UNARETI SPA",
-    "@skos:altLabel": "IT-UNARETISPA",
+    "@skos:altLabel": "IT-UNARETISPASPA",
     "@cim:IdentifiedObject.mRID": "26X128834501520B",
     "@cim:IdentifiedObject.name": "UNARETI SPA",
     "@cim:Names.name": [
-        "IT-UNARETISPA",
+        "IT-UNARETISPASPA",
         "IT12883450152",
         "Distribution System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-11-11",
+    "@cim:DateAndOrTime.date": "2023-09-27",
     "@schema:vatID": "IT12883450152",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

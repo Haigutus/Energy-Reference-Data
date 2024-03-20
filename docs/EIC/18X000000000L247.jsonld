@@ -20,8 +20,8 @@
         "ES-ENEX",
         "ESB05405204",
         "Production Responsible party",
-        "Capacity Trader",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Capacity Trader"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

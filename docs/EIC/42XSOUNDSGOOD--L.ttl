@@ -13,10 +13,10 @@
     cim:IdentifiedObject.name "Sounds good s.r.o" ;
     cim:Names.name "Capacity Trader",
         "SK2022553049",
-        "SOUNDSGOOD,S.R.O" ;
+        "SOUNDSGOOD_S_R_O" ;
     dcterms:identifier "urn:eic:42XSOUNDSGOOD--L" ;
     schema1:vatID "SK2022553049" ;
-    skos:altLabel "SOUNDSGOOD,S.R.O" ;
+    skos:altLabel "SOUNDSGOOD_S_R_O" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Sounds good s.r.o" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLFFRJ-------I",
     "@skos:prefLabel": "Fernão Ferro-Ribatejo",
-    "@skos:altLabel": "LFF.RJ",
+    "@skos:altLabel": "LFF_RJ",
     "@cim:IdentifiedObject.mRID": "16TLFFRJ-------I",
     "@cim:IdentifiedObject.name": "Fernão Ferro-Ribatejo",
     "@cim:Names.name": [
-        "LFF.RJ",
+        "LFF_RJ",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

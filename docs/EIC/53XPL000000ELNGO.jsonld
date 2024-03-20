@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ELENGER",
         "PL1133036724",
-        "Energy Supplier",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

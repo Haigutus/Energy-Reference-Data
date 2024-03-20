@@ -7,19 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2011-08-03" ;
+    cim:DateAndOrTime.date "2023-10-10" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "11XEMGMGGMBH---L" ;
-    cim:IdentifiedObject.name "ExxonMobil Gas Marketing Deutschland GmbH" ;
+    cim:IdentifiedObject.name "Mobil Erdgas-Erdöl GmbH" ;
     cim:Names.name "Balance Responsible Party",
-        "DE813912379",
+        "DE811140133",
         "EMGMGGMBH" ;
     dcterms:identifier "urn:eic:11XEMGMGGMBH---L" ;
-    schema1:vatID "DE813912379" ;
+    schema1:vatID "DE811140133" ;
     skos:altLabel "EMGMGGMBH" ;
-    skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "ExxonMobil Gas Marketing Deutschland GmbH" ;
+    skos:prefLabel "Mobil Erdgas-Erdöl GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

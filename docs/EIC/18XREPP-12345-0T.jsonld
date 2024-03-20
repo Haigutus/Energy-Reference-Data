@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "REPP",
         "ESA28047223",
-        "Consumption Responsible Party",
         "Producer",
-        "Production Responsible party"
+        "Production Responsible party",
+        "Consumption Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

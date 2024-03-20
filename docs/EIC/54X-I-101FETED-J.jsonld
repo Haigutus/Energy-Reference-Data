@@ -20,8 +20,8 @@
         "FUENTEDYNAMICSAL",
         "M21421046C",
         "Trade Responsible Party",
-        "Producer",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

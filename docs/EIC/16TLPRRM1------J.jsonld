@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPRRM1------J",
     "@skos:prefLabel": "Pereiros-Rio Maior 1",
-    "@skos:altLabel": "LPR.RM1",
+    "@skos:altLabel": "LPR_RM1",
     "@cim:IdentifiedObject.mRID": "16TLPRRM1------J",
     "@cim:IdentifiedObject.name": "Pereiros-Rio Maior 1",
     "@cim:Names.name": [
-        "LPR.RM1",
+        "LPR_RM1",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

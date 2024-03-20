@@ -1,0 +1,24 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/54X-I01-AE-10-TZ> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-17" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "54X-I01-AE-10-TZ" ;
+    cim:IdentifiedObject.name "Alb Energy Trade" ;
+    cim:Names.name "A_E_T_F",
+        "Balance Group Responsible Party",
+        "Balance Responsible Party",
+        "M22127044J" ;
+    dcterms:identifier "urn:eic:54X-I01-AE-10-TZ" ;
+    schema1:vatID "M22127044J" ;
+    skos:altLabel "A_E_T_F" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Alb Energy Trade" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

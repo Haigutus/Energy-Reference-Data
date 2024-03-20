@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64XSOLAR-ERA-F4P> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-11-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ANRE License   A MMI nr.000137   / 03.11.2023" ;
+    cim:IdentifiedObject.mRID "64XSOLAR-ERA-F4P" ;
+    cim:IdentifiedObject.name "Solar Era Grup SRL" ;
+    cim:Names.name "0509191",
+        "Balance Responsible Party",
+        "SOLARERAGRUP_F",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:64XSOLAR-ERA-F4P" ;
+    schema1:vatID "0509191" ;
+    skos:altLabel "SOLARERAGRUP_F" ;
+    skos:definition "ANRE License   A MMI nr.000137   / 03.11.2023"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Solar Era Grup SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

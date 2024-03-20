@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V418---Z" ;
     cim:IdentifiedObject.name "CEPS_V418 Otrokovice-Prosenice" ;
-    cim:Names.name "COTR__1*CPRN__1*",
+    cim:Names.name "COTR__1_CPRN__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V418---Z" ;
-    skos:altLabel "COTR__1*CPRN__1*" ;
+    skos:altLabel "COTR__1_CPRN__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V418 Otrokovice-Prosenice" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

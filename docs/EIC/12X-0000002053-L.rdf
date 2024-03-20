@@ -10,12 +10,13 @@
     <cim:IdentifiedObject.mRID>12X-0000002053-L</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Avalon Electricity Fund c/o JTC Fund Services (Cayman) Ltd.</cim:IdentifiedObject.name>
     <cim:Names.name>AVALON-ELFUND-ST</cim:Names.name>
-    <cim:Names.name>A0013581F.UK</cim:Names.name>
+    <cim:Names.name>2138003P5ER1797GWW87</cim:Names.name>
     <cim:IdentifiedObject.description>In the meantime we got an ACER Number which I added now since we have no VAT</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2020-03-20</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-31</cim:DateAndOrTime.date>
     <cim:Names.name>Trade Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>2138003P5ER1797GWW87</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

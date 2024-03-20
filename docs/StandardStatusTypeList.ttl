@@ -517,8 +517,8 @@ In this case the resources are no longer available to all Acquiring System Opera
 <http://energy.referencedata.eu/StandardStatusTypeList> a skos:ConceptScheme,
         dcat:Dataset ;
     dcterms:identifier "ET0025" ;
-    dcterms:modified "2022-08-26" ;
+    dcterms:modified "2023-12-14" ;
     skos:definition "The condition or position of an object with regard to its standing."@en ;
     skos:prefLabel "StandardStatusTypeList" ;
-    dcat:version "83" .
+    dcat:version "91" .
 

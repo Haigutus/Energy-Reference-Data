@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLLGCMCC-----B" ;
     cim:IdentifiedObject.name "Lagoaca - Macedo De Cavaleiros 220" ;
     cim:Names.name "Internal Line",
-        "LLGC.MCC" ;
+        "LLGC_MCC" ;
     dcterms:identifier "urn:eic:16TLLGCMCC-----B" ;
-    skos:altLabel "LLGC.MCC" ;
+    skos:altLabel "LLGC_MCC" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Lagoaca - Macedo De Cavaleiros 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

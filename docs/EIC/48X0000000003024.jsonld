@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "SSETGSL",
         "GB553769603",
-        "Balance Responsible Party",
         "Balance Group Responsible Party",
-        "Production Responsible party"
+        "Production Responsible party",
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

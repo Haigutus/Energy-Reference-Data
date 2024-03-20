@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-25" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Strom-, Erdgas & Wasserversorger Der Region Thun" ;
     cim:IdentifiedObject.mRID "12XENERGIETHUN-Z" ;
     cim:IdentifiedObject.name "ENERGIE THUN AG" ;
     cim:Names.name "CH502446",
-        "ENERGIE_THUN",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "ENERGIE_THUN" ;
     dcterms:identifier "urn:eic:12XENERGIETHUN-Z" ;
     schema1:vatID "CH502446" ;
     skos:altLabel "ENERGIE_THUN" ;

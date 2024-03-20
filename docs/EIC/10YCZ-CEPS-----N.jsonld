@@ -24,10 +24,10 @@
         "CZ",
         "Bidding Zone",
         "LFC Block",
+        "Scheduling Area",
         "Member State",
-        "Control Area",
         "LFC Area",
-        "Scheduling Area"
+        "Control Area"
     ],
     "@cim:IdentifiedObject.description": "Bidding Zone, Control Area, Control Block, Market Balance Area, Member State, Scheduling Area",
     "@cim:Document.docStatus": "A05",

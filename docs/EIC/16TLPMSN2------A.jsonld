@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPMSN2------A",
     "@skos:prefLabel": "Palmela-Sines 2",
-    "@skos:altLabel": "LPM.SN2",
+    "@skos:altLabel": "LPM_SN2",
     "@cim:IdentifiedObject.mRID": "16TLPMSN2------A",
     "@cim:IdentifiedObject.name": "Palmela-Sines 2",
     "@cim:Names.name": [
-        "LPM.SN2",
+        "LPM_SN2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

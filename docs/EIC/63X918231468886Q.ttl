@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/63X918231468886Q> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-10-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Specialty Operations France a fait les demarches necessaires aupres du ministere pour obtenir l'autorisation au quatrieme trimestre 2023. Cette autorisation permettra a la societe: de fournir ses sites industriels, de proceder a  des achats sur le PEG (notamment en vue du programme Aggregate EU), d'enlever le biomethane produit par ses partenaires methaniseurs." ;
+    cim:IdentifiedObject.mRID "63X918231468886Q" ;
+    cim:IdentifiedObject.name "SPECIALTY OPERATIONS France" ;
+    cim:Names.name "Consumer",
+        "FR41922031505",
+        "FRG_SOF" ;
+    dcterms:identifier "urn:eic:63X918231468886Q" ;
+    schema1:vatID "FR41922031505" ;
+    skos:altLabel "FRG_SOF" ;
+    skos:definition "Specialty Operations France a fait les demarches necessaires aupres du ministere pour obtenir l'autorisation au quatrieme trimestre 2023. Cette autorisation permettra a la societe: de fournir ses sites industriels, de proceder a  des achats sur le PEG (notamment en vue du programme Aggregate EU), d'enlever le biomethane produit par ses partenaires methaniseurs."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "SPECIALTY OPERATIONS France" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

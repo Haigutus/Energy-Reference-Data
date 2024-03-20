@@ -7,10 +7,10 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-02-21" ;
+    cim:DateAndOrTime.date "2023-09-26" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11XEMB-GMBH----J" ;
-    cim:IdentifiedObject.name "EMB Energie Mark Brandenburg GmbH" ;
+    cim:IdentifiedObject.name "EMB Energie Brandenburg GmbH" ;
     cim:Names.name "Balance Responsible Party",
         "DE138404753",
         "EMB-GMBH" ;
@@ -18,6 +18,6 @@
     schema1:vatID "DE138404753" ;
     skos:altLabel "EMB-GMBH" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "EMB Energie Mark Brandenburg GmbH" ;
+    skos:prefLabel "EMB Energie Brandenburg GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

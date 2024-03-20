@@ -4,11 +4,11 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:21X000000001303N</dcterms:identifier>
-    <skos:prefLabel>B $amp; A Capital</skos:prefLabel>
+    <skos:prefLabel>B $amp A Capital</skos:prefLabel>
     <skos:altLabel>BACAP</skos:altLabel>
     <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>21X000000001303N</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>B $amp; A Capital</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>B $amp A Capital</cim:IdentifiedObject.name>
     <cim:Names.name>BACAP</cim:Names.name>
     <cim:Names.name>GB179546360</cim:Names.name>
     <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>

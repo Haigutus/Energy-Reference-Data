@@ -12,10 +12,10 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:44Y-00000000246A",
-    "@skos:prefLabel": "Enson tutkimustehdas; Imatra",
+    "@skos:prefLabel": "Enson tutkimustehdas Imatra",
     "@skos:altLabel": "FI_EGTU00",
     "@cim:IdentifiedObject.mRID": "44Y-00000000246A",
-    "@cim:IdentifiedObject.name": "Enson tutkimustehdas; Imatra",
+    "@cim:IdentifiedObject.name": "Enson tutkimustehdas Imatra",
     "@cim:Names.name": [
         "FI_EGTU00",
         "Metering Grid Area"

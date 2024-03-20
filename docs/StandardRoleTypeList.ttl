@@ -221,7 +221,7 @@
 
 <http://energy.referencedata.eu/StandardRoleTypeList/A32> a skos:Concept ;
     dcterms:identifier "A32" ;
-    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that collects information from different sources and assembles  it to provide a summary of the market."""@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
     skos:prefLabel "Market information aggregator" ;
@@ -229,7 +229,7 @@ A party that collects information from different sources and assembles  it to pr
 
 <http://energy.referencedata.eu/StandardRoleTypeList/A33> a skos:Concept ;
     dcterms:identifier "A33" ;
-    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party, not necessarily a market participant, which receives information about the market."""@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
     skos:prefLabel "Information receiver" ;
@@ -237,7 +237,7 @@ A party, not necessarily a market participant, which receives information about 
 
 <http://energy.referencedata.eu/StandardRoleTypeList/A34> a skos:Concept ;
     dcterms:identifier "A34" ;
-    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders."""@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
     skos:prefLabel "Reserve Allocator" ;
@@ -245,7 +245,7 @@ A party that informs the market of reserve requirements, receives tenders agains
 
 <http://energy.referencedata.eu/StandardRoleTypeList/A35> a skos:Concept ;
     dcterms:identifier "A35" ;
-    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that Informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders."""@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
     skos:prefLabel "MOL Responsible" ;
@@ -260,7 +260,7 @@ A party that Informs the market of reserve requirements, receives tenders agains
 
 <http://energy.referencedata.eu/StandardRoleTypeList/A37> a skos:Concept ;
     dcterms:identifier "A37" ;
-    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that is financially accountable for the reconciled volume of energy products for a profiled local metering point."""@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
     skos:prefLabel "Reconciliation Accountable" ;
@@ -385,11 +385,46 @@ A party that is financially accountable for the reconciled volume of energy prod
     skos:prefLabel "Settlement responsible" ;
     skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
 
+<http://energy.referencedata.eu/StandardRoleTypeList/A55> a skos:Concept ;
+    dcterms:identifier "A55" ;
+    skos:definition "Coordinated Capacity Calculator is the entity or entities with the task of calculating transmission capacity, at regional level or above."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Coordinated Capacity Calculator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A56> a skos:Concept ;
+    dcterms:identifier "A56" ;
+    skos:definition "A party that offers flexibility services based on acquired (aggregated) resources. "@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Flexibility service provider" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A57> a skos:Concept ;
+    dcterms:identifier "A57" ;
+    skos:definition "A party responsible for facilitating access to data."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Data access provider" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A58> a skos:Concept ;
+    dcterms:identifier "A58" ;
+    skos:definition "A party responsible for storing and distributing validated measured data."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Metered data administrator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
+<http://energy.referencedata.eu/StandardRoleTypeList/A59> a skos:Concept ;
+    dcterms:identifier "A59" ;
+    skos:definition "A party responsible for administrating a register of data access permissions for a set of metering points, making this information available to final customers and eligible parties in the sector, on request."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
+    skos:prefLabel "Permission administrator" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardRoleTypeList> .
+
 <http://energy.referencedata.eu/StandardRoleTypeList> a skos:ConceptScheme,
         dcat:Dataset ;
     dcterms:identifier "ET0005" ;
-    dcterms:modified "2022-08-26" ;
+    dcterms:modified "2023-12-14" ;
     skos:definition "Identification of the role played by a party."@en ;
     skos:prefLabel "StandardRoleTypeList" ;
-    dcat:version "83" .
+    dcat:version "91" .
 

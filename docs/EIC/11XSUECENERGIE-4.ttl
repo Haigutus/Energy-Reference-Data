@@ -7,18 +7,16 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2005-12-06" ;
+    cim:DateAndOrTime.date "2023-08-30" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Group" ;
     cim:IdentifiedObject.mRID "11XSUECENERGIE-4" ;
     cim:IdentifiedObject.name "SÜC Energie und H2O GmbH" ;
-    cim:Names.name "Balance Group",
+    cim:Names.name "Balance Responsible Party",
         "DE197190842",
         "SUECENERGIE" ;
     dcterms:identifier "urn:eic:11XSUECENERGIE-4" ;
     schema1:vatID "DE197190842" ;
     skos:altLabel "SUECENERGIE" ;
-    skos:definition "Balance Group"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "SÜC Energie und H2O GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

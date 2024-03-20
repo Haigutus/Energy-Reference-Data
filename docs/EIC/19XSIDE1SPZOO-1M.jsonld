@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "SIDE1_SP_ZO_O",
         "PL8952205009",
-        "Metered Data Responsible",
-        "Meter Administrator",
-        "Grid Access Provider",
         "Energy Supplier",
-        "System Operator"
+        "Metered Data Responsible",
+        "System Operator",
+        "Meter Administrator",
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

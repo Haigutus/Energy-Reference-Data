@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X9300001209302> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-19" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Contact persone: Volodymyr Poraiko +421948330320 info@menergyoil.sk" ;
+    cim:IdentifiedObject.mRID "56X9300001209302" ;
+    cim:IdentifiedObject.name "M ENERGY SLOVAKIA s.r.o." ;
+    cim:Names.name "2121815641",
+        "M_ENERGY_SLOVAK",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X9300001209302" ;
+    schema1:vatID "2121815641" ;
+    skos:altLabel "M_ENERGY_SLOVAK" ;
+    skos:definition "Contact persone: Volodymyr Poraiko +421948330320 info@menergyoil.sk"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "M ENERGY SLOVAKIA s.r.o." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

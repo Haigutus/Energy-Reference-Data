@@ -23,10 +23,11 @@
     "@cim:Names.name": [
         "ENERGI-DK-ST",
         "DK17225898",
-        "Balance Responsible Party"
+        "Balance Group",
+        "Balance Supplier"
     ],
     "@cim:IdentifiedObject.description": "Balance Group, Balance Supplier",
-    "@cim:Document.docStatus": "A05",
+    "@cim:Document.docStatus": "A03",
     "@cim:AttributeInstanceComponent.attribute": "International",
     "@cim:DateAndOrTime.date": "2023-05-31",
     "@schema:vatID": "DK17225898",

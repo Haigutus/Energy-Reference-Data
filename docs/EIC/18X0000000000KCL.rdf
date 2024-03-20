@@ -4,11 +4,11 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:18X0000000000KCL</dcterms:identifier>
-    <skos:prefLabel>GASINDUR; S.L.</skos:prefLabel>
+    <skos:prefLabel>GASINDUR S.L.</skos:prefLabel>
     <skos:altLabel>INDUR</skos:altLabel>
     <skos:definition xml:lang="en">Trade Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>18X0000000000KCL</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>GASINDUR; S.L.</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>GASINDUR S.L.</cim:IdentifiedObject.name>
     <cim:Names.name>INDUR</cim:Names.name>
     <cim:Names.name>ESB34041400</cim:Names.name>
     <cim:IdentifiedObject.description>Trade Responsible Party</cim:IdentifiedObject.description>

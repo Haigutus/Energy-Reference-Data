@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "SOPLA_OSDN",
         "PL6792770201",
-        "Metered Data Responsible",
         "Grid Access Provider",
-        "System Operator",
+        "Meter Administrator",
         "Energy Supplier",
-        "Meter Administrator"
+        "System Operator",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

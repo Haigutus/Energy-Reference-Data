@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCCFE2FTL---B" ;
     cim:IdentifiedObject.name "Castelo Branco - Ferro 2 - Fatela 220" ;
     cim:Names.name "Internal Line",
-        "LCC.FE2/FTL" ;
+        "LCC_FE2_FTL" ;
     dcterms:identifier "urn:eic:16TLCCFE2FTL---B" ;
-    skos:altLabel "LCC.FE2/FTL" ;
+    skos:altLabel "LCC_FE2_FTL" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Castelo Branco - Ferro 2 - Fatela 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

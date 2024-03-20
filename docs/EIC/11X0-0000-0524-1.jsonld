@@ -12,10 +12,10 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11X0-0000-0524-1",
-    "@skos:prefLabel": "HARTREE PARTNERS (GERMANY) LIMITED",
+    "@skos:prefLabel": "Hartree (Germany) GmbH",
     "@skos:altLabel": "HARTREE_GERMANY",
     "@cim:IdentifiedObject.mRID": "11X0-0000-0524-1",
-    "@cim:IdentifiedObject.name": "HARTREE PARTNERS (GERMANY) LIMITED",
+    "@cim:IdentifiedObject.name": "Hartree (Germany) GmbH",
     "@cim:Names.name": [
         "HARTREE_GERMANY",
         "DE815816513",
@@ -23,7 +23,7 @@
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-08-23",
+    "@cim:DateAndOrTime.date": "2023-09-08",
     "@schema:vatID": "DE815816513",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

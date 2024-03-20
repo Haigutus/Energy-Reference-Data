@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "BLUE_LNG",
         "PL6722077618",
-        "Trade Responsible Party",
-        "Distribution System Operator"
+        "Distribution System Operator",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPMSN3-FN---8",
     "@skos:prefLabel": "Palmela-Sines 3/Ramal Fanhões",
-    "@skos:altLabel": "LPM.SN3/FN",
+    "@skos:altLabel": "LPM_SN3_FN",
     "@cim:IdentifiedObject.mRID": "16TLPMSN3-FN---8",
     "@cim:IdentifiedObject.name": "Palmela-Sines 3/Ramal Fanhões",
     "@cim:Names.name": [
-        "LPM.SN3/FN",
+        "LPM_SN3_FN",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

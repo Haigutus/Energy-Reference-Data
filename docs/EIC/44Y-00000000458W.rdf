@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:44Y-00000000458W</dcterms:identifier>
     <skos:prefLabel>J&#228;rvenp&#228;&#228;n voimalaitos</skos:prefLabel>
-    <skos:altLabel>FI_KR&#196;000</skos:altLabel>
+    <skos:altLabel>FI_KRA000</skos:altLabel>
     <cim:IdentifiedObject.mRID>44Y-00000000458W</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>J&#228;rvenp&#228;&#228;n voimalaitos</cim:IdentifiedObject.name>
-    <cim:Names.name>FI_KR&#196;000</cim:Names.name>
+    <cim:Names.name>FI_KRA000</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2021-01-21</cim:DateAndOrTime.date>

@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "WWEN",
         "105718199",
-        "Trade Responsible Party",
-        "Producer"
+        "Producer",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

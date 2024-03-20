@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Zeebrugge Trading Point – H zone",
     "@cim:Names.name": [
         "ZTPH",
-        "Virtual Trading Points",
-        "Connection Point"
+        "Connection Point",
+        "Virtual Trading Points"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

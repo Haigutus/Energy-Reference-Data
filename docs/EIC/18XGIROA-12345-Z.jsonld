@@ -21,8 +21,8 @@
         "ESA20071429",
         "Market Operator",
         "Grid Access Provider",
-        "Production Responsible party",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Production Responsible party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

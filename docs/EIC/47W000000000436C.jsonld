@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Energy Trading Ireland Limited",
     "@cim:Names.name": [
         "IE436C",
-        "Load",
-        "Generation"
+        "Generation",
+        "Load"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

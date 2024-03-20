@@ -14,22 +14,17 @@
     "@dcterms:identifier": "urn:eic:11XSWAUGSBURG--9",
     "@skos:prefLabel": "Stadtwerke Augsburg Energie GmbH",
     "@skos:altLabel": "SWAUGSBURG",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XSWAUGSBURG--9",
     "@cim:IdentifiedObject.name": "Stadtwerke Augsburg Energie GmbH",
     "@cim:Names.name": [
         "SWAUGSBURG",
-        "DE813286878",
+        "DE813286894",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2014-04-17",
-    "@schema:vatID": "DE813286878",
+    "@cim:DateAndOrTime.date": "2023-08-30",
+    "@schema:vatID": "DE813286894",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

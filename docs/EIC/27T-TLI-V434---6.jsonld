@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V434---6",
     "@skos:prefLabel": "CEPS_V434 Cebín-Slavetice",
-    "@skos:altLabel": "CCEB__1*CSLV__1*",
+    "@skos:altLabel": "CCEB__1_CSLV__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V434---6",
     "@cim:IdentifiedObject.name": "CEPS_V434 Cebín-Slavetice",
     "@cim:Names.name": [
-        "CCEB__1*CSLV__1*",
+        "CCEB__1_CSLV__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -12,7 +12,7 @@
     <cim:Names.name>ESR4800502I</cim:Names.name>
     <cim:Document.docStatus>A03</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2023-05-04</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-07-31</cim:DateAndOrTime.date>
     <cim:Names.name>Consumption Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>ESR4800502I</schema:vatID>

@@ -19,16 +19,16 @@
     "@cim:Names.name": [
         "44CACTOS",
         "FI32498472",
-        "Coordination Center Operator",
-        "Resource Provider",
-        "Storage System Operator",
-        "Market Operator",
-        "Trade Responsible Party",
-        "Producer",
         "Network User",
         "Energy Supplier",
+        "Trade Responsible Party",
         "Platform Operator",
-        "Imbalance Settlement Responsible"
+        "Producer",
+        "Storage System Operator",
+        "Coordination Center Operator",
+        "Imbalance Settlement Responsible",
+        "Resource Provider",
+        "Market Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

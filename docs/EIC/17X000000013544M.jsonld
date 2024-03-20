@@ -24,8 +24,8 @@
         "FR_LYONDELL",
         "FR38333834562",
         "Consumer",
-        "Party Connected To Grid",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Party Connected To Grid"
     ],
     "@cim:IdentifiedObject.description": "LYONDELL CHIMIE FRANCE SAS",
     "@cim:Document.docStatus": "A05",

@@ -14,10 +14,6 @@
     "@dcterms:identifier": "urn:eic:11XWEMAG-NETZ--T",
     "@skos:prefLabel": "WEMAG Netz GmbH",
     "@skos:altLabel": "WEMAG-NETZ",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XWEMAG-NETZ--T",
     "@cim:IdentifiedObject.name": "WEMAG Netz GmbH",
     "@cim:Names.name": [
@@ -25,10 +21,9 @@
         "DE253714787",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2014-05-15",
+    "@cim:DateAndOrTime.date": "2023-07-17",
     "@schema:vatID": "DE253714787",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

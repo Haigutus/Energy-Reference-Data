@@ -22,11 +22,11 @@
     "@cim:IdentifiedObject.name": "Ireland",
     "@cim:Names.name": [
         "IE",
+        "Control Area",
+        "Member State",
         "LFC Block",
         "Scheduling Area",
-        "LFC Area",
-        "Member State",
-        "Control Area"
+        "LFC Area"
     ],
     "@cim:IdentifiedObject.description": "Control Area, Member State, Scheduling Area",
     "@cim:Document.docStatus": "A05",

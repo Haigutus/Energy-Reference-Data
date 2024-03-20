@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLALFN-------M</dcterms:identifier>
     <skos:prefLabel>Alcochete-Fanhoes</skos:prefLabel>
-    <skos:altLabel>LAL.FN</skos:altLabel>
+    <skos:altLabel>LAL_FN</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLALFN-------M</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Alcochete-Fanhoes</cim:IdentifiedObject.name>
-    <cim:Names.name>LAL.FN</cim:Names.name>
+    <cim:Names.name>LAL_FN</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

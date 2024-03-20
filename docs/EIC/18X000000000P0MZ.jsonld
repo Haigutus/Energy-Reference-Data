@@ -21,11 +21,11 @@
         "ESB22314975",
         "Market Operator",
         "Production Responsible party",
-        "Grid Access Provider",
         "Trade Responsible Party",
-        "Balance Responsible Party",
+        "Consumption Responsible Party",
         "Capacity Trader",
-        "Consumption Responsible Party"
+        "Grid Access Provider",
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

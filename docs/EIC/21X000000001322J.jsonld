@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "NEWENERGYLIMITED",
         "328181625266",
+        "Market Operator",
+        "Capacity Trader",
         "Balance Responsible Party",
         "Interconnection Trade Responsible",
-        "Capacity Trader",
         "Trade Responsible Party",
-        "Energy Supplier",
-        "Market Operator"
+        "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party,Balance Supplier,Capacty Trader,Interconnection Trade Responsible,Market Operator,Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

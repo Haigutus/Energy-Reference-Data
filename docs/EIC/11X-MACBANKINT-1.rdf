@@ -6,15 +6,13 @@
     <dcterms:identifier>urn:eic:11X-MACBANKINT-1</dcterms:identifier>
     <skos:prefLabel>Macquarie Bank International Limited</skos:prefLabel>
     <skos:altLabel>MACBANKINT</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11X-MACBANKINT-1</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Macquarie Bank International Limited</cim:IdentifiedObject.name>
     <cim:Names.name>MACBANKINT</cim:Names.name>
     <cim:Names.name>GB577704800</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2017-08-21</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-11-15</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>GB577704800</schema:vatID>

@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TAT3400220SPIK" ;
     cim:IdentifiedObject.name "AT 3 400/220 SPI" ;
-    cim:Names.name "AT3400/220SPI",
+    cim:Names.name "AT3400_220SPI",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TAT3400220SPIK" ;
-    skos:altLabel "AT3400/220SPI" ;
+    skos:altLabel "AT3400_220SPI" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "AT 3 400/220 SPI" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

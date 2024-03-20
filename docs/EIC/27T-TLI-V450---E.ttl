@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V450---E" ;
     cim:IdentifiedObject.name "CEPS_V450 Babylon-Výškov" ;
-    cim:Names.name "CBAB__1*CVYSH_1*",
+    cim:Names.name "CBAB__1_CVYSH_1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V450---E" ;
-    skos:altLabel "CBAB__1*CVYSH_1*" ;
+    skos:altLabel "CBAB__1_CVYSH_1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V450 Babylon-Výškov" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

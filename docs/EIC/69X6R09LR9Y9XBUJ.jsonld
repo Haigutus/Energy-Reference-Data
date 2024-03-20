@@ -12,23 +12,23 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:69X6R09LR9Y9XBUJ",
-    "@skos:prefLabel": "RESXSTONE ENERGY INTERNATIONAL DMCC",
+    "@skos:prefLabel": "REXSTONE ENERGY INTERNATIONAL DMCC",
     "@skos:altLabel": "REXSTONE-ENERGY",
     "@cim:IdentifiedObject.mRID": "69X6R09LR9Y9XBUJ",
-    "@cim:IdentifiedObject.name": "RESXSTONE ENERGY INTERNATIONAL DMCC",
+    "@cim:IdentifiedObject.name": "REXSTONE ENERGY INTERNATIONAL DMCC",
     "@cim:Names.name": [
         "REXSTONE-ENERGY",
         "18009154W",
+        "LNG System Operator",
         "Balance Responsible Party",
-        "Platform Operator",
         "Network User",
         "Capacity Trader",
-        "LNG System Operator",
-        "Market Operator"
+        "Market Operator",
+        "Platform Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-12-07",
+    "@cim:DateAndOrTime.date": "2023-09-18",
     "@schema:vatID": "18009154W",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

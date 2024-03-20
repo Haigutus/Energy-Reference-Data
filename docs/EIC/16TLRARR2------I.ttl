@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLRARR2------I" ;
     cim:IdentifiedObject.name "Riba d'Ave-Recarei 2" ;
     cim:Names.name "Internal Line",
-        "LRA.RR2" ;
+        "LRA_RR2" ;
     dcterms:identifier "urn:eic:16TLRARR2------I" ;
-    skos:altLabel "LRA.RR2" ;
+    skos:altLabel "LRA_RR2" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Riba d'Ave-Recarei 2" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

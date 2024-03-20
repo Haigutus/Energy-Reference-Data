@@ -4,14 +4,14 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:46WPU0000000152M</dcterms:identifier>
-    <skos:prefLabel>Erstr&#228;sk Vindkraft</skos:prefLabel>
-    <skos:altLabel>ERSTRASK_VINDKRA</skos:altLabel>
+    <skos:prefLabel>Erstr&#228;sk South (ERS)</skos:prefLabel>
+    <skos:altLabel>ERSTRASK_SOUTH</skos:altLabel>
     <cim:IdentifiedObject.mRID>46WPU0000000152M</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Erstr&#228;sk Vindkraft</cim:IdentifiedObject.name>
-    <cim:Names.name>ERSTRASK_VINDKRA</cim:Names.name>
+    <cim:IdentifiedObject.name>Erstr&#228;sk South (ERS)</cim:IdentifiedObject.name>
+    <cim:Names.name>ERSTRASK_SOUTH</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-11-22</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-12-05</cim:DateAndOrTime.date>
     <cim:Names.name>Production Unit</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>

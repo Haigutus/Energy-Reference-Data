@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V436---X" ;
     cim:IdentifiedObject.name "CEPS_V436 Slavetice-Sokolnice" ;
-    cim:Names.name "CSLV__1*CSOK__11",
+    cim:Names.name "CSLV__1_CSOK__11",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V436---X" ;
-    skos:altLabel "CSLV__1*CSOK__11" ;
+    skos:altLabel "CSLV__1_CSOK__11" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V436 Slavetice-Sokolnice" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

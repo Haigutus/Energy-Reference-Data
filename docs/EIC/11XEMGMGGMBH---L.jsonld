@@ -12,24 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11XEMGMGGMBH---L",
-    "@skos:prefLabel": "ExxonMobil Gas Marketing Deutschland GmbH",
+    "@skos:prefLabel": "Mobil Erdgas-Erdöl GmbH",
     "@skos:altLabel": "EMGMGGMBH",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XEMGMGGMBH---L",
-    "@cim:IdentifiedObject.name": "ExxonMobil Gas Marketing Deutschland GmbH",
+    "@cim:IdentifiedObject.name": "Mobil Erdgas-Erdöl GmbH",
     "@cim:Names.name": [
         "EMGMGGMBH",
-        "DE813912379",
+        "DE811140133",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2011-08-03",
-    "@schema:vatID": "DE813912379",
+    "@cim:DateAndOrTime.date": "2023-10-10",
+    "@schema:vatID": "DE811140133",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

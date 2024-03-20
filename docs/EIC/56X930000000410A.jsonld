@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:56X930000000410A",
     "@skos:prefLabel": "\"GK Investservis\" LLC.",
-    "@skos:altLabel": "GK.INVESTSERVIS",
+    "@skos:altLabel": "GK_INVESTSERVIS",
     "@cim:IdentifiedObject.mRID": "56X930000000410A",
     "@cim:IdentifiedObject.name": "\"GK Investservis\" LLC.",
     "@cim:Names.name": [
-        "GK.INVESTSERVIS",
+        "GK_INVESTSERVIS",
         "UA389838716013",
         "Network User"
     ],

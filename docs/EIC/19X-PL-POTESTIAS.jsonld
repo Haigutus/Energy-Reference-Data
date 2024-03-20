@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "POTESTIA",
         "PL5272754572",
-        "Energy Supplier",
-        "System Operator",
         "Meter Administrator",
-        "Metered Data Responsible",
-        "Grid Access Provider"
+        "System Operator",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

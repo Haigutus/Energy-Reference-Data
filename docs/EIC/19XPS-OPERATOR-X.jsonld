@@ -20,11 +20,11 @@
         "PS_OPERATORSPZOO",
         "A00127683.PL",
         "PL6272733671",
-        "System Operator",
         "Meter Administrator",
+        "Grid Access Provider",
         "Metered Data Responsible",
         "Energy Supplier",
-        "Grid Access Provider"
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

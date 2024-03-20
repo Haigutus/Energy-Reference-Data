@@ -12,22 +12,22 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:10T-LU-DE-00002E",
-    "@skos:prefLabel": "Heisdorf-Trier",
-    "@skos:altLabel": "L_HEISDORF-TRIER",
+    "@skos:prefLabel": "AMP-CREOS / 220kV / Trier - Blooren / Blooren-Trier Sued",
+    "@skos:altLabel": "L_BLOOREN-TRIER",
     "@skos:definition": {
         "@language": "en",
         "@value": "Tieline"
     },
     "@cim:IdentifiedObject.mRID": "10T-LU-DE-00002E",
-    "@cim:IdentifiedObject.name": "Heisdorf-Trier",
+    "@cim:IdentifiedObject.name": "AMP-CREOS / 220kV / Trier - Blooren / Blooren-Trier Sued",
     "@cim:Names.name": [
-        "L_HEISDORF-TRIER",
+        "L_BLOOREN-TRIER",
         "Tieline"
     ],
     "@cim:IdentifiedObject.description": "Tieline",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2012-06-12",
+    "@cim:DateAndOrTime.date": "2023-11-02",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

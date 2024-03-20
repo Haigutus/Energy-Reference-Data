@@ -6,15 +6,13 @@
     <dcterms:identifier>urn:eic:11XBASF-BSW-SH-D</dcterms:identifier>
     <skos:prefLabel>BASF Schwarzheide GmbH</skos:prefLabel>
     <skos:altLabel>BSW</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11XBASF-BSW-SH-D</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BASF Schwarzheide GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>BSW</cim:Names.name>
     <cim:Names.name>DE811122744</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2013-05-02</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-30</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE811122744</schema:vatID>

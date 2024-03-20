@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V473---O" ;
     cim:IdentifiedObject.name "CEPS_V473 Dasný-Kocín" ;
-    cim:Names.name "CDAS__1*CKOCH_1*",
+    cim:Names.name "CDAS__1_CKOCH_1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V473---O" ;
-    skos:altLabel "CDAS__1*CKOCH_1*" ;
+    skos:altLabel "CDAS__1_CKOCH_1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V473 Dasný-Kocín" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

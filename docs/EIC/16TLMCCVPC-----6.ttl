@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLMCCVPC-----6" ;
     cim:IdentifiedObject.name "Macedo De Cavaleiros - Valpacos 220" ;
     cim:Names.name "Internal Line",
-        "LMCC.VPC" ;
+        "LMCC_VPC" ;
     dcterms:identifier "urn:eic:16TLMCCVPC-----6" ;
-    skos:altLabel "LMCC.VPC" ;
+    skos:altLabel "LMCC_VPC" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Macedo De Cavaleiros - Valpacos 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

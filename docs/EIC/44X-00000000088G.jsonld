@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "44LIIKENNEVIRTA",
         "FI25889862",
-        "Resource Provider",
         "Capacity Trader",
-        "Storage System Operator",
         "Measurement Service Provider",
-        "Platform Operator"
+        "Storage System Operator",
+        "Platform Operator",
+        "Resource Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

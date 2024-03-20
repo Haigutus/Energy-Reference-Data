@@ -14,10 +14,6 @@
     "@dcterms:identifier": "urn:eic:11XAIRLIQUIDE--X",
     "@skos:prefLabel": "AIR LIQUIDE Deutschland GmbH",
     "@skos:altLabel": "AIR-LIQUIDE",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "VAT was wrong"
-    },
     "@cim:IdentifiedObject.mRID": "11XAIRLIQUIDE--X",
     "@cim:IdentifiedObject.name": "AIR LIQUIDE Deutschland GmbH",
     "@cim:Names.name": [
@@ -25,10 +21,9 @@
         "DE121289819",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "VAT was wrong",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-05-19",
+    "@cim:DateAndOrTime.date": "2023-11-15",
     "@schema:vatID": "DE121289819",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

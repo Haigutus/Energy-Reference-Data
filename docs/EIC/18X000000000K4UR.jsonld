@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ES-UBORA",
         "ESB01606755",
-        "Production Responsible party",
+        "Consumption Responsible Party",
         "Grid Access Provider",
         "Market Operator",
-        "Trade Responsible Party",
-        "Consumption Responsible Party"
+        "Production Responsible party",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

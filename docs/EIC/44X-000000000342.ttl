@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44X-000000000342" ;
     cim:IdentifiedObject.name "PKS Sähkönsiirto Oy" ;
-    cim:Names.name "44PKSSÄHKÖNSIIRT",
+    cim:Names.name "44PKSSAHKONSIIRT",
         "Distribution System Operator",
         "FI20716380" ;
     dcterms:identifier "urn:eic:44X-000000000342" ;
     schema1:vatID "FI20716380" ;
-    skos:altLabel "44PKSSÄHKÖNSIIRT" ;
+    skos:altLabel "44PKSSAHKONSIIRT" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "PKS Sähkönsiirto Oy" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

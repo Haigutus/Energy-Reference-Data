@@ -20,10 +20,10 @@
         "FLT-KRASNIK_SA",
         "A0011431R.PL",
         "PL7150200738",
+        "Metered Data Responsible",
+        "System Operator",
         "Grid Access Provider",
         "Energy Supplier",
-        "System Operator",
-        "Metered Data Responsible",
         "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",

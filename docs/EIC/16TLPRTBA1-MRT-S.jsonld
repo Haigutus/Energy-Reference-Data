@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPRTBA1-MRT-S",
     "@skos:prefLabel": "Pereiros-Tábua 1/Ramal Mortágua",
-    "@skos:altLabel": "LPR.TBA1/MRT",
+    "@skos:altLabel": "LPR_TBA1_MRT",
     "@cim:IdentifiedObject.mRID": "16TLPRTBA1-MRT-S",
     "@cim:IdentifiedObject.name": "Pereiros-Tábua 1/Ramal Mortágua",
     "@cim:Names.name": [
-        "LPR.TBA1/MRT",
+        "LPR_TBA1_MRT",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

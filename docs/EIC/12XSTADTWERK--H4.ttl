@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Stadtwerk Winterthur, Energiehandel Strom" ;
     cim:IdentifiedObject.mRID "12XSTADTWERK--H4" ;
     cim:IdentifiedObject.name "Stadtwerk Winterthur" ;
     cim:Names.name "CH227761",
         "CH_SW_H",
-        "Valid EIC Function needed" ;
+        "Capacity Trader" ;
     dcterms:identifier "urn:eic:12XSTADTWERK--H4" ;
     schema1:vatID "CH227761" ;
     skos:altLabel "CH_SW_H" ;

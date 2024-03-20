@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:62X1942455441636",
     "@skos:prefLabel": "TOV \"CHERNIVETSKA OBLASNA ENERGOPOSTACHALNA KOMPANIYA",
-    "@skos:altLabel": " TOV_CHOEK",
+    "@skos:altLabel": "TOV_CHOEK",
     "@cim:IdentifiedObject.mRID": "62X1942455441636",
     "@cim:IdentifiedObject.name": "TOV \"CHERNIVETSKA OBLASNA ENERGOPOSTACHALNA KOMPANIYA",
     "@cim:Names.name": [
-        " TOV_CHOEK",
+        "TOV_CHOEK",
         "UA421021224125",
         "Consumption Responsible Party"
     ],

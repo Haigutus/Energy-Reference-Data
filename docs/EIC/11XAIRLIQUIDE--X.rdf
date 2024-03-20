@@ -6,15 +6,13 @@
     <dcterms:identifier>urn:eic:11XAIRLIQUIDE--X</dcterms:identifier>
     <skos:prefLabel>AIR LIQUIDE Deutschland GmbH</skos:prefLabel>
     <skos:altLabel>AIR-LIQUIDE</skos:altLabel>
-    <skos:definition xml:lang="en">VAT was wrong</skos:definition>
     <cim:IdentifiedObject.mRID>11XAIRLIQUIDE--X</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>AIR LIQUIDE Deutschland GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>AIR-LIQUIDE</cim:Names.name>
     <cim:Names.name>DE121289819</cim:Names.name>
-    <cim:IdentifiedObject.description>VAT was wrong</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-05-19</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-11-15</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE121289819</schema:vatID>

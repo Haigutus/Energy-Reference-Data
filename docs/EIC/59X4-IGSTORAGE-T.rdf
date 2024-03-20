@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:59X4-IGSTORAGE-T</dcterms:identifier>
     <skos:prefLabel>IGS S.p.A.</skos:prefLabel>
-    <skos:altLabel>IGS_S.P.A.</skos:altLabel>
+    <skos:altLabel>IGS_S_P_A_</skos:altLabel>
     <cim:IdentifiedObject.mRID>59X4-IGSTORAGE-T</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>IGS S.p.A.</cim:IdentifiedObject.name>
-    <cim:Names.name>IGS_S.P.A.</cim:Names.name>
+    <cim:Names.name>IGS_S_P_A_</cim:Names.name>
     <cim:Names.name>IT08751271001</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

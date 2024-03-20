@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLALFN-------M" ;
     cim:IdentifiedObject.name "Alcochete-Fanhoes" ;
     cim:Names.name "Internal Line",
-        "LAL.FN" ;
+        "LAL_FN" ;
     dcterms:identifier "urn:eic:16TLALFN-------M" ;
-    skos:altLabel "LAL.FN" ;
+    skos:altLabel "LAL_FN" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Alcochete-Fanhoes" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

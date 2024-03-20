@@ -12,10 +12,10 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:18X00000000092YW",
-    "@skos:prefLabel": "GERMANS AYMERICH ISERN S.L.",
+    "@skos:prefLabel": "GERMANS AYMERICH ISERN SL",
     "@skos:altLabel": "TRIPO",
     "@cim:IdentifiedObject.mRID": "18X00000000092YW",
-    "@cim:IdentifiedObject.name": "GERMANS AYMERICH ISERN S.L.",
+    "@cim:IdentifiedObject.name": "GERMANS AYMERICH ISERN SL",
     "@cim:Names.name": [
         "TRIPO",
         "ESB62327184",
@@ -23,7 +23,7 @@
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2018-04-23",
+    "@cim:DateAndOrTime.date": "2023-09-18",
     "@schema:vatID": "ESB62327184",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

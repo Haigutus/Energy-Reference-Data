@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLRARR1------Q",
     "@skos:prefLabel": "Riba d'Ave-Recarei 1",
-    "@skos:altLabel": "LRA.RR1",
+    "@skos:altLabel": "LRA_RR1",
     "@cim:IdentifiedObject.mRID": "16TLRARR1------Q",
     "@cim:IdentifiedObject.name": "Riba d'Ave-Recarei 1",
     "@cim:Names.name": [
-        "LRA.RR1",
+        "LRA_RR1",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

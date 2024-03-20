@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Beschaffung Und Vertrieb Von Strom, Wasser Und Gas" ;
     cim:IdentifiedObject.mRID "12XIBW-ENERGIE-K" ;
     cim:IdentifiedObject.name "IBW Energie AG" ;
     cim:Names.name "CH529115",
-        "IBW-ENERGIE-AG",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "IBW-ENERGIE-AG" ;
     dcterms:identifier "urn:eic:12XIBW-ENERGIE-K" ;
     schema1:vatID "CH529115" ;
     skos:altLabel "IBW-ENERGIE-AG" ;

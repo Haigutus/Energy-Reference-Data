@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Hydraulisches Speicher-Kraftwerk" ;
     cim:IdentifiedObject.mRID "12XKW-WAEGITAL-H" ;
     cim:IdentifiedObject.name "AG Kraftwerk WÃ¤gital" ;
     cim:Names.name "CH178970",
-        "KW-WAEGITAL",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "KW-WAEGITAL" ;
     dcterms:identifier "urn:eic:12XKW-WAEGITAL-H" ;
     schema1:vatID "CH178970" ;
     skos:altLabel "KW-WAEGITAL" ;

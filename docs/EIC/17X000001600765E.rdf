@@ -1,0 +1,24 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/17X000001600765E">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:17X000001600765E</dcterms:identifier>
+    <skos:prefLabel>DOKLES</skos:prefLabel>
+    <skos:altLabel>FR_DOKLES</skos:altLabel>
+    <skos:definition xml:lang="en">Dokles est une entreprise experte dans les technologies IoT et domotiques li&#233;es &#224; l'efficacit&#233; &#233;nerg&#233;tique, s'adressant aux r&#233;sidences individuelles et collectives. Grace &#224; son r&#233;seau de pompes &#224; chaleur connect&#233;es, Dokles entreprend de r&#233;aliser des effacements &#233;nerg&#233;tiques aupr&#232;s de ses consommateurs afin de contribuer &#224; l'&#233;quilibre du r&#233;seau &#233;lectrique.</skos:definition>
+    <cim:IdentifiedObject.mRID>17X000001600765E</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>DOKLES</cim:IdentifiedObject.name>
+    <cim:Names.name>FR_DOKLES</cim:Names.name>
+    <cim:Names.name>FR90892384215</cim:Names.name>
+    <cim:IdentifiedObject.description>Dokles est une entreprise experte dans les technologies IoT et domotiques li&#233;es &#224; l'efficacit&#233; &#233;nerg&#233;tique, s'adressant aux r&#233;sidences individuelles et collectives. Grace &#224; son r&#233;seau de pompes &#224; chaleur connect&#233;es, Dokles entreprend de r&#233;aliser des effacements &#233;nerg&#233;tiques aupr&#232;s de ses consommateurs afin de contribuer &#224; l'&#233;quilibre du r&#233;seau &#233;lectrique.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2023-09-25</cim:DateAndOrTime.date>
+    <cim:Names.name>Balancing Service Provider</cim:Names.name>
+    <cim:Names.name>Meter Administrator</cim:Names.name>
+    <cim:Names.name>Resource Aggregator</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>FR90892384215</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

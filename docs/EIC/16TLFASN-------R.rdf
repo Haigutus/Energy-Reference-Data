@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLFASN-------R</dcterms:identifier>
     <skos:prefLabel>Ferreira do Alentejo-Sines</skos:prefLabel>
-    <skos:altLabel>LFA.SN</skos:altLabel>
+    <skos:altLabel>LFA_SN</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLFASN-------R</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Ferreira do Alentejo-Sines</cim:IdentifiedObject.name>
-    <cim:Names.name>LFA.SN</cim:Names.name>
+    <cim:Names.name>LFA_SN</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

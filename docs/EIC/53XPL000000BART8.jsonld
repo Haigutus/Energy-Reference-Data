@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "BARTER",
         "PL9661388342",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Distribution System Operator, Network User, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

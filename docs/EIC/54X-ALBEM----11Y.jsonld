@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ALBEM",
         "L71409031O",
-        "Trade Responsible Party",
-        "Balance Group Responsible Party"
+        "Balance Group Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Accounting MP for OHL Ribnitsa-Podolskaia1 330kV",
     "@cim:Names.name": [
         "ZV_RIBNITSA-POD1",
-        "Virtual Interconnection Points",
-        "Accounting Point"
+        "Accounting Point",
+        "Virtual Interconnection Points"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

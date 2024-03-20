@@ -24,9 +24,9 @@
         "ODINSON",
         "A00190984.GR",
         "EL801612890",
-        "Trade Responsible Party",
         "Balance Responsible Party",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "(Additional Contact telephone: 00302810382900)",
     "@cim:Document.docStatus": "A05",

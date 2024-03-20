@@ -7,17 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2021-06-07" ;
+    cim:DateAndOrTime.date "2023-09-26" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11XSPREEGAS-GASQ" ;
-    cim:IdentifiedObject.name "SpreeGas Gesellschaft für Gasversorgung und Energiedienstleistung mbH" ;
-    cim:Names.name "Balance Responsible Party",
-        "DE138778057",
+    cim:IdentifiedObject.name "EMB Energie Brandenburg GmbH" ;
+    cim:Names.name "Balance Group",
+        "DE138404753",
         "SPREEGAS" ;
     dcterms:identifier "urn:eic:11XSPREEGAS-GASQ" ;
-    schema1:vatID "DE138778057" ;
+    schema1:vatID "DE138404753" ;
     skos:altLabel "SPREEGAS" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "SpreeGas Gesellschaft für Gasversorgung und Energiedienstleistung mbH" ;
+    skos:prefLabel "EMB Energie Brandenburg GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

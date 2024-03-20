@@ -22,12 +22,12 @@
     "@cim:IdentifiedObject.name": "Albania",
     "@cim:Names.name": [
         "AL",
-        "Member State",
+        "Bidding Zone",
         "Control Area",
-        "LFC Area",
-        "Scheduling Area",
         "LFC Block",
-        "Bidding Zone"
+        "LFC Area",
+        "Member State",
+        "Scheduling Area"
     ],
     "@cim:IdentifiedObject.description": "Bidding Zone, Control Area, Market Balance Area, Member State",
     "@cim:Document.docStatus": "A05",

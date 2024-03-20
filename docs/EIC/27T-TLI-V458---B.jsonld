@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V458---B",
     "@skos:prefLabel": "CEPS_V458 Horní Životice-Krasíkov",
-    "@skos:altLabel": "CKRA__1*CHZI__1*",
+    "@skos:altLabel": "CKRA__1_CHZI__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V458---B",
     "@cim:IdentifiedObject.name": "CEPS_V458 Horní Životice-Krasíkov",
     "@cim:Names.name": [
-        "CKRA__1*CHZI__1*",
+        "CKRA__1_CHZI__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

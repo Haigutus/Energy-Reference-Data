@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "VINAL",
         "ESF46043733",
-        "Grid Access Provider",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -20,8 +20,8 @@
         "EAOWIND",
         "GB659372008",
         "Production Responsible party",
-        "Party Connected To Grid",
-        "Producer"
+        "Producer",
+        "Party Connected To Grid"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

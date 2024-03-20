@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TT1400220SAMMU" ;
     cim:IdentifiedObject.name "AT 1 400/220 SAMM" ;
-    cim:Names.name "AT1400/220SAMM",
+    cim:Names.name "AT1400_220SAMM",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TT1400220SAMMU" ;
-    skos:altLabel "AT1400/220SAMM" ;
+    skos:altLabel "AT1400_220SAMM" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "AT 1 400/220 SAMM" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

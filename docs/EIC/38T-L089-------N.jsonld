@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "KIISA-AREJ1",
         "Internal Line",
-        "Tieline",
-        "Internal Tie-Line"
+        "Internal Tie-Line",
+        "Tieline"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

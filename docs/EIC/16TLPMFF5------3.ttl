@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPMFF5------3" ;
     cim:IdentifiedObject.name "Palmela-Fernão Ferro 5" ;
     cim:Names.name "Internal Line",
-        "LPM.FF5" ;
+        "LPM_FF5" ;
     dcterms:identifier "urn:eic:16TLPMFF5------3" ;
-    skos:altLabel "LPM.FF5" ;
+    skos:altLabel "LPM_FF5" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Palmela-Fernão Ferro 5" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

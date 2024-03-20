@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--231113-LP-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-11-14" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company Lyse Produksjon AS registered in Norway. Company registration number confirmed by certificate of registration: 980335216  VAT number confirmed by tax certificate of the Norwegian Tax Administration: NO980335216 " ;
+    cim:IdentifiedObject.mRID "23X--231113-LP-H" ;
+    cim:IdentifiedObject.name "Lyse Produksjon AS" ;
+    cim:Names.name "Balance Responsible Party",
+        "LYSE_PRODUKSJON",
+        "NO980335216" ;
+    dcterms:identifier "urn:eic:23X--231113-LP-H" ;
+    schema1:vatID "NO980335216" ;
+    skos:altLabel "LYSE_PRODUKSJON" ;
+    skos:definition "Company Lyse Produksjon AS registered in Norway. Company registration number confirmed by certificate of registration: 980335216  VAT number confirmed by tax certificate of the Norwegian Tax Administration: NO980335216 "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Lyse Produksjon AS" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

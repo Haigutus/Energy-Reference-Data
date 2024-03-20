@@ -7,14 +7,12 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2020-07-03" ;
-    cim:Document.docStatus "A05" ;
+    cim:DateAndOrTime.date "2023-08-04" ;
+    cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.mRID "68XAIKENERGY-MDB" ;
     cim:IdentifiedObject.name "AIK ENERGY MD" ;
     cim:Names.name "0610906",
-        "AIK-ENERGY-MD",
-        "Network User",
-        "Trade Responsible Party" ;
+        "AIK-ENERGY-MD" ;
     dcterms:identifier "urn:eic:68XAIKENERGY-MDB" ;
     schema1:vatID "0610906" ;
     skos:altLabel "AIK-ENERGY-MD" ;

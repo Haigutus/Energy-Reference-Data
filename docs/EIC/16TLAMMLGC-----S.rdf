@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLAMMLGC-----S</dcterms:identifier>
     <skos:prefLabel>Armamar-Lagoa&#231;a</skos:prefLabel>
-    <skos:altLabel>LAMM.LGC</skos:altLabel>
+    <skos:altLabel>LAMM_LGC</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLAMMLGC-----S</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Armamar-Lagoa&#231;a</cim:IdentifiedObject.name>
-    <cim:Names.name>LAMM.LGC</cim:Names.name>
+    <cim:Names.name>LAMM_LGC</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-07-17</cim:DateAndOrTime.date>

@@ -5,14 +5,14 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:26X128834501520B</dcterms:identifier>
     <skos:prefLabel>UNARETI SPA</skos:prefLabel>
-    <skos:altLabel>IT-UNARETISPA</skos:altLabel>
+    <skos:altLabel>IT-UNARETISPASPA</skos:altLabel>
     <cim:IdentifiedObject.mRID>26X128834501520B</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>UNARETI SPA</cim:IdentifiedObject.name>
-    <cim:Names.name>IT-UNARETISPA</cim:Names.name>
+    <cim:Names.name>IT-UNARETISPASPA</cim:Names.name>
     <cim:Names.name>IT12883450152</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-11-11</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-27</cim:DateAndOrTime.date>
     <cim:Names.name>Distribution System Operator</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>IT12883450152</schema:vatID>

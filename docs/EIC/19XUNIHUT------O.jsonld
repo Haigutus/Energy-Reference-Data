@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "UNIHUT_SA",
         "PL6780027057",
-        "Meter Administrator",
-        "Energy Supplier",
-        "Metered Data Responsible",
         "System Operator",
-        "Grid Access Provider"
+        "Metered Data Responsible",
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

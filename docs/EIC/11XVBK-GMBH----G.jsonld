@@ -14,10 +14,6 @@
     "@dcterms:identifier": "urn:eic:11XVBK-GMBH----G",
     "@skos:prefLabel": "Versorgungsbetriebe Kronshagen GmbH",
     "@skos:altLabel": "VBK",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XVBK-GMBH----G",
     "@cim:IdentifiedObject.name": "Versorgungsbetriebe Kronshagen GmbH",
     "@cim:Names.name": [
@@ -25,10 +21,9 @@
         "DE199064871",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2010-11-08",
+    "@cim:DateAndOrTime.date": "2023-08-30",
     "@schema:vatID": "DE199064871",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

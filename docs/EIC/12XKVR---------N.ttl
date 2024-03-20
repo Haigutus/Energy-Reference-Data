@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Stromproduktion Durch Wasserkraftnutzung" ;
     cim:IdentifiedObject.mRID "12XKVR---------N" ;
     cim:IdentifiedObject.name "Kraftwerke Vorderrhein AG" ;
     cim:Names.name "CH154291",
-        "KVR",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "KVR" ;
     dcterms:identifier "urn:eic:12XKVR---------N" ;
     schema1:vatID "CH154291" ;
     skos:altLabel "KVR" ;

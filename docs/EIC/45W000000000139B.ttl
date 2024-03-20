@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "45W000000000139B" ;
     cim:IdentifiedObject.name "Solar Park Ålbæk" ;
-    cim:Names.name "PV_ÅLBÆK",
+    cim:Names.name "PV_ALBAEK",
         "Production Unit" ;
     dcterms:identifier "urn:eic:45W000000000139B" ;
-    skos:altLabel "PV_ÅLBÆK" ;
+    skos:altLabel "PV_ALBAEK" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Solar Park Ålbæk" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

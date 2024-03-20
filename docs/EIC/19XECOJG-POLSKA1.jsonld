@@ -20,12 +20,12 @@
         "ECOJG-POLSKA",
         "A0006861D.PL",
         "PL6110203138",
-        "Energy Supplier",
-        "Metered Data Responsible",
-        "Meter Administrator",
-        "Producer",
         "Grid Access Provider",
-        "System Operator"
+        "Energy Supplier",
+        "Meter Administrator",
+        "System Operator",
+        "Producer",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

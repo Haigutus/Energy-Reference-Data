@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:27T-TLI-V414---I</dcterms:identifier>
     <skos:prefLabel>CEPS_V414 Chodov-Reporyje</skos:prefLabel>
-    <skos:altLabel>CCHD__1*CREP__1*</skos:altLabel>
+    <skos:altLabel>CCHD__1_CREP__1_</skos:altLabel>
     <cim:IdentifiedObject.mRID>27T-TLI-V414---I</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CEPS_V414 Chodov-Reporyje</cim:IdentifiedObject.name>
-    <cim:Names.name>CCHD__1*CREP__1*</cim:Names.name>
+    <cim:Names.name>CCHD__1_CREP__1_</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2019-09-20</cim:DateAndOrTime.date>

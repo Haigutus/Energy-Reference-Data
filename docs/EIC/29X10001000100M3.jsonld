@@ -24,8 +24,8 @@
         "ILEKTROP-ALEX",
         "A00194944.GR",
         "EL801490101",
-        "Producer",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Producer"
     ],
     "@cim:IdentifiedObject.description": "ΠΑΡΑΓΩΓΗ-ΔΙΑΝΟΜΗ-ΠΩΛΗΣΗ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ",
     "@cim:Document.docStatus": "A05",

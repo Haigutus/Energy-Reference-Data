@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLRRVM3------D",
     "@skos:prefLabel": "Recarei - Vermoim 3 400",
-    "@skos:altLabel": "LRR.VM3",
+    "@skos:altLabel": "LRR_VM3",
     "@cim:IdentifiedObject.mRID": "16TLRRVM3------D",
     "@cim:IdentifiedObject.name": "Recarei - Vermoim 3 400",
     "@cim:Names.name": [
-        "LRR.VM3",
+        "LRR_VM3",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

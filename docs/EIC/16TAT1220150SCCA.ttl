@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TAT1220150SCCA" ;
     cim:IdentifiedObject.name "Auto transformador 1 220/150 Subestação de Castelo Branco" ;
-    cim:Names.name "AT1220/150SCC",
+    cim:Names.name "AT1220_150SCC",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TAT1220150SCCA" ;
-    skos:altLabel "AT1220/150SCC" ;
+    skos:altLabel "AT1220_150SCC" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Auto transformador 1 220/150 Subestação de Castelo Branco" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

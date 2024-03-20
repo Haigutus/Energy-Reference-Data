@@ -10,13 +10,13 @@
     <cim:IdentifiedObject.mRID>59X-7-LITASCO-5Y</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Litasco SA</cim:IdentifiedObject.name>
     <cim:Names.name>LITASCO</cim:Names.name>
-    <cim:Names.name>CHE10073892</cim:Names.name>
+    <cim:Names.name>CHE100738922</cim:Names.name>
     <cim:IdentifiedObject.description>VAT Code NON-EU (Swiss VAT): CHE100738922</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2020-04-08</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-07-27</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>CHE10073892</schema:vatID>
+    <schema:vatID>CHE100738922</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

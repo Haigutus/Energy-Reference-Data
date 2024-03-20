@@ -7,17 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2021-06-17" ;
+    cim:DateAndOrTime.date "2023-10-30" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44X-00000000101D" ;
-    cim:IdentifiedObject.name "Enerim Oy" ;
-    cim:Names.name "44EMPOWERIM",
-        "FI24021383",
+    cim:IdentifiedObject.name "Volue Oy" ;
+    cim:Names.name "44VOLUE",
+        "FI33459942",
         "Information Provider" ;
     dcterms:identifier "urn:eic:44X-00000000101D" ;
-    schema1:vatID "FI24021383" ;
-    skos:altLabel "44EMPOWERIM" ;
+    schema1:vatID "FI33459942" ;
+    skos:altLabel "44VOLUE" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Enerim Oy" ;
+    skos:prefLabel "Volue Oy" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V405---J",
     "@skos:prefLabel": "CEPS_V405 Kletné-Nošovice",
-    "@skos:altLabel": "CNOS__1*CKLT__1*",
+    "@skos:altLabel": "CNOS__1_CKLT__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V405---J",
     "@cim:IdentifiedObject.name": "CEPS_V405 Kletné-Nošovice",
     "@cim:Names.name": [
-        "CNOS__1*CKLT__1*",
+        "CNOS__1_CKLT__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

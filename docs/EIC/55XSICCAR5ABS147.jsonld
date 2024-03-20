@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:55XSICCAR5ABS147",
     "@skos:prefLabel": "Siccar Point Energy E&P Limited",
-    "@skos:altLabel": "SICCARPOINTE&P",
+    "@skos:altLabel": "SICCARPOINTE_P",
     "@cim:IdentifiedObject.mRID": "55XSICCAR5ABS147",
     "@cim:IdentifiedObject.name": "Siccar Point Energy E&P Limited",
     "@cim:Names.name": [
-        "SICCARPOINTE&P",
+        "SICCARPOINTE_P",
         "GB394898962",
         "Producer"
     ],

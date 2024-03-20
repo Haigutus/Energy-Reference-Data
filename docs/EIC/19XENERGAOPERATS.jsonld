@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "ENERGA-OPERATOR",
         "PL5830001190",
-        "Metered Data Responsible",
-        "Meter Administrator",
         "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
         "System Operator"
     ],
     "@cim:Document.docStatus": "A05",

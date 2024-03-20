@@ -20,8 +20,8 @@
         "CPL-CONCORDIA",
         "A00041341.RO",
         "RO14895720",
-        "Resource Provider",
-        "Distribution System Operator"
+        "Distribution System Operator",
+        "Resource Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

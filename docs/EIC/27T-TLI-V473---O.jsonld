@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V473---O",
     "@skos:prefLabel": "CEPS_V473 Dasný-Kocín",
-    "@skos:altLabel": "CDAS__1*CKOCH_1*",
+    "@skos:altLabel": "CDAS__1_CKOCH_1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V473---O",
     "@cim:IdentifiedObject.name": "CEPS_V473 Dasný-Kocín",
     "@cim:Names.name": [
-        "CDAS__1*CKOCH_1*",
+        "CDAS__1_CKOCH_1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

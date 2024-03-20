@@ -22,10 +22,10 @@
     "@cim:IdentifiedObject.name": "Estonia",
     "@cim:Names.name": [
         "EE",
-        "Member State",
-        "Bidding Zone",
         "Control Area",
-        "Scheduling Area"
+        "Scheduling Area",
+        "Member State",
+        "Bidding Zone"
     ],
     "@cim:IdentifiedObject.description": "Bidding Zone, Control Area, Market Balance Area, Member State, Scheduling Area",
     "@cim:Document.docStatus": "A05",

@@ -4,15 +4,15 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:11XEMB-GMBH----J</dcterms:identifier>
-    <skos:prefLabel>EMB Energie Mark Brandenburg GmbH</skos:prefLabel>
+    <skos:prefLabel>EMB Energie Brandenburg GmbH</skos:prefLabel>
     <skos:altLabel>EMB-GMBH</skos:altLabel>
     <cim:IdentifiedObject.mRID>11XEMB-GMBH----J</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>EMB Energie Mark Brandenburg GmbH</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>EMB Energie Brandenburg GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>EMB-GMBH</cim:Names.name>
     <cim:Names.name>DE138404753</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-02-21</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-26</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE138404753</schema:vatID>

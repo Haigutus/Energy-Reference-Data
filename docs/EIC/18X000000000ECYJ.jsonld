@@ -12,19 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:18X000000000ECYJ",
-    "@skos:prefLabel": "CONGELADOS HERBANIA S.A.",
+    "@skos:prefLabel": "CONGELADOS HERBANIA SA",
     "@skos:altLabel": "CONHE",
     "@cim:IdentifiedObject.mRID": "18X000000000ECYJ",
-    "@cim:IdentifiedObject.name": "CONGELADOS HERBANIA S.A.",
+    "@cim:IdentifiedObject.name": "CONGELADOS HERBANIA SA",
     "@cim:Names.name": [
         "CONHE",
         "ESA35107838",
-        "Balance Responsible Party",
+        "Production Responsible party",
         "Consumption Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2019-04-26",
+    "@cim:DateAndOrTime.date": "2023-10-02",
     "@schema:vatID": "ESA35107838",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

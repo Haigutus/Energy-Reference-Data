@@ -7,12 +7,12 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2020-09-03" ;
+    cim:DateAndOrTime.date "2023-11-01" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11T0-0000-0568-T" ;
     cim:IdentifiedObject.name "AMP / 380kV / Bürstadt - Lambsheim / Bürstadt West" ;
     cim:Names.name "BUERSTW",
-        "Transformer" ;
+        "Internal Line" ;
     dcterms:identifier "urn:eic:11T0-0000-0568-T" ;
     skos:altLabel "BUERSTW" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;

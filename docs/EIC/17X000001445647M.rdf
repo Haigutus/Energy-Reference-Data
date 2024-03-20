@@ -1,0 +1,22 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/17X000001445647M">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:17X000001445647M</dcterms:identifier>
+    <skos:prefLabel>AMARENCO FRANCE</skos:prefLabel>
+    <skos:altLabel>FR_AMARENCO_FRAN</skos:altLabel>
+    <skos:definition xml:lang="en">Producteur ind&#233;pendant d'&#233;nergie verte gr&#226;ce &#224; des solutions solaires photovolta&#239;ques et d'optimisation de consommation.</skos:definition>
+    <cim:IdentifiedObject.mRID>17X000001445647M</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AMARENCO FRANCE</cim:IdentifiedObject.name>
+    <cim:Names.name>FR_AMARENCO_FRAN</cim:Names.name>
+    <cim:Names.name>FR11537509333</cim:Names.name>
+    <cim:IdentifiedObject.description>Producteur ind&#233;pendant d'&#233;nergie verte gr&#226;ce &#224; des solutions solaires photovolta&#239;ques et d'optimisation de consommation.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2023-11-06</cim:DateAndOrTime.date>
+    <cim:Names.name>Producer</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+    <schema:vatID>FR11537509333</schema:vatID>
+  </skos:Concept>
+</rdf:RDF>

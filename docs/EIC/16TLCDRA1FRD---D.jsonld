@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLCDRA1FRD---D",
     "@skos:prefLabel": "Canicada - Riba De Ave 1 - Frades 150",
-    "@skos:altLabel": "LCD.RA1/FRD",
+    "@skos:altLabel": "LCD_RA1_FRD",
     "@cim:IdentifiedObject.mRID": "16TLCDRA1FRD---D",
     "@cim:IdentifiedObject.name": "Canicada - Riba De Ave 1 - Frades 150",
     "@cim:Names.name": [
-        "LCD.RA1/FRD",
+        "LCD_RA1_FRD",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

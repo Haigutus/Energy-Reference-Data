@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59XTOTALEPITA00N",
     "@skos:prefLabel": "Total E&P Italia S.p.A.",
-    "@skos:altLabel": "TOTALE&PITALIA",
+    "@skos:altLabel": "TOTALE_PITALIA",
     "@cim:IdentifiedObject.mRID": "59XTOTALEPITA00N",
     "@cim:IdentifiedObject.name": "Total E&P Italia S.p.A.",
     "@cim:Names.name": [
-        "TOTALE&PITALIA",
+        "TOTALE_PITALIA",
         "10569621005",
         "Producer"
     ],

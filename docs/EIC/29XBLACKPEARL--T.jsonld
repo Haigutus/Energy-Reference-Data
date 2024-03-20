@@ -24,8 +24,8 @@
         "WATT_AND_VOLT",
         "A0003997W.GR",
         "EL998283692",
-        "Energy Supplier",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "Trade of Electricity  Transmission of electricity  Distribution of electricity  Retail sale of electrical household appliances ",
     "@cim:Document.docStatus": "A05",

@@ -20,12 +20,12 @@
         "RAMPTON",
         "A0019841A.PL",
         "PL5252757366",
-        "Energy Supplier",
-        "System Operator",
         "Grid Access Provider",
-        "Balance Responsible Party",
+        "Energy Supplier",
+        "Meter Administrator",
         "Metered Data Responsible",
-        "Meter Administrator"
+        "Balance Responsible Party",
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLRRPI-------U",
     "@skos:prefLabel": "Recarei-Paraimo",
-    "@skos:altLabel": "LRR.PI",
+    "@skos:altLabel": "LRR_PI",
     "@cim:IdentifiedObject.mRID": "16TLRRPI-------U",
     "@cim:IdentifiedObject.name": "Recarei-Paraimo",
     "@cim:Names.name": [
-        "LRR.PI",
+        "LRR_PI",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44W-00000000008H" ;
     cim:IdentifiedObject.name "Kemira Oyj" ;
-    cim:Names.name "KC_ÄETSÄ",
+    cim:Names.name "KC_ETSA",
         "Load" ;
     dcterms:identifier "urn:eic:44W-00000000008H" ;
-    skos:altLabel "KC_ÄETSÄ" ;
+    skos:altLabel "KC_ETSA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Kemira Oyj" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

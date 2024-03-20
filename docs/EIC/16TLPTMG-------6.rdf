@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLPTMG-------6</dcterms:identifier>
     <skos:prefLabel>Picote-Mogadouro</skos:prefLabel>
-    <skos:altLabel>LPT.MG</skos:altLabel>
+    <skos:altLabel>LPT_MG</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLPTMG-------6</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Picote-Mogadouro</cim:IdentifiedObject.name>
-    <cim:Names.name>LPT.MG</cim:Names.name>
+    <cim:Names.name>LPT_MG</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

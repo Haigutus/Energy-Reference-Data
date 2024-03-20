@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:59Z357281010000C</dcterms:identifier>
     <skos:prefLabel>S. Giorgio M.</skos:prefLabel>
-    <skos:altLabel>S.GIORGIOM.</skos:altLabel>
+    <skos:altLabel>S_GIORGIOM_</skos:altLabel>
     <cim:IdentifiedObject.mRID>59Z357281010000C</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>S. Giorgio M.</cim:IdentifiedObject.name>
-    <cim:Names.name>S.GIORGIOM.</cim:Names.name>
+    <cim:Names.name>S_GIORGIOM_</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2017-05-16</cim:DateAndOrTime.date>

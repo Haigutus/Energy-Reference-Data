@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Regionalversorger Strom, Gas, Wasser Und Weitere Dienstleistungen" ;
     cim:IdentifiedObject.mRID "12XRES-HANDEL--F" ;
     cim:IdentifiedObject.name "Regio Energie Solothurn" ;
     cim:Names.name "CH183912",
-        "RES_HANDEL",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "RES_HANDEL" ;
     dcterms:identifier "urn:eic:12XRES-HANDEL--F" ;
     schema1:vatID "CH183912" ;
     skos:altLabel "RES_HANDEL" ;

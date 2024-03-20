@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "EMPOLENERGIA",
         "PL7382146805",
-        "Grid Access Provider",
-        "System Operator",
-        "Energy Supplier",
+        "Metered Data Responsible",
         "Meter Administrator",
-        "Metered Data Responsible"
+        "Energy Supplier",
+        "System Operator",
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

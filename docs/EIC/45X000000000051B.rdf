@@ -10,10 +10,9 @@
     <cim:IdentifiedObject.name>Jyske Bank A/S</cim:IdentifiedObject.name>
     <cim:Names.name>DK_JYSKEBANK</cim:Names.name>
     <cim:Names.name>DK17616617</cim:Names.name>
-    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:Document.docStatus>A03</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2019-01-07</cim:DateAndOrTime.date>
-    <cim:Names.name>Profile Maintenance Party</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-09-22</cim:DateAndOrTime.date>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DK17616617</schema:vatID>
   </skos:Concept>

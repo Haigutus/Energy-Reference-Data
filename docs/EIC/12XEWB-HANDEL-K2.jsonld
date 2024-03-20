@@ -13,7 +13,7 @@
     },
     "@dcterms:identifier": "urn:eic:12XEWB-HANDEL-K2",
     "@skos:prefLabel": "Energie Wasser Bern",
-    "@skos:altLabel": "EWB-KRAFTWERK",
+    "@skos:altLabel": "EWB-STANDARD",
     "@skos:definition": {
         "@language": "en",
         "@value": "Balance Group Responsible of DSO."
@@ -21,14 +21,14 @@
     "@cim:IdentifiedObject.mRID": "12XEWB-HANDEL-K2",
     "@cim:IdentifiedObject.name": "Energie Wasser Bern",
     "@cim:Names.name": [
-        "EWB-KRAFTWERK",
+        "EWB-STANDARD",
         "CH544080",
         "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Group Responsible of DSO.",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-09-26",
+    "@cim:DateAndOrTime.date": "2023-10-31",
     "@schema:vatID": "CH544080",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

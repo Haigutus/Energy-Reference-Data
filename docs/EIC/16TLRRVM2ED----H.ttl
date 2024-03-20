@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLRRVM2ED----H" ;
     cim:IdentifiedObject.name "Recarei - Vermoim 2 - Ermesinde 220" ;
     cim:Names.name "Internal Line",
-        "LRR.VM2/ED" ;
+        "LRR_VM2_ED" ;
     dcterms:identifier "urn:eic:16TLRRVM2ED----H" ;
-    skos:altLabel "LRR.VM2/ED" ;
+    skos:altLabel "LRR_VM2_ED" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Recarei - Vermoim 2 - Ermesinde 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

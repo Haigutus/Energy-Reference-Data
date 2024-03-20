@@ -24,8 +24,8 @@
         "CHRYSAOR_PROD",
         "A0000131X.UK",
         "GB250045218",
-        "Trade Responsible Party",
-        "Producer"
+        "Producer",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

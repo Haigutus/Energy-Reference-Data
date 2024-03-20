@@ -13,10 +13,10 @@
     cim:IdentifiedObject.name "Total E&P Italia S.p.A." ;
     cim:Names.name "10569621005",
         "Producer",
-        "TOTALE&PITALIA" ;
+        "TOTALE_PITALIA" ;
     dcterms:identifier "urn:eic:59XTOTALEPITA00N" ;
     schema1:vatID "10569621005" ;
-    skos:altLabel "TOTALE&PITALIA" ;
+    skos:altLabel "TOTALE_PITALIA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Total E&P Italia S.p.A." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

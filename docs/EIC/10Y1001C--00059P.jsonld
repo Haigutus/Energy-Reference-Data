@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "CORE",
         "Capacity Calculation Region",
-        "Scheduling Area",
-        "Outage Coordination Region"
+        "Outage Coordination Region",
+        "Scheduling Area"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

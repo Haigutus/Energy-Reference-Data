@@ -7,17 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2023-05-18" ;
+    cim:DateAndOrTime.date "2023-09-13" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Domestic exit points" ;
     cim:IdentifiedObject.mRID "58ZC006P02DEVN-X" ;
-    cim:IdentifiedObject.name "GRS Devnia C006P02" ;
+    cim:IdentifiedObject.name "GRS Devnya C006P02" ;
     cim:Names.name "DEVNIAC006P02",
         "Metering Point" ;
     dcterms:identifier "urn:eic:58ZC006P02DEVN-X" ;
     skos:altLabel "DEVNIAC006P02" ;
     skos:definition "Domestic exit points"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "GRS Devnia C006P02" ;
+    skos:prefLabel "GRS Devnya C006P02" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

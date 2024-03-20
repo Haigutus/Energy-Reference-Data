@@ -12,10 +12,10 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11X0-0000-0557-H",
-    "@skos:prefLabel": "Tibber Deutschland",
+    "@skos:prefLabel": "Tibber Deutschland GmbH",
     "@skos:altLabel": "TIBBER_GER",
     "@cim:IdentifiedObject.mRID": "11X0-0000-0557-H",
-    "@cim:IdentifiedObject.name": "Tibber Deutschland",
+    "@cim:IdentifiedObject.name": "Tibber Deutschland GmbH",
     "@cim:Names.name": [
         "TIBBER_GER",
         "DE326970067",
@@ -23,7 +23,7 @@
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-08-23",
+    "@cim:DateAndOrTime.date": "2023-11-01",
     "@schema:vatID": "DE326970067",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

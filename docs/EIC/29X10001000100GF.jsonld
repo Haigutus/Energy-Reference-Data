@@ -24,9 +24,9 @@
         "29XEUAGGREGATION",
         "A00177239.GR",
         "EL801386868",
-        "Grid Access Provider",
+        "Production Responsible party",
         "Balance Responsible Party",
-        "Production Responsible party"
+        "Grid Access Provider"
     ],
     "@cim:IdentifiedObject.description": "The company's main function is RES Aggregator.",
     "@cim:Document.docStatus": "A05",

@@ -6,13 +6,15 @@
     <dcterms:identifier>urn:eic:48X0000000000424</dcterms:identifier>
     <skos:prefLabel>Conrad Energy Trading Limited</skos:prefLabel>
     <skos:altLabel>CETL</skos:altLabel>
+    <skos:definition xml:lang="en">Nicole Griese Nicole.griese@conradenergy.co.uk Nicole.griese@conradenergy.co.uk is now the contact at Conrad Energy Trading Limited    </skos:definition>
     <cim:IdentifiedObject.mRID>48X0000000000424</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Conrad Energy Trading Limited</cim:IdentifiedObject.name>
     <cim:Names.name>CETL</cim:Names.name>
     <cim:Names.name>GB281421814</cim:Names.name>
+    <cim:IdentifiedObject.description>Nicole Griese Nicole.griese@conradenergy.co.uk Nicole.griese@conradenergy.co.uk is now the contact at Conrad Energy Trading Limited    </cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2021-05-19</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-12-04</cim:DateAndOrTime.date>
     <cim:Names.name>Producer</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>GB281421814</schema:vatID>

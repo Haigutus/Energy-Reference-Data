@@ -7,13 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2023-01-31" ;
+    cim:DateAndOrTime.date "2023-11-06" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "26X00000107698-I" ;
     cim:IdentifiedObject.name "RENANTIS ENERGY TRADING SRL" ;
-    cim:Names.name "IT-RENANTISENERG",
-        "IT07958400967",
-        "Trade Responsible Party" ;
+    cim:Names.name "Capacity Trader",
+        "Grid Operator",
+        "IT-RENANTISENERG",
+        "IT07958400967" ;
     dcterms:identifier "urn:eic:26X00000107698-I" ;
     schema1:vatID "IT07958400967" ;
     skos:altLabel "IT-RENANTISENERG" ;

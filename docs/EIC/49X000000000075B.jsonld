@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "JUMP_TRADING_EU",
         "NL858513869B01",
-        "Capacity Trader"
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-02-09",
+    "@cim:DateAndOrTime.date": "2023-10-10",
     "@schema:vatID": "NL858513869B01",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

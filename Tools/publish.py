@@ -378,11 +378,13 @@ data_to_publish = [
     "../GeneratedData/Confidentiality.rdf",
     "../GeneratedData/FaultCauseType.rdf",
     "../GeneratedData/PropertyReference.rdf",
+    "../GeneratedData/allocated-eic.rdf"
 ]
 
 files_to_keep = {
     "CNAME",
     "github-mark-white.svg"
+    ".nojekyll"
 }
 
 # TODO - add a conf file for data to be published
@@ -401,6 +403,8 @@ for item in data_to_publish:
 
     # Extract metadata from ConceptScheme
     concept_scheme_metadata = {child.tag.split("}")[1]: child.text for child in concept_scheme.getchildren() if child.text != None}
+    if not concept_scheme_metadata.get("version"):
+        concept_scheme_metadata["version"] = "1"
     frontpage_rows += table_row_html_template.format(**concept_scheme_metadata)
 
     # Publish ConceptScheme

@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPTMG-------6" ;
     cim:IdentifiedObject.name "Picote-Mogadouro" ;
     cim:Names.name "Internal Line",
-        "LPT.MG" ;
+        "LPT_MG" ;
     dcterms:identifier "urn:eic:16TLPTMG-------6" ;
-    skos:altLabel "LPT.MG" ;
+    skos:altLabel "LPT_MG" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Picote-Mogadouro" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

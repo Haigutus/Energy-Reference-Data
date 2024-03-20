@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V402---Y",
     "@skos:prefLabel": "CEPS_V402 Krasíkov-Prosenice",
-    "@skos:altLabel": "CKRA__1*CPRN__1*",
+    "@skos:altLabel": "CKRA__1_CPRN__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V402---Y",
     "@cim:IdentifiedObject.name": "CEPS_V402 Krasíkov-Prosenice",
     "@cim:Names.name": [
-        "CKRA__1*CPRN__1*",
+        "CKRA__1_CPRN__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

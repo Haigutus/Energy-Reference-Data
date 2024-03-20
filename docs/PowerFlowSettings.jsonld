@@ -1,14 +1,14 @@
 {
     "@graph": [
         {
-            "@id": "http://energy.referencedata.eu/PowerFlowSettings/e4068581-713b-4d37-88e7-bca1fd78a8f7",
+            "@id": "http://energy.referencedata.eu/PowerFlowSettings/0722a865-678e-4539-99a3-460e42d87b39",
             "@type": [
                 "@skos:Concept",
                 "@cim:PowerFlowSettings"
             ],
-            "@cim:IdentifiedObject.mRID": "e4068581-713b-4d37-88e7-bca1fd78a8f7",
-            "@cim:IdentifiedObject.name": "CGM Creation Default",
-            "@cim:IdentifiedObject.description": "CGM Process - Default settings to use when creating a CGM",
+            "@cim:IdentifiedObject.mRID": "0722a865-678e-4539-99a3-460e42d87b39",
+            "@cim:IdentifiedObject.name": "CGM Creation Relaxed 1",
+            "@cim:IdentifiedObject.description": "CGM Process - Relaxed settings with controls on transformers and shunts disabled. To be used when creating a CGM and CGM creation fails with Default settings",
             "@cim:PowerFlowSettings.loadVoltageDependency": "false",
             "@cim:PowerFlowSettings.algorithmKind": {
                 "@id": "@cim:PowerFlowAlgorithmKind.fullNewtonRaphson"
@@ -21,22 +21,22 @@
             "@cim:PowerFlowSettings.impedanceThreshold": "1e-05",
             "@cim:PowerFlowSettings.respectActivePowerLimits": "true",
             "@cim:PowerFlowSettings.respectReactivePowerLimits": "true",
-            "@cim:PowerFlowSettings.transformerRatioTapControlPriority": "1",
-            "@cim:PowerFlowSettings.transformerPhaseTapControlPriority": "1",
-            "@cim:PowerFlowSettings.switchedShuntControlPriority": "2",
-            "@cim:PowerFlowSettings.staticVarCompensatorControlPriority": "2",
+            "@cim:PowerFlowSettings.transformerRatioTapControlPriority": "0",
+            "@cim:PowerFlowSettings.transformerPhaseTapControlPriority": "0",
+            "@cim:PowerFlowSettings.switchedShuntControlPriority": "0",
+            "@cim:PowerFlowSettings.staticVarCompensatorControlPriority": "0",
             "@cim:PowerFlowSettings.slackDistributionKind": {
                 "@id": "@cim:SlackDistributionKind.generationDistributionActivePowerAndVoltageNodesOnly"
             },
             "@cim:PowerFlowSettings.interchangeControlEnabled": "true",
-            "@eumd:PowerFlowSettings.maxIterationNumber": "30",
-            "@eumd:PowerFlowSettings.maxIterationNumberAIC": "15",
-            "@skos:prefLabel": "CGM Creation Default",
+            "@cim:PowerFlowSettings.maxIterationsInnerLoop": "30",
+            "@cim:PowerFlowSettings.maxIterationsOuterLoop": "15",
+            "@skos:prefLabel": "CGM Creation Relaxed 1",
             "@skos:definition": {
                 "@language": "en",
-                "@value": "CGM Process - Default settings to use when creating a CGM"
+                "@value": "CGM Process - Relaxed settings with controls on transformers and shunts disabled. To be used when creating a CGM and CGM creation fails with Default settings"
             },
-            "@dcterms:identifier": "urn:uuid:e4068581-713b-4d37-88e7-bca1fd78a8f7",
+            "@dcterms:identifier": "urn:uuid:0722a865-678e-4539-99a3-460e42d87b39",
             "@skos:inScheme": {
                 "@id": "http://energy.referencedata.eu/PowerFlowSettings"
             },
@@ -73,8 +73,8 @@
                 "@id": "@cim:SlackDistributionKind.generationDistributionActivePowerAndVoltageNodesOnly"
             },
             "@cim:PowerFlowSettings.interchangeControlEnabled": "true",
-            "@eumd:PowerFlowSettings.maxIterationNumber": "30",
-            "@eumd:PowerFlowSettings.maxIterationNumberAIC": "15",
+            "@cim:PowerFlowSettings.maxIterationsInnerLoop": "30",
+            "@cim:PowerFlowSettings.maxIterationsOuterLoop": "15",
             "@skos:prefLabel": "CGM Creation Relaxed 2",
             "@skos:definition": {
                 "@language": "en",
@@ -117,7 +117,7 @@
                 "@id": "@cim:SlackDistributionKind.generationDistributionParticipationFactor"
             },
             "@cim:PowerFlowSettings.interchangeControlEnabled": "false",
-            "@eumd:PowerFlowSettings.maxIterationNumber": "20",
+            "@cim:PowerFlowSettings.maxIterationsInnerLoop": "20",
             "@skos:prefLabel": "IGM Convergence",
             "@skos:definition": {
                 "@language": "en",
@@ -148,14 +148,14 @@
             }
         },
         {
-            "@id": "http://energy.referencedata.eu/PowerFlowSettings/0722a865-678e-4539-99a3-460e42d87b39",
+            "@id": "http://energy.referencedata.eu/PowerFlowSettings/e4068581-713b-4d37-88e7-bca1fd78a8f7",
             "@type": [
                 "@skos:Concept",
                 "@cim:PowerFlowSettings"
             ],
-            "@cim:IdentifiedObject.mRID": "0722a865-678e-4539-99a3-460e42d87b39",
-            "@cim:IdentifiedObject.name": "CGM Creation Relaxed 1",
-            "@cim:IdentifiedObject.description": "CGM Process - Relaxed settings with controls on transformers and shunts disabled. To be used when creating a CGM and CGM creation fails with Default settings",
+            "@cim:IdentifiedObject.mRID": "e4068581-713b-4d37-88e7-bca1fd78a8f7",
+            "@cim:IdentifiedObject.name": "CGM Creation Default",
+            "@cim:IdentifiedObject.description": "CGM Process - Default settings to use when creating a CGM",
             "@cim:PowerFlowSettings.loadVoltageDependency": "false",
             "@cim:PowerFlowSettings.algorithmKind": {
                 "@id": "@cim:PowerFlowAlgorithmKind.fullNewtonRaphson"
@@ -168,22 +168,22 @@
             "@cim:PowerFlowSettings.impedanceThreshold": "1e-05",
             "@cim:PowerFlowSettings.respectActivePowerLimits": "true",
             "@cim:PowerFlowSettings.respectReactivePowerLimits": "true",
-            "@cim:PowerFlowSettings.transformerRatioTapControlPriority": "0",
-            "@cim:PowerFlowSettings.transformerPhaseTapControlPriority": "0",
-            "@cim:PowerFlowSettings.switchedShuntControlPriority": "0",
-            "@cim:PowerFlowSettings.staticVarCompensatorControlPriority": "0",
+            "@cim:PowerFlowSettings.transformerRatioTapControlPriority": "1",
+            "@cim:PowerFlowSettings.transformerPhaseTapControlPriority": "1",
+            "@cim:PowerFlowSettings.switchedShuntControlPriority": "2",
+            "@cim:PowerFlowSettings.staticVarCompensatorControlPriority": "2",
             "@cim:PowerFlowSettings.slackDistributionKind": {
                 "@id": "@cim:SlackDistributionKind.generationDistributionActivePowerAndVoltageNodesOnly"
             },
             "@cim:PowerFlowSettings.interchangeControlEnabled": "true",
-            "@eumd:PowerFlowSettings.maxIterationNumber": "30",
-            "@eumd:PowerFlowSettings.maxIterationNumberAIC": "15",
-            "@skos:prefLabel": "CGM Creation Relaxed 1",
+            "@cim:PowerFlowSettings.maxIterationsInnerLoop": "30",
+            "@cim:PowerFlowSettings.maxIterationsOuterLoop": "15",
+            "@skos:prefLabel": "CGM Creation Default",
             "@skos:definition": {
                 "@language": "en",
-                "@value": "CGM Process - Relaxed settings with controls on transformers and shunts disabled. To be used when creating a CGM and CGM creation fails with Default settings"
+                "@value": "CGM Process - Default settings to use when creating a CGM"
             },
-            "@dcterms:identifier": "urn:uuid:0722a865-678e-4539-99a3-460e42d87b39",
+            "@dcterms:identifier": "urn:uuid:e4068581-713b-4d37-88e7-bca1fd78a8f7",
             "@skos:inScheme": {
                 "@id": "http://energy.referencedata.eu/PowerFlowSettings"
             },
@@ -193,13 +193,12 @@
         }
     ],
     "@context": {
-        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@cim": "http://cim.ucaiug.io/ns#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "@dcat": "http://www.w3.org/ns/dcat#",
         "@skos": "http://www.w3.org/2004/02/skos/core#",
         "@at": "http://publications.europa.eu/ontology/authority/",
-        "@dcterms": "http://purl.org/dc/terms/",
-        "@eumd": "http://entsoe.eu/ns/Metadata-European#"
+        "@dcterms": "http://purl.org/dc/terms/"
     }
 }

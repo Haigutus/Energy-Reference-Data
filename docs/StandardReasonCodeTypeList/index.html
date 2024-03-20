@@ -1,7 +1,11 @@
 
 <!DOCTYPE html>
-<html>
+<html xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
+    <link rel="alternate" type="application/rdf+xml" href="../StandardReasonCodeTypeList.rdf" title="RDF/XML" />
+    <link rel="alternate" type="application/ld+json" href="../StandardReasonCodeTypeList.jsonld" title="JSON-LD" />
+    <link rel="alternate" type="text/turtle" href="../StandardReasonCodeTypeList.ttl" title="Turtle" />
+  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
     <script>
@@ -14,7 +18,7 @@
 
     <!-- Metadata Section -->
     <meta charset="UTF-8">
-    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <title>StandardReasonCodeTypeList SKOS Concept Scheme</title>
     <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
     <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
     <meta name="robots" content="index,follow">
@@ -100,19 +104,19 @@
     <main>
       <table>
         <thead>
-          <tr>
-            <th>Label</th>
-            <th>Definition</th>           
-            <th>Identifier</th>
+          <tr typeof="skos:Concept">
+            <th property="skos:prefLabel">Label</th>
+            <th property="skos:definition" lang="en">Definition</th>           
+            <th property="dcterms:identifier">Identifier</th>
             <th>Serialisation</th>
           </tr>
         </thead>
         <tbody>
           
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/999.rdf">Errors not specifically identified </a></td>
-    <td>This code is used to identify errors that have not been specifically addressed in the Reason code list. It can be used at any level and refers to the level for which it has been identified.</td>
-    <td>999</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/999.rdf">Errors not specifically identified </a></td>
+    <td property="skos:definition" lang="en">This code is used to identify errors that have not been specifically addressed in the Reason code list. It can be used at any level and refers to the level for which it has been identified.</td>
+    <td property="dcterms:identifier">999</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/999.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/999.jsonld">JSON-LD</a><br>
@@ -120,10 +124,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A01.rdf">Message fully accepted</a></td>
-    <td>The message has been fully accepted for application processing.</td>
-    <td>A01</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A01.rdf">Message fully accepted</a></td>
+    <td property="skos:definition" lang="en">The message has been fully accepted for application processing.</td>
+    <td property="dcterms:identifier">A01</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A01.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A01.jsonld">JSON-LD</a><br>
@@ -131,10 +135,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A02.rdf">Message fully rejected </a></td>
-    <td>No part of the message has been accepted for application processing, e.g. Global position incomplete.</td>
-    <td>A02</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A02.rdf">Message fully rejected </a></td>
+    <td property="skos:definition" lang="en">No part of the message has been accepted for application processing, e.g. Global position incomplete.</td>
+    <td property="dcterms:identifier">A02</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A02.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A02.jsonld">JSON-LD</a><br>
@@ -142,10 +146,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A03.rdf">Message contains errors at the time series level </a></td>
-    <td>Part of the message contents, i.e. certain time series, has been accepted for application processing. It is necessary to look at the time series level to determine the time series that have been rejected. The time series is excluded from the global position.</td>
-    <td>A03</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A03.rdf">Message contains errors at the time series level </a></td>
+    <td property="skos:definition" lang="en">Part of the message contents, i.e. certain time series, has been accepted for application processing. It is necessary to look at the time series level to determine the time series that have been rejected. The time series is excluded from the global position.</td>
+    <td property="dcterms:identifier">A03</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A03.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A03.jsonld">JSON-LD</a><br>
@@ -153,10 +157,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A04.rdf">Time interval incorrect </a></td>
-    <td>The schedule time interval is not within the contractual agreement or the period does not agree with the schedule time interval.</td>
-    <td>A04</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A04.rdf">Time interval incorrect </a></td>
+    <td property="skos:definition" lang="en">The schedule time interval is not within the contractual agreement or the period does not agree with the schedule time interval.</td>
+    <td property="dcterms:identifier">A04</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A04.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A04.jsonld">JSON-LD</a><br>
@@ -164,10 +168,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A05.rdf">Sender without valid contract </a></td>
-    <td>The sender has no current valid contract with the TSO. The message consequently will be fully rejected.</td>
-    <td>A05</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A05.rdf">Sender without valid contract </a></td>
+    <td property="skos:definition" lang="en">The sender has no current valid contract with the TSO. The message consequently will be fully rejected.</td>
+    <td property="dcterms:identifier">A05</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A05.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A05.jsonld">JSON-LD</a><br>
@@ -175,10 +179,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A06.rdf">Schedule accepted </a></td>
-    <td>The schedule of the recipient as presented has been completely accepted.</td>
-    <td>A06</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A06.rdf">Schedule accepted </a></td>
+    <td property="skos:definition" lang="en">The schedule of the recipient as presented has been completely accepted.</td>
+    <td property="dcterms:identifier">A06</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A06.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A06.jsonld">JSON-LD</a><br>
@@ -186,10 +190,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A07.rdf">Schedule partially accepted </a></td>
-    <td>The schedule of the recipient as presented has been partially accepted. It is necessary to look at the time series level to determine the changes (time series rejected, modified, etc.).</td>
-    <td>A07</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A07.rdf">Schedule partially accepted </a></td>
+    <td property="skos:definition" lang="en">The schedule of the recipient as presented has been partially accepted. It is necessary to look at the time series level to determine the changes (time series rejected, modified, etc.).</td>
+    <td property="dcterms:identifier">A07</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A07.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A07.jsonld">JSON-LD</a><br>
@@ -197,10 +201,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A08.rdf">Schedule rejected </a></td>
-    <td>The schedule of the recipient as presented has been totally rejected. The cause could be the non presentation of a counter part for the involved trades.</td>
-    <td>A08</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A08.rdf">Schedule rejected </a></td>
+    <td property="skos:definition" lang="en">The schedule of the recipient as presented has been totally rejected. The cause could be the non presentation of a counter part for the involved trades.</td>
+    <td property="dcterms:identifier">A08</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A08.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A08.jsonld">JSON-LD</a><br>
@@ -208,10 +212,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A09.rdf">Time series not matching</a></td>
-    <td>Time series mismatches. </td>
-    <td>A09</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A09.rdf">Time series not matching</a></td>
+    <td property="skos:definition" lang="en">Time series mismatches. </td>
+    <td property="dcterms:identifier">A09</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A09.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A09.jsonld">JSON-LD</a><br>
@@ -219,10 +223,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A10.rdf">Credit limit exceeded </a></td>
-    <td>The contractual credit limit has been exceeded and as such the message has been rejected.</td>
-    <td>A10</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A10.rdf">Credit limit exceeded </a></td>
+    <td property="skos:definition" lang="en">The contractual credit limit has been exceeded and as such the message has been rejected.</td>
+    <td property="dcterms:identifier">A10</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A10.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A10.jsonld">JSON-LD</a><br>
@@ -230,10 +234,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A20.rdf">Time series fully rejected </a></td>
-    <td>The time series has been fully rejected. In the case of a confirmation report, this reason code is used in conjunction with either A26 or A30.</td>
-    <td>A20</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A20.rdf">Time series fully rejected </a></td>
+    <td property="skos:definition" lang="en">The time series has been fully rejected. In the case of a confirmation report, this reason code is used in conjunction with either A26 or A30.</td>
+    <td property="dcterms:identifier">A20</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A20.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A20.jsonld">JSON-LD</a><br>
@@ -241,10 +245,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A21.rdf">Time series accepted with specific time interval errors </a></td>
-    <td>The time series has been accepted but some time interval quantities have been rectified or zeroed out.</td>
-    <td>A21</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A21.rdf">Time series accepted with specific time interval errors </a></td>
+    <td property="skos:definition" lang="en">The time series has been accepted but some time interval quantities have been rectified or zeroed out.</td>
+    <td property="dcterms:identifier">A21</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A21.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A21.jsonld">JSON-LD</a><br>
@@ -252,10 +256,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A22.rdf">In party/Out party invalid</a></td>
-    <td>There is no contract for the parties indicated or the rules for cross border nominations are not being respected. The time series has been rejected.</td>
-    <td>A22</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A22.rdf">In party/Out party invalid</a></td>
+    <td property="skos:definition" lang="en">There is no contract for the parties indicated or the rules for cross border nominations are not being respected. The time series has been rejected.</td>
+    <td property="dcterms:identifier">A22</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A22.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A22.jsonld">JSON-LD</a><br>
@@ -263,10 +267,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A23.rdf">Area invalid</a></td>
-    <td>The area is unknown or not allowed. The time series has been rejected.</td>
-    <td>A23</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A23.rdf">Area invalid</a></td>
+    <td property="skos:definition" lang="en">The area is unknown or not allowed. The time series has been rejected.</td>
+    <td property="dcterms:identifier">A23</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A23.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A23.jsonld">JSON-LD</a><br>
@@ -274,10 +278,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A24.rdf">A24 not applicable</a></td>
-    <td>This code is no longer applicable.</td>
-    <td>A24</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A24.rdf">A24 not applicable</a></td>
+    <td property="skos:definition" lang="en">This code is no longer applicable.</td>
+    <td property="dcterms:identifier">A24</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A24.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A24.jsonld">JSON-LD</a><br>
@@ -285,10 +289,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A25.rdf">A25 not applicable</a></td>
-    <td>This code is no longer applicable.</td>
-    <td>A25</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A25.rdf">A25 not applicable</a></td>
+    <td property="skos:definition" lang="en">This code is no longer applicable.</td>
+    <td property="dcterms:identifier">A25</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A25.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A25.jsonld">JSON-LD</a><br>
@@ -296,10 +300,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A26.rdf">Default time series applied </a></td>
-    <td>The time series has been rejected and replaced with a default time series profile. This reason code may not be used in conjunction with A30.</td>
-    <td>A26</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A26.rdf">Default time series applied </a></td>
+    <td property="skos:definition" lang="en">The time series has been rejected and replaced with a default time series profile. This reason code may not be used in conjunction with A30.</td>
+    <td property="dcterms:identifier">A26</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A26.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A26.jsonld">JSON-LD</a><br>
@@ -307,10 +311,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A27.rdf">Cross border capacity exceeded </a></td>
-    <td>The cross border capacity has been exceeded. The time series has been rejected or adjusted.</td>
-    <td>A27</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A27.rdf">Cross border capacity exceeded </a></td>
+    <td property="skos:definition" lang="en">The cross border capacity has been exceeded. The time series has been rejected or adjusted.</td>
+    <td property="dcterms:identifier">A27</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A27.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A27.jsonld">JSON-LD</a><br>
@@ -318,12 +322,12 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A28.rdf">Counterpart time series missing </a></td>
-    <td>This provides an indication that the time series has not got a counterpart time series.
-In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A28.rdf">Counterpart time series missing </a></td>
+    <td property="skos:definition" lang="en">This provides an indication that the time series has not got a counterpart time series. 
+In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received. 
 In the case of a Final Confirmation Report this is informing the recipient that the time series has been rejected because the counterpart time series has not been forthcoming. </td>
-    <td>A28</td> 
+    <td property="dcterms:identifier">A28</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A28.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A28.jsonld">JSON-LD</a><br>
@@ -331,10 +335,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A29.rdf">Counterpart time series quantity differences </a></td>
-    <td>The time series has been rejected as it does not match that of the counterpart who is considered by market rules to be correct.</td>
-    <td>A29</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A29.rdf">Counterpart time series quantity differences </a></td>
+    <td property="skos:definition" lang="en">The time series has been rejected as it does not match that of the counterpart who is considered by market rules to be correct.</td>
+    <td property="dcterms:identifier">A29</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A29.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A29.jsonld">JSON-LD</a><br>
@@ -342,10 +346,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A30.rdf">Imposed Time series from nominated party's time series (party identified in reason text)</a></td>
-    <td>The nominated party's time series has replaced the current time series. This reason code may not be used in conjunction with A26.</td>
-    <td>A30</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A30.rdf">Imposed Time series from nominated party's time series (party identified in reason text)</a></td>
+    <td property="skos:definition" lang="en">The nominated party's time series has replaced the current time series. This reason code may not be used in conjunction with A26.</td>
+    <td property="dcterms:identifier">A30</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A30.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A30.jsonld">JSON-LD</a><br>
@@ -353,10 +357,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A41.rdf">Resolution inconsistency </a></td>
-    <td>The resolution is not coherent with the time interval, or resolution not valid.</td>
-    <td>A41</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A41.rdf">Resolution inconsistency </a></td>
+    <td property="skos:definition" lang="en">The resolution is not coherent with the time interval, or resolution not valid.</td>
+    <td property="dcterms:identifier">A41</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A41.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A41.jsonld">JSON-LD</a><br>
@@ -364,10 +368,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A42.rdf">Quantity inconsistency </a></td>
-    <td>The quantity is not coherent. For example a time period with the same version number but different quantities or an non permitted number of digits after the decimal point, etc.</td>
-    <td>A42</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A42.rdf">Quantity inconsistency </a></td>
+    <td property="skos:definition" lang="en">The quantity is not coherent. For example a time period with the same version number but different quantities or an non permitted number of digits after the decimal point, etc.</td>
+    <td property="dcterms:identifier">A42</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A42.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A42.jsonld">JSON-LD</a><br>
@@ -375,10 +379,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A43.rdf">Quantity increased </a></td>
-    <td>The quantity has been increased in order to satisfy minimum constraints.</td>
-    <td>A43</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A43.rdf">Quantity increased </a></td>
+    <td property="skos:definition" lang="en">The quantity has been increased in order to satisfy minimum constraints.</td>
+    <td property="dcterms:identifier">A43</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A43.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A43.jsonld">JSON-LD</a><br>
@@ -386,10 +390,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A44.rdf">Quantity decreased </a></td>
-    <td>The quantity has been decreased in order to satisfy congestion constraints.</td>
-    <td>A44</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A44.rdf">Quantity decreased </a></td>
+    <td property="skos:definition" lang="en">The quantity has been decreased in order to satisfy congestion constraints.</td>
+    <td property="dcterms:identifier">A44</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A44.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A44.jsonld">JSON-LD</a><br>
@@ -397,10 +401,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A45.rdf">Default quantity applied </a></td>
-    <td>The default quantity has been applied as the current quantity does not satisfy contractual obligations.</td>
-    <td>A45</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A45.rdf">Default quantity applied </a></td>
+    <td property="skos:definition" lang="en">The default quantity has been applied as the current quantity does not satisfy contractual obligations.</td>
+    <td property="dcterms:identifier">A45</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A45.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A45.jsonld">JSON-LD</a><br>
@@ -408,10 +412,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A46.rdf">Quantities must not be signed values</a></td>
-    <td>The quantity proposed is illegal since signed values are only permitted in specific circumstances.</td>
-    <td>A46</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A46.rdf">Quantities must not be signed values</a></td>
+    <td property="skos:definition" lang="en">The quantity proposed is illegal since signed values are only permitted in specific circumstances.</td>
+    <td property="dcterms:identifier">A46</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A46.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A46.jsonld">JSON-LD</a><br>
@@ -419,10 +423,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A47.rdf">A47 not applicable</a></td>
-    <td>This code is no longer applicable.</td>
-    <td>A47</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A47.rdf">A47 not applicable</a></td>
+    <td property="skos:definition" lang="en">This code is no longer applicable.</td>
+    <td property="dcterms:identifier">A47</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A47.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A47.jsonld">JSON-LD</a><br>
@@ -430,10 +434,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A48.rdf">Modification reason</a></td>
-    <td>In an intraday transmission, the reason for the modification is as follows (in the reason text).</td>
-    <td>A48</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A48.rdf">Modification reason</a></td>
+    <td property="skos:definition" lang="en">In an intraday transmission, the reason for the modification is as follows (in the reason text).</td>
+    <td property="dcterms:identifier">A48</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A48.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A48.jsonld">JSON-LD</a><br>
@@ -441,10 +445,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A49.rdf">Position inconsistency</a></td>
-    <td>A position is missing or too many.</td>
-    <td>A49</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A49.rdf">Position inconsistency</a></td>
+    <td property="skos:definition" lang="en">A position is missing or too many.</td>
+    <td property="dcterms:identifier">A49</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A49.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A49.jsonld">JSON-LD</a><br>
@@ -452,10 +456,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A50.rdf">Senders time series version conflict</a></td>
-    <td>There is an error in the sender time series version, i.e. it could be superior to the message version or is inconsistent with the existing data. The time series has been rejected.</td>
-    <td>A50</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A50.rdf">Senders time series version conflict</a></td>
+    <td property="skos:definition" lang="en">There is an error in the sender time series version, i.e. it could be superior to the message version or is inconsistent with the existing data. The time series has been rejected.</td>
+    <td property="dcterms:identifier">A50</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A50.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A50.jsonld">JSON-LD</a><br>
@@ -463,10 +467,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A51.rdf">Message identification or version conflict</a></td>
-    <td>The message identification is already in the receiving system. Or a higher version already exists. Message rejected.</td>
-    <td>A51</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A51.rdf">Message identification or version conflict</a></td>
+    <td property="skos:definition" lang="en">The message identification is already in the receiving system. Or a higher version already exists. Message rejected.</td>
+    <td property="dcterms:identifier">A51</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A51.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A51.jsonld">JSON-LD</a><br>
@@ -474,10 +478,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A52.rdf">Time series missing from new version of message</a></td>
-    <td>A time series is not contained in a new version of the message. Message rejected.</td>
-    <td>A52</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A52.rdf">Time series missing from new version of message</a></td>
+    <td property="skos:definition" lang="en">A time series is not contained in a new version of the message. Message rejected.</td>
+    <td property="dcterms:identifier">A52</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A52.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A52.jsonld">JSON-LD</a><br>
@@ -485,10 +489,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A53.rdf">Receiving party incorrect</a></td>
-    <td>The receiving party is incorrect. Message rejected.</td>
-    <td>A53</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A53.rdf">Receiving party incorrect</a></td>
+    <td property="skos:definition" lang="en">The receiving party is incorrect. Message rejected.</td>
+    <td property="dcterms:identifier">A53</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A53.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A53.jsonld">JSON-LD</a><br>
@@ -496,10 +500,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A54.rdf">Global position not in balance</a></td>
-    <td>The message does not balance out to zero. Market rules might require that the message is rejected. </td>
-    <td>A54</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A54.rdf">Global position not in balance</a></td>
+    <td property="skos:definition" lang="en">The message does not balance out to zero. Market rules might require that the message is rejected. </td>
+    <td property="dcterms:identifier">A54</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A54.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A54.jsonld">JSON-LD</a><br>
@@ -507,10 +511,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A55.rdf">Time series identification conflict</a></td>
-    <td>The identification of the time series is duplicated or incorrect. Time series will be rejected.</td>
-    <td>A55</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A55.rdf">Time series identification conflict</a></td>
+    <td property="skos:definition" lang="en">The identification of the time series is duplicated or incorrect. Time series will be rejected.</td>
+    <td property="dcterms:identifier">A55</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A55.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A55.jsonld">JSON-LD</a><br>
@@ -518,10 +522,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A56.rdf">Corresponding Time series not netted</a></td>
-    <td>All corresponding time series must be netted. Time series rejected.</td>
-    <td>A56</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A56.rdf">Corresponding Time series not netted</a></td>
+    <td property="skos:definition" lang="en">All corresponding time series must be netted. Time series rejected.</td>
+    <td property="dcterms:identifier">A56</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A56.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A56.jsonld">JSON-LD</a><br>
@@ -529,10 +533,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A57.rdf">Deadline limit exceeded/Gate not open</a></td>
-    <td>The deadline for receiving schedule messages has passed. Message or time series rejected.</td>
-    <td>A57</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A57.rdf">Deadline limit exceeded/Gate not open</a></td>
+    <td property="skos:definition" lang="en">The deadline for receiving schedule messages has passed. Message or time series rejected.</td>
+    <td property="dcterms:identifier">A57</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A57.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A57.jsonld">JSON-LD</a><br>
@@ -540,10 +544,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A58.rdf">One to one nomination inconsistency</a></td>
-    <td>There is a one to one nomination inconstancy with the in/out parties or areas. Time series rejected.</td>
-    <td>A58</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A58.rdf">One to one nomination inconsistency</a></td>
+    <td property="skos:definition" lang="en">There is a one to one nomination inconstancy with the in/out parties or areas. Time series rejected.</td>
+    <td property="dcterms:identifier">A58</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A58.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A58.jsonld">JSON-LD</a><br>
@@ -551,10 +555,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A59.rdf">Not compliant to local market rules</a></td>
-    <td>The level in which this is identified is not in compliance with local market rules. The level in question has been rejected.</td>
-    <td>A59</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A59.rdf">Not compliant to local market rules</a></td>
+    <td property="skos:definition" lang="en">The level in which this is identified is not in compliance with local market rules. The level in question has been rejected.</td>
+    <td property="dcterms:identifier">A59</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A59.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A59.jsonld">JSON-LD</a><br>
@@ -562,10 +566,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A60.rdf">Inter-area transit schedule exceeds nominated schedule</a></td>
-    <td>The inter-area transit schedule exceeds the nominated schedule for the same time interval. The inter-area transit schedule is rejected.</td>
-    <td>A60</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A60.rdf">Inter-area transit schedule exceeds nominated schedule</a></td>
+    <td property="skos:definition" lang="en">The inter-area transit schedule exceeds the nominated schedule for the same time interval. The inter-area transit schedule is rejected.</td>
+    <td property="dcterms:identifier">A60</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A60.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A60.jsonld">JSON-LD</a><br>
@@ -573,10 +577,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A61.rdf">Currency invalid</a></td>
-    <td>The currency is not in compliance with ISO 4217.</td>
-    <td>A61</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A61.rdf">Currency invalid</a></td>
+    <td property="skos:definition" lang="en">The currency is not in compliance with ISO 4217.</td>
+    <td property="dcterms:identifier">A61</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A61.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A61.jsonld">JSON-LD</a><br>
@@ -584,10 +588,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A62.rdf">Invalid business type</a></td>
-    <td>The business type does not belong to the valid set of business types for the process in question.</td>
-    <td>A62</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A62.rdf">Invalid business type</a></td>
+    <td property="skos:definition" lang="en">The business type does not belong to the valid set of business types for the process in question.</td>
+    <td property="dcterms:identifier">A62</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A62.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A62.jsonld">JSON-LD</a><br>
@@ -595,10 +599,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A63.rdf">Time Series modified</a></td>
-    <td>The time series has been modified.</td>
-    <td>A63</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A63.rdf">Time Series modified</a></td>
+    <td property="skos:definition" lang="en">The time series has been modified.</td>
+    <td property="dcterms:identifier">A63</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A63.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A63.jsonld">JSON-LD</a><br>
@@ -606,10 +610,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A64.rdf">Resource Object Invalid</a></td>
-    <td>The Resource Object defined in the document is not valid.</td>
-    <td>A64</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A64.rdf">Resource Object Invalid</a></td>
+    <td property="skos:definition" lang="en">The Resource Object defined in the document is not valid.</td>
+    <td property="dcterms:identifier">A64</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A64.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A64.jsonld">JSON-LD</a><br>
@@ -617,10 +621,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A65.rdf">Reserve object Technical  limits exceeded</a></td>
-    <td>Reserve objects aggregated values are not within technical/prequalified limits</td>
-    <td>A65</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A65.rdf">Reserve object Technical  limits exceeded</a></td>
+    <td property="skos:definition" lang="en">Reserve objects aggregated values are not within technical/prequalified limits</td>
+    <td property="dcterms:identifier">A65</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A65.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A65.jsonld">JSON-LD</a><br>
@@ -628,10 +632,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A66.rdf">Planned reserves do not correspond with contractual data</a></td>
-    <td>Planned reserves do not correspond with contractual data.</td>
-    <td>A66</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A66.rdf">Planned reserves do not correspond with contractual data</a></td>
+    <td property="skos:definition" lang="en">Planned reserves do not correspond with contractual data.</td>
+    <td property="dcterms:identifier">A66</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A66.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A66.jsonld">JSON-LD</a><br>
@@ -639,10 +643,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A67.rdf">Limit Data is not available</a></td>
-    <td>Limit Data is not available.</td>
-    <td>A67</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A67.rdf">Limit Data is not available</a></td>
+    <td property="skos:definition" lang="en">Limit Data is not available.</td>
+    <td property="dcterms:identifier">A67</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A67.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A67.jsonld">JSON-LD</a><br>
@@ -650,10 +654,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A68.rdf">Reserve Object not qualified for reserve type</a></td>
-    <td>Reserve Object is not qualified for reserve type.</td>
-    <td>A68</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A68.rdf">Reserve Object not qualified for reserve type</a></td>
+    <td property="skos:definition" lang="en">Reserve Object is not qualified for reserve type.</td>
+    <td property="dcterms:identifier">A68</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A68.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A68.jsonld">JSON-LD</a><br>
@@ -661,10 +665,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A69.rdf">Mandatory attributes missing</a></td>
-    <td>Mandatory attributes missing.</td>
-    <td>A69</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A69.rdf">Mandatory attributes missing</a></td>
+    <td property="skos:definition" lang="en">Mandatory attributes missing.</td>
+    <td property="dcterms:identifier">A69</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A69.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A69.jsonld">JSON-LD</a><br>
@@ -672,10 +676,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A70.rdf">Curtailment</a></td>
-    <td>The capacity in question has been curtailed.</td>
-    <td>A70</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A70.rdf">Curtailment</a></td>
+    <td property="skos:definition" lang="en">The capacity in question has been curtailed.</td>
+    <td property="dcterms:identifier">A70</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A70.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A70.jsonld">JSON-LD</a><br>
@@ -683,10 +687,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A71.rdf">Linked bid rejected due to associated bid unsuccessful</a></td>
-    <td>The bid in question has been rejected because an associated bid has been unsuccessful.</td>
-    <td>A71</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A71.rdf">Linked bid rejected due to associated bid unsuccessful</a></td>
+    <td property="skos:definition" lang="en">The bid in question has been rejected because an associated bid has been unsuccessful.</td>
+    <td property="dcterms:identifier">A71</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A71.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A71.jsonld">JSON-LD</a><br>
@@ -694,10 +698,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A72.rdf">Original bid divided to permit acceptance</a></td>
-    <td>The original bid quantity has been divided to enable it to be accepted.</td>
-    <td>A72</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A72.rdf">Original bid divided to permit acceptance</a></td>
+    <td property="skos:definition" lang="en">The original bid quantity has been divided to enable it to be accepted.</td>
+    <td property="dcterms:identifier">A72</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A72.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A72.jsonld">JSON-LD</a><br>
@@ -705,10 +709,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A73.rdf">Bid accepted</a></td>
-    <td>The bid in question has been accepted.</td>
-    <td>A73</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A73.rdf">Bid accepted</a></td>
+    <td property="skos:definition" lang="en">The bid in question has been accepted.</td>
+    <td property="dcterms:identifier">A73</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A73.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A73.jsonld">JSON-LD</a><br>
@@ -716,10 +720,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A74.rdf">Auction Status</a></td>
-    <td>The information in the Reason Text provides auction status information.</td>
-    <td>A74</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A74.rdf">Auction Status</a></td>
+    <td property="skos:definition" lang="en">The information in the Reason Text provides auction status information.</td>
+    <td property="dcterms:identifier">A74</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A74.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A74.jsonld">JSON-LD</a><br>
@@ -727,10 +731,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A75.rdf">Right status information</a></td>
-    <td>The information in the Reason Text provides status information concerning the transmission rights in question.</td>
-    <td>A75</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A75.rdf">Right status information</a></td>
+    <td property="skos:definition" lang="en">The information in the Reason Text provides status information concerning the transmission rights in question.</td>
+    <td property="dcterms:identifier">A75</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A75.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A75.jsonld">JSON-LD</a><br>
@@ -738,10 +742,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A76.rdf">Agreement identification inconsistency</a></td>
-    <td>There is an inconsistency between the contract type and the agreement identification.</td>
-    <td>A76</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A76.rdf">Agreement identification inconsistency</a></td>
+    <td property="skos:definition" lang="en">There is an inconsistency between the contract type and the agreement identification.</td>
+    <td property="dcterms:identifier">A76</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A76.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A76.jsonld">JSON-LD</a><br>
@@ -749,10 +753,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A77.rdf">Dependency matrix not respected</a></td>
-    <td>There is an inconsistency between the document contents and the dependency matrix.</td>
-    <td>A77</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A77.rdf">Dependency matrix not respected</a></td>
+    <td property="skos:definition" lang="en">There is an inconsistency between the document contents and the dependency matrix.</td>
+    <td property="dcterms:identifier">A77</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A77.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A77.jsonld">JSON-LD</a><br>
@@ -760,10 +764,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A78.rdf">Sender identification and/or role invalid</a></td>
-    <td>The identification of the sender or the sender/role combination is invalid.</td>
-    <td>A78</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A78.rdf">Sender identification and/or role invalid</a></td>
+    <td property="skos:definition" lang="en">The identification of the sender or the sender/role combination is invalid.</td>
+    <td property="dcterms:identifier">A78</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A78.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A78.jsonld">JSON-LD</a><br>
@@ -771,10 +775,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A79.rdf">Process type invalid</a></td>
-    <td>The process type does not figure in the list of valid process types for this document.</td>
-    <td>A79</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A79.rdf">Process type invalid</a></td>
+    <td property="skos:definition" lang="en">The process type does not figure in the list of valid process types for this document.</td>
+    <td property="dcterms:identifier">A79</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A79.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A79.jsonld">JSON-LD</a><br>
@@ -782,10 +786,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A80.rdf">Domain invalid</a></td>
-    <td>The domain does not figure in the list of valid domains for this document and process.</td>
-    <td>A80</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A80.rdf">Domain invalid</a></td>
+    <td property="skos:definition" lang="en">The domain does not figure in the list of valid domains for this document and process.</td>
+    <td property="dcterms:identifier">A80</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A80.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A80.jsonld">JSON-LD</a><br>
@@ -793,10 +797,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A81.rdf">Matching period invalid</a></td>
-    <td>The period is not within the expected limits.</td>
-    <td>A81</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A81.rdf">Matching period invalid</a></td>
+    <td property="skos:definition" lang="en">The period is not within the expected limits.</td>
+    <td property="dcterms:identifier">A81</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A81.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A81.jsonld">JSON-LD</a><br>
@@ -804,10 +808,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A82.rdf">In/Out area inconsistent with domain</a></td>
-    <td>The in and out area does not figure within the domain specified.</td>
-    <td>A82</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A82.rdf">In/Out area inconsistent with domain</a></td>
+    <td property="skos:definition" lang="en">The in and out area does not figure within the domain specified.</td>
+    <td property="dcterms:identifier">A82</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A82.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A82.jsonld">JSON-LD</a><br>
@@ -815,10 +819,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A83.rdf">Disagree with matching results</a></td>
-    <td>The matching results provided are not consistent.</td>
-    <td>A83</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A83.rdf">Disagree with matching results</a></td>
+    <td property="skos:definition" lang="en">The matching results provided are not consistent.</td>
+    <td property="dcterms:identifier">A83</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A83.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A83.jsonld">JSON-LD</a><br>
@@ -826,10 +830,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A84.rdf">Confirmation ignored due to higher version already received</a></td>
-    <td>The report has been ignored since a higher version has been received.</td>
-    <td>A84</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A84.rdf">Confirmation ignored due to higher version already received</a></td>
+    <td property="skos:definition" lang="en">The report has been ignored since a higher version has been received.</td>
+    <td property="dcterms:identifier">A84</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A84.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A84.jsonld">JSON-LD</a><br>
@@ -837,10 +841,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A85.rdf">Confirmation without adjustment (time series have been matched without change)</a></td>
-    <td>The report has been successfully matched without any changes.</td>
-    <td>A85</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A85.rdf">Confirmation without adjustment (time series have been matched without change)</a></td>
+    <td property="skos:definition" lang="en">The report has been successfully matched without any changes.</td>
+    <td property="dcterms:identifier">A85</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A85.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A85.jsonld">JSON-LD</a><br>
@@ -848,10 +852,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A86.rdf">Confirmation with adjustment (time series have been modified)</a></td>
-    <td>The report has been matched but required adjustment.</td>
-    <td>A86</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A86.rdf">Confirmation with adjustment (time series have been modified)</a></td>
+    <td property="skos:definition" lang="en">The report has been matched but required adjustment.</td>
+    <td property="dcterms:identifier">A86</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A86.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A86.jsonld">JSON-LD</a><br>
@@ -859,10 +863,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A87.rdf">For action (only in intermediate confirmation - time series need mutual agreement and action)</a></td>
-    <td>The report in question is only for action in an intermediate stage.</td>
-    <td>A87</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A87.rdf">For action (only in intermediate confirmation - time series need mutual agreement and action)</a></td>
+    <td property="skos:definition" lang="en">The report in question is only for action in an intermediate stage.</td>
+    <td property="dcterms:identifier">A87</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A87.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A87.jsonld">JSON-LD</a><br>
@@ -870,10 +874,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A88.rdf">Time series matched</a></td>
-    <td>The time series has been successfully matched.</td>
-    <td>A88</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A88.rdf">Time series matched</a></td>
+    <td property="skos:definition" lang="en">The time series has been successfully matched.</td>
+    <td property="dcterms:identifier">A88</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A88.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A88.jsonld">JSON-LD</a><br>
@@ -881,10 +885,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A89.rdf">Time series ignored (note: this can only apply to time series that are set to zero - see matching principles)</a></td>
-    <td>The time series has been ignored and not matched since it does not figure in a counterparty transmission. All are correctly equal to zero.</td>
-    <td>A89</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A89.rdf">Time series ignored (note: this can only apply to time series that are set to zero - see matching principles)</a></td>
+    <td property="skos:definition" lang="en">The time series has been ignored and not matched since it does not figure in a counterparty transmission. All are correctly equal to zero.</td>
+    <td property="dcterms:identifier">A89</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A89.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A89.jsonld">JSON-LD</a><br>
@@ -892,10 +896,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A90.rdf">Modification proposal (intermediate confirmation)</a></td>
-    <td>The document is a proposal for change before finalization.</td>
-    <td>A90</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A90.rdf">Modification proposal (intermediate confirmation)</a></td>
+    <td property="skos:definition" lang="en">The document is a proposal for change before finalization.</td>
+    <td property="dcterms:identifier">A90</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A90.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A90.jsonld">JSON-LD</a><br>
@@ -903,10 +907,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A91.rdf">Expected document not received</a></td>
-    <td>The document that is expected has not been received within the expected timeframe.</td>
-    <td>A91</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A91.rdf">Expected document not received</a></td>
+    <td property="skos:definition" lang="en">The document that is expected has not been received within the expected timeframe.</td>
+    <td property="dcterms:identifier">A91</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A91.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A91.jsonld">JSON-LD</a><br>
@@ -914,10 +918,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A92.rdf">Not possible to send document on time, but estimated delivery time is provided</a></td>
-    <td>The document that is due cannot be transmitted within the required timeframe. An estimated time of transmission is provided.</td>
-    <td>A92</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A92.rdf">Not possible to send document on time, but estimated delivery time is provided</a></td>
+    <td property="skos:definition" lang="en">The document that is due cannot be transmitted within the required timeframe. An estimated time of transmission is provided.</td>
+    <td property="dcterms:identifier">A92</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A92.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A92.jsonld">JSON-LD</a><br>
@@ -925,10 +929,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A93.rdf">Not possible to send document on time, and furthermore no expected time of return to normal situation</a></td>
-    <td>The document that is due cannot be transmitted within the required timeframe. The time of transmission of the document is unknown.</td>
-    <td>A93</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A93.rdf">Not possible to send document on time, and furthermore no expected time of return to normal situation</a></td>
+    <td property="skos:definition" lang="en">The document that is due cannot be transmitted within the required timeframe. The time of transmission of the document is unknown.</td>
+    <td property="dcterms:identifier">A93</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A93.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A93.jsonld">JSON-LD</a><br>
@@ -936,10 +940,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A94.rdf">Document cannot be processed by receiving system</a></td>
-    <td>The receiving system cannot process that document in question.</td>
-    <td>A94</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A94.rdf">Document cannot be processed by receiving system</a></td>
+    <td property="skos:definition" lang="en">The receiving system cannot process that document in question.</td>
+    <td property="dcterms:identifier">A94</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A94.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A94.jsonld">JSON-LD</a><br>
@@ -947,10 +951,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A95.rdf">Complementary information</a></td>
-    <td>Additional text is provided in order to further explain a condition, for example to provide details of an outage.</td>
-    <td>A95</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A95.rdf">Complementary information</a></td>
+    <td property="skos:definition" lang="en">Additional text is provided in order to further explain a condition, for example to provide details of an outage.</td>
+    <td property="dcterms:identifier">A95</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A95.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A95.jsonld">JSON-LD</a><br>
@@ -958,10 +962,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A96.rdf">Technical constraint</a></td>
-    <td>A technical constraint has been applied.</td>
-    <td>A96</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A96.rdf">Technical constraint</a></td>
+    <td property="skos:definition" lang="en">A technical constraint has been applied.</td>
+    <td property="dcterms:identifier">A96</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A96.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A96.jsonld">JSON-LD</a><br>
@@ -969,10 +973,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A97.rdf">Force majeure curtailment</a></td>
-    <td>Curtailment due to Force Majeure. A code that enables the identification of the curtailment reason for settlement purposes.</td>
-    <td>A97</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A97.rdf">Force majeure curtailment</a></td>
+    <td property="skos:definition" lang="en">Curtailment due to Force Majeure. A code that enables the identification of the curtailment reason for settlement purposes.</td>
+    <td property="dcterms:identifier">A97</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A97.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A97.jsonld">JSON-LD</a><br>
@@ -980,10 +984,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A98.rdf">Network security curtailment</a></td>
-    <td>Curtailment due to network security reasons A code that enables the identification of the curtailment reason for settlement purposes.</td>
-    <td>A98</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A98.rdf">Network security curtailment</a></td>
+    <td property="skos:definition" lang="en">Curtailment due to network security reasons A code that enables the identification of the curtailment reason for settlement purposes.</td>
+    <td property="dcterms:identifier">A98</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A98.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A98.jsonld">JSON-LD</a><br>
@@ -991,10 +995,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A99.rdf">Auction cancelled</a></td>
-    <td>The auction has been cancelled.</td>
-    <td>A99</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A99.rdf">Auction cancelled</a></td>
+    <td property="skos:definition" lang="en">The auction has been cancelled.</td>
+    <td property="dcterms:identifier">A99</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A99.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/A99.jsonld">JSON-LD</a><br>
@@ -1002,10 +1006,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B01.rdf">Incomplete document</a></td>
-    <td>The document is incomplete and cannot be processed.</td>
-    <td>B01</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B01.rdf">Incomplete document</a></td>
+    <td property="skos:definition" lang="en">The document is incomplete and cannot be processed.</td>
+    <td property="dcterms:identifier">B01</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B01.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B01.jsonld">JSON-LD</a><br>
@@ -1013,10 +1017,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B02.rdf">Accounting Point (tie-line) Time Series missing</a></td>
-    <td>The document is incomplete as a time series for an accounting point is missing.</td>
-    <td>B02</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B02.rdf">Accounting Point (tie-line) Time Series missing</a></td>
+    <td property="skos:definition" lang="en">The document is incomplete as a time series for an accounting point is missing.</td>
+    <td property="dcterms:identifier">B02</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B02.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B02.jsonld">JSON-LD</a><br>
@@ -1024,10 +1028,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B03.rdf">Meter data Time series missing</a></td>
-    <td>The document is incomplete as a time series for meter data is missing.</td>
-    <td>B03</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B03.rdf">Meter data Time series missing</a></td>
+    <td property="skos:definition" lang="en">The document is incomplete as a time series for meter data is missing.</td>
+    <td property="dcterms:identifier">B03</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B03.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B03.jsonld">JSON-LD</a><br>
@@ -1035,10 +1039,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B04.rdf">Estimated values not allowed in first transmission</a></td>
-    <td>The document is in its initial form and estimated values are not allowed.</td>
-    <td>B04</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B04.rdf">Estimated values not allowed in first transmission</a></td>
+    <td property="skos:definition" lang="en">The document is in its initial form and estimated values are not allowed.</td>
+    <td property="dcterms:identifier">B04</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B04.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B04.jsonld">JSON-LD</a><br>
@@ -1046,10 +1050,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B05.rdf">No quantity values allowed for a quality that is not available</a></td>
-    <td>No quantity values are allowed for a quality that is not available.</td>
-    <td>B05</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B05.rdf">No quantity values allowed for a quality that is not available</a></td>
+    <td property="skos:definition" lang="en">No quantity values are allowed for a quality that is not available.</td>
+    <td property="dcterms:identifier">B05</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B05.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B05.jsonld">JSON-LD</a><br>
@@ -1057,10 +1061,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B06.rdf">Time series accepted</a></td>
-    <td>Time series accepted.</td>
-    <td>B06</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B06.rdf">Time series accepted</a></td>
+    <td property="skos:definition" lang="en">Time series accepted.</td>
+    <td property="dcterms:identifier">B06</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B06.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B06.jsonld">JSON-LD</a><br>
@@ -1068,10 +1072,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B07.rdf">Auction without bids being entered</a></td>
-    <td>The auction has terminated without any bids being submitted. The ReasonText may provide the identification of the auction in question.</td>
-    <td>B07</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B07.rdf">Auction without bids being entered</a></td>
+    <td property="skos:definition" lang="en">The auction has terminated without any bids being submitted. The ReasonText may provide the identification of the auction in question.</td>
+    <td property="dcterms:identifier">B07</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B07.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B07.jsonld">JSON-LD</a><br>
@@ -1079,10 +1083,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B08.rdf">Data not yet available</a></td>
-    <td>It is not possible to perform the necessary action since the required data for this action is not yet available.</td>
-    <td>B08</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B08.rdf">Data not yet available</a></td>
+    <td property="skos:definition" lang="en">It is not possible to perform the necessary action since the required data for this action is not yet available.</td>
+    <td property="dcterms:identifier">B08</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B08.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B08.jsonld">JSON-LD</a><br>
@@ -1090,10 +1094,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B09.rdf">Bid not accepted</a></td>
-    <td>The bid in question has not been accepted.</td>
-    <td>B09</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B09.rdf">Bid not accepted</a></td>
+    <td property="skos:definition" lang="en">The bid in question has not been accepted.</td>
+    <td property="dcterms:identifier">B09</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B09.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B09.jsonld">JSON-LD</a><br>
@@ -1101,10 +1105,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B10.rdf">Initiator area problem</a></td>
-    <td>The problem concerns the initiator area.</td>
-    <td>B10</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B10.rdf">Initiator area problem</a></td>
+    <td property="skos:definition" lang="en">The problem concerns the initiator area.</td>
+    <td property="dcterms:identifier">B10</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B10.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B10.jsonld">JSON-LD</a><br>
@@ -1112,10 +1116,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B11.rdf">Cooperating area problem</a></td>
-    <td>The problem concerns the cooperating area.</td>
-    <td>B11</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B11.rdf">Cooperating area problem</a></td>
+    <td property="skos:definition" lang="en">The problem concerns the cooperating area.</td>
+    <td property="dcterms:identifier">B11</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B11.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B11.jsonld">JSON-LD</a><br>
@@ -1123,10 +1127,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B12.rdf">Communication status currently active</a></td>
-    <td>The status within the system indicates that the communication capability is currently active.</td>
-    <td>B12</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B12.rdf">Communication status currently active</a></td>
+    <td property="skos:definition" lang="en">The status within the system indicates that the communication capability is currently active.</td>
+    <td property="dcterms:identifier">B12</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B12.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B12.jsonld">JSON-LD</a><br>
@@ -1134,10 +1138,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B13.rdf">Communication status currently inactive</a></td>
-    <td>The status within the system indicates that the communication capability is currently inactive.</td>
-    <td>B13</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B13.rdf">Communication status currently inactive</a></td>
+    <td property="skos:definition" lang="en">The status within the system indicates that the communication capability is currently inactive.</td>
+    <td property="dcterms:identifier">B13</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B13.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B13.jsonld">JSON-LD</a><br>
@@ -1145,10 +1149,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B14.rdf">Communication status currently restricted</a></td>
-    <td>The status within the system indicates that the communication capability is currently restricted.</td>
-    <td>B14</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B14.rdf">Communication status currently restricted</a></td>
+    <td property="skos:definition" lang="en">The status within the system indicates that the communication capability is currently restricted.</td>
+    <td property="dcterms:identifier">B14</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B14.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B14.jsonld">JSON-LD</a><br>
@@ -1156,10 +1160,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B15.rdf">Problem associated with both areas</a></td>
-    <td>The problem concerns both areas.</td>
-    <td>B15</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B15.rdf">Problem associated with both areas</a></td>
+    <td property="skos:definition" lang="en">The problem concerns both areas.</td>
+    <td property="dcterms:identifier">B15</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B15.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B15.jsonld">JSON-LD</a><br>
@@ -1167,10 +1171,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B16.rdf">Tender unavailable in MOL list</a></td>
-    <td>A tender that has been requested is no longer available in the MOL.</td>
-    <td>B16</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B16.rdf">Tender unavailable in MOL list</a></td>
+    <td property="skos:definition" lang="en">A tender that has been requested is no longer available in the MOL.</td>
+    <td property="dcterms:identifier">B16</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B16.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B16.jsonld">JSON-LD</a><br>
@@ -1178,10 +1182,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B17.rdf">Price based on preliminary exchange rate</a></td>
-    <td>The price is based on a preliminary exchange rate.</td>
-    <td>B17</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B17.rdf">Price based on preliminary exchange rate</a></td>
+    <td property="skos:definition" lang="en">The price is based on a preliminary exchange rate.</td>
+    <td property="dcterms:identifier">B17</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B17.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B17.jsonld">JSON-LD</a><br>
@@ -1189,10 +1193,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B18.rdf">Failure</a></td>
-    <td>A failure has occurred.</td>
-    <td>B18</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B18.rdf">Failure</a></td>
+    <td property="skos:definition" lang="en">A failure has occurred.</td>
+    <td property="dcterms:identifier">B18</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B18.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B18.jsonld">JSON-LD</a><br>
@@ -1200,10 +1204,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B19.rdf">Foreseen maintenance</a></td>
-    <td>Maintenance is foreseen.</td>
-    <td>B19</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B19.rdf">Foreseen maintenance</a></td>
+    <td property="skos:definition" lang="en">Maintenance is foreseen.</td>
+    <td property="dcterms:identifier">B19</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B19.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B19.jsonld">JSON-LD</a><br>
@@ -1211,10 +1215,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B20.rdf">Shutdown</a></td>
-    <td>A shutdown has occurred.</td>
-    <td>B20</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B20.rdf">Shutdown</a></td>
+    <td property="skos:definition" lang="en">A shutdown has occurred.</td>
+    <td property="dcterms:identifier">B20</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B20.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B20.jsonld">JSON-LD</a><br>
@@ -1222,10 +1226,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B21.rdf">Official exchange rate approved</a></td>
-    <td>The official exchange rate has been approved.</td>
-    <td>B21</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B21.rdf">Official exchange rate approved</a></td>
+    <td property="skos:definition" lang="en">The official exchange rate has been approved.</td>
+    <td property="dcterms:identifier">B21</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B21.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B21.jsonld">JSON-LD</a><br>
@@ -1233,10 +1237,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B22.rdf">System regulation</a></td>
-    <td>The information provided regards a regulation for system purposes.</td>
-    <td>B22</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B22.rdf">System regulation</a></td>
+    <td property="skos:definition" lang="en">The information provided regards a regulation for system purposes.</td>
+    <td property="dcterms:identifier">B22</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B22.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B22.jsonld">JSON-LD</a><br>
@@ -1244,10 +1248,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B23.rdf">Frequency regulation</a></td>
-    <td>The information provided regards a regulation for frequency purposes.</td>
-    <td>B23</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B23.rdf">Frequency regulation</a></td>
+    <td property="skos:definition" lang="en">The information provided regards a regulation for frequency purposes.</td>
+    <td property="dcterms:identifier">B23</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B23.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B23.jsonld">JSON-LD</a><br>
@@ -1255,10 +1259,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B24.rdf">Load flow overload</a></td>
-    <td>Situation in the grid, where loading of a certain grid element, e.g. overhead line, is above defined technical limits.</td>
-    <td>B24</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B24.rdf">Load flow overload</a></td>
+    <td property="skos:definition" lang="en">Situation in the grid, where loading of a certain grid element, e.g. overhead line, is above defined technical limits.</td>
+    <td property="dcterms:identifier">B24</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B24.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B24.jsonld">JSON-LD</a><br>
@@ -1266,10 +1270,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B25.rdf">Voltage level adjustment</a></td>
-    <td>A TSO activity to maintain an acceptable voltage profile throughout the network. This is achieved by balancing of the respective reactive power requirements of the network and the customers.</td>
-    <td>B25</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B25.rdf">Voltage level adjustment</a></td>
+    <td property="skos:definition" lang="en">A TSO activity to maintain an acceptable voltage profile throughout the network. This is achieved by balancing of the respective reactive power requirements of the network and the customers.</td>
+    <td property="dcterms:identifier">B25</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B25.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B25.jsonld">JSON-LD</a><br>
@@ -1277,10 +1281,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B26.rdf">Emergency situation curtailment</a></td>
-    <td>Curtailment due to emergency situation. A code that enables the identification of the curtailment reason for settlement purposes.</td>
-    <td>B26</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B26.rdf">Emergency situation curtailment</a></td>
+    <td property="skos:definition" lang="en">Curtailment due to emergency situation. A code that enables the identification of the curtailment reason for settlement purposes.</td>
+    <td property="dcterms:identifier">B26</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B26.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B26.jsonld">JSON-LD</a><br>
@@ -1288,10 +1292,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B27.rdf">Calculation process failed</a></td>
-    <td>The calculation has not been performed.</td>
-    <td>B27</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B27.rdf">Calculation process failed</a></td>
+    <td property="skos:definition" lang="en">The calculation has not been performed.</td>
+    <td property="dcterms:identifier">B27</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B27.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B27.jsonld">JSON-LD</a><br>
@@ -1299,10 +1303,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B28.rdf">No capacity constraint impact on the market</a></td>
-    <td>The market position is such as no capacity constraint is applied to limit the cross border exchanges.</td>
-    <td>B28</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B28.rdf">No capacity constraint impact on the market</a></td>
+    <td property="skos:definition" lang="en">The market position is such as no capacity constraint is applied to limit the cross border exchanges.</td>
+    <td property="dcterms:identifier">B28</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B28.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B28.jsonld">JSON-LD</a><br>
@@ -1310,10 +1314,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B29.rdf">Special Condition</a></td>
-    <td>Special condition need to be fulfilled.</td>
-    <td>B29</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B29.rdf">Special Condition</a></td>
+    <td property="skos:definition" lang="en">Special condition need to be fulfilled.</td>
+    <td property="dcterms:identifier">B29</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B29.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B29.jsonld">JSON-LD</a><br>
@@ -1321,10 +1325,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B30.rdf">Unverified</a></td>
-    <td>Missing or not validated data.</td>
-    <td>B30</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B30.rdf">Unverified</a></td>
+    <td property="skos:definition" lang="en">Missing or not validated data.</td>
+    <td property="dcterms:identifier">B30</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B30.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B30.jsonld">JSON-LD</a><br>
@@ -1332,10 +1336,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B31.rdf">Verified</a></td>
-    <td>Data has successfully passed the verification process.</td>
-    <td>B31</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B31.rdf">Verified</a></td>
+    <td property="skos:definition" lang="en">Data has successfully passed the verification process.</td>
+    <td property="dcterms:identifier">B31</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B31.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B31.jsonld">JSON-LD</a><br>
@@ -1343,10 +1347,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B32.rdf">CGM inconsistency</a></td>
-    <td>Describes an element which was not found in the CGM.</td>
-    <td>B32</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B32.rdf">CGM inconsistency</a></td>
+    <td property="skos:definition" lang="en">Describes an element which was not found in the CGM.</td>
+    <td property="dcterms:identifier">B32</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B32.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B32.jsonld">JSON-LD</a><br>
@@ -1354,10 +1358,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B33.rdf">Network dictionary inconsistency</a></td>
-    <td>Describes an element which was not found in the network dictionary.</td>
-    <td>B33</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B33.rdf">Network dictionary inconsistency</a></td>
+    <td property="skos:definition" lang="en">Describes an element which was not found in the network dictionary.</td>
+    <td property="dcterms:identifier">B33</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B33.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B33.jsonld">JSON-LD</a><br>
@@ -1365,10 +1369,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B34.rdf">Capacity reduced by TSO</a></td>
-    <td>Describes a capacity that was reduced by a TSO.</td>
-    <td>B34</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B34.rdf">Capacity reduced by TSO</a></td>
+    <td property="skos:definition" lang="en">Describes a capacity that was reduced by a TSO.</td>
+    <td property="dcterms:identifier">B34</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B34.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B34.jsonld">JSON-LD</a><br>
@@ -1376,10 +1380,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B35.rdf">Overload</a></td>
-    <td>Describes an N-k or N state overload.</td>
-    <td>B35</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B35.rdf">Overload</a></td>
+    <td property="skos:definition" lang="en">Describes an N-k or N state overload.</td>
+    <td property="dcterms:identifier">B35</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B35.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B35.jsonld">JSON-LD</a><br>
@@ -1387,10 +1391,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B36.rdf">GLSK limitation</a></td>
-    <td>Describes a situation in which there is not enough power adjustment in the GLSK file to cover the capacity.</td>
-    <td>B36</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B36.rdf">GLSK limitation</a></td>
+    <td property="skos:definition" lang="en">Describes a situation in which there is not enough power adjustment in the GLSK file to cover the capacity.</td>
+    <td property="dcterms:identifier">B36</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B36.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B36.jsonld">JSON-LD</a><br>
@@ -1398,10 +1402,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B37.rdf">Voltage constraint</a></td>
-    <td>Describes an N-k or N state voltage violation.</td>
-    <td>B37</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B37.rdf">Voltage constraint</a></td>
+    <td property="skos:definition" lang="en">Describes an N-k or N state voltage violation.</td>
+    <td property="dcterms:identifier">B37</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B37.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B37.jsonld">JSON-LD</a><br>
@@ -1409,10 +1413,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B38.rdf">Angle constraint</a></td>
-    <td>Describes an N-k or N state angle violation.</td>
-    <td>B38</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B38.rdf">Angle constraint</a></td>
+    <td property="skos:definition" lang="en">Describes an N-k or N state angle violation.</td>
+    <td property="dcterms:identifier">B38</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B38.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B38.jsonld">JSON-LD</a><br>
@@ -1420,10 +1424,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B39.rdf">Stability</a></td>
-    <td>Describes a situation in which the dynamic behaviour of the network violated.</td>
-    <td>B39</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B39.rdf">Stability</a></td>
+    <td property="skos:definition" lang="en">Describes a situation in which the dynamic behaviour of the network violated.</td>
+    <td property="dcterms:identifier">B39</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B39.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B39.jsonld">JSON-LD</a><br>
@@ -1431,10 +1435,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B40.rdf">Loadflow divergence</a></td>
-    <td>Describes a network situation in which the provided capacity values are part of a load flow divergence situation.</td>
-    <td>B40</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B40.rdf">Loadflow divergence</a></td>
+    <td property="skos:definition" lang="en">Describes a network situation in which the provided capacity values are part of a load flow divergence situation.</td>
+    <td property="dcterms:identifier">B40</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B40.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B40.jsonld">JSON-LD</a><br>
@@ -1442,10 +1446,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B41.rdf">Exclusion for SoS reasons</a></td>
-    <td>This is the adjustment applied to the capacity of a branch to have a minimum RAM (Remaining Available Margin) available for commercial exchanges.</td>
-    <td>B41</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B41.rdf">Exclusion for SoS reasons</a></td>
+    <td property="skos:definition" lang="en">This is the adjustment applied to the capacity of a branch to have a minimum RAM (Remaining Available Margin) available for commercial exchanges.</td>
+    <td property="dcterms:identifier">B41</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B41.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B41.jsonld">JSON-LD</a><br>
@@ -1453,10 +1457,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B42.rdf">Constraint by the market</a></td>
-    <td>A constraint due to market restrictions.</td>
-    <td>B42</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B42.rdf">Constraint by the market</a></td>
+    <td property="skos:definition" lang="en">A constraint due to market restrictions.</td>
+    <td property="dcterms:identifier">B42</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B42.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B42.jsonld">JSON-LD</a><br>
@@ -1464,10 +1468,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B43.rdf">Ordinary</a></td>
-    <td>The contingency is ordinary (methodology for coordinating operational security analysis, article 6).</td>
-    <td>B43</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B43.rdf">Ordinary</a></td>
+    <td property="skos:definition" lang="en">The contingency is ordinary (methodology for coordinating operational security analysis, article 6).</td>
+    <td property="dcterms:identifier">B43</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B43.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B43.jsonld">JSON-LD</a><br>
@@ -1475,10 +1479,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B44.rdf">Exceptional</a></td>
-    <td>The contingency is exceptional (methodology for coordinating operational security analysis, article 6).</td>
-    <td>B44</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B44.rdf">Exceptional</a></td>
+    <td property="skos:definition" lang="en">The contingency is exceptional (methodology for coordinating operational security analysis, article 6).</td>
+    <td property="dcterms:identifier">B44</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B44.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B44.jsonld">JSON-LD</a><br>
@@ -1486,10 +1490,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B45.rdf">Out of range</a></td>
-    <td>The contingency is out of range (methodology for coordinating operational security analysis, article 6).</td>
-    <td>B45</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B45.rdf">Out of range</a></td>
+    <td property="skos:definition" lang="en">The contingency is out of range (methodology for coordinating operational security analysis, article 6).</td>
+    <td property="dcterms:identifier">B45</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B45.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B45.jsonld">JSON-LD</a><br>
@@ -1497,10 +1501,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B46.rdf">Internal congestion</a></td>
-    <td>A temporary congestion within a bidding zone or scheduling area.</td>
-    <td>B46</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B46.rdf">Internal congestion</a></td>
+    <td property="skos:definition" lang="en">A temporary congestion within a bidding zone or scheduling area.</td>
+    <td property="dcterms:identifier">B46</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B46.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B46.jsonld">JSON-LD</a><br>
@@ -1508,10 +1512,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B47.rdf">Operational security constraints</a></td>
-    <td>Operational security constraints identified by TSOs.</td>
-    <td>B47</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B47.rdf">Operational security constraints</a></td>
+    <td property="skos:definition" lang="en">Operational security constraints identified by TSOs.</td>
+    <td property="dcterms:identifier">B47</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B47.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B47.jsonld">JSON-LD</a><br>
@@ -1519,10 +1523,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B48.rdf">Estimated value</a></td>
-    <td>Describes a situation where a calculation process has failed and extrapolated or interpolated values will be applied.</td>
-    <td>B48</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B48.rdf">Estimated value</a></td>
+    <td property="skos:definition" lang="en">Describes a situation where a calculation process has failed and extrapolated or interpolated values will be applied.</td>
+    <td property="dcterms:identifier">B48</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B48.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B48.jsonld">JSON-LD</a><br>
@@ -1530,10 +1534,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B49.rdf">Balancing</a></td>
-    <td>Activated for balancing purposes.</td>
-    <td>B49</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B49.rdf">Balancing</a></td>
+    <td property="skos:definition" lang="en">Activated for balancing purposes.</td>
+    <td property="dcterms:identifier">B49</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B49.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B49.jsonld">JSON-LD</a><br>
@@ -1541,10 +1545,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B50.rdf">Values shared</a></td>
-    <td>Values of this time series are also valid for counter-party.</td>
-    <td>B50</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B50.rdf">Values shared</a></td>
+    <td property="skos:definition" lang="en">Values of this time series are also valid for counter-party.</td>
+    <td property="dcterms:identifier">B50</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B50.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B50.jsonld">JSON-LD</a><br>
@@ -1552,10 +1556,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B51.rdf">Outside price limits</a></td>
-    <td>The offered price is not within the valid limits.</td>
-    <td>B51</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B51.rdf">Outside price limits</a></td>
+    <td property="skos:definition" lang="en">The offered price is not within the valid limits.</td>
+    <td property="dcterms:identifier">B51</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B51.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B51.jsonld">JSON-LD</a><br>
@@ -1563,10 +1567,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B52.rdf">Previous timeframe data</a></td>
-    <td>In case of processing issue, sent data are based on the previous timeframe.</td>
-    <td>B52</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B52.rdf">Previous timeframe data</a></td>
+    <td property="skos:definition" lang="en">In case of processing issue, sent data are based on the previous timeframe.</td>
+    <td property="dcterms:identifier">B52</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B52.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B52.jsonld">JSON-LD</a><br>
@@ -1574,10 +1578,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B53.rdf">MOL merging succesful</a></td>
-    <td>The merging of the Merit Order List has been successfully processed.</td>
-    <td>B53</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B53.rdf">MOL merging succesful</a></td>
+    <td property="skos:definition" lang="en">The merging of the Merit Order List has been successfully processed.</td>
+    <td property="dcterms:identifier">B53</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B53.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B53.jsonld">JSON-LD</a><br>
@@ -1585,10 +1589,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B54.rdf">MOL merging failed</a></td>
-    <td>The merging of the Merit Order List has failed.</td>
-    <td>B54</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B54.rdf">MOL merging failed</a></td>
+    <td property="skos:definition" lang="en">The merging of the Merit Order List has failed.</td>
+    <td property="dcterms:identifier">B54</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B54.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B54.jsonld">JSON-LD</a><br>
@@ -1596,10 +1600,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B55.rdf">Because of redispatching</a></td>
-    <td>Because of redispatching according to Article 2(26) of Commission Regulation (EU) 543/2013</td>
-    <td>B55</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B55.rdf">Because of redispatching</a></td>
+    <td property="skos:definition" lang="en">Because of redispatching according to Article 2(26) of Commission Regulation (EU) 543/2013</td>
+    <td property="dcterms:identifier">B55</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B55.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B55.jsonld">JSON-LD</a><br>
@@ -1607,10 +1611,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B56.rdf">Because of countertrading</a></td>
-    <td>Because of countertrading according to Article 2(13) of Commission Regulation (EU) 543/2013</td>
-    <td>B56</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B56.rdf">Because of countertrading</a></td>
+    <td property="skos:definition" lang="en">Because of countertrading according to Article 2(13) of Commission Regulation (EU) 543/2013</td>
+    <td property="dcterms:identifier">B56</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B56.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B56.jsonld">JSON-LD</a><br>
@@ -1618,10 +1622,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B57.rdf">Because of other remedial action</a></td>
-    <td>Not available because of any remedial action.</td>
-    <td>B57</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B57.rdf">Because of other remedial action</a></td>
+    <td property="skos:definition" lang="en">Not available because of any remedial action.</td>
+    <td property="dcterms:identifier">B57</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B57.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B57.jsonld">JSON-LD</a><br>
@@ -1629,10 +1633,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B58.rdf">Insufficiency of reserves</a></td>
-    <td>The reserve capacity is not sufficient.</td>
-    <td>B58</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B58.rdf">Insufficiency of reserves</a></td>
+    <td property="skos:definition" lang="en">The reserve capacity is not sufficient.</td>
+    <td property="dcterms:identifier">B58</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B58.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B58.jsonld">JSON-LD</a><br>
@@ -1640,10 +1644,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B59.rdf">Unavailability of reserve providing unit</a></td>
-    <td>The unit providing the reserve is subject to technical unavailability.</td>
-    <td>B59</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B59.rdf">Unavailability of reserve providing unit</a></td>
+    <td property="skos:definition" lang="en">The unit providing the reserve is subject to technical unavailability.</td>
+    <td property="dcterms:identifier">B59</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B59.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B59.jsonld">JSON-LD</a><br>
@@ -1651,10 +1655,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B60.rdf">Unavailability of automatic protection systems</a></td>
-    <td>Unavailability of tools to detect predetermined system conditions that have a high probability of causing unusual stress on the power system, for which pre-planned remedial action is considered necessary or for which automatic protective actions may be triggered such as special protection schemes or automatic load shedding.</td>
-    <td>B60</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B60.rdf">Unavailability of automatic protection systems</a></td>
+    <td property="skos:definition" lang="en">Unavailability of tools to detect predetermined system conditions that have a high probability of causing unusual stress on the power system, for which pre-planned remedial action is considered necessary or for which automatic protective actions may be triggered such as special protection schemes or automatic load shedding.</td>
+    <td property="dcterms:identifier">B60</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B60.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B60.jsonld">JSON-LD</a><br>
@@ -1662,10 +1666,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B61.rdf">Physical cable or converter restrictions</a></td>
-    <td>Limitation due to physical cable or converter restrictions.</td>
-    <td>B61</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B61.rdf">Physical cable or converter restrictions</a></td>
+    <td property="skos:definition" lang="en">Limitation due to physical cable or converter restrictions.</td>
+    <td property="dcterms:identifier">B61</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B61.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B61.jsonld">JSON-LD</a><br>
@@ -1673,10 +1677,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B62.rdf">Constraints in controller systems</a></td>
-    <td>Limitation due to constraints in controller systems.</td>
-    <td>B62</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B62.rdf">Constraints in controller systems</a></td>
+    <td property="skos:definition" lang="en">Limitation due to constraints in controller systems.</td>
+    <td property="dcterms:identifier">B62</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B62.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B62.jsonld">JSON-LD</a><br>
@@ -1684,10 +1688,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B63.rdf">Adjusted because of expected violation of operational security</a></td>
-    <td>The capacity is adjusted because of an expected violation of operational security limits of physical transmission assets.</td>
-    <td>B63</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B63.rdf">Adjusted because of expected violation of operational security</a></td>
+    <td property="skos:definition" lang="en">The capacity is adjusted because of an expected violation of operational security limits of physical transmission assets.</td>
+    <td property="dcterms:identifier">B63</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B63.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B63.jsonld">JSON-LD</a><br>
@@ -1695,10 +1699,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B64.rdf">Adjusted because already considered remedial actions are assessed as not sufficient</a></td>
-    <td>The capacity is adjusted because the remedial actions were assessed as not sufficient or ineffective to avoid the expected violation of operational security limit(s).</td>
-    <td>B64</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B64.rdf">Adjusted because already considered remedial actions are assessed as not sufficient</a></td>
+    <td property="skos:definition" lang="en">The capacity is adjusted because the remedial actions were assessed as not sufficient or ineffective to avoid the expected violation of operational security limit(s).</td>
+    <td property="dcterms:identifier">B64</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B64.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B64.jsonld">JSON-LD</a><br>
@@ -1706,10 +1710,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B65.rdf">Time series partially accepted</a></td>
-    <td>The time series is partially accepted.</td>
-    <td>B65</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B65.rdf">Time series partially accepted</a></td>
+    <td property="skos:definition" lang="en">The time series is partially accepted.</td>
+    <td property="dcterms:identifier">B65</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B65.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B65.jsonld">JSON-LD</a><br>
@@ -1717,10 +1721,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B66.rdf">Demand fully netted</a></td>
-    <td>Demand was fully netted against other demand(s).</td>
-    <td>B66</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B66.rdf">Demand fully netted</a></td>
+    <td property="skos:definition" lang="en">Demand was fully netted against other demand(s).</td>
+    <td property="dcterms:identifier">B66</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B66.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B66.jsonld">JSON-LD</a><br>
@@ -1728,10 +1732,10 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B67.rdf">Bid activated in same direction</a></td>
-    <td>One or several bids were activated in the same direction within the same uncongested area as the demand.</td>
-    <td>B67</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B67.rdf">Bid activated in same direction</a></td>
+    <td property="skos:definition" lang="en">One or several bids were activated in the same direction within the same uncongested area as the demand.</td>
+    <td property="dcterms:identifier">B67</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B67.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B67.jsonld">JSON-LD</a><br>
@@ -1739,7 +1743,40 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     </td>      
 </tr>
 
-          <!-- Add more rows for each concept scheme -->
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B68.rdf">Optimization in progress</a></td>
+    <td property="skos:definition" lang="en">The activation optimisation framework is being executed.</td>
+    <td property="dcterms:identifier">B68</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B68.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B68.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B68.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B69.rdf">Wrong energy market timeframe</a></td>
+    <td property="skos:definition" lang="en">The given energy market timeframe is invalid or wrong.</td>
+    <td property="dcterms:identifier">B69</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B69.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B69.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B69.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B70.rdf">Message partially accepted</a></td>
+    <td property="skos:definition" lang="en">The detailed transactions of the received document are partially accepted. It is necessary to look at the detailed (transaction) level to determine if the transaction is accepted, rejected etc.</td>
+    <td property="dcterms:identifier">B70</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B70.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B70.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/StandardReasonCodeTypeList/B70.ttl">Turtle</a>
+    </td>      
+</tr>
+
+          <!-- Add more rows for each concept -->
         </tbody>
       </table>
     </main>

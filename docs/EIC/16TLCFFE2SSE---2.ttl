@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCFFE2SSE---2" ;
     cim:IdentifiedObject.name "Chafariz - Ferro 2 - Sobral 220" ;
     cim:Names.name "Internal Line",
-        "LCF.FE2/SSE" ;
+        "LCF_FE2_SSE" ;
     dcterms:identifier "urn:eic:16TLCFFE2SSE---2" ;
-    skos:altLabel "LCF.FE2/SSE" ;
+    skos:altLabel "LCF_FE2_SSE" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Chafariz - Ferro 2 - Sobral 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

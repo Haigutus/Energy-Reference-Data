@@ -7,10 +7,10 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-08-23" ;
+    cim:DateAndOrTime.date "2023-09-08" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11X0-0000-0524-1" ;
-    cim:IdentifiedObject.name "HARTREE PARTNERS (GERMANY) LIMITED" ;
+    cim:IdentifiedObject.name "Hartree (Germany) GmbH" ;
     cim:Names.name "Balance Responsible Party",
         "DE815816513",
         "HARTREE_GERMANY" ;
@@ -18,6 +18,6 @@
     schema1:vatID "DE815816513" ;
     skos:altLabel "HARTREE_GERMANY" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "HARTREE PARTNERS (GERMANY) LIMITED" ;
+    skos:prefLabel "Hartree (Germany) GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

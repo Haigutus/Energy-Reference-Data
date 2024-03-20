@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TT3400220SRM-L</dcterms:identifier>
     <skos:prefLabel>AT 3 400/220 SRM</skos:prefLabel>
-    <skos:altLabel>AT3400/220SRM</skos:altLabel>
+    <skos:altLabel>AT3400_220SRM</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TT3400220SRM-L</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>AT 3 400/220 SRM</cim:IdentifiedObject.name>
-    <cim:Names.name>AT3400/220SRM</cim:Names.name>
+    <cim:Names.name>AT3400_220SRM</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

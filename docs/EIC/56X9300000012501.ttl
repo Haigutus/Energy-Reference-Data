@@ -12,12 +12,12 @@
     cim:IdentifiedObject.mRID "56X9300000012501" ;
     cim:IdentifiedObject.name "LIMITED LIABILITY COMPANY \"CRAFT ENERGY\"" ;
     cim:Names.name "400081526555",
-        "LLC''CRAFTENERGY",
+        "LLC_CRAFTENERGY",
         "Network User",
         "Trade Responsible Party" ;
     dcterms:identifier "urn:eic:56X9300000012501" ;
     schema1:vatID "400081526555" ;
-    skos:altLabel "LLC''CRAFTENERGY" ;
+    skos:altLabel "LLC_CRAFTENERGY" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "LIMITED LIABILITY COMPANY \"CRAFT ENERGY\"" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

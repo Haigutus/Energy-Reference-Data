@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "44KANTELEENVOIMA",
         "FI20693414",
-        "Producer",
-        "Market Operator"
+        "Market Operator",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -12,23 +12,18 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11XSWBHANDEL---W",
-    "@skos:prefLabel": "Stadtwerke Burg GmbH",
+    "@skos:prefLabel": "Stadtwerke Burg Gesellschaft mit beschränkter Haftung",
     "@skos:altLabel": "SWB-HANDEL",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Group"
-    },
     "@cim:IdentifiedObject.mRID": "11XSWBHANDEL---W",
-    "@cim:IdentifiedObject.name": "Stadtwerke Burg GmbH",
+    "@cim:IdentifiedObject.name": "Stadtwerke Burg Gesellschaft mit beschränkter Haftung",
     "@cim:Names.name": [
         "SWB-HANDEL",
         "DE139330315",
-        "Balance Group"
+        "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Group",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2007-10-09",
+    "@cim:DateAndOrTime.date": "2023-09-08",
     "@schema:vatID": "DE139330315",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -19,13 +19,13 @@
     "@cim:Names.name": [
         "OSD_GRYF",
         "PL5842697547",
+        "Metered Data Responsible",
+        "Meter Administrator",
+        "Consumer",
         "Energy Supplier",
         "Grid Access Provider",
         "System Operator",
-        "Metered Data Responsible",
-        "Meter Administrator",
-        "Balance Responsible Party",
-        "Consumer"
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "44KAPACITYIO",
         "FI31356587",
-        "Balancing Service Provider",
-        "Capacity Trader",
         "Platform Operator",
-        "Metered Data Aggregator"
+        "Capacity Trader",
+        "Metered Data Aggregator",
+        "Balancing Service Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -20,11 +20,11 @@
         "ZTSIZOERG",
         "PL6310000517",
         "Meter Administrator",
-        "Grid Access Provider",
-        "Energy Supplier",
-        "System Operator",
         "Metered Data Responsible",
-        "Consumer"
+        "Consumer",
+        "System Operator",
+        "Grid Access Provider",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

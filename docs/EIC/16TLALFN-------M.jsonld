@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLALFN-------M",
     "@skos:prefLabel": "Alcochete-Fanhoes",
-    "@skos:altLabel": "LAL.FN",
+    "@skos:altLabel": "LAL_FN",
     "@cim:IdentifiedObject.mRID": "16TLALFN-------M",
     "@cim:IdentifiedObject.name": "Alcochete-Fanhoes",
     "@cim:Names.name": [
-        "LAL.FN",
+        "LAL_FN",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

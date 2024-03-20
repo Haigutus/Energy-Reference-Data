@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TLAMMRR------E" ;
     cim:IdentifiedObject.name "Armamar-Recarei" ;
-    cim:Names.name "LAMM.RR",
+    cim:Names.name "LAMM_RR",
         "Tieline" ;
     dcterms:identifier "urn:eic:16TLAMMRR------E" ;
-    skos:altLabel "LAMM.RR" ;
+    skos:altLabel "LAMM_RR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Armamar-Recarei" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Generator Group KITKA",
     "@cim:Names.name": [
         "KS_PE_G_KITKA",
-        "Generation Unit",
-        "Generation"
+        "Generation",
+        "Generation Unit"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

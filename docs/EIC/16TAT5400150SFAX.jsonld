@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TAT5400150SFAX",
     "@skos:prefLabel": "Auto transformador 5 400/150 Subestação de Ferreira do Alentejo",
-    "@skos:altLabel": "AT5400/150SFA",
+    "@skos:altLabel": "AT5400_150SFA",
     "@cim:IdentifiedObject.mRID": "16TAT5400150SFAX",
     "@cim:IdentifiedObject.name": "Auto transformador 5 400/150 Subestação de Ferreira do Alentejo",
     "@cim:Names.name": [
-        "AT5400/150SFA",
+        "AT5400_150SFA",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

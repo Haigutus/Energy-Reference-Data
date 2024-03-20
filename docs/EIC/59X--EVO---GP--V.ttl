@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "59X--EVO---GP--V" ;
     cim:IdentifiedObject.name "EVO GAS & POWER SRL" ;
-    cim:Names.name "EVOGAS&POWER",
+    cim:Names.name "EVOGAS_POWER",
         "IT09264091217",
         "Market Operator" ;
     dcterms:identifier "urn:eic:59X--EVO---GP--V" ;
     schema1:vatID "IT09264091217" ;
-    skos:altLabel "EVOGAS&POWER" ;
+    skos:altLabel "EVOGAS_POWER" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "EVO GAS & POWER SRL" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

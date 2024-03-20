@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:27T-TR-PRNT401X5</dcterms:identifier>
     <skos:prefLabel>CEPS_PRN.T401 Prosenice_400/220</skos:prefLabel>
-    <skos:altLabel>CPRN__1*CPRN__2*</skos:altLabel>
+    <skos:altLabel>CPRN__1_CPRN__2_</skos:altLabel>
     <cim:IdentifiedObject.mRID>27T-TR-PRNT401X5</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CEPS_PRN.T401 Prosenice_400/220</cim:IdentifiedObject.name>
-    <cim:Names.name>CPRN__1*CPRN__2*</cim:Names.name>
+    <cim:Names.name>CPRN__1_CPRN__2_</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2019-09-16</cim:DateAndOrTime.date>

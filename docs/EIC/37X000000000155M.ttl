@@ -7,13 +7,12 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-04-28" ;
-    cim:Document.docStatus "A05" ;
+    cim:DateAndOrTime.date "2023-08-23" ;
+    cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.description "Capacity Trader" ;
     cim:IdentifiedObject.mRID "37X000000000155M" ;
     cim:IdentifiedObject.name "Nimex Energie GmbH" ;
-    cim:Names.name "Capacity Trader",
-        "DE350368668",
+    cim:Names.name "DE350368668",
         "NIMEX_ENERGIE_GM" ;
     dcterms:identifier "urn:eic:37X000000000155M" ;
     schema1:vatID "DE350368668" ;

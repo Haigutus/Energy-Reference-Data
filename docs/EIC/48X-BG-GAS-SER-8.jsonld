@@ -24,9 +24,9 @@
         "BG-GAS-SERVICES",
         "GB232177091",
         "Capacity Trader",
+        "Interconnection Trade Responsible",
         "Producer",
-        "Trade Responsible Party",
-        "Interconnection Trade Responsible"
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Capacity Trader, Interconnection Trade Responsible, Producer, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

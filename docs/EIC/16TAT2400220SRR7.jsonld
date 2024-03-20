@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TAT2400220SRR7",
     "@skos:prefLabel": "Auto transformador 2 400/220 Subestação de Recarei",
-    "@skos:altLabel": "AT2400/220SRR",
+    "@skos:altLabel": "AT2400_220SRR",
     "@cim:IdentifiedObject.mRID": "16TAT2400220SRR7",
     "@cim:IdentifiedObject.name": "Auto transformador 2 400/220 Subestação de Recarei",
     "@cim:Names.name": [
-        "AT2400/220SRR",
+        "AT2400_220SRR",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

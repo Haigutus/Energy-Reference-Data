@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:56X930000115040G",
     "@skos:prefLabel": "CHERKASYENERGOZBUT LLC",
-    "@skos:altLabel": "''CHEZ''LLC",
+    "@skos:altLabel": "_CHEZ_LLC",
     "@cim:IdentifiedObject.mRID": "56X930000115040G",
     "@cim:IdentifiedObject.name": "CHERKASYENERGOZBUT LLC",
     "@cim:Names.name": [
-        "''CHEZ''LLC",
+        "_CHEZ_LLC",
         "424742023015",
         "Trade Responsible Party"
     ],

@@ -4,15 +4,15 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:44X-00000000175L</dcterms:identifier>
-    <skos:prefLabel>Kalajoki I &amp; II Tuuli Ky</skos:prefLabel>
+    <skos:prefLabel>Kalajoki Mustilankangas Tuuli Ky</skos:prefLabel>
     <skos:altLabel>44KALAJOKII_II</skos:altLabel>
     <cim:IdentifiedObject.mRID>44X-00000000175L</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Kalajoki I &amp; II Tuuli Ky</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>Kalajoki Mustilankangas Tuuli Ky</cim:IdentifiedObject.name>
     <cim:Names.name>44KALAJOKII_II</cim:Names.name>
     <cim:Names.name>FI31634807</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2021-01-13</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-11-20</cim:DateAndOrTime.date>
     <cim:Names.name>Producer</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>FI31634807</schema:vatID>

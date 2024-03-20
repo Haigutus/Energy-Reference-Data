@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "NORDGAZ_FURNIZAR",
         "1203183",
-        "Trade Responsible Party",
-        "Network User"
+        "Network User",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Certificate of national VAT number from Moldovian Serviciul Fiscal De Stat submitted. EU VAT ID not available, because Republic of Moldova is not member of EU. Company registration number: (IDNO) 1020602002256",
     "@cim:Document.docStatus": "A05",

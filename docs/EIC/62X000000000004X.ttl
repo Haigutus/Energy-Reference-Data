@@ -12,11 +12,11 @@
     cim:IdentifiedObject.mRID "62X000000000004X" ;
     cim:IdentifiedObject.name "E.CONNECT (UKRAINE) LLC" ;
     cim:Names.name "405984926590",
-        "E.CON",
+        "E_CON",
         "Trade Responsible Party" ;
     dcterms:identifier "urn:eic:62X000000000004X" ;
     schema1:vatID "405984926590" ;
-    skos:altLabel "E.CON" ;
+    skos:altLabel "E_CON" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "E.CONNECT (UKRAINE) LLC" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

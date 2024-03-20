@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V420---W" ;
     cim:IdentifiedObject.name "CEPS_V420 Hradec Východ-Mírovka" ;
-    cim:Names.name "CHBM__1*CHRD__1",
+    cim:Names.name "CHBM__1_CHRD__1",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V420---W" ;
-    skos:altLabel "CHBM__1*CHRD__1" ;
+    skos:altLabel "CHBM__1_CHRD__1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V420 Hradec Východ-Mírovka" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

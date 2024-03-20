@@ -21,8 +21,8 @@
         "10027190015",
         "Consumer",
         "Market Operator",
-        "Capacity Trader",
-        "Network User"
+        "Network User",
+        "Capacity Trader"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

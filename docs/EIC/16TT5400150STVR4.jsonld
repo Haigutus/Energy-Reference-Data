@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TT5400150STVR4",
     "@skos:prefLabel": "Auto transformador 5 400/150 Subestação de Tavira",
-    "@skos:altLabel": "AT5400/150STVR",
+    "@skos:altLabel": "AT5400_150STVR",
     "@cim:IdentifiedObject.mRID": "16TT5400150STVR4",
     "@cim:IdentifiedObject.name": "Auto transformador 5 400/150 Subestação de Tavira",
     "@cim:Names.name": [
-        "AT5400/150STVR",
+        "AT5400_150STVR",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

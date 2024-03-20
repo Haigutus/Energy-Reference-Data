@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLCGRM3------L</dcterms:identifier>
     <skos:prefLabel>Carregado-Rio Maior 3</skos:prefLabel>
-    <skos:altLabel>LCG.RM3</skos:altLabel>
+    <skos:altLabel>LCG_RM3</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLCGRM3------L</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Carregado-Rio Maior 3</cim:IdentifiedObject.name>
-    <cim:Names.name>LCG.RM3</cim:Names.name>
+    <cim:Names.name>LCG_RM3</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

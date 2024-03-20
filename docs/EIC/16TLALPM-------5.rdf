@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLALPM-------5</dcterms:identifier>
     <skos:prefLabel>Alcochete-Palmela 400 </skos:prefLabel>
-    <skos:altLabel>LAL.PM</skos:altLabel>
+    <skos:altLabel>LAL_PM</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLALPM-------5</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Alcochete-Palmela 400 </cim:IdentifiedObject.name>
-    <cim:Names.name>LAL.PM</cim:Names.name>
+    <cim:Names.name>LAL_PM</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-31</cim:DateAndOrTime.date>

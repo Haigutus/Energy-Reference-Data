@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "PETROCELTIC",
         "BG103624408",
+        "Balance Responsible Party",
         "Consumer",
-        "Producer",
-        "Balance Responsible Party"
+        "Producer"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Balance Responsible Party, Consumer, Network User, Producer, Network User, Producer",
     "@cim:Document.docStatus": "A05",

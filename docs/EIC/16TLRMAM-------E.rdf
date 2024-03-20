@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLRMAM-------E</dcterms:identifier>
     <skos:prefLabel>Rio Maior-Alto Mira</skos:prefLabel>
-    <skos:altLabel>LRM.AM</skos:altLabel>
+    <skos:altLabel>LRM_AM</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLRMAM-------E</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Rio Maior-Alto Mira</cim:IdentifiedObject.name>
-    <cim:Names.name>LRM.AM</cim:Names.name>
+    <cim:Names.name>LRM_AM</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

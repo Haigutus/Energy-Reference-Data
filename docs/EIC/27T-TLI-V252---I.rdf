@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:27T-TLI-V252---I</dcterms:identifier>
     <skos:prefLabel>CEPS_V252 Prosenice-Sokolnice</skos:prefLabel>
-    <skos:altLabel>CPRN__2*CSOK__2</skos:altLabel>
+    <skos:altLabel>CPRN__2_CSOK__2</skos:altLabel>
     <cim:IdentifiedObject.mRID>27T-TLI-V252---I</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CEPS_V252 Prosenice-Sokolnice</cim:IdentifiedObject.name>
-    <cim:Names.name>CPRN__2*CSOK__2</cim:Names.name>
+    <cim:Names.name>CPRN__2_CSOK__2</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2019-09-12</cim:DateAndOrTime.date>

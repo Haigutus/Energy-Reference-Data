@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "VISOS-BG",
         "CH577628",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Business Consulting, Process Design And Verification",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-25",
     "@schema:vatID": "CH577628",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "PEC_W_KONSKICH",
         "PL6581985063",
-        "Meter Administrator",
-        "Grid Access Provider",
         "Metered Data Responsible",
-        "System Operator",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator",
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

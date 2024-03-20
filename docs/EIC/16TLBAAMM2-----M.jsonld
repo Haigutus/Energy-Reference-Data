@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLBAAMM2-----M",
     "@skos:prefLabel": "Bodiosa-Armamar 2",
-    "@skos:altLabel": "LBA.AMM2",
+    "@skos:altLabel": "LBA_AMM2",
     "@cim:IdentifiedObject.mRID": "16TLBAAMM2-----M",
     "@cim:IdentifiedObject.name": "Bodiosa-Armamar 2",
     "@cim:Names.name": [
-        "LBA.AMM2",
+        "LBA_AMM2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

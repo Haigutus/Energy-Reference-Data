@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16XCOOP--------Z" ;
     cim:IdentifiedObject.name "COOPÉRNICO - COOPERATIVA DE DESENVOLVIMENTO SUSTENTÁVEL CRL" ;
-    cim:Names.name "COOPÉRNICO",
+    cim:Names.name "COOPERNICO",
         "PT510852270",
         "Trade Responsible Party" ;
     dcterms:identifier "urn:eic:16XCOOP--------Z" ;
     schema1:vatID "PT510852270" ;
-    skos:altLabel "COOPÉRNICO" ;
+    skos:altLabel "COOPERNICO" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "COOPÉRNICO - COOPERATIVA DE DESENVOLVIMENTO SUSTENTÁVEL CRL" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

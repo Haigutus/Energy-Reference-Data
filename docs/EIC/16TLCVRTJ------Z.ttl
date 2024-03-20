@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCVRTJ------Z" ;
     cim:IdentifiedObject.name "Carvoeira - Trajouce 220" ;
     cim:Names.name "Internal Line",
-        "LCVR.TJ" ;
+        "LCVR_TJ" ;
     dcterms:identifier "urn:eic:16TLCVRTJ------Z" ;
-    skos:altLabel "LCVR.TJ" ;
+    skos:altLabel "LCVR_TJ" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Carvoeira - Trajouce 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

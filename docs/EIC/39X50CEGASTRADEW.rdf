@@ -4,17 +4,17 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:39X50CEGASTRADEW</dcterms:identifier>
-    <skos:prefLabel>Central European Gas Trade Korl&#225;tolt Felel&#337;ss&#233;g&#369; T&#225;rsas&#225;g</skos:prefLabel>
+    <skos:prefLabel>EMvia Energiakereskedelmi Kft</skos:prefLabel>
     <skos:altLabel>CEGAS_TRADE</skos:altLabel>
     <skos:definition xml:lang="en">Interconnection Trade Responsible</skos:definition>
     <cim:IdentifiedObject.mRID>39X50CEGASTRADEW</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Central European Gas Trade Korl&#225;tolt Felel&#337;ss&#233;g&#369; T&#225;rsas&#225;g</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>EMvia Energiakereskedelmi Kft</cim:IdentifiedObject.name>
     <cim:Names.name>CEGAS_TRADE</cim:Names.name>
     <cim:Names.name>HU22700368</cim:Names.name>
     <cim:IdentifiedObject.description>Interconnection Trade Responsible</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2012-11-27</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-08-29</cim:DateAndOrTime.date>
     <cim:Names.name>Interconnection Trade Responsible</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>HU22700368</schema:vatID>

@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "RO_THREEWINGS",
         "RO29156777",
-        "Energy Supplier",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

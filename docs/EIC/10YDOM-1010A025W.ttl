@@ -7,15 +7,15 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2014-04-06" ;
+    cim:DateAndOrTime.date "2023-08-23" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Border Area" ;
     cim:IdentifiedObject.mRID "10YDOM-1010A025W" ;
     cim:IdentifiedObject.name "Border area between Republic of Ireland (IE) and Great Britain (GB)" ;
     cim:Names.name "Border Area",
-        "IE-GB-AREA" ;
+        "IE-GB-EWIC-AREA" ;
     dcterms:identifier "urn:eic:10YDOM-1010A025W" ;
-    skos:altLabel "IE-GB-AREA" ;
+    skos:altLabel "IE-GB-EWIC-AREA" ;
     skos:definition "Border Area"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Border area between Republic of Ireland (IE) and Great Britain (GB)" ;

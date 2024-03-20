@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "ENERGIEDIRECT",
         "ATU61208589",
-        "Energy Supplier",
-        "Consumption Responsible Party"
+        "Consumption Responsible Party",
+        "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "new EIC X - IO",
     "@cim:Document.docStatus": "A05",

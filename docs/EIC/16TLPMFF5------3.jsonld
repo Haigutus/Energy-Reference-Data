@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPMFF5------3",
     "@skos:prefLabel": "Palmela-Fernão Ferro 5",
-    "@skos:altLabel": "LPM.FF5",
+    "@skos:altLabel": "LPM_FF5",
     "@cim:IdentifiedObject.mRID": "16TLPMFF5------3",
     "@cim:IdentifiedObject.name": "Palmela-Fernão Ferro 5",
     "@cim:Names.name": [
-        "LPM.FF5",
+        "LPM_FF5",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

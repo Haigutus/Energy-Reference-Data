@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "VELOX_COM_KFT",
         "HU25009123",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

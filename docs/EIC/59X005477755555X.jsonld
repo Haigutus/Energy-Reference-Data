@@ -20,8 +20,8 @@
         "UNION_GAS",
         "IT03163990611",
         "Market Operator",
-        "Grid Operator",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Grid Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

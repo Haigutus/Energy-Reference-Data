@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLBTLGC2-----M</dcterms:identifier>
     <skos:prefLabel>Bemposta-Lagoa&#231;a 2</skos:prefLabel>
-    <skos:altLabel>LBT.LGC2</skos:altLabel>
+    <skos:altLabel>LBT_LGC2</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLBTLGC2-----M</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Bemposta-Lagoa&#231;a 2</cim:IdentifiedObject.name>
-    <cim:Names.name>LBT.LGC2</cim:Names.name>
+    <cim:Names.name>LBT_LGC2</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

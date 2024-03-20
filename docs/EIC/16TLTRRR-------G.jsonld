@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLTRRR-------G",
     "@skos:prefLabel": "Torrao - Recarei 220",
-    "@skos:altLabel": "LTR.RR",
+    "@skos:altLabel": "LTR_RR",
     "@cim:IdentifiedObject.mRID": "16TLTRRR-------G",
     "@cim:IdentifiedObject.name": "Torrao - Recarei 220",
     "@cim:Names.name": [
-        "LTR.RR",
+        "LTR_RR",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

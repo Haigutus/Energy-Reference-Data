@@ -18,9 +18,9 @@
     "@cim:IdentifiedObject.name": "CCP Austria GmbH",
     "@cim:Names.name": [
         "CCPACCP1",
-        "Market Area",
+        "Bidding Zone",
         "Balance Group",
-        "Bidding Zone"
+        "Market Area"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

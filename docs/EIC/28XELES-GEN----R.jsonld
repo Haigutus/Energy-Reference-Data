@@ -12,23 +12,18 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:28XELES-GEN----R",
-    "@skos:prefLabel": "ELES GEN, d.o.o.",
-    "@skos:altLabel": "ELES-GEN",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
+    "@skos:prefLabel": "GEN energija d.o.o.",
+    "@skos:altLabel": "GEN-ENER",
     "@cim:IdentifiedObject.mRID": "28XELES-GEN----R",
-    "@cim:IdentifiedObject.name": "ELES GEN, d.o.o.",
+    "@cim:IdentifiedObject.name": "GEN energija d.o.o.",
     "@cim:Names.name": [
-        "ELES-GEN",
+        "GEN-ENER",
         "SI44454686",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2010-06-07",
+    "@cim:DateAndOrTime.date": "2023-09-20",
     "@schema:vatID": "SI44454686",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

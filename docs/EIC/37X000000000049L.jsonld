@@ -16,20 +16,19 @@
     "@skos:altLabel": "ENOVOS_STOR",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Balance Supplier"
+        "@value": "Balance Group Responsible Party"
     },
     "@cim:IdentifiedObject.mRID": "37X000000000049L",
     "@cim:IdentifiedObject.name": "Enovos Storage GmbH",
     "@cim:Names.name": [
         "ENOVOS_STOR",
         "DE289809542",
-        "Storage System Operator",
-        "Energy Supplier"
+        "Balance Group Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Supplier",
+    "@cim:IdentifiedObject.description": "Balance Group Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2019-01-25",
+    "@cim:DateAndOrTime.date": "2023-10-10",
     "@schema:vatID": "DE289809542",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

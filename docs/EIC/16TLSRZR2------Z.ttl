@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLSRZR2------Z" ;
     cim:IdentifiedObject.name "Santarem - Zezere 2 220" ;
     cim:Names.name "Internal Line",
-        "LSR.ZR2" ;
+        "LSR_ZR2" ;
     dcterms:identifier "urn:eic:16TLSRZR2------Z" ;
-    skos:altLabel "LSR.ZR2" ;
+    skos:altLabel "LSR_ZR2" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Santarem - Zezere 2 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

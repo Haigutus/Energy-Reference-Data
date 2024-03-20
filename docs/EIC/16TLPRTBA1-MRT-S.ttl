@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPRTBA1-MRT-S" ;
     cim:IdentifiedObject.name "Pereiros-Tábua 1/Ramal Mortágua" ;
     cim:Names.name "Internal Line",
-        "LPR.TBA1/MRT" ;
+        "LPR_TBA1_MRT" ;
     dcterms:identifier "urn:eic:16TLPRTBA1-MRT-S" ;
-    skos:altLabel "LPR.TBA1/MRT" ;
+    skos:altLabel "LPR_TBA1_MRT" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Pereiros-Tábua 1/Ramal Mortágua" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

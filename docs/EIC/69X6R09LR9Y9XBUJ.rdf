@@ -4,21 +4,21 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:69X6R09LR9Y9XBUJ</dcterms:identifier>
-    <skos:prefLabel>RESXSTONE ENERGY INTERNATIONAL DMCC</skos:prefLabel>
+    <skos:prefLabel>REXSTONE ENERGY INTERNATIONAL DMCC</skos:prefLabel>
     <skos:altLabel>REXSTONE-ENERGY</skos:altLabel>
     <cim:IdentifiedObject.mRID>69X6R09LR9Y9XBUJ</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>RESXSTONE ENERGY INTERNATIONAL DMCC</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>REXSTONE ENERGY INTERNATIONAL DMCC</cim:IdentifiedObject.name>
     <cim:Names.name>REXSTONE-ENERGY</cim:Names.name>
     <cim:Names.name>18009154W</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-12-07</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-18</cim:DateAndOrTime.date>
+    <cim:Names.name>LNG System Operator</cim:Names.name>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
-    <cim:Names.name>Platform Operator</cim:Names.name>
     <cim:Names.name>Network User</cim:Names.name>
     <cim:Names.name>Capacity Trader</cim:Names.name>
-    <cim:Names.name>LNG System Operator</cim:Names.name>
     <cim:Names.name>Market Operator</cim:Names.name>
+    <cim:Names.name>Platform Operator</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>18009154W</schema:vatID>
   </skos:Concept>

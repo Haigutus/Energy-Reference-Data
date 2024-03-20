@@ -7,16 +7,16 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-11-11" ;
+    cim:DateAndOrTime.date "2023-09-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "26X128834501520B" ;
     cim:IdentifiedObject.name "UNARETI SPA" ;
     cim:Names.name "Distribution System Operator",
-        "IT-UNARETISPA",
+        "IT-UNARETISPASPA",
         "IT12883450152" ;
     dcterms:identifier "urn:eic:26X128834501520B" ;
     schema1:vatID "IT12883450152" ;
-    skos:altLabel "IT-UNARETISPA" ;
+    skos:altLabel "IT-UNARETISPASPA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "UNARETI SPA" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

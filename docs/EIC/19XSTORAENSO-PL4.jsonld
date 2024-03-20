@@ -20,9 +20,9 @@
         "STORAENSO_POLAND",
         "PL7580000692",
         "Meter Administrator",
-        "Energy Supplier",
+        "Consumer",
         "Producer",
-        "Consumer"
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

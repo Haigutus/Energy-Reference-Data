@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLSNPO3------D" ;
     cim:IdentifiedObject.name "Sines-Portimão 3" ;
     cim:Names.name "Internal Line",
-        "LSN.PO3" ;
+        "LSN_PO3" ;
     dcterms:identifier "urn:eic:16TLSNPO3------D" ;
-    skos:altLabel "LSN.PO3" ;
+    skos:altLabel "LSN_PO3" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Sines-Portimão 3" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

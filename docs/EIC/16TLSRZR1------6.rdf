@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLSRZR1------6</dcterms:identifier>
     <skos:prefLabel>Santarem - Zezere 1 220</skos:prefLabel>
-    <skos:altLabel>LSR.ZR1</skos:altLabel>
+    <skos:altLabel>LSR_ZR1</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLSRZR1------6</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Santarem - Zezere 1 220</cim:IdentifiedObject.name>
-    <cim:Names.name>LSR.ZR1</cim:Names.name>
+    <cim:Names.name>LSR_ZR1</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

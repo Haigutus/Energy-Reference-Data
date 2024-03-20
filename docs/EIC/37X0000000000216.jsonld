@@ -23,7 +23,7 @@
     "@cim:Names.name": [
         "KTGBIOMETHANAG",
         "DE284296969",
-        "Balance Responsible Party"
+        "Balance Supplier"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",

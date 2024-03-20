@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "GASTEJNERSKOPJE",
         "4080020592387",
-        "Trade Responsible Party",
         "Network User",
-        "Consumer"
+        "Consumer",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

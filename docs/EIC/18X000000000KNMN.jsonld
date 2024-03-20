@@ -21,9 +21,9 @@
         "ES43742684L",
         "Market Operator",
         "Production Responsible party",
-        "Consumption Responsible Party",
         "Trade Responsible Party",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Consumption Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

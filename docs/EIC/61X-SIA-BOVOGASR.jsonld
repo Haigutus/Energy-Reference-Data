@@ -1,0 +1,40 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/61X-SIA-BOVOGASR",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:61X-SIA-BOVOGASR",
+    "@skos:prefLabel": "BOVO GAS SIA ",
+    "@skos:altLabel": "BOVOGASSIA",
+    "@cim:IdentifiedObject.mRID": "61X-SIA-BOVOGASR",
+    "@cim:IdentifiedObject.name": "BOVO GAS SIA ",
+    "@cim:Names.name": [
+        "BOVOGASSIA",
+        "LV40203334095",
+        "Production Responsible party",
+        "Energy Supplier",
+        "Producer",
+        "Network User"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-11-28",
+    "@schema:vatID": "LV40203334095",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

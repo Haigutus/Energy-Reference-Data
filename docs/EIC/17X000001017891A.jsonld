@@ -19,16 +19,16 @@
     "@cim:Names.name": [
         "FR_NWRE",
         "FR11899433502",
-        "Market Operator",
         "Metered Data Aggregator",
-        "Storage System Operator",
-        "Market Area Operator",
         "Capacity Trader",
-        "Trade Responsible Party",
-        "Balance Responsible Party",
+        "Storage System Operator",
+        "Market Operator",
         "Consumer",
-        "Coordination Center Operator",
-        "Imbalance Settlement Responsible"
+        "Trade Responsible Party",
+        "Imbalance Settlement Responsible",
+        "Balance Responsible Party",
+        "Market Area Operator",
+        "Coordination Center Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ELANA-ENERGETYKA",
         "PL8792104155",
-        "Meter Administrator",
-        "System Operator",
         "Metered Data Responsible",
-        "Energy Supplier",
-        "Grid Access Provider"
+        "Meter Administrator",
+        "Grid Access Provider",
+        "System Operator",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

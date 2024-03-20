@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59X--EVO---GP--V",
     "@skos:prefLabel": "EVO GAS & POWER SRL",
-    "@skos:altLabel": "EVOGAS&POWER",
+    "@skos:altLabel": "EVOGAS_POWER",
     "@cim:IdentifiedObject.mRID": "59X--EVO---GP--V",
     "@cim:IdentifiedObject.name": "EVO GAS & POWER SRL",
     "@cim:Names.name": [
-        "EVOGAS&POWER",
+        "EVOGAS_POWER",
         "IT09264091217",
         "Market Operator"
     ],

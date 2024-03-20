@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:27T-TLI-V420---W</dcterms:identifier>
     <skos:prefLabel>CEPS_V420 Hradec V&#253;chod-M&#237;rovka</skos:prefLabel>
-    <skos:altLabel>CHBM__1*CHRD__1</skos:altLabel>
+    <skos:altLabel>CHBM__1_CHRD__1</skos:altLabel>
     <cim:IdentifiedObject.mRID>27T-TLI-V420---W</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CEPS_V420 Hradec V&#253;chod-M&#237;rovka</cim:IdentifiedObject.name>
-    <cim:Names.name>CHBM__1*CHRD__1</cim:Names.name>
+    <cim:Names.name>CHBM__1_CHRD__1</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2019-09-12</cim:DateAndOrTime.date>

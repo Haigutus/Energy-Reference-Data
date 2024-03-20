@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59XSHEHU0000000B",
     "@skos:prefLabel": "Trading & Trading Shehu Doo Beograd-Savski Venac",
-    "@skos:altLabel": "TRADING&TRADING",
+    "@skos:altLabel": "TRADING_TRADING",
     "@cim:IdentifiedObject.mRID": "59XSHEHU0000000B",
     "@cim:IdentifiedObject.name": "Trading & Trading Shehu Doo Beograd-Savski Venac",
     "@cim:Names.name": [
-        "TRADING&TRADING",
+        "TRADING_TRADING",
         "11071190968",
         "Capacity Trader"
     ],

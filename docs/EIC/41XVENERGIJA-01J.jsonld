@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "VENERGIJA-01",
         "LT117608314",
-        "Producer",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Producer"
     ],
     "@cim:IdentifiedObject.description": "Balance Supplier, Producer",
     "@cim:Document.docStatus": "A05",

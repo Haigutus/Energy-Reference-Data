@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLPRRM1------J</dcterms:identifier>
     <skos:prefLabel>Pereiros-Rio Maior 1</skos:prefLabel>
-    <skos:altLabel>LPR.RM1</skos:altLabel>
+    <skos:altLabel>LPR_RM1</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLPRRM1------J</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Pereiros-Rio Maior 1</cim:IdentifiedObject.name>
-    <cim:Names.name>LPR.RM1</cim:Names.name>
+    <cim:Names.name>LPR_RM1</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

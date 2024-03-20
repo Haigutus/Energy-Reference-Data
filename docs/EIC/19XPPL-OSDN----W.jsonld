@@ -20,11 +20,11 @@
         "PPLOSDN",
         "A0012143R.PL",
         "PL5250000239",
-        "Metered Data Responsible",
         "Grid Access Provider",
-        "System Operator",
+        "Meter Administrator",
         "Energy Supplier",
-        "Meter Administrator"
+        "System Operator",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

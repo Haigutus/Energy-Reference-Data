@@ -23,14 +23,14 @@
     "@cim:Names.name": [
         "EC-MIELEC",
         "PL8170005288",
-        "System Operator",
-        "Meter Administrator",
-        "Producer",
         "Balance Responsible Party",
+        "Consumer",
+        "Producer",
+        "Meter Administrator",
+        "System Operator",
         "Energy Supplier",
-        "Metered Data Responsible",
         "Grid Access Provider",
-        "Consumer"
+        "Metered Data Responsible"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party,Consumer,Producer",
     "@cim:Document.docStatus": "A05",

@@ -22,10 +22,10 @@
     "@cim:IdentifiedObject.name": "FYROM",
     "@cim:Names.name": [
         "MK",
-        "Scheduling Area",
         "Bidding Zone",
-        "Member State",
         "Control Area",
+        "Member State",
+        "Scheduling Area",
         "LFC Area"
     ],
     "@cim:IdentifiedObject.description": "Bidding Zone, Control Area, Market Balance Area, Member State, Scheduling Area",

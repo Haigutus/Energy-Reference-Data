@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLLVPI-------L" ;
     cim:IdentifiedObject.name "Lavos-Paraimo" ;
     cim:Names.name "Internal Line",
-        "LLV.PI" ;
+        "LLV_PI" ;
     dcterms:identifier "urn:eic:16TLLVPI-------L" ;
-    skos:altLabel "LLV.PI" ;
+    skos:altLabel "LLV_PI" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Lavos-Paraimo" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

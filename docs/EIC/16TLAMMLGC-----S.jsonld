@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLAMMLGC-----S",
     "@skos:prefLabel": "Armamar-Lagoaça",
-    "@skos:altLabel": "LAMM.LGC",
+    "@skos:altLabel": "LAMM_LGC",
     "@cim:IdentifiedObject.mRID": "16TLAMMLGC-----S",
     "@cim:IdentifiedObject.name": "Armamar-Lagoaça",
     "@cim:Names.name": [
-        "LAMM.LGC",
+        "LAMM_LGC",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

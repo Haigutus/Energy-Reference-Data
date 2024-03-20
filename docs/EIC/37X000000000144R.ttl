@@ -7,13 +7,12 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2021-08-11" ;
-    cim:Document.docStatus "A05" ;
+    cim:DateAndOrTime.date "2023-08-23" ;
+    cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "37X000000000144R" ;
     cim:IdentifiedObject.name "enwi-digital GmbH" ;
-    cim:Names.name "Balance Responsible Party",
-        "DE344368841",
+    cim:Names.name "DE344368841",
         "ENWIDIGITAL_GMBH" ;
     dcterms:identifier "urn:eic:37X000000000144R" ;
     schema1:vatID "DE344368841" ;

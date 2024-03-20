@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "ANWIL",
         "PL8880004938",
-        "Party Connected To Grid",
         "Trade Responsible Party",
+        "Party Connected To Grid",
         "Consumer"
     ],
     "@cim:IdentifiedObject.description": "Consumer, Distribution System Operator, Network User, Party Connected To Grid, Trade Responsible Party",

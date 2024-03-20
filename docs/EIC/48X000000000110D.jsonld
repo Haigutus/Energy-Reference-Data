@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ALTAVEEDANENERGY",
         "GB221440851",
-        "Production Responsible party",
         "Party Connected To Grid",
+        "Production Responsible party",
         "Producer"
     ],
     "@cim:Document.docStatus": "A05",

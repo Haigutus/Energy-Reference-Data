@@ -12,17 +12,17 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11T0-0000-0540-O",
-    "@skos:prefLabel": "AMP / 220kV / Wengerohr - Weißenthurm / Kondelwald Ost",
+    "@skos:prefLabel": "AMP / 220kV / Wengerohr - Weissenthurm / Kondelwald",
     "@skos:altLabel": "KONDLW",
     "@cim:IdentifiedObject.mRID": "11T0-0000-0540-O",
-    "@cim:IdentifiedObject.name": "AMP / 220kV / Wengerohr - Weißenthurm / Kondelwald Ost",
+    "@cim:IdentifiedObject.name": "AMP / 220kV / Wengerohr - Weissenthurm / Kondelwald",
     "@cim:Names.name": [
         "KONDLW",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2020-09-03",
+    "@cim:DateAndOrTime.date": "2023-11-01",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

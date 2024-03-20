@@ -13,8 +13,8 @@
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2017-03-23</cim:DateAndOrTime.date>
-    <cim:Names.name>Resource Provider</cim:Names.name>
     <cim:Names.name>Distribution System Operator</cim:Names.name>
+    <cim:Names.name>Resource Provider</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>RO1310859</schema:vatID>
   </skos:Concept>

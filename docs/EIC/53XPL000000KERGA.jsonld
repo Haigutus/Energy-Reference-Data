@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "KONERG_ENERGIA",
         "PL5213669184",
-        "Trade Responsible Party",
-        "Network User"
+        "Network User",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Network User, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

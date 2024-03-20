@@ -6,15 +6,13 @@
     <dcterms:identifier>urn:eic:11XCEZ-CZ------1</dcterms:identifier>
     <skos:prefLabel>CEZ, a.s.</skos:prefLabel>
     <skos:altLabel>CEZ_CZ</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11XCEZ-CZ------1</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CEZ, a.s.</cim:IdentifiedObject.name>
     <cim:Names.name>CEZ_CZ</cim:Names.name>
     <cim:Names.name>CZ45274649</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2013-11-13</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-20</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>CZ45274649</schema:vatID>

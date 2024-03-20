@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TAT4400150SFA7" ;
     cim:IdentifiedObject.name "Auto transformador 4 400/150 Subestação de Ferreira do Alentejo" ;
-    cim:Names.name "AT4400/150SFA",
+    cim:Names.name "AT4400_150SFA",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TAT4400150SFA7" ;
-    skos:altLabel "AT4400/150SFA" ;
+    skos:altLabel "AT4400_150SFA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Auto transformador 4 400/150 Subestação de Ferreira do Alentejo" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

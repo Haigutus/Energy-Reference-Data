@@ -22,13 +22,13 @@
     "@cim:IdentifiedObject.name": "France",
     "@cim:Names.name": [
         "FR",
-        "Control Area",
+        "Bidding Zone",
+        "Scheduling Area",
+        "Member State",
         "LFC Block",
         "LFC Area",
-        "Member State",
-        "Bidding Zone",
-        "Control Block",
-        "Scheduling Area"
+        "Control Area",
+        "Control Block"
     ],
     "@cim:IdentifiedObject.description": "Bidding Zone, Control Area, Control Block, Market Balance Area, Member State, Scheduling Area",
     "@cim:Document.docStatus": "A05",

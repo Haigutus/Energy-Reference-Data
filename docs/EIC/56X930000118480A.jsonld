@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/56X930000118480A",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:56X930000118480A",
+    "@skos:prefLabel": "\"CityEnergy\" Limited Liability Company",
+    "@skos:altLabel": "CITYENERGY_LLC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Contact persone: Prikhno Oleksandr +380964598734 cng170284@gmail.com"
+    },
+    "@cim:IdentifiedObject.mRID": "56X930000118480A",
+    "@cim:IdentifiedObject.name": "\"CityEnergy\" Limited Liability Company",
+    "@cim:Names.name": [
+        "CITYENERGY_LLC",
+        "443680323012",
+        "Trade Responsible Party",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "Contact persone: Prikhno Oleksandr +380964598734 cng170284@gmail.com",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-08-16",
+    "@schema:vatID": "443680323012",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

@@ -7,10 +7,10 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2021-08-05" ;
+    cim:DateAndOrTime.date "2023-08-30" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11X0-0000-0381-X" ;
-    cim:IdentifiedObject.name "Mer Solutions GmbH" ;
+    cim:IdentifiedObject.name "Mer Germany GmbH" ;
     cim:Names.name "11X-EEM",
         "Balance Responsible Party",
         "DE298490066" ;
@@ -18,6 +18,6 @@
     schema1:vatID "DE298490066" ;
     skos:altLabel "11X-EEM" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Mer Solutions GmbH" ;
+    skos:prefLabel "Mer Germany GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

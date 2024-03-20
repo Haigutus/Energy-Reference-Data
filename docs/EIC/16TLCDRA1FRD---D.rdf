@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLCDRA1FRD---D</dcterms:identifier>
     <skos:prefLabel>Canicada - Riba De Ave 1 - Frades 150</skos:prefLabel>
-    <skos:altLabel>LCD.RA1/FRD</skos:altLabel>
+    <skos:altLabel>LCD_RA1_FRD</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLCDRA1FRD---D</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Canicada - Riba De Ave 1 - Frades 150</cim:IdentifiedObject.name>
-    <cim:Names.name>LCD.RA1/FRD</cim:Names.name>
+    <cim:Names.name>LCD_RA1_FRD</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

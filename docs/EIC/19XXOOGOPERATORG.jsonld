@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "XOOG_OPERATOR",
         "PL6152065528",
-        "Energy Supplier",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "Narwany gość 663337363, osoba kontaktowa już nie pracuje 2022.12.06 ",
     "@cim:Document.docStatus": "A05",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TR-PRNT401X5",
     "@skos:prefLabel": "CEPS_PRN.T401 Prosenice_400/220",
-    "@skos:altLabel": "CPRN__1*CPRN__2*",
+    "@skos:altLabel": "CPRN__1_CPRN__2_",
     "@cim:IdentifiedObject.mRID": "27T-TR-PRNT401X5",
     "@cim:IdentifiedObject.name": "CEPS_PRN.T401 Prosenice_400/220",
     "@cim:Names.name": [
-        "CPRN__1*CPRN__2*",
+        "CPRN__1_CPRN__2_",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:59XMITSUIPITA004</dcterms:identifier>
     <skos:prefLabel>Mitsui E&amp;P Italia A S.r.l</skos:prefLabel>
-    <skos:altLabel>MITSUIE&amp;PITALIA</skos:altLabel>
+    <skos:altLabel>MITSUIE_PITALIA</skos:altLabel>
     <cim:IdentifiedObject.mRID>59XMITSUIPITA004</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Mitsui E&amp;P Italia A S.r.l</cim:IdentifiedObject.name>
-    <cim:Names.name>MITSUIE&amp;PITALIA</cim:Names.name>
+    <cim:Names.name>MITSUIE_PITALIA</cim:Names.name>
     <cim:Names.name>00887700151</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLVMPDV1-----Y",
     "@skos:prefLabel": "Vieira do Minho-Pedralva 1",
-    "@skos:altLabel": "LVM.PDV1",
+    "@skos:altLabel": "LVM_PDV1",
     "@cim:IdentifiedObject.mRID": "16TLVMPDV1-----Y",
     "@cim:IdentifiedObject.name": "Vieira do Minho-Pedralva 1",
     "@cim:Names.name": [
-        "LVM.PDV1",
+        "LVM_PDV1",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

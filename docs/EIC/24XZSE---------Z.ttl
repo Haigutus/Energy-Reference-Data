@@ -7,13 +7,18 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-08-01" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Distributive Network Operator (Prevadzkovatel Distribucnej Sustavy)" ;
     cim:IdentifiedObject.mRID "24XZSE---------Z" ;
     cim:IdentifiedObject.name "ZSE Energia, a.s." ;
-    cim:Names.name "SK2022249295",
-        "Valid EIC Function needed",
+    cim:Names.name "Balance Group Responsible Party",
+        "Balancing Service Provider",
+        "Capacity Trader",
+        "Energy Supplier",
+        "Production Responsible party",
+        "SK2022249295",
+        "Trade Responsible Party",
         "ZSE-ENERGIA" ;
     dcterms:identifier "urn:eic:24XZSE---------Z" ;
     schema1:vatID "SK2022249295" ;

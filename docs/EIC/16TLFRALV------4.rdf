@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLFRALV------4</dcterms:identifier>
     <skos:prefLabel>Feira-Lavos</skos:prefLabel>
-    <skos:altLabel>LFRA.LV</skos:altLabel>
+    <skos:altLabel>LFRA_LV</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLFRALV------4</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Feira-Lavos</cim:IdentifiedObject.name>
-    <cim:Names.name>LFRA.LV</cim:Names.name>
+    <cim:Names.name>LFRA_LV</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

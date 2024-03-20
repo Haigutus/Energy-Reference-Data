@@ -20,11 +20,11 @@
         "ENERGETYKA_WAGON",
         "A0013273L.PL",
         "PL6222629397",
-        "Energy Supplier",
-        "System Operator",
         "Grid Access Provider",
+        "Energy Supplier",
         "Metered Data Responsible",
-        "Meter Administrator"
+        "Meter Administrator",
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

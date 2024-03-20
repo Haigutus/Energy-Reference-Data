@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "AERISTO",
         "CY10319804Q",
-        "Trade Responsible Party",
         "Balance Responsible Party",
         "Capacity Trader",
+        "Trade Responsible Party",
         "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "Balance Group,Balance Responsible Party,Balance Supplier,Capacty Trader,Trade Responsible Party",

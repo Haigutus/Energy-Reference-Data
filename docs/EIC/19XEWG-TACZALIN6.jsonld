@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "EWG_TACZALIN",
         "PL6912407929",
-        "Producer",
+        "Consumer",
         "Energy Supplier",
         "Balance Responsible Party",
-        "Consumer"
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

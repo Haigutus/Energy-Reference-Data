@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLRRLVNF-----J",
     "@skos:prefLabel": "Recarei-Vila Nova Famalicão",
-    "@skos:altLabel": "LRR.LVNF",
+    "@skos:altLabel": "LRR_LVNF",
     "@cim:IdentifiedObject.mRID": "16TLRRLVNF-----J",
     "@cim:IdentifiedObject.name": "Recarei-Vila Nova Famalicão",
     "@cim:Names.name": [
-        "LRR.LVNF",
+        "LRR_LVNF",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

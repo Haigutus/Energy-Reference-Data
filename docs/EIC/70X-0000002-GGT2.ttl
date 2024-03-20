@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/70X-0000002-GGT2> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-09-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "70X-0000002-GGT2" ;
+    cim:IdentifiedObject.name "GAMA GAS TRADE DOOEL" ;
+    cim:Names.name "4058023544558",
+        "GAMA_GAS_TRADE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:70X-0000002-GGT2" ;
+    schema1:vatID "4058023544558" ;
+    skos:altLabel "GAMA_GAS_TRADE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GAMA GAS TRADE DOOEL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Wasserkraftwerk" ;
     cim:IdentifiedObject.mRID "12XMKW---------0" ;
     cim:IdentifiedObject.name "Misoxer Kraftwerke AG" ;
     cim:Names.name "CH249343",
-        "MKW",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "MKW" ;
     dcterms:identifier "urn:eic:12XMKW---------0" ;
     schema1:vatID "CH249343" ;
     skos:altLabel "MKW" ;

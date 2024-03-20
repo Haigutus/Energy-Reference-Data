@@ -9,12 +9,12 @@
     <cim:IdentifiedObject.mRID>11X0-0000-0690-H</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Dynasty Power Inc.</cim:IdentifiedObject.name>
     <cim:Names.name>DYNP</cim:Names.name>
-    <cim:Names.name>2014575175</cim:Names.name>
+    <cim:Names.name>SI93734239</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-06-24</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-29</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>2014575175</schema:vatID>
+    <schema:vatID>SI93734239</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

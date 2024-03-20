@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPMSN2------A" ;
     cim:IdentifiedObject.name "Palmela-Sines 2" ;
     cim:Names.name "Internal Line",
-        "LPM.SN2" ;
+        "LPM_SN2" ;
     dcterms:identifier "urn:eic:16TLPMSN2------A" ;
-    skos:altLabel "LPM.SN2" ;
+    skos:altLabel "LPM_SN2" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Palmela-Sines 2" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

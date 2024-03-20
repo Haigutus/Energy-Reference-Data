@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "HPP Bajina Basta",
     "@cim:Names.name": [
         "RSHPP_BBAS",
-        "Storage Plant",
-        "Production Plant"
+        "Production Plant",
+        "Storage Plant"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

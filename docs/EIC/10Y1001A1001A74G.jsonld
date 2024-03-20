@@ -22,8 +22,8 @@
     "@cim:IdentifiedObject.name": "Italy Sardinia",
     "@cim:Names.name": [
         "IT-SARDINIA",
-        "Scheduling Area",
-        "Bidding Zone"
+        "Bidding Zone",
+        "Scheduling Area"
     ],
     "@cim:IdentifiedObject.description": "Bidding Zone",
     "@cim:Document.docStatus": "A05",

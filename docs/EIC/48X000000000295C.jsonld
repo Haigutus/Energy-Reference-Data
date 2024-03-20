@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "20SHILLINGWFL",
         "GB07990781",
+        "Producer",
         "Production Responsible party",
-        "Party Connected To Grid",
-        "Producer"
+        "Party Connected To Grid"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

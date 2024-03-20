@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V459---6" ;
     cim:IdentifiedObject.name "CEPS_V459 Horní Životice-Kletné" ;
-    cim:Names.name "CHZI__1*CKLT__1*",
+    cim:Names.name "CHZI__1_CKLT__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V459---6" ;
-    skos:altLabel "CHZI__1*CKLT__1*" ;
+    skos:altLabel "CHZI__1_CKLT__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V459 Horní Životice-Kletné" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

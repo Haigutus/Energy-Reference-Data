@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "HEL_HALYVOURGIA",
         "EL094035835",
-        "Consumer",
         "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Consumer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

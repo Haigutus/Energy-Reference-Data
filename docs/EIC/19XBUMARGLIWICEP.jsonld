@@ -20,9 +20,9 @@
         "ZM_BUMAR_LABEDY",
         "A0012102X.PL",
         "PL6310102011",
-        "System Operator",
         "Energy Supplier",
-        "Consumer"
+        "Consumer",
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

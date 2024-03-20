@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TT2220150SCC-1",
     "@skos:prefLabel": "Auto transformador 2 220/150 Subestação de Castelo Branco",
-    "@skos:altLabel": "AT2220/150SCC",
+    "@skos:altLabel": "AT2220_150SCC",
     "@cim:IdentifiedObject.mRID": "16TT2220150SCC-1",
     "@cim:IdentifiedObject.name": "Auto transformador 2 220/150 Subestação de Castelo Branco",
     "@cim:Names.name": [
-        "AT2220/150SCC",
+        "AT2220_150SCC",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

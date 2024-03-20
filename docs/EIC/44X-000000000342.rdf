@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:44X-000000000342</dcterms:identifier>
     <skos:prefLabel>PKS S&#228;hk&#246;nsiirto Oy</skos:prefLabel>
-    <skos:altLabel>44PKSS&#196;HK&#214;NSIIRT</skos:altLabel>
+    <skos:altLabel>44PKSSAHKONSIIRT</skos:altLabel>
     <cim:IdentifiedObject.mRID>44X-000000000342</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>PKS S&#228;hk&#246;nsiirto Oy</cim:IdentifiedObject.name>
-    <cim:Names.name>44PKSS&#196;HK&#214;NSIIRT</cim:Names.name>
+    <cim:Names.name>44PKSSAHKONSIIRT</cim:Names.name>
     <cim:Names.name>FI20716380</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

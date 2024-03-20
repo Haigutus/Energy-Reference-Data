@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59XAG-EN--00001A",
     "@skos:prefLabel": "AG.EN GRANDA S.r.l.",
-    "@skos:altLabel": "AG.ENGRANDA",
+    "@skos:altLabel": "AG_ENGRANDA",
     "@cim:IdentifiedObject.mRID": "59XAG-EN--00001A",
     "@cim:IdentifiedObject.name": "AG.EN GRANDA S.r.l.",
     "@cim:Names.name": [
-        "AG.ENGRANDA",
+        "AG_ENGRANDA",
         "IT2693930048",
         "Market Operator"
     ],

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLVRMLVNF----K",
     "@skos:prefLabel": "Vermoim-Vila Nova Famalicão",
-    "@skos:altLabel": "LVRM.LVNF",
+    "@skos:altLabel": "LVRM_LVNF",
     "@cim:IdentifiedObject.mRID": "16TLVRMLVNF----K",
     "@cim:IdentifiedObject.name": "Vermoim-Vila Nova Famalicão",
     "@cim:Names.name": [
-        "LVRM.LVNF",
+        "LVRM_LVNF",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

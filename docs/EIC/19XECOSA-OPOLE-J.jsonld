@@ -20,8 +20,8 @@
         "ECOSA-OPOLE",
         "A0006246H.PL",
         "PL7542524950",
-        "Producer",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

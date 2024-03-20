@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "INTERENER-BIH",
         "4201242530004",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

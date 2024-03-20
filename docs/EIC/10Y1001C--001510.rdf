@@ -1,0 +1,20 @@
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:Concept rdf:about="http://energy.referencedata.eu/EIC/10Y1001C--001510">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
+    <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
+    <dcterms:identifier>urn:eic:10Y1001C--001510</dcterms:identifier>
+    <skos:prefLabel>50Hz-DKE virtual bidding zone on 50Hz side (advanced hybrid coupling)</skos:prefLabel>
+    <skos:altLabel>50HZ-DKEVBZ</skos:altLabel>
+    <skos:definition xml:lang="en">With the introduction of advanced hybrid coupling (AHC), there is a need to establish a virtual bidding zone (VBZ) on both sides of an NTC-coupled border. In this case, it is the border between DK2 (DKE) and 50Hz. Energinet has already established the &#8220;DKE-50Hz Virtual Bidding Zone Border&#8221; with EIC 45Y0000000000070, located in DKE. This request serves to establish the VBZ counterpart in the 50Hz control area.</skos:definition>
+    <cim:IdentifiedObject.mRID>10Y1001C--001510</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>50Hz-DKE virtual bidding zone on 50Hz side (advanced hybrid coupling)</cim:IdentifiedObject.name>
+    <cim:Names.name>50HZ-DKEVBZ</cim:Names.name>
+    <cim:IdentifiedObject.description>With the introduction of advanced hybrid coupling (AHC), there is a need to establish a virtual bidding zone (VBZ) on both sides of an NTC-coupled border. In this case, it is the border between DK2 (DKE) and 50Hz. Energinet has already established the &#8220;DKE-50Hz Virtual Bidding Zone Border&#8221; with EIC 45Y0000000000070, located in DKE. This request serves to establish the VBZ counterpart in the 50Hz control area.</cim:IdentifiedObject.description>
+    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
+    <cim:DateAndOrTime.date>2023-10-27</cim:DateAndOrTime.date>
+    <cim:Names.name>Border Area</cim:Names.name>
+    <rdf:type rdf:resource="http://schema.org/Thing"/>
+  </skos:Concept>
+</rdf:RDF>

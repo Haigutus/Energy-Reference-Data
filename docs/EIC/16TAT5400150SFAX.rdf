@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TAT5400150SFAX</dcterms:identifier>
     <skos:prefLabel>Auto transformador 5 400/150 Subesta&#231;&#227;o de Ferreira do Alentejo</skos:prefLabel>
-    <skos:altLabel>AT5400/150SFA</skos:altLabel>
+    <skos:altLabel>AT5400_150SFA</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TAT5400150SFAX</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Auto transformador 5 400/150 Subesta&#231;&#227;o de Ferreira do Alentejo</cim:IdentifiedObject.name>
-    <cim:Names.name>AT5400/150SFA</cim:Names.name>
+    <cim:Names.name>AT5400_150SFA</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

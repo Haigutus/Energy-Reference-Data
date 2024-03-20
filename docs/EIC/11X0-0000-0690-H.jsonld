@@ -18,13 +18,13 @@
     "@cim:IdentifiedObject.name": "Dynasty Power Inc.",
     "@cim:Names.name": [
         "DYNP",
-        "2014575175",
+        "SI93734239",
         "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-06-24",
-    "@schema:vatID": "2014575175",
+    "@cim:DateAndOrTime.date": "2023-09-29",
+    "@schema:vatID": "SI93734239",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

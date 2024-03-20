@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "STALPRODUKT_SA",
         "PL8680000775",
-        "Meter Administrator",
-        "Energy Supplier",
         "Metered Data Responsible",
         "System Operator",
-        "Grid Access Provider"
+        "Energy Supplier",
+        "Grid Access Provider",
+        "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

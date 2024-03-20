@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCLTR-------7" ;
     cim:IdentifiedObject.name "Carrapatelo - Torrao 220" ;
     cim:Names.name "Internal Line",
-        "LCL.TR" ;
+        "LCL_TR" ;
     dcterms:identifier "urn:eic:16TLCLTR-------7" ;
-    skos:altLabel "LCL.TR" ;
+    skos:altLabel "LCL_TR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Carrapatelo - Torrao 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

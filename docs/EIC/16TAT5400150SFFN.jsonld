@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TAT5400150SFFN",
     "@skos:prefLabel": "Auto transformador 5 400/150 Subestação de Fernao Ferro",
-    "@skos:altLabel": "AT5400/150SFF",
+    "@skos:altLabel": "AT5400_150SFF",
     "@cim:IdentifiedObject.mRID": "16TAT5400150SFFN",
     "@cim:IdentifiedObject.name": "Auto transformador 5 400/150 Subestação de Fernao Ferro",
     "@cim:Names.name": [
-        "AT5400/150SFF",
+        "AT5400_150SFF",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

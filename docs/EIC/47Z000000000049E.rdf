@@ -4,14 +4,14 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:47Z000000000049E</dcterms:identifier>
-    <skos:prefLabel>GNI(UK) Ltd</skos:prefLabel>
-    <skos:altLabel>GNI(UK)LTD</skos:altLabel>
+    <skos:prefLabel>Ten Towns Exit Point (NI)</skos:prefLabel>
+    <skos:altLabel>IE049E</skos:altLabel>
     <cim:IdentifiedObject.mRID>47Z000000000049E</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>GNI(UK) Ltd</cim:IdentifiedObject.name>
-    <cim:Names.name>GNI(UK)LTD</cim:Names.name>
+    <cim:IdentifiedObject.name>Ten Towns Exit Point (NI)</cim:IdentifiedObject.name>
+    <cim:Names.name>IE049E</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2018-01-17</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-03</cim:DateAndOrTime.date>
     <cim:Names.name>Connection Point</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>

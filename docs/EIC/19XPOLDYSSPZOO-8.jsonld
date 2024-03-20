@@ -23,11 +23,11 @@
     "@cim:Names.name": [
         "POLDYSTRYBUCJA",
         "PL5871540127",
-        "Meter Administrator",
-        "System Operator",
-        "Grid Access Provider",
-        "Metered Data Responsible",
         "Balance Responsible Party",
+        "System Operator",
+        "Meter Administrator",
+        "Metered Data Responsible",
+        "Grid Access Provider",
         "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",

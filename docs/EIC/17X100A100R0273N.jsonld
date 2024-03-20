@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "FR_ALTERNA_RE",
         "FR79483339156",
-        "Resource Provider",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Resource Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

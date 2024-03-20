@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLBTLGC1-----T" ;
     cim:IdentifiedObject.name "Bemposta-Lagoaça 1" ;
     cim:Names.name "Internal Line",
-        "LBT.LGC1" ;
+        "LBT_LGC1" ;
     dcterms:identifier "urn:eic:16TLBTLGC1-----T" ;
-    skos:altLabel "LBT.LGC1" ;
+    skos:altLabel "LBT_LGC1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Bemposta-Lagoaça 1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

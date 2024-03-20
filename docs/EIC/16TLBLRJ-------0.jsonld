@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLBLRJ-------0",
     "@skos:prefLabel": "Batalha-Ribatejo",
-    "@skos:altLabel": "LBL.RJ",
+    "@skos:altLabel": "LBL_RJ",
     "@cim:IdentifiedObject.mRID": "16TLBLRJ-------0",
     "@cim:IdentifiedObject.name": "Batalha-Ribatejo",
     "@cim:Names.name": [
-        "LBL.RJ",
+        "LBL_RJ",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

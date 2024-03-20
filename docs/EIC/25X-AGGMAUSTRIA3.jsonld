@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "AGGM",
         "ATU52849805",
-        "Grid Access Provider",
         "Balance Responsible Party",
-        "System Operator"
+        "System Operator",
+        "Grid Access Provider"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Grid Access Provider, System Operator",
     "@cim:Document.docStatus": "A05",

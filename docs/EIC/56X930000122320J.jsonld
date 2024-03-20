@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/56X930000122320J",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:56X930000122320J",
+    "@skos:prefLabel": "\"DEGS HOLDING\" Limited Liability Company ",
+    "@skos:altLabel": "DEGS_HOLDING_LLC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Contact person: Valerii Pashchenko +380972484898 degs.holding@ukr.net"
+    },
+    "@cim:IdentifiedObject.mRID": "56X930000122320J",
+    "@cim:IdentifiedObject.name": "\"DEGS HOLDING\" Limited Liability Company ",
+    "@cim:Names.name": [
+        "DEGS_HOLDING_LLC",
+        "452414423010",
+        "Trade Responsible Party",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "Contact person: Valerii Pashchenko +380972484898 degs.holding@ukr.net",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-11-01",
+    "@schema:vatID": "452414423010",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

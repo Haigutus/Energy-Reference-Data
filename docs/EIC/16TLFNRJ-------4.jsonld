@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLFNRJ-------4",
     "@skos:prefLabel": "Fanhões-Ribatejo",
-    "@skos:altLabel": "LFN.RJ",
+    "@skos:altLabel": "LFN_RJ",
     "@cim:IdentifiedObject.mRID": "16TLFNRJ-------4",
     "@cim:IdentifiedObject.name": "Fanhões-Ribatejo",
     "@cim:Names.name": [
-        "LFN.RJ",
+        "LFN_RJ",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

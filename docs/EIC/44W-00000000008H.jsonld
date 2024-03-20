@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:44W-00000000008H",
     "@skos:prefLabel": "Kemira Oyj",
-    "@skos:altLabel": "KC_ÄETSÄ",
+    "@skos:altLabel": "KC_ETSA",
     "@cim:IdentifiedObject.mRID": "44W-00000000008H",
     "@cim:IdentifiedObject.name": "Kemira Oyj",
     "@cim:Names.name": [
-        "KC_ÄETSÄ",
+        "KC_ETSA",
         "Load"
     ],
     "@cim:Document.docStatus": "A05",

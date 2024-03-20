@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "OMNIA-01",
         "RO34969040",
-        "Network User",
-        "Consumer"
+        "Consumer",
+        "Network User"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

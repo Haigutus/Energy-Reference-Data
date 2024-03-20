@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "HEC_SOTIRE",
         "K97212802C",
-        "Producer",
-        "Consumer"
+        "Consumer",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

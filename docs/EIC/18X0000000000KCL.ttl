@@ -11,7 +11,7 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Trade Responsible Party" ;
     cim:IdentifiedObject.mRID "18X0000000000KCL" ;
-    cim:IdentifiedObject.name "GASINDUR; S.L." ;
+    cim:IdentifiedObject.name "GASINDUR S.L." ;
     cim:Names.name "ESB34041400",
         "INDUR",
         "Trade Responsible Party" ;
@@ -20,6 +20,6 @@
     skos:altLabel "INDUR" ;
     skos:definition "Trade Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "GASINDUR; S.L." ;
+    skos:prefLabel "GASINDUR S.L." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

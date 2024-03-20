@@ -14,21 +14,16 @@
     "@dcterms:identifier": "urn:eic:11XSWEJ-H------H",
     "@skos:prefLabel": "Stadtwerke Energie Jena-Pößneck GmbH",
     "@skos:altLabel": "SWEJ-HANDEL",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Group"
-    },
     "@cim:IdentifiedObject.mRID": "11XSWEJ-H------H",
     "@cim:IdentifiedObject.name": "Stadtwerke Energie Jena-Pößneck GmbH",
     "@cim:Names.name": [
         "SWEJ-HANDEL",
         "DE151887399",
-        "Balance Group"
+        "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Group",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2010-07-27",
+    "@cim:DateAndOrTime.date": "2023-11-15",
     "@schema:vatID": "DE151887399",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

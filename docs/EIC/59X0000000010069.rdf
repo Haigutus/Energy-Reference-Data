@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:59X0000000010069</dcterms:identifier>
     <skos:prefLabel>CI &amp; ES ENERGY SRL</skos:prefLabel>
-    <skos:altLabel>CI&amp;ESENERGYSRL</skos:altLabel>
+    <skos:altLabel>CI_ESENERGYSRL</skos:altLabel>
     <cim:IdentifiedObject.mRID>59X0000000010069</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CI &amp; ES ENERGY SRL</cim:IdentifiedObject.name>
-    <cim:Names.name>CI&amp;ESENERGYSRL</cim:Names.name>
+    <cim:Names.name>CI_ESENERGYSRL</cim:Names.name>
     <cim:Names.name>IT05003821211</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

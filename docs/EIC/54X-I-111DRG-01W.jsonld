@@ -20,8 +20,8 @@
         "DRAGOBIAENERG_AL",
         "K92025004T",
         "Producer",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

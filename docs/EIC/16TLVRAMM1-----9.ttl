@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLVRAMM1-----9" ;
     cim:IdentifiedObject.name "Valeira-Armamar 1" ;
     cim:Names.name "Internal Line",
-        "LVR.AMM1" ;
+        "LVR_AMM1" ;
     dcterms:identifier "urn:eic:16TLVRAMM1-----9" ;
-    skos:altLabel "LVR.AMM1" ;
+    skos:altLabel "LVR_AMM1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Valeira-Armamar 1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

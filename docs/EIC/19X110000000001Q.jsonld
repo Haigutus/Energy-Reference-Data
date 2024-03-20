@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ENGIE_ZIELONA",
         "PL8522434090",
-        "Producer",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

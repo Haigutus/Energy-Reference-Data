@@ -1,0 +1,25 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/17X000001445647M> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-11-06" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Producteur indépendant d'énergie verte grâce à des solutions solaires photovoltaïques et d'optimisation de consommation." ;
+    cim:IdentifiedObject.mRID "17X000001445647M" ;
+    cim:IdentifiedObject.name "AMARENCO FRANCE" ;
+    cim:Names.name "FR11537509333",
+        "FR_AMARENCO_FRAN",
+        "Producer" ;
+    dcterms:identifier "urn:eic:17X000001445647M" ;
+    schema1:vatID "FR11537509333" ;
+    skos:altLabel "FR_AMARENCO_FRAN" ;
+    skos:definition "Producteur indépendant d'énergie verte grâce à des solutions solaires photovoltaïques et d'optimisation de consommation."@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "AMARENCO FRANCE" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

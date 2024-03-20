@@ -12,23 +12,24 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:32X0011001012043",
-    "@skos:prefLabel": "TINMAR SUPPLY EOOD",
-    "@skos:altLabel": "TINMAR_SUPPLY",
+    "@skos:prefLabel": "SKY ENERGY SUPPLY EOOD",
+    "@skos:altLabel": "SKY_ENERGY",
     "@skos:definition": {
         "@language": "en",
         "@value": "Balance Responsible Party"
     },
     "@cim:IdentifiedObject.mRID": "32X0011001012043",
-    "@cim:IdentifiedObject.name": "TINMAR SUPPLY EOOD",
+    "@cim:IdentifiedObject.name": "SKY ENERGY SUPPLY EOOD",
     "@cim:Names.name": [
-        "TINMAR_SUPPLY",
+        "SKY_ENERGY",
+        "A0013171F.BG",
         "BG203888476",
         "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-07-19",
     "@schema:vatID": "BG203888476",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

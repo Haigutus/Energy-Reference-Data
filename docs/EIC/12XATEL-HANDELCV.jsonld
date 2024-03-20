@@ -22,16 +22,15 @@
     "@cim:IdentifiedObject.name": "Alpiq AG",
     "@cim:Names.name": [
         "ALPIQ-AG-C",
-        "CHE282002070",
+        "CHE105974401",
         "Balance Responsible Party",
-        "Trade Responsible Party",
         "System Operator"
     ],
     "@cim:IdentifiedObject.description": "Alpiq has historically several Codes under the same VAT. Now they Changed the VAT. This means we have several Codes under the new VAT. Since this vital to be kept that way I hereby confirm that this exception is needed and on purpose. Please Accept that change.",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2020-02-11",
-    "@schema:vatID": "CHE282002070",
+    "@cim:DateAndOrTime.date": "2023-11-07",
+    "@schema:vatID": "CHE105974401",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

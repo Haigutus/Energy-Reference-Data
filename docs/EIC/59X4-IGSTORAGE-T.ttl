@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "59X4-IGSTORAGE-T" ;
     cim:IdentifiedObject.name "IGS S.p.A." ;
-    cim:Names.name "IGS_S.P.A.",
+    cim:Names.name "IGS_S_P_A_",
         "IT08751271001",
         "Storage System Operator" ;
     dcterms:identifier "urn:eic:59X4-IGSTORAGE-T" ;
     schema1:vatID "IT08751271001" ;
-    skos:altLabel "IGS_S.P.A." ;
+    skos:altLabel "IGS_S_P_A_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "IGS S.p.A." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

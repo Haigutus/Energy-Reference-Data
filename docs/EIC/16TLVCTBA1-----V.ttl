@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLVCTBA1-----V" ;
     cim:IdentifiedObject.name "Vila Chã-Tábua 1" ;
     cim:Names.name "Internal Line",
-        "LVC.TBA1" ;
+        "LVC_TBA1" ;
     dcterms:identifier "urn:eic:16TLVCTBA1-----V" ;
-    skos:altLabel "LVC.TBA1" ;
+    skos:altLabel "LVC_TBA1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Vila Chã-Tábua 1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

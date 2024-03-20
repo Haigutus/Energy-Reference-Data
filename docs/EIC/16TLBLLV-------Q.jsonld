@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLBLLV-------Q",
     "@skos:prefLabel": "Batalha-Lavos",
-    "@skos:altLabel": "LBL.LV",
+    "@skos:altLabel": "LBL_LV",
     "@cim:IdentifiedObject.mRID": "16TLBLLV-------Q",
     "@cim:IdentifiedObject.name": "Batalha-Lavos",
     "@cim:Names.name": [
-        "LBL.LV",
+        "LBL_LV",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

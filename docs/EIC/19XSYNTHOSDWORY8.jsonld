@@ -19,14 +19,14 @@
     "@cim:Names.name": [
         "SYNTHOS_DWORY_7",
         "PL9591762828",
+        "Balance Responsible Party",
+        "Consumer",
         "Energy Supplier",
         "Grid Access Provider",
-        "Meter Administrator",
-        "System Operator",
+        "Metered Data Responsible",
         "Producer",
-        "Consumer",
-        "Balance Responsible Party",
-        "Metered Data Responsible"
+        "Meter Administrator",
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

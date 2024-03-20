@@ -4,19 +4,19 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:37X000000000125V</dcterms:identifier>
-    <skos:prefLabel>BMS Biomethan Schwaigern GmbH</skos:prefLabel>
-    <skos:altLabel>BMS_BIOMETHAN_SC</skos:altLabel>
+    <skos:prefLabel>Biomethan Feldberg GmbH</skos:prefLabel>
+    <skos:altLabel>BIOMETHAN_FELDBE</skos:altLabel>
     <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>37X000000000125V</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BMS Biomethan Schwaigern GmbH</cim:IdentifiedObject.name>
-    <cim:Names.name>BMS_BIOMETHAN_SC</cim:Names.name>
-    <cim:Names.name>DE287468505</cim:Names.name>
+    <cim:IdentifiedObject.name>Biomethan Feldberg GmbH</cim:IdentifiedObject.name>
+    <cim:Names.name>BIOMETHAN_FELDBE</cim:Names.name>
+    <cim:Names.name>DE309925457</cim:Names.name>
     <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-09-20</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-10</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>DE287468505</schema:vatID>
+    <schema:vatID>DE309925457</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

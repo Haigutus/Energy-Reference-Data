@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "MISURIO-AG-ST",
         "CHE463567651",
-        "Balance Responsible Party",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Company got renamed to Misurio",
     "@cim:Document.docStatus": "A05",

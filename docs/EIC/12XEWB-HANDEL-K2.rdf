@@ -5,16 +5,16 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:12XEWB-HANDEL-K2</dcterms:identifier>
     <skos:prefLabel>Energie Wasser Bern</skos:prefLabel>
-    <skos:altLabel>EWB-KRAFTWERK</skos:altLabel>
+    <skos:altLabel>EWB-STANDARD</skos:altLabel>
     <skos:definition xml:lang="en">Balance Group Responsible of DSO.</skos:definition>
     <cim:IdentifiedObject.mRID>12XEWB-HANDEL-K2</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Energie Wasser Bern</cim:IdentifiedObject.name>
-    <cim:Names.name>EWB-KRAFTWERK</cim:Names.name>
+    <cim:Names.name>EWB-STANDARD</cim:Names.name>
     <cim:Names.name>CH544080</cim:Names.name>
     <cim:IdentifiedObject.description>Balance Group Responsible of DSO.</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-09-26</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-31</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>CH544080</schema:vatID>

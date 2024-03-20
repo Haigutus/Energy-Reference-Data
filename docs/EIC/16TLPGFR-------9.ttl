@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPGFR-------9" ;
     cim:IdentifiedObject.name "Pego-Falagueira" ;
     cim:Names.name "Internal Line",
-        "LPG.FR" ;
+        "LPG_FR" ;
     dcterms:identifier "urn:eic:16TLPGFR-------9" ;
-    skos:altLabel "LPG.FR" ;
+    skos:altLabel "LPG_FR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Pego-Falagueira" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

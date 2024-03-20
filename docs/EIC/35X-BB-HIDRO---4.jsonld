@@ -19,12 +19,12 @@
     "@cim:Names.name": [
         "BB_HIDRO",
         "02978636",
-        "Trade Responsible Party",
-        "Capacity Trader",
-        "Production Responsible party",
         "Imbalance Settlement Responsible",
         "Balance Responsible Party",
-        "Producer"
+        "Capacity Trader",
+        "Production Responsible party",
+        "Producer",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

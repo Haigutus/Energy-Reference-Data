@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44Y-00000000458W" ;
     cim:IdentifiedObject.name "Järvenpään voimalaitos" ;
-    cim:Names.name "FI_KRÄ000",
+    cim:Names.name "FI_KRA000",
         "Metering Grid Area" ;
     dcterms:identifier "urn:eic:44Y-00000000458W" ;
-    skos:altLabel "FI_KRÄ000" ;
+    skos:altLabel "FI_KRA000" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Järvenpään voimalaitos" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -20,10 +20,10 @@
         "ELCOENERGY",
         "A0011124S.PL",
         "PL6342807944",
-        "Meter Administrator",
         "System Operator",
-        "Metered Data Responsible",
         "Grid Access Provider",
+        "Meter Administrator",
+        "Metered Data Responsible",
         "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",

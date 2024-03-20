@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TT2400220SLGCC",
     "@skos:prefLabel": "AT 2 400/220 SLGC",
-    "@skos:altLabel": "AT2400/220SLGC",
+    "@skos:altLabel": "AT2400_220SLGC",
     "@cim:IdentifiedObject.mRID": "16TT2400220SLGCC",
     "@cim:IdentifiedObject.name": "AT 2 400/220 SLGC",
     "@cim:Names.name": [
-        "AT2400/220SLGC",
+        "AT2400_220SLGC",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

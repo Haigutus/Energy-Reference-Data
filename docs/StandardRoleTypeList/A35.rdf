@@ -4,7 +4,7 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardRoleTypeList"/>
     <dcterms:identifier>A35</dcterms:identifier>
     <skos:prefLabel>MOL Responsible</skos:prefLabel>
-    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that Informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

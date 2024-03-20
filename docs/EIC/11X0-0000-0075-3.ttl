@@ -7,18 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2020-06-16" ;
+    cim:DateAndOrTime.date "2023-10-06" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11X0-0000-0075-3" ;
-    cim:IdentifiedObject.name "Iberdrola Renovables Offshore Deutschland GmbH" ;
-    cim:Names.name "Balance Responsible Party",
-        "DE271596416",
+    cim:IdentifiedObject.name "Iberdrola Renovables Deutschland GmbH" ;
+    cim:Names.name "DE271596416",
         "Producer",
         "WIK" ;
     dcterms:identifier "urn:eic:11X0-0000-0075-3" ;
     schema1:vatID "DE271596416" ;
     skos:altLabel "WIK" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Iberdrola Renovables Offshore Deutschland GmbH" ;
+    skos:prefLabel "Iberdrola Renovables Deutschland GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V401---2",
     "@skos:prefLabel": "CEPS_V401 Krasíkov-Týnec",
-    "@skos:altLabel": "CKRA__1*CTYN__1*",
+    "@skos:altLabel": "CKRA__1_CTYN__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V401---2",
     "@cim:IdentifiedObject.name": "CEPS_V401 Krasíkov-Týnec",
     "@cim:Names.name": [
-        "CKRA__1*CTYN__1*",
+        "CKRA__1_CTYN__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

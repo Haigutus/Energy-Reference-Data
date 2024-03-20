@@ -137,8 +137,8 @@
 
 <http://energy.referencedata.eu/StandardReasonCodeTypeList/A28> a skos:Concept ;
     dcterms:identifier "A28" ;
-    skos:definition """This provides an indication that the time series has not got a counterpart time series.
-In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received.
+    skos:definition """This provides an indication that the time series has not got a counterpart time series. 
+In the case of an Intermediate Confirmation Report this is advising the recipient that the time series may be rejected at nomination closure if the counterpart time series is not received. 
 In the case of a Final Confirmation Report this is informing the recipient that the time series has been rejected because the counterpart time series has not been forthcoming. """@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
     skos:prefLabel "Counterpart time series missing " ;
@@ -1040,11 +1040,32 @@ In the case of a Final Confirmation Report this is informing the recipient that 
     skos:prefLabel "Bid activated in same direction" ;
     skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
 
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B68> a skos:Concept ;
+    dcterms:identifier "B68" ;
+    skos:definition "The activation optimisation framework is being executed."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Optimization in progress" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B69> a skos:Concept ;
+    dcterms:identifier "B69" ;
+    skos:definition "The given energy market timeframe is invalid or wrong."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Wrong energy market timeframe" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
+<http://energy.referencedata.eu/StandardReasonCodeTypeList/B70> a skos:Concept ;
+    dcterms:identifier "B70" ;
+    skos:definition "The detailed transactions of the received document are partially accepted. It is necessary to look at the detailed (transaction) level to determine if the transaction is accepted, rejected etc."@en ;
+    skos:inScheme <http://energy.referencedata.eu/StandardReasonCodeTypeList> ;
+    skos:prefLabel "Message partially accepted" ;
+    skos:topConceptOf <http://energy.referencedata.eu/StandardReasonCodeTypeList> .
+
 <http://energy.referencedata.eu/StandardReasonCodeTypeList> a skos:ConceptScheme,
         dcat:Dataset ;
     dcterms:identifier "ET0015" ;
-    dcterms:modified "2022-08-26" ;
+    dcterms:modified "2023-12-14" ;
     skos:definition "The coded motivation of an act."@en ;
     skos:prefLabel "StandardReasonCodeTypeList" ;
-    dcat:version "83" .
+    dcat:version "91" .
 

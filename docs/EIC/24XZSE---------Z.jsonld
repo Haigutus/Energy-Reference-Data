@@ -23,12 +23,17 @@
     "@cim:Names.name": [
         "ZSE-ENERGIA",
         "SK2022249295",
-        "Valid EIC Function needed"
+        "Capacity Trader",
+        "Balancing Service Provider",
+        "Trade Responsible Party",
+        "Production Responsible party",
+        "Energy Supplier",
+        "Balance Group Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Distributive Network Operator (Prevadzkovatel Distribucnej Sustavy)",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-08-01",
     "@schema:vatID": "SK2022249295",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

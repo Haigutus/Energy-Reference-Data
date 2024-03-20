@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "PAD_RES_SZTUM",
         "PL5771990813",
-        "System Operator",
+        "Grid Access Provider",
         "Meter Administrator",
-        "Metered Data Responsible",
-        "Grid Access Provider"
+        "System Operator",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

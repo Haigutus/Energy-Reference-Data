@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLRRVM3------D</dcterms:identifier>
     <skos:prefLabel>Recarei - Vermoim 3 400</skos:prefLabel>
-    <skos:altLabel>LRR.VM3</skos:altLabel>
+    <skos:altLabel>LRR_VM3</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLRRVM3------D</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Recarei - Vermoim 3 400</cim:IdentifiedObject.name>
-    <cim:Names.name>LRR.VM3</cim:Names.name>
+    <cim:Names.name>LRR_VM3</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

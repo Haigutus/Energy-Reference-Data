@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLPTLGC2-----2</dcterms:identifier>
     <skos:prefLabel>Picote-Lagoa&#231;a 2</skos:prefLabel>
-    <skos:altLabel>LPT.LGC2</skos:altLabel>
+    <skos:altLabel>LPT_LGC2</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLPTLGC2-----2</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Picote-Lagoa&#231;a 2</cim:IdentifiedObject.name>
-    <cim:Names.name>LPT.LGC2</cim:Names.name>
+    <cim:Names.name>LPT_LGC2</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

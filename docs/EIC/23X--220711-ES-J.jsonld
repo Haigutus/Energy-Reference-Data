@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "ELEKTROSEVER_DOO",
         "330522608",
+        "Capacity Trader",
         "Balance Responsible Party",
-        "Energy Supplier",
-        "Capacity Trader"
+        "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "Company registered in Kosovo. Registration number: 810171900",
     "@cim:Document.docStatus": "A05",

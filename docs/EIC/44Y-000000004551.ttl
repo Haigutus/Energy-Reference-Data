@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44Y-000000004551" ;
     cim:IdentifiedObject.name "Ämmässuo" ;
-    cim:Names.name "FI_ÄMS000",
+    cim:Names.name "FI_AMS000",
         "Metering Grid Area" ;
     dcterms:identifier "urn:eic:44Y-000000004551" ;
-    skos:altLabel "FI_ÄMS000" ;
+    skos:altLabel "FI_AMS000" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Ämmässuo" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

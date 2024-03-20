@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "ATHINAENERGIE-ST",
         "FL00025240054",
-        "Market Operator",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Market Operator"
     ],
     "@cim:IdentifiedObject.description": "Balance Group Responsible Party, Market Operator",
     "@cim:Document.docStatus": "A05",

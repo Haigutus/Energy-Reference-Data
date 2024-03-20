@@ -12,23 +12,24 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:19XEGL-POLSKA--Y",
-    "@skos:prefLabel": "AXPO POLSKA SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
+    "@skos:prefLabel": "AXPO POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
     "@skos:altLabel": "AXPO_POLSKA",
     "@skos:definition": {
         "@language": "en",
         "@value": "Balance Responsible Party"
     },
     "@cim:IdentifiedObject.mRID": "19XEGL-POLSKA--Y",
-    "@cim:IdentifiedObject.name": "AXPO POLSKA SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA",
+    "@cim:IdentifiedObject.name": "AXPO POLSKA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
     "@cim:Names.name": [
         "AXPO_POLSKA",
         "PL5262483798",
+        "Energy Supplier",
         "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2015-11-14",
+    "@cim:DateAndOrTime.date": "2023-11-27",
     "@schema:vatID": "PL5262483798",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

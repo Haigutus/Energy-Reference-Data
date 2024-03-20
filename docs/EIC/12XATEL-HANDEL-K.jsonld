@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "ALPIQ-AG",
         "CHE28200207",
-        "Trade Responsible Party",
+        "Balance Responsible Party",
         "Market Operator",
-        "Balance Responsible Party"
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Alpiq changed their VAT and LIO agrees to do so because the company stays completely the same but only VAT changed. Please confirm this request as agreed in Ticket #9339790 Best regards Sacha",
     "@cim:Document.docStatus": "A05",

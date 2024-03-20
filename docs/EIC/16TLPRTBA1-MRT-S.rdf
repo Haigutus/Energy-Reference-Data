@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLPRTBA1-MRT-S</dcterms:identifier>
     <skos:prefLabel>Pereiros-T&#225;bua 1/Ramal Mort&#225;gua</skos:prefLabel>
-    <skos:altLabel>LPR.TBA1/MRT</skos:altLabel>
+    <skos:altLabel>LPR_TBA1_MRT</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLPRTBA1-MRT-S</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Pereiros-T&#225;bua 1/Ramal Mort&#225;gua</cim:IdentifiedObject.name>
-    <cim:Names.name>LPR.TBA1/MRT</cim:Names.name>
+    <cim:Names.name>LPR_TBA1_MRT</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

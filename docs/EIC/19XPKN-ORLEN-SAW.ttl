@@ -7,19 +7,20 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2014-01-29" ;
+    cim:DateAndOrTime.date "2023-08-25" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "19XPKN-ORLEN-SAW" ;
-    cim:IdentifiedObject.name "POLSKI KONCERN NAFTOWY ORLEN SPOLKA AKCYJNA" ;
-    cim:Names.name "Balance Responsible Party",
-        "PKN_ORLEN",
+    cim:IdentifiedObject.name "ORLEN SPÓŁKA AKCYJNA" ;
+    cim:Names.name "A0003319F.PL",
+        "Balance Responsible Party",
+        "ORLEN_SA",
         "PL7740001454" ;
     dcterms:identifier "urn:eic:19XPKN-ORLEN-SAW" ;
     schema1:vatID "PL7740001454" ;
-    skos:altLabel "PKN_ORLEN" ;
+    skos:altLabel "ORLEN_SA" ;
     skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "POLSKI KONCERN NAFTOWY ORLEN SPOLKA AKCYJNA" ;
+    skos:prefLabel "ORLEN SPÓŁKA AKCYJNA" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

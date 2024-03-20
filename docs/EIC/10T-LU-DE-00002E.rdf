@@ -4,16 +4,16 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:10T-LU-DE-00002E</dcterms:identifier>
-    <skos:prefLabel>Heisdorf-Trier</skos:prefLabel>
-    <skos:altLabel>L_HEISDORF-TRIER</skos:altLabel>
+    <skos:prefLabel>AMP-CREOS / 220kV / Trier - Blooren / Blooren-Trier Sued</skos:prefLabel>
+    <skos:altLabel>L_BLOOREN-TRIER</skos:altLabel>
     <skos:definition xml:lang="en">Tieline</skos:definition>
     <cim:IdentifiedObject.mRID>10T-LU-DE-00002E</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Heisdorf-Trier</cim:IdentifiedObject.name>
-    <cim:Names.name>L_HEISDORF-TRIER</cim:Names.name>
+    <cim:IdentifiedObject.name>AMP-CREOS / 220kV / Trier - Blooren / Blooren-Trier Sued</cim:IdentifiedObject.name>
+    <cim:Names.name>L_BLOOREN-TRIER</cim:Names.name>
     <cim:IdentifiedObject.description>Tieline</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2012-06-12</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-11-02</cim:DateAndOrTime.date>
     <cim:Names.name>Tieline</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>

@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "OSD_KORYTNICA",
         "PL5222929880",
-        "Producer",
         "Meter Administrator",
+        "Grid Access Provider",
+        "Producer",
         "System Operator",
-        "Metered Data Responsible",
-        "Grid Access Provider"
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

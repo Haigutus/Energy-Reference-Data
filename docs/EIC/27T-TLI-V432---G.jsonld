@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V432---G",
     "@skos:prefLabel": "CEPS_V432 Kocín-Preštice",
-    "@skos:altLabel": "CKOCH_1*CPRE__1*",
+    "@skos:altLabel": "CKOCH_1_CPRE__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V432---G",
     "@cim:IdentifiedObject.name": "CEPS_V432 Kocín-Preštice",
     "@cim:Names.name": [
-        "CKOCH_1*CPRE__1*",
+        "CKOCH_1_CPRE__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

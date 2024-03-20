@@ -22,12 +22,12 @@
     "@cim:IdentifiedObject.name": "Great Britain",
     "@cim:Names.name": [
         "GB",
-        "LFC Area",
-        "Scheduling Area",
-        "LFC Block",
         "Synchronous Area",
         "Bidding Zone",
-        "Control Area"
+        "Control Area",
+        "LFC Block",
+        "Scheduling Area",
+        "LFC Area"
     ],
     "@cim:IdentifiedObject.description": "Bidding Zone, Control Area, Market Balance Area, Scheduling Area, Synchronous Area added based on CIM EG 15 decision 20.01.2021",
     "@cim:Document.docStatus": "A05",

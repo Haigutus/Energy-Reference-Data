@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TAT3400220SPIK",
     "@skos:prefLabel": "AT 3 400/220 SPI",
-    "@skos:altLabel": "AT3400/220SPI",
+    "@skos:altLabel": "AT3400_220SPI",
     "@cim:IdentifiedObject.mRID": "16TAT3400220SPIK",
     "@cim:IdentifiedObject.name": "AT 3 400/220 SPI",
     "@cim:Names.name": [
-        "AT3400/220SPI",
+        "AT3400_220SPI",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

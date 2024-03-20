@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ENERGETYKA_RAKOW",
         "PL5272960745",
-        "Energy Supplier",
-        "System Operator",
+        "Grid Access Provider",
         "Meter Administrator",
-        "Metered Data Responsible",
-        "Grid Access Provider"
+        "System Operator",
+        "Energy Supplier",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

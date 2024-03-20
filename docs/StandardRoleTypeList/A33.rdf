@@ -4,7 +4,7 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardRoleTypeList"/>
     <dcterms:identifier>A33</dcterms:identifier>
     <skos:prefLabel>Information receiver</skos:prefLabel>
-    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party, not necessarily a market participant, which receives information about the market.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

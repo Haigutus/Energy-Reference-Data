@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "INCOMAS",
         "DK38381954",
-        "Trade Responsible Party",
+        "Balance Responsible Party",
         "Capacity Trader",
-        "Balance Responsible Party"
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

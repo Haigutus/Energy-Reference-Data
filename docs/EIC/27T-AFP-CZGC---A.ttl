@@ -11,9 +11,9 @@
     cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.mRID "27T-AFP-CZGC---A" ;
     cim:IdentifiedObject.name "CEPS_V420 Hradec Východ-Mírovka" ;
-    cim:Names.name "CHBM__1*CHRD__1*" ;
+    cim:Names.name "CHBM__1_CHRD__1_" ;
     dcterms:identifier "urn:eic:27T-AFP-CZGC---A" ;
-    skos:altLabel "CHBM__1*CHRD__1*" ;
+    skos:altLabel "CHBM__1_CHRD__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V420 Hradec Východ-Mírovka" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

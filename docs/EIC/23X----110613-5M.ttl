@@ -7,19 +7,19 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2011-06-27" ;
+    cim:DateAndOrTime.date "2023-11-08" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Trade Responsible Party" ;
     cim:IdentifiedObject.mRID "23X----110613-5M" ;
-    cim:IdentifiedObject.name "Vayu Limited" ;
-    cim:Names.name "IE6396223L",
-        "Trade Responsible Party",
-        "VAYU_IE" ;
+    cim:IdentifiedObject.name "Flogas Enterprise Solutions Limited" ;
+    cim:Names.name "FLOGAS_ENT_SOL",
+        "IE6396223L",
+        "Trade Responsible Party" ;
     dcterms:identifier "urn:eic:23X----110613-5M" ;
     schema1:vatID "IE6396223L" ;
-    skos:altLabel "VAYU_IE" ;
+    skos:altLabel "FLOGAS_ENT_SOL" ;
     skos:definition "Trade Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Vayu Limited" ;
+    skos:prefLabel "Flogas Enterprise Solutions Limited" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

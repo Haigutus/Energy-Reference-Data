@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "LLC_GASODOBUVNA",
         "425736626546",
-        "Trade Responsible Party",
-        "Network User"
+        "Network User",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

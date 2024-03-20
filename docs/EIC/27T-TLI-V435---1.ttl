@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V435---1" ;
     cim:IdentifiedObject.name "CEPS_PRN.T401 Prosenice_400/220" ;
-    cim:Names.name "CSLV__1*CSOK__1*",
+    cim:Names.name "CSLV__1_CSOK__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V435---1" ;
-    skos:altLabel "CSLV__1*CSOK__1*" ;
+    skos:altLabel "CSLV__1_CSOK__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_PRN.T401 Prosenice_400/220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

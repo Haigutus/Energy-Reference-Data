@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLSNPO3------D</dcterms:identifier>
     <skos:prefLabel>Sines-Portim&#227;o 3</skos:prefLabel>
-    <skos:altLabel>LSN.PO3</skos:altLabel>
+    <skos:altLabel>LSN_PO3</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLSNPO3------D</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Sines-Portim&#227;o 3</cim:IdentifiedObject.name>
-    <cim:Names.name>LSN.PO3</cim:Names.name>
+    <cim:Names.name>LSN_PO3</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

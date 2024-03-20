@@ -12,12 +12,12 @@
     cim:IdentifiedObject.mRID "68X3NATURAL-GAZN" ;
     cim:IdentifiedObject.name "Natural gaz D.C." ;
     cim:Names.name "0611008",
-        "NATURALGAZ_D.C.",
+        "NATURALGAZ_D_C_",
         "Network User",
         "Trade Responsible Party" ;
     dcterms:identifier "urn:eic:68X3NATURAL-GAZN" ;
     schema1:vatID "0611008" ;
-    skos:altLabel "NATURALGAZ_D.C." ;
+    skos:altLabel "NATURALGAZ_D_C_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Natural gaz D.C." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

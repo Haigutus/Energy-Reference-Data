@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:45T000000000051U</dcterms:identifier>
     <skos:prefLabel>400 Hoveg&#229;rd G&#248;rl&#248;seg&#229;rd</skos:prefLabel>
-    <skos:altLabel>HVE_400_G&#216;R</skos:altLabel>
+    <skos:altLabel>HVE_400_GOR</skos:altLabel>
     <cim:IdentifiedObject.mRID>45T000000000051U</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>400 Hoveg&#229;rd G&#248;rl&#248;seg&#229;rd</cim:IdentifiedObject.name>
-    <cim:Names.name>HVE_400_G&#216;R</cim:Names.name>
+    <cim:Names.name>HVE_400_GOR</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2019-10-21</cim:DateAndOrTime.date>

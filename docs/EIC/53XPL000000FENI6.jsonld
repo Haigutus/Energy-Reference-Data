@@ -21,13 +21,13 @@
         "A0009644A.PL",
         "PL5471838076",
         "Trade Responsible Party",
-        "Energy Supplier",
         "Metered Data Responsible",
-        "Meter Administrator",
+        "Energy Supplier",
         "Distribution System Operator",
         "Consumer",
-        "System Operator",
-        "Grid Access Provider"
+        "Grid Access Provider",
+        "Meter Administrator",
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

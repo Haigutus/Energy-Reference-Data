@@ -7,12 +7,11 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-05-04" ;
+    cim:DateAndOrTime.date "2023-10-19" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "26X022943209790V" ;
     cim:IdentifiedObject.name "NWG ENERGIA SPA SB" ;
-    cim:Names.name "A0010759U.IT",
-        "IT-NWGENERGIASPA",
+    cim:Names.name "IT-NWGENERGIASPA",
         "IT02294320979",
         "Trade Responsible Party" ;
     dcterms:identifier "urn:eic:26X022943209790V" ;

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLBLPI-------T",
     "@skos:prefLabel": "Batalha-Paraimo",
-    "@skos:altLabel": "LBL.PI",
+    "@skos:altLabel": "LBL_PI",
     "@cim:IdentifiedObject.mRID": "16TLBLPI-------T",
     "@cim:IdentifiedObject.name": "Batalha-Paraimo",
     "@cim:Names.name": [
-        "LBL.PI",
+        "LBL_PI",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

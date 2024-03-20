@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "ENGIE-KIWI",
         "GB741911934",
+        "Consumer",
         "Party Connected To Grid",
-        "Producer",
-        "Consumer"
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

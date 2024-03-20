@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V431---L",
     "@skos:prefLabel": "CEPS_V431 Chrást-Preštice",
-    "@skos:altLabel": "CCHR__1*CPRE__1*",
+    "@skos:altLabel": "CCHR__1_CPRE__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V431---L",
     "@cim:IdentifiedObject.name": "CEPS_V431 Chrást-Preštice",
     "@cim:Names.name": [
-        "CCHR__1*CPRE__1*",
+        "CCHR__1_CPRE__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

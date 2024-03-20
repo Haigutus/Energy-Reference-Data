@@ -6,15 +6,13 @@
     <dcterms:identifier>urn:eic:11XED-H-GENERA-3</dcterms:identifier>
     <skos:prefLabel>Energiedienst Holding AG</skos:prefLabel>
     <skos:altLabel>ED_H</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11XED-H-GENERA-3</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Energiedienst Holding AG</cim:IdentifiedObject.name>
     <cim:Names.name>ED_H</cim:Names.name>
     <cim:Names.name>DE142693600</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2014-04-14</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-30</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE142693600</schema:vatID>

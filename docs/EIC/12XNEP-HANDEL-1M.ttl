@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Energiehandel" ;
     cim:IdentifiedObject.mRID "12XNEP-HANDEL-1M" ;
     cim:IdentifiedObject.name "N.E.P. AG" ;
     cim:Names.name "CH640267",
-        "NEPAG",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "NEPAG" ;
     dcterms:identifier "urn:eic:12XNEP-HANDEL-1M" ;
     schema1:vatID "CH640267" ;
     skos:altLabel "NEPAG" ;

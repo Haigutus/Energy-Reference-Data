@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44Y-000000003458" ;
     cim:IdentifiedObject.name "Ahvenanmaan verkko" ;
-    cim:Names.name "FI_ÅL0000",
+    cim:Names.name "FI_AL0000",
         "Metering Grid Area" ;
     dcterms:identifier "urn:eic:44Y-000000003458" ;
-    skos:altLabel "FI_ÅL0000" ;
+    skos:altLabel "FI_AL0000" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Ahvenanmaan verkko" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

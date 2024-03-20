@@ -4,18 +4,16 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:11XSWBHANDEL---W</dcterms:identifier>
-    <skos:prefLabel>Stadtwerke Burg GmbH</skos:prefLabel>
+    <skos:prefLabel>Stadtwerke Burg Gesellschaft mit beschr&#228;nkter Haftung</skos:prefLabel>
     <skos:altLabel>SWB-HANDEL</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Group</skos:definition>
     <cim:IdentifiedObject.mRID>11XSWBHANDEL---W</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Stadtwerke Burg GmbH</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>Stadtwerke Burg Gesellschaft mit beschr&#228;nkter Haftung</cim:IdentifiedObject.name>
     <cim:Names.name>SWB-HANDEL</cim:Names.name>
     <cim:Names.name>DE139330315</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Group</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2007-10-09</cim:DateAndOrTime.date>
-    <cim:Names.name>Balance Group</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-09-08</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE139330315</schema:vatID>
   </skos:Concept>

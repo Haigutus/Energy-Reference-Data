@@ -7,9 +7,8 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2013-05-02" ;
+    cim:DateAndOrTime.date "2023-10-30" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "11XBASF-BSW-SH-D" ;
     cim:IdentifiedObject.name "BASF Schwarzheide GmbH" ;
     cim:Names.name "BSW",
@@ -18,7 +17,6 @@
     dcterms:identifier "urn:eic:11XBASF-BSW-SH-D" ;
     schema1:vatID "DE811122744" ;
     skos:altLabel "BSW" ;
-    skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "BASF Schwarzheide GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

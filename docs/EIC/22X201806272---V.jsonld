@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "BE_ENERGIE2030",
         "BE473740377",
-        "Consumer",
+        "Balance Responsible Party",
         "Producer",
-        "Balance Responsible Party"
+        "Consumer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

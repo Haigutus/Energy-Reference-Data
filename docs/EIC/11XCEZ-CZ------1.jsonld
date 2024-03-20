@@ -14,10 +14,6 @@
     "@dcterms:identifier": "urn:eic:11XCEZ-CZ------1",
     "@skos:prefLabel": "CEZ, a.s.",
     "@skos:altLabel": "CEZ_CZ",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XCEZ-CZ------1",
     "@cim:IdentifiedObject.name": "CEZ, a.s.",
     "@cim:Names.name": [
@@ -25,10 +21,9 @@
         "CZ45274649",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2013-11-13",
+    "@cim:DateAndOrTime.date": "2023-10-20",
     "@schema:vatID": "CZ45274649",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPTMG-------6",
     "@skos:prefLabel": "Picote-Mogadouro",
-    "@skos:altLabel": "LPT.MG",
+    "@skos:altLabel": "LPT_MG",
     "@cim:IdentifiedObject.mRID": "16TLPTMG-------6",
     "@cim:IdentifiedObject.name": "Picote-Mogadouro",
     "@cim:Names.name": [
-        "LPT.MG",
+        "LPT_MG",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

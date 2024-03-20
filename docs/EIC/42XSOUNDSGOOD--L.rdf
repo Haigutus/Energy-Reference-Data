@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:42XSOUNDSGOOD--L</dcterms:identifier>
     <skos:prefLabel>Sounds good s.r.o</skos:prefLabel>
-    <skos:altLabel>SOUNDSGOOD,S.R.O</skos:altLabel>
+    <skos:altLabel>SOUNDSGOOD_S_R_O</skos:altLabel>
     <cim:IdentifiedObject.mRID>42XSOUNDSGOOD--L</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Sounds good s.r.o</cim:IdentifiedObject.name>
-    <cim:Names.name>SOUNDSGOOD,S.R.O</cim:Names.name>
+    <cim:Names.name>SOUNDSGOOD_S_R_O</cim:Names.name>
     <cim:Names.name>SK2022553049</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

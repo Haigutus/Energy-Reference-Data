@@ -7,17 +7,20 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2018-11-27" ;
+    cim:DateAndOrTime.date "2023-09-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "53XPL000000GELL1" ;
-    cim:IdentifiedObject.name "GASELLE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
-    cim:Names.name "GASELLE",
+    cim:IdentifiedObject.name "Respect Energy Fuels Sp. z o.o." ;
+    cim:Names.name "A0014512M.PL",
+        "Balance Responsible Party",
+        "Energy Supplier",
         "Network User",
-        "PL1070001436" ;
+        "PL1070001436",
+        "RESPECTFUELS" ;
     dcterms:identifier "urn:eic:53XPL000000GELL1" ;
     schema1:vatID "PL1070001436" ;
-    skos:altLabel "GASELLE" ;
+    skos:altLabel "RESPECTFUELS" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "GASELLE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    skos:prefLabel "Respect Energy Fuels Sp. z o.o." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

@@ -7,10 +7,10 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2018-04-23" ;
+    cim:DateAndOrTime.date "2023-09-18" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "18X00000000092YW" ;
-    cim:IdentifiedObject.name "GERMANS AYMERICH ISERN S.L." ;
+    cim:IdentifiedObject.name "GERMANS AYMERICH ISERN SL" ;
     cim:Names.name "Consumption Responsible Party",
         "ESB62327184",
         "TRIPO" ;
@@ -18,6 +18,6 @@
     schema1:vatID "ESB62327184" ;
     skos:altLabel "TRIPO" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "GERMANS AYMERICH ISERN S.L." ;
+    skos:prefLabel "GERMANS AYMERICH ISERN SL" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

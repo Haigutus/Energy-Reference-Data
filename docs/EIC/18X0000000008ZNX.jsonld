@@ -19,13 +19,13 @@
     "@cim:Names.name": [
         "ROMA",
         "ESB66420407",
-        "Grid Access Provider",
-        "Capacity Trader",
-        "Consumption Responsible Party",
-        "Balance Responsible Party",
         "Market Operator",
         "Production Responsible party",
         "Trade Responsible Party",
+        "Consumption Responsible Party",
+        "Grid Access Provider",
+        "Balance Responsible Party",
+        "Capacity Trader",
         "Producer"
     ],
     "@cim:Document.docStatus": "A05",

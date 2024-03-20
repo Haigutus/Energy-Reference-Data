@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "HELIOS-ENERGY-ST",
         "CHE114480463",
-        "Energy Supplier",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Balance Supplier",
     "@cim:Document.docStatus": "A05",

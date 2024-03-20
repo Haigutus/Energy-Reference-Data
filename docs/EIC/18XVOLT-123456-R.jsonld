@@ -12,23 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:18XVOLT-123456-R",
-    "@skos:prefLabel": "Vóltico Energia SL",
+    "@skos:prefLabel": "VÓLTICO ENERGIA SL",
     "@skos:altLabel": "VOLT",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Trade Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "18XVOLT-123456-R",
-    "@cim:IdentifiedObject.name": "Vóltico Energia SL",
+    "@cim:IdentifiedObject.name": "VÓLTICO ENERGIA SL",
     "@cim:Names.name": [
         "VOLT",
         "ESB65800245",
+        "Balance Responsible Party",
         "Trade Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Trade Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2012-06-14",
+    "@cim:DateAndOrTime.date": "2023-07-31",
     "@schema:vatID": "ESB65800245",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

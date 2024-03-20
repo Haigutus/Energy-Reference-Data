@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "FORTUM_SVERIGE",
         "SE556006823001",
+        "Balance Responsible Party",
         "Consumer",
-        "Producer",
         "Energy Supplier",
-        "Balance Responsible Party"
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPNLZZR2----1",
     "@skos:prefLabel": "Penela - Zezere 2 220",
-    "@skos:altLabel": "LPNL.ZR2",
+    "@skos:altLabel": "LPNL_ZR2",
     "@cim:IdentifiedObject.mRID": "16TLPNLZZR2----1",
     "@cim:IdentifiedObject.name": "Penela - Zezere 2 220",
     "@cim:Names.name": [
-        "LPNL.ZR2",
+        "LPNL_ZR2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

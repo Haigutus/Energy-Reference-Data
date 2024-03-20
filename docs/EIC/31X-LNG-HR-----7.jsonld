@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "LNGCRO-LSO-HR",
         "HR53902625891",
+        "System Operator",
         "LNG System Operator",
-        "Balance Responsible Party",
-        "System Operator"
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

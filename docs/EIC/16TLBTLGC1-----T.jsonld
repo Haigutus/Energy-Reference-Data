@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLBTLGC1-----T",
     "@skos:prefLabel": "Bemposta-Lagoaça 1",
-    "@skos:altLabel": "LBT.LGC1",
+    "@skos:altLabel": "LBT_LGC1",
     "@cim:IdentifiedObject.mRID": "16TLBTLGC1-----T",
     "@cim:IdentifiedObject.name": "Bemposta-Lagoaça 1",
     "@cim:Names.name": [
-        "LBT.LGC1",
+        "LBT_LGC1",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -18,13 +18,13 @@
     "@cim:IdentifiedObject.name": "POLARGAS SRL",
     "@cim:Names.name": [
         "POLARGASSRL",
-        "03283940041",
+        "IT03283940041",
         "Market Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-06-09",
-    "@schema:vatID": "03283940041",
+    "@cim:DateAndOrTime.date": "2023-07-17",
+    "@schema:vatID": "IT03283940041",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

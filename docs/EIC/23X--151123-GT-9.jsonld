@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "GEN-I_TBILISI",
         "404493099",
+        "Capacity Trader",
         "Interconnection Trade Responsible",
         "Trade Responsible Party",
-        "Capacity Trader",
         "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Capacity Trader, Interconnection Trade Responsible, Trade Responsible Party",

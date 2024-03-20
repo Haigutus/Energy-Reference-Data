@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Kraftwerk, Partnerwerk Der Atel, Bkw, Ckw Und Egl" ;
     cim:IdentifiedObject.mRID "12XEKW---------U" ;
     cim:IdentifiedObject.name "Engadiner Kraftwerke AG" ;
     cim:Names.name "CH250691",
-        "EKW",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "EKW" ;
     dcterms:identifier "urn:eic:12XEKW---------U" ;
     schema1:vatID "CH250691" ;
     skos:altLabel "EKW" ;

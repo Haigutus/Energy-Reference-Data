@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "BP_EE_IT_",
         "IT07777560967",
-        "Trade Responsible Party",
         "Balance Responsible Party",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party,Capacty Trader,Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

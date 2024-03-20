@@ -21,10 +21,10 @@
         "A00118658.PL",
         "PL8670003039",
         "Energy Supplier",
-        "Grid Access Provider",
         "Meter Administrator",
         "Metered Data Responsible",
-        "Distribution System Operator"
+        "Distribution System Operator",
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPRRM2-PB---H",
     "@skos:prefLabel": "Pereiros-Rio Maior 2/Ramal Pombal",
-    "@skos:altLabel": "LPR.RM2/PB",
+    "@skos:altLabel": "LPR_RM2_PB",
     "@cim:IdentifiedObject.mRID": "16TLPRRM2-PB---H",
     "@cim:IdentifiedObject.name": "Pereiros-Rio Maior 2/Ramal Pombal",
     "@cim:Names.name": [
-        "LPR.RM2/PB",
+        "LPR_RM2_PB",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

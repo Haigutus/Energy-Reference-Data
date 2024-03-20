@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V412---S",
     "@skos:prefLabel": "CEPS_V412 Hradec Západ-Reporyje",
-    "@skos:altLabel": "CREP__1*CHRA__1*",
+    "@skos:altLabel": "CREP__1_CHRA__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V412---S",
     "@cim:IdentifiedObject.name": "CEPS_V412 Hradec Západ-Reporyje",
     "@cim:Names.name": [
-        "CREP__1*CHRA__1*",
+        "CREP__1_CHRA__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

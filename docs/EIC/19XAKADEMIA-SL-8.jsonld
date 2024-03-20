@@ -19,12 +19,12 @@
     "@cim:Names.name": [
         "AKADEMIA_SLASKA",
         "PL6342513160",
+        "Grid Access Provider",
         "System Operator",
-        "Metered Data Responsible",
         "Meter Administrator",
         "Producer",
-        "Grid Access Provider",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

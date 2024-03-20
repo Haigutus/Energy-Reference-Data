@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPMFN-------G" ;
     cim:IdentifiedObject.name "Palmela-Fanhões" ;
     cim:Names.name "Internal Line",
-        "LPM.FN" ;
+        "LPM_FN" ;
     dcterms:identifier "urn:eic:16TLPMFN-------G" ;
-    skos:altLabel "LPM.FN" ;
+    skos:altLabel "LPM_FN" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Palmela-Fanhões" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

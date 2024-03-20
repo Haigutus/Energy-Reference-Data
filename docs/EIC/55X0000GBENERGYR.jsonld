@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "GBENERGY",
         "GB196836941",
+        "Capacity Trader",
         "Meter Administrator",
-        "Trade Responsible Party",
-        "Capacity Trader"
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Capacity Trader, Meter Administrator, Meter Operator, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

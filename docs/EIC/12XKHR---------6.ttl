@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Stromproduktion Durch Wasserkraftnutzung" ;
     cim:IdentifiedObject.mRID "12XKHR---------6" ;
     cim:IdentifiedObject.name "Kraftwerke Hinterrhein AG" ;
     cim:Names.name "CH151084",
-        "KW_HINTERRHEI-ST",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "KW_HINTERRHEI-ST" ;
     dcterms:identifier "urn:eic:12XKHR---------6" ;
     schema1:vatID "CH151084" ;
     skos:altLabel "KW_HINTERRHEI-ST" ;

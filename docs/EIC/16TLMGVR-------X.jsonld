@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLMGVR-------X",
     "@skos:prefLabel": "Mogadouro-Valeira",
-    "@skos:altLabel": "LMG.VR",
+    "@skos:altLabel": "LMG_VR",
     "@cim:IdentifiedObject.mRID": "16TLMGVR-------X",
     "@cim:IdentifiedObject.name": "Mogadouro-Valeira",
     "@cim:Names.name": [
-        "LMG.VR",
+        "LMG_VR",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

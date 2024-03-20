@@ -18,13 +18,13 @@
     "@cim:IdentifiedObject.name": "MERA OPERATOR SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
     "@cim:Names.name": [
         "MERA_OPERATOR",
-        "A0013264.PL",
+        "A0013264K.PL",
         "PL6222787015",
         "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-04-13",
+    "@cim:DateAndOrTime.date": "2023-09-29",
     "@schema:vatID": "PL6222787015",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

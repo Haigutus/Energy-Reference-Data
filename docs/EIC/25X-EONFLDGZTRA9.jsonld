@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "MFGK",
         "HU12543300",
-        "Capacity Trader",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Update Company Name 05.07.21 IO",
     "@cim:Document.docStatus": "A05",

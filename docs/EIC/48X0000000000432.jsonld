@@ -28,7 +28,7 @@
     "@cim:IdentifiedObject.description": "UK VAT Code not available.  Value in above field is the registered company number.  ",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-03-17",
+    "@cim:DateAndOrTime.date": "2023-11-16",
     "@schema:vatID": "AE100491567200003",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

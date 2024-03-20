@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "KW-LUCENDRO",
         "CH503668",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Kraftwerksgesellschaft",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-27",
     "@schema:vatID": "CH503668",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

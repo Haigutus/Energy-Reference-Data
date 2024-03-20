@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPDVRA------G" ;
     cim:IdentifiedObject.name "Pedralva-Riba d'Ave" ;
     cim:Names.name "Internal Line",
-        "LPDV.RA" ;
+        "LPDV_RA" ;
     dcterms:identifier "urn:eic:16TLPDVRA------G" ;
-    skos:altLabel "LPDV.RA" ;
+    skos:altLabel "LPDV_RA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Pedralva-Riba d'Ave" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

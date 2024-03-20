@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59XFASTFURIOUS-6",
     "@skos:prefLabel": "FAST&FURIOUS SRL",
-    "@skos:altLabel": "FAST&FURIOUSSRL",
+    "@skos:altLabel": "FAST_FURIOUSSRL",
     "@cim:IdentifiedObject.mRID": "59XFASTFURIOUS-6",
     "@cim:IdentifiedObject.name": "FAST&FURIOUS SRL",
     "@cim:Names.name": [
-        "FAST&FURIOUSSRL",
+        "FAST_FURIOUSSRL",
         "IT01686870336",
         "Capacity Trader"
     ],

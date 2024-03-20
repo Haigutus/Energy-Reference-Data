@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "SOLARISPOWER",
         "EL998413221",
-        "Interconnection Trade Responsible",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Interconnection Trade Responsible"
     ],
     "@cim:IdentifiedObject.description": "Electricity cross border trading, interconnection capacity acquisition and nomination, electricity trading within an electric system",
     "@cim:Document.docStatus": "A05",

@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLCFVC1-GVA--E</dcterms:identifier>
     <skos:prefLabel>Chafariz-Vila Ch&#227; 1/Ramal Gouveia</skos:prefLabel>
-    <skos:altLabel>LCF.VC1/GVA</skos:altLabel>
+    <skos:altLabel>LCF_VC1_GVA</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLCFVC1-GVA--E</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Chafariz-Vila Ch&#227; 1/Ramal Gouveia</cim:IdentifiedObject.name>
-    <cim:Names.name>LCF.VC1/GVA</cim:Names.name>
+    <cim:Names.name>LCF_VC1_GVA</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

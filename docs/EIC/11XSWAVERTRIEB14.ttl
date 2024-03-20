@@ -7,19 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2013-10-15" ;
+    cim:DateAndOrTime.date "2023-10-06" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "11XSWAVERTRIEB14" ;
-    cim:IdentifiedObject.name "Stadtwerke Ahaus GmbH" ;
+    cim:IdentifiedObject.name "LokalWerke GmbH" ;
     cim:Names.name "Balance Responsible Party",
         "DE123770545",
         "SWAHAUS" ;
     dcterms:identifier "urn:eic:11XSWAVERTRIEB14" ;
     schema1:vatID "DE123770545" ;
     skos:altLabel "SWAHAUS" ;
-    skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Stadtwerke Ahaus GmbH" ;
+    skos:prefLabel "LokalWerke GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

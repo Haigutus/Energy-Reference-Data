@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/44X-00000000252T> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "44X-00000000252T" ;
+    cim:IdentifiedObject.name "Kosolankankaan tuulivoimapuisto Oy" ;
+    cim:Names.name "44KOSOLANKANGAS",
+        "FI26419985",
+        "Producer" ;
+    dcterms:identifier "urn:eic:44X-00000000252T" ;
+    schema1:vatID "FI26419985" ;
+    skos:altLabel "44KOSOLANKANGAS" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Kosolankankaan tuulivoimapuisto Oy" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

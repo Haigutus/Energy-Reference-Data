@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ENAGASGTSSAU",
         "ESA86484292",
-        "Storage System Operator",
         "LNG System Operator",
+        "Storage System Operator",
         "System Operator"
     ],
     "@cim:Document.docStatus": "A05",

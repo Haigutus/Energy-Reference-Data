@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X9300001189305> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-10-31" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Contact persone: Chumakov Anton +380687075797 info@lng-terminal.com.ua" ;
+    cim:IdentifiedObject.mRID "56X9300001189305" ;
+    cim:IdentifiedObject.name "State Enterprise \"National Project \"LNG Terminal\"" ;
+    cim:Names.name "374501626558",
+        "LNG System Operator",
+        "NP_LNG_TERMINAL",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X9300001189305" ;
+    schema1:vatID "374501626558" ;
+    skos:altLabel "NP_LNG_TERMINAL" ;
+    skos:definition "Contact persone: Chumakov Anton +380687075797 info@lng-terminal.com.ua"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "State Enterprise \"National Project \"LNG Terminal\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

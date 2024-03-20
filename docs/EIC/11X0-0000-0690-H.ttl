@@ -7,15 +7,15 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-06-24" ;
+    cim:DateAndOrTime.date "2023-09-29" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11X0-0000-0690-H" ;
     cim:IdentifiedObject.name "Dynasty Power Inc." ;
-    cim:Names.name "2014575175",
-        "Balance Responsible Party",
-        "DYNP" ;
+    cim:Names.name "Balance Responsible Party",
+        "DYNP",
+        "SI93734239" ;
     dcterms:identifier "urn:eic:11X0-0000-0690-H" ;
-    schema1:vatID "2014575175" ;
+    schema1:vatID "SI93734239" ;
     skos:altLabel "DYNP" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Dynasty Power Inc." ;

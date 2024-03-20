@@ -4,17 +4,15 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:11XSWAVERTRIEB14</dcterms:identifier>
-    <skos:prefLabel>Stadtwerke Ahaus GmbH</skos:prefLabel>
+    <skos:prefLabel>LokalWerke GmbH</skos:prefLabel>
     <skos:altLabel>SWAHAUS</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11XSWAVERTRIEB14</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Stadtwerke Ahaus GmbH</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>LokalWerke GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>SWAHAUS</cim:Names.name>
     <cim:Names.name>DE123770545</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2013-10-15</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-06</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE123770545</schema:vatID>

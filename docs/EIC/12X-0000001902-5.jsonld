@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "ETIS-SA-ST",
         "CHE444869850",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party Balance Supplier Balance Group",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-20",
     "@schema:vatID": "CHE444869850",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

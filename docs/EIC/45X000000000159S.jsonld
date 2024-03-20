@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/45X000000000159S",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:45X000000000159S",
+    "@skos:prefLabel": "Reel Energy ApS",
+    "@skos:altLabel": "REEL",
+    "@cim:IdentifiedObject.mRID": "45X000000000159S",
+    "@cim:IdentifiedObject.name": "Reel Energy ApS",
+    "@cim:Names.name": [
+        "REEL",
+        "43526146",
+        "Balance Responsible Party",
+        "Balancing Service Provider"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-09-12",
+    "@schema:vatID": "43526146",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

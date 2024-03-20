@@ -22,10 +22,10 @@
     "@cim:IdentifiedObject.name": "Distribution LV",
     "@cim:Names.name": [
         "DISTRIBUTION_LV",
-        "Member State",
         "Local Market Area",
-        "Scheduling Area",
-        "Market Area"
+        "Market Area",
+        "Member State",
+        "Scheduling Area"
     ],
     "@cim:IdentifiedObject.description": "Local Market Area,Market Area,Member State,Market Balance Area",
     "@cim:Document.docStatus": "A05",

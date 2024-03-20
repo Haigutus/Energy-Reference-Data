@@ -20,9 +20,9 @@
         "ES-B-12021424XXX",
         "ESB12021424",
         "Capacity Trader",
+        "Market Operator",
         "Consumption Responsible Party",
-        "Balance Responsible Party",
-        "Market Operator"
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

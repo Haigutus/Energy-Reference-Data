@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "44RAONORDIC",
         "FI17849377",
+        "Capacity Trader",
         "Distribution System Operator",
-        "Balance Responsible Party",
         "Network User",
-        "Capacity Trader"
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

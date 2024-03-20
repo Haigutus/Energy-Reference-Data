@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPNCF2------9",
     "@skos:prefLabel": "Pocinho-Chafariz 2",
-    "@skos:altLabel": "LPN.CF2",
+    "@skos:altLabel": "LPN_CF2",
     "@cim:IdentifiedObject.mRID": "16TLPNCF2------9",
     "@cim:IdentifiedObject.name": "Pocinho-Chafariz 2",
     "@cim:Names.name": [
-        "LPN.CF2",
+        "LPN_CF2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

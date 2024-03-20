@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "SYMPOWERGR",
         "EL801627226",
-        "Balance Responsible Party",
-        "Balancing Service Provider"
+        "Balancing Service Provider",
+        "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Demand Responsible Independent Aggregator Additional e-mail: konstantinos.tsinnas@sympower.gr    Additional contact persons: KONSTANTINOS ATHANASOPOULOS (kostas.athanasopoulos@sympower.net, +30 6936749469) IRENE ALMENAR (irene.almenar@sympower.net) ",
     "@cim:Document.docStatus": "A05",

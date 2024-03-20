@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V434---6" ;
     cim:IdentifiedObject.name "CEPS_V434 Cebín-Slavetice" ;
-    cim:Names.name "CCEB__1*CSLV__1*",
+    cim:Names.name "CCEB__1_CSLV__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V434---6" ;
-    skos:altLabel "CCEB__1*CSLV__1*" ;
+    skos:altLabel "CCEB__1_CSLV__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V434 Cebín-Slavetice" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

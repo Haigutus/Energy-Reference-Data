@@ -20,8 +20,8 @@
         "ARLO09",
         "GB311183840",
         "Storage System Operator",
-        "Producer",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

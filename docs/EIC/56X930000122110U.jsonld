@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/56X930000122110U",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:56X930000122110U",
+    "@skos:prefLabel": "ENERGO TRADE GROUP Limited Liability Company",
+    "@skos:altLabel": "ETG_LLC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Contact persone: Mykola Tomchuk tel:+38067-252-30-40 LLC.ETG.2023@ukr.net"
+    },
+    "@cim:IdentifiedObject.mRID": "56X930000122110U",
+    "@cim:IdentifiedObject.name": "ENERGO TRADE GROUP Limited Liability Company",
+    "@cim:Names.name": [
+        "ETG_LLC",
+        "449700608298",
+        "Trade Responsible Party",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "Contact persone: Mykola Tomchuk tel:+38067-252-30-40 LLC.ETG.2023@ukr.net",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-08-11",
+    "@schema:vatID": "449700608298",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

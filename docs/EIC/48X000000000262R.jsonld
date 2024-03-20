@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "BANKS_RENEWABLES",
         "GB316807990",
-        "Production Responsible party",
-        "Producer"
+        "Producer",
+        "Production Responsible party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

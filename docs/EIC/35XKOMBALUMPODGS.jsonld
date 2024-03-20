@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "KOMBALUMPODG",
         "02983133",
-        "Consumption Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Consumption Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Aluminum Smelter.",
     "@cim:Document.docStatus": "A05",

@@ -16,7 +16,7 @@
     "@skos:altLabel": "FR_BANCDEGUE_GU2",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Nouveau code EIC"
+        "@value": "Modification du responsible party"
     },
     "@cim:IdentifiedObject.mRID": "17W000001445567Y",
     "@cim:IdentifiedObject.name": "Parc du Banc de Guérande 2",
@@ -24,10 +24,10 @@
         "FR_BANCDEGUE_GU2",
         "Generation Unit"
     ],
-    "@cim:IdentifiedObject.description": "Nouveau code EIC",
+    "@cim:IdentifiedObject.description": "Modification du responsible party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-11-30",
+    "@cim:DateAndOrTime.date": "2023-10-05",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

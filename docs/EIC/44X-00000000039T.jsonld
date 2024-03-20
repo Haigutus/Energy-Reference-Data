@@ -20,8 +20,8 @@
         "44HELEN",
         "FI26305734",
         "Balance Responsible Party",
-        "Producer",
-        "Distribution System Operator"
+        "Distribution System Operator",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

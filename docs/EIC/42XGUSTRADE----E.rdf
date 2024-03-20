@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:42XGUSTRADE----E</dcterms:identifier>
     <skos:prefLabel>GusTrade, s.r.o</skos:prefLabel>
-    <skos:altLabel>GUSTRADE,S.R.O</skos:altLabel>
+    <skos:altLabel>GUSTRADE_S_R_O</skos:altLabel>
     <cim:IdentifiedObject.mRID>42XGUSTRADE----E</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>GusTrade, s.r.o</cim:IdentifiedObject.name>
-    <cim:Names.name>GUSTRADE,S.R.O</cim:Names.name>
+    <cim:Names.name>GUSTRADE_S_R_O</cim:Names.name>
     <cim:Names.name>SK2120995910</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

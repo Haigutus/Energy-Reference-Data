@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V414---I",
     "@skos:prefLabel": "CEPS_V414 Chodov-Reporyje",
-    "@skos:altLabel": "CCHD__1*CREP__1*",
+    "@skos:altLabel": "CCHD__1_CREP__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V414---I",
     "@cim:IdentifiedObject.name": "CEPS_V414 Chodov-Reporyje",
     "@cim:Names.name": [
-        "CCHD__1*CREP__1*",
+        "CCHD__1_CREP__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

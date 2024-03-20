@@ -12,14 +12,14 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:58ZC006P01DEVN-3",
-    "@skos:prefLabel": "GRS Devnia C006P01",
+    "@skos:prefLabel": "GRS Devnya C006P01",
     "@skos:altLabel": "DEVNIAC006P01",
     "@skos:definition": {
         "@language": "en",
         "@value": "Domestic exit point"
     },
     "@cim:IdentifiedObject.mRID": "58ZC006P01DEVN-3",
-    "@cim:IdentifiedObject.name": "GRS Devnia C006P01",
+    "@cim:IdentifiedObject.name": "GRS Devnya C006P01",
     "@cim:Names.name": [
         "DEVNIAC006P01",
         "Metering Point"
@@ -27,7 +27,7 @@
     "@cim:IdentifiedObject.description": "Domestic exit point",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-05-18",
+    "@cim:DateAndOrTime.date": "2023-09-13",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

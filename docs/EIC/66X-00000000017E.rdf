@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:66X-00000000017E</dcterms:identifier>
     <skos:prefLabel>Lemp&#228;&#228;l&#228;n L&#228;mp&#246; Oy</skos:prefLabel>
-    <skos:altLabel>66LEMP&#196;&#196;L&#196;NL&#196;MP&#214;</skos:altLabel>
+    <skos:altLabel>66LEMPAALANLAMPO</skos:altLabel>
     <cim:IdentifiedObject.mRID>66X-00000000017E</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Lemp&#228;&#228;l&#228;n L&#228;mp&#246; Oy</cim:IdentifiedObject.name>
-    <cim:Names.name>66LEMP&#196;&#196;L&#196;NL&#196;MP&#214;</cim:Names.name>
+    <cim:Names.name>66LEMPAALANLAMPO</cim:Names.name>
     <cim:Names.name>FI01507188</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

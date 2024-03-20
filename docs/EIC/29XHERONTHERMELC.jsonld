@@ -25,9 +25,9 @@
         "A0003851E.GR",
         "EL099810593",
         "Production Responsible party",
-        "Trade Responsible Party",
         "Balance Responsible Party",
-        "Producer"
+        "Producer",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "HERON SINGLE MEMBER S.A. ENERGY SERVICES  Independent Power Producer and Electricity Supplier. ",
     "@cim:Document.docStatus": "A05",

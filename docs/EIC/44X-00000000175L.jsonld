@@ -12,10 +12,10 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:44X-00000000175L",
-    "@skos:prefLabel": "Kalajoki I & II Tuuli Ky",
+    "@skos:prefLabel": "Kalajoki Mustilankangas Tuuli Ky",
     "@skos:altLabel": "44KALAJOKII_II",
     "@cim:IdentifiedObject.mRID": "44X-00000000175L",
-    "@cim:IdentifiedObject.name": "Kalajoki I & II Tuuli Ky",
+    "@cim:IdentifiedObject.name": "Kalajoki Mustilankangas Tuuli Ky",
     "@cim:Names.name": [
         "44KALAJOKII_II",
         "FI31634807",
@@ -23,7 +23,7 @@
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2021-01-13",
+    "@cim:DateAndOrTime.date": "2023-11-20",
     "@schema:vatID": "FI31634807",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

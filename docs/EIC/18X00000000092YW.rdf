@@ -4,15 +4,15 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:18X00000000092YW</dcterms:identifier>
-    <skos:prefLabel>GERMANS AYMERICH ISERN S.L.</skos:prefLabel>
+    <skos:prefLabel>GERMANS AYMERICH ISERN SL</skos:prefLabel>
     <skos:altLabel>TRIPO</skos:altLabel>
     <cim:IdentifiedObject.mRID>18X00000000092YW</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>GERMANS AYMERICH ISERN S.L.</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>GERMANS AYMERICH ISERN SL</cim:IdentifiedObject.name>
     <cim:Names.name>TRIPO</cim:Names.name>
     <cim:Names.name>ESB62327184</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2018-04-23</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-18</cim:DateAndOrTime.date>
     <cim:Names.name>Consumption Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>ESB62327184</schema:vatID>

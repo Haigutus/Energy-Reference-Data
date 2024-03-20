@@ -7,13 +7,13 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-07-19" ;
-    cim:Document.docStatus "A05" ;
+    cim:DateAndOrTime.date "2023-08-23" ;
+    cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.description "Energy Supplier" ;
     cim:IdentifiedObject.mRID "37X000000000066L" ;
     cim:IdentifiedObject.name "RUL AG" ;
-    cim:Names.name "DE289589971",
-        "Energy Supplier",
+    cim:Names.name "Consumer",
+        "DE289589971",
         "RUL_AG" ;
     dcterms:identifier "urn:eic:37X000000000066L" ;
     schema1:vatID "DE289589971" ;

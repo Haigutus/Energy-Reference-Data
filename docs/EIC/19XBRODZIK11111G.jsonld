@@ -24,8 +24,8 @@
         "Metered Data Responsible",
         "System Operator",
         "Producer",
-        "Grid Access Provider",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

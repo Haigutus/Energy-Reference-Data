@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "EPS",
         "100001409",
-        "Trade Responsible Party",
-        "Production Responsible party"
+        "Production Responsible party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Production Responsible Party, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

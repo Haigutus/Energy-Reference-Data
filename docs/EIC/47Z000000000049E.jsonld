@@ -12,17 +12,17 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:47Z000000000049E",
-    "@skos:prefLabel": "GNI(UK) Ltd",
-    "@skos:altLabel": "GNI(UK)LTD",
+    "@skos:prefLabel": "Ten Towns Exit Point (NI)",
+    "@skos:altLabel": "IE049E",
     "@cim:IdentifiedObject.mRID": "47Z000000000049E",
-    "@cim:IdentifiedObject.name": "GNI(UK) Ltd",
+    "@cim:IdentifiedObject.name": "Ten Towns Exit Point (NI)",
     "@cim:Names.name": [
-        "GNI(UK)LTD",
+        "IE049E",
         "Connection Point"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2018-01-17",
+    "@cim:DateAndOrTime.date": "2023-10-03",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

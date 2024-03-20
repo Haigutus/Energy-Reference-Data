@@ -7,17 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-09-26" ;
+    cim:DateAndOrTime.date "2023-10-31" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Balance Group Responsible of DSO." ;
     cim:IdentifiedObject.mRID "12XEWB-HANDEL-K2" ;
     cim:IdentifiedObject.name "Energie Wasser Bern" ;
     cim:Names.name "Balance Responsible Party",
         "CH544080",
-        "EWB-KRAFTWERK" ;
+        "EWB-STANDARD" ;
     dcterms:identifier "urn:eic:12XEWB-HANDEL-K2" ;
     schema1:vatID "CH544080" ;
-    skos:altLabel "EWB-KRAFTWERK" ;
+    skos:altLabel "EWB-STANDARD" ;
     skos:definition "Balance Group Responsible of DSO."@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Energie Wasser Bern" ;

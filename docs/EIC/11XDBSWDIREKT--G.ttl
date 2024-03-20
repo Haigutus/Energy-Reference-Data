@@ -8,12 +8,12 @@
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
     cim:DateAndOrTime.date "2023-06-02" ;
-    cim:Document.docStatus "A05" ;
+    cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.mRID "11XDBSWDIREKT--G" ;
     cim:IdentifiedObject.name "Just Energy Deutschland GmbH" ;
-    cim:Names.name "Balance Responsible Party",
-        "DBSWDIREKT",
-        "DE292196973" ;
+    cim:Names.name "DBSWDIREKT",
+        "DE292196973",
+        "balance responsible party" ;
     dcterms:identifier "urn:eic:11XDBSWDIREKT--G" ;
     schema1:vatID "DE292196973" ;
     skos:altLabel "DBSWDIREKT" ;

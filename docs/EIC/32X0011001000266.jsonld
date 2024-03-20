@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "TOPLO_PLEVEN",
         "BG114005624",
-        "Network User",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Network User"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Network User",
     "@cim:Document.docStatus": "A05",

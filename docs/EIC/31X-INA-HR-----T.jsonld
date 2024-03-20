@@ -24,8 +24,8 @@
         "HR-INA",
         "HR27759560625",
         "Party Connected To Grid",
-        "Balance Responsible Party",
-        "Balancing Service Provider"
+        "Balancing Service Provider",
+        "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",

@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V460---8" ;
     cim:IdentifiedObject.name "CEPS_V460 Albrechtice-Nošovice" ;
-    cim:Names.name "CALB__1*CNOS__1*",
+    cim:Names.name "CALB__1_CNOS__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V460---8" ;
-    skos:altLabel "CALB__1*CNOS__1*" ;
+    skos:altLabel "CALB__1_CNOS__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V460 Albrechtice-Nošovice" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

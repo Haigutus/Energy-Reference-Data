@@ -14,6 +14,10 @@
     "@dcterms:identifier": "urn:eic:48X0000000000424",
     "@skos:prefLabel": "Conrad Energy Trading Limited",
     "@skos:altLabel": "CETL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Nicole Griese Nicole.griese@conradenergy.co.uk Nicole.griese@conradenergy.co.uk is now the contact at Conrad Energy Trading Limited    "
+    },
     "@cim:IdentifiedObject.mRID": "48X0000000000424",
     "@cim:IdentifiedObject.name": "Conrad Energy Trading Limited",
     "@cim:Names.name": [
@@ -21,9 +25,10 @@
         "GB281421814",
         "Producer"
     ],
+    "@cim:IdentifiedObject.description": "Nicole Griese Nicole.griese@conradenergy.co.uk Nicole.griese@conradenergy.co.uk is now the contact at Conrad Energy Trading Limited    ",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2021-05-19",
+    "@cim:DateAndOrTime.date": "2023-12-04",
     "@schema:vatID": "GB281421814",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

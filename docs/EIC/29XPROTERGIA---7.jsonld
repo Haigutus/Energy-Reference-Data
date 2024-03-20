@@ -24,8 +24,8 @@
         "PROTERGIA-THER",
         "A00138950.GR",
         "EL998381789",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Supply and trading of electricity and natural gas",
     "@cim:Document.docStatus": "A05",

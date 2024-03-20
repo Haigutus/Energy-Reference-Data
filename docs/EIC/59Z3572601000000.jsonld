@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59Z3572601000000",
     "@skos:prefLabel": "Grottammare (SGI)",
-    "@skos:altLabel": "GROTTAMMARE(SGI)",
+    "@skos:altLabel": "GROTTAMMARE_SGI_",
     "@cim:IdentifiedObject.mRID": "59Z3572601000000",
     "@cim:IdentifiedObject.name": "Grottammare (SGI)",
     "@cim:Names.name": [
-        "GROTTAMMARE(SGI)",
+        "GROTTAMMARE_SGI_",
         "Metering Point"
     ],
     "@cim:Document.docStatus": "A05",

@@ -1,0 +1,38 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/25X-MMGROUP----W",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:25X-MMGROUP----W",
+    "@skos:prefLabel": "MM BOARD & PAPER GmbH",
+    "@skos:altLabel": "MMGROUP",
+    "@cim:IdentifiedObject.mRID": "25X-MMGROUP----W",
+    "@cim:IdentifiedObject.name": "MM BOARD & PAPER GmbH",
+    "@cim:Names.name": [
+        "MMGROUP",
+        "ATU62876917",
+        "Consumer",
+        "Consumption Responsible Party"
+    ],
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-09-11",
+    "@schema:vatID": "ATU62876917",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

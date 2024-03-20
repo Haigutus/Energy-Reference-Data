@@ -24,8 +24,8 @@
         "MBATRADINGLTD",
         "GB196643564",
         "Balance Responsible Party",
-        "Trade Responsible Party",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Balance Supplier, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

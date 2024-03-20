@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V452---4",
     "@skos:prefLabel": "CEPS_V452 Bezděčín-Neznášov",
-    "@skos:altLabel": "CBEZ__1*CNEZ__1*",
+    "@skos:altLabel": "CBEZ__1_CNEZ__1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V452---4",
     "@cim:IdentifiedObject.name": "CEPS_V452 Bezděčín-Neznášov",
     "@cim:Names.name": [
-        "CBEZ__1*CNEZ__1*",
+        "CBEZ__1_CNEZ__1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

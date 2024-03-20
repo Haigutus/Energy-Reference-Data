@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "EWBN_HANDEL",
         "CH248184",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Elektrizitã¤Ts-Versorgungs-Unternehmen (Evu); 16 Kv + 0.4 Kv",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-20",
     "@schema:vatID": "CH248184",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TT1400220SAMMU",
     "@skos:prefLabel": "AT 1 400/220 SAMM",
-    "@skos:altLabel": "AT1400/220SAMM",
+    "@skos:altLabel": "AT1400_220SAMM",
     "@cim:IdentifiedObject.mRID": "16TT1400220SAMMU",
     "@cim:IdentifiedObject.name": "AT 1 400/220 SAMM",
     "@cim:Names.name": [
-        "AT1400/220SAMM",
+        "AT1400_220SAMM",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

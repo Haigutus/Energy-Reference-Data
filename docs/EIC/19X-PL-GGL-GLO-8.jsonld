@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "GREEN-LIGHTS-OBR",
         "PL9512407028",
-        "System Operator",
-        "Meter Administrator",
         "Grid Access Provider",
-        "Energy Supplier",
-        "Metered Data Responsible"
+        "Metered Data Responsible",
+        "Meter Administrator",
+        "System Operator",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

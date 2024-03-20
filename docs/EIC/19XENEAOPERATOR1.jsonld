@@ -20,10 +20,10 @@
         "ENEA_OPERATOR",
         "A0003485E.PL",
         "PL7822377160",
-        "Metered Data Responsible",
-        "Meter Administrator",
         "Grid Access Provider",
-        "System Operator"
+        "Meter Administrator",
+        "System Operator",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

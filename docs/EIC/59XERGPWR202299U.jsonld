@@ -12,18 +12,18 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:59XERGPWR202299U",
-    "@skos:prefLabel": "ERG POWER SRL",
-    "@skos:altLabel": "ERGPOWERSRL",
+    "@skos:prefLabel": "B2G SICILY SRL",
+    "@skos:altLabel": "B2GSICILYSRL",
     "@cim:IdentifiedObject.mRID": "59XERGPWR202299U",
-    "@cim:IdentifiedObject.name": "ERG POWER SRL",
+    "@cim:IdentifiedObject.name": "B2G SICILY SRL",
     "@cim:Names.name": [
-        "ERGPOWERSRL",
+        "B2GSICILYSRL",
         "IT01669090894",
-        "Balance Responsible Party"
+        "Market Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-07-21",
+    "@cim:DateAndOrTime.date": "2023-10-30",
     "@schema:vatID": "IT01669090894",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "ENIUKGB",
         "GB563172545",
-        "Party Connected To Grid",
-        "Trade Responsible Party",
         "Capacity Trader",
-        "Interconnection Trade Responsible"
+        "Interconnection Trade Responsible",
+        "Trade Responsible Party",
+        "Party Connected To Grid"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

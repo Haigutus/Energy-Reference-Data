@@ -12,10 +12,10 @@
     cim:IdentifiedObject.mRID "16TLPNAMM1-----E" ;
     cim:IdentifiedObject.name "Pocinho-Armamar 1" ;
     cim:Names.name "Internal Line",
-        "LPN.AMM1",
+        "LPN_AMM1",
         "Tieline" ;
     dcterms:identifier "urn:eic:16TLPNAMM1-----E" ;
-    skos:altLabel "LPN.AMM1" ;
+    skos:altLabel "LPN_AMM1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Pocinho-Armamar 1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Elektrizitã¤Tsversorger" ;
     cim:IdentifiedObject.mRID "12XLKW-NETZ----S" ;
     cim:IdentifiedObject.name "Liechtensteinische Kraftwerke" ;
     cim:Names.name "CH050761",
-        "LKW-NETZ",
-        "Valid EIC Function needed" ;
+        "Grid Operator",
+        "LKW-NETZ" ;
     dcterms:identifier "urn:eic:12XLKW-NETZ----S" ;
     schema1:vatID "CH050761" ;
     skos:altLabel "LKW-NETZ" ;

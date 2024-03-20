@@ -24,12 +24,12 @@
         "PGE_EK",
         "A0001440U.PL",
         "PL5262542704",
-        "Balance Responsible Party",
-        "System Operator",
-        "Meter Administrator",
         "Grid Access Provider",
+        "Balance Responsible Party",
         "Energy Supplier",
-        "Metered Data Responsible"
+        "Metered Data Responsible",
+        "System Operator",
+        "Meter Administrator"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",

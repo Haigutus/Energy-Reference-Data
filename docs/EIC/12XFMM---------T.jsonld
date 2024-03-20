@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "FMM",
         "CH247324",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Centrale Hydraulique De Production Électrique",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-20",
     "@schema:vatID": "CH247324",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

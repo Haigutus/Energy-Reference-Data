@@ -19,13 +19,13 @@
     "@cim:Names.name": [
         "ES-RAYCO",
         "ESA09017021",
-        "Capacity Trader",
-        "Grid Access Provider",
-        "Market Operator",
         "Consumption Responsible Party",
-        "Trade Responsible Party",
+        "Market Operator",
+        "Capacity Trader",
         "Balance Responsible Party",
-        "Production Responsible party"
+        "Production Responsible party",
+        "Grid Access Provider",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -12,11 +12,11 @@
     cim:IdentifiedObject.mRID "42XGUSTRADE----E" ;
     cim:IdentifiedObject.name "GusTrade, s.r.o" ;
     cim:Names.name "Capacity Trader",
-        "GUSTRADE,S.R.O",
+        "GUSTRADE_S_R_O",
         "SK2120995910" ;
     dcterms:identifier "urn:eic:42XGUSTRADE----E" ;
     schema1:vatID "SK2120995910" ;
-    skos:altLabel "GUSTRADE,S.R.O" ;
+    skos:altLabel "GUSTRADE_S_R_O" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "GusTrade, s.r.o" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

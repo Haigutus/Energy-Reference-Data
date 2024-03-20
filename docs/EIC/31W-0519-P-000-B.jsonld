@@ -12,17 +12,17 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:31W-0519-P-000-B",
-    "@skos:prefLabel": "EL-TO ZAGREB 90 MW 110 kV",
+    "@skos:prefLabel": "EL-TO ZAGREB 250 MW 110 kV",
     "@skos:altLabel": "HR-EL-TO-ZAGREB",
     "@cim:IdentifiedObject.mRID": "31W-0519-P-000-B",
-    "@cim:IdentifiedObject.name": "EL-TO ZAGREB 90 MW 110 kV",
+    "@cim:IdentifiedObject.name": "EL-TO ZAGREB 250 MW 110 kV",
     "@cim:Names.name": [
         "HR-EL-TO-ZAGREB",
         "Production Unit"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2019-11-28",
+    "@cim:DateAndOrTime.date": "2023-08-02",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

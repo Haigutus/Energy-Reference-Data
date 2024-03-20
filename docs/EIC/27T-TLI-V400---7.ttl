@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V400---7" ;
     cim:IdentifiedObject.name "CEPS_V400 Cechy Stred-Týnec" ;
-    cim:Names.name "CCST__1*CTYN__1*",
+    cim:Names.name "CCST__1_CTYN__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V400---7" ;
-    skos:altLabel "CCST__1*CTYN__1*" ;
+    skos:altLabel "CCST__1_CTYN__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V400 Cechy Stred-Týnec" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

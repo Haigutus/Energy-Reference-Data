@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/29X1000100010115> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-18" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "RES AGGREGATOR" ;
+    cim:IdentifiedObject.mRID "29X1000100010115" ;
+    cim:IdentifiedObject.name "GREEN VALUE Α Ε" ;
+    cim:Names.name "A0020124O.GR",
+        "Balance Responsible Party",
+        "EL801961185",
+        "GREENVALUE",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:29X1000100010115" ;
+    schema1:vatID "EL801961185" ;
+    skos:altLabel "GREENVALUE" ;
+    skos:definition "RES AGGREGATOR"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "GREEN VALUE Α Ε" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "LYONDELLBASELL",
         "FR01394400121",
-        "Party Connected To Grid",
         "Consumer",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Party Connected To Grid"
     ],
     "@cim:IdentifiedObject.description": "Capacty Trader,Consumer,Party Connected To Grid",
     "@cim:Document.docStatus": "A05",

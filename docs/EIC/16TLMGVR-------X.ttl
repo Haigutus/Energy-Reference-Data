@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLMGVR-------X" ;
     cim:IdentifiedObject.name "Mogadouro-Valeira" ;
     cim:Names.name "Internal Line",
-        "LMG.VR" ;
+        "LMG_VR" ;
     dcterms:identifier "urn:eic:16TLMGVR-------X" ;
-    skos:altLabel "LMG.VR" ;
+    skos:altLabel "LMG_VR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Mogadouro-Valeira" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

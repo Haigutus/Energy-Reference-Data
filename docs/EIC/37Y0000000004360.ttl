@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "37Y0000000004360" ;
     cim:IdentifiedObject.name "37Y0000000004360" ;
     cim:Names.name "Coordination Center Zone",
-        "DUISBURG,HUCKING" ;
+        "DUISBURG_HUCKING" ;
     dcterms:identifier "urn:eic:37Y0000000004360" ;
-    skos:altLabel "DUISBURG,HUCKING" ;
+    skos:altLabel "DUISBURG_HUCKING" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "37Y0000000004360" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

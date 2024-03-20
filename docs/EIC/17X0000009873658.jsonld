@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "FR_SAGITERRE",
         "FR79833959430",
-        "Producer",
-        "Distribution System Operator"
+        "Distribution System Operator",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -22,9 +22,9 @@
     "@cim:IdentifiedObject.name": "Kaliningrad area",
     "@cim:Names.name": [
         "KALININGRAD_AREA",
+        "Bidding Zone",
         "Scheduling Area",
-        "Control Area",
-        "Bidding Zone"
+        "Control Area"
     ],
     "@cim:IdentifiedObject.description": "Market Balance Area",
     "@cim:Document.docStatus": "A05",

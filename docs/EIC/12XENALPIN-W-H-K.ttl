@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Function Missing" ;
     cim:IdentifiedObject.mRID "12XENALPIN-W-H-K" ;
     cim:IdentifiedObject.name "EnAlpin Wallis AG" ;
     cim:Names.name "CH212331",
-        "ENALPIN",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "ENALPIN" ;
     dcterms:identifier "urn:eic:12XENALPIN-W-H-K" ;
     schema1:vatID "CH212331" ;
     skos:altLabel "ENALPIN" ;

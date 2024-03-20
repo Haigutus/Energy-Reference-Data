@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:56X930000000621Y</dcterms:identifier>
     <skos:prefLabel>"Vesta" LLC.</skos:prefLabel>
-    <skos:altLabel>VESTA.UA</skos:altLabel>
+    <skos:altLabel>VESTA_UA</skos:altLabel>
     <cim:IdentifiedObject.mRID>56X930000000621Y</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>"Vesta" LLC.</cim:IdentifiedObject.name>
-    <cim:Names.name>VESTA.UA</cim:Names.name>
+    <cim:Names.name>VESTA_UA</cim:Names.name>
     <cim:Names.name>UA302883120337</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

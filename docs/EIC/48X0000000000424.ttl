@@ -7,8 +7,9 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2021-05-19" ;
+    cim:DateAndOrTime.date "2023-12-04" ;
     cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Nicole Griese Nicole.griese@conradenergy.co.uk Nicole.griese@conradenergy.co.uk is now the contact at Conrad Energy Trading Limited    " ;
     cim:IdentifiedObject.mRID "48X0000000000424" ;
     cim:IdentifiedObject.name "Conrad Energy Trading Limited" ;
     cim:Names.name "CETL",
@@ -17,6 +18,7 @@
     dcterms:identifier "urn:eic:48X0000000000424" ;
     schema1:vatID "GB281421814" ;
     skos:altLabel "CETL" ;
+    skos:definition "Nicole Griese Nicole.griese@conradenergy.co.uk Nicole.griese@conradenergy.co.uk is now the contact at Conrad Energy Trading Limited    "@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Conrad Energy Trading Limited" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

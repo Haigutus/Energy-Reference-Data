@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "SINTEZ_GE_CYPRUS",
         "CY10309419P",
-        "Trade Responsible Party",
         "Resource Provider",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:27T-TLI-V432---G</dcterms:identifier>
     <skos:prefLabel>CEPS_V432 Koc&#237;n-Pre&#353;tice</skos:prefLabel>
-    <skos:altLabel>CKOCH_1*CPRE__1*</skos:altLabel>
+    <skos:altLabel>CKOCH_1_CPRE__1_</skos:altLabel>
     <cim:IdentifiedObject.mRID>27T-TLI-V432---G</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CEPS_V432 Koc&#237;n-Pre&#353;tice</cim:IdentifiedObject.name>
-    <cim:Names.name>CKOCH_1*CPRE__1*</cim:Names.name>
+    <cim:Names.name>CKOCH_1_CPRE__1_</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2019-09-12</cim:DateAndOrTime.date>

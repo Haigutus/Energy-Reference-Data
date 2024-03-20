@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "PRCTENRGRUP_F",
         "1009600022196",
-        "Balance Responsible Party",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "ANRE License A MMI 000095 /  26.05.2023",
     "@cim:Document.docStatus": "A05",

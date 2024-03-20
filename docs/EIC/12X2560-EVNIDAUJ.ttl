@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Elektrizitaetsversorgung" ;
     cim:IdentifiedObject.mRID "12X2560-EVNIDAUJ" ;
     cim:IdentifiedObject.name "Stadt Nidau" ;
     cim:Names.name "CH263163",
-        "EV_NIDAU",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "EV_NIDAU" ;
     dcterms:identifier "urn:eic:12X2560-EVNIDAUJ" ;
     schema1:vatID "CH263163" ;
     skos:altLabel "EV_NIDAU" ;

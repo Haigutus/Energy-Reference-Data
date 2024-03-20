@@ -6,15 +6,13 @@
     <dcterms:identifier>urn:eic:21Y---A001A003-5</dcterms:identifier>
     <skos:prefLabel>Bilateral Trading Point</skos:prefLabel>
     <skos:altLabel>GTF-DK</skos:altLabel>
-    <skos:definition xml:lang="en">Virtual Trading Point</skos:definition>
     <cim:IdentifiedObject.mRID>21Y---A001A003-5</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Bilateral Trading Point</cim:IdentifiedObject.name>
     <cim:Names.name>GTF-DK</cim:Names.name>
-    <cim:IdentifiedObject.description>Virtual Trading Point</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2016-10-18</cim:DateAndOrTime.date>
-    <cim:Names.name>Valid EIC Function needed</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-09-29</cim:DateAndOrTime.date>
+    <cim:Names.name>Market Area</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>
 </rdf:RDF>

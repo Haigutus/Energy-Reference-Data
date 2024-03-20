@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-25" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Wasser-Kraftwerk" ;
     cim:IdentifiedObject.mRID "12XGD-FYNZ-----D" ;
     cim:IdentifiedObject.name "Grande Dixence SA" ;
     cim:Names.name "CH198274",
-        "FYNZ",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "FYNZ" ;
     dcterms:identifier "urn:eic:12XGD-FYNZ-----D" ;
     schema1:vatID "CH198274" ;
     skos:altLabel "FYNZ" ;

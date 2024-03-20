@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ALCHEMIA-OSDN",
         "PL7470006096",
-        "System Operator",
-        "Energy Supplier",
-        "Meter Administrator",
+        "Grid Access Provider",
         "Metered Data Responsible",
-        "Grid Access Provider"
+        "System Operator",
+        "Meter Administrator",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

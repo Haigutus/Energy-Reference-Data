@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59Z500037010000T",
     "@skos:prefLabel": "Pineto (SGI)",
-    "@skos:altLabel": "PINETO(SGI)",
+    "@skos:altLabel": "PINETO_SGI_",
     "@cim:IdentifiedObject.mRID": "59Z500037010000T",
     "@cim:IdentifiedObject.name": "Pineto (SGI)",
     "@cim:Names.name": [
-        "PINETO(SGI)",
+        "PINETO_SGI_",
         "Metering Point"
     ],
     "@cim:Document.docStatus": "A05",

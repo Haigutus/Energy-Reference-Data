@@ -20,11 +20,11 @@
         "PE_FAKRO",
         "A00118187.PL",
         "PL7342841723",
-        "Meter Administrator",
-        "Metered Data Responsible",
+        "Grid Access Provider",
         "System Operator",
+        "Metered Data Responsible",
         "Energy Supplier",
-        "Grid Access Provider"
+        "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

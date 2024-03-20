@@ -7,15 +7,15 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2020-09-03" ;
+    cim:DateAndOrTime.date "2023-11-01" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11T0-0000-0286-5" ;
-    cim:IdentifiedObject.name "AMP / 220kV /  / Cappenberg N" ;
+    cim:IdentifiedObject.name "AMP / 220kV / Gersteinwerk - Poeppinghausen - Ruhrzink / Cappenberg N" ;
     cim:Names.name "CAPPENN",
         "Internal Line" ;
     dcterms:identifier "urn:eic:11T0-0000-0286-5" ;
     skos:altLabel "CAPPENN" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "AMP / 220kV /  / Cappenberg N" ;
+    skos:prefLabel "AMP / 220kV / Gersteinwerk - Poeppinghausen - Ruhrzink / Cappenberg N" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

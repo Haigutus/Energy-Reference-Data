@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V403---T" ;
     cim:IdentifiedObject.name "CEPS_V403 Nošovice-Prosenice" ;
-    cim:Names.name "CNOS__1*CPRN__1*",
+    cim:Names.name "CNOS__1_CPRN__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V403---T" ;
-    skos:altLabel "CNOS__1*CPRN__1*" ;
+    skos:altLabel "CNOS__1_CPRN__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V403 Nošovice-Prosenice" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

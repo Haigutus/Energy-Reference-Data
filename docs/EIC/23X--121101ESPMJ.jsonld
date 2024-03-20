@@ -23,10 +23,10 @@
     "@cim:Names.name": [
         "ESSENT_SPM",
         "NL821055318B01",
-        "Capacity Trader",
-        "Trade Responsible Party",
         "Balance Responsible Party",
-        "Network User"
+        "Network User",
+        "Capacity Trader",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

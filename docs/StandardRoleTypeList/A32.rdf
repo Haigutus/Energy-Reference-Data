@@ -4,7 +4,7 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardRoleTypeList"/>
     <dcterms:identifier>A32</dcterms:identifier>
     <skos:prefLabel>Market information aggregator</skos:prefLabel>
-    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    <skos:definition xml:lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that collects information from different sources and assembles  it to provide a summary of the market.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLCVRTJ------Z",
     "@skos:prefLabel": "Carvoeira - Trajouce 220",
-    "@skos:altLabel": "LCVR.TJ",
+    "@skos:altLabel": "LCVR_TJ",
     "@cim:IdentifiedObject.mRID": "16TLCVRTJ------Z",
     "@cim:IdentifiedObject.name": "Carvoeira - Trajouce 220",
     "@cim:Names.name": [
-        "LCVR.TJ",
+        "LCVR_TJ",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

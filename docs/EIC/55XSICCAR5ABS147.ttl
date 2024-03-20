@@ -13,10 +13,10 @@
     cim:IdentifiedObject.name "Siccar Point Energy E&P Limited" ;
     cim:Names.name "GB394898962",
         "Producer",
-        "SICCARPOINTE&P" ;
+        "SICCARPOINTE_P" ;
     dcterms:identifier "urn:eic:55XSICCAR5ABS147" ;
     schema1:vatID "GB394898962" ;
-    skos:altLabel "SICCARPOINTE&P" ;
+    skos:altLabel "SICCARPOINTE_P" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Siccar Point Energy E&P Limited" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

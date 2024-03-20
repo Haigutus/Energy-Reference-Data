@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "SZ-GREEN",
         "03097129",
+        "Capacity Trader",
         "Energy Supplier",
-        "Balance Responsible Party",
-        "Capacity Trader"
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

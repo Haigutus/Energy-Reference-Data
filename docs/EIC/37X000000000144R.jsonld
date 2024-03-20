@@ -22,13 +22,12 @@
     "@cim:IdentifiedObject.name": "enwi-digital GmbH",
     "@cim:Names.name": [
         "ENWIDIGITAL_GMBH",
-        "DE344368841",
-        "Balance Responsible Party"
+        "DE344368841"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
-    "@cim:Document.docStatus": "A05",
+    "@cim:Document.docStatus": "A03",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2021-08-11",
+    "@cim:DateAndOrTime.date": "2023-08-23",
     "@schema:vatID": "DE344368841",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

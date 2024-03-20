@@ -23,15 +23,15 @@
     "@cim:Names.name": [
         "UNIMOT_SYSTEM",
         "PL7010337526",
-        "Party Connected To Grid",
-        "Grid Access Provider",
-        "System Operator",
-        "Grid Operator",
-        "Distribution System Operator",
         "Trade Responsible Party",
+        "Party Connected To Grid",
+        "Metering Point Operator",
+        "Distribution System Operator",
         "Network User",
+        "Grid Operator",
         "Consumer",
-        "Metering Point Operator"
+        "System Operator",
+        "Grid Access Provider"
     ],
     "@cim:IdentifiedObject.description": "Consumer, Distribution System Operator, Grid Acces Provider, Grid Operator, Metering Point Operator, Network User, Party Connected To Grid, System Operator, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

@@ -7,10 +7,10 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2021-02-02" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11X0-0000-0359-L" ;
-    cim:IdentifiedObject.name "Energiedienst AG" ;
+    cim:IdentifiedObject.name "naturenergie hochrhein AG" ;
     cim:Names.name "Balance Responsible Party",
         "DE142378929",
         "MPM-KWR" ;
@@ -18,6 +18,6 @@
     schema1:vatID "DE142378929" ;
     skos:altLabel "MPM-KWR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Energiedienst AG" ;
+    skos:prefLabel "naturenergie hochrhein AG" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

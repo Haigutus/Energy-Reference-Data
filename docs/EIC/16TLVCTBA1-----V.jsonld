@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLVCTBA1-----V",
     "@skos:prefLabel": "Vila Chã-Tábua 1",
-    "@skos:altLabel": "LVC.TBA1",
+    "@skos:altLabel": "LVC_TBA1",
     "@cim:IdentifiedObject.mRID": "16TLVCTBA1-----V",
     "@cim:IdentifiedObject.name": "Vila Chã-Tábua 1",
     "@cim:Names.name": [
-        "LVC.TBA1",
+        "LVC_TBA1",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

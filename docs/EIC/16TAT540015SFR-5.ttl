@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TAT540015SFR-5" ;
     cim:IdentifiedObject.name "AT 5 400/150 SFR" ;
-    cim:Names.name "AT5400/150SFR",
+    cim:Names.name "AT5400_150SFR",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TAT540015SFR-5" ;
-    skos:altLabel "AT5400/150SFR" ;
+    skos:altLabel "AT5400_150SFR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "AT 5 400/150 SFR" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

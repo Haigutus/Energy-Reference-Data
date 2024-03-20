@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLSNPO3------D",
     "@skos:prefLabel": "Sines-Portimão 3",
-    "@skos:altLabel": "LSN.PO3",
+    "@skos:altLabel": "LSN_PO3",
     "@cim:IdentifiedObject.mRID": "16TLSNPO3------D",
     "@cim:IdentifiedObject.name": "Sines-Portimão 3",
     "@cim:Names.name": [
-        "LSN.PO3",
+        "LSN_PO3",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

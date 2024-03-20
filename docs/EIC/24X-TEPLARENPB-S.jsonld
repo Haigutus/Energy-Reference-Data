@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "TEPLARENPB",
         "SK2020111467",
-        "Producer",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

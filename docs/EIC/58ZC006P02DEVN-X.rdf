@@ -4,16 +4,16 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:58ZC006P02DEVN-X</dcterms:identifier>
-    <skos:prefLabel>GRS Devnia C006P02</skos:prefLabel>
+    <skos:prefLabel>GRS Devnya C006P02</skos:prefLabel>
     <skos:altLabel>DEVNIAC006P02</skos:altLabel>
     <skos:definition xml:lang="en">Domestic exit points</skos:definition>
     <cim:IdentifiedObject.mRID>58ZC006P02DEVN-X</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>GRS Devnia C006P02</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>GRS Devnya C006P02</cim:IdentifiedObject.name>
     <cim:Names.name>DEVNIAC006P02</cim:Names.name>
     <cim:IdentifiedObject.description>Domestic exit points</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2023-05-18</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-13</cim:DateAndOrTime.date>
     <cim:Names.name>Metering Point</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>

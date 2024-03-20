@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ZAMET_OSDN",
         "PL6452146461",
-        "Metered Data Responsible",
         "System Operator",
+        "Grid Access Provider",
         "Meter Administrator",
         "Energy Supplier",
-        "Grid Access Provider"
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

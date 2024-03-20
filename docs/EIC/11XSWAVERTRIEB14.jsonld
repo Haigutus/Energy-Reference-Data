@@ -12,23 +12,18 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11XSWAVERTRIEB14",
-    "@skos:prefLabel": "Stadtwerke Ahaus GmbH",
+    "@skos:prefLabel": "LokalWerke GmbH",
     "@skos:altLabel": "SWAHAUS",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XSWAVERTRIEB14",
-    "@cim:IdentifiedObject.name": "Stadtwerke Ahaus GmbH",
+    "@cim:IdentifiedObject.name": "LokalWerke GmbH",
     "@cim:Names.name": [
         "SWAHAUS",
         "DE123770545",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2013-10-15",
+    "@cim:DateAndOrTime.date": "2023-10-06",
     "@schema:vatID": "DE123770545",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

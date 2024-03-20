@@ -13,16 +13,16 @@
     },
     "@dcterms:identifier": "urn:eic:48WSTN0000BDCHWX",
     "@skos:prefLabel": "Bad á Cheò  BDCHW-1",
-    "@skos:altLabel": "BADÁCHEÒ",
+    "@skos:altLabel": "BADACHEO",
     "@cim:IdentifiedObject.mRID": "48WSTN0000BDCHWX",
     "@cim:IdentifiedObject.name": "Bad á Cheò  BDCHW-1",
     "@cim:Names.name": [
-        "BADÁCHEÒ",
+        "BADACHEO",
         "Production Plant"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2020-11-09",
+    "@cim:DateAndOrTime.date": "2023-09-27",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

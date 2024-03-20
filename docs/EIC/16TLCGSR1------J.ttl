@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLCGSR1------J" ;
     cim:IdentifiedObject.name "Carregado - Santarem 1 220" ;
     cim:Names.name "Internal Line",
-        "LCG.SR1" ;
+        "LCG_SR1" ;
     dcterms:identifier "urn:eic:16TLCGSR1------J" ;
-    skos:altLabel "LCG.SR1" ;
+    skos:altLabel "LCG_SR1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Carregado - Santarem 1 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

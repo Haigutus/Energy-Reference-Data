@@ -20,10 +20,10 @@
         "KOGZACHOD",
         "PL7831682193",
         "Meter Administrator",
-        "Metered Data Responsible",
         "System Operator",
-        "Grid Access Provider",
-        "Energy Supplier"
+        "Metered Data Responsible",
+        "Energy Supplier",
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

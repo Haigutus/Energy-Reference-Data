@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64XESCOVOLTJ-F4Z> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-09-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ANRE license nr. AC 001348 din 20.11.2018" ;
+    cim:IdentifiedObject.mRID "64XESCOVOLTJ-F4Z" ;
+    cim:IdentifiedObject.name "Esco Voltaj SRL" ;
+    cim:Names.name "0307434",
+        "Balance Responsible Party",
+        "ESCOVOLTAJ_F",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:64XESCOVOLTJ-F4Z" ;
+    schema1:vatID "0307434" ;
+    skos:altLabel "ESCOVOLTAJ_F" ;
+    skos:definition "ANRE license nr. AC 001348 din 20.11.2018"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Esco Voltaj SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

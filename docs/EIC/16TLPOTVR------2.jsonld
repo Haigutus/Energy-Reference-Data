@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPOTVR------2",
     "@skos:prefLabel": "Portimão-Tavira",
-    "@skos:altLabel": "LPO.TVR",
+    "@skos:altLabel": "LPO_TVR",
     "@cim:IdentifiedObject.mRID": "16TLPOTVR------2",
     "@cim:IdentifiedObject.name": "Portimão-Tavira",
     "@cim:Names.name": [
-        "LPO.TVR",
+        "LPO_TVR",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

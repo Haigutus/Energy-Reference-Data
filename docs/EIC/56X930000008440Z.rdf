@@ -4,17 +4,20 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:56X930000008440Z</dcterms:identifier>
-    <skos:prefLabel>Artleks-Energy LLC.</skos:prefLabel>
-    <skos:altLabel>ARTLEKS-ENERGY</skos:altLabel>
+    <skos:prefLabel>ARTLEX-ENERGY Limited Liability Company</skos:prefLabel>
+    <skos:altLabel>ARTLEX_ENERGY</skos:altLabel>
+    <skos:definition xml:lang="en">Contact persone: Yuriy Anosov +380442794480 contact@artlex.energy</skos:definition>
     <cim:IdentifiedObject.mRID>56X930000008440Z</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Artleks-Energy LLC.</cim:IdentifiedObject.name>
-    <cim:Names.name>ARTLEKS-ENERGY</cim:Names.name>
-    <cim:Names.name>UA401130026597</cim:Names.name>
+    <cim:IdentifiedObject.name>ARTLEX-ENERGY Limited Liability Company</cim:IdentifiedObject.name>
+    <cim:Names.name>ARTLEX_ENERGY</cim:Names.name>
+    <cim:Names.name>401130026597</cim:Names.name>
+    <cim:IdentifiedObject.description>Contact persone: Yuriy Anosov +380442794480 contact@artlex.energy</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2017-07-07</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-10-05</cim:DateAndOrTime.date>
     <cim:Names.name>Network User</cim:Names.name>
+    <cim:Names.name>Trade Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>UA401130026597</schema:vatID>
+    <schema:vatID>401130026597</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

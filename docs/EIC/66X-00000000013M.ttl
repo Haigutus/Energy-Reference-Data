@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "66X-00000000013M" ;
     cim:IdentifiedObject.name "Imatran Lämpö Oy" ;
-    cim:Names.name "66IMATRANLÄMPÖOY",
+    cim:Names.name "66IMATRANLAMPOOY",
         "FI25733331",
         "Network User" ;
     dcterms:identifier "urn:eic:66X-00000000013M" ;
     schema1:vatID "FI25733331" ;
-    skos:altLabel "66IMATRANLÄMPÖOY" ;
+    skos:altLabel "66IMATRANLAMPOOY" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Imatran Lämpö Oy" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

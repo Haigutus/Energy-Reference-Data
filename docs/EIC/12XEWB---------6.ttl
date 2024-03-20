@@ -7,17 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-25" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Energieerzeugung + Verteilungs Unternehmen" ;
     cim:IdentifiedObject.mRID "12XEWB---------6" ;
     cim:IdentifiedObject.name "Energie Wasser Bern" ;
     cim:Names.name "CH544080",
-        "EWB-STANDARD",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "EWB-STANDARD_OLD" ;
     dcterms:identifier "urn:eic:12XEWB---------6" ;
     schema1:vatID "CH544080" ;
-    skos:altLabel "EWB-STANDARD" ;
+    skos:altLabel "EWB-STANDARD_OLD" ;
     skos:definition "Energieerzeugung + Verteilungs Unternehmen"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Energie Wasser Bern" ;

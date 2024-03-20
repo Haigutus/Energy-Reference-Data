@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:42XARMIX-------8",
     "@skos:prefLabel": "Armix sp z.o.o.",
-    "@skos:altLabel": "ARMIX-SP-Z.O.O.",
+    "@skos:altLabel": "ARMIX-SP-Z_O_O_",
     "@cim:IdentifiedObject.mRID": "42XARMIX-------8",
     "@cim:IdentifiedObject.name": "Armix sp z.o.o.",
     "@cim:Names.name": [
-        "ARMIX-SP-Z.O.O.",
+        "ARMIX-SP-Z_O_O_",
         "PL5272897136",
         "Balance Responsible Party"
     ],

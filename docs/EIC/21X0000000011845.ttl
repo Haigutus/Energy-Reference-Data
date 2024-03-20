@@ -7,13 +7,13 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2017-11-09" ;
-    cim:Document.docStatus "A05" ;
+    cim:DateAndOrTime.date "2023-09-15" ;
+    cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.mRID "21X0000000011845" ;
     cim:IdentifiedObject.name "OPAL Gastransport GmbH  Co. KG" ;
     cim:Names.name "DE253905965",
         "OPALGASTRANSPORT",
-        "System Operator" ;
+        "Valid EIC Function needed" ;
     dcterms:identifier "urn:eic:21X0000000011845" ;
     schema1:vatID "DE253905965" ;
     skos:altLabel "OPALGASTRANSPORT" ;

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:37Y0000000004360",
     "@skos:prefLabel": "37Y0000000004360",
-    "@skos:altLabel": "DUISBURG,HUCKING",
+    "@skos:altLabel": "DUISBURG_HUCKING",
     "@cim:IdentifiedObject.mRID": "37Y0000000004360",
     "@cim:IdentifiedObject.name": "37Y0000000004360",
     "@cim:Names.name": [
-        "DUISBURG,HUCKING",
+        "DUISBURG_HUCKING",
         "Coordination Center Zone"
     ],
     "@cim:Document.docStatus": "A05",

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLCGSR2------B",
     "@skos:prefLabel": "Carregado - Santarem 2 220",
-    "@skos:altLabel": "LCG.SR2",
+    "@skos:altLabel": "LCG_SR2",
     "@cim:IdentifiedObject.mRID": "16TLCGSR2------B",
     "@cim:IdentifiedObject.name": "Carregado - Santarem 2 220",
     "@cim:Names.name": [
-        "LCG.SR2",
+        "LCG_SR2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

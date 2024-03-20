@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Regulerkraftværk Assens",
     "@cim:Names.name": [
         "ASSENS",
-        "Production Unit",
         "Load",
+        "Production Unit",
         "Resource Object"
     ],
     "@cim:Document.docStatus": "A05",

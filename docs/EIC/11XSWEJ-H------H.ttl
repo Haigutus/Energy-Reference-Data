@@ -7,18 +7,16 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2010-07-27" ;
+    cim:DateAndOrTime.date "2023-11-15" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Group" ;
     cim:IdentifiedObject.mRID "11XSWEJ-H------H" ;
     cim:IdentifiedObject.name "Stadtwerke Energie Jena-Pößneck GmbH" ;
-    cim:Names.name "Balance Group",
+    cim:Names.name "Balance Responsible Party",
         "DE151887399",
         "SWEJ-HANDEL" ;
     dcterms:identifier "urn:eic:11XSWEJ-H------H" ;
     schema1:vatID "DE151887399" ;
     skos:altLabel "SWEJ-HANDEL" ;
-    skos:definition "Balance Group"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Stadtwerke Energie Jena-Pößneck GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

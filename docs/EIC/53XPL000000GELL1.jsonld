@@ -12,18 +12,21 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:53XPL000000GELL1",
-    "@skos:prefLabel": "GASELLE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-    "@skos:altLabel": "GASELLE",
+    "@skos:prefLabel": "Respect Energy Fuels Sp. z o.o.",
+    "@skos:altLabel": "RESPECTFUELS",
     "@cim:IdentifiedObject.mRID": "53XPL000000GELL1",
-    "@cim:IdentifiedObject.name": "GASELLE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "@cim:IdentifiedObject.name": "Respect Energy Fuels Sp. z o.o.",
     "@cim:Names.name": [
-        "GASELLE",
+        "RESPECTFUELS",
+        "A0014512M.PL",
         "PL1070001436",
+        "Energy Supplier",
+        "Balance Responsible Party",
         "Network User"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2018-11-27",
+    "@cim:DateAndOrTime.date": "2023-09-27",
     "@schema:vatID": "PL1070001436",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2020-11-09" ;
+    cim:DateAndOrTime.date "2023-09-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "48WSTN0000BDCHWX" ;
     cim:IdentifiedObject.name "Bad á Cheò  BDCHW-1" ;
-    cim:Names.name "BADÁCHEÒ",
+    cim:Names.name "BADACHEO",
         "Production Plant" ;
     dcterms:identifier "urn:eic:48WSTN0000BDCHWX" ;
-    skos:altLabel "BADÁCHEÒ" ;
+    skos:altLabel "BADACHEO" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Bad á Cheò  BDCHW-1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

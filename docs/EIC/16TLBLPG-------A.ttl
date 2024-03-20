@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLBLPG-------A" ;
     cim:IdentifiedObject.name "Batalha-Pego" ;
     cim:Names.name "Internal Line",
-        "LBL.PG" ;
+        "LBL_PG" ;
     dcterms:identifier "urn:eic:16TLBLPG-------A" ;
-    skos:altLabel "LBL.PG" ;
+    skos:altLabel "LBL_PG" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Batalha-Pego" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

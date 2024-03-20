@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "HUTA_POKOJ_SA",
         "PL6410005454",
-        "System Operator",
         "Meter Administrator",
+        "Metered Data Responsible",
         "Grid Access Provider",
         "Energy Supplier",
-        "Metered Data Responsible"
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -11,8 +11,8 @@
     <cim:Names.name>BUERSTW</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2020-09-03</cim:DateAndOrTime.date>
-    <cim:Names.name>Transformer</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-11-01</cim:DateAndOrTime.date>
+    <cim:Names.name>Internal Line</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>
 </rdf:RDF>

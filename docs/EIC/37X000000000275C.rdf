@@ -4,19 +4,19 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:37X000000000275C</dcterms:identifier>
-    <skos:prefLabel>SVS-Versorgungsbetriebe GmbH</skos:prefLabel>
-    <skos:altLabel>SVSVERSORGUNGSBE</skos:altLabel>
+    <skos:prefLabel>LokalWerke GmbH (alt SVS-Versorgungsbetriebe GmbH)</skos:prefLabel>
+    <skos:altLabel>LOKALWERKE_GMBH_</skos:altLabel>
     <skos:definition xml:lang="en">Capacity Trader</skos:definition>
     <cim:IdentifiedObject.mRID>37X000000000275C</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>SVS-Versorgungsbetriebe GmbH</cim:IdentifiedObject.name>
-    <cim:Names.name>SVSVERSORGUNGSBE</cim:Names.name>
-    <cim:Names.name>DE175552752</cim:Names.name>
+    <cim:IdentifiedObject.name>LokalWerke GmbH (alt SVS-Versorgungsbetriebe GmbH)</cim:IdentifiedObject.name>
+    <cim:Names.name>LOKALWERKE_GMBH_</cim:Names.name>
+    <cim:Names.name>DE123770545</cim:Names.name>
     <cim:IdentifiedObject.description>Capacity Trader</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2023-05-31</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-12-06</cim:DateAndOrTime.date>
     <cim:Names.name>Capacity Trader</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>DE175552752</schema:vatID>
+    <schema:vatID>DE123770545</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

@@ -14,10 +14,6 @@
     "@dcterms:identifier": "urn:eic:11XLUMENAZA----N",
     "@skos:prefLabel": "Lumenaza GmbH",
     "@skos:altLabel": "LUMENAZA",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XLUMENAZA----N",
     "@cim:IdentifiedObject.name": "Lumenaza GmbH",
     "@cim:Names.name": [
@@ -25,10 +21,9 @@
         "DE289354192",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2013-09-05",
+    "@cim:DateAndOrTime.date": "2023-08-30",
     "@schema:vatID": "DE289354192",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

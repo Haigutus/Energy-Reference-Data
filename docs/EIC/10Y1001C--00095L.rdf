@@ -14,8 +14,8 @@
     <cim:DateAndOrTime.date>2022-09-28</cim:DateAndOrTime.date>
     <cim:Names.name>Scheduling Area</cim:Names.name>
     <cim:Names.name>Outage Coordination Region</cim:Names.name>
-    <cim:Names.name>Market Area</cim:Names.name>
     <cim:Names.name>Capacity Calculation Region</cim:Names.name>
+    <cim:Names.name>Market Area</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>
 </rdf:RDF>

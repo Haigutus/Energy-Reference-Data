@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLALPDV------F" ;
     cim:IdentifiedObject.name "Alto Lindoso-Pedralva" ;
     cim:Names.name "Internal Line",
-        "LAL.PDV" ;
+        "LAL_PDV" ;
     dcterms:identifier "urn:eic:16TLALPDV------F" ;
-    skos:altLabel "LAL.PDV" ;
+    skos:altLabel "LAL_PDV" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Alto Lindoso-Pedralva" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -1,7 +1,11 @@
 
 <!DOCTYPE html>
-<html>
+<html xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
+    <link rel="alternate" type="application/rdf+xml" href="../StandardRoleTypeList.rdf" title="RDF/XML" />
+    <link rel="alternate" type="application/ld+json" href="../StandardRoleTypeList.jsonld" title="JSON-LD" />
+    <link rel="alternate" type="text/turtle" href="../StandardRoleTypeList.ttl" title="Turtle" />
+  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
     <script>
@@ -14,7 +18,7 @@
 
     <!-- Metadata Section -->
     <meta charset="UTF-8">
-    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <title>StandardRoleTypeList SKOS Concept Scheme</title>
     <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
     <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
     <meta name="robots" content="index,follow">
@@ -100,19 +104,19 @@
     <main>
       <table>
         <thead>
-          <tr>
-            <th>Label</th>
-            <th>Definition</th>           
-            <th>Identifier</th>
+          <tr typeof="skos:Concept">
+            <th property="skos:prefLabel">Label</th>
+            <th property="skos:definition" lang="en">Definition</th>           
+            <th property="dcterms:identifier">Identifier</th>
             <th>Serialisation</th>
           </tr>
         </thead>
         <tbody>
           
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A01.rdf">Trade responsible party</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A01</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A01.rdf">Trade responsible party</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A01</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A01.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A01.jsonld">JSON-LD</a><br>
@@ -120,10 +124,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A02.rdf">Consumption responsible party</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A02</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A02.rdf">Consumption responsible party</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A02</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A02.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A02.jsonld">JSON-LD</a><br>
@@ -131,10 +135,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A03.rdf">Combined power exchange (not to be used)</a></td>
-    <td>This role is no longer in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A03</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A03.rdf">Combined power exchange (not to be used)</a></td>
+    <td property="skos:definition" lang="en">This role is no longer in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A03</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A03.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A03.jsonld">JSON-LD</a><br>
@@ -142,10 +146,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A04.rdf">System operator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A04</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A04.rdf">System operator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A04</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A04.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A04.jsonld">JSON-LD</a><br>
@@ -153,10 +157,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A05.rdf">Imbalance settlement responsible</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A05</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A05.rdf">Imbalance settlement responsible</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A05</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A05.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A05.jsonld">JSON-LD</a><br>
@@ -164,10 +168,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A06.rdf">Production responsible party</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A06</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A06.rdf">Production responsible party</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A06</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A06.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A06.jsonld">JSON-LD</a><br>
@@ -175,10 +179,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A07.rdf">Transmission capacity allocator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A07</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A07.rdf">Transmission capacity allocator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A07</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A07.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A07.jsonld">JSON-LD</a><br>
@@ -186,10 +190,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A08.rdf">Balance responsible party</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A08</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A08.rdf">Balance responsible party</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A08</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A08.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A08.jsonld">JSON-LD</a><br>
@@ -197,10 +201,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A09.rdf">Metered data aggregator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A09</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A09.rdf">Metered data aggregator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A09</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A09.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A09.jsonld">JSON-LD</a><br>
@@ -208,10 +212,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A10.rdf">Billing agent</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A10</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A10.rdf">Billing agent</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A10</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A10.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A10.jsonld">JSON-LD</a><br>
@@ -219,10 +223,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A11.rdf">Market operator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A11</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A11.rdf">Market operator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A11</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A11.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A11.jsonld">JSON-LD</a><br>
@@ -230,10 +234,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A12.rdf">Energy supplier</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A12</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A12.rdf">Energy supplier</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A12</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A12.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A12.jsonld">JSON-LD</a><br>
@@ -241,10 +245,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A13.rdf">Consumer</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A13</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A13.rdf">Consumer</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A13</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A13.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A13.jsonld">JSON-LD</a><br>
@@ -252,10 +256,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A14.rdf">Control area operator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A14</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A14.rdf">Control area operator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A14</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A14.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A14.jsonld">JSON-LD</a><br>
@@ -263,10 +267,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A15.rdf">Control block operator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A15</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A15.rdf">Control block operator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A15</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A15.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A15.jsonld">JSON-LD</a><br>
@@ -274,10 +278,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A16.rdf">Coordination centre operator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A16</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A16.rdf">Coordination centre operator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A16</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A16.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A16.jsonld">JSON-LD</a><br>
@@ -285,10 +289,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A17.rdf">Grid access provider</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A17</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A17.rdf">Grid access provider</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A17</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A17.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A17.jsonld">JSON-LD</a><br>
@@ -296,10 +300,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A18.rdf">Grid operator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A18</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A18.rdf">Grid operator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A18</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A18.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A18.jsonld">JSON-LD</a><br>
@@ -307,10 +311,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A19.rdf">Meter administrator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A19</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A19.rdf">Meter administrator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A19</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A19.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A19.jsonld">JSON-LD</a><br>
@@ -318,10 +322,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A20.rdf">Party connected to grid</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A20</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A20.rdf">Party connected to grid</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A20</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A20.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A20.jsonld">JSON-LD</a><br>
@@ -329,10 +333,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A21.rdf">Producer</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A21</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A21.rdf">Producer</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A21</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A21.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A21.jsonld">JSON-LD</a><br>
@@ -340,10 +344,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A22.rdf">Profile maintenance party</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A22</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A22.rdf">Profile maintenance party</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A22</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A22.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A22.jsonld">JSON-LD</a><br>
@@ -351,10 +355,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A23.rdf">Meter operator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A23</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A23.rdf">Meter operator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A23</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A23.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A23.jsonld">JSON-LD</a><br>
@@ -362,10 +366,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A24.rdf">Metered data collector</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A24</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A24.rdf">Metered data collector</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A24</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A24.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A24.jsonld">JSON-LD</a><br>
@@ -373,10 +377,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A25.rdf">Metered data responsible</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A25</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A25.rdf">Metered data responsible</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A25</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A25.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A25.jsonld">JSON-LD</a><br>
@@ -384,10 +388,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A26.rdf">Metering point administrator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A26</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A26.rdf">Metering point administrator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A26</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A26.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A26.jsonld">JSON-LD</a><br>
@@ -395,10 +399,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A27.rdf">Resource Provider</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A27</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A27.rdf">Resource Provider</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A27</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A27.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A27.jsonld">JSON-LD</a><br>
@@ -406,10 +410,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A28.rdf">Scheduling coordinator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A28</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A28.rdf">Scheduling coordinator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A28</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A28.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A28.jsonld">JSON-LD</a><br>
@@ -417,10 +421,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A29.rdf">Capacity Trader</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A29</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A29.rdf">Capacity Trader</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A29</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A29.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A29.jsonld">JSON-LD</a><br>
@@ -428,10 +432,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A30.rdf">Interconnection Trade Responsible</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A30</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A30.rdf">Interconnection Trade Responsible</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A30</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A30.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A30.jsonld">JSON-LD</a><br>
@@ -439,10 +443,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A31.rdf">Nomination Validator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
-    <td>A31</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A31.rdf">Nomination Validator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.</td>
+    <td property="dcterms:identifier">A31</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A31.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A31.jsonld">JSON-LD</a><br>
@@ -450,11 +454,11 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A32.rdf">Market information aggregator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A32.rdf">Market information aggregator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that collects information from different sources and assembles  it to provide a summary of the market.</td>
-    <td>A32</td> 
+    <td property="dcterms:identifier">A32</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A32.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A32.jsonld">JSON-LD</a><br>
@@ -462,11 +466,11 @@ A party that collects information from different sources and assembles  it to pr
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A33.rdf">Information receiver</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A33.rdf">Information receiver</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party, not necessarily a market participant, which receives information about the market.</td>
-    <td>A33</td> 
+    <td property="dcterms:identifier">A33</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A33.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A33.jsonld">JSON-LD</a><br>
@@ -474,11 +478,11 @@ A party, not necessarily a market participant, which receives information about 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A34.rdf">Reserve Allocator</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A34.rdf">Reserve Allocator</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</td>
-    <td>A34</td> 
+    <td property="dcterms:identifier">A34</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A34.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A34.jsonld">JSON-LD</a><br>
@@ -486,11 +490,11 @@ A party that informs the market of reserve requirements, receives tenders agains
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A35.rdf">MOL Responsible</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A35.rdf">MOL Responsible</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that Informs the market of reserve requirements, receives tenders against the requirements and in compliance with the prequalification criteria, determines what tenders meet requirements and assigns tenders.</td>
-    <td>A35</td> 
+    <td property="dcterms:identifier">A35</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A35.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A35.jsonld">JSON-LD</a><br>
@@ -498,10 +502,10 @@ A party that Informs the market of reserve requirements, receives tenders agains
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A36.rdf">Capacity Coordinator</a></td>
-    <td>A party, acting on behalf of the SOs involved, responsible for establishing a coordinated Offered Capacity and/or NTC and/or ATC between several Scheduling Areas.</td>
-    <td>A36</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A36.rdf">Capacity Coordinator</a></td>
+    <td property="skos:definition" lang="en">A party, acting on behalf of the SOs involved, responsible for establishing a coordinated Offered Capacity and/or NTC and/or ATC between several Scheduling Areas.</td>
+    <td property="dcterms:identifier">A36</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A36.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A36.jsonld">JSON-LD</a><br>
@@ -509,11 +513,11 @@ A party that Informs the market of reserve requirements, receives tenders agains
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A37.rdf">Reconciliation Accountable</a></td>
-    <td>Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A37.rdf">Reconciliation Accountable</a></td>
+    <td property="skos:definition" lang="en">Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that is financially accountable for the reconciled volume of energy products for a profiled local metering point.</td>
-    <td>A37</td> 
+    <td property="dcterms:identifier">A37</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A37.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A37.jsonld">JSON-LD</a><br>
@@ -521,10 +525,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A38.rdf">Reconciliation Responsible</a></td>
-    <td>A party that is responsible for reconciling, within a metering grid area, the volumes used in the imbalance settlement process for profiled metering points and the actual metered quantities.</td>
-    <td>A38</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A38.rdf">Reconciliation Responsible</a></td>
+    <td property="skos:definition" lang="en">A party that is responsible for reconciling, within a metering grid area, the volumes used in the imbalance settlement process for profiled metering points and the actual metered quantities.</td>
+    <td property="dcterms:identifier">A38</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A38.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A38.jsonld">JSON-LD</a><br>
@@ -532,10 +536,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A39.rdf">Data provider</a></td>
-    <td>A party that is responsible for providing information to a central authority.</td>
-    <td>A39</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A39.rdf">Data provider</a></td>
+    <td property="skos:definition" lang="en">A party that is responsible for providing information to a central authority.</td>
+    <td property="dcterms:identifier">A39</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A39.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A39.jsonld">JSON-LD</a><br>
@@ -543,10 +547,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A40.rdf">Local Issuing Office (LIO)</a></td>
-    <td>A party that is responsible for operating a Local Issuing Office (LIO).</td>
-    <td>A40</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A40.rdf">Local Issuing Office (LIO)</a></td>
+    <td property="skos:definition" lang="en">A party that is responsible for operating a Local Issuing Office (LIO).</td>
+    <td property="dcterms:identifier">A40</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A40.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A40.jsonld">JSON-LD</a><br>
@@ -554,10 +558,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A41.rdf">Central Issuing Office (CIO)</a></td>
-    <td>A party that is responsible for operating a Central Issuing Office (CIO).</td>
-    <td>A41</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A41.rdf">Central Issuing Office (CIO)</a></td>
+    <td property="skos:definition" lang="en">A party that is responsible for operating a Central Issuing Office (CIO).</td>
+    <td property="dcterms:identifier">A41</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A41.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A41.jsonld">JSON-LD</a><br>
@@ -565,10 +569,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A42.rdf">EIC Participant</a></td>
-    <td>A party that participates in the EIC environment.</td>
-    <td>A42</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A42.rdf">EIC Participant</a></td>
+    <td property="skos:definition" lang="en">A party that participates in the EIC environment.</td>
+    <td property="dcterms:identifier">A42</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A42.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A42.jsonld">JSON-LD</a><br>
@@ -576,10 +580,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A43.rdf">Weather analyser</a></td>
-    <td>A party that analyses the current and forecast weather situation and establishes a prognosis of its impact on the renewable energy environment as well as the overall load.</td>
-    <td>A43</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A43.rdf">Weather analyser</a></td>
+    <td property="skos:definition" lang="en">A party that analyses the current and forecast weather situation and establishes a prognosis of its impact on the renewable energy environment as well as the overall load.</td>
+    <td property="dcterms:identifier">A43</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A43.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A43.jsonld">JSON-LD</a><br>
@@ -587,10 +591,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A44.rdf">Regional Security Coordinator (RSC)</a></td>
-    <td>The RSC as defined in the System Operation guideline.</td>
-    <td>A44</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A44.rdf">Regional Security Coordinator (RSC)</a></td>
+    <td property="skos:definition" lang="en">The RSC as defined in the System Operation guideline.</td>
+    <td property="dcterms:identifier">A44</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A44.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A44.jsonld">JSON-LD</a><br>
@@ -598,10 +602,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A45.rdf">Energy Service Company (ESCO)</a></td>
-    <td>A party offering energy-related services to the Party Connected to Grid, but not directly active in the energy value chain or the physical infrastructure itself. The ESCO may provide insight services as well as energy management services.</td>
-    <td>A45</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A45.rdf">Energy Service Company (ESCO)</a></td>
+    <td property="skos:definition" lang="en">A party offering energy-related services to the Party Connected to Grid, but not directly active in the energy value chain or the physical infrastructure itself. The ESCO may provide insight services as well as energy management services.</td>
+    <td property="dcterms:identifier">A45</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A45.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A45.jsonld">JSON-LD</a><br>
@@ -609,10 +613,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A46.rdf">Balancing Service Provider</a></td>
-    <td>A party with reserve-providing units or reserve-providing groups able to provide balancing services to LFC Operators.</td>
-    <td>A46</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A46.rdf">Balancing Service Provider</a></td>
+    <td property="skos:definition" lang="en">A party with reserve-providing units or reserve-providing groups able to provide balancing services to LFC Operators.</td>
+    <td property="dcterms:identifier">A46</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A46.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A46.jsonld">JSON-LD</a><br>
@@ -620,10 +624,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A47.rdf">Energy trader</a></td>
-    <td>A party that is selling or buying energy.</td>
-    <td>A47</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A47.rdf">Energy trader</a></td>
+    <td property="skos:definition" lang="en">A party that is selling or buying energy.</td>
+    <td property="dcterms:identifier">A47</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A47.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A47.jsonld">JSON-LD</a><br>
@@ -631,10 +635,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A48.rdf">LFC Operator</a></td>
-    <td>A party that is responsible for the Load Frequency Control of its LFC Area or LFC Block.</td>
-    <td>A48</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A48.rdf">LFC Operator</a></td>
+    <td property="skos:definition" lang="en">A party that is responsible for the Load Frequency Control of its LFC Area or LFC Block.</td>
+    <td property="dcterms:identifier">A48</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A48.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A48.jsonld">JSON-LD</a><br>
@@ -642,10 +646,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A49.rdf">Transmission System Operator (TSO)</a></td>
-    <td>The Transmission System Operator (TSO) is responsible for the transport of electricity on the extra high-voltage and high-voltage interconnected system. This is a market participant and not a role in Harmonised Role Model.</td>
-    <td>A49</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A49.rdf">Transmission System Operator (TSO)</a></td>
+    <td property="skos:definition" lang="en">The Transmission System Operator (TSO) is responsible for the transport of electricity on the extra high-voltage and high-voltage interconnected system. This is a market participant and not a role in Harmonised Role Model.</td>
+    <td property="dcterms:identifier">A49</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A49.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A49.jsonld">JSON-LD</a><br>
@@ -653,10 +657,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A50.rdf">Distribution System Operator (DSO)</a></td>
-    <td>Distribution System Operator (DSO) is responsible for transport of electricity on high-voltage (optionally), medium-voltage and low-voltage distribution systems. This is a market participant and not a role in Harmonised Role Model.</td>
-    <td>A50</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A50.rdf">Distribution System Operator (DSO)</a></td>
+    <td property="skos:definition" lang="en">Distribution System Operator (DSO) is responsible for transport of electricity on high-voltage (optionally), medium-voltage and low-voltage distribution systems. This is a market participant and not a role in Harmonised Role Model.</td>
+    <td property="dcterms:identifier">A50</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A50.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A50.jsonld">JSON-LD</a><br>
@@ -664,10 +668,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A51.rdf">Resource Capacity Mechanism Operator</a></td>
-    <td>Resource capacity mechanism operator is the party responsible to operate the resource capacity mechanism in a member state. It can either be the TSO or an independent party.</td>
-    <td>A51</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A51.rdf">Resource Capacity Mechanism Operator</a></td>
+    <td property="skos:definition" lang="en">Resource capacity mechanism operator is the party responsible to operate the resource capacity mechanism in a member state. It can either be the TSO or an independent party.</td>
+    <td property="dcterms:identifier">A51</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A51.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A51.jsonld">JSON-LD</a><br>
@@ -675,10 +679,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A52.rdf">Resource aggregator</a></td>
-    <td>A party that aggregates resources for usage by a service provider for energy market services.</td>
-    <td>A52</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A52.rdf">Resource aggregator</a></td>
+    <td property="skos:definition" lang="en">A party that aggregates resources for usage by a service provider for energy market services.</td>
+    <td property="dcterms:identifier">A52</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A52.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A52.jsonld">JSON-LD</a><br>
@@ -686,10 +690,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A53.rdf">Cost sharing calculator</a></td>
-    <td>A party responsible for the mapping of the costs between areas and parties.</td>
-    <td>A53</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A53.rdf">Cost sharing calculator</a></td>
+    <td property="skos:definition" lang="en">A party responsible for the mapping of the costs between areas and parties.</td>
+    <td property="dcterms:identifier">A53</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A53.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A53.jsonld">JSON-LD</a><br>
@@ -697,10 +701,10 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardRoleTypeList/A54.rdf">Settlement responsible</a></td>
-    <td>A party responsible for settling the costs.</td>
-    <td>A54</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A54.rdf">Settlement responsible</a></td>
+    <td property="skos:definition" lang="en">A party responsible for settling the costs.</td>
+    <td property="dcterms:identifier">A54</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A54.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardRoleTypeList/A54.jsonld">JSON-LD</a><br>
@@ -708,7 +712,62 @@ A party that is financially accountable for the reconciled volume of energy prod
     </td>      
 </tr>
 
-          <!-- Add more rows for each concept scheme -->
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A55.rdf">Coordinated Capacity Calculator</a></td>
+    <td property="skos:definition" lang="en">Coordinated Capacity Calculator is the entity or entities with the task of calculating transmission capacity, at regional level or above.</td>
+    <td property="dcterms:identifier">A55</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A55.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A55.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A55.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A56.rdf">Flexibility service provider</a></td>
+    <td property="skos:definition" lang="en">A party that offers flexibility services based on acquired (aggregated) resources. </td>
+    <td property="dcterms:identifier">A56</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A56.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A56.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A56.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A57.rdf">Data access provider</a></td>
+    <td property="skos:definition" lang="en">A party responsible for facilitating access to data.</td>
+    <td property="dcterms:identifier">A57</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A57.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A57.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A57.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A58.rdf">Metered data administrator</a></td>
+    <td property="skos:definition" lang="en">A party responsible for storing and distributing validated measured data.</td>
+    <td property="dcterms:identifier">A58</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A58.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A58.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A58.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardRoleTypeList/A59.rdf">Permission administrator</a></td>
+    <td property="skos:definition" lang="en">A party responsible for administrating a register of data access permissions for a set of metering points, making this information available to final customers and eligible parties in the sector, on request.</td>
+    <td property="dcterms:identifier">A59</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A59.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A59.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/StandardRoleTypeList/A59.ttl">Turtle</a>
+    </td>      
+</tr>
+
+          <!-- Add more rows for each concept -->
         </tbody>
       </table>
     </main>

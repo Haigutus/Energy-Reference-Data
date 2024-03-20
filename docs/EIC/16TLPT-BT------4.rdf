@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLPT-BT------4</dcterms:identifier>
     <skos:prefLabel>Picote-Bemposta</skos:prefLabel>
-    <skos:altLabel>LPT.BT</skos:altLabel>
+    <skos:altLabel>LPT_BT</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLPT-BT------4</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Picote-Bemposta</cim:IdentifiedObject.name>
-    <cim:Names.name>LPT.BT</cim:Names.name>
+    <cim:Names.name>LPT_BT</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

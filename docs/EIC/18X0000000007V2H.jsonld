@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "VIRTU",
         "ESB55314041",
-        "Trade Responsible Party",
-        "Market Operator"
+        "Market Operator",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

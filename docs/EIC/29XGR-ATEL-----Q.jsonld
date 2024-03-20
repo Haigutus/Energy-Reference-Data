@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "ATEL-HELLAS",
         "099935170",
-        "Valid EIC Function needed"
+        "Balance Group Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Electric Energy Supply And Trade",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-13",
     "@schema:vatID": "099935170",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

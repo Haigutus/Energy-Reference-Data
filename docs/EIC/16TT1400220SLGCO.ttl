@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TT1400220SLGCO" ;
     cim:IdentifiedObject.name "AT 1 400/220 SLGC" ;
-    cim:Names.name "AT1400/220SLGC",
+    cim:Names.name "AT1400_220SLGC",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TT1400220SLGCO" ;
-    skos:altLabel "AT1400/220SLGC" ;
+    skos:altLabel "AT1400_220SLGC" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "AT 1 400/220 SLGC" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

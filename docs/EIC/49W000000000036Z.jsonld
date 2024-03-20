@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:49W000000000036Z",
     "@skos:prefLabel": "ROCA1/2",
-    "@skos:altLabel": "ROCA1/2",
+    "@skos:altLabel": "ROCA1_2",
     "@cim:IdentifiedObject.mRID": "49W000000000036Z",
     "@cim:IdentifiedObject.name": "ROCA1/2",
     "@cim:Names.name": [
-        "ROCA1/2",
+        "ROCA1_2",
         "Production Unit"
     ],
     "@cim:Document.docStatus": "A05",

@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "EBM_ENERGIEAG-ST",
         "CHE109319916",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "There was a wrong VAT Number assigned 2019-04-26 Renaming of the company",
     "@cim:Document.docStatus": "A05",

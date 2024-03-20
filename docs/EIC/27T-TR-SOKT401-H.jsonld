@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TR-SOKT401-H",
     "@skos:prefLabel": "CEPS_SOK.T401 Sokolnice_400/220",
-    "@skos:altLabel": "CSOK__1*CSOK__2*",
+    "@skos:altLabel": "CSOK__1_CSOK__2_",
     "@cim:IdentifiedObject.mRID": "27T-TR-SOKT401-H",
     "@cim:IdentifiedObject.name": "CEPS_SOK.T401 Sokolnice_400/220",
     "@cim:Names.name": [
-        "CSOK__1*CSOK__2*",
+        "CSOK__1_CSOK__2_",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

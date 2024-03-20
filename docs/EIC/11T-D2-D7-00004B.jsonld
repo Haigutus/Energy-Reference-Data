@@ -12,17 +12,17 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:11T-D2-D7-00004B",
-    "@skos:prefLabel": "L-D2-D7-LANDESBERGEN -WEHRENDORF-1",
-    "@skos:altLabel": "L-D2-D7-LANWEH-1",
+    "@skos:prefLabel": "AMP-TTG/380/OHLENSEHLEN-WEHRENDORF/DUEMMERSEE S-1",
+    "@skos:altLabel": "L-D2-D7-OHWE-DS1",
     "@cim:IdentifiedObject.mRID": "11T-D2-D7-00004B",
-    "@cim:IdentifiedObject.name": "L-D2-D7-LANDESBERGEN -WEHRENDORF-1",
+    "@cim:IdentifiedObject.name": "AMP-TTG/380/OHLENSEHLEN-WEHRENDORF/DUEMMERSEE S-1",
     "@cim:Names.name": [
-        "L-D2-D7-LANWEH-1",
+        "L-D2-D7-OHWE-DS1",
         "Internal Tie-Line"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-01-27",
+    "@cim:DateAndOrTime.date": "2023-11-01",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

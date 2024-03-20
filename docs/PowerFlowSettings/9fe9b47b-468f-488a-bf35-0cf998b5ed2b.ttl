@@ -1,11 +1,9 @@
-@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix cim: <http://cim.ucaiug.io/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix eumd: <http://entsoe.eu/ns/Metadata-European#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://energy.referencedata.eu/PowerFlowSettings/9fe9b47b-468f-488a-bf35-0cf998b5ed2b> a cim:PowerFlowSettings,
         skos:Concept ;
-    eumd:PowerFlowSettings.maxIterationNumber "20" ;
     cim:IdentifiedObject.description "CGM Process - IGM Convergence check before merging to CGM" ;
     cim:IdentifiedObject.mRID "9fe9b47b-468f-488a-bf35-0cf998b5ed2b" ;
     cim:IdentifiedObject.name "IGM Convergence" ;
@@ -15,6 +13,7 @@
     cim:PowerFlowSettings.impedanceThreshold "1e-05" ;
     cim:PowerFlowSettings.interchangeControlEnabled "false" ;
     cim:PowerFlowSettings.loadVoltageDependency "false" ;
+    cim:PowerFlowSettings.maxIterationsInnerLoop "20" ;
     cim:PowerFlowSettings.reactivePowerTolerance "0.1" ;
     cim:PowerFlowSettings.respectActivePowerLimits "true" ;
     cim:PowerFlowSettings.respectReactivePowerLimits "true" ;

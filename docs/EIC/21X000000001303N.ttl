@@ -11,7 +11,7 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "21X000000001303N" ;
-    cim:IdentifiedObject.name "B $amp; A Capital" ;
+    cim:IdentifiedObject.name "B $amp A Capital" ;
     cim:Names.name "BACAP",
         "Balance Responsible Party",
         "GB179546360" ;
@@ -20,6 +20,6 @@
     skos:altLabel "BACAP" ;
     skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "B $amp; A Capital" ;
+    skos:prefLabel "B $amp A Capital" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

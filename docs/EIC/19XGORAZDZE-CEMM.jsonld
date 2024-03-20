@@ -19,12 +19,12 @@
     "@cim:Names.name": [
         "GORAZDZE_CEMENT",
         "PL7560003405",
-        "Energy Supplier",
         "Consumer",
-        "System Operator",
         "Metered Data Responsible",
-        "Meter Administrator",
-        "Grid Access Provider"
+        "Energy Supplier",
+        "Grid Access Provider",
+        "System Operator",
+        "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

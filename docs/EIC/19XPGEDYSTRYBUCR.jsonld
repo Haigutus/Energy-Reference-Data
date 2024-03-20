@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "PGEDYSTRYBUCJA",
         "PL9462593855",
-        "Metered Data Responsible",
         "Meter Administrator",
         "Grid Access Provider",
-        "System Operator"
+        "System Operator",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

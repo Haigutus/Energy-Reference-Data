@@ -20,12 +20,12 @@
         "GA-ZACH",
         "A0012526F.PL",
         "PL6270011643",
-        "Grid Access Provider",
-        "Meter Administrator",
         "System Operator",
-        "Energy Supplier",
         "Metered Data Responsible",
-        "Consumer"
+        "Consumer",
+        "Meter Administrator",
+        "Energy Supplier",
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

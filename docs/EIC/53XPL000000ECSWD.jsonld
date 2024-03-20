@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "ECSW",
         "PL8652527861",
-        "Producer",
-        "Consumer"
+        "Consumer",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

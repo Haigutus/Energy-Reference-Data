@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:27T-TLI-V459---6</dcterms:identifier>
     <skos:prefLabel>CEPS_V459 Horn&#237; &#381;ivotice-Kletn&#233;</skos:prefLabel>
-    <skos:altLabel>CHZI__1*CKLT__1*</skos:altLabel>
+    <skos:altLabel>CHZI__1_CKLT__1_</skos:altLabel>
     <cim:IdentifiedObject.mRID>27T-TLI-V459---6</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CEPS_V459 Horn&#237; &#381;ivotice-Kletn&#233;</cim:IdentifiedObject.name>
-    <cim:Names.name>CHZI__1*CKLT__1*</cim:Names.name>
+    <cim:Names.name>CHZI__1_CKLT__1_</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2019-09-23</cim:DateAndOrTime.date>

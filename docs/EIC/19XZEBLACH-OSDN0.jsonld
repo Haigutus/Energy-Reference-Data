@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "PCC_ENERGETYKABL",
         "PL7491797766",
-        "Metered Data Responsible",
         "Meter Administrator",
+        "Metered Data Responsible",
+        "Energy Supplier",
         "Grid Access Provider",
-        "System Operator",
-        "Energy Supplier"
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

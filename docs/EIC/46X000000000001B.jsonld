@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:46X000000000001B",
     "@skos:prefLabel": "E.ON Sverige AB",
-    "@skos:altLabel": "E.ON_SVERIGE_AB",
+    "@skos:altLabel": "E_ON_SVERIGE_AB",
     "@cim:IdentifiedObject.mRID": "46X000000000001B",
     "@cim:IdentifiedObject.name": "E.ON Sverige AB",
     "@cim:Names.name": [
-        "E.ON_SVERIGE_AB",
+        "E_ON_SVERIGE_AB",
         "SE556006842001",
         "Balance Responsible Party",
         "Capacity Trader",

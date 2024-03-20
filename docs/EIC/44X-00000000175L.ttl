@@ -7,10 +7,10 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2021-01-13" ;
+    cim:DateAndOrTime.date "2023-11-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44X-00000000175L" ;
-    cim:IdentifiedObject.name "Kalajoki I & II Tuuli Ky" ;
+    cim:IdentifiedObject.name "Kalajoki Mustilankangas Tuuli Ky" ;
     cim:Names.name "44KALAJOKII_II",
         "FI31634807",
         "Producer" ;
@@ -18,6 +18,6 @@
     schema1:vatID "FI31634807" ;
     skos:altLabel "44KALAJOKII_II" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Kalajoki I & II Tuuli Ky" ;
+    skos:prefLabel "Kalajoki Mustilankangas Tuuli Ky" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

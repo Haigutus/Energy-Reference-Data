@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Die Axpo Ist Die Handels Und Verkaufs Ag Der Kantone Aargau, Zürich, Schaffhausen, Thurgau, St. Gallen, Beider Appenzell Sowie Der Nordostschweizerischen Kraftwerke." ;
     cim:IdentifiedObject.mRID "12XAXPO-HANDEL-6" ;
     cim:IdentifiedObject.name "Axpo" ;
     cim:Names.name "AXPO-HANDEL",
         "CH479131",
-        "Valid EIC Function needed" ;
+        "Capacity Trader" ;
     dcterms:identifier "urn:eic:12XAXPO-HANDEL-6" ;
     schema1:vatID "CH479131" ;
     skos:altLabel "AXPO-HANDEL" ;

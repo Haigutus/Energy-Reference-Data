@@ -19,12 +19,12 @@
     "@cim:Names.name": [
         "GEO_GE_SPZOO_SPK",
         "PL5272617496",
-        "Meter Administrator",
         "Metered Data Responsible",
-        "Grid Access Provider",
-        "Energy Supplier",
+        "System Operator",
+        "Meter Administrator",
         "Balance Responsible Party",
-        "System Operator"
+        "Grid Access Provider",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

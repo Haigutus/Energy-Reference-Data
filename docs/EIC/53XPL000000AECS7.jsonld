@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "AEC-ANDRYCHOW",
         "PL5512641420",
-        "Consumer",
-        "Network User"
+        "Network User",
+        "Consumer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

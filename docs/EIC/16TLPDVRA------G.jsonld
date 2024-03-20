@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPDVRA------G",
     "@skos:prefLabel": "Pedralva-Riba d'Ave",
-    "@skos:altLabel": "LPDV.RA",
+    "@skos:altLabel": "LPDV_RA",
     "@cim:IdentifiedObject.mRID": "16TLPDVRA------G",
     "@cim:IdentifiedObject.name": "Pedralva-Riba d'Ave",
     "@cim:Names.name": [
-        "LPDV.RA",
+        "LPDV_RA",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

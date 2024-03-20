@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "LV-LATVENERGO",
         "LV40003032949",
-        "Consumer",
         "Balance Responsible Party",
+        "Consumer",
         "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",

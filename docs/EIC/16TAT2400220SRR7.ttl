@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "16TAT2400220SRR7" ;
     cim:IdentifiedObject.name "Auto transformador 2 400/220 Subestação de Recarei" ;
-    cim:Names.name "AT2400/220SRR",
+    cim:Names.name "AT2400_220SRR",
         "Transformer" ;
     dcterms:identifier "urn:eic:16TAT2400220SRR7" ;
-    skos:altLabel "AT2400/220SRR" ;
+    skos:altLabel "AT2400_220SRR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Auto transformador 2 400/220 Subestação de Recarei" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

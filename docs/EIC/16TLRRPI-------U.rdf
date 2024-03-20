@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLRRPI-------U</dcterms:identifier>
     <skos:prefLabel>Recarei-Paraimo</skos:prefLabel>
-    <skos:altLabel>LRR.PI</skos:altLabel>
+    <skos:altLabel>LRR_PI</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLRRPI-------U</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Recarei-Paraimo</cim:IdentifiedObject.name>
-    <cim:Names.name>LRR.PI</cim:Names.name>
+    <cim:Names.name>LRR_PI</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-07-17</cim:DateAndOrTime.date>

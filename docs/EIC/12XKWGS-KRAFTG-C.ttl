@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Produktionsgesellschaft" ;
     cim:IdentifiedObject.mRID "12XKWGS-KRAFTG-C" ;
     cim:IdentifiedObject.name "KWGS Kraftwerk Ganterbach-Saltina AG" ;
     cim:Names.name "CH248181",
-        "KWGS_KRAFTWERK",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "KWGS_KRAFTWERK" ;
     dcterms:identifier "urn:eic:12XKWGS-KRAFTG-C" ;
     schema1:vatID "CH248181" ;
     skos:altLabel "KWGS_KRAFTWERK" ;

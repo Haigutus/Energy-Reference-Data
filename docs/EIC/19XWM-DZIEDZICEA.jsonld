@@ -20,8 +20,8 @@
         "WM_DZIEDZICE",
         "A00200110.PL",
         "PL6521167160",
-        "Energy Supplier",
-        "Consumer"
+        "Consumer",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

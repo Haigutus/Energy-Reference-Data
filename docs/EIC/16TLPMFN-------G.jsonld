@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPMFN-------G",
     "@skos:prefLabel": "Palmela-Fanhões",
-    "@skos:altLabel": "LPM.FN",
+    "@skos:altLabel": "LPM_FN",
     "@cim:IdentifiedObject.mRID": "16TLPMFN-------G",
     "@cim:IdentifiedObject.name": "Palmela-Fanhões",
     "@cim:Names.name": [
-        "LPM.FN",
+        "LPM_FN",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Function Missing" ;
     cim:IdentifiedObject.mRID "12XEKT-NETZ----4" ;
     cim:IdentifiedObject.name "EKT AG" ;
     cim:Names.name "CH527708",
         "EKT-NETZ",
-        "Valid EIC Function needed" ;
+        "Grid Operator" ;
     dcterms:identifier "urn:eic:12XEKT-NETZ----4" ;
     schema1:vatID "CH527708" ;
     skos:altLabel "EKT-NETZ" ;

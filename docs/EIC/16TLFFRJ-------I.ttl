@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLFFRJ-------I" ;
     cim:IdentifiedObject.name "Fernão Ferro-Ribatejo" ;
     cim:Names.name "Internal Line",
-        "LFF.RJ" ;
+        "LFF_RJ" ;
     dcterms:identifier "urn:eic:16TLFFRJ-------I" ;
-    skos:altLabel "LFF.RJ" ;
+    skos:altLabel "LFF_RJ" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Fernão Ferro-Ribatejo" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V414---I" ;
     cim:IdentifiedObject.name "CEPS_V414 Chodov-Reporyje" ;
-    cim:Names.name "CCHD__1*CREP__1*",
+    cim:Names.name "CCHD__1_CREP__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V414---I" ;
-    skos:altLabel "CCHD__1*CREP__1*" ;
+    skos:altLabel "CCHD__1_CREP__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V414 Chodov-Reporyje" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

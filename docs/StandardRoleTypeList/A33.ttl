@@ -3,7 +3,7 @@
 
 <http://energy.referencedata.eu/StandardRoleTypeList/A33> a skos:Concept ;
     dcterms:identifier "A33" ;
-    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party, not necessarily a market participant, which receives information about the market."""@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
     skos:prefLabel "Information receiver" ;

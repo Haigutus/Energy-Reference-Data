@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "PETRO",
         "ESA48053243",
-        "Producer",
+        "Consumption Responsible Party",
         "Production Responsible party",
-        "Consumption Responsible Party"
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -11,7 +11,7 @@
     "@skos:prefLabel": "Information receiver",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.\nA party, not necessarily a market participant, which receives information about the market."
+        "@value": "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. \nA party, not necessarily a market participant, which receives information about the market."
     },
     "@context": {
         "@cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",

@@ -20,12 +20,12 @@
         "CIECH_SARZYNA",
         "A00144679.PL",
         "PL8160001828",
+        "Metered Data Responsible",
         "Meter Administrator",
         "Grid Access Provider",
-        "System Operator",
         "Consumer",
         "Energy Supplier",
-        "Metered Data Responsible"
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

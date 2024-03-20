@@ -7,18 +7,18 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2019-04-26" ;
+    cim:DateAndOrTime.date "2023-10-02" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "18X000000000ECYJ" ;
-    cim:IdentifiedObject.name "CONGELADOS HERBANIA S.A." ;
-    cim:Names.name "Balance Responsible Party",
-        "CONHE",
+    cim:IdentifiedObject.name "CONGELADOS HERBANIA SA" ;
+    cim:Names.name "CONHE",
         "Consumption Responsible Party",
-        "ESA35107838" ;
+        "ESA35107838",
+        "Production Responsible party" ;
     dcterms:identifier "urn:eic:18X000000000ECYJ" ;
     schema1:vatID "ESA35107838" ;
     skos:altLabel "CONHE" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "CONGELADOS HERBANIA S.A." ;
+    skos:prefLabel "CONGELADOS HERBANIA SA" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

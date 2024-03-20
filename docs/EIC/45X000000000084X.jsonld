@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "P2CC",
         "DK32326838",
-        "Balancing Service Provider",
-        "Resource Provider"
+        "Resource Provider",
+        "Balancing Service Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

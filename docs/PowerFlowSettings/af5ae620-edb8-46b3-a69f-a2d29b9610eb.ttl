@@ -1,12 +1,9 @@
-@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix cim: <http://cim.ucaiug.io/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix eumd: <http://entsoe.eu/ns/Metadata-European#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://energy.referencedata.eu/PowerFlowSettings/af5ae620-edb8-46b3-a69f-a2d29b9610eb> a cim:PowerFlowSettings,
         skos:Concept ;
-    eumd:PowerFlowSettings.maxIterationNumber "30" ;
-    eumd:PowerFlowSettings.maxIterationNumberAIC "15" ;
     cim:IdentifiedObject.description "CGM Process - Relaxed settings with controls on transformers and shunts disabled and reactive power limits disabled. To be used when creating a CGM and CGM creation fails with CGM Creation Relaxed 1" ;
     cim:IdentifiedObject.mRID "af5ae620-edb8-46b3-a69f-a2d29b9610eb" ;
     cim:IdentifiedObject.name "CGM Creation Relaxed 2" ;
@@ -16,6 +13,8 @@
     cim:PowerFlowSettings.impedanceThreshold "1e-05" ;
     cim:PowerFlowSettings.interchangeControlEnabled "true" ;
     cim:PowerFlowSettings.loadVoltageDependency "false" ;
+    cim:PowerFlowSettings.maxIterationsInnerLoop "30" ;
+    cim:PowerFlowSettings.maxIterationsOuterLoop "15" ;
     cim:PowerFlowSettings.reactivePowerTolerance "0.5" ;
     cim:PowerFlowSettings.respectActivePowerLimits "true" ;
     cim:PowerFlowSettings.respectReactivePowerLimits "false" ;

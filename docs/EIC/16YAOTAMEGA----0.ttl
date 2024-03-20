@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/16YAOTAMEGA----0> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-10-11" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "16YAOTAMEGA----0" ;
+    cim:IdentifiedObject.name "Area de Oferta Douro Tâmega" ;
+    cim:Names.name "AOTAMEGA",
+        "Balance Group" ;
+    dcterms:identifier "urn:eic:16YAOTAMEGA----0" ;
+    skos:altLabel "AOTAMEGA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Area de Oferta Douro Tâmega" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

@@ -7,19 +7,19 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2023-05-31" ;
+    cim:DateAndOrTime.date "2023-12-06" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Capacity Trader" ;
     cim:IdentifiedObject.mRID "37X000000000275C" ;
-    cim:IdentifiedObject.name "SVS-Versorgungsbetriebe GmbH" ;
+    cim:IdentifiedObject.name "LokalWerke GmbH (alt SVS-Versorgungsbetriebe GmbH)" ;
     cim:Names.name "Capacity Trader",
-        "DE175552752",
-        "SVSVERSORGUNGSBE" ;
+        "DE123770545",
+        "LOKALWERKE_GMBH_" ;
     dcterms:identifier "urn:eic:37X000000000275C" ;
-    schema1:vatID "DE175552752" ;
-    skos:altLabel "SVSVERSORGUNGSBE" ;
+    schema1:vatID "DE123770545" ;
+    skos:altLabel "LOKALWERKE_GMBH_" ;
     skos:definition "Capacity Trader"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "SVS-Versorgungsbetriebe GmbH" ;
+    skos:prefLabel "LokalWerke GmbH (alt SVS-Versorgungsbetriebe GmbH)" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

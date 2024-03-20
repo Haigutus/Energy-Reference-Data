@@ -22,14 +22,14 @@
     "@cim:IdentifiedObject.name": "Litasco SA",
     "@cim:Names.name": [
         "LITASCO",
-        "CHE10073892",
+        "CHE100738922",
         "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "VAT Code NON-EU (Swiss VAT): CHE100738922",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2020-04-08",
-    "@schema:vatID": "CHE10073892",
+    "@cim:DateAndOrTime.date": "2023-07-27",
+    "@schema:vatID": "CHE100738922",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

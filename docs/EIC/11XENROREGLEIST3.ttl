@@ -7,17 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-06-24" ;
+    cim:DateAndOrTime.date "2023-08-30" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11XENROREGLEIST3" ;
-    cim:IdentifiedObject.name "ENRO Ludwigsfelde Energie GmbH" ;
+    cim:IdentifiedObject.name "e.distherm Energielösungen GmbH" ;
     cim:Names.name "Balance Responsible Party",
-        "DE161088920",
+        "DE138459033",
         "ENRO-ENERGIE" ;
     dcterms:identifier "urn:eic:11XENROREGLEIST3" ;
-    schema1:vatID "DE161088920" ;
+    schema1:vatID "DE138459033" ;
     skos:altLabel "ENRO-ENERGIE" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "ENRO Ludwigsfelde Energie GmbH" ;
+    skos:prefLabel "e.distherm Energielösungen GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

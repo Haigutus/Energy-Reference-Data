@@ -12,10 +12,9 @@
     <cim:Names.name>AMOS_FINANCE_AG</cim:Names.name>
     <cim:Names.name>DE319526105</cim:Names.name>
     <cim:IdentifiedObject.description>Market Operator</cim:IdentifiedObject.description>
-    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:Document.docStatus>A03</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2023-03-06</cim:DateAndOrTime.date>
-    <cim:Names.name>Market Operator</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-08-23</cim:DateAndOrTime.date>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE319526105</schema:vatID>
   </skos:Concept>

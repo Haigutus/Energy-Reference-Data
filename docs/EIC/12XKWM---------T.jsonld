@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "KWM",
         "CH251543",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Kraftwerk",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-25",
     "@schema:vatID": "CH251543",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

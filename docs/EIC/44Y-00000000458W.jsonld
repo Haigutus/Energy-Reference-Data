@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:44Y-00000000458W",
     "@skos:prefLabel": "Järvenpään voimalaitos",
-    "@skos:altLabel": "FI_KRÄ000",
+    "@skos:altLabel": "FI_KRA000",
     "@cim:IdentifiedObject.mRID": "44Y-00000000458W",
     "@cim:IdentifiedObject.name": "Järvenpään voimalaitos",
     "@cim:Names.name": [
-        "FI_KRÄ000",
+        "FI_KRA000",
         "Metering Grid Area"
     ],
     "@cim:Document.docStatus": "A05",

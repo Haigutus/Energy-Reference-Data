@@ -18,10 +18,10 @@
     "@cim:IdentifiedObject.name": "Ukraine IPS",
     "@cim:Names.name": [
         "UA-IPS",
-        "Bidding Zone",
-        "Scheduling Area",
+        "LFC Area",
         "Control Area",
-        "LFC Area"
+        "Scheduling Area",
+        "Bidding Zone"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

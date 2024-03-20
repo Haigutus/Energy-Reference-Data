@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:44Y-000000002664",
     "@skos:prefLabel": "Årvas Wind Ab",
-    "@skos:altLabel": "FI_ÅRVA01",
+    "@skos:altLabel": "FI_ARVA01",
     "@cim:IdentifiedObject.mRID": "44Y-000000002664",
     "@cim:IdentifiedObject.name": "Årvas Wind Ab",
     "@cim:Names.name": [
-        "FI_ÅRVA01",
+        "FI_ARVA01",
         "Metering Grid Area"
     ],
     "@cim:Document.docStatus": "A05",

@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "LIBERTY",
         "4430005100169",
-        "Consumer",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Consumer"
     ],
     "@cim:IdentifiedObject.description": "Stell Production",
     "@cim:Document.docStatus": "A05",

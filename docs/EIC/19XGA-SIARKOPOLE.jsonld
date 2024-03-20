@@ -20,10 +20,10 @@
         "GA-SIARKOPOL",
         "PL8660001369",
         "Energy Supplier",
-        "Metered Data Responsible",
-        "Meter Administrator",
         "Grid Access Provider",
-        "System Operator"
+        "System Operator",
+        "Meter Administrator",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

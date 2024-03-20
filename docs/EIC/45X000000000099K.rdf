@@ -4,15 +4,15 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:45X000000000099K</dcterms:identifier>
-    <skos:prefLabel>Alipes Energy ApS</skos:prefLabel>
+    <skos:prefLabel>Energetick ApS</skos:prefLabel>
     <skos:altLabel>ALPSENERGY</skos:altLabel>
     <cim:IdentifiedObject.mRID>45X000000000099K</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Alipes Energy ApS</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>Energetick ApS</cim:IdentifiedObject.name>
     <cim:Names.name>ALPSENERGY</cim:Names.name>
     <cim:Names.name>DK42643785</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2021-10-08</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-20</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DK42643785</schema:vatID>

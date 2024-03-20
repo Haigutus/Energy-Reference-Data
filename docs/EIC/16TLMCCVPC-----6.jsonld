@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLMCCVPC-----6",
     "@skos:prefLabel": "Macedo De Cavaleiros - Valpacos 220",
-    "@skos:altLabel": "LMCC.VPC",
+    "@skos:altLabel": "LMCC_VPC",
     "@cim:IdentifiedObject.mRID": "16TLMCCVPC-----6",
     "@cim:IdentifiedObject.name": "Macedo De Cavaleiros - Valpacos 220",
     "@cim:Names.name": [
-        "LMCC.VPC",
+        "LMCC_VPC",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -7,11 +7,11 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2023-02-09" ;
+    cim:DateAndOrTime.date "2023-10-10" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "49X000000000075B" ;
     cim:IdentifiedObject.name "Jump Trading Europe B.V." ;
-    cim:Names.name "Capacity Trader",
+    cim:Names.name "Balance Responsible Party",
         "JUMP_TRADING_EU",
         "NL858513869B01" ;
     dcterms:identifier "urn:eic:49X000000000075B" ;

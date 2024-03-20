@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Nordic-RSC Application platform (Test)",
     "@cim:Names.name": [
         "N-RSCTEST",
-        "Location",
-        "IT-system"
+        "IT-system",
+        "Location"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

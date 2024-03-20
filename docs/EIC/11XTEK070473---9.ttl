@@ -7,12 +7,11 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2023-05-11" ;
-    cim:Document.docStatus "A05" ;
+    cim:DateAndOrTime.date "2023-09-26" ;
+    cim:Document.docStatus "A03" ;
     cim:IdentifiedObject.mRID "11XTEK070473---9" ;
     cim:IdentifiedObject.name "TÜRK ELEKTRIK KURUMU AG" ;
-    cim:Names.name "Balance Responsible Party",
-        "DE280036677",
+    cim:Names.name "DE280036677",
         "TEK" ;
     dcterms:identifier "urn:eic:11XTEK070473---9" ;
     schema1:vatID "DE280036677" ;

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLRRVM2ED----H",
     "@skos:prefLabel": "Recarei - Vermoim 2 - Ermesinde 220",
-    "@skos:altLabel": "LRR.VM2/ED",
+    "@skos:altLabel": "LRR_VM2_ED",
     "@cim:IdentifiedObject.mRID": "16TLRRVM2ED----H",
     "@cim:IdentifiedObject.name": "Recarei - Vermoim 2 - Ermesinde 220",
     "@cim:Names.name": [
-        "LRR.VM2/ED",
+        "LRR_VM2_ED",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "FLOGAS-NAT-GAS2",
         "IE4530571M",
-        "Energy Supplier",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Energy Supplier"
     ],
     "@cim:IdentifiedObject.description": "Balance Supplier, Capacity Trader",
     "@cim:Document.docStatus": "A05",

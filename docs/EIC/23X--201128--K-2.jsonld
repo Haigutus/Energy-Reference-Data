@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "KEDS",
         "600678471",
-        "Storage System Operator",
-        "Distribution System Operator"
+        "Distribution System Operator",
+        "Storage System Operator"
     ],
     "@cim:IdentifiedObject.description": "Certificate of national VAT number from Tax Administration of Kosovo submitted. EU VAT ID not available, because Kosovo is not member of EU. Company registration number: 810799364",
     "@cim:Document.docStatus": "A05",

@@ -23,10 +23,10 @@
     "@cim:Names.name": [
         "ANTIX_ME",
         "03028364",
-        "Trade Responsible Party",
         "Consumer",
-        "Energy Supplier",
         "Balance Responsible Party",
+        "Trade Responsible Party",
+        "Energy Supplier",
         "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Balance Supplier, Capacity Trader, Consumer, Trade Responsible Party",

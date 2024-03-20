@@ -12,24 +12,24 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:37X000000000125V",
-    "@skos:prefLabel": "BMS Biomethan Schwaigern GmbH",
-    "@skos:altLabel": "BMS_BIOMETHAN_SC",
+    "@skos:prefLabel": "Biomethan Feldberg GmbH",
+    "@skos:altLabel": "BIOMETHAN_FELDBE",
     "@skos:definition": {
         "@language": "en",
         "@value": "Balance Responsible Party"
     },
     "@cim:IdentifiedObject.mRID": "37X000000000125V",
-    "@cim:IdentifiedObject.name": "BMS Biomethan Schwaigern GmbH",
+    "@cim:IdentifiedObject.name": "Biomethan Feldberg GmbH",
     "@cim:Names.name": [
-        "BMS_BIOMETHAN_SC",
-        "DE287468505",
+        "BIOMETHAN_FELDBE",
+        "DE309925457",
         "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-09-20",
-    "@schema:vatID": "DE287468505",
+    "@cim:DateAndOrTime.date": "2023-10-10",
+    "@schema:vatID": "DE309925457",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

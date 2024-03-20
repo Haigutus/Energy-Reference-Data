@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "56X930000000410A" ;
     cim:IdentifiedObject.name "\"GK Investservis\" LLC." ;
-    cim:Names.name "GK.INVESTSERVIS",
+    cim:Names.name "GK_INVESTSERVIS",
         "Network User",
         "UA389838716013" ;
     dcterms:identifier "urn:eic:56X930000000410A" ;
     schema1:vatID "UA389838716013" ;
-    skos:altLabel "GK.INVESTSERVIS" ;
+    skos:altLabel "GK_INVESTSERVIS" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "\"GK Investservis\" LLC." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Energieversorger" ;
     cim:IdentifiedObject.mRID "12XAEW-ENERGIE-E" ;
     cim:IdentifiedObject.name "AEW Energie AG" ;
     cim:Names.name "AEW",
         "CH471532",
-        "Valid EIC Function needed" ;
+        "Capacity Trader" ;
     dcterms:identifier "urn:eic:12XAEW-ENERGIE-E" ;
     schema1:vatID "CH471532" ;
     skos:altLabel "AEW" ;

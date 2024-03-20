@@ -1,7 +1,11 @@
 
 <!DOCTYPE html>
-<html>
+<html xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
+    <link rel="alternate" type="application/rdf+xml" href="../Confidentiality.rdf" title="RDF/XML" />
+    <link rel="alternate" type="application/ld+json" href="../Confidentiality.jsonld" title="JSON-LD" />
+    <link rel="alternate" type="text/turtle" href="../Confidentiality.ttl" title="Turtle" />
+  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
     <script>
@@ -14,7 +18,7 @@
 
     <!-- Metadata Section -->
     <meta charset="UTF-8">
-    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <title>Confidentiality SKOS Concept Scheme</title>
     <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
     <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
     <meta name="robots" content="index,follow">
@@ -100,19 +104,19 @@
     <main>
       <table>
         <thead>
-          <tr>
-            <th>Label</th>
-            <th>Definition</th>           
-            <th>Identifier</th>
+          <tr typeof="skos:Concept">
+            <th property="skos:prefLabel">Label</th>
+            <th property="skos:definition" lang="en">Definition</th>           
+            <th property="dcterms:identifier">Identifier</th>
             <th>Serialisation</th>
           </tr>
         </thead>
         <tbody>
           
-<tr>
-    <td><a href="http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab.rdf">OPDE Secret</a></td>
-    <td>OPDE Secret</td>
-    <td>urn:uuid:ec8c443e-edab-4256-80b2-4a7824f754ab</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab.rdf">OPDE Secret</a></td>
+    <td property="skos:definition" lang="en">OPDE Secret</td>
+    <td property="dcterms:identifier">urn:uuid:ec8c443e-edab-4256-80b2-4a7824f754ab</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/Confidentiality/ec8c443e-edab-4256-80b2-4a7824f754ab.jsonld">JSON-LD</a><br>
@@ -120,10 +124,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/Confidentiality/4cd9b326-1275-4da7-9724-28c5e1deeb87.rdf">OPDE Confidential</a></td>
-    <td>OPDE Confidential</td>
-    <td>urn:uuid:4cd9b326-1275-4da7-9724-28c5e1deeb87</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/Confidentiality/4cd9b326-1275-4da7-9724-28c5e1deeb87.rdf">OPDE Confidential</a></td>
+    <td property="skos:definition" lang="en">OPDE Confidential</td>
+    <td property="dcterms:identifier">urn:uuid:4cd9b326-1275-4da7-9724-28c5e1deeb87</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/Confidentiality/4cd9b326-1275-4da7-9724-28c5e1deeb87.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/Confidentiality/4cd9b326-1275-4da7-9724-28c5e1deeb87.jsonld">JSON-LD</a><br>
@@ -131,10 +135,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c.rdf">OPC/STA Confidential</a></td>
-    <td>OPC/STA Confidential</td>
-    <td>urn:uuid:251e7f88-dbd3-48e0-aea6-669f8cd67e8c</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c.rdf">OPC/STA Confidential</a></td>
+    <td property="skos:definition" lang="en">OPC/STA Confidential</td>
+    <td property="dcterms:identifier">urn:uuid:251e7f88-dbd3-48e0-aea6-669f8cd67e8c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/Confidentiality/251e7f88-dbd3-48e0-aea6-669f8cd67e8c.jsonld">JSON-LD</a><br>
@@ -142,10 +146,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90.rdf">Public</a></td>
-    <td>Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.</td>
-    <td>urn:uuid:0080531c-fa18-4d51-8832-4bcbced77c90</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90.rdf">Public</a></td>
+    <td property="skos:definition" lang="en">Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.</td>
+    <td property="dcterms:identifier">urn:uuid:0080531c-fa18-4d51-8832-4bcbced77c90</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/Confidentiality/0080531c-fa18-4d51-8832-4bcbced77c90.jsonld">JSON-LD</a><br>
@@ -153,10 +157,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/Confidentiality/ef58471e-08a0-4c8b-b488-3e5ef4a21422.rdf">Restricted</a></td>
-    <td>Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released.</td>
-    <td>urn:uuid:ef58471e-08a0-4c8b-b488-3e5ef4a21422</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/Confidentiality/ef58471e-08a0-4c8b-b488-3e5ef4a21422.rdf">Restricted</a></td>
+    <td property="skos:definition" lang="en">Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released.</td>
+    <td property="dcterms:identifier">urn:uuid:ef58471e-08a0-4c8b-b488-3e5ef4a21422</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/Confidentiality/ef58471e-08a0-4c8b-b488-3e5ef4a21422.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/Confidentiality/ef58471e-08a0-4c8b-b488-3e5ef4a21422.jsonld">JSON-LD</a><br>
@@ -164,10 +168,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/Confidentiality/51378918-8ef6-4cce-9711-4af4539f1ef5.rdf">Confidential</a></td>
-    <td>Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade.</td>
-    <td>urn:uuid:51378918-8ef6-4cce-9711-4af4539f1ef5</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/Confidentiality/51378918-8ef6-4cce-9711-4af4539f1ef5.rdf">Confidential</a></td>
+    <td property="skos:definition" lang="en">Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade.</td>
+    <td property="dcterms:identifier">urn:uuid:51378918-8ef6-4cce-9711-4af4539f1ef5</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/Confidentiality/51378918-8ef6-4cce-9711-4af4539f1ef5.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/Confidentiality/51378918-8ef6-4cce-9711-4af4539f1ef5.jsonld">JSON-LD</a><br>
@@ -175,10 +179,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/Confidentiality/c28079e4-02ba-4a08-9093-8247ebe57f21.rdf">Sensitive</a></td>
-    <td>Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information.</td>
-    <td>urn:uuid:c28079e4-02ba-4a08-9093-8247ebe57f21</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/Confidentiality/c28079e4-02ba-4a08-9093-8247ebe57f21.rdf">Sensitive</a></td>
+    <td property="skos:definition" lang="en">Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information.</td>
+    <td property="dcterms:identifier">urn:uuid:c28079e4-02ba-4a08-9093-8247ebe57f21</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/Confidentiality/c28079e4-02ba-4a08-9093-8247ebe57f21.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/Confidentiality/c28079e4-02ba-4a08-9093-8247ebe57f21.jsonld">JSON-LD</a><br>
@@ -186,7 +190,7 @@
     </td>      
 </tr>
 
-          <!-- Add more rows for each concept scheme -->
+          <!-- Add more rows for each concept -->
         </tbody>
       </table>
     </main>

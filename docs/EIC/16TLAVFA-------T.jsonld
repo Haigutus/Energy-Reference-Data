@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLAVFA-------T",
     "@skos:prefLabel": "Alqueva-Ferreira do Alentejo",
-    "@skos:altLabel": "LAV.FA",
+    "@skos:altLabel": "LAV_FA",
     "@cim:IdentifiedObject.mRID": "16TLAVFA-------T",
     "@cim:IdentifiedObject.name": "Alqueva-Ferreira do Alentejo",
     "@cim:Names.name": [
-        "LAV.FA",
+        "LAV_FA",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

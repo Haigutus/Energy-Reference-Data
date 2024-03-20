@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLALRA2------W",
     "@skos:prefLabel": "Alto Lindoso-Riba d'Ave 2",
-    "@skos:altLabel": "LAL.RA2",
+    "@skos:altLabel": "LAL_RA2",
     "@cim:IdentifiedObject.mRID": "16TLALRA2------W",
     "@cim:IdentifiedObject.name": "Alto Lindoso-Riba d'Ave 2",
     "@cim:Names.name": [
-        "LAL.RA2",
+        "LAL_RA2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

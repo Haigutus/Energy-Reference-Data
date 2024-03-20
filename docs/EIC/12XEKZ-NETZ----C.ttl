@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Verteilnetzbetreiber Im Kanton Zã¼Rich Und Angrenzender Gebiete" ;
     cim:IdentifiedObject.mRID "12XEKZ-NETZ----C" ;
     cim:IdentifiedObject.name "ElektrizitÃ¤tswerke des Kantons ZÃ¼rich" ;
     cim:Names.name "CH231013",
         "EKZ-NETZ",
-        "Valid EIC Function needed" ;
+        "Grid Operator" ;
     dcterms:identifier "urn:eic:12XEKZ-NETZ----C" ;
     schema1:vatID "CH231013" ;
     skos:altLabel "EKZ-NETZ" ;

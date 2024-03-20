@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "PREMIER-ENERGY",
         "RO20914495",
-        "Network User",
+        "Resource Provider",
         "Distribution System Operator",
-        "Resource Provider"
+        "Network User"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

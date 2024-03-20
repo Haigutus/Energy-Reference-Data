@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLVMPDV2-----R" ;
     cim:IdentifiedObject.name "Vieira do Minho-Pedralva 2" ;
     cim:Names.name "Internal Line",
-        "LVM.PDV2" ;
+        "LVM_PDV2" ;
     dcterms:identifier "urn:eic:16TLVMPDV2-----R" ;
-    skos:altLabel "LVM.PDV2" ;
+    skos:altLabel "LVM_PDV2" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Vieira do Minho-Pedralva 2" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

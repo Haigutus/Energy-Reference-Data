@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Regionales Energieversorgungsunternehmen (Elektrizitã¤T, Erdgas, Fernwã¤Rme Und Trinkwasser Mit Umfassendem Dienstleisstungsangebot)" ;
     cim:IdentifiedObject.mRID "12XRWB---------M" ;
     cim:IdentifiedObject.name "Regionalwerke AG Baden" ;
     cim:Names.name "CH472312",
-        "RWB",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "RWB" ;
     dcterms:identifier "urn:eic:12XRWB---------M" ;
     schema1:vatID "CH472312" ;
     skos:altLabel "RWB" ;

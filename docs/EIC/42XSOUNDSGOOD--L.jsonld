@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:42XSOUNDSGOOD--L",
     "@skos:prefLabel": "Sounds good s.r.o",
-    "@skos:altLabel": "SOUNDSGOOD,S.R.O",
+    "@skos:altLabel": "SOUNDSGOOD_S_R_O",
     "@cim:IdentifiedObject.mRID": "42XSOUNDSGOOD--L",
     "@cim:IdentifiedObject.name": "Sounds good s.r.o",
     "@cim:Names.name": [
-        "SOUNDSGOOD,S.R.O",
+        "SOUNDSGOOD_S_R_O",
         "SK2022553049",
         "Capacity Trader"
     ],

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X930000122400L> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-10-24" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Contact persone: Svitlana Sobol +380668775417 tenlait-tov@ukr.net" ;
+    cim:IdentifiedObject.mRID "56X930000122400L" ;
+    cim:IdentifiedObject.name "\"TENLAIT\" Limited Liability Company" ;
+    cim:Names.name "450579213055",
+        "Network User",
+        "TENLAIT_LLC",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X930000122400L" ;
+    schema1:vatID "450579213055" ;
+    skos:altLabel "TENLAIT_LLC" ;
+    skos:definition "Contact persone: Svitlana Sobol +380668775417 tenlait-tov@ukr.net"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "\"TENLAIT\" Limited Liability Company" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

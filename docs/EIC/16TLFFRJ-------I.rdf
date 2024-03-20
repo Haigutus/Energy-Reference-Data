@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLFFRJ-------I</dcterms:identifier>
     <skos:prefLabel>Fern&#227;o Ferro-Ribatejo</skos:prefLabel>
-    <skos:altLabel>LFF.RJ</skos:altLabel>
+    <skos:altLabel>LFF_RJ</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLFFRJ-------I</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Fern&#227;o Ferro-Ribatejo</cim:IdentifiedObject.name>
-    <cim:Names.name>LFF.RJ</cim:Names.name>
+    <cim:Names.name>LFF_RJ</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

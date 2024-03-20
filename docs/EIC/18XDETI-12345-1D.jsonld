@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "CGYE",
         "ESA28142552",
-        "Trade Responsible Party",
+        "Production Responsible party",
         "Interconnection Trade Responsible",
-        "Production Responsible party"
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

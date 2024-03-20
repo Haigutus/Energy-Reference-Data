@@ -19,12 +19,12 @@
     "@cim:Names.name": [
         "PGE_GIEK_SA",
         "PL7690502495",
-        "Energy Supplier",
-        "Metered Data Responsible",
-        "Producer",
         "Balance Responsible Party",
-        "System Operator",
+        "Energy Supplier",
+        "Producer",
         "Meter Administrator",
+        "System Operator",
+        "Metered Data Responsible",
         "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",

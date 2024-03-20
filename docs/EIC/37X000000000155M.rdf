@@ -12,10 +12,9 @@
     <cim:Names.name>NIMEX_ENERGIE_GM</cim:Names.name>
     <cim:Names.name>DE350368668</cim:Names.name>
     <cim:IdentifiedObject.description>Capacity Trader</cim:IdentifiedObject.description>
-    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:Document.docStatus>A03</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2022-04-28</cim:DateAndOrTime.date>
-    <cim:Names.name>Capacity Trader</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-08-23</cim:DateAndOrTime.date>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE350368668</schema:vatID>
   </skos:Concept>

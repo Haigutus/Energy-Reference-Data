@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "59Z35167701OOOOX" ;
     cim:IdentifiedObject.name "Larino (SGI)" ;
-    cim:Names.name "LARINO(SGI)",
+    cim:Names.name "LARINO_SGI_",
         "Metering Point" ;
     dcterms:identifier "urn:eic:59Z35167701OOOOX" ;
-    skos:altLabel "LARINO(SGI)" ;
+    skos:altLabel "LARINO_SGI_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Larino (SGI)" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

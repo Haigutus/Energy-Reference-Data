@@ -1,7 +1,11 @@
 
 <!DOCTYPE html>
-<html>
+<html xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
+    <link rel="alternate" type="application/rdf+xml" href="../StandardEicTypeList.rdf" title="RDF/XML" />
+    <link rel="alternate" type="application/ld+json" href="../StandardEicTypeList.jsonld" title="JSON-LD" />
+    <link rel="alternate" type="text/turtle" href="../StandardEicTypeList.ttl" title="Turtle" />
+  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
     <script>
@@ -14,7 +18,7 @@
 
     <!-- Metadata Section -->
     <meta charset="UTF-8">
-    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <title>StandardEicTypeList SKOS Concept Scheme</title>
     <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
     <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
     <meta name="robots" content="index,follow">
@@ -100,19 +104,19 @@
     <main>
       <table>
         <thead>
-          <tr>
-            <th>Label</th>
-            <th>Definition</th>           
-            <th>Identifier</th>
+          <tr typeof="skos:Concept">
+            <th property="skos:prefLabel">Label</th>
+            <th property="skos:definition" lang="en">Definition</th>           
+            <th property="dcterms:identifier">Identifier</th>
             <th>Serialisation</th>
           </tr>
         </thead>
         <tbody>
           
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardEicTypeList/A.rdf">Substation</a></td>
-    <td>An EIC code to substations.</td>
-    <td>A</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardEicTypeList/A.rdf">Substation</a></td>
+    <td property="skos:definition" lang="en">An EIC code to substations.</td>
+    <td property="dcterms:identifier">A</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardEicTypeList/A.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardEicTypeList/A.jsonld">JSON-LD</a><br>
@@ -120,10 +124,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardEicTypeList/T.rdf">Tieline</a></td>
-    <td>An EIC code to identify tielines.</td>
-    <td>T</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardEicTypeList/T.rdf">Tieline</a></td>
+    <td property="skos:definition" lang="en">An EIC code to identify tielines.</td>
+    <td property="dcterms:identifier">T</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardEicTypeList/T.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardEicTypeList/T.jsonld">JSON-LD</a><br>
@@ -131,10 +135,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardEicTypeList/V.rdf">Location</a></td>
-    <td>An EIC code to identify locations.</td>
-    <td>V</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardEicTypeList/V.rdf">Location</a></td>
+    <td property="skos:definition" lang="en">An EIC code to identify locations.</td>
+    <td property="dcterms:identifier">V</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardEicTypeList/V.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardEicTypeList/V.jsonld">JSON-LD</a><br>
@@ -142,10 +146,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardEicTypeList/W.rdf">Resource Object</a></td>
-    <td>An EIC code to identify resource objects.</td>
-    <td>W</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardEicTypeList/W.rdf">Resource Object</a></td>
+    <td property="skos:definition" lang="en">An EIC code to identify resource objects.</td>
+    <td property="dcterms:identifier">W</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardEicTypeList/W.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardEicTypeList/W.jsonld">JSON-LD</a><br>
@@ -153,10 +157,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardEicTypeList/X.rdf">Party</a></td>
-    <td>An EIC code to identify parties.</td>
-    <td>X</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardEicTypeList/X.rdf">Party</a></td>
+    <td property="skos:definition" lang="en">An EIC code to identify parties.</td>
+    <td property="dcterms:identifier">X</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardEicTypeList/X.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardEicTypeList/X.jsonld">JSON-LD</a><br>
@@ -164,10 +168,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardEicTypeList/Y.rdf">Area or Domain</a></td>
-    <td>An EIC code to identify areas or domains.</td>
-    <td>Y</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardEicTypeList/Y.rdf">Area or Domain</a></td>
+    <td property="skos:definition" lang="en">An EIC code to identify areas or domains.</td>
+    <td property="dcterms:identifier">Y</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardEicTypeList/Y.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardEicTypeList/Y.jsonld">JSON-LD</a><br>
@@ -175,10 +179,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/StandardEicTypeList/Z.rdf">Measurement point</a></td>
-    <td>An EIC code to identify measurement points.</td>
-    <td>Z</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/StandardEicTypeList/Z.rdf">Measurement point</a></td>
+    <td property="skos:definition" lang="en">An EIC code to identify measurement points.</td>
+    <td property="dcterms:identifier">Z</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/StandardEicTypeList/Z.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/StandardEicTypeList/Z.jsonld">JSON-LD</a><br>
@@ -186,7 +190,7 @@
     </td>      
 </tr>
 
-          <!-- Add more rows for each concept scheme -->
+          <!-- Add more rows for each concept -->
         </tbody>
       </table>
     </main>

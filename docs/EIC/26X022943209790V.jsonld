@@ -18,13 +18,12 @@
     "@cim:IdentifiedObject.name": "NWG ENERGIA SPA SB",
     "@cim:Names.name": [
         "IT-NWGENERGIASPA",
-        "A0010759U.IT",
         "IT02294320979",
         "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-05-04",
+    "@cim:DateAndOrTime.date": "2023-10-19",
     "@schema:vatID": "IT02294320979",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

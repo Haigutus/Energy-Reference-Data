@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "ESV_METALCHEM",
         "PL7542783918",
-        "Energy Supplier",
-        "System Operator",
-        "Grid Access Provider",
         "Meter Administrator",
-        "Metered Data Responsible"
+        "Metered Data Responsible",
+        "Grid Access Provider",
+        "Energy Supplier",
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

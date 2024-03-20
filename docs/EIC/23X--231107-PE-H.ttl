@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--231107-PE-H> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-11-08" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "PRISM Energy International Pte. Ltd. registered in Singapore. Company registration number confirmed with certificate of ACRA: 201103864M " ;
+    cim:IdentifiedObject.mRID "23X--231107-PE-H" ;
+    cim:IdentifiedObject.name "PRISM Energy International Pte. Ltd." ;
+    cim:Names.name "201103864M",
+        "A0021328G.NL",
+        "PRISM_ENERGY_INT",
+        "Resource Provider" ;
+    dcterms:identifier "urn:eic:23X--231107-PE-H" ;
+    schema1:vatID "201103864M" ;
+    skos:altLabel "PRISM_ENERGY_INT" ;
+    skos:definition "PRISM Energy International Pte. Ltd. registered in Singapore. Company registration number confirmed with certificate of ACRA: 201103864M "@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "PRISM Energy International Pte. Ltd." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

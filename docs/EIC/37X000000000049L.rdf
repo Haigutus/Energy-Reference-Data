@@ -6,17 +6,16 @@
     <dcterms:identifier>urn:eic:37X000000000049L</dcterms:identifier>
     <skos:prefLabel>Enovos Storage GmbH</skos:prefLabel>
     <skos:altLabel>ENOVOS_STOR</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Supplier</skos:definition>
+    <skos:definition xml:lang="en">Balance Group Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>37X000000000049L</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Enovos Storage GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>ENOVOS_STOR</cim:Names.name>
     <cim:Names.name>DE289809542</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Supplier</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Balance Group Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2019-01-25</cim:DateAndOrTime.date>
-    <cim:Names.name>Storage System Operator</cim:Names.name>
-    <cim:Names.name>Energy Supplier</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-10-10</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Group Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE289809542</schema:vatID>
   </skos:Concept>

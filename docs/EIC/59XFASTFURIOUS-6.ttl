@@ -12,11 +12,11 @@
     cim:IdentifiedObject.mRID "59XFASTFURIOUS-6" ;
     cim:IdentifiedObject.name "FAST&FURIOUS SRL" ;
     cim:Names.name "Capacity Trader",
-        "FAST&FURIOUSSRL",
+        "FAST_FURIOUSSRL",
         "IT01686870336" ;
     dcterms:identifier "urn:eic:59XFASTFURIOUS-6" ;
     schema1:vatID "IT01686870336" ;
-    skos:altLabel "FAST&FURIOUSSRL" ;
+    skos:altLabel "FAST_FURIOUSSRL" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "FAST&FURIOUS SRL" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

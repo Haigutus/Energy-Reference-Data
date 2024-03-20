@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "59Z500037010000T" ;
     cim:IdentifiedObject.name "Pineto (SGI)" ;
     cim:Names.name "Metering Point",
-        "PINETO(SGI)" ;
+        "PINETO_SGI_" ;
     dcterms:identifier "urn:eic:59Z500037010000T" ;
-    skos:altLabel "PINETO(SGI)" ;
+    skos:altLabel "PINETO_SGI_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Pineto (SGI)" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -7,17 +7,17 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-07-21" ;
+    cim:DateAndOrTime.date "2023-10-30" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "59XERGPWR202299U" ;
-    cim:IdentifiedObject.name "ERG POWER SRL" ;
-    cim:Names.name "Balance Responsible Party",
-        "ERGPOWERSRL",
-        "IT01669090894" ;
+    cim:IdentifiedObject.name "B2G SICILY SRL" ;
+    cim:Names.name "B2GSICILYSRL",
+        "IT01669090894",
+        "Market Operator" ;
     dcterms:identifier "urn:eic:59XERGPWR202299U" ;
     schema1:vatID "IT01669090894" ;
-    skos:altLabel "ERGPOWERSRL" ;
+    skos:altLabel "B2GSICILYSRL" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "ERG POWER SRL" ;
+    skos:prefLabel "B2G SICILY SRL" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

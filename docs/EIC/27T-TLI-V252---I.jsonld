@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V252---I",
     "@skos:prefLabel": "CEPS_V252 Prosenice-Sokolnice",
-    "@skos:altLabel": "CPRN__2*CSOK__2",
+    "@skos:altLabel": "CPRN__2_CSOK__2",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V252---I",
     "@cim:IdentifiedObject.name": "CEPS_V252 Prosenice-Sokolnice",
     "@cim:Names.name": [
-        "CPRN__2*CSOK__2",
+        "CPRN__2_CSOK__2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

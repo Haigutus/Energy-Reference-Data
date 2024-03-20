@@ -11,7 +11,7 @@
     "@skos:prefLabel": "Reconciliation Accountable",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.\nA party that is financially accountable for the reconciled volume of energy products for a profiled local metering point."
+        "@value": "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. \nA party that is financially accountable for the reconciled volume of energy products for a profiled local metering point."
     },
     "@context": {
         "@cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",

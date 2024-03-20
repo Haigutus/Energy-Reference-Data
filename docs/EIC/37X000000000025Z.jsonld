@@ -13,7 +13,7 @@
     },
     "@dcterms:identifier": "urn:eic:37X000000000025Z",
     "@skos:prefLabel": "Dörrenberg Edelstahl GmbH",
-    "@skos:altLabel": "DOERRENBERG_EDEL",
+    "@skos:altLabel": "DOERRENB_EDEL",
     "@skos:definition": {
         "@language": "en",
         "@value": "Consumer"
@@ -21,14 +21,14 @@
     "@cim:IdentifiedObject.mRID": "37X000000000025Z",
     "@cim:IdentifiedObject.name": "Dörrenberg Edelstahl GmbH",
     "@cim:Names.name": [
-        "DOERRENBERG_EDEL",
+        "DOERRENB_EDEL",
         "DE122535903",
         "Consumer"
     ],
     "@cim:IdentifiedObject.description": "Consumer",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2015-11-06",
+    "@cim:DateAndOrTime.date": "2023-10-10",
     "@schema:vatID": "DE122535903",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

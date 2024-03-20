@@ -20,8 +20,8 @@
         "XTE",
         "UA033565722257",
         "Production Responsible party",
-        "Network User",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Network User"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

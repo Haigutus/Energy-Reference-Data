@@ -20,12 +20,12 @@
         "OSDN-BAILDON",
         "A0014791C.PL",
         "PL6270011873",
-        "System Operator",
         "Meter Administrator",
-        "Metered Data Responsible",
+        "System Operator",
         "Consumer",
+        "Energy Supplier",
         "Grid Access Provider",
-        "Energy Supplier"
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

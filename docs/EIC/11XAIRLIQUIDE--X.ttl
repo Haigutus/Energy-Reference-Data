@@ -7,9 +7,8 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-05-19" ;
+    cim:DateAndOrTime.date "2023-11-15" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "VAT was wrong" ;
     cim:IdentifiedObject.mRID "11XAIRLIQUIDE--X" ;
     cim:IdentifiedObject.name "AIR LIQUIDE Deutschland GmbH" ;
     cim:Names.name "AIR-LIQUIDE",
@@ -18,7 +17,6 @@
     dcterms:identifier "urn:eic:11XAIRLIQUIDE--X" ;
     schema1:vatID "DE121289819" ;
     skos:altLabel "AIR-LIQUIDE" ;
-    skos:definition "VAT was wrong"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "AIR LIQUIDE Deutschland GmbH" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/19XWSBPWKEPNOPLF> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-12-07" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "19XWSBPWKEPNOPLF" ;
+    cim:IdentifiedObject.name "WSB PARK WIATROWY KĘPNO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    cim:Names.name "Balance Responsible Party",
+        "Consumer",
+        "Energy Supplier",
+        "PL7792351143",
+        "Producer",
+        "WSB_PW_KEPNO" ;
+    dcterms:identifier "urn:eic:19XWSBPWKEPNOPLF" ;
+    schema1:vatID "PL7792351143" ;
+    skos:altLabel "WSB_PW_KEPNO" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "WSB PARK WIATROWY KĘPNO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

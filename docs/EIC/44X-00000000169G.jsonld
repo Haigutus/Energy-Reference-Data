@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "44AANEVERKKO",
         "FI10074337",
-        "Trade Responsible Party",
-        "Producer"
+        "Producer",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

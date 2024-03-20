@@ -19,11 +19,12 @@
     "@cim:Names.name": [
         "IT-RENANTISENERG",
         "IT07958400967",
-        "Trade Responsible Party"
+        "Capacity Trader",
+        "Grid Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-01-31",
+    "@cim:DateAndOrTime.date": "2023-11-06",
     "@schema:vatID": "IT07958400967",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -18,9 +18,9 @@
     "@cim:IdentifiedObject.name": "UGS Xanten-RWEGSWEST",
     "@cim:Names.name": [
         "XANTEN-RWEGSW",
-        "Storage Plant",
         "Gas Storage Facility",
-        "Resource Object"
+        "Resource Object",
+        "Storage Plant"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

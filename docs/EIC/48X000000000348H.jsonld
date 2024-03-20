@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "TORUSQRT",
         "RC361986",
-        "Capacity Trader",
         "Balance Responsible Party",
-        "Trade Responsible Party"
+        "Trade Responsible Party",
+        "Capacity Trader"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -1,7 +1,11 @@
 
 <!DOCTYPE html>
-<html>
+<html xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
   <head>
+    <link rel="alternate" type="application/rdf+xml" href="../PropertyReference.rdf" title="RDF/XML" />
+    <link rel="alternate" type="application/ld+json" href="../PropertyReference.jsonld" title="JSON-LD" />
+    <link rel="alternate" type="text/turtle" href="../PropertyReference.ttl" title="Turtle" />
+  
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1R5VF4NBS"></script>
     <script>
@@ -14,7 +18,7 @@
 
     <!-- Metadata Section -->
     <meta charset="UTF-8">
-    <title>Energy Reference Data SKOS Concept Schemes</title>
+    <title>PropertyReference SKOS Concept Scheme</title>
     <meta name="description" content="This project aims to create common reference data for energy-related business processes using SKOS, DCAT, and CIM.">
     <meta name="keywords" content="reference data, energy, SKOS, DCAT, CIM, rdf, cim, dcat, skos, entso-e, codelists, EIC, CGMES, meter reading">
     <meta name="robots" content="index,follow">
@@ -100,19 +104,19 @@
     <main>
       <table>
         <thead>
-          <tr>
-            <th>Label</th>
-            <th>Definition</th>           
-            <th>Identifier</th>
+          <tr typeof="skos:Concept">
+            <th property="skos:prefLabel">Label</th>
+            <th property="skos:definition" lang="en">Definition</th>           
+            <th property="dcterms:identifier">Identifier</th>
             <th>Serialisation</th>
           </tr>
         </thead>
         <tbody>
           
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.operatingMode.rdf">SynchronousMachine.operatingMode</a></td>
-    <td>Current mode of operation.</td>
-    <td>urn:uuid:1d3bb064-b765-4d06-992a-70f1ce3d0bd4</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.operatingMode.rdf">SynchronousMachine.operatingMode</a></td>
+    <td property="skos:definition" lang="en">Current mode of operation.</td>
+    <td property="dcterms:identifier">urn:uuid:1d3bb064-b765-4d06-992a-70f1ce3d0bd4</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.operatingMode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.operatingMode.jsonld">JSON-LD</a><br>
@@ -120,10 +124,10 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.qPccControl.rdf">VsConverter.qPccControl</a></td>
-    <td>Kind of reactive power control.</td>
-    <td>urn:uuid:1f9a5f62-20b4-4b23-be8c-66117b6bf99e</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.qPccControl.rdf">VsConverter.qPccControl</a></td>
+    <td property="skos:definition" lang="en">Kind of reactive power control.</td>
+    <td property="dcterms:identifier">urn:uuid:1f9a5f62-20b4-4b23-be8c-66117b6bf99e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.qPccControl.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.qPccControl.jsonld">JSON-LD</a><br>
@@ -131,11 +135,11 @@
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetDeadband.rdf">RegulatingControl.targetDeadband</a></td>
-    <td>This is a deadband used with discrete control to avoid excessive update of controls like tap changers and shunt compensator banks while regulating.  The units of those appropriate for the mode. The attribute shall be a positive value or zero. If RegulatingControl.discrete is set to \"false\", the RegulatingControl.targetDeadband is to be ignored.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetDeadband.rdf">RegulatingControl.targetDeadband</a></td>
+    <td property="skos:definition" lang="en">This is a deadband used with discrete control to avoid excessive update of controls like tap changers and shunt compensator banks while regulating.  The units of those appropriate for the mode. The attribute shall be a positive value or zero. If RegulatingControl.discrete is set to \"false\", the RegulatingControl.targetDeadband is to be ignored.
 Note that for instance, if the targetValue is 100 kV and the targetDeadband is 2 kV the range is from 99 to 101 kV.</td>
-    <td>urn:uuid:6583abb6-e1ea-4405-bc25-c4d4dfad175e</td> 
+    <td property="dcterms:identifier">urn:uuid:6583abb6-e1ea-4405-bc25-c4d4dfad175e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetDeadband.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetDeadband.jsonld">JSON-LD</a><br>
@@ -143,11 +147,11 @@ Note that for instance, if the targetValue is 100 kV and the targetDeadband is 2
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.p.rdf">ExternalNetworkInjection.p</a></td>
-    <td>Active power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.p.rdf">ExternalNetworkInjection.p</a></td>
+    <td property="skos:definition" lang="en">Active power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for steady state solutions.</td>
-    <td>urn:uuid:067fdc37-ec07-4197-b329-d986eef6bd70</td> 
+    <td property="dcterms:identifier">urn:uuid:067fdc37-ec07-4197-b329-d986eef6bd70</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.p.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.p.jsonld">JSON-LD</a><br>
@@ -155,10 +159,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/Switch.open.rdf">Switch.open</a></td>
-    <td>The attribute tells if the switch is considered open when used as input to topology processing.</td>
-    <td>urn:uuid:b281f8d6-257c-409f-900b-0aa3d39783c4</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/Switch.open.rdf">Switch.open</a></td>
+    <td property="skos:definition" lang="en">The attribute tells if the switch is considered open when used as input to topology processing.</td>
+    <td property="dcterms:identifier">urn:uuid:b281f8d6-257c-409f-900b-0aa3d39783c4</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/Switch.open.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/Switch.open.jsonld">JSON-LD</a><br>
@@ -166,10 +170,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.maxAllowedTargetValue.rdf">RegulatingControl.maxAllowedTargetValue</a></td>
-    <td>Maximum allowed target value (RegulatingControl.targetValue).</td>
-    <td>urn:uuid:f7d196c2-a20d-4cc6-a3e3-464474896028</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.maxAllowedTargetValue.rdf">RegulatingControl.maxAllowedTargetValue</a></td>
+    <td property="skos:definition" lang="en">Maximum allowed target value (RegulatingControl.targetValue).</td>
+    <td property="dcterms:identifier">urn:uuid:f7d196c2-a20d-4cc6-a3e3-464474896028</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.maxAllowedTargetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.maxAllowedTargetValue.jsonld">JSON-LD</a><br>
@@ -177,10 +181,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc.rdf">ACDCConverter.targetPpcc</a></td>
-    <td>Real power injection target in AC grid, at point of common coupling.  Load sign convention is used, i.e. positive sign means flow out from a node.</td>
-    <td>urn:uuid:504dcd38-ebb3-4422-af56-8e72f913c113</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc.rdf">ACDCConverter.targetPpcc</a></td>
+    <td property="skos:definition" lang="en">Real power injection target in AC grid, at point of common coupling.  Load sign convention is used, i.e. positive sign means flow out from a node.</td>
+    <td property="dcterms:identifier">urn:uuid:504dcd38-ebb3-4422-af56-8e72f913c113</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc.jsonld">JSON-LD</a><br>
@@ -188,10 +192,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.regulationStatus.rdf">EquivalentInjection.regulationStatus</a></td>
-    <td>Specifies the regulation status of the EquivalentInjection.  True is regulating.  False is not regulating.</td>
-    <td>urn:uuid:7d6b8fd8-6483-4485-ae43-c70f7350a43c</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.regulationStatus.rdf">EquivalentInjection.regulationStatus</a></td>
+    <td property="skos:definition" lang="en">Specifies the regulation status of the EquivalentInjection.  True is regulating.  False is not regulating.</td>
+    <td property="dcterms:identifier">urn:uuid:7d6b8fd8-6483-4485-ae43-c70f7350a43c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.regulationStatus.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.regulationStatus.jsonld">JSON-LD</a><br>
@@ -199,21 +203,21 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CurrentLimit.value.rdf">CurrentLimit.value</a></td>
-    <td>Limit on current flow. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:0cc39f5e-a2eb-451f-9177-583d1a6b8a37</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CurrentFlow.multiplier.rdf">CurrentFlow.multiplier</a></td>
+    <td property="skos:definition" lang="en">No description defined.</td>
+    <td property="dcterms:identifier">urn:uuid:0cc39f5e-a2eb-451f-9177-583d1a6b8a37</td> 
     <td id="publication-column">
-        <a href="http://energy.referencedata.eu/PropertyReference/CurrentLimit.value.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/PropertyReference/CurrentLimit.value.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/PropertyReference/CurrentLimit.value.ttl">Turtle</a>
+        <a href="http://energy.referencedata.eu/PropertyReference/CurrentFlow.multiplier.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/CurrentFlow.multiplier.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/CurrentFlow.multiplier.ttl">Turtle</a>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetAlpha.rdf">CsConverter.targetAlpha</a></td>
-    <td>Target firing angle. It is converter’s control variable used in power flow. It is only applicable for rectifier if continuous tap changer control is used. Allowed values are within the range minAlpha&lt;=targetAlpha&lt;=maxAlpha. The attribute shall be a positive value.</td>
-    <td>urn:uuid:629f70ca-80fa-4b69-93ea-07c6df7eadee</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetAlpha.rdf">CsConverter.targetAlpha</a></td>
+    <td property="skos:definition" lang="en">Target firing angle. It is converterâ€™s control variable used in power flow. It is only applicable for rectifier if continuous tap changer control is used. Allowed values are within the range minAlpha&lt;=targetAlpha&lt;=maxAlpha. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:629f70ca-80fa-4b69-93ea-07c6df7eadee</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetAlpha.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetAlpha.jsonld">JSON-LD</a><br>
@@ -221,10 +225,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.droop.rdf">VsConverter.droop</a></td>
-    <td>Droop constant. The pu value is obtained as D [kV/MW] x Sb / Ubdc. The attribute shall be a positive value.</td>
-    <td>urn:uuid:228e6333-afac-438e-a6da-32c166c163e9</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.droop.rdf">VsConverter.droop</a></td>
+    <td property="skos:definition" lang="en">Droop constant. The pu value is obtained as D [kV/MW] x Sb / Ubdc. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:228e6333-afac-438e-a6da-32c166c163e9</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.droop.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.droop.jsonld">JSON-LD</a><br>
@@ -232,10 +236,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPWMfactor.rdf">VsConverter.targetPWMfactor</a></td>
-    <td>Magnitude of pulse-modulation factor. The attribute shall be a positive value.</td>
-    <td>urn:uuid:083690bc-6aec-4c6a-80c4-aac3a1abf168</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPWMfactor.rdf">VsConverter.targetPWMfactor</a></td>
+    <td property="skos:definition" lang="en">Magnitude of pulse-modulation factor. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:083690bc-6aec-4c6a-80c4-aac3a1abf168</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPWMfactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPWMfactor.jsonld">JSON-LD</a><br>
@@ -243,12 +247,12 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ShuntCompensator.sections.rdf">ShuntCompensator.sections</a></td>
-    <td>Shunt compensator sections in use. Starting value for steady state solution. The attribute shall be a positive value or zero. Non integer values are allowed to support continuous variables. The reasons for continuous value are to support study cases where no discrete shunt compensators has yet been designed, a solutions where a narrow voltage band force the sections to oscillate or accommodate for a continuous solution as input. 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ShuntCompensator.sections.rdf">ShuntCompensator.sections</a></td>
+    <td property="skos:definition" lang="en">Shunt compensator sections in use. Starting value for steady state solution. The attribute shall be a positive value or zero. Non integer values are allowed to support continuous variables. The reasons for continuous value are to support study cases where no discrete shunt compensators has yet been designed, a solutions where a narrow voltage band force the sections to oscillate or accommodate for a continuous solution as input. 
 For LinearShuntConpensator the value shall be between zero and ShuntCompensator.maximumSections. At value zero the shunt compensator conductance and admittance is zero. Linear interpolation of conductance and admittance between the previous and next integer section is applied in case of non-integer values.
 For NonlinearShuntCompensator-s shall only be set to one of the NonlinearShuntCompenstorPoint.sectionNumber. There is no interpolation between NonlinearShuntCompenstorPoint-s.</td>
-    <td>urn:uuid:a72689cb-9255-4ddd-bfc3-8938a3a4caf5</td> 
+    <td property="dcterms:identifier">urn:uuid:a72689cb-9255-4ddd-bfc3-8938a3a4caf5</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ShuntCompensator.sections.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ShuntCompensator.sections.jsonld">JSON-LD</a><br>
@@ -256,10 +260,10 @@ For NonlinearShuntCompensator-s shall only be set to one of the NonlinearShuntCo
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValue.rdf">RegulatingControl.targetValue</a></td>
-    <td>The target value specified for case input.   This value can be used for the target value without the use of schedules. The value has the units appropriate to the mode attribute.</td>
-    <td>urn:uuid:fac9e9ba-0243-4c55-9059-cd59e641be0c</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValue.rdf">RegulatingControl.targetValue</a></td>
+    <td property="skos:definition" lang="en">The target value specified for case input.   This value can be used for the target value without the use of schedules. The value has the units appropriate to the mode attribute.</td>
+    <td property="dcterms:identifier">urn:uuid:fac9e9ba-0243-4c55-9059-cd59e641be0c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValue.jsonld">JSON-LD</a><br>
@@ -267,15 +271,15 @@ For NonlinearShuntCompensator-s shall only be set to one of the NonlinearShuntCo
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/Switch.locked.rdf">Switch.locked</a></td>
-    <td>If true, the switch is locked. The resulting switch state is a combination of locked and Switch.open attributes as follows:
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/Switch.locked.rdf">Switch.locked</a></td>
+    <td property="skos:definition" lang="en">If true, the switch is locked. The resulting switch state is a combination of locked and Switch.open attributes as follows:
 <ul>
 	<li>locked=true and Switch.open=true. The resulting state is open and locked;</li>
 	<li>locked=false and Switch.open=true. The resulting state is open;</li>
 	<li>locked=false and Switch.open=false. The resulting state is closed.</li>
 </ul></td>
-    <td>urn:uuid:6bf03f76-b5c5-4c63-84b6-eb588a4d01b4</td> 
+    <td property="dcterms:identifier">urn:uuid:6bf03f76-b5c5-4c63-84b6-eb588a4d01b4</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/Switch.locked.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/Switch.locked.jsonld">JSON-LD</a><br>
@@ -283,10 +287,10 @@ For NonlinearShuntCompensator-s shall only be set to one of the NonlinearShuntCo
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.referencePriority.rdf">ExternalNetworkInjection.referencePriority</a></td>
-    <td>Priority of unit for use as powerflow voltage phase angle reference bus selection. 0 = don t care (default) 1 = highest priority. 2 is less than 1 and so on.</td>
-    <td>urn:uuid:ef6edeb3-a63d-4932-8066-6f6568be3833</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.referencePriority.rdf">ExternalNetworkInjection.referencePriority</a></td>
+    <td property="skos:definition" lang="en">Priority of unit for use as powerflow voltage phase angle reference bus selection. 0 = don t care (default) 1 = highest priority. 2 is less than 1 and so on.</td>
+    <td property="dcterms:identifier">urn:uuid:ef6edeb3-a63d-4932-8066-6f6568be3833</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.referencePriority.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.referencePriority.jsonld">JSON-LD</a><br>
@@ -294,10 +298,10 @@ For NonlinearShuntCompensator-s shall only be set to one of the NonlinearShuntCo
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetUpcc.rdf">VsConverter.targetUpcc</a></td>
-    <td>Voltage target in AC grid, at point of common coupling. The attribute shall be a positive value.</td>
-    <td>urn:uuid:9885198b-9671-41ee-8c75-d15ee4f13845</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetUpcc.rdf">VsConverter.targetUpcc</a></td>
+    <td property="skos:definition" lang="en">Voltage target in AC grid, at point of common coupling. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:9885198b-9671-41ee-8c75-d15ee4f13845</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetUpcc.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetUpcc.jsonld">JSON-LD</a><br>
@@ -305,10 +309,10 @@ For NonlinearShuntCompensator-s shall only be set to one of the NonlinearShuntCo
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BatteryUnit.batteryState.rdf">BatteryUnit.batteryState</a></td>
-    <td>The current state of the battery (charging, full, etc.).</td>
-    <td>urn:uuid:9eaf3aa3-04b9-450c-85e5-c410e10d3448</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BatteryUnit.batteryState.rdf">BatteryUnit.batteryState</a></td>
+    <td property="skos:definition" lang="en">The current state of the battery (charging, full, etc.).</td>
+    <td property="dcterms:identifier">urn:uuid:9eaf3aa3-04b9-450c-85e5-c410e10d3448</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BatteryUnit.batteryState.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BatteryUnit.batteryState.jsonld">JSON-LD</a><br>
@@ -316,11 +320,11 @@ For NonlinearShuntCompensator-s shall only be set to one of the NonlinearShuntCo
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.p.rdf">EquivalentInjection.p</a></td>
-    <td>Equivalent active power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.p.rdf">EquivalentInjection.p</a></td>
+    <td property="skos:definition" lang="en">Equivalent active power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for steady state solutions.</td>
-    <td>urn:uuid:27be6d3d-5a79-437a-9e5c-ab0a98c5e9b1</td> 
+    <td property="dcterms:identifier">urn:uuid:27be6d3d-5a79-437a-9e5c-ab0a98c5e9b1</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.p.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.p.jsonld">JSON-LD</a><br>
@@ -328,10 +332,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.targetUdc.rdf">ACDCConverter.targetUdc</a></td>
-    <td>Target value for DC voltage magnitude. The attribute shall be a positive value.</td>
-    <td>urn:uuid:cde58ebf-a94d-4164-bf3d-97036e74d990</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.targetUdc.rdf">ACDCConverter.targetUdc</a></td>
+    <td property="skos:definition" lang="en">Target value for DC voltage magnitude. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:cde58ebf-a94d-4164-bf3d-97036e74d990</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.targetUdc.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.targetUdc.jsonld">JSON-LD</a><br>
@@ -339,11 +343,11 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RotatingMachine.q.rdf">RotatingMachine.q</a></td>
-    <td>Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RotatingMachine.q.rdf">RotatingMachine.q</a></td>
+    <td property="skos:definition" lang="en">Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution.</td>
-    <td>urn:uuid:ad3e22a4-0b58-4e9b-a795-b7092bc772b7</td> 
+    <td property="dcterms:identifier">urn:uuid:ad3e22a4-0b58-4e9b-a795-b7092bc772b7</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RotatingMachine.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RotatingMachine.q.jsonld">JSON-LD</a><br>
@@ -351,11 +355,11 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.p.rdf">ACDCConverter.p</a></td>
-    <td>Active power at the point of common coupling. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.p.rdf">ACDCConverter.p</a></td>
+    <td property="skos:definition" lang="en">Active power at the point of common coupling. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution in the case a simplified power flow model is used.</td>
-    <td>urn:uuid:9640bc4b-6569-4b49-aa1b-ec4b328ad2a4</td> 
+    <td property="dcterms:identifier">urn:uuid:9640bc4b-6569-4b49-aa1b-ec4b328ad2a4</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.p.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.p.jsonld">JSON-LD</a><br>
@@ -363,10 +367,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.droopCompensation.rdf">VsConverter.droopCompensation</a></td>
-    <td>Compensation constant. Used to compensate for voltage drop when controlling voltage at a distant bus. The attribute shall be a positive value.</td>
-    <td>urn:uuid:0e2b2fd1-b0b6-456b-bce3-6d184e4c6c0f</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.droopCompensation.rdf">VsConverter.droopCompensation</a></td>
+    <td property="skos:definition" lang="en">Compensation constant. Used to compensate for voltage drop when controlling voltage at a distant bus. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:0e2b2fd1-b0b6-456b-bce3-6d184e4c6c0f</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.droopCompensation.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.droopCompensation.jsonld">JSON-LD</a><br>
@@ -374,10 +378,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.regulationTarget.rdf">EquivalentInjection.regulationTarget</a></td>
-    <td>The target voltage for voltage regulation. The attribute shall be a positive value.</td>
-    <td>urn:uuid:9a20b105-8a42-4acc-935e-8311154bfd9e</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.regulationTarget.rdf">EquivalentInjection.regulationTarget</a></td>
+    <td property="skos:definition" lang="en">The target voltage for voltage regulation. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:9a20b105-8a42-4acc-935e-8311154bfd9e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.regulationTarget.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.regulationTarget.jsonld">JSON-LD</a><br>
@@ -385,10 +389,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/AsynchronousMachine.asynchronousMachineType.rdf">AsynchronousMachine.asynchronousMachineType</a></td>
-    <td>Indicates the type of Asynchronous Machine (motor or generator).</td>
-    <td>urn:uuid:05d8aacc-d337-4e90-a9ad-d77940aeda1c</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AsynchronousMachine.asynchronousMachineType.rdf">AsynchronousMachine.asynchronousMachineType</a></td>
+    <td property="skos:definition" lang="en">Indicates the type of Asynchronous Machine (motor or generator).</td>
+    <td property="dcterms:identifier">urn:uuid:05d8aacc-d337-4e90-a9ad-d77940aeda1c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/AsynchronousMachine.asynchronousMachineType.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/AsynchronousMachine.asynchronousMachineType.jsonld">JSON-LD</a><br>
@@ -396,12 +400,12 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/TapChanger.step.rdf">TapChanger.step</a></td>
-    <td>Tap changer position.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/TapChanger.step.rdf">TapChanger.step</a></td>
+    <td property="skos:definition" lang="en">Tap changer position.
 Starting step for a steady state solution. Non integer values are allowed to support continuous tap variables. The reasons for continuous value are to support study cases where no discrete tap changer has yet been designed, a solution where a narrow voltage band forces the tap step to oscillate or to accommodate for a continuous solution as input.
 The attribute shall be equal to or greater than lowStep and equal to or less than highStep.</td>
-    <td>urn:uuid:c9a18791-9eba-422b-93c3-dff6996c2150</td> 
+    <td property="dcterms:identifier">urn:uuid:c9a18791-9eba-422b-93c3-dff6996c2150</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/TapChanger.step.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/TapChanger.step.jsonld">JSON-LD</a><br>
@@ -409,10 +413,10 @@ The attribute shall be equal to or greater than lowStep and equal to or less tha
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/GeneratingUnit.normalPF.rdf">GeneratingUnit.normalPF</a></td>
-    <td>Generating unit economic participation factor.  The sum of the participation factors across generating units does not have to sum to one.  It is used for representing distributed slack participation factor. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:6bedee50-8963-400d-a633-6d07dedcb663</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/GeneratingUnit.normalPF.rdf">GeneratingUnit.normalPF</a></td>
+    <td property="skos:definition" lang="en">Generating unit economic participation factor.  The sum of the participation factors across generating units does not have to sum to one.  It is used for representing distributed slack participation factor. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:6bedee50-8963-400d-a633-6d07dedcb663</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/GeneratingUnit.normalPF.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/GeneratingUnit.normalPF.jsonld">JSON-LD</a><br>
@@ -420,10 +424,10 @@ The attribute shall be equal to or greater than lowStep and equal to or less tha
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ControlArea.pTolerance.rdf">ControlArea.pTolerance</a></td>
-    <td>Active power net interchange tolerance. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:4335c733-0cd6-4678-97e8-e787d6423aa0</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ControlArea.pTolerance.rdf">ControlArea.pTolerance</a></td>
+    <td property="skos:definition" lang="en">Active power net interchange tolerance. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:4335c733-0cd6-4678-97e8-e787d6423aa0</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ControlArea.pTolerance.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ControlArea.pTolerance.jsonld">JSON-LD</a><br>
@@ -431,11 +435,11 @@ The attribute shall be equal to or greater than lowStep and equal to or less tha
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.q.rdf">EquivalentInjection.q</a></td>
-    <td>Equivalent reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.q.rdf">EquivalentInjection.q</a></td>
+    <td property="skos:definition" lang="en">Equivalent reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for steady state solutions.</td>
-    <td>urn:uuid:1d9ef58e-e6a4-4c35-8627-38cc1b93c43b</td> 
+    <td property="dcterms:identifier">urn:uuid:1d9ef58e-e6a4-4c35-8627-38cc1b93c43b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EquivalentInjection.q.jsonld">JSON-LD</a><br>
@@ -443,10 +447,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ApparentPowerLimit.value.rdf">ApparentPowerLimit.value</a></td>
-    <td>The apparent power limit. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:97abdf96-c89d-4bc0-ac0e-52c7ae190926</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ApparentPowerLimit.value.rdf">ApparentPowerLimit.value</a></td>
+    <td property="skos:definition" lang="en">The apparent power limit. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:97abdf96-c89d-4bc0-ac0e-52c7ae190926</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ApparentPowerLimit.value.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ApparentPowerLimit.value.jsonld">JSON-LD</a><br>
@@ -454,10 +458,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetGamma.rdf">CsConverter.targetGamma</a></td>
-    <td>Target extinction angle. It is converter’s control variable used in power flow. It is only applicable for inverter if continuous tap changer control is used. Allowed values are within the range minGamma&lt;=targetGamma&lt;=maxGamma. The attribute shall be a positive value.</td>
-    <td>urn:uuid:7d6e849c-73db-445c-b5a9-be63afe4d9c0</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetGamma.rdf">CsConverter.targetGamma</a></td>
+    <td property="skos:definition" lang="en">Target extinction angle. It is converterâ€™s control variable used in power flow. It is only applicable for inverter if continuous tap changer control is used. Allowed values are within the range minGamma&lt;=targetGamma&lt;=maxGamma. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:7d6e849c-73db-445c-b5a9-be63afe4d9c0</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetGamma.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetGamma.jsonld">JSON-LD</a><br>
@@ -465,10 +469,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/TapChanger.controlEnabled.rdf">TapChanger.controlEnabled</a></td>
-    <td>Specifies the regulation status of the equipment.  True is regulating, false is not regulating.</td>
-    <td>urn:uuid:2da1baa3-f88a-4ab5-a257-f9e5d18b9849</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/TapChanger.controlEnabled.rdf">TapChanger.controlEnabled</a></td>
+    <td property="skos:definition" lang="en">Specifies the regulation status of the equipment.  True is regulating, false is not regulating.</td>
+    <td property="dcterms:identifier">urn:uuid:2da1baa3-f88a-4ab5-a257-f9e5d18b9849</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/TapChanger.controlEnabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/TapChanger.controlEnabled.jsonld">JSON-LD</a><br>
@@ -476,11 +480,11 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergySource.reactivePower.rdf">EnergySource.reactivePower</a></td>
-    <td>High voltage source reactive injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergySource.reactivePower.rdf">EnergySource.reactivePower</a></td>
+    <td property="skos:definition" lang="en">High voltage source reactive injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for steady state solutions.</td>
-    <td>urn:uuid:56ad50ff-aa1a-4ab9-88f8-d9471d807780</td> 
+    <td property="dcterms:identifier">urn:uuid:56ad50ff-aa1a-4ab9-88f8-d9471d807780</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergySource.reactivePower.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergySource.reactivePower.jsonld">JSON-LD</a><br>
@@ -488,11 +492,11 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.q.rdf">ACDCConverter.q</a></td>
-    <td>Reactive power at the point of common coupling. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.q.rdf">ACDCConverter.q</a></td>
+    <td property="skos:definition" lang="en">Reactive power at the point of common coupling. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution in the case a simplified power flow model is used.</td>
-    <td>urn:uuid:8eb62849-edef-432c-be84-773644689210</td> 
+    <td property="dcterms:identifier">urn:uuid:8eb62849-edef-432c-be84-773644689210</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCConverter.q.jsonld">JSON-LD</a><br>
@@ -500,10 +504,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.enabled.rdf">RegulatingControl.enabled</a></td>
-    <td>The flag tells if regulation is enabled.</td>
-    <td>urn:uuid:638ab3f0-7421-49a0-a65a-1adce751432d</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.enabled.rdf">RegulatingControl.enabled</a></td>
+    <td property="skos:definition" lang="en">The flag tells if regulation is enabled.</td>
+    <td property="dcterms:identifier">urn:uuid:638ab3f0-7421-49a0-a65a-1adce751432d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.enabled.jsonld">JSON-LD</a><br>
@@ -511,11 +515,11 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RotatingMachine.p.rdf">RotatingMachine.p</a></td>
-    <td>Active power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RotatingMachine.p.rdf">RotatingMachine.p</a></td>
+    <td property="skos:definition" lang="en">Active power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution.</td>
-    <td>urn:uuid:2e31b87d-57af-47d7-b4f2-f4b7f3d62b0c</td> 
+    <td property="dcterms:identifier">urn:uuid:2e31b87d-57af-47d7-b4f2-f4b7f3d62b0c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RotatingMachine.p.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RotatingMachine.p.jsonld">JSON-LD</a><br>
@@ -523,10 +527,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingCondEq.controlEnabled.rdf">RegulatingCondEq.controlEnabled</a></td>
-    <td>Specifies the regulation status of the equipment.  True is regulating, false is not regulating.</td>
-    <td>urn:uuid:df0f1ff8-71f8-4965-b4b3-f6971a9d6daa</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingCondEq.controlEnabled.rdf">RegulatingCondEq.controlEnabled</a></td>
+    <td property="skos:definition" lang="en">Specifies the regulation status of the equipment.  True is regulating, false is not regulating.</td>
+    <td property="dcterms:identifier">urn:uuid:df0f1ff8-71f8-4965-b4b3-f6971a9d6daa</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingCondEq.controlEnabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingCondEq.controlEnabled.jsonld">JSON-LD</a><br>
@@ -534,10 +538,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VoltageLimit.value.rdf">VoltageLimit.value</a></td>
-    <td>Limit on voltage. High or low limit nature of the limit depends upon the properties of the operational limit type. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:d9f32796-a276-42b6-857f-173095c26f7b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VoltageLimit.value.rdf">VoltageLimit.value</a></td>
+    <td property="skos:definition" lang="en">Limit on voltage. High or low limit nature of the limit depends upon the properties of the operational limit type. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:d9f32796-a276-42b6-857f-173095c26f7b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VoltageLimit.value.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VoltageLimit.value.jsonld">JSON-LD</a><br>
@@ -545,12 +549,12 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.p.rdf">EnergyConsumer.p</a></td>
-    <td>Active power of the load. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.p.rdf">EnergyConsumer.p</a></td>
+    <td property="skos:definition" lang="en">Active power of the load. Load sign convention is used, i.e. positive sign means flow out from a node.
 For voltage dependent loads the value is at rated voltage.
 Starting value for a steady state solution.</td>
-    <td>urn:uuid:d9eaab4e-7792-4c7b-bd39-94b069e93c5e</td> 
+    <td property="dcterms:identifier">urn:uuid:d9eaab4e-7792-4c7b-bd39-94b069e93c5e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.p.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.p.jsonld">JSON-LD</a><br>
@@ -558,10 +562,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.pPccControl.rdf">VsConverter.pPccControl</a></td>
-    <td>Kind of control of real power and/or DC voltage.</td>
-    <td>urn:uuid:80beba70-c2fb-4319-af0d-a81eeb668b1d</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.pPccControl.rdf">VsConverter.pPccControl</a></td>
+    <td property="skos:definition" lang="en">Kind of control of real power and/or DC voltage.</td>
+    <td property="dcterms:identifier">urn:uuid:80beba70-c2fb-4319-af0d-a81eeb668b1d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.pPccControl.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.pPccControl.jsonld">JSON-LD</a><br>
@@ -569,10 +573,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ControlArea.netInterchange.rdf">ControlArea.netInterchange</a></td>
-    <td>The specified positive net interchange into the control area, i.e. positive sign means flow into the area.</td>
-    <td>urn:uuid:8a3152b1-4c59-4f74-b259-c9f607a84109</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ControlArea.netInterchange.rdf">ControlArea.netInterchange</a></td>
+    <td property="skos:definition" lang="en">The specified positive net interchange into the control area, i.e. positive sign means flow into the area.</td>
+    <td property="dcterms:identifier">urn:uuid:8a3152b1-4c59-4f74-b259-c9f607a84109</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ControlArea.netInterchange.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ControlArea.netInterchange.jsonld">JSON-LD</a><br>
@@ -580,11 +584,11 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsConnection.p.rdf">PowerElectronicsConnection.p</a></td>
-    <td>Active power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsConnection.p.rdf">PowerElectronicsConnection.p</a></td>
+    <td property="skos:definition" lang="en">Active power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution.</td>
-    <td>urn:uuid:1c277e1f-df16-4630-a94a-e196335e0111</td> 
+    <td property="dcterms:identifier">urn:uuid:1c277e1f-df16-4630-a94a-e196335e0111</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsConnection.p.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsConnection.p.jsonld">JSON-LD</a><br>
@@ -592,10 +596,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetQpcc.rdf">VsConverter.targetQpcc</a></td>
-    <td>Reactive power injection target in AC grid, at point of common coupling.  Load sign convention is used, i.e. positive sign means flow out from a node.</td>
-    <td>urn:uuid:898a03fc-43a6-4c11-aa73-e2d26ca1df0b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetQpcc.rdf">VsConverter.targetQpcc</a></td>
+    <td property="skos:definition" lang="en">Reactive power injection target in AC grid, at point of common coupling.  Load sign convention is used, i.e. positive sign means flow out from a node.</td>
+    <td property="dcterms:identifier">urn:uuid:898a03fc-43a6-4c11-aa73-e2d26ca1df0b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetQpcc.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetQpcc.jsonld">JSON-LD</a><br>
@@ -603,11 +607,11 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ACDCTerminal.connected.rdf">ACDCTerminal.connected</a></td>
-    <td>The connected status is related to a bus-branch model and the topological node to terminal relation.  True implies the terminal is connected to the related topological node and false implies it is not. 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ACDCTerminal.connected.rdf">ACDCTerminal.connected</a></td>
+    <td property="skos:definition" lang="en">The connected status is related to a bus-branch model and the topological node to terminal relation.  True implies the terminal is connected to the related topological node and false implies it is not. 
 In a bus-branch model, the connected status is used to tell if equipment is disconnected without having to change the connectivity described by the topological node to terminal relation. A valid case is that conducting equipment can be connected in one end and open in the other. In particular for an AC line segment, where the reactive line charging can be significant, this is a relevant case.</td>
-    <td>urn:uuid:1bcbebe8-5d00-499e-b271-b19d1a46d2d1</td> 
+    <td property="dcterms:identifier">urn:uuid:1bcbebe8-5d00-499e-b271-b19d1a46d2d1</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCTerminal.connected.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ACDCTerminal.connected.jsonld">JSON-LD</a><br>
@@ -615,10 +619,10 @@ In a bus-branch model, the connected status is used to tell if equipment is disc
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.qShare.rdf">VsConverter.qShare</a></td>
-    <td>Reactive power sharing factor among parallel converters on Uac control. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:3b5255f8-15ad-4b85-bbe0-3e528bba4b87</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.qShare.rdf">VsConverter.qShare</a></td>
+    <td property="skos:definition" lang="en">Reactive power sharing factor among parallel converters on Uac control. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:3b5255f8-15ad-4b85-bbe0-3e528bba4b87</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.qShare.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.qShare.jsonld">JSON-LD</a><br>
@@ -626,10 +630,10 @@ In a bus-branch model, the connected status is used to tell if equipment is disc
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.minAllowedTargetValue.rdf">RegulatingControl.minAllowedTargetValue</a></td>
-    <td>Minimum allowed target value (RegulatingControl.targetValue).</td>
-    <td>urn:uuid:67a4253a-1d1d-4a44-9fd4-a6f9c0bd0b24</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.minAllowedTargetValue.rdf">RegulatingControl.minAllowedTargetValue</a></td>
+    <td property="skos:definition" lang="en">Minimum allowed target value (RegulatingControl.targetValue).</td>
+    <td property="dcterms:identifier">urn:uuid:67a4253a-1d1d-4a44-9fd4-a6f9c0bd0b24</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.minAllowedTargetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.minAllowedTargetValue.jsonld">JSON-LD</a><br>
@@ -637,10 +641,10 @@ In a bus-branch model, the connected status is used to tell if equipment is disc
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/Equipment.inService.rdf">Equipment.inService</a></td>
-    <td>Specifies the availability of the equipment. True means the equipment is available for topology processing, which determines if the equipment is energized or not. False means that the equipment is treated by network applications as if it is not in the model.</td>
-    <td>urn:uuid:67b777c0-a5b2-46ab-97bd-040c66b1d50f</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/Equipment.inService.rdf">Equipment.inService</a></td>
+    <td property="skos:definition" lang="en">Specifies the availability of the equipment. True means the equipment is available for topology processing, which determines if the equipment is energized or not. False means that the equipment is treated by network applications as if it is not in the model.</td>
+    <td property="dcterms:identifier">urn:uuid:67b777c0-a5b2-46ab-97bd-040c66b1d50f</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/Equipment.inService.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/Equipment.inService.jsonld">JSON-LD</a><br>
@@ -648,10 +652,10 @@ In a bus-branch model, the connected status is used to tell if equipment is disc
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.pPccControl.rdf">CsConverter.pPccControl</a></td>
-    <td>Kind of active power control.</td>
-    <td>urn:uuid:53242ae1-12a6-4790-9814-cd71c68a4d3e</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.pPccControl.rdf">CsConverter.pPccControl</a></td>
+    <td property="skos:definition" lang="en">Kind of active power control.</td>
+    <td property="dcterms:identifier">urn:uuid:53242ae1-12a6-4790-9814-cd71c68a4d3e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.pPccControl.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.pPccControl.jsonld">JSON-LD</a><br>
@@ -659,11 +663,11 @@ In a bus-branch model, the connected status is used to tell if equipment is disc
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/StaticVarCompensator.q.rdf">StaticVarCompensator.q</a></td>
-    <td>Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/StaticVarCompensator.q.rdf">StaticVarCompensator.q</a></td>
+    <td property="skos:definition" lang="en">Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution.</td>
-    <td>urn:uuid:80cfb71f-4383-4f65-aa08-1b17760bc414</td> 
+    <td property="dcterms:identifier">urn:uuid:80cfb71f-4383-4f65-aa08-1b17760bc414</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/StaticVarCompensator.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/StaticVarCompensator.q.jsonld">JSON-LD</a><br>
@@ -671,10 +675,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergySource.voltageMagnitude.rdf">EnergySource.voltageMagnitude</a></td>
-    <td>Phase-to-phase open circuit voltage magnitude used when voltage characteristics need to be imposed at the node associated with the terminal of the energy source, such as when voltages and angles from the transmission level are used as input to the distribution network. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:0cddc7ac-49eb-4895-a198-0b3d924249ff</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergySource.voltageMagnitude.rdf">EnergySource.voltageMagnitude</a></td>
+    <td property="skos:definition" lang="en">Phase-to-phase open circuit voltage magnitude used when voltage characteristics need to be imposed at the node associated with the terminal of the energy source, such as when voltages and angles from the transmission level are used as input to the distribution network. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:0cddc7ac-49eb-4895-a198-0b3d924249ff</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergySource.voltageMagnitude.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergySource.voltageMagnitude.jsonld">JSON-LD</a><br>
@@ -682,10 +686,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPhasePcc.rdf">VsConverter.targetPhasePcc</a></td>
-    <td>Phase target at AC side, at point of common coupling. The attribute shall be a positive value.</td>
-    <td>urn:uuid:25eaa42f-d3ee-4aeb-aa05-cd23c89d693b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPhasePcc.rdf">VsConverter.targetPhasePcc</a></td>
+    <td property="skos:definition" lang="en">Phase target at AC side, at point of common coupling. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:25eaa42f-d3ee-4aeb-aa05-cd23c89d693b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPhasePcc.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPhasePcc.jsonld">JSON-LD</a><br>
@@ -693,10 +697,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.discrete.rdf">RegulatingControl.discrete</a></td>
-    <td>The regulation is performed in a discrete mode. This applies to equipment with discrete controls, e.g. tap changers and shunt compensators.</td>
-    <td>urn:uuid:4d7cd0e2-2375-41d1-8447-3256d5d2c860</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.discrete.rdf">RegulatingControl.discrete</a></td>
+    <td property="skos:definition" lang="en">The regulation is performed in a discrete mode. This applies to equipment with discrete controls, e.g. tap changers and shunt compensators.</td>
+    <td property="dcterms:identifier">urn:uuid:4d7cd0e2-2375-41d1-8447-3256d5d2c860</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.discrete.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.discrete.jsonld">JSON-LD</a><br>
@@ -704,10 +708,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.referencePriority.rdf">SynchronousMachine.referencePriority</a></td>
-    <td>Priority of unit for use as powerflow voltage phase angle reference bus selection. 0 = don t care (default) 1 = highest priority. 2 is less than 1 and so on.</td>
-    <td>urn:uuid:0e53e02b-a59a-4cdf-9826-35c56dd6c9ca</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.referencePriority.rdf">SynchronousMachine.referencePriority</a></td>
+    <td property="skos:definition" lang="en">Priority of unit for use as powerflow voltage phase angle reference bus selection. 0 = don t care (default) 1 = highest priority. 2 is less than 1 and so on.</td>
+    <td property="dcterms:identifier">urn:uuid:0e53e02b-a59a-4cdf-9826-35c56dd6c9ca</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.referencePriority.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/SynchronousMachine.referencePriority.jsonld">JSON-LD</a><br>
@@ -715,10 +719,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergySource.voltageAngle.rdf">EnergySource.voltageAngle</a></td>
-    <td>Phase angle of a-phase open circuit used when voltage characteristics need to be imposed at the node associated with the terminal of the energy source, such as when voltages and angles from the transmission level are used as input to the distribution network. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:7e87693f-5b7e-440f-bad1-a05101c664bf</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergySource.voltageAngle.rdf">EnergySource.voltageAngle</a></td>
+    <td property="skos:definition" lang="en">Phase angle of a-phase open circuit used when voltage characteristics need to be imposed at the node associated with the terminal of the energy source, such as when voltages and angles from the transmission level are used as input to the distribution network. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:7e87693f-5b7e-440f-bad1-a05101c664bf</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergySource.voltageAngle.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergySource.voltageAngle.jsonld">JSON-LD</a><br>
@@ -726,11 +730,11 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.q.rdf">ExternalNetworkInjection.q</a></td>
-    <td>Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.q.rdf">ExternalNetworkInjection.q</a></td>
+    <td property="skos:definition" lang="en">Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for steady state solutions.</td>
-    <td>urn:uuid:a24cb554-a908-46a6-aa8c-0b2345522751</td> 
+    <td property="dcterms:identifier">urn:uuid:a24cb554-a908-46a6-aa8c-0b2345522751</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ExternalNetworkInjection.q.jsonld">JSON-LD</a><br>
@@ -738,10 +742,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPowerFactorPcc.rdf">VsConverter.targetPowerFactorPcc</a></td>
-    <td>Power factor target at the AC side, at point of common coupling. The attribute shall be a positive value.</td>
-    <td>urn:uuid:d1a5fae7-a735-4556-b7af-c447aba7e545</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPowerFactorPcc.rdf">VsConverter.targetPowerFactorPcc</a></td>
+    <td property="skos:definition" lang="en">Power factor target at the AC side, at point of common coupling. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:d1a5fae7-a735-4556-b7af-c447aba7e545</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPowerFactorPcc.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VsConverter.targetPowerFactorPcc.jsonld">JSON-LD</a><br>
@@ -749,10 +753,10 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BatteryUnit.storedE.rdf">BatteryUnit.storedE</a></td>
-    <td>Amount of energy currently stored. The attribute shall be a positive value or zero and lower than BatteryUnit.ratedE.</td>
-    <td>urn:uuid:da24ffb1-11bd-44a8-a17e-d1539e3b4f05</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BatteryUnit.storedE.rdf">BatteryUnit.storedE</a></td>
+    <td property="skos:definition" lang="en">Amount of energy currently stored. The attribute shall be a positive value or zero and lower than BatteryUnit.ratedE.</td>
+    <td property="dcterms:identifier">urn:uuid:da24ffb1-11bd-44a8-a17e-d1539e3b4f05</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BatteryUnit.storedE.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BatteryUnit.storedE.jsonld">JSON-LD</a><br>
@@ -760,11 +764,11 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergySource.activePower.rdf">EnergySource.activePower</a></td>
-    <td>High voltage source active injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergySource.activePower.rdf">EnergySource.activePower</a></td>
+    <td property="skos:definition" lang="en">High voltage source active injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for steady state solutions.</td>
-    <td>urn:uuid:c7b65971-5dae-428f-bfe0-0615f769f3f8</td> 
+    <td property="dcterms:identifier">urn:uuid:c7b65971-5dae-428f-bfe0-0615f769f3f8</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergySource.activePower.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergySource.activePower.jsonld">JSON-LD</a><br>
@@ -772,12 +776,12 @@ Starting value for steady state solutions.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.q.rdf">EnergyConsumer.q</a></td>
-    <td>Reactive power of the load. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.q.rdf">EnergyConsumer.q</a></td>
+    <td property="skos:definition" lang="en">Reactive power of the load. Load sign convention is used, i.e. positive sign means flow out from a node.
 For voltage dependent loads the value is at rated voltage.
 Starting value for a steady state solution.</td>
-    <td>urn:uuid:edbfe75e-2ddb-48ae-b744-081e75f47848</td> 
+    <td property="dcterms:identifier">urn:uuid:edbfe75e-2ddb-48ae-b744-081e75f47848</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.q.jsonld">JSON-LD</a><br>
@@ -785,10 +789,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetIdc.rdf">CsConverter.targetIdc</a></td>
-    <td>DC current target value. It is converter’s control variable used in power flow. The attribute shall be a positive value.</td>
-    <td>urn:uuid:10b3b146-ba3d-4c1c-8402-0537808bcdce</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetIdc.rdf">CsConverter.targetIdc</a></td>
+    <td property="skos:definition" lang="en">DC current target value. It is converterâ€™s control variable used in power flow. The attribute shall be a positive value.</td>
+    <td property="dcterms:identifier">urn:uuid:10b3b146-ba3d-4c1c-8402-0537808bcdce</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetIdc.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.targetIdc.jsonld">JSON-LD</a><br>
@@ -796,10 +800,22 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValueUnitMultiplier.rdf">RegulatingControl.targetValueUnitMultiplier</a></td>
-    <td>Specify the multiplier for used for the targetValue.</td>
-    <td>urn:uuid:7c03952f-fc7b-44d6-a6ff-ec5cef2f99a9</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/IdentifiedObject.mRID.rdf">IdentifiedObject.mRID</a></td>
+    <td property="skos:definition" lang="en">Master resource identifier issued by a model authority. The mRID is unique within an exchange context. Global uniqueness is easily achieved by using a UUID, as specified in RFC 4122, for the mRID. The use of UUID is strongly recommended.
+For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.</td>
+    <td property="dcterms:identifier">urn:uuid:704202ac-974e-4576-a9e7-84581df72c59</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/IdentifiedObject.mRID.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/IdentifiedObject.mRID.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/IdentifiedObject.mRID.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValueUnitMultiplier.rdf">RegulatingControl.targetValueUnitMultiplier</a></td>
+    <td property="skos:definition" lang="en">Specify the multiplier for used for the targetValue.</td>
+    <td property="dcterms:identifier">urn:uuid:7c03952f-fc7b-44d6-a6ff-ec5cef2f99a9</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValueUnitMultiplier.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValueUnitMultiplier.jsonld">JSON-LD</a><br>
@@ -807,11 +823,11 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsConnection.q.rdf">PowerElectronicsConnection.q</a></td>
-    <td>Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsConnection.q.rdf">PowerElectronicsConnection.q</a></td>
+    <td property="skos:definition" lang="en">Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution.</td>
-    <td>urn:uuid:fbcf4f0e-ecf7-4602-a6db-41c9358def79</td> 
+    <td property="dcterms:identifier">urn:uuid:fbcf4f0e-ecf7-4602-a6db-41c9358def79</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsConnection.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsConnection.q.jsonld">JSON-LD</a><br>
@@ -819,10 +835,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.operatingMode.rdf">CsConverter.operatingMode</a></td>
-    <td>Indicates whether the DC pole is operating as an inverter or as a rectifier. It is converter’s control variable used in power flow.</td>
-    <td>urn:uuid:005d38b3-85bd-4430-a3af-f179787235b7</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CsConverter.operatingMode.rdf">CsConverter.operatingMode</a></td>
+    <td property="skos:definition" lang="en">Indicates whether the DC pole is operating as an inverter or as a rectifier. It is converterâ€™s control variable used in power flow.</td>
+    <td property="dcterms:identifier">urn:uuid:005d38b3-85bd-4430-a3af-f179787235b7</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.operatingMode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CsConverter.operatingMode.jsonld">JSON-LD</a><br>
@@ -830,10 +846,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ActivePowerLimit.value.rdf">ActivePowerLimit.value</a></td>
-    <td>Value of active power limit. The attribute shall be a positive value or zero.</td>
-    <td>urn:uuid:38399bbe-ff1d-4c54-ba4c-a8b25379a481</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ActivePowerLimit.value.rdf">ActivePowerLimit.value</a></td>
+    <td property="skos:definition" lang="en">Value of active power limit. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:38399bbe-ff1d-4c54-ba4c-a8b25379a481</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ActivePowerLimit.value.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ActivePowerLimit.value.jsonld">JSON-LD</a><br>
@@ -841,10 +857,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/TCSCController.mode.rdf">TCSCController.mode</a></td>
-    <td>Mode of the TCSC controller.</td>
-    <td>urn:uuid:92f60407-e16c-40a1-b30c-fe2ca63391b8</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/TCSCController.mode.rdf">TCSCController.mode</a></td>
+    <td property="skos:definition" lang="en">Mode of the TCSC controller.</td>
+    <td property="dcterms:identifier">urn:uuid:92f60407-e16c-40a1-b30c-fe2ca63391b8</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/TCSCController.mode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/TCSCController.mode.jsonld">JSON-LD</a><br>
@@ -852,10 +868,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RemedialActionDependency.enabled.rdf">RemedialActionDependency.enabled</a></td>
-    <td>If true, the remedial action dependency is enabled, otherwise it is disabled.</td>
-    <td>urn:uuid:7bf769ab-fa28-40a5-9f06-e961e6b94e4c</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RemedialActionDependency.enabled.rdf">RemedialActionDependency.enabled</a></td>
+    <td property="skos:definition" lang="en">If true, the remedial action dependency is enabled, otherwise it is disabled.</td>
+    <td property="dcterms:identifier">urn:uuid:7bf769ab-fa28-40a5-9f06-e961e6b94e4c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionDependency.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionDependency.enabled.jsonld">JSON-LD</a><br>
@@ -863,10 +879,32 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.maxInterchange.rdf">BiddingZone.maxInterchange</a></td>
-    <td>Maximum total active power (AC and DC)  that the net position for the bidding zone can have to maintain operational security. Positive sign means flow into the bidding zone.</td>
-    <td>urn:uuid:40cdc3e4-0c31-4af4-a939-ade7a172c108</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RemedialActionGroup.maxRegulatingUp.rdf">RemedialActionGroup.maxRegulatingUp</a></td>
+    <td property="skos:definition" lang="en">Maximum net amount of active power that the group of remedial actions can regulate up.</td>
+    <td property="dcterms:identifier">urn:uuid:026d19eb-9b13-45d6-bf44-862276b80045</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionGroup.maxRegulatingUp.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionGroup.maxRegulatingUp.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionGroup.maxRegulatingUp.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PowerRemedialAction.maxRegulatingUp.rdf">PowerRemedialAction.maxRegulatingUp</a></td>
+    <td property="skos:definition" lang="en">Maximum net amount of active power that the remedial action can regulate up.</td>
+    <td property="dcterms:identifier">urn:uuid:e4834fe8-beb6-4593-8308-1f3c2952ac94</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/PowerRemedialAction.maxRegulatingUp.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/PowerRemedialAction.maxRegulatingUp.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/PowerRemedialAction.maxRegulatingUp.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.maxInterchange.rdf">BiddingZone.maxInterchange</a></td>
+    <td property="skos:definition" lang="en">Maximum total active power (AC and DC)  that the net position for the bidding zone can have to maintain operational security. Positive sign means flow into the bidding zone.</td>
+    <td property="dcterms:identifier">urn:uuid:40cdc3e4-0c31-4af4-a939-ade7a172c108</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.maxInterchange.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.maxInterchange.jsonld">JSON-LD</a><br>
@@ -874,10 +912,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CompensatorController.mode.rdf">CompensatorController.mode</a></td>
-    <td>Mode of the compensator controller.</td>
-    <td>urn:uuid:8709af80-c90e-4e4d-924a-e5a2944075bc</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CompensatorController.mode.rdf">CompensatorController.mode</a></td>
+    <td property="skos:definition" lang="en">Mode of the compensator controller.</td>
+    <td property="dcterms:identifier">urn:uuid:8709af80-c90e-4e4d-924a-e5a2944075bc</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CompensatorController.mode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CompensatorController.mode.jsonld">JSON-LD</a><br>
@@ -885,10 +923,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/PhaseControlFunction.targetValue.rdf">PhaseControlFunction.targetValue</a></td>
-    <td>Target value for the phase that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:21d977fd-a936-4102-a994-7d26cb35ede0</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PhaseControlFunction.targetValue.rdf">PhaseControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the phase that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:21d977fd-a936-4102-a994-7d26cb35ede0</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/PhaseControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/PhaseControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -896,10 +934,12 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.participationFactor.rdf">EnergyConsumer.participationFactor</a></td>
-    <td>Participation factor.</td>
-    <td>urn:uuid:4ee14866-0602-49f4-9e7f-0e104f1ad512</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.participationFactor.rdf">EnergyConsumer.participationFactor</a></td>
+    <td property="skos:definition" lang="en">Participation factor describing the entity part of the active power provided by a collection of entities (e.g. an active power forecast to a collection of entities is divided to each of the member entity according to the participation factor). Must be a positive value.
+In the case of a sharing strategy, the distribution is following entities value (V) equals aggregated value (T) divided by sum of participation factors (PF), i.e. V=T/sum(PF). 
+In the case of priority strategy, the item with the lowest number gets allocated energy first.</td>
+    <td property="dcterms:identifier">urn:uuid:4ee14866-0602-49f4-9e7f-0e104f1ad512</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.participationFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyConsumer.participationFactor.jsonld">JSON-LD</a><br>
@@ -907,21 +947,33 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.tranmissionReliabilityMargin.rdf">BiddingZoneBorder.tranmissionReliabilityMargin</a></td>
-    <td>Transmission Reliability Margin (TRM) is the minimum reserve that system operators must have available at their connections so that they can help other countries to which their system is directly or indirectly connected, if necessary.</td>
-    <td>urn:uuid:db3ad539-d0bc-4626-9e3a-671bfe4c3aca</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.scannedThresholdMargin.rdf">AssessedElement.scannedThresholdMargin</a></td>
+    <td property="skos:definition" lang="en">Threshold percentage that a scanned element can be overloaded, on a given element, on top of any overload prior to optimisation (default= 5%). e.g. Initial loading of the element is 110%, with a 5% scanned threshold margin, the new maximum is 115% of the limit (e.g. PATL, TATL, etc).
+The allowed value range is [0,100].</td>
+    <td property="dcterms:identifier">urn:uuid:9ad1b962-8d49-4676-9ab7-ab3b0c23f6ac</td> 
     <td id="publication-column">
-        <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.tranmissionReliabilityMargin.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.tranmissionReliabilityMargin.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.tranmissionReliabilityMargin.ttl">Turtle</a>
+        <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.scannedThresholdMargin.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.scannedThresholdMargin.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.scannedThresholdMargin.ttl">Turtle</a>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.regulatingUpAllocation.rdf">BiddingZone.regulatingUpAllocation</a></td>
-    <td>The balancing capacity allocated for regulating up, by increasing the production, decreasing the direct current export, increasing direct current import or reducing the consumption of energy in the bidding zone. This must be a positive number.</td>
-    <td>urn:uuid:bf2d4878-9048-4512-837f-e6a8a601f106</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.transmissionReliabilityMargin.rdf">BiddingZoneBorder.transmissionReliabilityMargin</a></td>
+    <td property="skos:definition" lang="en">Transmission Reliability Margin (TRM) is the minimum reserve that system operators must have available at their connections so that they can help other countries to which their system is directly or indirectly connected, if necessary.</td>
+    <td property="dcterms:identifier">urn:uuid:db3ad539-d0bc-4626-9e3a-671bfe4c3aca</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.transmissionReliabilityMargin.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.transmissionReliabilityMargin.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.transmissionReliabilityMargin.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.regulatingUpAllocation.rdf">BiddingZone.regulatingUpAllocation</a></td>
+    <td property="skos:definition" lang="en">The balancing capacity allocated for regulating up, by increasing the production, decreasing the direct current export, increasing direct current import or reducing the consumption of energy in the bidding zone. This must be a positive number.</td>
+    <td property="dcterms:identifier">urn:uuid:bf2d4878-9048-4512-837f-e6a8a601f106</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.regulatingUpAllocation.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.regulatingUpAllocation.jsonld">JSON-LD</a><br>
@@ -929,11 +981,11 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCTieCorridor.q.rdf">DCTieCorridor.q</a></td>
-    <td>Reactive power at the point of common coupling. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCTieCorridor.q.rdf">DCTieCorridor.q</a></td>
+    <td property="skos:definition" lang="en">Reactive power at the point of common coupling. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution in the case a simplified power flow model is used.</td>
-    <td>urn:uuid:e7840ed4-1c97-4bce-a484-23db8b6619b8</td> 
+    <td property="dcterms:identifier">urn:uuid:e7840ed4-1c97-4bce-a484-23db8b6619b8</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCTieCorridor.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCTieCorridor.q.jsonld">JSON-LD</a><br>
@@ -941,10 +993,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.enabled.rdf">CurrentDroopOverride.enabled</a></td>
-    <td>True, if the current droop override is enabled (active). Otherwise false.</td>
-    <td>urn:uuid:f570a88b-6885-4d4b-a644-053161100784</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.enabled.rdf">CurrentDroopOverride.enabled</a></td>
+    <td property="skos:definition" lang="en">True, if the current droop override is enabled (active). Otherwise false.</td>
+    <td property="dcterms:identifier">urn:uuid:f570a88b-6885-4d4b-a644-053161100784</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.enabled.jsonld">JSON-LD</a><br>
@@ -952,10 +1004,13 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/GridStateAlteration.participationFactor.rdf">GridStateAlteration.participationFactor</a></td>
-    <td>It defines the participation of this grid state alteration. If 0 this grid alteration does not participate. The sum of all participation factors for all grid state alterations associated with same remedial action shall be equal to 100%.</td>
-    <td>urn:uuid:f524a12b-cebd-4da0-ad3b-dd3498c098db</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/GridStateAlteration.participationFactor.rdf">GridStateAlteration.participationFactor</a></td>
+    <td property="skos:definition" lang="en">Participation factor describing the entity part of the active power provided by a collection of entities (e.g. an active power forecast to a collection of entities is divided to each of the member entity according to the participation factor). Must be a positive value.
+In the case of a sharing strategy, the distribution is following entities value (V) equals aggregated value (T) divided by sum of participation factors (PF), i.e. V=T/sum(PF). 
+In the case of priority strategy, the item with the lowest number gets allocated energy first.
+e.g. If 0 this grid alteration does not participate. The sum of all participation factors for all grid state alterations associated with same remedial action shall be equal to 100%.</td>
+    <td property="dcterms:identifier">urn:uuid:f524a12b-cebd-4da0-ad3b-dd3498c098db</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/GridStateAlteration.participationFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/GridStateAlteration.participationFactor.jsonld">JSON-LD</a><br>
@@ -963,10 +1018,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RemedialAction.available.rdf">RemedialAction.available</a></td>
-    <td>Identifies if the remedial action is available to be proposed. True means available, False means unavailable.</td>
-    <td>urn:uuid:b3b0769a-2264-4c35-b1bf-ed89a47af8ec</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RemedialAction.available.rdf">RemedialAction.available</a></td>
+    <td property="skos:definition" lang="en">Identifies if the remedial action is available to be proposed. True means available, False means unavailable.</td>
+    <td property="dcterms:identifier">urn:uuid:b3b0769a-2264-4c35-b1bf-ed89a47af8ec</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RemedialAction.available.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RemedialAction.available.jsonld">JSON-LD</a><br>
@@ -974,10 +1029,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.availableTransferCapacity.rdf">BiddingZoneBorder.availableTransferCapacity</a></td>
-    <td>Available Transfer Capacity (ATC) means the transmission capacity that remains available, after allocation procedure, to be used under the physical conditions of the transmission system. ATC value is defined as: ATC = NTC - AAC.</td>
-    <td>urn:uuid:f658578d-0662-4954-ade8-6c6058d9b94d</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.availableTransferCapacity.rdf">BiddingZoneBorder.availableTransferCapacity</a></td>
+    <td property="skos:definition" lang="en">Available Transfer Capacity (ATC) means the transmission capacity that remains available, after allocation procedure, to be used under the physical conditions of the transmission system. ATC value is defined as: ATC = NTC - AAC.</td>
+    <td property="dcterms:identifier">urn:uuid:f658578d-0662-4954-ade8-6c6058d9b94d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.availableTransferCapacity.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.availableTransferCapacity.jsonld">JSON-LD</a><br>
@@ -985,10 +1040,21 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DirectCurrentController.mode.rdf">DirectCurrentController.mode</a></td>
-    <td>Mode of the dc controller.</td>
-    <td>urn:uuid:1c2e0f58-aa25-43b0-addd-593b9a8e45f9</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ContingencyWithRemedialAction.enabled.rdf">ContingencyWithRemedialAction.enabled</a></td>
+    <td property="skos:definition" lang="en">If true, the contingency with remedial action is enabled, otherwise it is disabled.</td>
+    <td property="dcterms:identifier">urn:uuid:bdab74e1-6b78-4770-98f6-82c8991da60b</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/ContingencyWithRemedialAction.enabled.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/ContingencyWithRemedialAction.enabled.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/ContingencyWithRemedialAction.enabled.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DirectCurrentController.mode.rdf">DirectCurrentController.mode</a></td>
+    <td property="skos:definition" lang="en">Mode of the dc controller.</td>
+    <td property="dcterms:identifier">urn:uuid:1c2e0f58-aa25-43b0-addd-593b9a8e45f9</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DirectCurrentController.mode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DirectCurrentController.mode.jsonld">JSON-LD</a><br>
@@ -996,11 +1062,11 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CircuitShare.contributionFactor.rdf">CircuitShare.contributionFactor</a></td>
-    <td>Contribution factor for the circuit which is part of a power transfer corridor.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CircuitShare.contributionFactor.rdf">CircuitShare.contributionFactor</a></td>
+    <td property="skos:definition" lang="en">Contribution factor for the circuit which is part of a power transfer corridor.
 The allowed value range is [0,100].</td>
-    <td>urn:uuid:fa3b5fd8-d4a2-421d-a192-7eaf65ec8f4a</td> 
+    <td property="dcterms:identifier">urn:uuid:fa3b5fd8-d4a2-421d-a192-7eaf65ec8f4a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CircuitShare.contributionFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CircuitShare.contributionFactor.jsonld">JSON-LD</a><br>
@@ -1008,10 +1074,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netACInterchangeTolerance.rdf">BiddingZone.netACInterchangeTolerance</a></td>
-    <td>The area AC Net Position tolerance.</td>
-    <td>urn:uuid:8b0f1899-a7f2-48df-bc20-edc8376280f6</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netACInterchangeTolerance.rdf">BiddingZone.netACInterchangeTolerance</a></td>
+    <td property="skos:definition" lang="en">The area AC Net Position tolerance.</td>
+    <td property="dcterms:identifier">urn:uuid:8b0f1899-a7f2-48df-bc20-edc8376280f6</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netACInterchangeTolerance.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netACInterchangeTolerance.jsonld">JSON-LD</a><br>
@@ -1019,10 +1085,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergyGroup.participationFactor.rdf">EnergyGroup.participationFactor</a></td>
-    <td>Participation factor.</td>
-    <td>urn:uuid:6da574b8-87df-483a-8570-d48375de2269</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergyGroup.participationFactor.rdf">EnergyGroup.participationFactor</a></td>
+    <td property="skos:definition" lang="en">Participation factor.</td>
+    <td property="dcterms:identifier">urn:uuid:6da574b8-87df-483a-8570-d48375de2269</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyGroup.participationFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyGroup.participationFactor.jsonld">JSON-LD</a><br>
@@ -1030,10 +1096,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCPole.minEconomicP.rdf">DCPole.minEconomicP</a></td>
-    <td>Low economic active power limit that shall be greater than or equal to the minimum operating active power limit.</td>
-    <td>urn:uuid:44264880-13fc-4a8e-ba4f-3b2814d95039</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCPole.minEconomicP.rdf">DCPole.minEconomicP</a></td>
+    <td property="skos:definition" lang="en">Low economic active power limit that shall be greater than or equal to the minimum operating active power limit.</td>
+    <td property="dcterms:identifier">urn:uuid:44264880-13fc-4a8e-ba4f-3b2814d95039</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCPole.minEconomicP.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCPole.minEconomicP.jsonld">JSON-LD</a><br>
@@ -1041,10 +1107,21 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopControlFunction.targetValueCapacitive.rdf">CurrentDroopControlFunction.targetValueCapacitive</a></td>
-    <td>Setpoint when control is active in capacitive region.</td>
-    <td>urn:uuid:e5f02e60-e2ba-4b56-a64c-3f277adf8108</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/FuelStorage.energyStorage.rdf">FuelStorage.energyStorage</a></td>
+    <td property="skos:definition" lang="en">Amount of energy available in the storage.</td>
+    <td property="dcterms:identifier">urn:uuid:5f56ae88-d0ca-474a-b2e3-102c6f4fa7b2</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/FuelStorage.energyStorage.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/FuelStorage.energyStorage.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/FuelStorage.energyStorage.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopControlFunction.targetValueCapacitive.rdf">CurrentDroopControlFunction.targetValueCapacitive</a></td>
+    <td property="skos:definition" lang="en">Setpoint when control is active in capacitive region.</td>
+    <td property="dcterms:identifier">urn:uuid:e5f02e60-e2ba-4b56-a64c-3f277adf8108</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopControlFunction.targetValueCapacitive.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopControlFunction.targetValueCapacitive.jsonld">JSON-LD</a><br>
@@ -1052,10 +1129,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ReactivePowerControlFunction.targetValue.rdf">ReactivePowerControlFunction.targetValue</a></td>
-    <td>Target value for the reactive power that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:cb1e5b0f-d875-4b5b-b7b0-7f1d72b4a608</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ReactivePowerControlFunction.targetValue.rdf">ReactivePowerControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the reactive power that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:cb1e5b0f-d875-4b5b-b7b0-7f1d72b4a608</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ReactivePowerControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ReactivePowerControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1063,22 +1140,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CountertradeRemedialAction.value.rdf">CountertradeRemedialAction.value</a></td>
-    <td>The amount of countertrade provided on the given border. Positive value indicates that the bidding zone with the BiddingZone.BiddingZoneBorderOne is increased. The bidding zone given by  BiddingZone.BiddingZoneBorderTwo will decrease.
-Negative value would have the opposite effect.</td>
-    <td>urn:uuid:f887c610-7a92-44b5-a61a-62b64306d68e</td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/PropertyReference/CountertradeRemedialAction.value.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/PropertyReference/CountertradeRemedialAction.value.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/PropertyReference/CountertradeRemedialAction.value.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.minInterchange.rdf">BiddingZone.minInterchange</a></td>
-    <td>Minimum total active power (AC and DC)  that the net position for the bidding zone can have to maintain operational security. Negative sign means flow out of the bidding zone.</td>
-    <td>urn:uuid:b55d3198-6d5b-46eb-8e87-bf3048820d7b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.minInterchange.rdf">BiddingZone.minInterchange</a></td>
+    <td property="skos:definition" lang="en">Minimum total active power (AC and DC)  that the net position for the bidding zone can have to maintain operational security. Negative sign means flow out of the bidding zone.</td>
+    <td property="dcterms:identifier">urn:uuid:b55d3198-6d5b-46eb-8e87-bf3048820d7b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.minInterchange.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.minInterchange.jsonld">JSON-LD</a><br>
@@ -1086,10 +1151,10 @@ Negative value would have the opposite effect.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/EnergyBlockOrder.participationFactor.rdf">EnergyBlockOrder.participationFactor</a></td>
-    <td>Participation factor.</td>
-    <td>urn:uuid:34ec7ba2-fd87-45d1-9465-5e43d449f758</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/EnergyBlockOrder.participationFactor.rdf">EnergyBlockOrder.participationFactor</a></td>
+    <td property="skos:definition" lang="en">Participation factor.</td>
+    <td property="dcterms:identifier">urn:uuid:34ec7ba2-fd87-45d1-9465-5e43d449f758</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyBlockOrder.participationFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/EnergyBlockOrder.participationFactor.jsonld">JSON-LD</a><br>
@@ -1097,10 +1162,10 @@ Negative value would have the opposite effect.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/GridStateAlteration.enabled.rdf">GridStateAlteration.enabled</a></td>
-    <td>The status of the GridStateAlteration set by an operation or by a signal resulting from a control action.</td>
-    <td>urn:uuid:62e43d79-7a35-42be-ab09-5e5fd0058588</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/GridStateAlteration.enabled.rdf">GridStateAlteration.enabled</a></td>
+    <td property="skos:definition" lang="en">The status of the GridStateAlteration set by an operation or by a signal resulting from a control action.</td>
+    <td property="dcterms:identifier">urn:uuid:62e43d79-7a35-42be-ab09-5e5fd0058588</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/GridStateAlteration.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/GridStateAlteration.enabled.jsonld">JSON-LD</a><br>
@@ -1108,11 +1173,11 @@ Negative value would have the opposite effect.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/Contingency.probability.rdf">Contingency.probability</a></td>
-    <td>The forecasted probability of the occurrence of the contingency based on the given operational condition, status of the equipment and the forecasted environment condition.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/Contingency.probability.rdf">Contingency.probability</a></td>
+    <td property="skos:definition" lang="en">The forecasted probability of the occurrence of the contingency based on the given operational condition, status of the equipment and the forecasted environment condition.
 The allowed value range is [0,100].</td>
-    <td>urn:uuid:2760d502-0050-4e13-aab0-4afd74435e2a</td> 
+    <td property="dcterms:identifier">urn:uuid:2760d502-0050-4e13-aab0-4afd74435e2a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/Contingency.probability.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/Contingency.probability.jsonld">JSON-LD</a><br>
@@ -1120,10 +1185,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CurrentControlFunction.targetValue.rdf">CurrentControlFunction.targetValue</a></td>
-    <td>Target value for the current that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:ddd88d82-cdd4-4ce9-a5fc-3e758e03d56e</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CurrentControlFunction.targetValue.rdf">CurrentControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the current that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:ddd88d82-cdd4-4ce9-a5fc-3e758e03d56e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1131,10 +1196,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.targetValueInductive.rdf">CurrentDroopOverride.targetValueInductive</a></td>
-    <td>Setpoint when control is active in inductive region.</td>
-    <td>urn:uuid:82d1c3da-e543-4bed-aac3-364022fcac79</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.targetValueInductive.rdf">CurrentDroopOverride.targetValueInductive</a></td>
+    <td property="skos:definition" lang="en">Setpoint when control is active in inductive region.</td>
+    <td property="dcterms:identifier">urn:uuid:82d1c3da-e543-4bed-aac3-364022fcac79</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.targetValueInductive.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.targetValueInductive.jsonld">JSON-LD</a><br>
@@ -1142,11 +1207,11 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCTieCorridor.p.rdf">DCTieCorridor.p</a></td>
-    <td>Active power at the point of common coupling. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCTieCorridor.p.rdf">DCTieCorridor.p</a></td>
+    <td property="skos:definition" lang="en">Active power at the point of common coupling. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution in the case a simplified power flow model is used.</td>
-    <td>urn:uuid:63887b20-32a7-4991-b770-75638a5c602d</td> 
+    <td property="dcterms:identifier">urn:uuid:63887b20-32a7-4991-b770-75638a5c602d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCTieCorridor.p.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCTieCorridor.p.jsonld">JSON-LD</a><br>
@@ -1154,10 +1219,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VoltageControlFunction.targetValue.rdf">VoltageControlFunction.targetValue</a></td>
-    <td>Target value for the voltage that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:2c954d38-ed51-4f75-8aa3-afd5b6f82476</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VoltageControlFunction.targetValue.rdf">VoltageControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the voltage that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:2c954d38-ed51-4f75-8aa3-afd5b6f82476</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VoltageControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VoltageControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1165,10 +1230,12 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ScheduleResource.participationFactor.rdf">ScheduleResource.participationFactor</a></td>
-    <td>Situation economic participation factor.</td>
-    <td>urn:uuid:6f0b364e-a28c-4c29-bd40-9692dc5f4b09</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ScheduleResource.participationFactor.rdf">ScheduleResource.participationFactor</a></td>
+    <td property="skos:definition" lang="en">Participation factor describing the entity part of the active power provided by a collection of entities (e.g. an active power forecast to a collection of entities is divided to each of the member entity according to the participation factor). Must be a positive value.
+In the case of a sharing strategy, the distribution is following entities value (V) equals aggregated value (T) divided by sum of participation factors (PF), i.e. V=T/sum(PF). 
+In the case of priority strategy, the item with the lowest number gets allocated energy first.</td>
+    <td property="dcterms:identifier">urn:uuid:6f0b364e-a28c-4c29-bd40-9692dc5f4b09</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ScheduleResource.participationFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ScheduleResource.participationFactor.jsonld">JSON-LD</a><br>
@@ -1176,10 +1243,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/Equipment.networkAnalysisEnabled.rdf">Equipment.networkAnalysisEnabled</a></td>
-    <td>The equipment is enabled to participate in network analysis.  If unspecified, the value is assumed to be true.</td>
-    <td>urn:uuid:ee8bd1ad-fb29-4fee-bdad-da96b34311a9</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/Equipment.networkAnalysisEnabled.rdf">Equipment.networkAnalysisEnabled</a></td>
+    <td property="skos:definition" lang="en">The equipment is enabled to participate in network analysis.  If unspecified, the value is assumed to be true.</td>
+    <td property="dcterms:identifier">urn:uuid:ee8bd1ad-fb29-4fee-bdad-da96b34311a9</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/Equipment.networkAnalysisEnabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/Equipment.networkAnalysisEnabled.jsonld">JSON-LD</a><br>
@@ -1187,10 +1254,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.netTransferCapacity.rdf">BiddingZoneBorder.netTransferCapacity</a></td>
-    <td>Net Transfer Capacity (NTC) is defined as NTC = TTC – TRM and corresponds to the maximum exchange between two areas compatible with operational security limits applicable in both areas and taking into account the technical uncertainties on future network conditions.</td>
-    <td>urn:uuid:f37d76b6-0fa6-4476-a12b-940da800e5e6</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.netTransferCapacity.rdf">BiddingZoneBorder.netTransferCapacity</a></td>
+    <td property="skos:definition" lang="en">Net Transfer Capacity (NTC) is defined as NTC = TTC â€“ TRM and corresponds to the maximum exchange between two areas compatible with operational security limits applicable in both areas and taking into account the technical uncertainties on future network conditions.</td>
+    <td property="dcterms:identifier">urn:uuid:f37d76b6-0fa6-4476-a12b-940da800e5e6</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.netTransferCapacity.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.netTransferCapacity.jsonld">JSON-LD</a><br>
@@ -1198,10 +1265,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.alreadyAllocatedFlow.rdf">BiddingZoneBorder.alreadyAllocatedFlow</a></td>
-    <td>The maximum allowed flow on the collection of interconnection between two bidding zones.</td>
-    <td>urn:uuid:294db562-b036-4d68-8c4d-df6df80fd825</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.alreadyAllocatedFlow.rdf">BiddingZoneBorder.alreadyAllocatedFlow</a></td>
+    <td property="skos:definition" lang="en">The maximum allowed flow on the collection of interconnection between two bidding zones.</td>
+    <td property="dcterms:identifier">urn:uuid:294db562-b036-4d68-8c4d-df6df80fd825</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.alreadyAllocatedFlow.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.alreadyAllocatedFlow.jsonld">JSON-LD</a><br>
@@ -1209,10 +1276,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.regulatingDownAllocation.rdf">BiddingZone.regulatingDownAllocation</a></td>
-    <td>The balancing capacity allocated for regulating down, by decreasing the production, increasing the direct current export, decreasing direct current import or increasing the consumption of energy in the bidding zone. This must be a positive number.</td>
-    <td>urn:uuid:77b59f59-5d41-4f9f-82fe-dd6cd9f43e30</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.regulatingDownAllocation.rdf">BiddingZone.regulatingDownAllocation</a></td>
+    <td property="skos:definition" lang="en">The balancing capacity allocated for regulating down, by decreasing the production, increasing the direct current export, decreasing direct current import or increasing the consumption of energy in the bidding zone. This must be a positive number.</td>
+    <td property="dcterms:identifier">urn:uuid:77b59f59-5d41-4f9f-82fe-dd6cd9f43e30</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.regulatingDownAllocation.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.regulatingDownAllocation.jsonld">JSON-LD</a><br>
@@ -1220,10 +1287,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.enabled.rdf">AssessedElement.enabled</a></td>
-    <td>If true, the assessed element is enabled, otherwise it is disabled.</td>
-    <td>urn:uuid:85982b36-c98e-4e28-958b-4c6da6651a90</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.enabled.rdf">AssessedElement.enabled</a></td>
+    <td property="skos:definition" lang="en">If true, the assessed element is enabled, otherwise it is disabled.</td>
+    <td property="dcterms:identifier">urn:uuid:85982b36-c98e-4e28-958b-4c6da6651a90</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.enabled.jsonld">JSON-LD</a><br>
@@ -1231,22 +1298,10 @@ Starting value for a steady state solution in the case a simplified power flow m
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RedispatchRemedialAction.value.rdf">RedispatchRemedialAction.value</a></td>
-    <td>The amount of redispatch provided to a bidding zone. This will be distributed using the participation factor for each of the units in the bidding zone.
-Positive value indicates that the net position in the bidding zone is increased. Negative value indicates that the net position in the bidding zone is decreased.</td>
-    <td>urn:uuid:7d291c44-a317-4f42-99e4-e09d76194711</td> 
-    <td id="publication-column">
-        <a href="http://energy.referencedata.eu/PropertyReference/RedispatchRemedialAction.value.rdf">RDF/XML</a><br>
-        <a href="http://energy.referencedata.eu/PropertyReference/RedispatchRemedialAction.value.jsonld">JSON-LD</a><br>
-        <a href="http://energy.referencedata.eu/PropertyReference/RedispatchRemedialAction.value.ttl">Turtle</a>
-    </td>      
-</tr>
-
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopControlFunction.targetValueInductive.rdf">CurrentDroopControlFunction.targetValueInductive</a></td>
-    <td>Setpoint when control is active in inductive region.</td>
-    <td>urn:uuid:b28400fb-56f8-49fb-9f98-b7b4b0e94cf2</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopControlFunction.targetValueInductive.rdf">CurrentDroopControlFunction.targetValueInductive</a></td>
+    <td property="skos:definition" lang="en">Setpoint when control is active in inductive region.</td>
+    <td property="dcterms:identifier">urn:uuid:b28400fb-56f8-49fb-9f98-b7b4b0e94cf2</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopControlFunction.targetValueInductive.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopControlFunction.targetValueInductive.jsonld">JSON-LD</a><br>
@@ -1254,10 +1309,12 @@ Positive value indicates that the net position in the bidding zone is increased.
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/GeneratingUnit.participationFactor.rdf">GeneratingUnit.participationFactor</a></td>
-    <td>Participation factor.</td>
-    <td>urn:uuid:af53eab1-df22-4a32-bcbf-df4fb9767f80</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/GeneratingUnit.participationFactor.rdf">GeneratingUnit.participationFactor</a></td>
+    <td property="skos:definition" lang="en">Participation factor describing the entity part of the active power provided by a collection of entities (e.g. an active power forecast to a collection of entities is divided to each of the member entity according to the participation factor). Must be a positive value.
+In the case of a sharing strategy, the distribution is following entities value (V) equals aggregated value (T) divided by sum of participation factors (PF), i.e. V=T/sum(PF). 
+In the case of priority strategy, the item with the lowest number gets allocated energy first.</td>
+    <td property="dcterms:identifier">urn:uuid:af53eab1-df22-4a32-bcbf-df4fb9767f80</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/GeneratingUnit.participationFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/GeneratingUnit.participationFactor.jsonld">JSON-LD</a><br>
@@ -1265,11 +1322,11 @@ Positive value indicates that the net position in the bidding zone is increased.
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/FACTSEquipment.q.rdf">FACTSEquipment.q</a></td>
-    <td>Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/FACTSEquipment.q.rdf">FACTSEquipment.q</a></td>
+    <td property="skos:definition" lang="en">Reactive power injection. Load sign convention is used, i.e. positive sign means flow out from a node.
 Starting value for a steady state solution.</td>
-    <td>urn:uuid:209a41cc-aebd-4ab4-91ee-e066e213a889</td> 
+    <td property="dcterms:identifier">urn:uuid:209a41cc-aebd-4ab4-91ee-e066e213a889</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/FACTSEquipment.q.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/FACTSEquipment.q.jsonld">JSON-LD</a><br>
@@ -1277,10 +1334,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VoltageInjectionControlFunction.targetValue.rdf">VoltageInjectionControlFunction.targetValue</a></td>
-    <td>Target value for the voltage that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:e9712674-a06f-4b09-895e-76c8df4ed6dd</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VoltageInjectionControlFunction.targetValue.rdf">VoltageInjectionControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the voltage that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:e9712674-a06f-4b09-895e-76c8df4ed6dd</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VoltageInjectionControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VoltageInjectionControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1288,10 +1345,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/SubstationController.mode.rdf">SubstationController.mode</a></td>
-    <td>Mode of the substation controller.</td>
-    <td>urn:uuid:4c6b4a0c-41d0-4ba8-91c0-974cf2dc6c46</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/SubstationController.mode.rdf">SubstationController.mode</a></td>
+    <td property="skos:definition" lang="en">Mode of the substation controller.</td>
+    <td property="dcterms:identifier">urn:uuid:4c6b4a0c-41d0-4ba8-91c0-974cf2dc6c46</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/SubstationController.mode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/SubstationController.mode.jsonld">JSON-LD</a><br>
@@ -1299,10 +1356,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/InjectionController.mode.rdf">InjectionController.mode</a></td>
-    <td>Mode of the injection controller.</td>
-    <td>urn:uuid:cc41f3b7-4412-45db-9e7f-675561ba1fc7</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/InjectionController.mode.rdf">InjectionController.mode</a></td>
+    <td property="skos:definition" lang="en">Mode of the injection controller.</td>
+    <td property="dcterms:identifier">urn:uuid:cc41f3b7-4412-45db-9e7f-675561ba1fc7</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/InjectionController.mode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/InjectionController.mode.jsonld">JSON-LD</a><br>
@@ -1310,10 +1367,10 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netPosition.rdf">BiddingZone.netPosition</a></td>
-    <td>Net position is the netted sum of electricity exports and imports for each market time unit for a bidding zone.</td>
-    <td>urn:uuid:9eba210e-c91f-4d8d-b409-6a62c695854d</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netPosition.rdf">BiddingZone.netPosition</a></td>
+    <td property="skos:definition" lang="en">Net position is the netted sum of electricity exports and imports for each market time unit for a bidding zone.</td>
+    <td property="dcterms:identifier">urn:uuid:9eba210e-c91f-4d8d-b409-6a62c695854d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netPosition.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netPosition.jsonld">JSON-LD</a><br>
@@ -1321,11 +1378,11 @@ Starting value for a steady state solution.</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.maxMarginAdjustment.rdf">AssessedElement.maxMarginAdjustment</a></td>
-    <td>Maximum adjustment, relative to maximum flow allowed for exceeding the maximum flow of this assessed element.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.maxMarginAdjustment.rdf">AssessedElement.maxMarginAdjustment</a></td>
+    <td property="skos:definition" lang="en">Maximum adjustment, relative to maximum flow allowed for exceeding the maximum flow of this assessed element.
 The allowed value range is [0,100].</td>
-    <td>urn:uuid:93b96ef2-a8fe-4576-b601-d2888f422267</td> 
+    <td property="dcterms:identifier">urn:uuid:93b96ef2-a8fe-4576-b601-d2888f422267</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.maxMarginAdjustment.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.maxMarginAdjustment.jsonld">JSON-LD</a><br>
@@ -1333,10 +1390,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/PowerTransferCorridor.enabled.rdf">PowerTransferCorridor.enabled</a></td>
-    <td>It enables/disables the monitoring/assessment of a power transfer corridor. True means that the monitoring of the power transfer corridor is assessed. False means the power transfer corridor is not assessed. </td>
-    <td>urn:uuid:0293d08f-20b8-48c7-942e-fbad5ede506e</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PowerTransferCorridor.enabled.rdf">PowerTransferCorridor.enabled</a></td>
+    <td property="skos:definition" lang="en">It enables/disables the monitoring/assessment of a power transfer corridor. True means that the monitoring of the power transfer corridor is assessed. False means the power transfer corridor is not assessed. </td>
+    <td property="dcterms:identifier">urn:uuid:0293d08f-20b8-48c7-942e-fbad5ede506e</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/PowerTransferCorridor.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/PowerTransferCorridor.enabled.jsonld">JSON-LD</a><br>
@@ -1344,10 +1401,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ThyristorControlledSeriesCompensator.compensationImpedance.rdf">ThyristorControlledSeriesCompensator.compensationImpedance</a></td>
-    <td>The actual compensation impedance provided by the compensator. The attribute value shall be positive if compensation is in the capacitive range. The attribute value shall be negative if compensation is in the inductive rating.</td>
-    <td>urn:uuid:71681a70-896b-4855-9ba1-de6a3e617eb4</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ThyristorControlledSeriesCompensator.compensationImpedance.rdf">ThyristorControlledSeriesCompensator.compensationImpedance</a></td>
+    <td property="skos:definition" lang="en">The actual compensation impedance provided by the compensator. The attribute value shall be positive if compensation is in the capacitive range. The attribute value shall be negative if compensation is in the inductive rating.</td>
+    <td property="dcterms:identifier">urn:uuid:71681a70-896b-4855-9ba1-de6a3e617eb4</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ThyristorControlledSeriesCompensator.compensationImpedance.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ThyristorControlledSeriesCompensator.compensationImpedance.jsonld">JSON-LD</a><br>
@@ -1355,10 +1412,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/VoltageAngleLimit.value.rdf">VoltageAngleLimit.value</a></td>
-    <td>The difference in angle degrees between referenced by the association end OperationalLimitSet.Terminal and the Terminal referenced by the association end VoltageAngleLimit.AngleReferenceTerminal. The value shall be positive (greater than zero).</td>
-    <td>urn:uuid:9eb2dc49-0ca2-4e36-9e74-ee0c94b012fe</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/VoltageAngleLimit.value.rdf">VoltageAngleLimit.value</a></td>
+    <td property="skos:definition" lang="en">The difference in angle degrees between referenced by the association end OperationalLimitSet.Terminal and the Terminal referenced by the association end VoltageAngleLimit.AngleReferenceTerminal. The value shall be positive (greater than zero).</td>
+    <td property="dcterms:identifier">urn:uuid:9eb2dc49-0ca2-4e36-9e74-ee0c94b012fe</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/VoltageAngleLimit.value.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/VoltageAngleLimit.value.jsonld">JSON-LD</a><br>
@@ -1366,10 +1423,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RemedialActionScheme.armed.rdf">RemedialActionScheme.armed</a></td>
-    <td>Defines the arming status of the remedial action scheme. It is set by operation or by signal.</td>
-    <td>urn:uuid:dc42fd13-4b74-469e-886c-e3c0cffc9ff7</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RemedialActionScheme.armed.rdf">RemedialActionScheme.armed</a></td>
+    <td property="skos:definition" lang="en">Defines the arming status of the remedial action scheme. It is set by operation or by signal.</td>
+    <td property="dcterms:identifier">urn:uuid:dc42fd13-4b74-469e-886c-e3c0cffc9ff7</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionScheme.armed.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionScheme.armed.jsonld">JSON-LD</a><br>
@@ -1377,10 +1434,10 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RegulatingCondEq.controlEnabled.rdf">RegulatingCondEq.controlEnabled</a></td>
-    <td>Specifies the regulation status of the equipment.  True is regulating, false is not regulating.</td>
-    <td>urn:uuid:e171117b-df36-4bd5-bce4-2d7974a891c2</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RegulatingCondEq.controlEnabled.rdf">RegulatingCondEq.controlEnabled</a></td>
+    <td property="skos:definition" lang="en">Specifies the regulation status of the equipment.  True is regulating, false is not regulating.</td>
+    <td property="dcterms:identifier">urn:uuid:e171117b-df36-4bd5-bce4-2d7974a891c2</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingCondEq.controlEnabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RegulatingCondEq.controlEnabled.jsonld">JSON-LD</a><br>
@@ -1388,12 +1445,23 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RangeConstraint.value.rdf">RangeConstraint.value</a></td>
-    <td>The value at the time. The meaning of the value is defined by the attribute referenced by the PropertyReference. The value can be integer, float or boolean. In case of boolean 1 equals true and 0 equals false. 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/InfeedLimit.valueA.rdf">InfeedLimit.valueA</a></td>
+    <td property="skos:definition" lang="en">Value of current limit. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:5ab8977f-a45d-4f58-8341-757d585ae670</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/InfeedLimit.valueA.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/InfeedLimit.valueA.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/InfeedLimit.valueA.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RangeConstraint.value.rdf">RangeConstraint.value</a></td>
+    <td property="skos:definition" lang="en">The value at the time. The meaning of the value is defined by the attribute referenced by the PropertyReference. The value can be integer, float or boolean. In case of boolean 1 equals true and 0 equals false. 
 If the valueKind is incremental or incrementalPercentage, then the value shall be positive (greater than zero).
 If the valueKind is incrementalPercentage, then the value shall be in the range [0, 100].</td>
-    <td>urn:uuid:970974fd-1205-4186-aa2b-4162b97da428</td> 
+    <td property="dcterms:identifier">urn:uuid:970974fd-1205-4186-aa2b-4162b97da428</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RangeConstraint.value.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RangeConstraint.value.jsonld">JSON-LD</a><br>
@@ -1401,10 +1469,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.totalTransferCapacity.rdf">BiddingZoneBorder.totalTransferCapacity</a></td>
-    <td>Total Transfer Capacity (TTC) is the maximum exchange program between two areas compatible with operational security standards applicable at each system if future network conditions, generation and load patterns were perfectly known in advance.</td>
-    <td>urn:uuid:57545b31-1dc8-4ed3-bbaf-990d9a1228e6</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.totalTransferCapacity.rdf">BiddingZoneBorder.totalTransferCapacity</a></td>
+    <td property="skos:definition" lang="en">Total Transfer Capacity (TTC) is the maximum exchange program between two areas compatible with operational security standards applicable at each system if future network conditions, generation and load patterns were perfectly known in advance.</td>
+    <td property="dcterms:identifier">urn:uuid:57545b31-1dc8-4ed3-bbaf-990d9a1228e6</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.totalTransferCapacity.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.totalTransferCapacity.jsonld">JSON-LD</a><br>
@@ -1412,10 +1480,12 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/HydroPump.participationFactor.rdf">HydroPump.participationFactor</a></td>
-    <td>Participation factor.</td>
-    <td>urn:uuid:6af6a7c6-b840-422e-a25a-ec8cdf1ab254</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/HydroPump.participationFactor.rdf">HydroPump.participationFactor</a></td>
+    <td property="skos:definition" lang="en">Participation factor describing the entity part of the active power provided by a collection of entities (e.g. an active power forecast to a collection of entities is divided to each of the member entity according to the participation factor). Must be a positive value.
+In the case of a sharing strategy, the distribution is following entities value (V) equals aggregated value (T) divided by sum of participation factors (PF), i.e. V=T/sum(PF). 
+In the case of priority strategy, the item with the lowest number gets allocated energy first.</td>
+    <td property="dcterms:identifier">urn:uuid:6af6a7c6-b840-422e-a25a-ec8cdf1ab254</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/HydroPump.participationFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/HydroPump.participationFactor.jsonld">JSON-LD</a><br>
@@ -1423,10 +1493,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/FunctionBlock.enabled.rdf">FunctionBlock.enabled</a></td>
-    <td>True, if the function block is enabled (active). Otherwise false.</td>
-    <td>urn:uuid:e9fe1ee9-241d-48df-8939-6aa9430a73b1</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/FunctionBlock.enabled.rdf">FunctionBlock.enabled</a></td>
+    <td property="skos:definition" lang="en">True, if the function block is enabled (active). Otherwise false.</td>
+    <td property="dcterms:identifier">urn:uuid:e9fe1ee9-241d-48df-8939-6aa9430a73b1</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/FunctionBlock.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/FunctionBlock.enabled.jsonld">JSON-LD</a><br>
@@ -1434,10 +1504,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCSwitch.open.rdf">DCSwitch.open</a></td>
-    <td>The attribute tells if the switch is considered open when used as input to topology processing.</td>
-    <td>urn:uuid:e0bf863f-07e7-41b8-9f31-86fc441d756b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCSwitch.open.rdf">DCSwitch.open</a></td>
+    <td property="skos:definition" lang="en">The attribute tells if the switch is considered open when used as input to topology processing.</td>
+    <td property="dcterms:identifier">urn:uuid:e0bf863f-07e7-41b8-9f31-86fc441d756b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCSwitch.open.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCSwitch.open.jsonld">JSON-LD</a><br>
@@ -1445,10 +1515,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.minImportP.rdf">BiddingZone.minImportP</a></td>
-    <td>Minimum imported active power requirement.</td>
-    <td>urn:uuid:823eefcc-df69-49ce-972d-cf0be58bcd81</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.minImportP.rdf">BiddingZone.minImportP</a></td>
+    <td property="skos:definition" lang="en">Minimum imported active power requirement.</td>
+    <td property="dcterms:identifier">urn:uuid:823eefcc-df69-49ce-972d-cf0be58bcd81</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.minImportP.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.minImportP.jsonld">JSON-LD</a><br>
@@ -1456,10 +1526,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ThyristorControlledSeriesCompensator.currentSectionNumber.rdf">ThyristorControlledSeriesCompensator.currentSectionNumber</a></td>
-    <td>The current section on which the TCSC is operating.</td>
-    <td>urn:uuid:1dd04f5f-eb85-489d-97c4-3d95de3a83c1</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ThyristorControlledSeriesCompensator.currentSectionNumber.rdf">ThyristorControlledSeriesCompensator.currentSectionNumber</a></td>
+    <td property="skos:definition" lang="en">The current section on which the TCSC is operating.</td>
+    <td property="dcterms:identifier">urn:uuid:1dd04f5f-eb85-489d-97c4-3d95de3a83c1</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ThyristorControlledSeriesCompensator.currentSectionNumber.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ThyristorControlledSeriesCompensator.currentSectionNumber.jsonld">JSON-LD</a><br>
@@ -1467,10 +1537,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/SSSCController.mode.rdf">SSSCController.mode</a></td>
-    <td>Mode of the Static Synchronous Series compensator controller.</td>
-    <td>urn:uuid:1a266e01-7291-47fe-8c46-60fb62be250f</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/SSSCController.mode.rdf">SSSCController.mode</a></td>
+    <td property="skos:definition" lang="en">Mode of the Static Synchronous Series compensator controller.</td>
+    <td property="dcterms:identifier">urn:uuid:1a266e01-7291-47fe-8c46-60fb62be250f</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/SSSCController.mode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/SSSCController.mode.jsonld">JSON-LD</a><br>
@@ -1478,10 +1548,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netACInterchange.rdf">BiddingZone.netACInterchange</a></td>
-    <td>The netted aggregation of all AC external schedules of an area. Positive sign means flow into the area (Import).</td>
-    <td>urn:uuid:a3874978-d2c3-44bd-9367-fa8a1cb40a5c</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netACInterchange.rdf">BiddingZone.netACInterchange</a></td>
+    <td property="skos:definition" lang="en">The netted aggregation of all AC external schedules of an area. Positive sign means flow into the area (Import).</td>
+    <td property="dcterms:identifier">urn:uuid:a3874978-d2c3-44bd-9367-fa8a1cb40a5c</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netACInterchange.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netACInterchange.jsonld">JSON-LD</a><br>
@@ -1489,10 +1559,21 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCVoltageControlFunction.targetValue.rdf">DCVoltageControlFunction.targetValue</a></td>
-    <td>Target value for the voltage that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:317ec706-2384-41a8-8b9a-a665053c35df</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PowerRemedialAction.maxRegulatingDown.rdf">PowerRemedialAction.maxRegulatingDown</a></td>
+    <td property="skos:definition" lang="en">Maximum net amount of active power that the remedial action can regulate down.</td>
+    <td property="dcterms:identifier">urn:uuid:dd5c8924-e090-4554-9fb4-5b08cf76db46</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/PowerRemedialAction.maxRegulatingDown.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/PowerRemedialAction.maxRegulatingDown.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/PowerRemedialAction.maxRegulatingDown.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCVoltageControlFunction.targetValue.rdf">DCVoltageControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the voltage that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:317ec706-2384-41a8-8b9a-a665053c35df</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCVoltageControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCVoltageControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1500,10 +1581,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/Equipment.inService.rdf">Equipment.inService</a></td>
-    <td>Specifies the availability of the equipment. True means the equipment is available for topology processing, which determines if the equipment is energized or not. False means that the equipment is treated by network applications as if it is not in the model.</td>
-    <td>urn:uuid:126623ad-2c0d-4c1c-a573-a04d017c1529</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/Equipment.inService.rdf">Equipment.inService</a></td>
+    <td property="skos:definition" lang="en">Specifies the availability of the equipment. True means the equipment is available for topology processing, which determines if the equipment is energized or not. False means that the equipment is treated by network applications as if it is not in the model.</td>
+    <td property="dcterms:identifier">urn:uuid:126623ad-2c0d-4c1c-a573-a04d017c1529</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/Equipment.inService.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/Equipment.inService.jsonld">JSON-LD</a><br>
@@ -1511,10 +1592,21 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/PowerFactorControlFunction.targetValue.rdf">PowerFactorControlFunction.targetValue</a></td>
-    <td>Target value for the power factor that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:4434b99a-027e-4655-b63b-a0187785e16d</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RemedialActionGroup.maxRegulatingDown.rdf">RemedialActionGroup.maxRegulatingDown</a></td>
+    <td property="skos:definition" lang="en">Maximum net amount of active power that the group of remedial actions can regulate down.</td>
+    <td property="dcterms:identifier">urn:uuid:f7200a2e-0c04-44e9-9155-f4f7fcad9114</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionGroup.maxRegulatingDown.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionGroup.maxRegulatingDown.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionGroup.maxRegulatingDown.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PowerFactorControlFunction.targetValue.rdf">PowerFactorControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the power factor that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:4434b99a-027e-4655-b63b-a0187785e16d</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/PowerFactorControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/PowerFactorControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1522,10 +1614,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCCurrentControlFunction.targetValue.rdf">DCCurrentControlFunction.targetValue</a></td>
-    <td>Target value for the current that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:62b0ec75-38a4-43af-8d35-412899b78fda</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCCurrentControlFunction.targetValue.rdf">DCCurrentControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the current that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:62b0ec75-38a4-43af-8d35-412899b78fda</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCCurrentControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCCurrentControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1533,10 +1625,21 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/AssessedElementWithContingency.enabled.rdf">AssessedElementWithContingency.enabled</a></td>
-    <td>If true, the assessed element with contingency is enabled, otherwise it is disabled.</td>
-    <td>urn:uuid:00c1d3f5-1955-4022-a423-cb0a38b374e6</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/InfeedLimit.valueW.rdf">InfeedLimit.valueW</a></td>
+    <td property="skos:definition" lang="en">Value of active power limit. The attribute shall be a positive value or zero.</td>
+    <td property="dcterms:identifier">urn:uuid:a680a1dd-d4d9-4ac5-b6ff-bcb955f1a2e0</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/InfeedLimit.valueW.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/InfeedLimit.valueW.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/InfeedLimit.valueW.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AssessedElementWithContingency.enabled.rdf">AssessedElementWithContingency.enabled</a></td>
+    <td property="skos:definition" lang="en">If true, the assessed element with contingency is enabled, otherwise it is disabled.</td>
+    <td property="dcterms:identifier">urn:uuid:00c1d3f5-1955-4022-a423-cb0a38b374e6</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElementWithContingency.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElementWithContingency.enabled.jsonld">JSON-LD</a><br>
@@ -1544,10 +1647,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/StageTrigger.armed.rdf">StageTrigger.armed</a></td>
-    <td>The status of the class set by operation or by signal. Optional field that will override other status fields.</td>
-    <td>urn:uuid:1ee64ce1-6a2c-4a19-b34d-ab4c718bad4f</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/StageTrigger.armed.rdf">StageTrigger.armed</a></td>
+    <td property="skos:definition" lang="en">The status of the class set by operation or by signal. Optional field that will override other status fields.</td>
+    <td property="dcterms:identifier">urn:uuid:1ee64ce1-6a2c-4a19-b34d-ab4c718bad4f</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/StageTrigger.armed.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/StageTrigger.armed.jsonld">JSON-LD</a><br>
@@ -1555,10 +1658,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netDCInterchange.rdf">BiddingZone.netDCInterchange</a></td>
-    <td>The netted aggregation of all DC external schedules of an area. Positive sign means flow into the area.</td>
-    <td>urn:uuid:0ebb40b5-b27e-4f7b-b295-94a299f59068</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netDCInterchange.rdf">BiddingZone.netDCInterchange</a></td>
+    <td property="skos:definition" lang="en">The netted aggregation of all DC external schedules of an area. Positive sign means flow into the area.</td>
+    <td property="dcterms:identifier">urn:uuid:0ebb40b5-b27e-4f7b-b295-94a299f59068</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netDCInterchange.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZone.netDCInterchange.jsonld">JSON-LD</a><br>
@@ -1566,10 +1669,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCPole.maxEconomicP.rdf">DCPole.maxEconomicP</a></td>
-    <td>Maximum high economic active power limit, that should not exceed the maximum operating active power limit.</td>
-    <td>urn:uuid:564df47f-8a07-49f5-a089-d82d06b5c4fb</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCPole.maxEconomicP.rdf">DCPole.maxEconomicP</a></td>
+    <td property="skos:definition" lang="en">Maximum high economic active power limit, that should not exceed the maximum operating active power limit.</td>
+    <td property="dcterms:identifier">urn:uuid:564df47f-8a07-49f5-a089-d82d06b5c4fb</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCPole.maxEconomicP.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCPole.maxEconomicP.jsonld">JSON-LD</a><br>
@@ -1577,10 +1680,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/PTCActivePowerSupport.value.rdf">PTCActivePowerSupport.value</a></td>
-    <td>The support that a System Integrity Protection Scheme (SIPS) gives to a Power Transfer Corridor (PTC).</td>
-    <td>urn:uuid:24303e9c-8bb0-46d6-b182-56a7bf2ba0d8</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PTCActivePowerSupport.value.rdf">PTCActivePowerSupport.value</a></td>
+    <td property="skos:definition" lang="en">The support that a System Integrity Protection Scheme (SIPS) gives to a Power Transfer Corridor (PTC).</td>
+    <td property="dcterms:identifier">urn:uuid:24303e9c-8bb0-46d6-b182-56a7bf2ba0d8</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/PTCActivePowerSupport.value.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/PTCActivePowerSupport.value.jsonld">JSON-LD</a><br>
@@ -1588,10 +1691,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.targetValueCapacitive.rdf">CurrentDroopOverride.targetValueCapacitive</a></td>
-    <td>Setpoint when control is active in capacitive region.</td>
-    <td>urn:uuid:c35ed0fc-67e0-4275-991d-47e63f1e976a</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.targetValueCapacitive.rdf">CurrentDroopOverride.targetValueCapacitive</a></td>
+    <td property="skos:definition" lang="en">Setpoint when control is active in capacitive region.</td>
+    <td property="dcterms:identifier">urn:uuid:c35ed0fc-67e0-4275-991d-47e63f1e976a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.targetValueCapacitive.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/CurrentDroopOverride.targetValueCapacitive.jsonld">JSON-LD</a><br>
@@ -1599,10 +1702,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/AssessedElementWithRemedialAction.enabled.rdf">AssessedElementWithRemedialAction.enabled</a></td>
-    <td>If true, the assessed element with remedial action is enabled, otherwise it is disabled.</td>
-    <td>urn:uuid:4aeb763c-824b-4aa4-96ec-5e97b0997c10</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AssessedElementWithRemedialAction.enabled.rdf">AssessedElementWithRemedialAction.enabled</a></td>
+    <td property="skos:definition" lang="en">If true, the assessed element with remedial action is enabled, otherwise it is disabled.</td>
+    <td property="dcterms:identifier">urn:uuid:4aeb763c-824b-4aa4-96ec-5e97b0997c10</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElementWithRemedialAction.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElementWithRemedialAction.enabled.jsonld">JSON-LD</a><br>
@@ -1610,10 +1713,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.alreadyAllocatedCapacity.rdf">BiddingZoneBorder.alreadyAllocatedCapacity</a></td>
-    <td>Already Allocated Capacity (AAC) means the total amount of allocated transmission rights i.e. transmission capacity reserved by virtue of historical long-term contracts and the previously held transmission capacity reservation auctions.</td>
-    <td>urn:uuid:278e7131-2c07-4505-8175-639fb65347cb</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.alreadyAllocatedCapacity.rdf">BiddingZoneBorder.alreadyAllocatedCapacity</a></td>
+    <td property="skos:definition" lang="en">Already Allocated Capacity (AAC) means the total amount of allocated transmission rights i.e. transmission capacity reserved by virtue of historical long-term contracts and the previously held transmission capacity reservation auctions.</td>
+    <td property="dcterms:identifier">urn:uuid:278e7131-2c07-4505-8175-639fb65347cb</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.alreadyAllocatedCapacity.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/BiddingZoneBorder.alreadyAllocatedCapacity.jsonld">JSON-LD</a><br>
@@ -1621,10 +1724,12 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsUnit.participationFactor.rdf">PowerElectronicsUnit.participationFactor</a></td>
-    <td>Situation economic participation factor.</td>
-    <td>urn:uuid:4da10084-f2d2-40ed-80fa-e80e0a0c7f15</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsUnit.participationFactor.rdf">PowerElectronicsUnit.participationFactor</a></td>
+    <td property="skos:definition" lang="en">Participation factor describing the entity part of the active power provided by a collection of entities (e.g. an active power forecast to a collection of entities is divided to each of the member entity according to the participation factor). Must be a positive value.
+In the case of a sharing strategy, the distribution is following entities value (V) equals aggregated value (T) divided by sum of participation factors (PF), i.e. V=T/sum(PF). 
+In the case of priority strategy, the item with the lowest number gets allocated energy first.</td>
+    <td property="dcterms:identifier">urn:uuid:4da10084-f2d2-40ed-80fa-e80e0a0c7f15</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsUnit.participationFactor.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/PowerElectronicsUnit.participationFactor.jsonld">JSON-LD</a><br>
@@ -1632,10 +1737,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ImpedanceControlFunction.targetValue.rdf">ImpedanceControlFunction.targetValue</a></td>
-    <td>Target value for the impedance that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:b4093159-7731-4d49-9c90-caa4234ef0e5</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ImpedanceControlFunction.targetValue.rdf">ImpedanceControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the impedance that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:b4093159-7731-4d49-9c90-caa4234ef0e5</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ImpedanceControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ImpedanceControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1643,10 +1748,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCPole.longPF.rdf">DCPole.longPF</a></td>
-    <td>Energy consumer long term economic participation factor.</td>
-    <td>urn:uuid:46946677-01a9-4f58-8666-14b65dd05267</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCPole.longPF.rdf">DCPole.longPF</a></td>
+    <td property="skos:definition" lang="en">Energy consumer long term economic participation factor.</td>
+    <td property="dcterms:identifier">urn:uuid:46946677-01a9-4f58-8666-14b65dd05267</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCPole.longPF.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCPole.longPF.jsonld">JSON-LD</a><br>
@@ -1654,10 +1759,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/Contingency.mustStudy.rdf">Contingency.mustStudy</a></td>
-    <td>Set true if must study this contingency.</td>
-    <td>urn:uuid:e6a79d11-ab88-4887-8e98-9a21a146b97b</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/Contingency.mustStudy.rdf">Contingency.mustStudy</a></td>
+    <td property="skos:definition" lang="en">Set true if must study this contingency.</td>
+    <td property="dcterms:identifier">urn:uuid:e6a79d11-ab88-4887-8e98-9a21a146b97b</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/Contingency.mustStudy.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/Contingency.mustStudy.jsonld">JSON-LD</a><br>
@@ -1665,10 +1770,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RemedialActionScheme.inService.rdf">RemedialActionScheme.inService</a></td>
-    <td>Specifies the availability of the Remedial Action Scheme (RAS). If true, the RAS is available for contingency processing. If false, the RAS is treated by contingency processing as if it is not in the model.</td>
-    <td>urn:uuid:5ff26ccf-49f4-493f-9425-74d7d969c13a</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RemedialActionScheme.inService.rdf">RemedialActionScheme.inService</a></td>
+    <td property="skos:definition" lang="en">Specifies the availability of the Remedial Action Scheme (RAS). If true, the RAS is available for contingency processing. If false, the RAS is treated by contingency processing as if it is not in the model.</td>
+    <td property="dcterms:identifier">urn:uuid:5ff26ccf-49f4-493f-9425-74d7d969c13a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionScheme.inService.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RemedialActionScheme.inService.jsonld">JSON-LD</a><br>
@@ -1676,10 +1781,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCPole.shortPF.rdf">DCPole.shortPF</a></td>
-    <td>Energy consumer short term economic participation factor.</td>
-    <td>urn:uuid:2c472fdd-1cba-47b8-b0f5-083e39448cd2</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCPole.shortPF.rdf">DCPole.shortPF</a></td>
+    <td property="skos:definition" lang="en">Energy consumer short term economic participation factor.</td>
+    <td property="dcterms:identifier">urn:uuid:2c472fdd-1cba-47b8-b0f5-083e39448cd2</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCPole.shortPF.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCPole.shortPF.jsonld">JSON-LD</a><br>
@@ -1687,10 +1792,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/ActivePowerControlFunction.targetValue.rdf">ActivePowerControlFunction.targetValue</a></td>
-    <td>Target value for the active power that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
-    <td>urn:uuid:2e610aa2-15d7-4d61-b1a9-b727eae71171</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/ActivePowerControlFunction.targetValue.rdf">ActivePowerControlFunction.targetValue</a></td>
+    <td property="skos:definition" lang="en">Target value for the active power that the control function is calculating to achieve by adjusting the operational setting to the controlled equipment.</td>
+    <td property="dcterms:identifier">urn:uuid:2e610aa2-15d7-4d61-b1a9-b727eae71171</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/ActivePowerControlFunction.targetValue.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/ActivePowerControlFunction.targetValue.jsonld">JSON-LD</a><br>
@@ -1698,10 +1803,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.maxFlow.rdf">AssessedElement.maxFlow</a></td>
-    <td>Maximum flow on a conducting equipment or a collection of conducting equipment forming a power transfer corridor. For assessed element that becomes critical due to contingency, this value represents the maximum flow with remedial action taken into consideration.</td>
-    <td>urn:uuid:b96e7fab-4784-41f0-8e7e-e1cf76a57a99</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.maxFlow.rdf">AssessedElement.maxFlow</a></td>
+    <td property="skos:definition" lang="en">Maximum flow on a conducting equipment or a collection of conducting equipment forming a power transfer corridor. For assessed element that becomes critical due to contingency, this value represents the maximum flow with remedial action taken into consideration.</td>
+    <td property="dcterms:identifier">urn:uuid:b96e7fab-4784-41f0-8e7e-e1cf76a57a99</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.maxFlow.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.maxFlow.jsonld">JSON-LD</a><br>
@@ -1709,10 +1814,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/AreaDispatchableUnit.enabled.rdf">AreaDispatchableUnit.enabled</a></td>
-    <td>Identifies if the unit is enabled to accept a dispatch instruction. If true, the unit is enabled to accept a dispatch instruction. If false, the unit has the capability, but it is not enabled to receive a dispatch instruction.</td>
-    <td>urn:uuid:b7e0f30f-765f-4d19-81f1-d8db63332a2a</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AreaDispatchableUnit.enabled.rdf">AreaDispatchableUnit.enabled</a></td>
+    <td property="skos:definition" lang="en">Identifies if the unit is enabled to accept a dispatch instruction. If true, the unit is enabled to accept a dispatch instruction. If false, the unit has the capability, but it is not enabled to receive a dispatch instruction.</td>
+    <td property="dcterms:identifier">urn:uuid:b7e0f30f-765f-4d19-81f1-d8db63332a2a</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/AreaDispatchableUnit.enabled.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/AreaDispatchableUnit.enabled.jsonld">JSON-LD</a><br>
@@ -1720,10 +1825,10 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/RotatingMachineController.mode.rdf">RotatingMachineController.mode</a></td>
-    <td>Mode of the rotating machine controller.</td>
-    <td>urn:uuid:df965405-0317-4366-9467-6fa9ced80447</td> 
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/RotatingMachineController.mode.rdf">RotatingMachineController.mode</a></td>
+    <td property="skos:definition" lang="en">Mode of the rotating machine controller.</td>
+    <td property="dcterms:identifier">urn:uuid:df965405-0317-4366-9467-6fa9ced80447</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/RotatingMachineController.mode.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/RotatingMachineController.mode.jsonld">JSON-LD</a><br>
@@ -1731,15 +1836,15 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/DCSwitch.locked.rdf">DCSwitch.locked</a></td>
-    <td>If true, the switch is locked. The resulting switch state is a combination of locked and DCSwitch.open attributes as follows:
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/DCSwitch.locked.rdf">DCSwitch.locked</a></td>
+    <td property="skos:definition" lang="en">If true, the switch is locked. The resulting switch state is a combination of locked and DCSwitch.open attributes as follows:
 <ul>
 	<li>locked=true and DCSwitch.open=true. The resulting state is open and locked;</li>
 	<li>locked=false and DCSwitch.open=true. The resulting state is open;</li>
 	<li>locked=false and DCSwitch.open=false. The resulting state is closed.</li>
 </ul></td>
-    <td>urn:uuid:bb033823-deaa-4dc1-910f-4ecf4ceb1254</td> 
+    <td property="dcterms:identifier">urn:uuid:bb033823-deaa-4dc1-910f-4ecf4ceb1254</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/DCSwitch.locked.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/DCSwitch.locked.jsonld">JSON-LD</a><br>
@@ -1747,12 +1852,23 @@ If the valueKind is incrementalPercentage, then the value shall be in the range 
     </td>      
 </tr>
 
-<tr>
-    <td><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.positiveVirtualMargin.rdf">AssessedElement.positiveVirtualMargin</a></td>
-    <td>A positive margin that defines the overload allowed in a solution for the assessed element for the current situation. The margin represents influences that can be solved by the System Operators using available remedial action which is not cross-border relevant remedial action.
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/Reservoir.energyStorage.rdf">Reservoir.energyStorage</a></td>
+    <td property="skos:definition" lang="en">Amount of energy available in the storage.</td>
+    <td property="dcterms:identifier">urn:uuid:ea6d30c2-25d2-46e8-877c-7f04a91b8b95</td> 
+    <td id="publication-column">
+        <a href="http://energy.referencedata.eu/PropertyReference/Reservoir.energyStorage.rdf">RDF/XML</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/Reservoir.energyStorage.jsonld">JSON-LD</a><br>
+        <a href="http://energy.referencedata.eu/PropertyReference/Reservoir.energyStorage.ttl">Turtle</a>
+    </td>      
+</tr>
+
+<tr typeof="skos:Concept">
+    <td property="skos:prefLabel><a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.positiveVirtualMargin.rdf">AssessedElement.positiveVirtualMargin</a></td>
+    <td property="skos:definition" lang="en">A positive margin that defines the overload allowed in a solution for the assessed element for the current situation. The margin represents influences that can be solved by the System Operators using available remedial action which is not cross-border relevant remedial action.
 All relevant operational limits (e.g. PATL, TATL, etc) are modified by this margin value. The attribute represents the increase.
 The allowed value range is [0,100].</td>
-    <td>urn:uuid:fa6d378d-b9f3-471a-a7b8-ee5a16aad4ae</td> 
+    <td property="dcterms:identifier">urn:uuid:fa6d378d-b9f3-471a-a7b8-ee5a16aad4ae</td> 
     <td id="publication-column">
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.positiveVirtualMargin.rdf">RDF/XML</a><br>
         <a href="http://energy.referencedata.eu/PropertyReference/AssessedElement.positiveVirtualMargin.jsonld">JSON-LD</a><br>
@@ -1760,7 +1876,7 @@ The allowed value range is [0,100].</td>
     </td>      
 </tr>
 
-          <!-- Add more rows for each concept scheme -->
+          <!-- Add more rows for each concept -->
         </tbody>
       </table>
     </main>

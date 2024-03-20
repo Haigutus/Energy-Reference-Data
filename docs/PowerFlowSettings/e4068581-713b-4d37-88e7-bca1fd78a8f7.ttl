@@ -1,12 +1,9 @@
-@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix cim: <http://cim.ucaiug.io/ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix eumd: <http://entsoe.eu/ns/Metadata-European#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://energy.referencedata.eu/PowerFlowSettings/e4068581-713b-4d37-88e7-bca1fd78a8f7> a cim:PowerFlowSettings,
         skos:Concept ;
-    eumd:PowerFlowSettings.maxIterationNumber "30" ;
-    eumd:PowerFlowSettings.maxIterationNumberAIC "15" ;
     cim:IdentifiedObject.description "CGM Process - Default settings to use when creating a CGM" ;
     cim:IdentifiedObject.mRID "e4068581-713b-4d37-88e7-bca1fd78a8f7" ;
     cim:IdentifiedObject.name "CGM Creation Default" ;
@@ -16,6 +13,8 @@
     cim:PowerFlowSettings.impedanceThreshold "1e-05" ;
     cim:PowerFlowSettings.interchangeControlEnabled "true" ;
     cim:PowerFlowSettings.loadVoltageDependency "false" ;
+    cim:PowerFlowSettings.maxIterationsInnerLoop "30" ;
+    cim:PowerFlowSettings.maxIterationsOuterLoop "15" ;
     cim:PowerFlowSettings.reactivePowerTolerance "0.1" ;
     cim:PowerFlowSettings.respectActivePowerLimits "true" ;
     cim:PowerFlowSettings.respectReactivePowerLimits "true" ;

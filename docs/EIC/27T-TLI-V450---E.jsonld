@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:27T-TLI-V450---E",
     "@skos:prefLabel": "CEPS_V450 Babylon-Výškov",
-    "@skos:altLabel": "CBAB__1*CVYSH_1*",
+    "@skos:altLabel": "CBAB__1_CVYSH_1_",
     "@cim:IdentifiedObject.mRID": "27T-TLI-V450---E",
     "@cim:IdentifiedObject.name": "CEPS_V450 Babylon-Výškov",
     "@cim:Names.name": [
-        "CBAB__1*CVYSH_1*",
+        "CBAB__1_CVYSH_1_",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

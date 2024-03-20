@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "LUOSSAVAARA-K_AB",
         "SE556001583501",
-        "Trade Responsible Party",
-        "Consumer"
+        "Consumer",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Consumer, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

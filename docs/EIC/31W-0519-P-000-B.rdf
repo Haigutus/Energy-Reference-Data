@@ -4,14 +4,14 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:31W-0519-P-000-B</dcterms:identifier>
-    <skos:prefLabel>EL-TO ZAGREB 90 MW 110 kV</skos:prefLabel>
+    <skos:prefLabel>EL-TO ZAGREB 250 MW 110 kV</skos:prefLabel>
     <skos:altLabel>HR-EL-TO-ZAGREB</skos:altLabel>
     <cim:IdentifiedObject.mRID>31W-0519-P-000-B</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>EL-TO ZAGREB 90 MW 110 kV</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>EL-TO ZAGREB 250 MW 110 kV</cim:IdentifiedObject.name>
     <cim:Names.name>HR-EL-TO-ZAGREB</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2019-11-28</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-08-02</cim:DateAndOrTime.date>
     <cim:Names.name>Production Unit</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
   </skos:Concept>

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLSRZR2------Z",
     "@skos:prefLabel": "Santarem - Zezere 2 220",
-    "@skos:altLabel": "LSR.ZR2",
+    "@skos:altLabel": "LSR_ZR2",
     "@cim:IdentifiedObject.mRID": "16TLSRZR2------Z",
     "@cim:IdentifiedObject.name": "Santarem - Zezere 2 220",
     "@cim:Names.name": [
-        "LSR.ZR2",
+        "LSR_ZR2",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

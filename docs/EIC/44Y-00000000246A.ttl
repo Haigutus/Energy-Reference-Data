@@ -10,12 +10,12 @@
     cim:DateAndOrTime.date "2020-11-02" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44Y-00000000246A" ;
-    cim:IdentifiedObject.name "Enson tutkimustehdas; Imatra" ;
+    cim:IdentifiedObject.name "Enson tutkimustehdas Imatra" ;
     cim:Names.name "FI_EGTU00",
         "Metering Grid Area" ;
     dcterms:identifier "urn:eic:44Y-00000000246A" ;
     skos:altLabel "FI_EGTU00" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Enson tutkimustehdas; Imatra" ;
+    skos:prefLabel "Enson tutkimustehdas Imatra" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

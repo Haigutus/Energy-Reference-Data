@@ -28,7 +28,7 @@
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-04-26",
+    "@cim:DateAndOrTime.date": "2023-11-23",
     "@schema:vatID": "DE293433599",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

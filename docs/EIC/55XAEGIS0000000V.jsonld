@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "AEGISNRGGROUP",
         "GB226683589",
-        "Trade Responsible Party",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Capacity Trader, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15T-M0000003428D> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-25" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "15T-M0000003428D" ;
+    cim:IdentifiedObject.name "Szabolcsbáka I. sz. 750/400 kV" ;
+    cim:Names.name "MBAKA-MBAKA",
+        "Tieline" ;
+    dcterms:identifier "urn:eic:15T-M0000003428D" ;
+    skos:altLabel "MBAKA-MBAKA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Szabolcsbáka I. sz. 750/400 kV" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

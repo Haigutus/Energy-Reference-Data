@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "HRS",
         "FI21915015",
-        "Trade Responsible Party",
         "Energy Supplier",
-        "Resource Provider"
+        "Resource Provider",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Supplier,Resource Provider,Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

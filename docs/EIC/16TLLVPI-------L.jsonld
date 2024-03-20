@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLLVPI-------L",
     "@skos:prefLabel": "Lavos-Paraimo",
-    "@skos:altLabel": "LLV.PI",
+    "@skos:altLabel": "LLV_PI",
     "@cim:IdentifiedObject.mRID": "16TLLVPI-------L",
     "@cim:IdentifiedObject.name": "Lavos-Paraimo",
     "@cim:Names.name": [
-        "LLV.PI",
+        "LLV_PI",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

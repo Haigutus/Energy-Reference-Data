@@ -5,16 +5,16 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:68X3NATURAL-GAZN</dcterms:identifier>
     <skos:prefLabel>Natural gaz D.C.</skos:prefLabel>
-    <skos:altLabel>NATURALGAZ_D.C.</skos:altLabel>
+    <skos:altLabel>NATURALGAZ_D_C_</skos:altLabel>
     <cim:IdentifiedObject.mRID>68X3NATURAL-GAZN</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Natural gaz D.C.</cim:IdentifiedObject.name>
-    <cim:Names.name>NATURALGAZ_D.C.</cim:Names.name>
+    <cim:Names.name>NATURALGAZ_D_C_</cim:Names.name>
     <cim:Names.name>0611008</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-05-04</cim:DateAndOrTime.date>
-    <cim:Names.name>Trade Responsible Party</cim:Names.name>
     <cim:Names.name>Network User</cim:Names.name>
+    <cim:Names.name>Trade Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>0611008</schema:vatID>
   </skos:Concept>

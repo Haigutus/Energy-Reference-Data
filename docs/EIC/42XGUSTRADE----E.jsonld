@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:42XGUSTRADE----E",
     "@skos:prefLabel": "GusTrade, s.r.o",
-    "@skos:altLabel": "GUSTRADE,S.R.O",
+    "@skos:altLabel": "GUSTRADE_S_R_O",
     "@cim:IdentifiedObject.mRID": "42XGUSTRADE----E",
     "@cim:IdentifiedObject.name": "GusTrade, s.r.o",
     "@cim:Names.name": [
-        "GUSTRADE,S.R.O",
+        "GUSTRADE_S_R_O",
         "SK2120995910",
         "Capacity Trader"
     ],

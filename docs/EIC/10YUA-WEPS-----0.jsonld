@@ -18,9 +18,9 @@
     "@cim:IdentifiedObject.name": "Ukrainian Area of Burshtyn island",
     "@cim:Names.name": [
         "UA-BEI",
-        "Scheduling Area",
         "LFC Area",
-        "Bidding Zone"
+        "Bidding Zone",
+        "Scheduling Area"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

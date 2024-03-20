@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "METAMODUL_TRADE",
         "BG203169363",
-        "Consumer",
         "Balance Responsible Party",
         "Producer",
-        "Network User"
+        "Network User",
+        "Consumer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

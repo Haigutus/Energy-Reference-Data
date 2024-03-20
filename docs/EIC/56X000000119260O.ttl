@@ -1,0 +1,27 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/56X000000119260O> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-11-01" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Contact person: Chumakov Anton  +380687075797 info@blacksea-lng.com.ua" ;
+    cim:IdentifiedObject.mRID "56X000000119260O" ;
+    cim:IdentifiedObject.name "Municipal Entrprize \"BLACK SEA LNG\"" ;
+    cim:Names.name "44104027",
+        "LNG System Operator",
+        "ME_BLACK_SEA_LNG",
+        "Network User",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:56X000000119260O" ;
+    schema1:vatID "44104027" ;
+    skos:altLabel "ME_BLACK_SEA_LNG" ;
+    skos:definition "Contact person: Chumakov Anton  +380687075797 info@blacksea-lng.com.ua"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Municipal Entrprize \"BLACK SEA LNG\"" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

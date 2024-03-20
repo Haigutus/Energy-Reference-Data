@@ -20,8 +20,8 @@
         "ENERGIT_SP_ZOO",
         "A0012368B.PL",
         "PL1070011446",
-        "System Operator",
-        "Energy Supplier"
+        "Energy Supplier",
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

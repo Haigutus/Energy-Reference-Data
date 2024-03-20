@@ -12,17 +12,17 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:46WPU0000000152M",
-    "@skos:prefLabel": "Ersträsk Vindkraft",
-    "@skos:altLabel": "ERSTRASK_VINDKRA",
+    "@skos:prefLabel": "Ersträsk South (ERS)",
+    "@skos:altLabel": "ERSTRASK_SOUTH",
     "@cim:IdentifiedObject.mRID": "46WPU0000000152M",
-    "@cim:IdentifiedObject.name": "Ersträsk Vindkraft",
+    "@cim:IdentifiedObject.name": "Ersträsk South (ERS)",
     "@cim:Names.name": [
-        "ERSTRASK_VINDKRA",
+        "ERSTRASK_SOUTH",
         "Production Unit"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-11-22",
+    "@cim:DateAndOrTime.date": "2023-12-05",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

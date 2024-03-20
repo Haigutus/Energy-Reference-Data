@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-25" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Speicherkraftwerk" ;
     cim:IdentifiedObject.mRID "12XKW-MBUENDEN-M" ;
     cim:IdentifiedObject.name "Kraftwerke MittelbÃ¼nden" ;
     cim:Names.name "CH231067",
-        "KW-MBUENDEN",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "KW-MBUENDEN" ;
     dcterms:identifier "urn:eic:12XKW-MBUENDEN-M" ;
     schema1:vatID "CH231067" ;
     skos:altLabel "KW-MBUENDEN" ;

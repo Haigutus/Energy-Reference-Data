@@ -12,14 +12,14 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:21X000000001303N",
-    "@skos:prefLabel": "B $amp; A Capital",
+    "@skos:prefLabel": "B $amp A Capital",
     "@skos:altLabel": "BACAP",
     "@skos:definition": {
         "@language": "en",
         "@value": "Balance Responsible Party"
     },
     "@cim:IdentifiedObject.mRID": "21X000000001303N",
-    "@cim:IdentifiedObject.name": "B $amp; A Capital",
+    "@cim:IdentifiedObject.name": "B $amp A Capital",
     "@cim:Names.name": [
         "BACAP",
         "GB179546360",

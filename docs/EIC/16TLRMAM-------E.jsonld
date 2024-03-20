@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLRMAM-------E",
     "@skos:prefLabel": "Rio Maior-Alto Mira",
-    "@skos:altLabel": "LRM.AM",
+    "@skos:altLabel": "LRM_AM",
     "@cim:IdentifiedObject.mRID": "16TLRMAM-------E",
     "@cim:IdentifiedObject.name": "Rio Maior-Alto Mira",
     "@cim:Names.name": [
-        "LRM.AM",
+        "LRM_AM",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

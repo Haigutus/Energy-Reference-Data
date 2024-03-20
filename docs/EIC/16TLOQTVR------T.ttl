@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLOQTVR------T" ;
     cim:IdentifiedObject.name "Ourique - Tavira 150" ;
     cim:Names.name "Internal Line",
-        "LOQ.TVR" ;
+        "LOQ_TVR" ;
     dcterms:identifier "urn:eic:16TLOQTVR------T" ;
-    skos:altLabel "LOQ.TVR" ;
+    skos:altLabel "LOQ_TVR" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Ourique - Tavira 150" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

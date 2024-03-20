@@ -6,16 +6,14 @@
     <dcterms:identifier>urn:eic:11XSUECENERGIE-4</dcterms:identifier>
     <skos:prefLabel>S&#220;C Energie und H2O GmbH</skos:prefLabel>
     <skos:altLabel>SUECENERGIE</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Group</skos:definition>
     <cim:IdentifiedObject.mRID>11XSUECENERGIE-4</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>S&#220;C Energie und H2O GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>SUECENERGIE</cim:Names.name>
     <cim:Names.name>DE197190842</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Group</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2005-12-06</cim:DateAndOrTime.date>
-    <cim:Names.name>Balance Group</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-08-30</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE197190842</schema:vatID>
   </skos:Concept>

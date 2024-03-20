@@ -3,7 +3,7 @@
 
 <http://energy.referencedata.eu/StandardRoleTypeList/A32> a skos:Concept ;
     dcterms:identifier "A32" ;
-    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that collects information from different sources and assembles  it to provide a summary of the market."""@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
     skos:prefLabel "Market information aggregator" ;

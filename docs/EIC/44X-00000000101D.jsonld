@@ -12,19 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:44X-00000000101D",
-    "@skos:prefLabel": "Enerim Oy",
-    "@skos:altLabel": "44EMPOWERIM",
+    "@skos:prefLabel": "Volue Oy",
+    "@skos:altLabel": "44VOLUE",
     "@cim:IdentifiedObject.mRID": "44X-00000000101D",
-    "@cim:IdentifiedObject.name": "Enerim Oy",
+    "@cim:IdentifiedObject.name": "Volue Oy",
     "@cim:Names.name": [
-        "44EMPOWERIM",
-        "FI24021383",
+        "44VOLUE",
+        "FI33459942",
         "Information Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2021-06-17",
-    "@schema:vatID": "FI24021383",
+    "@cim:DateAndOrTime.date": "2023-10-30",
+    "@schema:vatID": "FI33459942",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

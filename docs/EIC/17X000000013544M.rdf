@@ -16,8 +16,8 @@
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2017-06-20</cim:DateAndOrTime.date>
     <cim:Names.name>Consumer</cim:Names.name>
-    <cim:Names.name>Party Connected To Grid</cim:Names.name>
     <cim:Names.name>Capacity Trader</cim:Names.name>
+    <cim:Names.name>Party Connected To Grid</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>FR38333834562</schema:vatID>
   </skos:Concept>

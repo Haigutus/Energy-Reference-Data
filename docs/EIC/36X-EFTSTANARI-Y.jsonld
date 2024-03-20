@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "EFTSTAN",
         "400106370004",
+        "Trade Responsible Party",
         "Balance Responsible Party",
-        "Producer",
-        "Trade Responsible Party"
+        "Producer"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",

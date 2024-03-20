@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "56X930000115040G" ;
     cim:IdentifiedObject.name "CHERKASYENERGOZBUT LLC" ;
-    cim:Names.name "''CHEZ''LLC",
-        "424742023015",
-        "Trade Responsible Party" ;
+    cim:Names.name "424742023015",
+        "Trade Responsible Party",
+        "_CHEZ_LLC" ;
     dcterms:identifier "urn:eic:56X930000115040G" ;
     schema1:vatID "424742023015" ;
-    skos:altLabel "''CHEZ''LLC" ;
+    skos:altLabel "_CHEZ_LLC" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CHERKASYENERGOZBUT LLC" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

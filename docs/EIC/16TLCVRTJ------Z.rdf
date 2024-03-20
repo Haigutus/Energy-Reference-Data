@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLCVRTJ------Z</dcterms:identifier>
     <skos:prefLabel>Carvoeira - Trajouce 220</skos:prefLabel>
-    <skos:altLabel>LCVR.TJ</skos:altLabel>
+    <skos:altLabel>LCVR_TJ</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLCVRTJ------Z</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Carvoeira - Trajouce 220</cim:IdentifiedObject.name>
-    <cim:Names.name>LCVR.TJ</cim:Names.name>
+    <cim:Names.name>LCVR_TJ</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

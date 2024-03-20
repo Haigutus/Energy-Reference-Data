@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TAT5400220SAMZ",
     "@skos:prefLabel": "Auto transformador 5 400/220 Subestação de Alto Mira",
-    "@skos:altLabel": "AT5400/220SAM",
+    "@skos:altLabel": "AT5400_220SAM",
     "@cim:IdentifiedObject.mRID": "16TAT5400220SAMZ",
     "@cim:IdentifiedObject.name": "Auto transformador 5 400/220 Subestação de Alto Mira",
     "@cim:Names.name": [
-        "AT5400/220SAM",
+        "AT5400_220SAM",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

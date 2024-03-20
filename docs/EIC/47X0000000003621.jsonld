@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "IE3621",
         "IE3432204GH",
-        "Producer",
-        "Network User"
+        "Network User",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "NEP_LLC",
         "442076326558",
-        "Trade Responsible Party",
-        "Network User"
+        "Network User",
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

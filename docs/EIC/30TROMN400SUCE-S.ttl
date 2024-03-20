@@ -1,0 +1,21 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/30TROMN400SUCE-S> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-08-28" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "30TROMN400SUCE-S" ;
+    cim:IdentifiedObject.name "Roman Nord - Suceava" ;
+    cim:Names.name "Internal Line",
+        "RO_L_ROMN-SUCE" ;
+    dcterms:identifier "urn:eic:30TROMN400SUCE-S" ;
+    skos:altLabel "RO_L_ROMN-SUCE" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Roman Nord - Suceava" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

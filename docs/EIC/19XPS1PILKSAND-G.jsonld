@@ -20,12 +20,12 @@
         "PILKINGTONPOLSKA",
         "A00137187.PL",
         "PL8640004979",
-        "Grid Access Provider",
         "Meter Administrator",
+        "Grid Access Provider",
         "Consumer",
+        "Energy Supplier",
         "Metered Data Responsible",
-        "System Operator",
-        "Energy Supplier"
+        "System Operator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

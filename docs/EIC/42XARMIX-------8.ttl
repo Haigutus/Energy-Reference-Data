@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "42XARMIX-------8" ;
     cim:IdentifiedObject.name "Armix sp z.o.o." ;
-    cim:Names.name "ARMIX-SP-Z.O.O.",
+    cim:Names.name "ARMIX-SP-Z_O_O_",
         "Balance Responsible Party",
         "PL5272897136" ;
     dcterms:identifier "urn:eic:42XARMIX-------8" ;
     schema1:vatID "PL5272897136" ;
-    skos:altLabel "ARMIX-SP-Z.O.O." ;
+    skos:altLabel "ARMIX-SP-Z_O_O_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Armix sp z.o.o." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

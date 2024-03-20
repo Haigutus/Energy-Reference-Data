@@ -11,7 +11,7 @@
     "@skos:prefLabel": "Market information aggregator",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.\nA party that collects information from different sources and assembles  it to provide a summary of the market."
+        "@value": "Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. \nA party that collects information from different sources and assembles  it to provide a summary of the market."
     },
     "@context": {
         "@cim": "http://iec.ch/TC57/2013/CIM-schema-cim16#",

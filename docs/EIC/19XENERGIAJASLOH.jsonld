@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "LOTOS_INFRA_OSDN",
         "PL6850004973",
-        "Meter Administrator",
-        "Energy Supplier",
         "Grid Access Provider",
         "System Operator",
-        "Metered Data Responsible"
+        "Energy Supplier",
+        "Metered Data Responsible",
+        "Meter Administrator"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

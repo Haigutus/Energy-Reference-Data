@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLLVRM-------2",
     "@skos:prefLabel": "Lavos-Rio Maior",
-    "@skos:altLabel": "LLV.RM",
+    "@skos:altLabel": "LLV_RM",
     "@cim:IdentifiedObject.mRID": "16TLLVRM-------2",
     "@cim:IdentifiedObject.name": "Lavos-Rio Maior",
     "@cim:Names.name": [
-        "LLV.RM",
+        "LLV_RM",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

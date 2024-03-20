@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "GASN",
         "ESA08015497",
-        "Production Responsible party",
-        "Producer"
+        "Producer",
+        "Production Responsible party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

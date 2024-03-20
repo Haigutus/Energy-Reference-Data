@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TR-PRNT401X5" ;
     cim:IdentifiedObject.name "CEPS_PRN.T401 Prosenice_400/220" ;
-    cim:Names.name "CPRN__1*CPRN__2*",
+    cim:Names.name "CPRN__1_CPRN__2_",
         "Transformer" ;
     dcterms:identifier "urn:eic:27T-TR-PRNT401X5" ;
-    skos:altLabel "CPRN__1*CPRN__2*" ;
+    skos:altLabel "CPRN__1_CPRN__2_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_PRN.T401 Prosenice_400/220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Sociã©Tã© De Services Pour Syngenta, Ciba Et Huntsman, Usine De Monthey" ;
     cim:IdentifiedObject.mRID "12XCIMO--------E" ;
     cim:IdentifiedObject.name "Cimo Compagnie industrielle de Monthey SA" ;
     cim:Names.name "CH201664",
         "CIMO",
-        "Valid EIC Function needed" ;
+        "Capacity Trader" ;
     dcterms:identifier "urn:eic:12XCIMO--------E" ;
     schema1:vatID "CH201664" ;
     skos:altLabel "CIMO" ;

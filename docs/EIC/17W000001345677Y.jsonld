@@ -12,17 +12,22 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:17W000001345677Y",
-    "@skos:prefLabel": "Banc de Guérande",
+    "@skos:prefLabel": "Parc du Banc de Guérande",
     "@skos:altLabel": "FR_BANCDEGUERAND",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Changement de nom + modification du responsible party"
+    },
     "@cim:IdentifiedObject.mRID": "17W000001345677Y",
-    "@cim:IdentifiedObject.name": "Banc de Guérande",
+    "@cim:IdentifiedObject.name": "Parc du Banc de Guérande",
     "@cim:Names.name": [
         "FR_BANCDEGUERAND",
-        "Production Unit"
+        "Generation Unit"
     ],
+    "@cim:IdentifiedObject.description": "Changement de nom + modification du responsible party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-01-20",
+    "@cim:DateAndOrTime.date": "2023-10-05",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

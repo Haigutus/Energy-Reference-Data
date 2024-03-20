@@ -19,9 +19,9 @@
     "@cim:Names.name": [
         "SSERWFL",
         "GB553769603",
-        "Balance Responsible Party",
+        "Balancing Service Provider",
         "Production Responsible party",
-        "Balancing Service Provider"
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

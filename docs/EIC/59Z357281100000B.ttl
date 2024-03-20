@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "59Z357281100000B" ;
     cim:IdentifiedObject.name "San Giorgio M. (SGI)" ;
     cim:Names.name "Metering Point",
-        "SANGIORGIOM(SGI)" ;
+        "SANGIORGIOM_SGI_" ;
     dcterms:identifier "urn:eic:59Z357281100000B" ;
-    skos:altLabel "SANGIORGIOM(SGI)" ;
+    skos:altLabel "SANGIORGIOM_SGI_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "San Giorgio M. (SGI)" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TAT4400150SPON</dcterms:identifier>
     <skos:prefLabel>Auto transformador 4 400/150 Subesta&#231;&#227;o de Portim&#227;o</skos:prefLabel>
-    <skos:altLabel>AT4400/150SPO</skos:altLabel>
+    <skos:altLabel>AT4400_150SPO</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TAT4400150SPON</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Auto transformador 4 400/150 Subesta&#231;&#227;o de Portim&#227;o</cim:IdentifiedObject.name>
-    <cim:Names.name>AT4400/150SPO</cim:Names.name>
+    <cim:Names.name>AT4400_150SPO</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

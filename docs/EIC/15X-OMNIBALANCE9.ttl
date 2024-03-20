@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/15X-OMNIBALANCE9> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-07-26" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "15X-OMNIBALANCE9" ;
+    cim:IdentifiedObject.name "OMNI Balance Zrt." ;
+    cim:Names.name "Balance Responsible Party",
+        "HU32148158",
+        "OMNI" ;
+    dcterms:identifier "urn:eic:15X-OMNIBALANCE9" ;
+    schema1:vatID "HU32148158" ;
+    skos:altLabel "OMNI" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "OMNI Balance Zrt." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

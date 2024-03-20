@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:59X--EVO---GP--V</dcterms:identifier>
     <skos:prefLabel>EVO GAS &amp; POWER SRL</skos:prefLabel>
-    <skos:altLabel>EVOGAS&amp;POWER</skos:altLabel>
+    <skos:altLabel>EVOGAS_POWER</skos:altLabel>
     <cim:IdentifiedObject.mRID>59X--EVO---GP--V</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>EVO GAS &amp; POWER SRL</cim:IdentifiedObject.name>
-    <cim:Names.name>EVOGAS&amp;POWER</cim:Names.name>
+    <cim:Names.name>EVOGAS_POWER</cim:Names.name>
     <cim:Names.name>IT09264091217</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>

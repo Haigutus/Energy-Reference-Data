@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Speicherkraftwerk" ;
     cim:IdentifiedObject.mRID "12XKW-BERGELL--P" ;
     cim:IdentifiedObject.name "Bergeller Kraftwerke" ;
     cim:Names.name "CH231067",
-        "KW-BERGELL",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "KW-BERGELL" ;
     dcterms:identifier "urn:eic:12XKW-BERGELL--P" ;
     schema1:vatID "CH231067" ;
     skos:altLabel "KW-BERGELL" ;

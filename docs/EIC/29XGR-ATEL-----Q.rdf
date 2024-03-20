@@ -14,8 +14,8 @@
     <cim:IdentifiedObject.description>Electric Energy Supply And Trade</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2016-10-18</cim:DateAndOrTime.date>
-    <cim:Names.name>Valid EIC Function needed</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-10-13</cim:DateAndOrTime.date>
+    <cim:Names.name>Balance Group Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>099935170</schema:vatID>
   </skos:Concept>

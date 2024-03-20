@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "OMVNORGE",
         "NO988400025",
-        "Producer",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Producer"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party,Producer",
     "@cim:Document.docStatus": "A05",

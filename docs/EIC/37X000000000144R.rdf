@@ -12,10 +12,9 @@
     <cim:Names.name>ENWIDIGITAL_GMBH</cim:Names.name>
     <cim:Names.name>DE344368841</cim:Names.name>
     <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
-    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:Document.docStatus>A03</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2021-08-11</cim:DateAndOrTime.date>
-    <cim:Names.name>Balance Responsible Party</cim:Names.name>
+    <cim:DateAndOrTime.date>2023-08-23</cim:DateAndOrTime.date>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE344368841</schema:vatID>
   </skos:Concept>

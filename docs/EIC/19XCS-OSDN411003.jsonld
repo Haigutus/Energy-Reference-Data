@@ -19,12 +19,12 @@
     "@cim:Names.name": [
         "CIEPLOWNIA_SIEM",
         "PL6430000721",
-        "Metered Data Responsible",
-        "System Operator",
-        "Energy Supplier",
-        "Meter Administrator",
         "Grid Access Provider",
-        "Consumer"
+        "Consumer",
+        "System Operator",
+        "Meter Administrator",
+        "Energy Supplier",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

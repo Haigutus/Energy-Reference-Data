@@ -20,8 +20,8 @@
         "PJSC_DTEK",
         "A0012165A.HU",
         "001783504102",
-        "Balance Responsible Party",
         "Trade Responsible Party",
+        "Balance Responsible Party",
         "Consumption Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",

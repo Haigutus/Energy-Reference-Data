@@ -18,12 +18,11 @@
     "@cim:IdentifiedObject.name": "TÜRK ELEKTRIK KURUMU AG",
     "@cim:Names.name": [
         "TEK",
-        "DE280036677",
-        "Balance Responsible Party"
+        "DE280036677"
     ],
-    "@cim:Document.docStatus": "A05",
+    "@cim:Document.docStatus": "A03",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2023-05-11",
+    "@cim:DateAndOrTime.date": "2023-09-26",
     "@schema:vatID": "DE280036677",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

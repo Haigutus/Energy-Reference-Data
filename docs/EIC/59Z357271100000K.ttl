@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "59Z357271100000K" ;
     cim:IdentifiedObject.name "Reggente (SGI)" ;
     cim:Names.name "Metering Point",
-        "REGGENTE(SGI)" ;
+        "REGGENTE_SGI_" ;
     dcterms:identifier "urn:eic:59Z357271100000K" ;
-    skos:altLabel "REGGENTE(SGI)" ;
+    skos:altLabel "REGGENTE_SGI_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Reggente (SGI)" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

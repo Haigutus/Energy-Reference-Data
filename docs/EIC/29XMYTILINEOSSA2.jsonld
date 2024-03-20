@@ -23,11 +23,11 @@
     "@cim:Names.name": [
         "MYTILINEOS_SA",
         "EL094316669",
-        "Production Responsible party",
         "Trade Responsible Party",
-        "Balance Responsible Party",
         "Producer",
-        "Consumer"
+        "Consumer",
+        "Balance Responsible Party",
+        "Production Responsible party"
     ],
     "@cim:IdentifiedObject.description": "Consumer, electricity production, supply and trading",
     "@cim:Document.docStatus": "A05",

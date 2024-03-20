@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "KORINTHOSPOWERSA",
         "EL999644475",
-        "Production Responsible party",
         "Balance Responsible Party",
+        "Production Responsible party",
         "Producer"
     ],
     "@cim:IdentifiedObject.description": "Producer Responsible Party",

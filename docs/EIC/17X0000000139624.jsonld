@@ -23,10 +23,10 @@
     "@cim:Names.name": [
         "FR_AGREGIO",
         "FR17824543490",
-        "Market Operator",
-        "Coordination Center Operator",
+        "Metered Data Aggregator",
         "Production Responsible party",
-        "Metered Data Aggregator"
+        "Coordination Center Operator",
+        "Market Operator"
     ],
     "@cim:IdentifiedObject.description": "Agrégation de production et de flexibilités",
     "@cim:Document.docStatus": "A05",

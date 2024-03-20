@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "ESB_GAS",
         "IE8F52100V",
-        "Trade Responsible Party",
         "Balance Responsible Party",
+        "Trade Responsible Party",
         "Imbalance Settlement Responsible",
         "Capacity Trader"
     ],

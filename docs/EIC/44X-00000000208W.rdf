@@ -4,17 +4,17 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:44X-00000000208W</dcterms:identifier>
-    <skos:prefLabel>Ilmatar Energy Oy</skos:prefLabel>
+    <skos:prefLabel>Ilmatar Energy HoldCo Oy</skos:prefLabel>
     <skos:altLabel>44ILMATAR</skos:altLabel>
     <cim:IdentifiedObject.mRID>44X-00000000208W</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Ilmatar Energy Oy</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>Ilmatar Energy HoldCo Oy</cim:IdentifiedObject.name>
     <cim:Names.name>44ILMATAR</cim:Names.name>
-    <cim:Names.name>FI29187331</cim:Names.name>
+    <cim:Names.name>FI33724005</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2021-07-15</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-12-01</cim:DateAndOrTime.date>
     <cim:Names.name>Producer</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>FI29187331</schema:vatID>
+    <schema:vatID>FI33724005</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

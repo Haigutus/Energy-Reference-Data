@@ -22,8 +22,8 @@
         "PL5782593866",
         "Grid Access Provider",
         "Meter Administrator",
-        "Metered Data Responsible",
         "System Operator",
+        "Metered Data Responsible",
         "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",

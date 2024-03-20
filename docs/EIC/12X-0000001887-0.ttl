@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-20" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Trade Responsible Party Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "12X-0000001887-0" ;
     cim:IdentifiedObject.name "Temp SA" ;
     cim:Names.name "CHE114588037",
-        "TEMP-SA-ST",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "TEMP-SA-ST" ;
     dcterms:identifier "urn:eic:12X-0000001887-0" ;
     schema1:vatID "CHE114588037" ;
     skos:altLabel "TEMP-SA-ST" ;

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:56X930000000621Y",
     "@skos:prefLabel": "\"Vesta\" LLC.",
-    "@skos:altLabel": "VESTA.UA",
+    "@skos:altLabel": "VESTA_UA",
     "@cim:IdentifiedObject.mRID": "56X930000000621Y",
     "@cim:IdentifiedObject.name": "\"Vesta\" LLC.",
     "@cim:Names.name": [
-        "VESTA.UA",
+        "VESTA_UA",
         "UA302883120337",
         "Network User"
     ],

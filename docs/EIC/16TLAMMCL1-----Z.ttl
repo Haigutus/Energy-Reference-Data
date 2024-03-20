@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLAMMCL1-----Z" ;
     cim:IdentifiedObject.name "Armamar - Carrapatelo 1 220" ;
     cim:Names.name "Internal Line",
-        "LAMM.CL1" ;
+        "LAMM_CL1" ;
     dcterms:identifier "urn:eic:16TLAMMCL1-----Z" ;
-    skos:altLabel "LAMM.CL1" ;
+    skos:altLabel "LAMM_CL1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Armamar - Carrapatelo 1 220" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

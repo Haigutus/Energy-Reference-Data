@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59XENITS---0000X",
     "@skos:prefLabel": "ENI TRADING & SHIPPING SPA",
-    "@skos:altLabel": "ENITRAD&SHIP",
+    "@skos:altLabel": "ENITRAD_SHIP",
     "@cim:IdentifiedObject.mRID": "59XENITS---0000X",
     "@cim:IdentifiedObject.name": "ENI TRADING & SHIPPING SPA",
     "@cim:Names.name": [
-        "ENITRAD&SHIP",
+        "ENITRAD_SHIP",
         "IT09598861004",
         "Capacity Trader"
     ],

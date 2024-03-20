@@ -20,10 +20,10 @@
         "PLUS_ENERGIA",
         "PL5252395130",
         "System Operator",
-        "Meter Administrator",
         "Metered Data Responsible",
-        "Grid Access Provider",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Meter Administrator",
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

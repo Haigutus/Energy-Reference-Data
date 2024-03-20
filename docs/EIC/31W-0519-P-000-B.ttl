@@ -7,15 +7,15 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2019-11-28" ;
+    cim:DateAndOrTime.date "2023-08-02" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "31W-0519-P-000-B" ;
-    cim:IdentifiedObject.name "EL-TO ZAGREB 90 MW 110 kV" ;
+    cim:IdentifiedObject.name "EL-TO ZAGREB 250 MW 110 kV" ;
     cim:Names.name "HR-EL-TO-ZAGREB",
         "Production Unit" ;
     dcterms:identifier "urn:eic:31W-0519-P-000-B" ;
     skos:altLabel "HR-EL-TO-ZAGREB" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "EL-TO ZAGREB 90 MW 110 kV" ;
+    skos:prefLabel "EL-TO ZAGREB 250 MW 110 kV" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

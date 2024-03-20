@@ -24,8 +24,8 @@
         "EPCGTRADING",
         "02002230",
         "Production Responsible party",
-        "Capacity Trader",
         "Consumption Responsible Party",
+        "Capacity Trader",
         "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Epcg Functional Entity For Electricity Supply And Trading.",

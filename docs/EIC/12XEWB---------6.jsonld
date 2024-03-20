@@ -13,7 +13,7 @@
     },
     "@dcterms:identifier": "urn:eic:12XEWB---------6",
     "@skos:prefLabel": "Energie Wasser Bern",
-    "@skos:altLabel": "EWB-STANDARD",
+    "@skos:altLabel": "EWB-STANDARD_OLD",
     "@skos:definition": {
         "@language": "en",
         "@value": "Energieerzeugung + Verteilungs Unternehmen"
@@ -21,14 +21,14 @@
     "@cim:IdentifiedObject.mRID": "12XEWB---------6",
     "@cim:IdentifiedObject.name": "Energie Wasser Bern",
     "@cim:Names.name": [
-        "EWB-STANDARD",
+        "EWB-STANDARD_OLD",
         "CH544080",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Energieerzeugung + Verteilungs Unternehmen",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-25",
     "@schema:vatID": "CH544080",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

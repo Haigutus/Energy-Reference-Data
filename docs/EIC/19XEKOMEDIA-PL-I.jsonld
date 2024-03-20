@@ -21,9 +21,9 @@
         "PL6641913163",
         "Energy Supplier",
         "Meter Administrator",
-        "Metered Data Responsible",
+        "System Operator",
         "Grid Access Provider",
-        "System Operator"
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

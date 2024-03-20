@@ -18,12 +18,11 @@
     "@cim:IdentifiedObject.name": "Jyske Bank A/S",
     "@cim:Names.name": [
         "DK_JYSKEBANK",
-        "DK17616617",
-        "Profile Maintenance Party"
+        "DK17616617"
     ],
-    "@cim:Document.docStatus": "A05",
+    "@cim:Document.docStatus": "A03",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2019-01-07",
+    "@cim:DateAndOrTime.date": "2023-09-22",
     "@schema:vatID": "DK17616617",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

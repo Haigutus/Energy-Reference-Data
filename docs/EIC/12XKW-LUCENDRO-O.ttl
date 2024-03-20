@@ -7,14 +7,14 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2016-10-18" ;
+    cim:DateAndOrTime.date "2023-10-27" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Kraftwerksgesellschaft" ;
     cim:IdentifiedObject.mRID "12XKW-LUCENDRO-O" ;
     cim:IdentifiedObject.name "Atel Hydro Ticino SA" ;
     cim:Names.name "CH503668",
-        "KW-LUCENDRO",
-        "Valid EIC Function needed" ;
+        "Capacity Trader",
+        "KW-LUCENDRO" ;
     dcterms:identifier "urn:eic:12XKW-LUCENDRO-O" ;
     schema1:vatID "CH503668" ;
     skos:altLabel "KW-LUCENDRO" ;

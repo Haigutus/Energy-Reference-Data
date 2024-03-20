@@ -20,11 +20,11 @@
         "ECOKOG-OPOLE",
         "A00067277.PL",
         "PL7752644726",
-        "Producer",
-        "Metered Data Responsible",
         "Meter Administrator",
-        "Energy Supplier",
-        "System Operator"
+        "Metered Data Responsible",
+        "System Operator",
+        "Producer",
+        "Energy Supplier"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

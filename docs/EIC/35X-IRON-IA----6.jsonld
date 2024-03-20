@@ -19,10 +19,10 @@
     "@cim:Names.name": [
         "IRON_IA",
         "03276236",
-        "Production Responsible party",
-        "Producer",
-        "Capacity Trader",
         "Trade Responsible Party",
+        "Capacity Trader",
+        "Producer",
+        "Production Responsible party",
         "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",

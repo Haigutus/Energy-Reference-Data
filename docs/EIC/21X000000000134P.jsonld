@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/21X000000000134P",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:21X000000000134P",
+    "@skos:prefLabel": "Musel Energy Hub",
+    "@skos:altLabel": "MUSEL_ENERGY_HUB",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "The EU VAT verification tool doesn't approve the VAT code B44907459 because it is a non-standard code for a Spanish company that starts with a letter B. We have received a document that proves the eligibility of the VAT code, and we confirm that it is correct and valid. The document's details: Núm. 204, Sábado 26 de agosto de 2023, Sec. III. Pág. 120726."
+    },
+    "@cim:IdentifiedObject.mRID": "21X000000000134P",
+    "@cim:IdentifiedObject.name": "Musel Energy Hub",
+    "@cim:Names.name": [
+        "MUSEL_ENERGY_HUB",
+        "B44907459",
+        "LNG System Operator"
+    ],
+    "@cim:IdentifiedObject.description": "The EU VAT verification tool doesn't approve the VAT code B44907459 because it is a non-standard code for a Spanish company that starts with a letter B. We have received a document that proves the eligibility of the VAT code, and we confirm that it is correct and valid. The document's details: Núm. 204, Sábado 26 de agosto de 2023, Sec. III. Pág. 120726.",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-09-08",
+    "@schema:vatID": "B44907459",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

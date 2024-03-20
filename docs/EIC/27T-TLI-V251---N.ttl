@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V251---N" ;
     cim:IdentifiedObject.name "CEPS_V251 Prosenice-Sokolnice" ;
-    cim:Names.name "CPRN__2*CSOK__2*",
+    cim:Names.name "CPRN__2_CSOK__2_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V251---N" ;
-    skos:altLabel "CPRN__2*CSOK__2*" ;
+    skos:altLabel "CPRN__2_CSOK__2_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V251 Prosenice-Sokolnice" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -22,8 +22,8 @@
     "@cim:IdentifiedObject.name": "S.R.L. \"Navitas Energy\"",
     "@cim:Names.name": [
         "NAVITASEN_F",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "S.R.L. ''Navitas Energy'' has no EU VAT code. Registration number (IDNO) - 1020600042991 Licence - AC nr. 001504; issued by ANRE on 24/12/2020",
     "@cim:Document.docStatus": "A05",

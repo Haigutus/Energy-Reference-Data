@@ -7,11 +7,11 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2012-11-27" ;
+    cim:DateAndOrTime.date "2023-08-29" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.description "Interconnection Trade Responsible" ;
     cim:IdentifiedObject.mRID "39X50CEGASTRADEW" ;
-    cim:IdentifiedObject.name "Central European Gas Trade Korlátolt Felelősségű Társaság" ;
+    cim:IdentifiedObject.name "EMvia Energiakereskedelmi Kft" ;
     cim:Names.name "CEGAS_TRADE",
         "HU22700368",
         "Interconnection Trade Responsible" ;
@@ -20,6 +20,6 @@
     skos:altLabel "CEGAS_TRADE" ;
     skos:definition "Interconnection Trade Responsible"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Central European Gas Trade Korlátolt Felelősségű Társaság" ;
+    skos:prefLabel "EMvia Energiakereskedelmi Kft" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

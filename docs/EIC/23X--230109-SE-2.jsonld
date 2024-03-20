@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "SVAL_ENERGI",
         "NO996888177MVA",
-        "Network User",
-        "Producer"
+        "Producer",
+        "Network User"
     ],
     "@cim:IdentifiedObject.description": "Company rgistered in Norway, Company registration number:  996888177; official confirmation certificate ",
     "@cim:Document.docStatus": "A05",

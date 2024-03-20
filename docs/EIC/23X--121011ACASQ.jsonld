@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "ABBOTT_COMMOD",
         "NO998852870M",
-        "Trade Responsible Party",
         "Balance Responsible Party",
+        "Trade Responsible Party",
         "Interconnection Trade Responsible"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Interconnection Trade Responsible, Trade Responsible Party",

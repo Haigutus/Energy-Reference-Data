@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPNLTBA1----2" ;
     cim:IdentifiedObject.name "Penela-Tábua 1" ;
     cim:Names.name "Internal Line",
-        "LPNL.TBA1" ;
+        "LPNL_TBA1" ;
     dcterms:identifier "urn:eic:16TLPNLTBA1----2" ;
-    skos:altLabel "LPNL.TBA1" ;
+    skos:altLabel "LPNL_TBA1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Penela-Tábua 1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

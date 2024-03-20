@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/23X--230907--M-5> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-09-21" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "Company registration number, confirmed with the Certificate of Registration in Kosovo: 810091455  National VAT number confirmed with Certificate VAT Filer: 330379950" ;
+    cim:IdentifiedObject.mRID "23X--230907--M-5" ;
+    cim:IdentifiedObject.name "Monting sh.p.k" ;
+    cim:Names.name "330379950",
+        "Capacity Trader",
+        "MONTING_XK",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:23X--230907--M-5" ;
+    schema1:vatID "330379950" ;
+    skos:altLabel "MONTING_XK" ;
+    skos:definition "Company registration number, confirmed with the Certificate of Registration in Kosovo: 810091455  National VAT number confirmed with Certificate VAT Filer: 330379950"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Monting sh.p.k" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

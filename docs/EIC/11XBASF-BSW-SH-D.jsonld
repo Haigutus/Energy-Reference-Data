@@ -14,10 +14,6 @@
     "@dcterms:identifier": "urn:eic:11XBASF-BSW-SH-D",
     "@skos:prefLabel": "BASF Schwarzheide GmbH",
     "@skos:altLabel": "BSW",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11XBASF-BSW-SH-D",
     "@cim:IdentifiedObject.name": "BASF Schwarzheide GmbH",
     "@cim:Names.name": [
@@ -25,10 +21,9 @@
         "DE811122744",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2013-05-02",
+    "@cim:DateAndOrTime.date": "2023-10-30",
     "@schema:vatID": "DE811122744",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

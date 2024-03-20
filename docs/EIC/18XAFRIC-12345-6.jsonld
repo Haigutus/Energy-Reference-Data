@@ -12,24 +12,19 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:18XAFRIC-12345-6",
-    "@skos:prefLabel": "AFRICANA ENERGIA .S.L.",
+    "@skos:prefLabel": "AFRICANA ENERGÍA, S.A.",
     "@skos:altLabel": "AFRIC",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Production Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "18XAFRIC-12345-6",
-    "@cim:IdentifiedObject.name": "AFRICANA ENERGIA .S.L.",
+    "@cim:IdentifiedObject.name": "AFRICANA ENERGÍA, S.A.",
     "@cim:Names.name": [
         "AFRIC",
-        "ESB14814487",
+        "ESA14814487",
         "Production Responsible party"
     ],
-    "@cim:IdentifiedObject.description": "Production Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2012-10-05",
-    "@schema:vatID": "ESB14814487",
+    "@cim:DateAndOrTime.date": "2023-10-23",
+    "@schema:vatID": "ESA14814487",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

@@ -3,7 +3,7 @@
 
 <http://energy.referencedata.eu/StandardRoleTypeList/A37> a skos:Concept ;
     dcterms:identifier "A37" ;
-    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document.
+    skos:definition """Refer to role model definitions in the ENTSO-E Harmonised Role Model Document. 
 A party that is financially accountable for the reconciled volume of energy products for a profiled local metering point."""@en ;
     skos:inScheme <http://energy.referencedata.eu/StandardRoleTypeList> ;
     skos:prefLabel "Reconciliation Accountable" ;

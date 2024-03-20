@@ -20,9 +20,9 @@
         "UAB_IGNITIS",
         "A00012948.LT",
         "LT100008860617",
+        "Balance Responsible Party",
         "Trade Responsible Party",
-        "Network User",
-        "Balance Responsible Party"
+        "Network User"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

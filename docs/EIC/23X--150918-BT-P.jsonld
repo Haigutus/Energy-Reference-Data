@@ -20,9 +20,9 @@
         "ECTP_SINGAPORE",
         "A0017726W.DE",
         "SGP201318513C",
-        "Trade Responsible Party",
+        "Capacity Trader",
         "Market Operator",
-        "Capacity Trader"
+        "Trade Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

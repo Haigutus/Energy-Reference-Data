@@ -18,9 +18,9 @@
     "@cim:IdentifiedObject.name": "Regulerkraftværk Kratholm",
     "@cim:Names.name": [
         "KRATHOLM",
+        "Production Unit",
         "Resource Object",
-        "Load",
-        "Production Unit"
+        "Load"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

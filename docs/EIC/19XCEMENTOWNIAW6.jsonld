@@ -21,12 +21,12 @@
         "A0012444J.PL",
         "PL8320003932",
         "Consumer",
-        "Energy Supplier",
-        "Grid Access Provider",
-        "System Operator",
         "Meter Administrator",
-        "Producer",
-        "Metered Data Responsible"
+        "System Operator",
+        "Grid Access Provider",
+        "Energy Supplier",
+        "Metered Data Responsible",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

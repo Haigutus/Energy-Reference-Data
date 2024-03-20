@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLCFVC1-GVA--E",
     "@skos:prefLabel": "Chafariz-Vila Chã 1/Ramal Gouveia",
-    "@skos:altLabel": "LCF.VC1/GVA",
+    "@skos:altLabel": "LCF_VC1_GVA",
     "@cim:IdentifiedObject.mRID": "16TLCFVC1-GVA--E",
     "@cim:IdentifiedObject.name": "Chafariz-Vila Chã 1/Ramal Gouveia",
     "@cim:Names.name": [
-        "LCF.VC1/GVA",
+        "LCF_VC1_GVA",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -27,9 +27,9 @@
         "Balance Responsible Party",
         "Grid Access Provider",
         "Energy Supplier",
-        "Meter Administrator",
+        "System Operator",
         "Metered Data Responsible",
-        "System Operator"
+        "Meter Administrator"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",

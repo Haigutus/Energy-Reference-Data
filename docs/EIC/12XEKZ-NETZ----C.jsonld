@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "EKZ-NETZ",
         "CH231013",
-        "Valid EIC Function needed"
+        "Grid Operator"
     ],
     "@cim:IdentifiedObject.description": "Verteilnetzbetreiber Im Kanton Zã¼Rich Und Angrenzender Gebiete",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-27",
     "@schema:vatID": "CH231013",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

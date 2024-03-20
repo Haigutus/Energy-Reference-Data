@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V254---8" ;
     cim:IdentifiedObject.name "CEPS_V254 Lískovec-Prosenice" ;
-    cim:Names.name "CLIS__2*CPRN__2",
+    cim:Names.name "CLIS__2_CPRN__2",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V254---8" ;
-    skos:altLabel "CLIS__2*CPRN__2" ;
+    skos:altLabel "CLIS__2_CPRN__2" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V254 Lískovec-Prosenice" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

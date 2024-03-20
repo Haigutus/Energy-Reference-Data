@@ -14,10 +14,6 @@
     "@dcterms:identifier": "urn:eic:11X-MACBANKINT-1",
     "@skos:prefLabel": "Macquarie Bank International Limited",
     "@skos:altLabel": "MACBANKINT",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Responsible Party"
-    },
     "@cim:IdentifiedObject.mRID": "11X-MACBANKINT-1",
     "@cim:IdentifiedObject.name": "Macquarie Bank International Limited",
     "@cim:Names.name": [
@@ -25,10 +21,9 @@
         "GB577704800",
         "Balance Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2017-08-21",
+    "@cim:DateAndOrTime.date": "2023-11-15",
     "@schema:vatID": "GB577704800",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

@@ -7,15 +7,15 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-01-27" ;
+    cim:DateAndOrTime.date "2023-11-01" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "11T-D2-D7-00004B" ;
-    cim:IdentifiedObject.name "L-D2-D7-LANDESBERGEN -WEHRENDORF-1" ;
+    cim:IdentifiedObject.name "AMP-TTG/380/OHLENSEHLEN-WEHRENDORF/DUEMMERSEE S-1" ;
     cim:Names.name "Internal Tie-Line",
-        "L-D2-D7-LANWEH-1" ;
+        "L-D2-D7-OHWE-DS1" ;
     dcterms:identifier "urn:eic:11T-D2-D7-00004B" ;
-    skos:altLabel "L-D2-D7-LANWEH-1" ;
+    skos:altLabel "L-D2-D7-OHWE-DS1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "L-D2-D7-LANDESBERGEN -WEHRENDORF-1" ;
+    skos:prefLabel "AMP-TTG/380/OHLENSEHLEN-WEHRENDORF/DUEMMERSEE S-1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

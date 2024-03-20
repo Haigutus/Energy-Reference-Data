@@ -7,9 +7,8 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2014-04-14" ;
+    cim:DateAndOrTime.date "2023-10-30" ;
     cim:Document.docStatus "A05" ;
-    cim:IdentifiedObject.description "Balance Responsible Party" ;
     cim:IdentifiedObject.mRID "11XED-H-GENERA-3" ;
     cim:IdentifiedObject.name "Energiedienst Holding AG" ;
     cim:Names.name "Balance Responsible Party",
@@ -18,7 +17,6 @@
     dcterms:identifier "urn:eic:11XED-H-GENERA-3" ;
     schema1:vatID "DE142693600" ;
     skos:altLabel "ED_H" ;
-    skos:definition "Balance Responsible Party"@en ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Energiedienst Holding AG" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -20,13 +20,13 @@
         "BPSPPSA",
         "A00125310.PL",
         "PL1182242783",
+        "Metered Data Responsible",
         "Meter Administrator",
-        "Producer",
-        "Consumer",
+        "System Operator",
         "Grid Access Provider",
         "Energy Supplier",
-        "Metered Data Responsible",
-        "System Operator"
+        "Consumer",
+        "Producer"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "59XAG-EN--00001A" ;
     cim:IdentifiedObject.name "AG.EN GRANDA S.r.l." ;
-    cim:Names.name "AG.ENGRANDA",
+    cim:Names.name "AG_ENGRANDA",
         "IT2693930048",
         "Market Operator" ;
     dcterms:identifier "urn:eic:59XAG-EN--00001A" ;
     schema1:vatID "IT2693930048" ;
-    skos:altLabel "AG.ENGRANDA" ;
+    skos:altLabel "AG_ENGRANDA" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "AG.EN GRANDA S.r.l." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

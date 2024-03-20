@@ -1,0 +1,23 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/53XPL000000ROBN6> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-10-05" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.mRID "53XPL000000ROBN6" ;
+    cim:IdentifiedObject.name "Röben Polska Sp. z o.o. i Wspólnicy Sp. k." ;
+    cim:Names.name "Consumer",
+        "PL8990027076",
+        "ROBEN_POLSKA" ;
+    dcterms:identifier "urn:eic:53XPL000000ROBN6" ;
+    schema1:vatID "PL8990027076" ;
+    skos:altLabel "ROBEN_POLSKA" ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Röben Polska Sp. z o.o. i Wspólnicy Sp. k." ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

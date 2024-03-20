@@ -1,0 +1,43 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/56X930000122390Z",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:56X930000122390Z",
+    "@skos:prefLabel": "\"SETMIS\" Limited Liability Company",
+    "@skos:altLabel": "SETMIS_LLC",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Contact persone: Oleksandr Kompaniiets +380668775436 setmis.tov@gmail.com"
+    },
+    "@cim:IdentifiedObject.mRID": "56X930000122390Z",
+    "@cim:IdentifiedObject.name": "\"SETMIS\" Limited Liability Company",
+    "@cim:Names.name": [
+        "SETMIS_LLC",
+        "450952213058",
+        "Trade Responsible Party",
+        "Network User"
+    ],
+    "@cim:IdentifiedObject.description": "Contact persone: Oleksandr Kompaniiets +380668775436 setmis.tov@gmail.com",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-10-24",
+    "@schema:vatID": "450952213058",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

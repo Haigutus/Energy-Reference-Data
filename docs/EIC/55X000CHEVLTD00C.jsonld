@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "CHEVRONNSLTD",
         "GB234611586",
-        "Producer",
         "Interconnection Trade Responsible",
-        "Capacity Trader"
+        "Capacity Trader",
+        "Producer"
     ],
     "@cim:IdentifiedObject.description": "Capacity Trader, Interconnection Trade Responsible, Producer",
     "@cim:Document.docStatus": "A05",

@@ -1,0 +1,44 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/56X9300001189305",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:56X9300001189305",
+    "@skos:prefLabel": "State Enterprise \"National Project \"LNG Terminal\"",
+    "@skos:altLabel": "NP_LNG_TERMINAL",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Contact persone: Chumakov Anton +380687075797 info@lng-terminal.com.ua"
+    },
+    "@cim:IdentifiedObject.mRID": "56X9300001189305",
+    "@cim:IdentifiedObject.name": "State Enterprise \"National Project \"LNG Terminal\"",
+    "@cim:Names.name": [
+        "NP_LNG_TERMINAL",
+        "374501626558",
+        "Trade Responsible Party",
+        "Network User",
+        "LNG System Operator"
+    ],
+    "@cim:IdentifiedObject.description": "Contact persone: Chumakov Anton +380687075797 info@lng-terminal.com.ua",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-10-31",
+    "@schema:vatID": "374501626558",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}

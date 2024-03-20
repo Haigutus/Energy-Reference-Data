@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "GREENENV",
         "EL998206312",
-        "Trade Responsible Party",
+        "Production Responsible party",
         "Balance Responsible Party",
-        "Production Responsible party"
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Trade Responsible Party, Production Responsible Party",
     "@cim:Document.docStatus": "A05",

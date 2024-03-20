@@ -20,9 +20,9 @@
         "SISSL",
         "ESB98039407",
         "Market Operator",
+        "Production Responsible party",
         "Capacity Trader",
-        "Balance Responsible Party",
-        "Production Responsible party"
+        "Balance Responsible Party"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLALPM-------5" ;
     cim:IdentifiedObject.name "Alcochete-Palmela 400 " ;
     cim:Names.name "Internal Line",
-        "LAL.PM" ;
+        "LAL_PM" ;
     dcterms:identifier "urn:eic:16TLALPM-------5" ;
-    skos:altLabel "LAL.PM" ;
+    skos:altLabel "LAL_PM" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Alcochete-Palmela 400 " ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

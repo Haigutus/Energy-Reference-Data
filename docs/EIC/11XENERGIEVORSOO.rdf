@@ -6,15 +6,13 @@
     <dcterms:identifier>urn:eic:11XENERGIEVORSOO</dcterms:identifier>
     <skos:prefLabel>die energievorsorger GmbH</skos:prefLabel>
     <skos:altLabel>DEVO</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11XENERGIEVORSOO</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>die energievorsorger GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>DEVO</cim:Names.name>
     <cim:Names.name>DE252511556</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2012-01-19</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-01</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE252511556</schema:vatID>

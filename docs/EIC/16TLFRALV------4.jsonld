@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLFRALV------4",
     "@skos:prefLabel": "Feira-Lavos",
-    "@skos:altLabel": "LFRA.LV",
+    "@skos:altLabel": "LFRA_LV",
     "@cim:IdentifiedObject.mRID": "16TLFRALV------4",
     "@cim:IdentifiedObject.name": "Feira-Lavos",
     "@cim:Names.name": [
-        "LFRA.LV",
+        "LFRA_LV",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

@@ -1,0 +1,26 @@
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://energy.referencedata.eu/EIC/64XAGROGRENG-F4I> a schema1:Thing,
+        skos:Concept,
+        <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
+    cim:AttributeInstanceComponent.attribute "International" ;
+    cim:DateAndOrTime.date "2023-09-20" ;
+    cim:Document.docStatus "A05" ;
+    cim:IdentifiedObject.description "ANRE license A MMI nr.000126" ;
+    cim:IdentifiedObject.mRID "64XAGROGRENG-F4I" ;
+    cim:IdentifiedObject.name "Agro Green Energy SRL" ;
+    cim:Names.name "0509223",
+        "AGROGREEN_F",
+        "Balance Responsible Party",
+        "Trade Responsible Party" ;
+    dcterms:identifier "urn:eic:64XAGROGRENG-F4I" ;
+    schema1:vatID "0509223" ;
+    skos:altLabel "AGROGREEN_F" ;
+    skos:definition "ANRE license A MMI nr.000126"@en ;
+    skos:inScheme <http://energy.referencedata.eu/EIC> ;
+    skos:prefLabel "Agro Green Energy SRL" ;
+    skos:topConceptOf <http://energy.referencedata.eu/EIC> .
+

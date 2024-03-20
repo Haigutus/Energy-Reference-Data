@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLAMMLGC-----S" ;
     cim:IdentifiedObject.name "Armamar-Lagoaça" ;
     cim:Names.name "Internal Line",
-        "LAMM.LGC" ;
+        "LAMM_LGC" ;
     dcterms:identifier "urn:eic:16TLAMMLGC-----S" ;
-    skos:altLabel "LAMM.LGC" ;
+    skos:altLabel "LAMM_LGC" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Armamar-Lagoaça" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Parque Eólico da Raia",
     "@cim:Names.name": [
         "PERAIA",
-        "Generation Unit",
-        "Generation"
+        "Generation",
+        "Generation Unit"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

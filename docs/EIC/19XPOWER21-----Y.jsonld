@@ -19,11 +19,11 @@
     "@cim:Names.name": [
         "POWER21",
         "PL1080002532",
-        "Energy Supplier",
         "System Operator",
-        "Grid Access Provider",
+        "Energy Supplier",
+        "Metered Data Responsible",
         "Meter Administrator",
-        "Metered Data Responsible"
+        "Grid Access Provider"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

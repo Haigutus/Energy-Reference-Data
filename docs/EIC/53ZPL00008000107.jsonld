@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "PPG InfoEngine SGT",
     "@cim:Names.name": [
         "8X0010_PPGINFOEN",
-        "Virtual Trading Points",
-        "Connection Point"
+        "Connection Point",
+        "Virtual Trading Points"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

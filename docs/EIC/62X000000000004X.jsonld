@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:62X000000000004X",
     "@skos:prefLabel": "E.CONNECT (UKRAINE) LLC",
-    "@skos:altLabel": "E.CON",
+    "@skos:altLabel": "E_CON",
     "@cim:IdentifiedObject.mRID": "62X000000000004X",
     "@cim:IdentifiedObject.name": "E.CONNECT (UKRAINE) LLC",
     "@cim:Names.name": [
-        "E.CON",
+        "E_CON",
         "405984926590",
         "Trade Responsible Party"
     ],

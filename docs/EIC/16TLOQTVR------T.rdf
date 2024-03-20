@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLOQTVR------T</dcterms:identifier>
     <skos:prefLabel>Ourique - Tavira 150</skos:prefLabel>
-    <skos:altLabel>LOQ.TVR</skos:altLabel>
+    <skos:altLabel>LOQ_TVR</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLOQTVR------T</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Ourique - Tavira 150</cim:IdentifiedObject.name>
-    <cim:Names.name>LOQ.TVR</cim:Names.name>
+    <cim:Names.name>LOQ_TVR</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-12-14</cim:DateAndOrTime.date>

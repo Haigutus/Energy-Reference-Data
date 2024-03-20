@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "59Z3572601000000" ;
     cim:IdentifiedObject.name "Grottammare (SGI)" ;
-    cim:Names.name "GROTTAMMARE(SGI)",
+    cim:Names.name "GROTTAMMARE_SGI_",
         "Metering Point" ;
     dcterms:identifier "urn:eic:59Z3572601000000" ;
-    skos:altLabel "GROTTAMMARE(SGI)" ;
+    skos:altLabel "GROTTAMMARE_SGI_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Grottammare (SGI)" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

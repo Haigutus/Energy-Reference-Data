@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V476---9" ;
     cim:IdentifiedObject.name "CEPS_V476 Chodov-Kočín" ;
-    cim:Names.name "CCHD__1*CKOCH_1*",
+    cim:Names.name "CCHD__1_CKOCH_1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V476---9" ;
-    skos:altLabel "CCHD__1*CKOCH_1*" ;
+    skos:altLabel "CCHD__1_CKOCH_1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V476 Chodov-Kočín" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

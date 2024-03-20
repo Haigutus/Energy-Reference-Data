@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "ELPEDISON",
         "EL999717970",
-        "Trade Responsible Party",
         "Balance Responsible Party",
+        "Trade Responsible Party",
         "Producer"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Producer, Trade Responsible Party",

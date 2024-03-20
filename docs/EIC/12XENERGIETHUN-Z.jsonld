@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "ENERGIE_THUN",
         "CH502446",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Strom-, Erdgas & Wasserversorger Der Region Thun",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-25",
     "@schema:vatID": "CH502446",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

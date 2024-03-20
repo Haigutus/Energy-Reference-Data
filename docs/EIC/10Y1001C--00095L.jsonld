@@ -20,8 +20,8 @@
         "CCR-SWE",
         "Scheduling Area",
         "Outage Coordination Region",
-        "Market Area",
-        "Capacity Calculation Region"
+        "Capacity Calculation Region",
+        "Market Area"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

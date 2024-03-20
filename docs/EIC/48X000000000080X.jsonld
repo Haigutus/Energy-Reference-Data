@@ -23,10 +23,10 @@
     "@cim:Names.name": [
         "UNIPER_UK",
         "GB223459906",
+        "Trade Responsible Party",
         "Balance Responsible Party",
-        "Balancing Service Provider",
         "Production Responsible party",
-        "Trade Responsible Party"
+        "Balancing Service Provider"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Production Responsible Party, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

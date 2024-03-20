@@ -12,11 +12,11 @@
     cim:IdentifiedObject.mRID "59XENITS---0000X" ;
     cim:IdentifiedObject.name "ENI TRADING & SHIPPING SPA" ;
     cim:Names.name "Capacity Trader",
-        "ENITRAD&SHIP",
+        "ENITRAD_SHIP",
         "IT09598861004" ;
     dcterms:identifier "urn:eic:59XENITS---0000X" ;
     schema1:vatID "IT09598861004" ;
-    skos:altLabel "ENITRAD&SHIP" ;
+    skos:altLabel "ENITRAD_SHIP" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "ENI TRADING & SHIPPING SPA" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

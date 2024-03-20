@@ -23,11 +23,11 @@
     "@cim:Names.name": [
         "FR_INHOME_LEANRG",
         "FR88809190192",
-        "Market Operator",
         "Balance Responsible Party",
         "Distribution System Operator",
         "System Operator",
-        "Metered Data Aggregator"
+        "Metered Data Aggregator",
+        "Market Operator"
     ],
     "@cim:IdentifiedObject.description": "Fournisseur d'électricité intelligente",
     "@cim:Document.docStatus": "A05",

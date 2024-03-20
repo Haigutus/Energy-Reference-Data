@@ -11,12 +11,12 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "62X1942455441636" ;
     cim:IdentifiedObject.name "TOV \"CHERNIVETSKA OBLASNA ENERGOPOSTACHALNA KOMPANIYA" ;
-    cim:Names.name " TOV_CHOEK",
-        "Consumption Responsible Party",
+    cim:Names.name "Consumption Responsible Party",
+        "TOV_CHOEK",
         "UA421021224125" ;
     dcterms:identifier "urn:eic:62X1942455441636" ;
     schema1:vatID "UA421021224125" ;
-    skos:altLabel " TOV_CHOEK" ;
+    skos:altLabel "TOV_CHOEK" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "TOV \"CHERNIVETSKA OBLASNA ENERGOPOSTACHALNA KOMPANIYA" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLALPDV------F",
     "@skos:prefLabel": "Alto Lindoso-Pedralva",
-    "@skos:altLabel": "LAL.PDV",
+    "@skos:altLabel": "LAL_PDV",
     "@cim:IdentifiedObject.mRID": "16TLALPDV------F",
     "@cim:IdentifiedObject.name": "Alto Lindoso-Pedralva",
     "@cim:Names.name": [
-        "LAL.PDV",
+        "LAL_PDV",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

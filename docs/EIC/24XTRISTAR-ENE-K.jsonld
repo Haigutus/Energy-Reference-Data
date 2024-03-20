@@ -24,9 +24,9 @@
         "TRISTAR",
         "358590320307",
         "Trade Responsible Party",
-        "Balance Responsible Party",
+        "Consumption Responsible Party",
         "Production Responsible party",
-        "Consumption Responsible Party"
+        "Balance Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

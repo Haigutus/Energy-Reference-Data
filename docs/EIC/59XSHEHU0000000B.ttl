@@ -13,10 +13,10 @@
     cim:IdentifiedObject.name "Trading & Trading Shehu Doo Beograd-Savski Venac" ;
     cim:Names.name "11071190968",
         "Capacity Trader",
-        "TRADING&TRADING" ;
+        "TRADING_TRADING" ;
     dcterms:identifier "urn:eic:59XSHEHU0000000B" ;
     schema1:vatID "11071190968" ;
-    skos:altLabel "TRADING&TRADING" ;
+    skos:altLabel "TRADING_TRADING" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Trading & Trading Shehu Doo Beograd-Savski Venac" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

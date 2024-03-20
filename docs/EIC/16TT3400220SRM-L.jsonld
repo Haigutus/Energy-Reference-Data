@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TT3400220SRM-L",
     "@skos:prefLabel": "AT 3 400/220 SRM",
-    "@skos:altLabel": "AT3400/220SRM",
+    "@skos:altLabel": "AT3400_220SRM",
     "@cim:IdentifiedObject.mRID": "16TT3400220SRM-L",
     "@cim:IdentifiedObject.name": "AT 3 400/220 SRM",
     "@cim:Names.name": [
-        "AT3400/220SRM",
+        "AT3400_220SRM",
         "Transformer"
     ],
     "@cim:Document.docStatus": "A05",

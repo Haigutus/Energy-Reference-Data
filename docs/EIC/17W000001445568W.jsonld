@@ -12,22 +12,22 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:17W000001445568W",
-    "@skos:prefLabel": "Parc éolien en mer de Fécamp \"Hautes Falaises\"",
+    "@skos:prefLabel": "Eoliennes Offshore des Hautes Falaises",
     "@skos:altLabel": "FR_HAUTESFALAISE",
     "@skos:definition": {
         "@language": "en",
-        "@value": "Nouveau code EIC"
+        "@value": "Changement de nom + modification du responsible party"
     },
     "@cim:IdentifiedObject.mRID": "17W000001445568W",
-    "@cim:IdentifiedObject.name": "Parc éolien en mer de Fécamp \"Hautes Falaises\"",
+    "@cim:IdentifiedObject.name": "Eoliennes Offshore des Hautes Falaises",
     "@cim:Names.name": [
         "FR_HAUTESFALAISE",
         "Production Unit"
     ],
-    "@cim:IdentifiedObject.description": "Nouveau code EIC",
+    "@cim:IdentifiedObject.description": "Changement de nom + modification du responsible party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2022-11-30",
+    "@cim:DateAndOrTime.date": "2023-10-05",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

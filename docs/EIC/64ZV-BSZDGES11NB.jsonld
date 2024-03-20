@@ -18,8 +18,8 @@
     "@cim:IdentifiedObject.name": "Accounting MP for OHL BSZ-Dnestrovsk_HPP 110 kV",
     "@cim:Names.name": [
         "ZV_BSZ-DNGES",
-        "Virtual Interconnection Points",
-        "Accounting Point"
+        "Accounting Point",
+        "Virtual Interconnection Points"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

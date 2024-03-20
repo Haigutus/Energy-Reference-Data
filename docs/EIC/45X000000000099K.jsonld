@@ -12,10 +12,10 @@
         "@id": "http://energy.referencedata.eu/EIC"
     },
     "@dcterms:identifier": "urn:eic:45X000000000099K",
-    "@skos:prefLabel": "Alipes Energy ApS",
+    "@skos:prefLabel": "Energetick ApS",
     "@skos:altLabel": "ALPSENERGY",
     "@cim:IdentifiedObject.mRID": "45X000000000099K",
-    "@cim:IdentifiedObject.name": "Alipes Energy ApS",
+    "@cim:IdentifiedObject.name": "Energetick ApS",
     "@cim:Names.name": [
         "ALPSENERGY",
         "DK42643785",
@@ -23,7 +23,7 @@
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2021-10-08",
+    "@cim:DateAndOrTime.date": "2023-09-20",
     "@schema:vatID": "DK42643785",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

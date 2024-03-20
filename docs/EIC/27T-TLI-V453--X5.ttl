@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V453--X5" ;
     cim:IdentifiedObject.name "CEPS_V453 Krasíkov-Neznášov" ;
-    cim:Names.name "CKRA__1*CNEZ__1*",
+    cim:Names.name "CKRA__1_CNEZ__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V453--X5" ;
-    skos:altLabel "CKRA__1*CNEZ__1*" ;
+    skos:altLabel "CKRA__1_CNEZ__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V453 Krasíkov-Neznášov" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "LATVENERGO01",
         "LT100003800414",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "Balance Responsible Party, Trade Responsible Party",
     "@cim:Document.docStatus": "A05",

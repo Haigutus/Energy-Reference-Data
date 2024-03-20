@@ -23,9 +23,9 @@
     "@cim:Names.name": [
         "FORENAENERGYSA",
         "EL801262442",
-        "Trade Responsible Party",
+        "Balance Responsible Party",
         "Production Responsible party",
-        "Balance Responsible Party"
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "ENERGY TRADING",
     "@cim:Document.docStatus": "A05",

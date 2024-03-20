@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLCCFE1FTL---J",
     "@skos:prefLabel": "Castelo Branco - Ferro 1 - Fatela 220",
-    "@skos:altLabel": "LCC.FE1/FTL",
+    "@skos:altLabel": "LCC_FE1_FTL",
     "@cim:IdentifiedObject.mRID": "16TLCCFE1FTL---J",
     "@cim:IdentifiedObject.name": "Castelo Branco - Ferro 1 - Fatela 220",
     "@cim:Names.name": [
-        "LCC.FE1/FTL",
+        "LCC_FE1_FTL",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

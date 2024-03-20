@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPT-BT------4" ;
     cim:IdentifiedObject.name "Picote-Bemposta" ;
     cim:Names.name "Internal Line",
-        "LPT.BT" ;
+        "LPT_BT" ;
     dcterms:identifier "urn:eic:16TLPT-BT------4" ;
-    skos:altLabel "LPT.BT" ;
+    skos:altLabel "LPT_BT" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Picote-Bemposta" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

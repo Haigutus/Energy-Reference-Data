@@ -6,13 +6,15 @@
     <dcterms:identifier>urn:eic:48X000000000296A</dcterms:identifier>
     <skos:prefLabel>Conrad Energy Limited</skos:prefLabel>
     <skos:altLabel>CONRADENERGYLTD</skos:altLabel>
+    <skos:definition xml:lang="en">Nicole Griese Nicole.griese@conradenergy.co.uk replaces Graz Macdonald and Jorgia Flaherty as the contact for Conrad Energy Limited. </skos:definition>
     <cim:IdentifiedObject.mRID>48X000000000296A</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Conrad Energy Limited</cim:IdentifiedObject.name>
     <cim:Names.name>CONRADENERGYLTD</cim:Names.name>
     <cim:Names.name>GB281421814</cim:Names.name>
+    <cim:IdentifiedObject.description>Nicole Griese Nicole.griese@conradenergy.co.uk replaces Graz Macdonald and Jorgia Flaherty as the contact for Conrad Energy Limited. </cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2020-12-01</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-12-04</cim:DateAndOrTime.date>
     <cim:Names.name>Producer</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>GB281421814</schema:vatID>

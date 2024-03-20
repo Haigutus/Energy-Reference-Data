@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ecl="urn:entsoe.eu:wgedi:codelists" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <skos:ConceptScheme rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:modified>2023-12-14</dcterms:modified>
+    <dcat:version>91</dcat:version>
+    <skos:prefLabel>StandardTimeframeTypeList</skos:prefLabel>
+    <dcterms:identifier>ET0053</dcterms:identifier>
+    <skos:definition xml:lang="en">The identification of the timeframe.</skos:definition>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A01">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A01</dcterms:identifier>
+    <skos:prefLabel>Real time</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns real time timeframe.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A02">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A02</dcterms:identifier>
+    <skos:prefLabel>Intraday</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns an intra day timeframe. </skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A03">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A03</dcterms:identifier>
+    <skos:prefLabel>Hour-1</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 1 hour ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A04">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A04</dcterms:identifier>
+    <skos:prefLabel>Hour-2</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 2 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A05">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A05</dcterms:identifier>
+    <skos:prefLabel>Hour-3</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 3 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A06">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A06</dcterms:identifier>
+    <skos:prefLabel>Hour-4</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 4 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A07">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A07</dcterms:identifier>
+    <skos:prefLabel>Hour-5</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 5 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A08">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A08</dcterms:identifier>
+    <skos:prefLabel>Hour-6</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 6 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A09">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A09</dcterms:identifier>
+    <skos:prefLabel>Hour-7</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 7 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A10">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A10</dcterms:identifier>
+    <skos:prefLabel>Hour-8</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 8 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A11">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A11</dcterms:identifier>
+    <skos:prefLabel>Hour-9</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 9 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A12">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A12</dcterms:identifier>
+    <skos:prefLabel>Hour-10</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 10 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A13">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A13</dcterms:identifier>
+    <skos:prefLabel>Hour-11</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 11 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A14">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A14</dcterms:identifier>
+    <skos:prefLabel>Hour-12</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 12 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A15">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A15</dcterms:identifier>
+    <skos:prefLabel>Hour-13</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 13 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A16">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A16</dcterms:identifier>
+    <skos:prefLabel>Hour-14</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 14 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A17">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A17</dcterms:identifier>
+    <skos:prefLabel>Hour-15</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 15 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A18">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A18</dcterms:identifier>
+    <skos:prefLabel>Hour-16</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 16 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A19">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A19</dcterms:identifier>
+    <skos:prefLabel>Hour-17</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 17 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A20">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A20</dcterms:identifier>
+    <skos:prefLabel>Hour-18</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 18 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A21">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A21</dcterms:identifier>
+    <skos:prefLabel>Hour-19</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 19 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A22">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A22</dcterms:identifier>
+    <skos:prefLabel>Hour-20</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 20 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A23">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A23</dcterms:identifier>
+    <skos:prefLabel>Hour-21</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 21 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A24">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A24</dcterms:identifier>
+    <skos:prefLabel>Hour-22</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 22 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A25">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A25</dcterms:identifier>
+    <skos:prefLabel>Hour-23</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 23 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A26">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A26</dcterms:identifier>
+    <skos:prefLabel>Hour-24</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 24 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A27">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A27</dcterms:identifier>
+    <skos:prefLabel>Hour-25</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 25 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A28">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A28</dcterms:identifier>
+    <skos:prefLabel>Hour-26</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 26 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A29">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A29</dcterms:identifier>
+    <skos:prefLabel>Hour-27</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 27 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A30">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A30</dcterms:identifier>
+    <skos:prefLabel>Hour-28</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 28 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A31">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A31</dcterms:identifier>
+    <skos:prefLabel>Hour-29</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 29 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A32">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A32</dcterms:identifier>
+    <skos:prefLabel>Hour-30</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 30 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A33">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A33</dcterms:identifier>
+    <skos:prefLabel>Hour-31</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 31 hours ahead for given delivery hour.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A34">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A34</dcterms:identifier>
+    <skos:prefLabel>Day ahead</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns day ahead timeframe.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A35">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A35</dcterms:identifier>
+    <skos:prefLabel>Day-2</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns two days ahead timeframe.
+</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A36">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A36</dcterms:identifier>
+    <skos:prefLabel>Day-3</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns three days ahead timeframe.
+</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A37">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A37</dcterms:identifier>
+    <skos:prefLabel>Day-4</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns four days ahead timeframe.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A38">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A38</dcterms:identifier>
+    <skos:prefLabel>Day-5</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns five days ahead timeframe.
+
+</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A39">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A39</dcterms:identifier>
+    <skos:prefLabel>Day-6</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns six days ahead timeframe.
+
+</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A40">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A40</dcterms:identifier>
+    <skos:prefLabel>Day-7</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns seven days ahead timeframe.
+
+</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A41">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A41</dcterms:identifier>
+    <skos:prefLabel>Week ahead</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns next week ahead timeframe.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A42">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A42</dcterms:identifier>
+    <skos:prefLabel>Week-0</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns current week timeframe.
+</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A43">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A43</dcterms:identifier>
+    <skos:prefLabel>Week+1</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns previous week timeframe.
+</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A44">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A44</dcterms:identifier>
+    <skos:prefLabel>Month ahead</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns month ahead timeframe.
+</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A45">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A45</dcterms:identifier>
+    <skos:prefLabel>Year ahead</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns year ahead timeframe.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://energy.referencedata.eu/StandardTimeframeTypeList/A46">
+    <skos:inScheme rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/StandardTimeframeTypeList"/>
+    <dcterms:identifier>A46</dcterms:identifier>
+    <skos:prefLabel>Year-10</skos:prefLabel>
+    <skos:definition xml:lang="en">The information provided concerns 10 years ahead timeframe.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

@@ -7,15 +7,15 @@
         skos:Concept,
         <urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument> ;
     cim:AttributeInstanceComponent.attribute "International" ;
-    cim:DateAndOrTime.date "2022-11-22" ;
+    cim:DateAndOrTime.date "2023-12-05" ;
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "46WPU0000000152M" ;
-    cim:IdentifiedObject.name "Ersträsk Vindkraft" ;
-    cim:Names.name "ERSTRASK_VINDKRA",
+    cim:IdentifiedObject.name "Ersträsk South (ERS)" ;
+    cim:Names.name "ERSTRASK_SOUTH",
         "Production Unit" ;
     dcterms:identifier "urn:eic:46WPU0000000152M" ;
-    skos:altLabel "ERSTRASK_VINDKRA" ;
+    skos:altLabel "ERSTRASK_SOUTH" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
-    skos:prefLabel "Ersträsk Vindkraft" ;
+    skos:prefLabel "Ersträsk South (ERS)" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .
 

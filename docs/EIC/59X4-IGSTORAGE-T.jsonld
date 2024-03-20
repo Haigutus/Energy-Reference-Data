@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59X4-IGSTORAGE-T",
     "@skos:prefLabel": "IGS S.p.A.",
-    "@skos:altLabel": "IGS_S.P.A.",
+    "@skos:altLabel": "IGS_S_P_A_",
     "@cim:IdentifiedObject.mRID": "59X4-IGSTORAGE-T",
     "@cim:IdentifiedObject.name": "IGS S.p.A.",
     "@cim:Names.name": [
-        "IGS_S.P.A.",
+        "IGS_S_P_A_",
         "IT08751271001",
         "Storage System Operator"
     ],

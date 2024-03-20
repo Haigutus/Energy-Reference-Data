@@ -9,12 +9,12 @@
     <cim:IdentifiedObject.mRID>59XPOLARGASSRL7Z</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>POLARGAS SRL</cim:IdentifiedObject.name>
     <cim:Names.name>POLARGASSRL</cim:Names.name>
-    <cim:Names.name>03283940041</cim:Names.name>
+    <cim:Names.name>IT03283940041</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2023-06-09</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-07-17</cim:DateAndOrTime.date>
     <cim:Names.name>Market Operator</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
-    <schema:vatID>03283940041</schema:vatID>
+    <schema:vatID>IT03283940041</schema:vatID>
   </skos:Concept>
 </rdf:RDF>

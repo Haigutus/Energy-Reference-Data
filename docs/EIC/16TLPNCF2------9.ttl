@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPNCF2------9" ;
     cim:IdentifiedObject.name "Pocinho-Chafariz 2" ;
     cim:Names.name "Internal Line",
-        "LPN.CF2" ;
+        "LPN_CF2" ;
     dcterms:identifier "urn:eic:16TLPNCF2------9" ;
-    skos:altLabel "LPN.CF2" ;
+    skos:altLabel "LPN_CF2" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Pocinho-Chafariz 2" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

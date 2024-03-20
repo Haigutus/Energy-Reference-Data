@@ -12,12 +12,12 @@
     cim:IdentifiedObject.mRID "56X930000009530T" ;
     cim:IdentifiedObject.name "LLC \"INVESTMENT AND ENERGY COMPANY \"M2\"" ;
     cim:Names.name "408888122565",
-        "LLC''IEC''M2''",
+        "LLC_IEC_M2_",
         "Network User",
         "Trade Responsible Party" ;
     dcterms:identifier "urn:eic:56X930000009530T" ;
     schema1:vatID "408888122565" ;
-    skos:altLabel "LLC''IEC''M2''" ;
+    skos:altLabel "LLC_IEC_M2_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "LLC \"INVESTMENT AND ENERGY COMPANY \"M2\"" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

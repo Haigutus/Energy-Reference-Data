@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "44Y-000000002664" ;
     cim:IdentifiedObject.name "Årvas Wind Ab" ;
-    cim:Names.name "FI_ÅRVA01",
+    cim:Names.name "FI_ARVA01",
         "Metering Grid Area" ;
     dcterms:identifier "urn:eic:44Y-000000002664" ;
-    skos:altLabel "FI_ÅRVA01" ;
+    skos:altLabel "FI_ARVA01" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Årvas Wind Ab" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

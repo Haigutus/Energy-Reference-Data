@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLPTLGC1-----9" ;
     cim:IdentifiedObject.name "Picote-Lagoaça 1" ;
     cim:Names.name "Internal Line",
-        "LPT.LGC1" ;
+        "LPT_LGC1" ;
     dcterms:identifier "urn:eic:16TLPTLGC1-----9" ;
-    skos:altLabel "LPT.LGC1" ;
+    skos:altLabel "LPT_LGC1" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Picote-Lagoaça 1" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

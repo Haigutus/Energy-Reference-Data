@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "59Z357281010000C" ;
     cim:IdentifiedObject.name "S. Giorgio M." ;
     cim:Names.name "Metering Point",
-        "S.GIORGIOM." ;
+        "S_GIORGIOM_" ;
     dcterms:identifier "urn:eic:59Z357281010000C" ;
-    skos:altLabel "S.GIORGIOM." ;
+    skos:altLabel "S_GIORGIOM_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "S. Giorgio M." ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

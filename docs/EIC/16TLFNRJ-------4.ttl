@@ -12,9 +12,9 @@
     cim:IdentifiedObject.mRID "16TLFNRJ-------4" ;
     cim:IdentifiedObject.name "Fanhões-Ribatejo" ;
     cim:Names.name "Internal Line",
-        "LFN.RJ" ;
+        "LFN_RJ" ;
     dcterms:identifier "urn:eic:16TLFNRJ-------4" ;
-    skos:altLabel "LFN.RJ" ;
+    skos:altLabel "LFN_RJ" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "Fanhões-Ribatejo" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:45W000000000139B</dcterms:identifier>
     <skos:prefLabel>Solar Park &#197;lb&#230;k</skos:prefLabel>
-    <skos:altLabel>PV_&#197;LB&#198;K</skos:altLabel>
+    <skos:altLabel>PV_ALBAEK</skos:altLabel>
     <cim:IdentifiedObject.mRID>45W000000000139B</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Solar Park &#197;lb&#230;k</cim:IdentifiedObject.name>
-    <cim:Names.name>PV_&#197;LB&#198;K</cim:Names.name>
+    <cim:Names.name>PV_ALBAEK</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-11-24</cim:DateAndOrTime.date>

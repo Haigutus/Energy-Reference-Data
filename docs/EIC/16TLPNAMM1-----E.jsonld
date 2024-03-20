@@ -13,13 +13,13 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPNAMM1-----E",
     "@skos:prefLabel": "Pocinho-Armamar 1",
-    "@skos:altLabel": "LPN.AMM1",
+    "@skos:altLabel": "LPN_AMM1",
     "@cim:IdentifiedObject.mRID": "16TLPNAMM1-----E",
     "@cim:IdentifiedObject.name": "Pocinho-Armamar 1",
     "@cim:Names.name": [
-        "LPN.AMM1",
-        "Tieline",
-        "Internal Line"
+        "LPN_AMM1",
+        "Internal Line",
+        "Tieline"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

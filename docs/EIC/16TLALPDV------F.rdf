@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLALPDV------F</dcterms:identifier>
     <skos:prefLabel>Alto Lindoso-Pedralva</skos:prefLabel>
-    <skos:altLabel>LAL.PDV</skos:altLabel>
+    <skos:altLabel>LAL_PDV</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLALPDV------F</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Alto Lindoso-Pedralva</cim:IdentifiedObject.name>
-    <cim:Names.name>LAL.PDV</cim:Names.name>
+    <cim:Names.name>LAL_PDV</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

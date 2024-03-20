@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:59Z357271100000K",
     "@skos:prefLabel": "Reggente (SGI)",
-    "@skos:altLabel": "REGGENTE(SGI)",
+    "@skos:altLabel": "REGGENTE_SGI_",
     "@cim:IdentifiedObject.mRID": "59Z357271100000K",
     "@cim:IdentifiedObject.name": "Reggente (SGI)",
     "@cim:Names.name": [
-        "REGGENTE(SGI)",
+        "REGGENTE_SGI_",
         "Metering Point"
     ],
     "@cim:Document.docStatus": "A05",

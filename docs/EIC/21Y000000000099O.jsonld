@@ -19,8 +19,8 @@
     "@cim:Names.name": [
         "END_USERS_LV",
         "Local Market Area",
-        "Member State",
-        "Market Area"
+        "Market Area",
+        "Member State"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

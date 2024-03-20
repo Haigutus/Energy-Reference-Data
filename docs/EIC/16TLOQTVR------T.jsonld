@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLOQTVR------T",
     "@skos:prefLabel": "Ourique - Tavira 150",
-    "@skos:altLabel": "LOQ.TVR",
+    "@skos:altLabel": "LOQ_TVR",
     "@cim:IdentifiedObject.mRID": "16TLOQTVR------T",
     "@cim:IdentifiedObject.name": "Ourique - Tavira 150",
     "@cim:Names.name": [
-        "LOQ.TVR",
+        "LOQ_TVR",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

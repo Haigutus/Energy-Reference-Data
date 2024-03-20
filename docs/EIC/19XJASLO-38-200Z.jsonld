@@ -19,14 +19,14 @@
     "@cim:Names.name": [
         "VEOLIA_WSCHOD",
         "PL9220003465",
-        "Metered Data Responsible",
+        "Consumer",
         "System Operator",
         "Producer",
-        "Meter Administrator",
-        "Consumer",
-        "Balance Responsible Party",
         "Grid Access Provider",
-        "Energy Supplier"
+        "Energy Supplier",
+        "Meter Administrator",
+        "Balance Responsible Party",
+        "Metered Data Responsible"
     ],
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",

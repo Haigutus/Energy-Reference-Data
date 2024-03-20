@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLPNCF1------H",
     "@skos:prefLabel": "Pocinho-Chafariz 1",
-    "@skos:altLabel": "LPN.CF1",
+    "@skos:altLabel": "LPN_CF1",
     "@cim:IdentifiedObject.mRID": "16TLPNCF1------H",
     "@cim:IdentifiedObject.name": "Pocinho-Chafariz 1",
     "@cim:Names.name": [
-        "LPN.CF1",
+        "LPN_CF1",
         "Internal Line",
         "Tieline"
     ],

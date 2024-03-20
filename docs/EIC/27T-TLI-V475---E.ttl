@@ -11,10 +11,10 @@
     cim:Document.docStatus "A05" ;
     cim:IdentifiedObject.mRID "27T-TLI-V475---E" ;
     cim:IdentifiedObject.name "CEPS_V475 Kočín-Řeporyje" ;
-    cim:Names.name "CKOCH_1*CREP__1*",
+    cim:Names.name "CKOCH_1_CREP__1_",
         "Internal Line" ;
     dcterms:identifier "urn:eic:27T-TLI-V475---E" ;
-    skos:altLabel "CKOCH_1*CREP__1*" ;
+    skos:altLabel "CKOCH_1_CREP__1_" ;
     skos:inScheme <http://energy.referencedata.eu/EIC> ;
     skos:prefLabel "CEPS_V475 Kočín-Řeporyje" ;
     skos:topConceptOf <http://energy.referencedata.eu/EIC> .

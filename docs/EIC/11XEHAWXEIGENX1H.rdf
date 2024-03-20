@@ -4,17 +4,15 @@
     <skos:topConceptOf rdf:resource="http://energy.referencedata.eu/EIC"/>
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:11XEHAWXEIGENX1H</dcterms:identifier>
-    <skos:prefLabel>Hansewerk Natur GmbH</skos:prefLabel>
+    <skos:prefLabel>HanseWerk Natur GmbH</skos:prefLabel>
     <skos:altLabel>EHAW</skos:altLabel>
-    <skos:definition xml:lang="en">Balance Responsible Party</skos:definition>
     <cim:IdentifiedObject.mRID>11XEHAWXEIGENX1H</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Hansewerk Natur GmbH</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>HanseWerk Natur GmbH</cim:IdentifiedObject.name>
     <cim:Names.name>EHAW</cim:Names.name>
     <cim:Names.name>DE118509805</cim:Names.name>
-    <cim:IdentifiedObject.description>Balance Responsible Party</cim:IdentifiedObject.description>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2014-10-13</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-08-30</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE118509805</schema:vatID>

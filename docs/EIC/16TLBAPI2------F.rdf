@@ -5,10 +5,10 @@
     <rdf:type rdf:resource="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument"/>
     <dcterms:identifier>urn:eic:16TLBAPI2------F</dcterms:identifier>
     <skos:prefLabel>Bodiosa-Paraimo 2</skos:prefLabel>
-    <skos:altLabel>LBA.PI2</skos:altLabel>
+    <skos:altLabel>LBA_PI2</skos:altLabel>
     <cim:IdentifiedObject.mRID>16TLBAPI2------F</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Bodiosa-Paraimo 2</cim:IdentifiedObject.name>
-    <cim:Names.name>LBA.PI2</cim:Names.name>
+    <cim:Names.name>LBA_PI2</cim:Names.name>
     <cim:Document.docStatus>A05</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
     <cim:DateAndOrTime.date>2020-08-04</cim:DateAndOrTime.date>

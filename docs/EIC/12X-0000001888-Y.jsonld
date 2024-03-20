@@ -23,12 +23,12 @@
     "@cim:Names.name": [
         "ESABO-SA-ST",
         "CHE112969411",
-        "Valid EIC Function needed"
+        "Capacity Trader"
     ],
     "@cim:IdentifiedObject.description": "Trade Responsible Party Balance Responsible Party",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2016-10-18",
+    "@cim:DateAndOrTime.date": "2023-10-19",
     "@schema:vatID": "CHE112969411",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",

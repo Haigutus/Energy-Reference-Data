@@ -23,8 +23,8 @@
     "@cim:Names.name": [
         "DYNAGASGR_F",
         "0210605",
-        "Trade Responsible Party",
-        "Balance Responsible Party"
+        "Balance Responsible Party",
+        "Trade Responsible Party"
     ],
     "@cim:IdentifiedObject.description": "ANRE License AC 001528 / 02.03.2021",
     "@cim:Document.docStatus": "A05",

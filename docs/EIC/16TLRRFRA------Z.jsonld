@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:16TLRRFRA------Z",
     "@skos:prefLabel": "Recarei-Feira",
-    "@skos:altLabel": "LRR.FRA",
+    "@skos:altLabel": "LRR_FRA",
     "@cim:IdentifiedObject.mRID": "16TLRRFRA------Z",
     "@cim:IdentifiedObject.name": "Recarei-Feira",
     "@cim:Names.name": [
-        "LRR.FRA",
+        "LRR_FRA",
         "Internal Line"
     ],
     "@cim:Document.docStatus": "A05",

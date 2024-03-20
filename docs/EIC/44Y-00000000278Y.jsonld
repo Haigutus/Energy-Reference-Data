@@ -13,11 +13,11 @@
     },
     "@dcterms:identifier": "urn:eic:44Y-00000000278Y",
     "@skos:prefLabel": "Pällin vesivoimalaitos",
-    "@skos:altLabel": "FI_PÄL000",
+    "@skos:altLabel": "FI_PAL000",
     "@cim:IdentifiedObject.mRID": "44Y-00000000278Y",
     "@cim:IdentifiedObject.name": "Pällin vesivoimalaitos",
     "@cim:Names.name": [
-        "FI_PÄL000",
+        "FI_PAL000",
         "Metering Grid Area"
     ],
     "@cim:Document.docStatus": "A05",

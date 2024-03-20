@@ -10,9 +10,9 @@
     <cim:IdentifiedObject.name>Gas- und Energiegesellschaft mbH (GEG)</cim:IdentifiedObject.name>
     <cim:Names.name>LIONENERGIE</cim:Names.name>
     <cim:Names.name>DE277750275</cim:Names.name>
-    <cim:Document.docStatus>A05</cim:Document.docStatus>
+    <cim:Document.docStatus>A03</cim:Document.docStatus>
     <cim:AttributeInstanceComponent.attribute>International</cim:AttributeInstanceComponent.attribute>
-    <cim:DateAndOrTime.date>2018-03-28</cim:DateAndOrTime.date>
+    <cim:DateAndOrTime.date>2023-09-26</cim:DateAndOrTime.date>
     <cim:Names.name>Balance Responsible Party</cim:Names.name>
     <rdf:type rdf:resource="http://schema.org/Thing"/>
     <schema:vatID>DE277750275</schema:vatID>

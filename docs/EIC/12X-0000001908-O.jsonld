@@ -14,20 +14,17 @@
     "@dcterms:identifier": "urn:eic:12X-0000001908-O",
     "@skos:prefLabel": "Alp-Hydro AG",
     "@skos:altLabel": "ALP-HYDRO-AG-ST",
-    "@skos:definition": {
-        "@language": "en",
-        "@value": "Balance Group"
-    },
     "@cim:IdentifiedObject.mRID": "12X-0000001908-O",
     "@cim:IdentifiedObject.name": "Alp-Hydro AG",
     "@cim:Names.name": [
         "ALP-HYDRO-AG-ST",
-        "Balance Group"
+        "CHE104107502",
+        "Balance Group Responsible Party"
     ],
-    "@cim:IdentifiedObject.description": "Balance Group",
     "@cim:Document.docStatus": "A05",
     "@cim:AttributeInstanceComponent.attribute": "International",
-    "@cim:DateAndOrTime.date": "2014-04-15",
+    "@cim:DateAndOrTime.date": "2023-09-18",
+    "@schema:vatID": "CHE104107502",
     "@context": {
         "@cim": "http://iec.ch/TC57/CIM100#",
         "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

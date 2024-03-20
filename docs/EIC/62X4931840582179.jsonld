@@ -1,0 +1,42 @@
+{
+    "@id": "http://energy.referencedata.eu/EIC/62X4931840582179",
+    "@type": [
+        "@skos:Concept",
+        "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:1#EICCode_MarketDocument",
+        "@schema:Thing"
+    ],
+    "@skos:inScheme": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@skos:topConceptOf": {
+        "@id": "http://energy.referencedata.eu/EIC"
+    },
+    "@dcterms:identifier": "urn:eic:62X4931840582179",
+    "@skos:prefLabel": "LIMITED LIABILITY COMPANY 'ENERGY 365'",
+    "@skos:altLabel": "LLC_ENERGY_365",
+    "@skos:definition": {
+        "@language": "en",
+        "@value": "Metered Data Responsible"
+    },
+    "@cim:IdentifiedObject.mRID": "62X4931840582179",
+    "@cim:IdentifiedObject.name": "LIMITED LIABILITY COMPANY 'ENERGY 365'",
+    "@cim:Names.name": [
+        "LLC_ENERGY_365",
+        "414479526599",
+        "Metered Data Responsible"
+    ],
+    "@cim:IdentifiedObject.description": "Metered Data Responsible",
+    "@cim:Document.docStatus": "A05",
+    "@cim:AttributeInstanceComponent.attribute": "International",
+    "@cim:DateAndOrTime.date": "2023-09-07",
+    "@schema:vatID": "414479526599",
+    "@context": {
+        "@cim": "http://iec.ch/TC57/CIM100#",
+        "@rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "@rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "@dcat": "http://www.w3.org/ns/dcat#",
+        "@skos": "http://www.w3.org/2004/02/skos/core#",
+        "@schema": "http://schema.org/",
+        "@dcterms": "http://purl.org/dc/terms/"
+    }
+}
