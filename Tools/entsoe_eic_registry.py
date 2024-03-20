@@ -86,7 +86,7 @@ def allocated_eic_to_triplet(xml_tree):
         (NAME, "modified", ISSUED),
         # (NAME, "version", VERSION),
         (NAME, "prefLabel", NAME),
-        (NAME, "identifier", ID),
+        (NAME, "identifier", f"urn:uuid:{ID}"),
         #(NAME, "keyword", "EIC"),
         (NAME, "definition", DEFINITION)
     ]
@@ -135,7 +135,7 @@ def allocated_eic_to_triplet(xml_tree):
 def rename_and_append_key(data, original_key, new_key):
     description = pandas.DataFrame(data.query(f"KEY == '{original_key}'"))
     description["KEY"] = new_key
-    data = data.append(description, ignore_index=True)
+    data = pandas.concat([data, description], ignore_index=True)
     return data
 
 
@@ -152,7 +152,7 @@ data = rename_and_append_key(data, "eic:createdDateTime", "modified")
 data = rename_and_append_key(data, "EICCode_MarketDocument.mRID", "identifier")
 # Add urn:uuid: prefix
 data.reset_index(inplace=True, drop=True)
-eic_id = "urn:eic:" + data.merge(data.query("KEY == 'Type' and VALUE == 'Concept'").ID, how="left").query("KEY == 'identifier'").VALUE
+eic_id = "urn:eic:" + data.reset_index().merge(data.query("KEY == 'Type' and VALUE == 'Concept'").ID, how="right").set_index("index").query("KEY == 'identifier'").VALUE
 data.iloc[eic_id.index, data.columns.get_loc("VALUE")] = eic_id
 
 data = rename_and_append_key(data, "EICCode_MarketDocument.lastRequest_DateAndOrTime.date", "start.use")
@@ -185,17 +185,17 @@ for group_name, group_data in data.query("KEY == 'EICCode_MarketDocument.Functio
 
     print(group_name)
 
-    data = data.append([
+    collection_data = [
         {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
         {"ID": group_id, "KEY": "prefLabel", "VALUE": group_name}
-    ], ignore_index=True)
+    ]
 
     # Transform data
     group_data["VALUE"] = group_data["ID"]
     group_data["ID"] = group_id
     group_data["KEY"] = "member"  # skos:member
 
-    data = pandas.concat([data, group_data], ignore_index=True)
+    data = pandas.concat([data, group_data, pandas.DataFrame(collection_data)], ignore_index=True)
 
 # TODO - Add EIC object types, by creating column with 3-rd letter of EIC and then group by, as above
 
@@ -216,20 +216,19 @@ for group_code, group_data in object_types.groupby("EIC_Type"):
     group_name = object_type_names[str(group_code)]['name']
     group_id = f"EIC/ObjectType/{group_name.title().replace(' ', '')}"
 
-    data = data.append([
+    collection_data = [
         {"ID": group_id, "KEY": "Type", "VALUE": "Collection"},
         {"ID": group_id, "KEY": "label", "VALUE": group_name},
-
         # TODO - check if rdfs:domain can be used to link skos:Collection -> skos:Concept that defines type of the Collection
         {"ID": group_id, "KEY": "domain", "VALUE": f"http://energy.referencedata.eu/StandardEicTypeList/{group_code}"},
-    ], ignore_index=True)
+    ]
 
-    # Transform data
+    # Transform group data
     group_data["VALUE"] = group_data["ID"]
     group_data["ID"] = group_id
     group_data["KEY"] = "member"  # skos:member
 
-    data = pandas.concat([data, group_data[["ID", "KEY", "VALUE"]]], ignore_index=True)
+    data = pandas.concat([data, group_data[["ID", "KEY", "VALUE"]], pandas.DataFrame(collection_data)], ignore_index=True)
 
 
 
@@ -256,10 +255,10 @@ namespace_map = {
 #    "eic": "urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0"
 }
 
-# Export triplet to CGMES
+
 data.export_to_cimxml(rdf_map=rdf_map,
-                      namespace_map=namespace_map,
-                      #default_namespace="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0",
-                      export_undefined=False,
-                      export_type="xml_per_instance"
-                      )
+                     namespace_map=namespace_map,
+                     #default_namespace="urn:iec62325.351:tc57wg16:451-n:eicdocument:1:0",
+                     export_undefined=False,
+                     export_type="xml_per_instance"
+                     )
